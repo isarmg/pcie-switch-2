@@ -1,0 +1,20 @@
+{
+  "board_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "baseline_sha256": "de635e94e064d38aac5c28133bc7f5e38eb8d7bfee041a3dba8ee77283be24b8",
+  "native_DRC_geometry_errors": 0,
+  "native_DRC_warnings": 1,
+  "native_parity_findings": 0,
+  "ERC_errors": 43,
+  "ERC_warnings": 212,
+  "all_pad_disconnects": 107,
+  "populated_disconnects": 104,
+  "GND_components": 147,
+  "minimum_cluster_joins": 1788,
+  "minimum_cluster_joins_baseline": 1788,
+  "change_effect": "Eight local F.Cu tracks plus one existing width increase. Global pad cluster topology unchanged; local path geometry improvement only, not new completed supply network.",
+  "all_original_pads_including_NC_and_copper_net_regression_passed": true,
+  "saved_filled_polygons_unchanged": true,
+  "source_hashes_stable": true,
+  "review_status": "accepted_incomplete_geometry_checkpoint",
+  "production_ready": false
+}

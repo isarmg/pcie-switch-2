@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "/workspace/scratch/08a6fde47383/e1s-rebuild-20261018/baseline/Main_12E1S/Main_12E1S.kicad_pcb": "de635e94e064d38aac5c28133bc7f5e38eb8d7bfee041a3dba8ee77283be24b8",
+    "/workspace/scratch/08a6fde47383/pcie-switch-2/outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+    "/workspace/scratch/08a6fde47383/e1s-rebuild-20261018/baseline/Main_12E1S/Main_12E1S.kicad_pro": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+    "/workspace/scratch/08a6fde47383/pcie-switch-2/outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pro": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30"
+  },
+  "all_saved_filled_polygons_equal": true,
+  "added_tracks": 8,
+  "all_added_tracks_F_Cu": true,
+  "old_track_change": [
+    {
+      "uuid": "e4058881-3ae3-4e64-9bcc-30f536af434d",
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "net": "{slash}AUX_12V_PROTECTED"
+    }
+  ],
+  "local_power_clusters": {
+    "U31.17": {
+      "net": "{slash}GND",
+      "pad_shapes": 1879
+    },
+    "U506.17": {
+      "net": "{slash}GND",
+      "pad_shapes": 1879
+    },
+    "C311.2": {
+      "net": "{slash}GND",
+      "pad_shapes": 1879
+    }
+  },
+  "no_existing_track_or_via_deleted": true,
+  "no_existing_copper_reassigned": true,
+  "production_ready": false
+}

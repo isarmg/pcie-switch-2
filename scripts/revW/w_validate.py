@@ -1,3 +1,7 @@
+"""Historical Rev W route-cache verifier, NOT the current sign-off entry point.
+Use w_native_review.py + w_native_audit.py for fresh CLI parity and all-pad results.
+This legacy script still needs archived work/ inputs and Windows dependencies.
+"""
 from pathlib import Path
 import json,csv
 base=Path(__file__).resolve().parents[2]
@@ -41,3 +45,14 @@ for group,rr in sorted(paired.items()):
  lengths.append(dict(pair=group,P_mm=lens['P'],N_mm=lens['N'],geometric_skew_mm=abs(lens['P']-lens['N']),qualified=False))
 (O/'SIGNAL_ROUTE_LENGTHS.json').write_text(json.dumps(lengths,indent=2),encoding='utf-8')
 print(json.dumps(report,indent=2),flush=True)
+
+# Do not omit the differential-layer metric when truncating the Rev U template.
+paired_layers=defaultdict(dict)
+for q in routes['routes']:
+ if q['paired'] and q['net'].endswith(('_P','_N')):
+  paired_layers[q['net'][:-2]][q['net'][-1]]=q['layer_name']
+report['differential_sections_with_P_N_on_different_layers']={key:ls for key,ls in paired_layers.items() if len(set(ls.values()))>1}
+report['different_layer_differential_section_count']=len(report['differential_sections_with_P_N_on_different_layers'])
+report['validation_scope']='Historical selected routes only; use fresh native all-pad and schematic-parity review'
+report['production_ready']=False
+(O/'VALIDATION.json').write_text(json.dumps(report,indent=2),encoding='utf-8')

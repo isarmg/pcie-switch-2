@@ -124,7 +124,18 @@ for ref,target in sorted(newpass,key=lambda t:-(lambda z:(z[2]-z[0])*(z[3]-z[1])
    if all(not ov(zz,o) for _,o in occupied[side]):f.SetPosition(v(x,y));occupied[side].append((ref,box(f)));found=True;break
   if found:break
  assert found,('power passive packing',ref)
-# All active semiconductor pads retain exact original net definitions.
+# ECO: use independent U511 CPU PERST translator; supervisor stays on 3.3V AUX.
+# w_reset_repair.py adds the required 10k pulldown and local 100nF bypass.
+m['U605']['pinmap']['3']='/TBT_PCIE_PERST_3V3_N'
+next(q for q in fs['U605'].Pads() if q.GetNumber()=='3').SetNet(a.net('/TBT_PCIE_PERST_3V3_N'))
+m['U605']['datasheet']='https://www.ti.com/lit/ds/symlink/tps3808.pdf'
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from w_power_models import models as reviewed_power_models
+for rr,pins in reviewed_power_models().items():
+ m[rr]['pin_names']={pn:entry[0] for pn,entry in pins.items()}
+ m[rr]['pin_types']={pn:entry[1] for pn,entry in pins.items()}
+# Run w_reset_repair.py after the historical routing pipeline for C9040/local copper.
+# Existing signal pins and fictional CPU/switch maps are otherwise unchanged.
 for ref,f in fs.items():m[ref].update(x=xy(f.GetPosition())[0],y=xy(f.GetPosition())[1],rotation_deg=f.GetOrientationDegrees(),side='B' if f.GetLayer()==p.B_Cu else 'F')
 for d in b.GetDrawings():
  if isinstance(d,p.PCB_TEXT):d.SetText(d.GetText().replace('REV V','REV W'))

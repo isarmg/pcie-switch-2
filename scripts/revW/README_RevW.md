@@ -1,5 +1,7 @@
 # Rev W：按 CPU / switch 面调整 USB-C
 
+> 2026-10-18 电气复核已更新源文件；下述旧检查数字为历史记录。请先看 [本轮电气复核](../../outputs/PCIe_E1S_96x45_USB12mm_RevW/ELECTRICAL_REVIEW_2026-10-18.md) 和最新原生报告，旧报告不能证明当前整板通过。
+
 板框保持 **96 × 45 mm**。从 CPU / switch 面看，供电 USB-C 中心距左板边 **12 mm**，雷电 USB-C 中心距左板边 **24 mm**，两口中心距 **12 mm**，均位于板高 **22.5 mm**。两口保持竖直安装及贴片固定脚。主要顺序为左侧 USB-C、中部 CPU、右侧 switch。
 
 KiCad 正面坐标与此视图的 X 方向相反：J401=(84,22.5)，J402=(72,22.5)，CPU=(54.5,22.5)，switch=(20,22.5)。CPU 中心距此视图左边 41.5 mm，switch 为 76 mm。
@@ -39,3 +41,15 @@ In3 另外保留给两组 12 V 输入分区，In2/In30 保留给 3.3 V 辅助电
 - [Coilcraft XAL7070](https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal7070/)
 - [Coilcraft XEL4020](https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xel/xel4020/)
 - [Renesas RAA225019 公开短资料](https://www.renesas.com/en/document/sds/raa225019-short-form-datasheet)
+
+## 2026-10-18 可复现工具
+
+- `w_power_models.py`：有依据的电源/复位电气引脚模型。
+- `w_reset_repair.py`：U605 常供 3.3 V、U511 译码输出、R9040 下拉和 C9040 去耦。
+- `w_apply_reset_route.py`：已拒绝的 MR 普通贯孔候选；入口阻止应用，保留失败证据。
+- `w_apply_usb2_pair.py`：严格 UUID 校验后的 USB2 同层几何修正。
+- `w_apply_adjacent_ground.py` / `apply_through_patch.py`：仅六个相邻孔和两个普通贯孔。
+- `w_sync_native_names.py`：从最新官方 sexpr 网表安全同步内部名。
+- `w_native_audit.py` / `w_verify_eco.py` / `w_native_review.py`：全 pad、ECO、原生 ERC/DRC/parity 验证。
+
+新增脚本不替代缺失的 CPU 电源、真实 switch 球位和制造叠层。旧全板流水线仍含历史路径依赖。

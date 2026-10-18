@@ -10714,13 +10714,13 @@
     "pinmap": {
       "1": "/PEX_SYS_RESET_N",
       "2": "/GND",
-      "3": "/CPU_PERST_1V8_N",
+      "3": "/TBT_PCIE_PERST_3V3_N",
       "4": "/PEX_RESET_CT",
       "5": "/PEX_0V9",
       "6": "/P3V3_AUX"
     },
     "height_mm": 1.45,
-    "datasheet": "",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
     "pin_names": {
       "1": "RESET",
       "2": "GND",
@@ -10729,7 +10729,18 @@
       "5": "SENSE",
       "6": "VDD"
     },
-    "dnp": false
+    "dnp": false,
+    "pin_types": {
+      "1": "open_collector",
+      "2": "power_in",
+      "3": "input",
+      "4": "passive",
+      "5": "input",
+      "6": "power_in"
+    },
+    "erc_model_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "erc_model_note": "Manufacturer pin functions; analog bootstrap terminals are passive. Paralleled output terminals have one power_out driver. ERC does not validate startup, power sequencing or current capacity.",
+    "reset_constraint": "U511 isolates only when CPU VCCA <0.1V; brownout, U501 leakage and rail sequencing require validation"
   },
   {
     "ref": "U604",
@@ -11397,7 +11408,8 @@
       "MP1": "unconnected-(J8-PadMP1)",
       "MP2": "unconnected-(J8-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "R138",
@@ -11503,7 +11515,8 @@
       "9": "/S08_PWR_ILM",
       "10": "unconnected-(U18-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R149",
@@ -11581,7 +11594,8 @@
       "9": "/S03_PWR_ILM",
       "10": "unconnected-(U13-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R125",
@@ -11645,7 +11659,8 @@
       "9": "/S05_PWR_ILM",
       "10": "unconnected-(U15-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "C119",
@@ -11743,7 +11758,8 @@
       "MP1": "unconnected-(J9-PadMP1)",
       "MP2": "unconnected-(J9-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "C113",
@@ -11793,7 +11809,8 @@
       "9": "/S06_PWR_ILM",
       "10": "unconnected-(U16-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R136",
@@ -11933,7 +11950,8 @@
       "MP1": "unconnected-(J5-PadMP1)",
       "MP2": "unconnected-(J5-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "R143",
@@ -12045,7 +12063,8 @@
       "MP1": "unconnected-(J6-PadMP1)",
       "MP2": "unconnected-(J6-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "R109",
@@ -12193,7 +12212,8 @@
       "9": "/S04_PWR_ILM",
       "10": "unconnected-(U14-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R150",
@@ -12397,7 +12417,8 @@
       "9": "/S09_PWR_ILM",
       "10": "unconnected-(U19-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "C108",
@@ -12523,7 +12544,8 @@
       "MP1": "unconnected-(J10-PadMP1)",
       "MP2": "unconnected-(J10-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "J1",
@@ -12593,7 +12615,8 @@
       "MP1": "unconnected-(J1-PadMP1)",
       "MP2": "unconnected-(J1-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "U11",
@@ -12615,7 +12638,8 @@
       "9": "/S01_PWR_ILM",
       "10": "unconnected-(U11-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R128",
@@ -12727,7 +12751,8 @@
       "MP1": "unconnected-(J3-PadMP1)",
       "MP2": "unconnected-(J3-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "U20",
@@ -12749,7 +12774,8 @@
       "9": "/S10_PWR_ILM",
       "10": "unconnected-(U20-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "J7",
@@ -12819,7 +12845,8 @@
       "MP1": "unconnected-(J7-PadMP1)",
       "MP2": "unconnected-(J7-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "R111",
@@ -12973,7 +13000,8 @@
       "MP1": "unconnected-(J2-PadMP1)",
       "MP2": "unconnected-(J2-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "R127",
@@ -13023,7 +13051,8 @@
       "9": "/S07_PWR_ILM",
       "10": "unconnected-(U17-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "U12",
@@ -13045,7 +13074,8 @@
       "9": "/S02_PWR_ILM",
       "10": "unconnected-(U12-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R104",
@@ -13171,7 +13201,8 @@
       "MP1": "unconnected-(J4-PadMP1)",
       "MP2": "unconnected-(J4-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "C127",
@@ -13297,7 +13328,8 @@
       "1": "/VBANK_A",
       "2": "/GND"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.littelfuse.com/products/tvs-diodes/surface-mount/smbj"
   },
   {
     "ref": "L31",
@@ -13329,7 +13361,7 @@
     },
     "dnp": false,
     "height_mm": 3.12,
-    "datasheet": "https://www.littelfuse.com/assetdocs/fuse-456-datasheet?assetguid=d86b18f9-14fa-4764-87ff-8aec12e9a89d"
+    "datasheet": "https://www.littelfuse.com/assetdocs/littelfuse_fuse_456_datasheet.pdf?assetguid=d86b18f9-14fa-4764-87ff-8aec12e9a89d"
   },
   {
     "ref": "C311",
@@ -13371,7 +13403,8 @@
       "1": "/VBANK_B",
       "2": "/GND"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.littelfuse.com/products/tvs-diodes/surface-mount/smbj"
   },
   {
     "ref": "R311",
@@ -13401,7 +13434,7 @@
     },
     "dnp": false,
     "height_mm": 3.12,
-    "datasheet": "https://www.littelfuse.com/assetdocs/fuse-456-datasheet?assetguid=d86b18f9-14fa-4764-87ff-8aec12e9a89d"
+    "datasheet": "https://www.littelfuse.com/assetdocs/littelfuse_fuse_456_datasheet.pdf?assetguid=d86b18f9-14fa-4764-87ff-8aec12e9a89d"
   },
   {
     "ref": "U31",
@@ -13430,7 +13463,8 @@
       "16": "/GND",
       "17": "/GND"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps62130.pdf"
   },
   {
     "ref": "U30",
@@ -13452,7 +13486,8 @@
       "9": "/AUX_ILM",
       "10": "unconnected-(U30-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R303",
@@ -19420,9 +19455,26 @@
     "y": 28.8,
     "side": "B",
     "height_mm": 1.1,
-    "datasheet": "",
-    "pin_names": {},
-    "rotation_deg": 0.0
+    "datasheet": "https://www.ti.com/lit/ds/symlink/sn74axc1t45.pdf",
+    "pin_names": {
+      "1": "VCCA",
+      "2": "GND",
+      "3": "A",
+      "4": "B",
+      "5": "DIR",
+      "6": "VCCB"
+    },
+    "rotation_deg": 0.0,
+    "pin_types": {
+      "1": "power_in",
+      "2": "power_in",
+      "3": "input",
+      "4": "output",
+      "5": "input",
+      "6": "power_in"
+    },
+    "erc_model_source": "https://www.ti.com/lit/ds/symlink/sn74axc1t45.pdf",
+    "erc_model_note": "Manufacturer pin functions; analog bootstrap terminals are passive. Paralleled output terminals have one power_out driver. ERC does not validate startup, power sequencing or current capacity."
   },
   {
     "ref": "U512",
@@ -19440,9 +19492,26 @@
     "y": 28.8,
     "side": "B",
     "height_mm": 1.1,
-    "datasheet": "",
-    "pin_names": {},
-    "rotation_deg": 0.0
+    "datasheet": "https://www.ti.com/lit/ds/symlink/sn74axc1t45.pdf",
+    "pin_names": {
+      "1": "VCCA",
+      "2": "GND",
+      "3": "A",
+      "4": "B",
+      "5": "DIR",
+      "6": "VCCB"
+    },
+    "rotation_deg": 0.0,
+    "pin_types": {
+      "1": "power_in",
+      "2": "power_in",
+      "3": "output",
+      "4": "input",
+      "5": "input",
+      "6": "power_in"
+    },
+    "erc_model_source": "https://www.ti.com/lit/ds/symlink/sn74axc1t45.pdf",
+    "erc_model_note": "Manufacturer pin functions; analog bootstrap terminals are passive. Paralleled output terminals have one power_out driver. ERC does not validate startup, power sequencing or current capacity."
   },
   {
     "ref": "C5157",
@@ -20675,7 +20744,8 @@
       "MP1": "unconnected-(J11-PadMP1)",
       "MP2": "unconnected-(J11-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "U21",
@@ -20697,7 +20767,8 @@
       "9": "/S11_PWR_ILM",
       "10": "unconnected-(U21-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R151",
@@ -21017,7 +21088,8 @@
       "MP1": "unconnected-(J12-PadMP1)",
       "MP2": "unconnected-(J12-PadMP2)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.samtec.com/products/hsec6-028-01-s-dv-wt-tr"
   },
   {
     "ref": "U22",
@@ -21039,7 +21111,8 @@
       "9": "/S12_PWR_ILM",
       "10": "unconnected-(U22-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R156",
@@ -21567,8 +21640,95 @@
     "side": "F",
     "height_mm": 1.52,
     "datasheet": "https://www.ti.com/lit/ds/symlink/tps548d22.pdf",
-    "pin_names": {},
-    "rotation_deg": 180.0
+    "pin_names": {
+      "1": "NU",
+      "2": "NU",
+      "3": "NU",
+      "4": "EN_UVLO",
+      "5": "BOOT",
+      "6": "SW",
+      "7": "SW",
+      "8": "SW",
+      "9": "SW",
+      "10": "SW",
+      "11": "SW",
+      "12": "SW",
+      "13": "PGND",
+      "14": "PGND",
+      "15": "PGND",
+      "16": "PGND",
+      "17": "PGND",
+      "18": "PGND",
+      "19": "PGND",
+      "20": "PGND",
+      "21": "PVIN",
+      "22": "PVIN",
+      "23": "PVIN",
+      "24": "PVIN",
+      "25": "PVIN",
+      "26": "PVIN",
+      "27": "NC",
+      "28": "VDD",
+      "29": "DRGND",
+      "30": "AGND",
+      "31": "BP",
+      "32": "FSEL",
+      "33": "VSEL",
+      "34": "MODE",
+      "36": "ILIM",
+      "38": "RSN",
+      "39": "RSP",
+      "40": "VOSNS",
+      "35": "PGOOD",
+      "37": "RESV_TRK",
+      "41": "THERMAL_PAD_PGND"
+    },
+    "rotation_deg": 180.0,
+    "pin_types": {
+      "1": "no_connect",
+      "2": "no_connect",
+      "3": "no_connect",
+      "4": "input",
+      "5": "passive",
+      "6": "power_out",
+      "7": "passive",
+      "8": "passive",
+      "9": "passive",
+      "10": "passive",
+      "11": "passive",
+      "12": "passive",
+      "13": "power_in",
+      "14": "power_in",
+      "15": "power_in",
+      "16": "power_in",
+      "17": "power_in",
+      "18": "power_in",
+      "19": "power_in",
+      "20": "power_in",
+      "21": "power_in",
+      "22": "power_in",
+      "23": "power_in",
+      "24": "power_in",
+      "25": "power_in",
+      "26": "power_in",
+      "27": "no_connect",
+      "28": "power_in",
+      "29": "power_in",
+      "30": "power_in",
+      "31": "power_out",
+      "32": "input",
+      "33": "input",
+      "34": "input",
+      "36": "input",
+      "38": "input",
+      "39": "input",
+      "40": "input",
+      "35": "open_collector",
+      "37": "no_connect",
+      "41": "power_in"
+    },
+    "erc_model_source": "https://www.ti.com/lit/ds/symlink/tps548d22.pdf",
+    "erc_model_note": "Manufacturer pin functions; analog bootstrap terminals are passive. Paralleled output terminals have one power_out driver. ERC does not validate startup, power sequencing or current capacity."
   },
   {
     "ref": "L901",
@@ -21667,8 +21827,57 @@
     "side": "B",
     "height_mm": 4.05,
     "datasheet": "https://www.ti.com/lit/ds/symlink/tpsm63610.pdf",
-    "pin_names": {},
-    "rotation_deg": 0.0
+    "pin_names": {
+      "1": "VIN1",
+      "2": "RBOOT",
+      "3": "CBOOT",
+      "4": "SW",
+      "5": "VLDOIN",
+      "6": "VCC",
+      "7": "AGND",
+      "8": "FB",
+      "9": "VOUT1",
+      "10": "VOUT2",
+      "11": "AGND",
+      "12": "RT",
+      "13": "PG",
+      "14": "SPSP",
+      "15": "SYNC_MODE",
+      "16": "NC",
+      "17": "EN",
+      "18": "VIN2",
+      "19": "PGND",
+      "20": "PGND",
+      "21": "AGND",
+      "22": "AGND"
+    },
+    "rotation_deg": 0.0,
+    "pin_types": {
+      "1": "power_in",
+      "2": "passive",
+      "3": "passive",
+      "4": "output",
+      "5": "power_in",
+      "6": "power_out",
+      "7": "power_in",
+      "8": "input",
+      "9": "power_out",
+      "10": "passive",
+      "11": "power_in",
+      "12": "input",
+      "13": "open_collector",
+      "14": "input",
+      "15": "input",
+      "16": "no_connect",
+      "17": "input",
+      "18": "power_in",
+      "19": "power_in",
+      "20": "power_in",
+      "21": "power_in",
+      "22": "power_in"
+    },
+    "erc_model_source": "https://www.ti.com/lit/ds/symlink/tpsm63610.pdf",
+    "erc_model_note": "Manufacturer pin functions; analog bootstrap terminals are passive. Paralleled output terminals have one power_out driver. ERC does not validate startup, power sequencing or current capacity."
   },
   {
     "ref": "L903",
@@ -22245,5 +22454,42 @@
     "datasheet": "",
     "pin_names": {},
     "rotation_deg": 0.0
+  },
+  {
+    "ref": "C9040",
+    "value": "100nF 6.3V X5R / U605 local bypass",
+    "footprint": "C_0201_DenseCourtyard_1p0x0p4",
+    "x": 4.45,
+    "y": 4.05,
+    "side": "B",
+    "rotation_deg": 270,
+    "pinmap": {
+      "1": "/P3V3_AUX",
+      "2": "/GND"
+    },
+    "height_mm": 0.33,
+    "datasheet": "",
+    "pin_names": {
+      "1": "VDD",
+      "2": "GND"
+    },
+    "dnp": false
+  },
+  {
+    "ref": "R9040",
+    "value": "10k 1% / reset fail-low",
+    "footprint": "R_0201_DenseCourtyard_1p0x0p4",
+    "x": 3.95,
+    "y": 4.05,
+    "side": "B",
+    "rotation_deg": 270,
+    "pinmap": {
+      "1": "/TBT_PCIE_PERST_3V3_N",
+      "2": "/GND"
+    },
+    "height_mm": 0.33,
+    "datasheet": "",
+    "pin_names": {},
+    "dnp": false
   }
 ]

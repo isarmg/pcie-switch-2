@@ -1,0 +1,19 @@
+
+	(via
+		(at 74.6 2.15)
+		(size 0.45)
+		(drill 0.25)
+		(layers "F.Cu" "B.Cu")
+		(net "{slash}GND")
+		(uuid "3e4a2b0b-054b-4344-a82a-a0b449c2b1ba")
+	)
+
+	(via
+		(at 59.7 2.695)
+		(size 0.45)
+		(drill 0.25)
+		(layers "F.Cu" "B.Cu")
+		(net "{slash}GND")
+		(uuid "7eeef76a-b636-4ff8-bb2d-494c3b22e425")
+	)
+

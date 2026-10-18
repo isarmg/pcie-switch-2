@@ -1,0 +1,57 @@
+{
+  "net": "{slash}TBT_PCIE_PERST_3V3_N",
+  "layer": 32,
+  "layer_name": "In15.Cu",
+  "width": 0.1,
+  "via": {
+    "position": [
+      0.5,
+      3.8
+    ],
+    "diameter": 0.45,
+    "drill": 0.25,
+    "type": "through",
+    "layers": [
+      "F.Cu",
+      "B.Cu"
+    ]
+  },
+  "b_cu_points": [
+    [
+      1.325,
+      1.074999
+    ],
+    [
+      0.5,
+      1.074999
+    ],
+    [
+      0.5,
+      3.8
+    ]
+  ],
+  "inner_points": [
+    [
+      0.5,
+      3.8
+    ],
+    [
+      0.5,
+      0.4
+    ],
+    [
+      75,
+      0.4
+    ],
+    [
+      78.95,
+      11.2
+    ],
+    [
+      79,
+      11.25
+    ]
+  ],
+  "verification": "Exact existing track/via copper-distance screen + conservative axis-aligned F/B pad bounds; no formal KiCad DRC yet. Via center-to-existing-hole screen 0.40mm. 0.275mm copper-edge to left board boundary. Manufacturing approval still required. Rechecked nearest existing via center 1.0002mm; clears requested 0.425mm center threshold for 0.25mm drill; existing drilled pad checks should be confirmed in final native DRC.",
+  "length_mm": 93.02038558653884
+}

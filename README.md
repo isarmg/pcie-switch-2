@@ -8,17 +8,19 @@
 - [PCB 源文件](outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb)
 - [STEP 模型](outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.step)
 - [设计说明与限制](outputs/PCIe_E1S_96x45_USB12mm_RevW/README.md)
-- [检查结果](outputs/PCIe_E1S_96x45_USB12mm_RevW/VALIDATION.json)
+- [当前重新审查](outputs/PCIe_E1S_96x45_USB12mm_RevW/rebuild_review_2026-10-18/README.md)
 
 板框 96 × 45 mm，12 个竖直 E1.S 插槽，中心距 8 mm。按 CPU/switch 面看，主要顺序为左侧 USB-C、中部 CPU、右侧 switch；供电 USB-C 中心距左板边 12 mm，雷电口为 24 mm，两口中心距 12 mm，均位于板高 22.5 mm。
 
 CPU 为 Ultra 9 288V / 32 GB 封装内存版本；switch 使用经授权虚构的 PEX90064 球位及 33 × 33 mm 封装。雷电电路仍采用雷电 3 主机口方案。32 层叠层和过孔结构是布局布线假设。
 
-最近的原生检查核对了 523 段已分配信号连线及 99 个已实现电源/控制网络；5768 个已连接引脚与原理图网表匹配。几何 DRC 为 0 项错误、1 项 In23.Cu 铜箔毛刺警告，STEP 通过重新导入验证。完整未接线清单与 ERC 仍有问题，详见原始报告。
+2026-10-18 的本地电气修订、验证结果与剩余问题见 [本轮审查](outputs/PCIe_E1S_96x45_USB12mm_RevW/ELECTRICAL_REVIEW_2026-10-18.md)。新增全焊盘检查发现旧电源报告仅覆盖选定焊盘，不能证明整网连通；历史报告不再作为当前板通过验证的依据。当前仍有未连接网络和跨层差分对，尚未完成电气与高速设计。已有 STEP 和预览图片尚未随本轮电气修改重新导出，只代表历史几何。
 
 **该工程尚不能直接生产或上电。** 真实 CPU 动态供电、完整雷电内部供电和固件尚未完成，自定义供电 USB-C 尚未接入主输入。SSD 的 12 V / 300 W 是设计预算，不能当作已验证的载流额定值。虚构 switch 不能用于真实芯片贴装；PCIe/雷电信号完整性、阻抗、热、时序与制造要求尚未验证。
 
 ![CPU/switch 面接口尺寸](outputs/PCIe_E1S_96x45_USB12mm_RevW/USB_12mm_CPU_Switch_View.png)
+
+当前 E1.S 从保留的第一轮源重新审查，先前未推送的后续本地快照已丢失，不能视为仓库成果。最新源 SHA 和审计入口见 CURRENT_DESIGNS.json。
 
 ## 独立全 M.2 版本
 

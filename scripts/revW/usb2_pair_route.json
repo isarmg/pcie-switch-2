@@ -1,0 +1,148 @@
+{
+  "layer": 56,
+  "width": 0.075,
+  "nets": {
+    "/TBT_USB2_TOP_N": [
+      [
+        73.43,
+        22.25
+      ],
+      [
+        72.7,
+        22.5
+      ],
+      [
+        72.7,
+        24.8
+      ],
+      [
+        75.7,
+        32.15
+      ],
+      [
+        76,
+        32.7
+      ]
+    ],
+    "/TBT_USB2_TOP_P": [
+      [
+        73.43,
+        22.75
+      ],
+      [
+        72.9,
+        23.1
+      ],
+      [
+        72.9,
+        24.7608
+      ],
+      [
+        75.92,
+        32.1598
+      ],
+      [
+        76.25,
+        32.4898
+      ],
+      [
+        76.25,
+        32.95
+      ],
+      [
+        76,
+        33.2
+      ]
+    ]
+  },
+  "original_segments": {
+    "0abd79c5-d6a6-4e6a-bbff-8b26b734ddab": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 20.7 43.6)\n\t\t(end 72.1 43.9)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"0abd79c5-d6a6-4e6a-bbff-8b26b734ddab\")\n\t)"
+    },
+    "1972d81a-9c1e-4250-9ec0-665948b99cca": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 72.4 44.2)\n\t\t(end 74.2 44.2)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"1972d81a-9c1e-4250-9ec0-665948b99cca\")\n\t)"
+    },
+    "1f971c92-075f-45a6-8cb6-d81558d025c4": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 73.43 22.75)\n\t\t(end 73.1 23.1)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"1f971c92-075f-45a6-8cb6-d81558d025c4\")\n\t)"
+    },
+    "2bc4f96b-219b-4fd8-9abf-43d317565883": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 68.8 39.9)\n\t\t(end 68.3 38.7)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"2bc4f96b-219b-4fd8-9abf-43d317565883\")\n\t)"
+    },
+    "2cd1614f-7758-444a-aca4-e211fe7d50cf": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 73.75 32.6)\n\t\t(end 73.75 36.95)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"2cd1614f-7758-444a-aca4-e211fe7d50cf\")\n\t)"
+    },
+    "3767b8c9-e51b-4646-9a61-97a273e4c790": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 74.2 44.2)\n\t\t(end 75.9 37.9)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"3767b8c9-e51b-4646-9a61-97a273e4c790\")\n\t)"
+    },
+    "4429eec0-bd69-46df-9bba-7fc814ae3237": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 21.3 31.7)\n\t\t(end 20.1 31.8)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"4429eec0-bd69-46df-9bba-7fc814ae3237\")\n\t)"
+    },
+    "47b98f82-ddd8-4b17-9e8a-b4b85bd88042": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 69.9 40)\n\t\t(end 68.8 39.9)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"47b98f82-ddd8-4b17-9e8a-b4b85bd88042\")\n\t)"
+    },
+    "57c399be-1907-4c34-8513-a79cef219101": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 72.1 43.9)\n\t\t(end 72.4 44.2)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"57c399be-1907-4c34-8513-a79cef219101\")\n\t)"
+    },
+    "791a1618-37e6-4a51-8b74-058f50fd222b": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 75.6 34.9)\n\t\t(end 76 33.2)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"791a1618-37e6-4a51-8b74-058f50fd222b\")\n\t)"
+    },
+    "8b5fdd3f-2c75-4cbf-b9b1-3f08eac2217e": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 74.05 24.25)\n\t\t(end 73.75 32.6)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"8b5fdd3f-2c75-4cbf-b9b1-3f08eac2217e\")\n\t)"
+    },
+    "8c67c5a2-6071-465a-9d16-d92efb1623ad": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 73.1 23.1)\n\t\t(end 73.1 23.4)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"8c67c5a2-6071-465a-9d16-d92efb1623ad\")\n\t)"
+    },
+    "99f8de06-e6d0-4203-8fae-4baec79a5cea": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 26.1 36.2)\n\t\t(end 21.3 31.7)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"99f8de06-e6d0-4203-8fae-4baec79a5cea\")\n\t)"
+    },
+    "c4d1c0b7-676e-4458-b8e7-7723b9f195a8": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 68.3 38.7)\n\t\t(end 29.7 37.4)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"c4d1c0b7-676e-4458-b8e7-7723b9f195a8\")\n\t)"
+    },
+    "e29f670f-79cc-4736-8115-eee04a979466": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 20.1 31.8)\n\t\t(end 20.7 43.6)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"e29f670f-79cc-4736-8115-eee04a979466\")\n\t)"
+    },
+    "e4776a3a-3452-4a61-baec-5fbaf4804f14": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 73.1 23.4)\n\t\t(end 74.05 24.25)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"e4776a3a-3452-4a61-baec-5fbaf4804f14\")\n\t)"
+    },
+    "e578e729-0102-45a2-9305-746197a96c40": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 75.9 37.9)\n\t\t(end 75.6 34.9)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"e578e729-0102-45a2-9305-746197a96c40\")\n\t)"
+    },
+    "eac7e450-3b7f-4d20-8633-08a4fb719413": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 29.7 37.4)\n\t\t(end 26.1 36.2)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"eac7e450-3b7f-4d20-8633-08a4fb719413\")\n\t)"
+    },
+    "f18dd7cd-3d1a-4093-ac7c-9e98f69f88e1": {
+      "net": "/TBT_USB2_TOP_P",
+      "block": "\t(segment\n\t\t(start 73.75 36.95)\n\t\t(end 69.9 40)\n\t\t(width 0.075)\n\t\t(layer \"In16.Cu\")\n\t\t(net \"/TBT_USB2_TOP_P\")\n\t\t(uuid \"f18dd7cd-3d1a-4093-ac7c-9e98f69f88e1\")\n\t)"
+    },
+    "024fc0d1-b6ce-4a13-8fe0-fc9040d244a0": {
+      "net": "/TBT_USB2_TOP_N",
+      "block": "\t(segment\n\t\t(start 73.1 22.4)\n\t\t(end 73.1 25.1)\n\t\t(width 0.075)\n\t\t(layer \"In27.Cu\")\n\t\t(net \"/TBT_USB2_TOP_N\")\n\t\t(uuid \"024fc0d1-b6ce-4a13-8fe0-fc9040d244a0\")\n\t)"
+    },
+    "2c40b1a8-8300-4985-b529-9fb2c97eb196": {
+      "net": "/TBT_USB2_TOP_N",
+      "block": "\t(segment\n\t\t(start 73.43 22.25)\n\t\t(end 73.1 22.4)\n\t\t(width 0.075)\n\t\t(layer \"In27.Cu\")\n\t\t(net \"/TBT_USB2_TOP_N\")\n\t\t(uuid \"2c40b1a8-8300-4985-b529-9fb2c97eb196\")\n\t)"
+    },
+    "ce7048c4-1df7-49ee-9a52-74006f24cb4d": {
+      "net": "/TBT_USB2_TOP_N",
+      "block": "\t(segment\n\t\t(start 73.1 25.1)\n\t\t(end 76 32.7)\n\t\t(width 0.075)\n\t\t(layer \"In27.Cu\")\n\t\t(net \"/TBT_USB2_TOP_N\")\n\t\t(uuid \"ce7048c4-1df7-49ee-9a52-74006f24cb4d\")\n\t)"
+    }
+  }
+}

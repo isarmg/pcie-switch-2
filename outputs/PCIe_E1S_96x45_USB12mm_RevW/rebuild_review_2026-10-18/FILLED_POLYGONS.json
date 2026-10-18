@@ -1,0 +1,7 @@
+{
+  "baseline_sha256": "de635e94e064d38aac5c28133bc7f5e38eb8d7bfee041a3dba8ee77283be24b8",
+  "candidate_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "all_filled_polygon_geometry_equal": true,
+  "changed_layers": [],
+  "method": "Every serialized filled_polygon normalized whitespace; includes every filled copper layer, without sampling."
+}

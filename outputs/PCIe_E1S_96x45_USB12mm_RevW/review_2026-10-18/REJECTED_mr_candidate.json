@@ -1,0 +1,8 @@
+{
+  "applied_to_final_board": false,
+  "candidate_tracks_removed": 6,
+  "candidate_through_vias_removed": 1,
+  "reason": "Four 0.4mm board-edge clearance errors; relocating via conflicted with existing copper. Local U605/R9040 MR copper retained but long branch to U511 remains unrouted.",
+  "next_step": "Reposition supervisor/local power components or reroute nearby clocks/slot power before retrying ordinary through-via escape.",
+  "production_ready": false
+}

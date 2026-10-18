@@ -28,12 +28,17 @@
   "primary_E1S_e1s_origin_y_mm": 26.54,
   "primary_E1S_nominal_ssd_side_to_bottom_gap_mm": 7.25,
   "primary_E1S_input_V": 12,
-  "primary_E1S_protected_SSD_and_aux_power_copper_connected": true,
   "primary_E1S_whole_board_power_complete": false,
   "primary_E1S_power_notes": "outputs/PCIe_E1S_96x45_USB12mm_RevW/README.md",
   "primary_E1S_usb_face": "CPU/switch",
   "primary_E1S_power_usb_distance_from_left_mm": 12,
   "primary_E1S_thunderbolt_usb_distance_from_left_mm": 24,
   "primary_E1S_usb_center_pitch_mm": 12,
-  "primary_E1S_reference_fake_switch_power_copper_connected": true
+  "primary_E1S_connectivity_status": "incomplete; rebuilt from retained first-round source after unpublished later snapshot loss",
+  "primary_E1S_review": "outputs/PCIe_E1S_96x45_USB12mm_RevW/rebuild_review_2026-10-18/README.md",
+  "primary_E1S_all_pad_audit": "outputs/PCIe_E1S_96x45_USB12mm_RevW/rebuild_review_2026-10-18/LocalPower_NATIVE.json",
+  "primary_E1S_step_and_preview_status": "historical; not regenerated after 2026-10-18 electrical ECO",
+  "primary_E1S_pcb_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "primary_E1S_disconnected_non_NC_nets": 107,
+  "primary_E1S_native_review": "outputs/PCIe_E1S_96x45_USB12mm_RevW/rebuild_review_2026-10-18/independent_first/REVIEW.json"
 }

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+  "translator_source": "https://www.ti.com/lit/ds/symlink/sn74axc1t45.pdf",
+  "changed_MR": {
+    "ref": "U605",
+    "pin": "3",
+    "old": "/CPU_PERST_1V8_N",
+    "new": "/TBT_PCIE_PERST_3V3_N"
+  },
+  "supervisor_VDD": "/P3V3_AUX",
+  "local_bypass": "C9040",
+  "fail_low_resistor": "R9040 10k 1%",
+  "old_MR_VIH_min_V": 2.31,
+  "translated_high_nominal_V": 3.3,
+  "reset_sequence_qualified": false,
+  "whole_board_power_complete": false,
+  "notes": [
+    "U511 is an independent CPU PERST translator; no TB state machine is in the signal path.",
+    "10k pulldown opposes supervisor internal >=70k pullup when U511 is isolated.",
+    "AXC guaranteed isolation applies only below VCCA=0.1V. Brownout transition and U501 L4 leakage are not validated.",
+    "U605 stays on auxiliary 3.3V; auxiliary/PEX rail power sequence still requires validation.",
+    "SENSE remains PEX_0V9; RESET pullup remains PEX_1V8; CT remains 47nF.",
+    "Earlier intermediate CPU-domain VDD experiment is superseded; no final claim relies on it."
+  ],
+  "MR_long_branch_routed": false,
+  "reset_functional_completion": false,
+  "rejected_route_reason": "Ordinary through-via candidate violated 0.4mm board edge clearance. Nearby relocation conflicted with existing copper. Candidate removed; local pull-down remains."
+}

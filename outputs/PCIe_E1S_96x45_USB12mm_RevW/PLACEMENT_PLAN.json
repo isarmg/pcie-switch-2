@@ -3039,6 +3039,14 @@
     "side": "B",
     "rotation_deg": 0.0
   },
+  "R9040": {
+    "position_mm": [
+      3.95,
+      4.05
+    ],
+    "side": "B",
+    "rotation_deg": -90.0
+  },
   "TP711": {
     "position_mm": [
       72.125,
@@ -4270,6 +4278,14 @@
     ],
     "side": "B",
     "rotation_deg": 0.0
+  },
+  "C9040": {
+    "position_mm": [
+      4.45,
+      4.05
+    ],
+    "side": "B",
+    "rotation_deg": -90.0
   },
   "TP712": {
     "position_mm": [

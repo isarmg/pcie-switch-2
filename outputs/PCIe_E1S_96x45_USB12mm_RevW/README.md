@@ -1,4 +1,10 @@
+# 当前重审状态
+
+[最新重审记录](rebuild_review_2026-10-18/README.md)：从保留的第一轮源重新构建；现有107个非NC断网，尚不可生产或上电。后续历史本地成果未发布且快照已丢失，不在本次源中。以下为保留的第一轮设计背景与限制。
+
 # Rev W：按 CPU / switch 面调整 USB-C
+
+> 2026-10-18 电气复核已更新源文件；下述旧检查数字为历史记录。请先看 [本轮电气复核](ELECTRICAL_REVIEW_2026-10-18.md) 和 `review_2026-10-18/final_native/` 的最新原生报告，旧报告不能证明当前整板通过。STEP/图片未按本轮局部电路 ECO 重导，只能作历史机械参考。
 
 板框保持 **96 × 45 mm**。从 CPU / switch 面看，供电 USB-C 中心距左板边 **12 mm**，雷电 USB-C 中心距左板边 **24 mm**，两口中心距 **12 mm**，均位于板高 **22.5 mm**。两口保持竖直安装及贴片固定脚。主要顺序为左侧 USB-C、中部 CPU、右侧 switch。
 
@@ -30,7 +36,28 @@ In3 另外保留给两组 12 V 输入分区，In2/In30 保留给 3.3 V 辅助电
 
 雷电 USB-C 电路沿用用户先前选择的 **雷电 3 主机口**（Alpine Ridge DP + TPS65982），本次没有升级到雷电 4。控制器其余内部电源分配、固件、NVM 和兼容性仍待核实。不得因位置要求中使用“雷电4”称呼便认定已有 TB4 功能。
 
-`VALIDATION.json`、`USB_POSITION_VERIFICATION.json` 和 `POWER_CONNECTIVITY.json` 记录本次真实检查结果。已实现网络的连通和 STEP 导出检查通过。KiCad 几何 DRC 无错误，仍有一项 In23.Cu 铜箔毛刺警告；原始报告保留在 `Main_12E1S/DRC.json`。未接线清单仍包含 CPU 等未完成电路，报告可能达到工具的显示上限。以上检查不能替代完整电气设计、PCIe 信号完整性、热设计、电源完整性或制造审核。该工程是布局及布线草案，尚不能直接生产、上电或认定能启动。
+`VALIDATION.json`、`POWER_CONNECTIVITY.json`、`USB_POSITION_VERIFICATION.json`、`Main_12E1S/DRC.json` 和 STEP 检查均为历史记录，不能证明当前文件已通过。旧供电报告只检查选定 pad_stitches，重复记录和遗漏地脚使“已实现网络连通通过”的旧结论失效。STEP/截图未按本轮 ECO 重导，不代表当前局部电路和铜箔。
+
+## 2026-10-18 本轮结果
+
+- 电气符号补充有资料依据的电源/复位类型；原生 sexpr 网表同步内部网名和自动 NC 名，逐网验证网类。
+- U605 保持 3.3 V 辅助供电，MR 改接 U511 的 3.3 V CPU PERST 译码输出，新增 C9040 100 nF 和 R9040 10 kΩ 下拉。局部去耦/下拉已有铜线；MR 至 U511 长支线仍未布通，普通贯孔候选因板边/铜间距冲突撤回，不能称复位电路功能完成。
+- USB2 TOP P/N 改为同 In27 短路径，长度差 137.808→0.068814 mm；参考地仍有割裂，SI 未完成。
+- 增加 6 个相邻层地孔和 2 个普通贯孔；8 个目标 pad 真接主 GND 簇，GND 156→147 簇。98 个深盲孔候选未并入。
+- 全 pad 审计覆盖 6624 个 pad 形状/6558 个唯一 ref.pin，仍有 107 个断裂网络、141 个 P/N 跨层段。499 条原生未连报告可能被工具截断，不能当完整总数。
+
+本轮原生 ERC、完整 track DRC、schematic parity 和源 SHA-256 见 [final_native/REVIEW.json](review_2026-10-18/final_native/REVIEW.json)，全 pad 真连通见 [NATIVE_ALL_PAD_AUDIT.json](NATIVE_ALL_PAD_AUDIT.json)，局部验证见 [ECO_VERIFICATION.json](ECO_VERIFICATION.json)。完整依据、已拒绝方案和剩余阻塞见 [电气复核](ELECTRICAL_REVIEW_2026-10-18.md)。真实 switch 球位、CPU 动态电源、复位重布局、厂商确认叠层/孔工艺、高速 SI 和热/电源完整性仍是必要前提。工程不能生产或上电。
+
+在仓库根目录使用 KiCad 10 Python 运行：
+
+```text
+<KiCad10-python> scripts/revW/w_native_audit.py
+<KiCad10-python> scripts/revW/w_verify_eco.py
+python scripts/revW/w_native_review.py --kicad-cli "<KiCad10 CLI命令>" --output-dir <全新目录> --pad-audit outputs/PCIe_E1S_96x45_USB12mm_RevW/NATIVE_ALL_PAD_AUDIT.json
+```
+
+验收入口保留真实失败：原生发现导致退出 2，工具/源文件变化/审计过期导致退出 3；不能以 0 个几何错误代替 ERC、全网连通或制造合格。
+
 
 供电器件资料：
 
@@ -39,3 +66,5 @@ In3 另外保留给两组 12 V 输入分区，In2/In30 保留给 3.3 V 辅助电
 - [Coilcraft XAL7070](https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal7070/)
 - [Coilcraft XEL4020](https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xel/xel4020/)
 - [Renesas RAA225019 公开短资料](https://www.renesas.com/en/document/sds/raa225019-short-form-datasheet)
+
+复位链额外断点：最终全 pad 审计中，`PEX_SYS_RESET_N` 有 3 个物理簇、`PEX_RESET_CT` 有 2 个物理簇、`TBT_PCIE_PERST_3V3_N` 有 2 个物理簇。除了新增 MR 长支线待布，原有 RESET 输出和 CT 定时路径也未闭合，需整条复位链重新布线验证。
