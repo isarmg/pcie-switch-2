@@ -1,0 +1,7 @@
+{
+  "old_sha256": "baa1534ffd07418b822cbd0de63082236505dd4c98a88a610e50a438e4668424",
+  "fresh_sha256": "16f3622dc534b25da72c8e74465fc95ee305bab02fe50c04397b1efeb284f3a0",
+  "unchanged_logical_ref_pin_nodes": 6558,
+  "all_values_footprints_dnp_match_metadata": true,
+  "source_of_truth": "Fresh official export of native hierarchical schematic; historical cached model types and DNP properties refreshed."
+}

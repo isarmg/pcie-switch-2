@@ -1,0 +1,72 @@
+[
+  {
+    "uuid": "558e3fcd-4e4e-560c-b7ba-face05eb97bb",
+    "sha256": "cdbccdabf828cd64f242df298c3b366d15541969b644df8ef24b71bcc92eb6a2",
+    "block": "\t(segment\n\t\t(start 3.95 4.37)\n\t\t(end 4.45 4.29)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"558e3fcd-4e4e-560c-b7ba-face05eb97bb\")\n\t)"
+  },
+  {
+    "uuid": "12515bf9-4e0e-4e89-a4cb-54fd61eb83c7",
+    "sha256": "170de21e7e7a55f8c27f58096e238b6acc9609407cf74402b2db641fb3e7bdd2",
+    "block": "\t(via blind\n\t\t(at 4.2 4.29)\n\t\t(size 0.2)\n\t\t(drill 0.1)\n\t\t(layers \"In28.Cu\" \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"12515bf9-4e0e-4e89-a4cb-54fd61eb83c7\")\n\t)"
+  },
+  {
+    "uuid": "94e3bb4e-a3e3-4e78-8046-be686b386863",
+    "sha256": "9d20ec3ba784dd795d5637791dc23818f562c2d8044f958c5a087d35c268ac41",
+    "block": "\t(via blind\n\t\t(at 0.9 2.1)\n\t\t(size 0.2)\n\t\t(drill 0.1)\n\t\t(layers \"In28.Cu\" \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"94e3bb4e-a3e3-4e78-8046-be686b386863\")\n\t)"
+  },
+  {
+    "uuid": "0b27a7e7-4280-59b8-9c12-67a373bafdf5",
+    "sha256": "230ce05299d91066575fae712e39c9ee9f6ff722b0ae2486bf4fda95f05742c8",
+    "block": "\t(segment\n\t\t(start 4.45 3.5)\n\t\t(end 4.45 3.81)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}P3V3_AUX\")\n\t\t(uuid \"0b27a7e7-4280-59b8-9c12-67a373bafdf5\")\n\t)"
+  },
+  {
+    "uuid": "85a0cf44-7d2b-511a-ad0f-bf3fe52aa29c",
+    "sha256": "fa25e87b2a5bc0a8cc31315f3ad8b099b5ba5c92630459393a9592d0c809d8cd",
+    "block": "\t(segment\n\t\t(start 3.925 2.974995)\n\t\t(end 4.45 3.5)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}P3V3_AUX\")\n\t\t(uuid \"85a0cf44-7d2b-511a-ad0f-bf3fe52aa29c\")\n\t)"
+  },
+  {
+    "uuid": "0e1d958d-4fba-4926-accb-5f9e2c108ace",
+    "sha256": "7d1c2a9ee8d673ecc284b0e6e3ef91e66737faa42bee3e31b95b87a19fca8026",
+    "block": "\t(via blind\n\t\t(at 3.925 2.974995)\n\t\t(size 0.2)\n\t\t(drill 0.1)\n\t\t(layers \"In30.Cu\" \"B.Cu\")\n\t\t(net \"{slash}P3V3_AUX\")\n\t\t(uuid \"0e1d958d-4fba-4926-accb-5f9e2c108ace\")\n\t)"
+  },
+  {
+    "uuid": "c64fd924-29ea-4ae1-8997-def23a7ce67d",
+    "sha256": "540e771cac5c88213ab845648794bef056b7c650297240f03e6b4daaf9a1e2fd",
+    "block": "\t(via blind\n\t\t(at 3.925 2.024997)\n\t\t(size 0.2)\n\t\t(drill 0.1)\n\t\t(layers \"In19.Cu\" \"B.Cu\")\n\t\t(net \"{slash}PEX_0V9\")\n\t\t(uuid \"c64fd924-29ea-4ae1-8997-def23a7ce67d\")\n\t)"
+  },
+  {
+    "uuid": "dabd15d5-19fc-4eb3-8d4d-8188251c947a",
+    "sha256": "9026c4864afb32f477791e7643b8bed43b64dbe38072f667b1ba13f8de7c4dd3",
+    "block": "\t(via blind\n\t\t(at 58.264999 3.395)\n\t\t(size 0.2)\n\t\t(drill 0.1)\n\t\t(layers \"In4.Cu\" \"B.Cu\")\n\t\t(net \"{slash}PEX_1V8\")\n\t\t(uuid \"dabd15d5-19fc-4eb3-8d4d-8188251c947a\")\n\t)"
+  },
+  {
+    "uuid": "04925d10-db53-5b68-828b-bd3976dc86c2",
+    "sha256": "9d05f4e24e083e3075478fd860da7e098cf2a1667d5ae9df5dfa65a835a2c879",
+    "block": "\t(segment\n\t\t(start 1.325 1.074999)\n\t\t(end 2.4 1.074999)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}TBT_PCIE_PERST_3V3_N\")\n\t\t(uuid \"04925d10-db53-5b68-828b-bd3976dc86c2\")\n\t)"
+  },
+  {
+    "uuid": "0e9cff67-7751-5062-873f-5cb95edd1477",
+    "sha256": "5f4b7569c1feca0f6213f42e1e5d16a7750ba0f19b1a1e96426c650ae6999594",
+    "block": "\t(segment\n\t\t(start 2.6 3.35)\n\t\t(end 2.85 3.6)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}TBT_PCIE_PERST_3V3_N\")\n\t\t(uuid \"0e9cff67-7751-5062-873f-5cb95edd1477\")\n\t)"
+  },
+  {
+    "uuid": "118a997f-3b47-501c-88b7-1c2f6898a48a",
+    "sha256": "c51f915431e78becec95af0f7fceee19efc7404bd1d798a412c536a93e804e92",
+    "block": "\t(segment\n\t\t(start 2.85 3.6)\n\t\t(end 3.95 3.6)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}TBT_PCIE_PERST_3V3_N\")\n\t\t(uuid \"118a997f-3b47-501c-88b7-1c2f6898a48a\")\n\t)"
+  },
+  {
+    "uuid": "2f893d48-60ed-5a05-b86a-bf14ce88afef",
+    "sha256": "6a56a56bf9adf60b7f3f3933a2c6610b5dd874f4ec2d18017eb17c6148c42799",
+    "block": "\t(segment\n\t\t(start 2.6 1.274999)\n\t\t(end 2.6 3.35)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}TBT_PCIE_PERST_3V3_N\")\n\t\t(uuid \"2f893d48-60ed-5a05-b86a-bf14ce88afef\")\n\t)"
+  },
+  {
+    "uuid": "6f857f11-ec2a-5af4-aea0-207ea38e2feb",
+    "sha256": "2a6c772beff98c2810716715293e2f9a1adcc0d7aa12f8d10f619557c471237d",
+    "block": "\t(segment\n\t\t(start 2.4 1.074999)\n\t\t(end 2.6 1.274999)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}TBT_PCIE_PERST_3V3_N\")\n\t\t(uuid \"6f857f11-ec2a-5af4-aea0-207ea38e2feb\")\n\t)"
+  },
+  {
+    "uuid": "cef573a2-1413-5705-bee0-33db2773fa57",
+    "sha256": "62f18e516f15ea9f35c3fc9574ba0c3b4df357d58bdcb5dcd2c1f1d3b2ab54e3",
+    "block": "\t(segment\n\t\t(start 3.95 3.6)\n\t\t(end 3.95 3.73)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}TBT_PCIE_PERST_3V3_N\")\n\t\t(uuid \"cef573a2-1413-5705-bee0-33db2773fa57\")\n\t)"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "uuid": "558e3fcd-4e4e-560c-b7ba-face05eb97bb",
+    "net": "{slash}GND",
+    "at": [
+      3.95,
+      4.37
+    ],
+    "direct_pads": [
+      "R9040.2",
+      "C9040.2"
+    ],
+    "direct_copper": [
+      "12515bf9-4e0e-4e89-a4cb-54fd61eb83c7"
+    ]
+  },
+  {
+    "uuid": "12515bf9-4e0e-4e89-a4cb-54fd61eb83c7",
+    "net": "{slash}GND",
+    "at": [
+      4.2,
+      4.29
+    ],
+    "direct_pads": [
+      "R9040.2"
+    ],
+    "direct_copper": [
+      "558e3fcd-4e4e-560c-b7ba-face05eb97bb"
+    ]
+  },
+  {
+    "uuid": "94e3bb4e-a3e3-4e78-8046-be686b386863",
+    "net": "{slash}GND",
+    "at": [
+      0.9,
+      2.1
+    ],
+    "direct_pads": [
+      "U605.2"
+    ],
+    "direct_copper": []
+  },
+  {
+    "uuid": "0b27a7e7-4280-59b8-9c12-67a373bafdf5",
+    "net": "{slash}P3V3_AUX",
+    "at": [
+      4.45,
+      3.5
+    ],
+    "direct_pads": [
+      "C9040.1"
+    ],
+    "direct_copper": [
+      "85a0cf44-7d2b-511a-ad0f-bf3fe52aa29c"
+    ]
+  },
+  {
+    "uuid": "85a0cf44-7d2b-511a-ad0f-bf3fe52aa29c",
+    "net": "{slash}P3V3_AUX",
+    "at": [
+      3.925,
+      2.974995
+    ],
+    "direct_pads": [
+      "U605.6"
+    ],
+    "direct_copper": [
+      "0b27a7e7-4280-59b8-9c12-67a373bafdf5",
+      "0e1d958d-4fba-4926-accb-5f9e2c108ace"
+    ]
+  },
+  {
+    "uuid": "0e1d958d-4fba-4926-accb-5f9e2c108ace",
+    "net": "{slash}P3V3_AUX",
+    "at": [
+      3.925,
+      2.974995
+    ],
+    "direct_pads": [
+      "U605.6"
+    ],
+    "direct_copper": [
+      "85a0cf44-7d2b-511a-ad0f-bf3fe52aa29c"
+    ]
+  },
+  {
+    "uuid": "c64fd924-29ea-4ae1-8997-def23a7ce67d",
+    "net": "{slash}PEX_0V9",
+    "at": [
+      3.925,
+      2.024997
+    ],
+    "direct_pads": [
+      "U605.5"
+    ],
+    "direct_copper": []
+  },
+  {
+    "uuid": "dabd15d5-19fc-4eb3-8d4d-8188251c947a",
+    "net": "{slash}PEX_1V8",
+    "at": [
+      58.264999,
+      3.395
+    ],
+    "direct_pads": [
+      "R724.2"
+    ],
+    "direct_copper": []
+  },
+  {
+    "uuid": "04925d10-db53-5b68-828b-bd3976dc86c2",
+    "net": "{slash}TBT_PCIE_PERST_3V3_N",
+    "at": [
+      1.325,
+      1.074999
+    ],
+    "direct_pads": [
+      "U605.3"
+    ],
+    "direct_copper": [
+      "6f857f11-ec2a-5af4-aea0-207ea38e2feb"
+    ]
+  },
+  {
+    "uuid": "0e9cff67-7751-5062-873f-5cb95edd1477",
+    "net": "{slash}TBT_PCIE_PERST_3V3_N",
+    "at": [
+      2.6,
+      3.35
+    ],
+    "direct_pads": [],
+    "direct_copper": [
+      "118a997f-3b47-501c-88b7-1c2f6898a48a",
+      "2f893d48-60ed-5a05-b86a-bf14ce88afef"
+    ]
+  },
+  {
+    "uuid": "118a997f-3b47-501c-88b7-1c2f6898a48a",
+    "net": "{slash}TBT_PCIE_PERST_3V3_N",
+    "at": [
+      2.85,
+      3.6
+    ],
+    "direct_pads": [
+      "R9040.1"
+    ],
+    "direct_copper": [
+      "0e9cff67-7751-5062-873f-5cb95edd1477",
+      "cef573a2-1413-5705-bee0-33db2773fa57"
+    ]
+  },
+  {
+    "uuid": "2f893d48-60ed-5a05-b86a-bf14ce88afef",
+    "net": "{slash}TBT_PCIE_PERST_3V3_N",
+    "at": [
+      2.6,
+      1.274999
+    ],
+    "direct_pads": [],
+    "direct_copper": [
+      "0e9cff67-7751-5062-873f-5cb95edd1477",
+      "6f857f11-ec2a-5af4-aea0-207ea38e2feb"
+    ]
+  },
+  {
+    "uuid": "6f857f11-ec2a-5af4-aea0-207ea38e2feb",
+    "net": "{slash}TBT_PCIE_PERST_3V3_N",
+    "at": [
+      2.4,
+      1.074999
+    ],
+    "direct_pads": [],
+    "direct_copper": [
+      "04925d10-db53-5b68-828b-bd3976dc86c2",
+      "2f893d48-60ed-5a05-b86a-bf14ce88afef"
+    ]
+  },
+  {
+    "uuid": "cef573a2-1413-5705-bee0-33db2773fa57",
+    "net": "{slash}TBT_PCIE_PERST_3V3_N",
+    "at": [
+      3.95,
+      3.6
+    ],
+    "direct_pads": [
+      "R9040.1"
+    ],
+    "direct_copper": [
+      "118a997f-3b47-501c-88b7-1c2f6898a48a"
+    ]
+  }
+]

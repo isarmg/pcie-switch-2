@@ -1,0 +1,14 @@
+{
+  "baseline_board_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "candidate_board_sha256": "e6111ef883439a0af4d26bb084e8eed1dee41bd133a368d9d5c51e8de929b22e",
+  "baseline_audit_sha256": "d92572a2154a5ff2fa62f92fb15cec941c0d8265338ae82dd4691c0bbf06bfd4",
+  "candidate_audit_sha256": "e40ef32d0dccd8e59c43965789860923f02f9d9afd8df3b24d79d04988aa72f8",
+  "project_unchanged": true,
+  "all_original_numbered_pads_including_NC_compared": true,
+  "missing_old_pads": [],
+  "old_pad_net_or_identity_changes": [],
+  "old_clusters_split": [],
+  "surviving_copper_net_changes": [],
+  "passed": true,
+  "production_ready": false
+}

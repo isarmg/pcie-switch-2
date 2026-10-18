@@ -1,0 +1,71 @@
+{
+  "source_sha256": "e6111ef883439a0af4d26bb084e8eed1dee41bd133a368d9d5c51e8de929b22e",
+  "candidate_sha256": "37d24bd91f1982aeb55a863d87f4933ac2ffc87d6b08e23007e279a11f49d31f",
+  "project_sha256": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "footprint_replacements": [
+    {
+      "ref": "R725",
+      "uuid": "8b53bfdd-51fa-4ade-bb0a-4a273957459a",
+      "before_sha256": "527124abc39a24ae7d1d035650c0f71340d6bf18bee87373f92c13aae6e03e16",
+      "after_sha256": "fe501a5cfb6cc01efa0400a4cc6e712405f3cb8993d06d8ee75fe5bedf084c4f",
+      "file": "R725.sexpr"
+    }
+  ],
+  "new_copper_items": 19,
+  "new_vias": [
+    {
+      "net": "{slash}CPU_PERST_1V8_N",
+      "at": [
+        65.7964,
+        29.11
+      ],
+      "micro": true
+    },
+    {
+      "net": "{slash}CPU_PERST_1V8_N",
+      "at": [
+        74.1625,
+        28.15
+      ],
+      "micro": true
+    },
+    {
+      "net": "{slash}CPU_PERST_1V8_N",
+      "at": [
+        34.8,
+        39.1
+      ],
+      "micro": false
+    }
+  ],
+  "remove_uuids": [],
+  "old_copper_byte_identical": true,
+  "native_drc_errors": 0,
+  "new_dangling_warnings": 0,
+  "old_numbered_pad_shapes_preserved": 6624,
+  "non_NC_nets": 927,
+  "disconnected_physical_nets_before": 104,
+  "disconnected_physical_nets_after": 104,
+  "CPU_PERST_physical_clusters_before": 4,
+  "CPU_PERST_physical_clusters_after": 2,
+  "CPU_PERST_populated_clusters_after": 1,
+  "R725_DNP": true,
+  "production_ready": false,
+  "routes": [
+    {
+      "net": "{slash}CPU_PERST_1V8_N",
+      "layer": "B.Cu",
+      "length_mm": 4.650178229876537
+    },
+    {
+      "net": "{slash}CPU_PERST_1V8_N",
+      "layer": "In30.Cu",
+      "length_mm": 8.480562290019297
+    },
+    {
+      "net": "{slash}CPU_PERST_1V8_N",
+      "layer": "In30.Cu",
+      "length_mm": 34.24172587716877
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "board_sha256": "c350871d495780568e12e64cd4d33fe8ec5ce248fe5f51ea87519bf3b767b92e",
+  "copied_files": [
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Connectivity_40.kicad_sch",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/PIN_MAP.csv",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/CONNECTIVITY.net",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/COMPONENTS.json",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/BOM.csv",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/PLACEMENT_PLAN.json"
+  ],
+  "method": "Byte copies from independently reviewed fixed candidate; no further board save/refill."
+}

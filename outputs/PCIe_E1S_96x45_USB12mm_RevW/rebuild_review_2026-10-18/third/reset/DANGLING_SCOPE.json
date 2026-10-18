@@ -1,0 +1,107 @@
+[
+  {
+    "description": "Track has unconnected end",
+    "items": [
+      {
+        "description": "Track [/GND] on B.Cu, length 0.5064 mm",
+        "pos": {
+          "x": 3.95,
+          "y": 4.37
+        },
+        "uuid": "558e3fcd-4e4e-560c-b7ba-face05eb97bb"
+      }
+    ],
+    "severity": "warning",
+    "type": "track_dangling"
+  },
+  {
+    "description": "Via is not connected or connected on only one layer",
+    "items": [
+      {
+        "description": "Blind via [/GND] on In28.Cu - B.Cu",
+        "pos": {
+          "x": 0.9,
+          "y": 2.1
+        },
+        "uuid": "94e3bb4e-a3e3-4e78-8046-be686b386863"
+      }
+    ],
+    "severity": "warning",
+    "type": "via_dangling"
+  },
+  {
+    "description": "Track has unconnected end",
+    "items": [
+      {
+        "description": "Track [/P3V3_AUX] on B.Cu, length 0.3100 mm",
+        "pos": {
+          "x": 4.45,
+          "y": 3.5
+        },
+        "uuid": "0b27a7e7-4280-59b8-9c12-67a373bafdf5"
+      }
+    ],
+    "severity": "warning",
+    "type": "track_dangling"
+  },
+  {
+    "description": "Via is not connected or connected on only one layer",
+    "items": [
+      {
+        "description": "Blind via [/PEX_0V9] on In19.Cu - B.Cu",
+        "pos": {
+          "x": 3.925,
+          "y": 2.024997
+        },
+        "uuid": "c64fd924-29ea-4ae1-8997-def23a7ce67d"
+      }
+    ],
+    "severity": "warning",
+    "type": "via_dangling"
+  },
+  {
+    "description": "Via is not connected or connected on only one layer",
+    "items": [
+      {
+        "description": "Blind via [/PEX_1V8] on In4.Cu - B.Cu",
+        "pos": {
+          "x": 58.264999,
+          "y": 3.395
+        },
+        "uuid": "dabd15d5-19fc-4eb3-8d4d-8188251c947a"
+      }
+    ],
+    "severity": "warning",
+    "type": "via_dangling"
+  },
+  {
+    "description": "Track has unconnected end",
+    "items": [
+      {
+        "description": "Track [/TBT_PCIE_PERST_3V3_N] on B.Cu, length 1.0750 mm",
+        "pos": {
+          "x": 1.325,
+          "y": 1.074999
+        },
+        "uuid": "04925d10-db53-5b68-828b-bd3976dc86c2"
+      }
+    ],
+    "severity": "warning",
+    "type": "track_dangling"
+  },
+  {
+    "description": "Track has unconnected end",
+    "items": [
+      {
+        "description": "Track [/TBT_PCIE_PERST_3V3_N] on B.Cu, length 0.1300 mm",
+        "pos": {
+          "x": 3.95,
+          "y": 3.6
+        },
+        "uuid": "cef573a2-1413-5705-bee0-33db2773fa57"
+      }
+    ],
+    "severity": "warning",
+    "type": "track_dangling"
+  }
+]

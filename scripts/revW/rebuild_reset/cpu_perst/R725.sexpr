@@ -1,0 +1,135 @@
+	(footprint "Local:R_0402_1005Metric"
+		(layer "B.Cu")
+		(uuid "8b53bfdd-51fa-4ade-bb0a-4a273957459a")
+		(at 27.354999 4.395)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R725"
+			(at 0 1.17 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5b273c12-a6e2-4258-83bb-4d74586e7d3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 -1.17 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b207d17-8885-4045-8867-fcd81c9fd9f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0f29caab-f459-4785-9a6e-061b1c7d36f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "700a1984-ce32-4001-9b9a-c0f56d9d3a81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c04dd6f7-63e6-4e69-bdd9-b185c294fe28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/c33a6c5d-1a9e-4453-a37d-d3058a6ae0e3/4ea1d9c7-472e-4529-b4d4-10642039907a/2d362207-19f8-48ac-b177-cf6db26fd5b6")
+		(attr smd dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.93 0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "bae5b858-2e94-4811-b3d4-42736516e5b9")
+		)
+		(fp_rect
+			(start -0.525 0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "317ec4f0-98b2-490f-a6ec-0375373c17ac")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "94e09f61-d3f5-408e-9fe8-5043ba209841")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0)
+			(size 0.54 0.64)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "{slash}CPU_PERST_1V8_N")
+			(uuid "367daf92-a3ab-451e-9683-711a355f54a2")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0)
+			(size 0.54 0.64)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "{slash}CPU_VCCPRIM_1P8")
+			(uuid "7abc3894-23bd-4779-8c89-9a76841350ca")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

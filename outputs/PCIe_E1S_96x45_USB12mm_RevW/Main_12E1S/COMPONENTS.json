@@ -10708,10 +10708,10 @@
     "ref": "U605",
     "value": "TPS3808G09DBVR / SUPPORT NETWORK PENDING",
     "footprint": "REF_TPS3808G09DBVR_FU1",
-    "x": 2.625,
-    "y": 2.024997,
+    "x": 34.0,
+    "y": 41.0,
     "side": "B",
-    "rotation_deg": 0.0,
+    "rotation_deg": 180.0,
     "pinmap": {
       "1": "/PEX_SYS_RESET_N",
       "2": "/GND",
@@ -14781,13 +14781,13 @@
       "1": "/PEX_RESET_CT",
       "2": "/GND"
     },
-    "x": 37.835,
-    "y": 20.885,
+    "x": 31.0,
+    "y": 41.95,
     "side": "B",
     "height_mm": 0.5,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": 180.0,
     "dnp": false
   },
   {
@@ -14815,13 +14815,13 @@
       "1": "/PEX_SYS_RESET_N",
       "2": "/PEX_1V8"
     },
-    "x": 57.754999,
-    "y": 3.395,
+    "x": 36.65,
+    "y": 40.2,
     "side": "B",
     "height_mm": 0.5,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": -90.0,
     "dnp": false
   },
   {
@@ -14839,7 +14839,8 @@
     "datasheet": "",
     "pin_names": {},
     "rotation_deg": 0.0,
-    "dnp": false
+    "dnp": true,
+    "assembly_note": "DNP: external 10k PU conflicts with Intel PLTRST power-sequence internal 20k +/-30% pulldown. CPU rail/PEX load/brownout behavior still unqualified."
   },
   {
     "ref": "C901",
@@ -22472,10 +22473,10 @@
     "ref": "C9040",
     "value": "100nF 6.3V X5R / U605 local bypass",
     "footprint": "C_0201_DenseCourtyard_1p0x0p4",
-    "x": 4.45,
-    "y": 4.05,
+    "x": 31.4,
+    "y": 40.05,
     "side": "B",
-    "rotation_deg": 270,
+    "rotation_deg": 180.0,
     "pinmap": {
       "1": "/P3V3_AUX",
       "2": "/GND"
@@ -22492,10 +22493,10 @@
     "ref": "R9040",
     "value": "10k 1% / reset fail-low",
     "footprint": "R_0201_DenseCourtyard_1p0x0p4",
-    "x": 3.95,
-    "y": 4.05,
+    "x": 36.5,
+    "y": 41.95,
     "side": "B",
-    "rotation_deg": 270,
+    "rotation_deg": 0.0,
     "pinmap": {
       "1": "/TBT_PCIE_PERST_3V3_N",
       "2": "/GND"

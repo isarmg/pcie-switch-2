@@ -1,0 +1,29 @@
+{
+  "source": "https://cdrdv2-public.intel.com/829568/829568-004.pdf embedded829568-001_GPIO.xlsx",
+  "GPIO_workbook_sha256": "cfbca201257d9ea60547af618c54b0ac5bbed209cf398f6d748b4154c2d28e4b",
+  "independent_read_method": "OOXML zip/XML exact cells, no workbook modification",
+  "evidence_cells": {
+    "GPIO Implementation!E1": "AllGPIO1.8V Primarywell",
+    "GPIO Implementation!E32/F32/S32": "PLTRST# /out /NativeF1",
+    "GPIO Implementation!T32/X32/Y32/Z32": "none /yes(2) /L /H",
+    "GPIO Table Legends and Notes!A3": "Output HiZ with integrated20kohm +/-30% pulldown during respective pin power sequencing"
+  },
+  "existing_R725": "10k external pullup to CPU_VCCPRIM_1P8",
+  "divider_V_over_VDD_with_nominal_external_R": {
+    "RPD14k": 0.5833333333333334,
+    "RPD26k": 0.7222222222222222
+  },
+  "actual_net_nodes": [
+    "U502.F24",
+    "U511.3",
+    "U1.AM32",
+    "R725.1"
+  ],
+  "recommendation": "DNP R725 to remove confirmed external pullup opposing documented power-sequence pulldown; writer decision and native DNP/schematic/BOM verification required.",
+  "limitations": [
+    "Actual external input leakages and U1 fakePEX pin/defaultpull unknown.",
+    "Removing pullup does not prove all sequencing/reset timing or reference-domain power behavior.",
+    "Normal active PLTRST output drive and HiZ power-sequence are distinct states."
+  ],
+  "production_ready": false
+}

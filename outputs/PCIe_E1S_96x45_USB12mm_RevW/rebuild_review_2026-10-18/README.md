@@ -1,8 +1,10 @@
-# 当前重新审查：第二组
+# 当前重新审查：第三组
 
-最新PCB SHA `0083dece575e4515719c6dc3248dbae3c60fdb5734550eb05b64d91e5e4ad6b1`。
+最新PCB SHA `c350871d495780568e12e64cd4d33fe8ec5ce248fe5f51ea87519bf3b767b92e`。
 
-已补BP实际4.7µF旁路及短回路、translator局部去耦，纠正两Flash料号/U510模型，U607无功能预留DNP，并改善S12一对上游差分。详见[本组说明](second/README.md)和[独立验收](independent_second/DISPOSITION.json)。仍107断网、104涉及实装，最少1784次簇连接；DRC几何0错误/1旧铜毛刺、parity0，ERC43错误212警告。所有参考/时序/供电限制仍未完成，不能生产或上电。
+复位监控器及本地RC重新布局，MR/CT/RESET与CPU F24上游实接；R725 DNP消除公开资料确认的上下拉竞争。详见[第三组说明](third/README.md)和[独立验收](independent_third/DISPOSITION.json)。仍104个非NC断网、100涉及多个实装簇，最少1777次簇连接；DRC几何0错误/1旧铜毛刺、parity0，ERC43错误212警告。CPU供电、真PEX负载、上掉电时序及工艺未完成，不能生产或上电。
+
+[第二组局部供电/料号/差分修复](second/README.md)已独立验收并提交6359a03；[第二组验收](independent_second/DISPOSITION.json)。第三组六地面/全部相邻层轨迹增量审查未发现实质新增旧高速参考缺口，仍不是SI仿真或完整返回路径签核。
 
 ## 历史：第一组重新审查
 

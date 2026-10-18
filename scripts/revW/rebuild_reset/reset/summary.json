@@ -1,0 +1,190 @@
+{
+  "source_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "candidate_sha256": "e6111ef883439a0af4d26bb084e8eed1dee41bd133a368d9d5c51e8de929b22e",
+  "project_sha256": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "footprint_replacements": [
+    {
+      "ref": "U605",
+      "uuid": "7c0d2a94-5853-4d37-bc15-148695a96486",
+      "before_sha256": "d06b6829c9d100c7b1927d4bcb2a4b02a46e6b7f0b2714c94a2fcda10e2a9484",
+      "after_sha256": "e595016b71b503baa0843e539e7f75b45f1fb1eabc1910cf937339486ccedbd5",
+      "file": "U605.sexpr"
+    },
+    {
+      "ref": "C741",
+      "uuid": "5149b81c-fd86-427d-b85d-a88e0413aab7",
+      "before_sha256": "b5247de38ade74807c7031a8300b30c9d9ec7b0016df3ea1f6c36115a99a4ef2",
+      "after_sha256": "3ebe337af03fb4f2917d87126d59f2df4128e2a8aaf21e2e8f7fd301112b2336",
+      "file": "C741.sexpr"
+    },
+    {
+      "ref": "R724",
+      "uuid": "cbf127d4-6cce-41e3-bcd5-0242e1187c55",
+      "before_sha256": "5b65706fc387977f6590b4e11811c299a3ab41100d1496300beb1109cd5daa39",
+      "after_sha256": "192b405d33a10b47e8f89542248223b7995e77e42c48e3c42863834ed869e096",
+      "file": "R724.sexpr"
+    },
+    {
+      "ref": "C9040",
+      "uuid": "d7084bdd-f9c6-46fe-90b8-174bf72f2a32",
+      "before_sha256": "688fbc290d6177a91636d245e0ea3350c356ab47c0266ec00c5ae336f534760a",
+      "after_sha256": "11bd0bcfc620cfeef3eaade0cbc49defe50f97c9ce0e869b31fa9c180f23abb9",
+      "file": "C9040.sexpr"
+    },
+    {
+      "ref": "R9040",
+      "uuid": "61ff0b92-1fbc-45b3-b87f-afb550a8b4fc",
+      "before_sha256": "e96425967326f00346cd8a5392f80c51b0c6d9710ddf06a79b6e6d2a608a3d59",
+      "after_sha256": "7f8ab4e32221778fa9ce5860ddce802f03e99856940be23d473799f113e553c5",
+      "file": "R9040.sexpr"
+    }
+  ],
+  "new_copper_items": 33,
+  "new_vias": [
+    {
+      "net": "{slash}P3V3_AUX",
+      "at": [
+        33.400000000000006,
+        40.050002
+      ]
+    },
+    {
+      "net": "{slash}PEX_0V9",
+      "at": [
+        33.400000000000006,
+        41.0
+      ]
+    },
+    {
+      "net": "{slash}PEX_1V8",
+      "at": [
+        36.65,
+        41.11
+      ]
+    },
+    {
+      "net": "{slash}GND",
+      "at": [
+        35.7,
+        41.0
+      ]
+    },
+    {
+      "net": "{slash}GND",
+      "at": [
+        31.360000000000003,
+        39.15
+      ]
+    },
+    {
+      "net": "{slash}GND",
+      "at": [
+        37.32,
+        41.95
+      ]
+    },
+    {
+      "net": "{slash}TBT_PCIE_PERST_3V3_N",
+      "at": [
+        34.9,
+        41.849998
+      ]
+    }
+  ],
+  "remove_uuids": [
+    "04925d10-db53-5b68-828b-bd3976dc86c2",
+    "0b27a7e7-4280-59b8-9c12-67a373bafdf5",
+    "0e1d958d-4fba-4926-accb-5f9e2c108ace",
+    "0e9cff67-7751-5062-873f-5cb95edd1477",
+    "118a997f-3b47-501c-88b7-1c2f6898a48a",
+    "12515bf9-4e0e-4e89-a4cb-54fd61eb83c7",
+    "2f893d48-60ed-5a05-b86a-bf14ce88afef",
+    "558e3fcd-4e4e-560c-b7ba-face05eb97bb",
+    "6f857f11-ec2a-5af4-aea0-207ea38e2feb",
+    "85a0cf44-7d2b-511a-ad0f-bf3fe52aa29c",
+    "94e3bb4e-a3e3-4e78-8046-be686b386863",
+    "c64fd924-29ea-4ae1-8997-def23a7ce67d",
+    "cef573a2-1413-5705-bee0-33db2773fa57",
+    "dabd15d5-19fc-4eb3-8d4d-8188251c947a"
+  ],
+  "surviving_old_copper_byte_identical": true,
+  "native_drc_errors": 0,
+  "new_dangling_warnings": 0,
+  "old_numbered_pad_shapes_preserved": 6624,
+  "non_NC_nets": 927,
+  "disconnected_nets_before": 107,
+  "disconnected_nets_after": 104,
+  "production_ready": false,
+  "routes": [
+    {
+      "net": "{slash}PEX_RESET_CT",
+      "layer": "B.Cu",
+      "length_mm": 1.2200000000016418
+    },
+    {
+      "net": "{slash}P3V3_AUX",
+      "layer": "B.Cu",
+      "length_mm": 1.060000000001889
+    },
+    {
+      "net": "{slash}TBT_PCIE_PERST_3V3_N",
+      "layer": "B.Cu",
+      "length_mm": 0.8800000000022753
+    },
+    {
+      "net": "{slash}PEX_SYS_RESET_N",
+      "layer": "B.Cu",
+      "length_mm": 1.3971762379900414
+    },
+    {
+      "net": "{slash}PEX_SYS_RESET_N",
+      "layer": "B.Cu",
+      "length_mm": 3.1576798920296154
+    },
+    {
+      "net": "{slash}P3V3_AUX",
+      "layer": "B.Cu",
+      "length_mm": 0.7000000000000028
+    },
+    {
+      "net": "{slash}PEX_0V9",
+      "layer": "B.Cu",
+      "length_mm": 0.7000000000000028
+    },
+    {
+      "net": "{slash}PEX_1V8",
+      "layer": "B.Cu",
+      "length_mm": 0.3999999999999986
+    },
+    {
+      "net": "{slash}GND",
+      "layer": "B.Cu",
+      "length_mm": 0.4000000000000057
+    },
+    {
+      "net": "{slash}GND",
+      "layer": "B.Cu",
+      "length_mm": 0.921954445729288
+    },
+    {
+      "net": "{slash}GND",
+      "layer": "B.Cu",
+      "length_mm": 0.5
+    },
+    {
+      "net": "{slash}TBT_PCIE_PERST_3V3_N",
+      "layer": "B.Cu",
+      "length_mm": 0.412310562561765
+    },
+    {
+      "net": "{slash}GND",
+      "layer": "B.Cu",
+      "length_mm": 2.004894012161247
+    },
+    {
+      "net": "{slash}TBT_PCIE_PERST_3V3_N",
+      "layer": "In1.Cu",
+      "length_mm": 49.298028956685556
+    }
+  ]
+}

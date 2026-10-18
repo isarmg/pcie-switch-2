@@ -1,0 +1,31 @@
+{
+  "source_url": "https://cdrdv2-public.intel.com/829568/829568-004.pdf",
+  "fresh_download_utc": "2026-10-18T17:05:10Z",
+  "pdf_sha256": "2cc842355a01e43a6898474bf5ea60ffac9ad3c51714bb6f917409e38fd867a0",
+  "embedded_files": {
+    "825698-001_Ballout.xlsx": "6e50fc43a2e05ef9ea99a9cf75fd248f2f8ec812b499c594ee80b292c45af83e",
+    "829568-001_GPIO.xlsx": "cfbca201257d9ea60547af618c54b0ac5bbed209cf398f6d748b4154c2d28e4b",
+    "829568-001_Electrical_Specification.xlsx": "eb2d06d4ad8c26373c926ead0ed2cb2eb9a35dbdf529b4aa2084a979ad445f67"
+  },
+  "ballout": {"sheet": "Pinlist", "row": 114, "ball": "F24", "signal": "GPP_B13/PLTRST#/USB-C_GPP_B13", "direction": "O"},
+  "gpio": {
+    "sheet": "GPIO Implementation", "row": 32,
+    "E32": "PLTRST#", "F32": "out", "S32": "Native F1", "T32": "none", "X32": "yes(2)", "Y32": "L", "Z32": "H",
+    "E1_interpretation": "All GPIO groups: 1.8 V, Primary well",
+    "legend_sheet": "GPIO Table Legends and Notes",
+    "A3_interpretation": "yes(2): output high impedance during respective power sequencing, with integrated 20 kohm ±30% pull-down",
+    "A12_interpretation": "Primary well reset reference is RSMRST#"
+  },
+  "electrical": {"sheet": "Single Ended DC Spec", "row": 7, "includes_PLTRST": true, "nominal_domain_V": 1.8, "VIH_fraction": 0.65, "VIL_fraction": 0.35},
+  "R725_conflict": {
+    "original_RPU_ohm": 10000,
+    "internal_RPD_min_ohm": 14000,
+    "internal_RPD_max_ohm": 26000,
+    "ideal_divider_Vout_over_VCC_min": 0.5833333333,
+    "ideal_divider_Vout_over_VCC_max": 0.7222222222,
+    "meaning": "Even nominal 10k external pull-up defeats a guaranteed low during the documented high-impedance phase. These fractions omit all leakage and do not establish a valid high either.",
+    "approved_fix": "Set R725 DNP; preserve its physical pads, nets and component value; do not route the optional pull-up branch merely to reduce airwires."
+  },
+  "remaining_limits": ["U1 is still the explicitly unverified PEX pin mapping; receiver loading/pulls unknown", "Translator input leakage and actual rail ramps need full budgeting", "No CPU PMIC/VR or real platform release sequence is implemented by these tracks", "B–In30 0.20/0.10 microvias require fabrication approval"],
+  "production_ready": false
+}

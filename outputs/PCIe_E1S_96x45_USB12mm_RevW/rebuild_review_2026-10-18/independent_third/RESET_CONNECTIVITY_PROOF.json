@@ -1,0 +1,134 @@
+{
+  "board_sha256": "c350871d495780568e12e64cd4d33fe8ec5ce248fe5f51ea87519bf3b767b92e",
+  "pins": {
+    "U511.3": {
+      "net": "{slash}CPU_PERST_1V8_N",
+      "total_net_components": 2,
+      "cluster_physical_pad_shapes": 3,
+      "selected_cluster_members": [
+        "U1.AM32",
+        "U502.F24",
+        "U511.3"
+      ]
+    },
+    "R725.1": {
+      "net": "{slash}CPU_PERST_1V8_N",
+      "total_net_components": 2,
+      "cluster_physical_pad_shapes": 1,
+      "selected_cluster_members": [
+        "R725.1"
+      ]
+    },
+    "U511.1": {
+      "net": "{slash}CPU_VCCPRIM_1P8",
+      "total_net_components": 27,
+      "cluster_physical_pad_shapes": 4,
+      "selected_cluster_members": [
+        "C5157.1",
+        "U511.1",
+        "U511.5",
+        "U512.1"
+      ]
+    },
+    "U511.5": {
+      "net": "{slash}CPU_VCCPRIM_1P8",
+      "total_net_components": 27,
+      "cluster_physical_pad_shapes": 4,
+      "selected_cluster_members": [
+        "C5157.1",
+        "U511.1",
+        "U511.5",
+        "U512.1"
+      ]
+    },
+    "U605.2": {
+      "net": "{slash}GND",
+      "total_net_components": 145,
+      "cluster_physical_pad_shapes": 1881,
+      "selected_cluster_members": [
+        "R9040.2",
+        "U511.2",
+        "U605.2"
+      ]
+    },
+    "R9040.2": {
+      "net": "{slash}GND",
+      "total_net_components": 145,
+      "cluster_physical_pad_shapes": 1881,
+      "selected_cluster_members": [
+        "R9040.2",
+        "U511.2",
+        "U605.2"
+      ]
+    },
+    "U605.6": {
+      "net": "{slash}P3V3_AUX",
+      "total_net_components": 1,
+      "cluster_physical_pad_shapes": 96,
+      "selected_cluster_members": [
+        "U511.6",
+        "U605.6"
+      ]
+    },
+    "U605.5": {
+      "net": "{slash}PEX_0V9",
+      "total_net_components": 1,
+      "cluster_physical_pad_shapes": 65,
+      "selected_cluster_members": [
+        "U605.5"
+      ]
+    },
+    "R724.2": {
+      "net": "{slash}PEX_1V8",
+      "total_net_components": 1,
+      "cluster_physical_pad_shapes": 81,
+      "selected_cluster_members": [
+        "R724.2"
+      ]
+    },
+    "U605.4": {
+      "net": "{slash}PEX_RESET_CT",
+      "total_net_components": 1,
+      "cluster_physical_pad_shapes": 2,
+      "selected_cluster_members": [
+        "C741.1",
+        "U605.4"
+      ]
+    },
+    "U605.1": {
+      "net": "{slash}PEX_SYS_RESET_N",
+      "total_net_components": 1,
+      "cluster_physical_pad_shapes": 3,
+      "selected_cluster_members": [
+        "R724.1",
+        "U1.AL32",
+        "U605.1"
+      ]
+    },
+    "U605.3": {
+      "net": "{slash}TBT_PCIE_PERST_3V3_N",
+      "total_net_components": 1,
+      "cluster_physical_pad_shapes": 4,
+      "selected_cluster_members": [
+        "R9040.1",
+        "U501.L4",
+        "U511.4",
+        "U605.3"
+      ]
+    },
+    "R9040.1": {
+      "net": "{slash}TBT_PCIE_PERST_3V3_N",
+      "total_net_components": 1,
+      "cluster_physical_pad_shapes": 4,
+      "selected_cluster_members": [
+        "R9040.1",
+        "U501.L4",
+        "U511.4",
+        "U605.3"
+      ]
+    }
+  },
+  "CPU_PERST_note": "U502.F24,U511.3,U1.AM32 physically closed; only separate R725.1 DNP island remains. Unknown fakePEX real ball/default input behavior still unqualified.",
+  "MR_note": "U605 MR now physically linked to U511 B and R9040 pulldown; finite brownout region and supplies remain unqualified.",
+  "production_ready": false
+}

@@ -2873,11 +2873,11 @@
   },
   "C741": {
     "position_mm": [
-      37.835,
-      20.885
+      31.0,
+      41.95
     ],
     "side": "B",
-    "rotation_deg": 0.0
+    "rotation_deg": 180.0
   },
   "C5222": {
     "position_mm": [
@@ -3041,11 +3041,11 @@
   },
   "R9040": {
     "position_mm": [
-      3.95,
-      4.05
+      36.5,
+      41.95
     ],
     "side": "B",
-    "rotation_deg": -90.0
+    "rotation_deg": 0.0
   },
   "TP711": {
     "position_mm": [
@@ -3313,11 +3313,11 @@
   },
   "U605": {
     "position_mm": [
-      2.625,
-      2.024997
+      34.0,
+      41.0
     ],
     "side": "B",
-    "rotation_deg": 0.0
+    "rotation_deg": 180.0
   },
   "C927": {
     "position_mm": [
@@ -4153,11 +4153,11 @@
   },
   "R724": {
     "position_mm": [
-      57.754999,
-      3.395
+      36.65,
+      40.2
     ],
     "side": "B",
-    "rotation_deg": 0.0
+    "rotation_deg": -90.0
   },
   "R133": {
     "position_mm": [
@@ -4281,11 +4281,11 @@
   },
   "C9040": {
     "position_mm": [
-      4.45,
-      4.05
+      31.4,
+      40.05
     ],
     "side": "B",
-    "rotation_deg": -90.0
+    "rotation_deg": 180.0
   },
   "TP712": {
     "position_mm": [

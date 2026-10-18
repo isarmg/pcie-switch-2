@@ -1,0 +1,135 @@
+	(footprint "Local:C_0402_1005Metric"
+		(layer "B.Cu")
+		(uuid "5149b81c-fd86-427d-b85d-a88e0413aab7")
+		(at 31 41.95 180)
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor")
+		(property "Reference" "C741"
+			(at 0 1.16 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "aba0912b-965b-4cfa-9c94-4e6b00740a9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "47nF / reset delay"
+			(at 0 -1.16 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d1db3f3e-fd3a-4610-9c6a-50c377311f6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d92ed32d-320c-4269-ab10-1db847b68d2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68d6f084-6fc1-4440-b6b1-76ee7c372306")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f98c5278-f058-4f86-bccd-f3147f29a34b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/c33a6c5d-1a9e-4453-a37d-d3058a6ae0e3/b5f8e8e8-3b95-490a-9e0f-bd242a7e256e/ac48b7c1-dfc8-4974-9590-c0cb5ace3d13")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.91 0.46)
+			(end 0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "ffe0021e-56f9-4fb1-ba22-4d3e60045180")
+		)
+		(fp_rect
+			(start -0.5 0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "b652e70b-56c3-4423-91fc-74c402886127")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "3680af04-f480-4917-bc4e-73d284281437")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.48 0 180)
+			(size 0.56 0.62)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "{slash}PEX_RESET_CT")
+			(uuid "b364b460-5cd9-43cf-b302-5193fbfdb2df")
+		)
+		(pad "2" smd roundrect
+			(at 0.48 0 180)
+			(size 0.56 0.62)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "{slash}GND")
+			(uuid "0cd49d3f-06d9-47fa-9a4d-ef26e4b953a3")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

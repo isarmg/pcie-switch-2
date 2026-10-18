@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/workspace/scratch/08a6fde47383/pcie-switch-2/outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_sch</source>
-    <date>2026-10-18T00:36:42</date>
+    <source>/workspace/scratch/08a6fde47383/e1s-rebuild-20261018/group3/Main_12E1S/Main_12E1S.kicad_sch</source>
+    <date>2026-10-18T10:21:40</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -12880,6 +12880,7 @@
       <libsource lib="Local" part="PART_R725" description=""/>
       <property name="Sheetname" value="Connectivity 40"/>
       <property name="Sheetfile" value="Connectivity_40.kicad_sch"/>
+      <property name="dnp"/>
       <sheetpath names="/Connectivity 40/" tstamps="/4ea1d9c7-472e-4529-b4d4-10642039907a/"/>
       <tstamps>2d362207-19f8-48ac-b177-cf6db26fd5b6</tstamps>
       <units>
@@ -19290,6 +19291,7 @@
       <libsource lib="Local" part="PART_U607" description=""/>
       <property name="Sheetname" value="Connectivity 54"/>
       <property name="Sheetfile" value="Connectivity_54.kicad_sch"/>
+      <property name="dnp"/>
       <sheetpath names="/Connectivity 54/" tstamps="/4713fd16-f2bf-49a2-84a4-e44d648d003c/"/>
       <tstamps>26f1f249-b14f-46ac-88a7-7b9bd27b6755</tstamps>
       <units>
@@ -22998,8 +23000,8 @@
     <libpart lib="Local" part="PART_C9004">
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">2.2uF 10V</field>
-        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Value">4.7uF 10V X7R / GRM188Z71A475KE15D</field>
+        <field name="Footprint">Local:C_0603_1608Metric_BP_Official</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -32169,12 +32171,12 @@
         <field name="Description"/>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
+        <pin num="1" name="1" type="open_collector"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="input"/>
         <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
-        <pin num="6" name="6" type="passive"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Local" part="PART_U511">
@@ -36666,7 +36668,7 @@
       <node ref="U506" pin="6" pinfunction="6_6" pintype="passive"/>
       <node ref="U506" pin="7" pinfunction="7_7" pintype="passive"/>
       <node ref="U506" pin="8" pinfunction="8_8" pintype="passive"/>
-      <node ref="U510" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U510" pin="2" pinfunction="2_2" pintype="power_in"/>
       <node ref="U511" pin="2" pinfunction="GND_2" pintype="power_in"/>
       <node ref="U512" pin="2" pinfunction="GND_2" pintype="power_in"/>
       <node ref="U512" pin="5" pinfunction="DIR_5" pintype="input"/>
@@ -36803,8 +36805,8 @@
       <node ref="U501" pin="H9" pinfunction="VCC3P3A_H9" pintype="passive"/>
       <node ref="U501" pin="R13" pinfunction="VCC3P3_S0_R13" pintype="passive"/>
       <node ref="U503" pin="H1" pinfunction="VIN_3V3_H1" pintype="passive"/>
-      <node ref="U510" pin="5" pinfunction="5_5" pintype="passive"/>
-      <node ref="U510" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="U510" pin="5" pinfunction="5_5" pintype="input"/>
+      <node ref="U510" pin="6" pinfunction="6_6" pintype="power_in"/>
       <node ref="U511" pin="6" pinfunction="VCCB_6" pintype="power_in"/>
       <node ref="U512" pin="6" pinfunction="VCCB_6" pintype="power_in"/>
       <node ref="U601" pin="1" pinfunction="^CKPWRGD_PD#_1" pintype="passive"/>
@@ -39880,7 +39882,7 @@
     </net>
     <net code="861" name="/TBT_PD_RESET_N" class="Default">
       <node ref="U503" pin="F11" pinfunction="RESETZ_F11" pintype="passive"/>
-      <node ref="U510" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U510" pin="3" pinfunction="3_3" pintype="input"/>
     </net>
     <net code="862" name="/TBT_PD_R_OSC" class="Default">
       <node ref="R5151" pin="1" pinfunction="1_1" pintype="passive"/>
@@ -40015,7 +40017,7 @@
     <net code="894" name="/TBT_RESET_N" class="Default">
       <node ref="R5181" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U501" pin="F4" pinfunction="RESET_N_F4" pintype="passive"/>
-      <node ref="U510" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U510" pin="1" pinfunction="1_1" pintype="open_collector"/>
     </net>
     <net code="895" name="/TBT_RSENSE" class="Default">
       <node ref="R5103" pin="1" pinfunction="1_1" pintype="passive"/>
