@@ -1,0 +1,29 @@
+{
+  "baseline_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "candidate_sha256": "0083dece575e4515719c6dc3248dbae3c60fdb5734550eb05b64d91e5e4ad6b1",
+  "all_filled_polygon_geometry_equal": false,
+  "changed_layers": [
+    "In3.Cu",
+    "In20.Cu",
+    "In2.Cu",
+    "In4.Cu",
+    "In1.Cu",
+    "In12.Cu",
+    "In26.Cu",
+    "In14.Cu",
+    "In9.Cu",
+    "In30.Cu",
+    "In25.Cu",
+    "In21.Cu",
+    "In11.Cu",
+    "In19.Cu",
+    "In6.Cu",
+    "In27.Cu",
+    "In28.Cu",
+    "In22.Cu",
+    "In7.Cu",
+    "In5.Cu",
+    "In17.Cu"
+  ],
+  "method": "Every serialized filled_polygon normalized whitespace; includes every filled copper layer, without sampling."
+}

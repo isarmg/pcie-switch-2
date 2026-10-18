@@ -1,0 +1,17 @@
+{
+  "verified_candidate_sha256": "0083dece575e4515719c6dc3248dbae3c60fdb5734550eb05b64d91e5e4ad6b1",
+  "copied_files": [
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Connectivity_28.kicad_sch",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Connectivity_53.kicad_sch",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Local.kicad_sym",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Connectivity_54.kicad_sch",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/PIN_MAP.csv",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/CONNECTIVITY.net",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/COMPONENTS.json",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Local.pretty/C_0603_1608Metric_BP_Official.kicad_mod",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/BOM.csv",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/PLACEMENT_PLAN.json"
+  ],
+  "method": "Byte copies from independently reviewed fixed candidate; no further native save/refill."
+}

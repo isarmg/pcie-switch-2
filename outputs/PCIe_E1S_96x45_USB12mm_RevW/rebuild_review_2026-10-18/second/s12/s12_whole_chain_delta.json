@@ -1,0 +1,128 @@
+{
+  "method": "Compare complete paired net sets, populated coupling capacitors and copper lengths; endpoint arrays are unordered inventories.",
+  "changes": [
+    {
+      "before": {
+        "P_nets": [
+          "{slash}S12_SSD_RX2_P",
+          "{slash}S12_SW_TX2_P"
+        ],
+        "N_nets": [
+          "{slash}S12_SSD_RX2_N",
+          "{slash}S12_SW_TX2_N"
+        ],
+        "P_mm": 27.235000000000003,
+        "N_mm": 62.225,
+        "skew_mm": 34.989999999999995,
+        "direction_verified": false,
+        "coupling_capacitors": [
+          "C4093",
+          "C4094"
+        ],
+        "terminal_pads": {
+          "P": [
+            {
+              "ref": "J12",
+              "pin": "B24",
+              "position": [
+                14.3,
+                20.735
+              ],
+              "uuid": "2afce121-a13b-469f-ae27-5fb3298d9d1a"
+            },
+            {
+              "ref": "U1",
+              "pin": "A13",
+              "position": [
+                16.5,
+                7.0
+              ],
+              "uuid": "db8266eb-311e-4235-b3d0-193952b3c7a2"
+            }
+          ],
+          "N": [
+            {
+              "ref": "J12",
+              "pin": "B23",
+              "position": [
+                14.3,
+                21.335
+              ],
+              "uuid": "2ee09006-8ffd-491e-bfeb-21a3fad0b15a"
+            },
+            {
+              "ref": "U1",
+              "pin": "B13",
+              "position": [
+                16.5,
+                8.0
+              ],
+              "uuid": "fa1f986e-4a45-4cc7-ba91-ecd02af0b729"
+            }
+          ]
+        }
+      },
+      "after": {
+        "P_nets": [
+          "{slash}S12_SSD_RX2_P",
+          "{slash}S12_SW_TX2_P"
+        ],
+        "N_nets": [
+          "{slash}S12_SSD_RX2_N",
+          "{slash}S12_SW_TX2_N"
+        ],
+        "P_mm": 15.59729698748961,
+        "N_mm": 15.598233978106425,
+        "skew_mm": 0.0009369906168146258,
+        "direction_verified": false,
+        "coupling_capacitors": [
+          "C4093",
+          "C4094"
+        ],
+        "terminal_pads": {
+          "P": [
+            {
+              "ref": "J12",
+              "pin": "B24",
+              "position": [
+                14.3,
+                20.735
+              ],
+              "uuid": "2afce121-a13b-469f-ae27-5fb3298d9d1a"
+            },
+            {
+              "ref": "U1",
+              "pin": "A13",
+              "position": [
+                16.5,
+                7.0
+              ],
+              "uuid": "db8266eb-311e-4235-b3d0-193952b3c7a2"
+            }
+          ],
+          "N": [
+            {
+              "ref": "U1",
+              "pin": "B13",
+              "position": [
+                16.5,
+                8.0
+              ],
+              "uuid": "fa1f986e-4a45-4cc7-ba91-ecd02af0b729"
+            },
+            {
+              "ref": "J12",
+              "pin": "B23",
+              "position": [
+                14.3,
+                21.335
+              ],
+              "uuid": "2ee09006-8ffd-491e-bfeb-21a3fad0b15a"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "only_S12_changed": true
+}

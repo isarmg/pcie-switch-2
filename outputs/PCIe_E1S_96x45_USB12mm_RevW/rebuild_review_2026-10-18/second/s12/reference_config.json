@@ -1,0 +1,14 @@
+{
+  "nets": [
+    "/S12_SW_TX2_P",
+    "/S12_SW_TX2_N",
+    "/S12_SSD_RX2_P",
+    "/S12_SSD_RX2_N",
+    "/TBT_USB2_TOP_P",
+    "/TBT_USB2_TOP_N",
+    "/TBT_USB2_BOTTOM_P",
+    "/TBT_USB2_BOTTOM_N",
+    "/TBT_USB2_RP_P",
+    "/TBT_USB2_RP_N"
+  ]
+}

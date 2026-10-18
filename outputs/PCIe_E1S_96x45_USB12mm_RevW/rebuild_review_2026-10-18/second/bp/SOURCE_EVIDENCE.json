@@ -1,0 +1,36 @@
+{
+  "review_date_utc": "2026-10-18",
+  "regulator": {
+    "reference": "U901",
+    "part": "TPS548D22RVFR",
+    "source": "https://www.ti.com/lit/ds/symlink/tps548d22.pdf",
+    "revision": "SLUSC70D, July 2017",
+    "section": "8.2.3.6, page 28; electrical characteristics page 8",
+    "requirement_summary": "4.7-uF BP bypass to DRGND, localized with low-impedance return",
+    "BP_typical_V": 5.07,
+    "effective_Cmin_uF_specified": null,
+    "note": "No effective minimum >=4.7uF is invented. Nominal selection and geometric closure alone do not prove LDO stability over bias/temperature/aging."
+  },
+  "capacitor": {
+    "reference": "C9004",
+    "part": "GRM188Z71A475KE15D",
+    "series_part": "GRM188Z71A475KE15",
+    "nominal_uF": 4.7,
+    "rated_Vdc": 10,
+    "tolerance_pct": 10,
+    "dielectric": "X7R (MURATA)",
+    "package": "0603 / 1608M",
+    "height_max_mm": 0.95,
+    "official_list": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+    "official_selection": "https://ds.murata.com/simsurfing/mlcc.html?oripartnumbers=%5B%22GRM188Z71A475KE15D%22%5D&partnumbers=%5B%22GRM188Z71A475KE15%22%5D&rgear=zzo&rgearinfo=com&videoId=5970369965001",
+    "DC_bias_effective_uF_at_5V": null,
+    "curve_status": "Official nominal/size/tolerance confirmed. No numeric DC-bias curve retrieved; do not reuse an X5R or different-package curve.",
+    "mechanical_status": "Maximum component height documented; full enclosure/SSD assembly clearance unverified."
+  },
+  "footprint": {
+    "source": "/usr/share/kicad/footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+    "alias": "Local:C_0603_1608Metric_BP_Official",
+    "preservation": "Only top-level name changed in library alias. No pad/courtyard shrinking; native library-mismatch DRC must pass."
+  },
+  "status": "candidate under native geometric and full connectivity review, not production approval"
+}

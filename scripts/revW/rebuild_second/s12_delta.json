@@ -1,0 +1,98 @@
+{
+  "baseline_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "removed_blocks": [
+    {
+      "block": "(segment\n\t\t(start 16.82 21.335)\n\t\t(end 16.32 21.335)\n\t\t(width 0.08)\n\t\t(layer \"In25.Cu\")\n\t\t(net \"{slash}S12_SW_TX2_N\")\n\t\t(uuid \"71e750ae-2284-4234-b5cb-6c3c2edc27e5\")\n\t)",
+      "sha256": "07138cc9e9d1f5c7edc511208bc979068b5fb0e0decdd1a2a72a4fbbc2462df8"
+    },
+    {
+      "block": "(segment\n\t\t(start 17 44.5)\n\t\t(end 16.82 44.5)\n\t\t(width 0.08)\n\t\t(layer \"In25.Cu\")\n\t\t(net \"{slash}S12_SW_TX2_N\")\n\t\t(uuid \"8f13b130-5cdc-4ae7-bf73-c720568cb1e3\")\n\t)",
+      "sha256": "6a5f0e4a71055873f13fd512eb1e58d99176b94bf93ca4b94c2a31c8488f1da5"
+    },
+    {
+      "block": "(segment\n\t\t(start 16.82 44.5)\n\t\t(end 16.82 21.335)\n\t\t(width 0.08)\n\t\t(layer \"In25.Cu\")\n\t\t(net \"{slash}S12_SW_TX2_N\")\n\t\t(uuid \"9272da49-f6d5-4058-97ce-09c611c36ff7\")\n\t)",
+      "sha256": "d06dca3999db5cdad61deee6c622c47762c45ed6c91a1b127abc8792ac968c62"
+    },
+    {
+      "block": "(segment\n\t\t(start 16.5 8)\n\t\t(end 17 8)\n\t\t(width 0.08)\n\t\t(layer \"In25.Cu\")\n\t\t(net \"{slash}S12_SW_TX2_N\")\n\t\t(uuid \"bd94efa8-b043-4785-9c1b-eef7548677e5\")\n\t)",
+      "sha256": "2a107b2d60b40e7e33f20b4e3b4581443fe7b946529241d21945277a23963bd1"
+    },
+    {
+      "block": "(segment\n\t\t(start 17 8)\n\t\t(end 17 44.5)\n\t\t(width 0.08)\n\t\t(layer \"In25.Cu\")\n\t\t(net \"{slash}S12_SW_TX2_N\")\n\t\t(uuid \"ea383c37-fa22-4118-bfbb-33255cabfa65\")\n\t)",
+      "sha256": "aed07e1b51f0db8addb2980ac5daf8b78fe7ca489a59b56fbfe96ba88d177f9c"
+    },
+    {
+      "block": "(segment\n\t\t(start 16.82 20.735)\n\t\t(end 16.32 20.735)\n\t\t(width 0.08)\n\t\t(layer \"In1.Cu\")\n\t\t(net \"{slash}S12_SW_TX2_P\")\n\t\t(uuid \"22593d0e-ab18-4988-9d7d-7361f9a3acfa\")\n\t)",
+      "sha256": "161eee56812feae1411cf5716d013c08a225dc1a163d762937bc322f96833cd3"
+    },
+    {
+      "block": "(segment\n\t\t(start 16.82 1.35)\n\t\t(end 16.82 20.735)\n\t\t(width 0.08)\n\t\t(layer \"In1.Cu\")\n\t\t(net \"{slash}S12_SW_TX2_P\")\n\t\t(uuid \"316489d5-e5c7-4776-9d0e-89073738c612\")\n\t)",
+      "sha256": "3a6a6355ed4fb3444932e546f084a312fa995d2d663108087b3b720f078c24b3"
+    },
+    {
+      "block": "(segment\n\t\t(start 16.5 1.35)\n\t\t(end 16.82 1.35)\n\t\t(width 0.08)\n\t\t(layer \"In1.Cu\")\n\t\t(net \"{slash}S12_SW_TX2_P\")\n\t\t(uuid \"7d381239-e4f2-4bd5-a931-b07ee1666935\")\n\t)",
+      "sha256": "d01a2b3c1178d0e70f20708037784c2bba408be1af82bdb25982f732a725a545"
+    },
+    {
+      "block": "(segment\n\t\t(start 16.5 7)\n\t\t(end 16.5 1.35)\n\t\t(width 0.08)\n\t\t(layer \"In1.Cu\")\n\t\t(net \"{slash}S12_SW_TX2_P\")\n\t\t(uuid \"ac643b93-ee2d-4c25-843c-0cbdd9b98089\")\n\t)",
+      "sha256": "3c5ebd1062b42a6858234b5feeb7d557cc5287cec077dc6742cdd3cfe81ba836"
+    }
+  ],
+  "added_blocks": [
+    "(segment (start 16.5 7) (end 17 7.5) (width .08) (layer \"In14.Cu\") (net \"{slash}S12_SW_TX2_P\") (uuid \"f7600efe-8c57-5d13-b2c9-12a3f72f9261\"))",
+    "(segment (start 17 7.5) (end 16.999487 8.410117) (width .08) (layer \"In14.Cu\") (net \"{slash}S12_SW_TX2_P\") (uuid \"05fdcb32-fb52-5451-8609-7e50c64bb3c9\"))",
+    "(segment (start 16.999487 8.410117) (end 15.799487 20.210117) (width .08) (layer \"In14.Cu\") (net \"{slash}S12_SW_TX2_P\") (uuid \"9dbbe6d3-e1a2-5164-a770-caba9c9c52e4\"))",
+    "(segment (start 15.799487 20.210117) (end 16.32 20.735) (width .08) (layer \"In14.Cu\") (net \"{slash}S12_SW_TX2_P\") (uuid \"001b9d85-36fb-565a-bca1-88d641e54384\"))",
+    "(segment (start 16.5 8) (end 16.800513 8.389883) (width .08) (layer \"In14.Cu\") (net \"{slash}S12_SW_TX2_N\") (uuid \"fc74dae5-0412-5b78-98bf-af4535056d1b\"))",
+    "(segment (start 16.800513 8.389883) (end 15.600513 20.189883) (width .08) (layer \"In14.Cu\") (net \"{slash}S12_SW_TX2_N\") (uuid \"1765217e-1384-56f9-b359-8b8d721fdbe9\"))",
+    "(segment (start 15.600513 20.189883) (end 15.6 21.335) (width .08) (layer \"In14.Cu\") (net \"{slash}S12_SW_TX2_N\") (uuid \"0eed45b8-8885-5905-beb5-7fc8444dc388\"))",
+    "(segment (start 15.6 21.335) (end 16.32 21.335) (width .08) (layer \"In14.Cu\") (net \"{slash}S12_SW_TX2_N\") (uuid \"07a8eff7-f6ff-5709-b0c9-8ed38300ef5e\"))"
+  ],
+  "paths": {
+    "{slash}S12_SW_TX2_P": [
+      [
+        16.5,
+        7
+      ],
+      [
+        17,
+        7.5
+      ],
+      [
+        16.999487,
+        8.410117
+      ],
+      [
+        15.799487,
+        20.210117
+      ],
+      [
+        16.32,
+        20.735
+      ]
+    ],
+    "{slash}S12_SW_TX2_N": [
+      [
+        16.5,
+        8
+      ],
+      [
+        16.800513,
+        8.389883
+      ],
+      [
+        15.600513,
+        20.189883
+      ],
+      [
+        15.6,
+        21.335
+      ],
+      [
+        16.32,
+        21.335
+      ]
+    ]
+  },
+  "scope": "Only S12_SW_TX2 P/N trace segments; existing vias/caps/pads unchanged"
+}

@@ -8923,10 +8923,10 @@
       </units>
     </comp>
     <comp ref="C9004">
-      <value>2.2uF 10V</value>
-      <footprint>Local:C_0402_1005Metric</footprint>
+      <value>4.7uF 10V X7R / GRM188Z71A475KE15D</value>
+      <footprint>Local:C_0603_1608Metric_BP_Official</footprint>
       <fields>
-        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Footprint">Local:C_0603_1608Metric_BP_Official</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -18821,7 +18821,7 @@
       </units>
     </comp>
     <comp ref="U504">
-      <value>W25Q80DVSSIG / 3.3V 8Mbit NVM / image pending</value>
+      <value>W25Q80DVSNJG / 3.3V 8Mbit NVM / image pending</value>
       <footprint>Local:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="Footprint">Local:SOIC-8_3.9x4.9mm_P1.27mm</field>
@@ -18849,7 +18849,7 @@
       </units>
     </comp>
     <comp ref="U505">
-      <value>W25Q80DVSSIG / 3.3V 8Mbit NVM / image pending</value>
+      <value>W25Q80DVSNJG / 3.3V 8Mbit NVM / image pending</value>
       <footprint>Local:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="Footprint">Local:SOIC-8_3.9x4.9mm_P1.27mm</field>
@@ -32096,7 +32096,7 @@
     <libpart lib="Local" part="PART_U504">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">W25Q80DVSSIG / 3.3V 8Mbit NVM / image pending</field>
+        <field name="Value">W25Q80DVSNJG / 3.3V 8Mbit NVM / image pending</field>
         <field name="Footprint">Local:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -32115,7 +32115,7 @@
     <libpart lib="Local" part="PART_U505">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">W25Q80DVSSIG / 3.3V 8Mbit NVM / image pending</field>
+        <field name="Value">W25Q80DVSNJG / 3.3V 8Mbit NVM / image pending</field>
         <field name="Footprint">Local:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>

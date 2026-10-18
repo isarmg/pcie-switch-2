@@ -1,0 +1,24 @@
+{
+  "baseline_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "candidate_sha256": "2b6d056266d9a8befefa6c3fa314d900611e8c6a32b50935dfce282093d17739",
+  "scope": "All positive-net saved pads/tracks/vias; native connectivity. Isolated zone-only islands not enumerated. Slash KiCad aliases normalized.",
+  "old_item_count": 19574,
+  "old_net_count": 1713,
+  "split_groups": [],
+  "missing_items": [],
+  "reassigned_items": [],
+  "allowed_removed_track_uuids": [
+    "22593d0e-ab18-4988-9d7d-7361f9a3acfa",
+    "316489d5-e5c7-4776-9d0e-89073738c612",
+    "71e750ae-2284-4234-b5cb-6c3c2edc27e5",
+    "7d381239-e4f2-4bd5-a931-b07ee1666935",
+    "8f13b130-5cdc-4ae7-bf73-c720568cb1e3",
+    "9272da49-f6d5-4058-97ce-09c611c36ff7",
+    "ac643b93-ee2d-4c25-843c-0cbdd9b98089",
+    "bd94efa8-b043-4785-9c1b-eef7548677e5",
+    "ea383c37-fa22-4118-bfbb-33255cabfa65"
+  ],
+  "new_ground_vias": [],
+  "saved_copper_UUID_net_reassigned": [],
+  "passed": true
+}

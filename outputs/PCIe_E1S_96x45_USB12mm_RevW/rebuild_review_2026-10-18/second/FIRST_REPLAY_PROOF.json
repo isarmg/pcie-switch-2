@@ -1,0 +1,7 @@
+{
+  "candidate_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "replay_sha256": "3302c929aaed7232074cd679f5e2d8a3aeedd2d7c24e1a1b5734aaf86a5a64e2",
+  "native_objects": 13533,
+  "all_footprint_track_via_blocks_equal": true,
+  "changed": []
+}

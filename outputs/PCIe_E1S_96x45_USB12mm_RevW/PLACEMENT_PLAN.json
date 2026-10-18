@@ -378,7 +378,7 @@
   "R9011": {
     "position_mm": [
       1.8,
-      4.2
+      4.15
     ],
     "side": "F",
     "rotation_deg": 0.0
@@ -706,7 +706,7 @@
   "R9007": {
     "position_mm": [
       1.8,
-      5.0
+      4.65
     ],
     "side": "F",
     "rotation_deg": 0.0
@@ -1641,11 +1641,11 @@
   },
   "C9004": {
     "position_mm": [
-      1.4,
-      5.8
+      1.25,
+      6.35
     ],
     "side": "F",
-    "rotation_deg": 0.0
+    "rotation_deg": 90.0
   },
   "C4011": {
     "position_mm": [

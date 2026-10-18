@@ -10669,7 +10669,8 @@
       "24": "RESET#",
       "25": "EP"
     },
-    "dnp": false
+    "dnp": true,
+    "assembly_note": "Unimplemented reference mux: all22 signal pins singleton. Keep DNP until master, channels, address and reset bias are defined."
   },
   {
     "ref": "U606",
@@ -18381,7 +18382,7 @@
   },
   {
     "ref": "U504",
-    "value": "W25Q80DVSSIG / 3.3V 8Mbit NVM / image pending",
+    "value": "W25Q80DVSNJG / 3.3V 8Mbit NVM / image pending",
     "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
     "pinmap": {
       "1": "/TBT_AR_SPI_CS_N",
@@ -18460,7 +18461,7 @@
   },
   {
     "ref": "U505",
-    "value": "W25Q80DVSSIG / 3.3V 8Mbit NVM / image pending",
+    "value": "W25Q80DVSNJG / 3.3V 8Mbit NVM / image pending",
     "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
     "pinmap": {
       "1": "/TBT_PD_SPI_CS_N",
@@ -19389,7 +19390,17 @@
     "height_mm": 1.45,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 90.0
+    "rotation_deg": 90.0,
+    "pin_types": {
+      "1": "open_collector",
+      "2": "power_in",
+      "3": "input",
+      "4": "passive",
+      "5": "input",
+      "6": "power_in"
+    },
+    "erc_model_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "erc_model_note": "SBVS050N Table5-1 p4; CT analog timing pin passive, RESET open collector."
   },
   {
     "ref": "R5181",
@@ -21945,19 +21956,21 @@
   },
   {
     "ref": "C9004",
-    "value": "2.2uF 10V",
-    "footprint": "C_0402_1005Metric",
+    "value": "4.7uF 10V X7R / GRM188Z71A475KE15D",
+    "footprint": "C_0603_1608Metric_BP_Official",
     "pinmap": {
       "1": "/PEX09_BP",
       "2": "/GND"
     },
-    "x": 1.4,
-    "y": 5.8,
+    "x": 1.25,
+    "y": 6.35,
     "side": "F",
-    "height_mm": 0.9,
+    "height_mm": 0.95,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0
+    "rotation_deg": 90.0,
+    "mpn": "GRM188Z71A475KE15D",
+    "qualification_note": "Nominal 4.7uF 10V X7R; DC-bias effective capacity, startup ripple, thermal and mechanical qualification pending."
   },
   {
     "ref": "C9005",
@@ -22096,7 +22109,7 @@
       "2": "/P3V3_AUX"
     },
     "x": 1.8,
-    "y": 5.0,
+    "y": 4.65,
     "side": "F",
     "height_mm": 0.33,
     "datasheet": "",
@@ -22112,7 +22125,7 @@
       "2": "/PEX09_FSEL"
     },
     "x": 1.8,
-    "y": 4.2,
+    "y": 4.15,
     "side": "F",
     "height_mm": 0.33,
     "datasheet": "",

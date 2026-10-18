@@ -1,0 +1,6 @@
+{
+  "added": [],
+  "removed": [],
+  "comparison_scope": "type,severity,description only; native item/ref.pin identity is intentionally not covered by these counters",
+  "raw_item_change": "P3V3_AUX representative U511.6 -> U510.6; see independent_second/ERC_DELTA.json"
+}

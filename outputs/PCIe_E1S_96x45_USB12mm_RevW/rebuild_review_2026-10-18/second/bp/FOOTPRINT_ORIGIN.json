@@ -1,0 +1,7 @@
+{
+  "official_source": "/usr/share/kicad/footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+  "official_sha256": "6817e127719273e03bb0a41f8d885aaa677ba6bbce6ee8292b2f18223e2ec419",
+  "alias_sha256": "694021f03a9ef4ad1611b3d30f1e4ba75c0d669af9920ae04cf3918cbcd9d87d",
+  "only_top_level_name_changed": true,
+  "pad_geometry_and_courtyard_identical": true
+}

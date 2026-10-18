@@ -1,3 +1,11 @@
+# 当前重新审查：第二组
+
+最新PCB SHA `0083dece575e4515719c6dc3248dbae3c60fdb5734550eb05b64d91e5e4ad6b1`。
+
+已补BP实际4.7µF旁路及短回路、translator局部去耦，纠正两Flash料号/U510模型，U607无功能预留DNP，并改善S12一对上游差分。详见[本组说明](second/README.md)和[独立验收](independent_second/DISPOSITION.json)。仍107断网、104涉及实装，最少1784次簇连接；DRC几何0错误/1旧铜毛刺、parity0，ERC43错误212警告。所有参考/时序/供电限制仍未完成，不能生产或上电。
+
+## 历史：第一组重新审查
+
 # E1.S rebuilt review, 2026-10-18
 
 The previous fifteenth-checkpoint source and local commit were lost after an environment reset. Remote GitHub main was independently checked at 394c0d3; GitHub returned 422 for a001a6e. This review starts again from the retained de635e94 first-round source and does not claim recovery of the later source.

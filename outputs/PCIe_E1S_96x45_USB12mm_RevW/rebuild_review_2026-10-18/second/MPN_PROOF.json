@@ -1,0 +1,65 @@
+{
+  "official_source": "https://www.winbond.com/resource-files/W25Q80DV_revN_04242026%20Plus.pdf",
+  "revision": "Preliminary N, 2026-04-24",
+  "pages": {
+    "pinmap": 6,
+    "SN_dimensions": 61,
+    "SS_dimensions": 62,
+    "ordering": 66,
+    "valid_part_numbers": 67
+  },
+  "correction": {
+    "refs": [
+      "U504",
+      "U505"
+    ],
+    "old": "W25Q80DVSSIG",
+    "new": "W25Q80DVSNJG",
+    "actual_footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+    "package": "SN 150mil, nominal 3.9x4.9mm, 1.27mm pitch, max height1.75mm",
+    "temperature": "J: -40 to105C; endurance qualification is at85C per manufacturer note",
+    "pin_network_geometry_change": false
+  },
+  "files": [
+    {
+      "path": "../e1s-rebuild-20261018/group2/Main_12E1S/COMPONENTS.json",
+      "replacements": 2,
+      "before_sha256": "75372c974558ad36149238e65fe67c0e30d1641dba7cb7dae4d5dac086101666",
+      "after_sha256": "60b327540be1ca8ab110ce0a0cd97b9b11cf8aa8673ff3dd2104e30bc3440d0d"
+    },
+    {
+      "path": "../e1s-rebuild-20261018/group2/Main_12E1S/Main_12E1S.kicad_pcb",
+      "replacements": 2,
+      "before_sha256": "bf9e597a71e707ea5d20bc7a3e703c1da03e8e757de512d915764fc4c96f6a37",
+      "after_sha256": "645768f8bfeffa52d1a4709a3c21f62ec18858fada80ed7daa10f79b104cd075"
+    },
+    {
+      "path": "../e1s-rebuild-20261018/group2/Main_12E1S/Local.kicad_sym",
+      "replacements": 2,
+      "before_sha256": "88babddf3b72670d7c868d518387a97511acea4132ae25ab4b45725b0584e26b",
+      "after_sha256": "a9bf40c334e71f3eeae2b8a431ddef31b05ccf61132321cc71004c0bcde96e51"
+    },
+    {
+      "path": "../e1s-rebuild-20261018/group2/Main_12E1S/CONNECTIVITY.net",
+      "replacements": 4,
+      "before_sha256": "ce4f92ee53b9885243e0d1ad15ab31acf0d28c82f74a6df8813cecc745bd7590",
+      "after_sha256": "6594a132b1edcc098245a2ae60af83d0ec0f99a9d6518ce43c8c0d5e2bbf5b24"
+    },
+    {
+      "path": "../e1s-rebuild-20261018/group2/BOM.csv",
+      "replacements": 2,
+      "before_sha256": "1e092b1533b12f5fa63281cb2885930cdc739f68c3f93117ca6a6fcad3a5df4c",
+      "after_sha256": "6d005a2964473497bc91c0ae598c1a4f9d8d3d0fb454a317c0c4be1c0f5f15c6"
+    },
+    {
+      "path": "../e1s-rebuild-20261018/group2/Main_12E1S/Connectivity_53.kicad_sch",
+      "replacements": 4,
+      "before_sha256": "b0f9d41f8d548fe880d6991e5748e973e3d4cb83befe2ec523bb2630c1c1a740",
+      "after_sha256": "56703005c2cb54434676270d608a4f9267eff7ba0851676158fd95093c4e417d"
+    }
+  ],
+  "limitations": [
+    "NVM image, host SPI mode, sequencing and rail implementation remain unqualified.",
+    "MPN selection is not procurement availability or manufacturing approval."
+  ]
+}

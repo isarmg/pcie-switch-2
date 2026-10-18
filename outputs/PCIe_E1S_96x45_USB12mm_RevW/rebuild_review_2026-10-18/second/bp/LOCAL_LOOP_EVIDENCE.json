@@ -1,0 +1,19 @@
+{
+  "diagnostic_only": "All vias,zones and non-F tracks removed only in diagnostic copy; never deliver diagnostic board for integration.",
+  "paths": [
+    {
+      "from": "C9004.1",
+      "to": "U901.31",
+      "F_only_connected_without_any_via_or_zone": true,
+      "direct_track_width_mm": 0.3,
+      "direct_center_distance_mm": 1.6592543506045117
+    },
+    {
+      "from": "C9004.2",
+      "to": "U901.29",
+      "F_only_connected_without_any_via_or_zone": true,
+      "direct_track_width_mm": 0.3,
+      "direct_center_distance_mm": 1.6920771259017715
+    }
+  ]
+}

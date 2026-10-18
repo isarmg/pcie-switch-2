@@ -1,0 +1,16 @@
+{
+  "baseline_sha256": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "candidate_sha256": "8e63ae3d238fa7d9ef19cfe3c7319e1aa1b7a1d61143163c4433486e78f36ebc",
+  "removed_blocks": [],
+  "added_blocks": [
+    "\t(segment\n\t\t(start 79.88 31.6)\n\t\t(end 79.88 31)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"e6db0739-9097-4d07-b50e-8cf9e6dfda70\")\n\t)",
+    "\t(segment\n\t\t(start 77.3 30.6)\n\t\t(end 76.72 31)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_VCCPRIM_1P8\")\n\t\t(uuid \"eb3917ed-09d6-47ae-a652-896101a086e4\")\n\t)",
+    "\t(segment\n\t\t(start 75.8375 28.8)\n\t\t(end 74.1625 29.45)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_VCCPRIM_1P8\")\n\t\t(uuid \"2b74f1ff-dd21-44aa-a7df-2fe572b9e740\")\n\t)",
+    "\t(segment\n\t\t(start 78.1625 29.45)\n\t\t(end 77.3 30.6)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_VCCPRIM_1P8\")\n\t\t(uuid \"13a376ac-e00d-40fc-97d0-fe0fd958e2a0\")\n\t)",
+    "\t(segment\n\t\t(start 77.68 31.6)\n\t\t(end 79.88 31.6)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"cb17c9e8-521b-47f2-be14-c207eee86c2c\")\n\t)",
+    "\t(segment\n\t\t(start 77.68 31)\n\t\t(end 77.68 31.6)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"70301f29-3ceb-4393-8aa3-5ce1bcfb925f\")\n\t)",
+    "\t(segment\n\t\t(start 79.8375 29.45)\n\t\t(end 78.92 31)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}P3V3_AUX\")\n\t\t(uuid \"bf1d3ce9-43b5-4d7e-99c2-7b08d40db9cc\")\n\t)",
+    "\t(segment\n\t\t(start 74.1625 29.45)\n\t\t(end 76.72 31)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_VCCPRIM_1P8\")\n\t\t(uuid \"54b5710b-41f3-47c9-bf31-77c23c221b30\")\n\t)"
+  ],
+  "purpose": "Local shared C5157/C5158 bypass and U511 DIR/VCCA/U512 VCCA/VCCB copper; upstream CPU rail remains unimplemented."
+}

@@ -1,0 +1,95 @@
+{
+  "board_sha256": "0083dece575e4515719c6dc3248dbae3c60fdb5734550eb05b64d91e5e4ad6b1",
+  "native_geometry_errors": 0,
+  "native_geometry_warnings": 1,
+  "native_parity_findings": 0,
+  "ERC_errors": 43,
+  "ERC_warnings": 212,
+  "ERC_delta_note": "Same P3V3_AUX undriven error representative U511.6 to U510.6; no new undriven network.",
+  "disconnected_nets": 107,
+  "minimum_cluster_joins_before_after": [
+    1788,
+    1784
+  ],
+  "original_pad_including_NC_and_copper_net_gate_passed": true,
+  "reference_report_sha256": "7964ab7546a99e33a098bc5a58f69c0dedc7f433ee180938638bc20aede1efc3",
+  "reference_baseline_report_sha256": "eac8a99fefe971bba88af7e0cf2c6458d4192a61ddbd1ae4944b09977327928a",
+  "selected10net_full_polygon_changes": [
+    [
+      "/S12_SW_TX2_N",
+      "In13.Cu",
+      0.03710319671784937,
+      0.0
+    ],
+    [
+      "/S12_SW_TX2_P",
+      "In13.Cu",
+      0.03710644376668563,
+      0.0
+    ]
+  ],
+  "reference_unmapped": [
+    {
+      "net": "/S12_SW_TX2_N",
+      "signal_layer": "In14.Cu",
+      "adjacent_layer": "In15.Cu"
+    },
+    {
+      "net": "/S12_SW_TX2_P",
+      "signal_layer": "In14.Cu",
+      "adjacent_layer": "In15.Cu"
+    },
+    {
+      "net": "/TBT_USB2_RP_N",
+      "signal_layer": "In23.Cu",
+      "adjacent_layer": "In22.Cu"
+    },
+    {
+      "net": "/TBT_USB2_RP_N",
+      "signal_layer": "In23.Cu",
+      "adjacent_layer": "In24.Cu"
+    },
+    {
+      "net": "/TBT_USB2_RP_P",
+      "signal_layer": "In14.Cu",
+      "adjacent_layer": "In15.Cu"
+    },
+    {
+      "net": "/TBT_USB2_TOP_P",
+      "signal_layer": "In27.Cu",
+      "adjacent_layer": "In26.Cu"
+    },
+    {
+      "net": "/TBT_USB2_TOP_N",
+      "signal_layer": "In27.Cu",
+      "adjacent_layer": "In26.Cu"
+    },
+    {
+      "net": "/TBT_USB2_BOTTOM_P",
+      "signal_layer": "In16.Cu",
+      "adjacent_layer": "In15.Cu"
+    },
+    {
+      "net": "/TBT_USB2_BOTTOM_P",
+      "signal_layer": "In16.Cu",
+      "adjacent_layer": "In17.Cu"
+    },
+    {
+      "net": "/TBT_USB2_BOTTOM_N",
+      "signal_layer": "In29.Cu",
+      "adjacent_layer": "In30.Cu"
+    }
+  ],
+  "all_ground_layer_delta_independent_rerun": true,
+  "preexisting_differential_added_area_mm2": 5.9705235542877044e-09,
+  "preexisting_track_changes_at_1_5_10um_sensitivity": "All zero; tiny raw nonzero differences retained, not mathematical zero.",
+  "new_low_speed_PEX09_PG_self_antipad_area_mm2": 0.015,
+  "remaining_limitations": [
+    "S12 new source reference layer endpoint antipads retained",
+    "S12 AC-after F.Cu keeps old In1 reference slot",
+    "Unmapped layers explicitly unqualified",
+    "No SI/return/stub or manufacturing approval"
+  ],
+  "review_status": "accepted_as_incomplete_geometry_and_documented_component_ECO",
+  "production_ready": false
+}

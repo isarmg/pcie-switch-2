@@ -1,0 +1,41 @@
+{
+  "sources": {
+    "U510": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "U607": "https://www.ti.com/lit/ds/symlink/tca9548a.pdf"
+  },
+  "pin_model_files": [
+    {
+      "file": "Local.kicad_sym",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "file": "Connectivity_53.kicad_sch",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  ],
+  "changed_schematic_files": [
+    "Local.kicad_sym",
+    "Connectivity_53.kicad_sch",
+    "Connectivity_54.kicad_sch"
+  ],
+  "mux_unpopulated": true,
+  "nets_or_geometry_changed": false,
+  "limitations": [
+    "Management bus remains unimplemented; DNP does not satisfy system management requirements.",
+    "Supervisor supply/reset sequencing remain unqualified."
+  ]
+}

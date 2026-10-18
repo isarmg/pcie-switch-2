@@ -1,0 +1,22 @@
+{
+  "added": [
+    [
+      "power_pin_not_driven",
+      "error",
+      "Input Power pin not driven by any Output Power pins",
+      [
+        "Symbol U510 Pin 6 [6, Power input, Line]"
+      ]
+    ]
+  ],
+  "removed": [
+    [
+      "power_pin_not_driven",
+      "error",
+      "Input Power pin not driven by any Output Power pins",
+      [
+        "Symbol U511 Pin 6 [VCCB, Power input, Line]"
+      ]
+    ]
+  ]
+}

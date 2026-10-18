@@ -11,6 +11,7 @@ assert src.with_suffix('.kicad_pro').exists()
 assert not dst.exists(), 'Refuse overwrite'
 shutil.copyfile(src.with_suffix('.kicad_pro'),dst.with_suffix('.kicad_pro'))
 b=p.LoadBoard(str(src));fs={f.GetReference():f for f in b.GetFootprints()};added=[]
+ADDED_UUIDS=['d3f8fd25-b5ff-4146-8119-8115cb0c8c01', 'f01b9e14-2dea-4927-9c30-e6b16ae0f799', '4141d628-1ea2-438f-8ae6-bdcdc3bf8fc8', '2178db32-cc36-4781-94b1-a9153dcba8a1', 'ea9a438e-8cd2-4da6-906a-f3194b8540b6', 'aaace832-4d38-4022-b57c-e80a3797d846', '1db15030-c347-4d47-a3ba-11e8daa8177d', '8e2a5a0b-9088-4235-a7ee-542fe0d6d6ea']
 def seg(a,z,net,w):
  t=p.PCB_TRACK(b);t.SetStart(a);t.SetEnd(z);t.SetLayer(p.F_Cu);t.SetWidth(p.FromMM(w));t.SetNet(net);b.Add(t);added.append(t.m_Uuid.AsString())
 for ref in ['U31','U506']:
@@ -27,4 +28,7 @@ for t in b.GetTracks():
  if t.GetLayer()==p.F_Cu and t.GetNetname()=='{slash}AUX_12V_PROTECTED' and any((v-pads['11'].GetPosition()).EuclideanNorm()<10000 for v in pts) and t.GetLength()>p.FromMM(1):
   changed.append({'uuid':t.m_Uuid.AsString(),'old_width':p.ToMM(t.GetWidth())});t.SetWidth(p.FromMM(.5))
 p.ZONE_FILLER(b).Fill(b.Zones());p.SaveBoard(str(dst),b)
+s=dst.read_text()
+for old,new in zip(added,ADDED_UUIDS):s=s.replace(old,new)
+dst.write_text(s);added=ADDED_UUIDS.copy()
 (root/'local_power_changes.json').write_text(json.dumps({'added':added,'broadened':changed},indent=2));print(dst)

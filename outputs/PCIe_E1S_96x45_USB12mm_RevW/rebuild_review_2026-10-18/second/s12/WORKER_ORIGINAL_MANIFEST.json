@@ -1,0 +1,21 @@
+{
+  "S12_REBUILD_REPORT.md": "6d6d25ca7e4f68fe914ffefc7e024154562f3baee97a4ed6217c5c0aa6f47c6c",
+  "apply_delta.py": "45e67303ee6fcaae61f574821d5edfc7e54f0982757c88493c124afa83eb5766",
+  "s12_delta.json": "e01ab096d95fc6176aa3e420018d79c33cacbff370e1d408e6d6705b811f9750",
+  "native_audit.py": "14c5cea050f763a5151c6ac1c5e629eae43fd73a15ec32943997637bc55b5c5c",
+  "reference_audit.py": "aa172f3b53f678de66d6eb35b6179225716a7568b65253ff02cc04581622697c",
+  "compare_connectivity.py": "49b46be305b57dd78ae18a222cd862114bd02237655ef461d86a9d052343e8d3",
+  "reference_config.json": "c41519450fd1790122aca6efa67b9714e01c29e9a6295578f624ec57bf8fe793",
+  "baseline/Base.kicad_pcb": "cfd3a2a3de7bbeedeb94c3c2c9f6a1422be7a8a71141d28c105f218bc0c4ac80",
+  "baseline/Base.kicad_pro": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "baseline/native_diff.json": "c37008370df0cf33bdfc1ae1e55998249dbbf4076f33910268df542e618e90e9",
+  "baseline/reference.json": "eac8a99fefe971bba88af7e0cf2c6458d4192a61ddbd1ae4944b09977327928a",
+  "S12Fixed.kicad_pcb": "2b6d056266d9a8befefa6c3fa314d900611e8c6a32b50935dfce282093d17739",
+  "S12Fixed.kicad_pro": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "s12_fixed_drc.json": "2886085e83d2e1847fce2204c173e765cc9eb4b925b16e1dc7247287ac60ca6e",
+  "s12_parity.json": "1ab50d61ed52b1872fcfa85e7b634644c1d961839735d080ae6d21b8218af81c",
+  "s12_clusters.json": "fe88eed3161c428efeed1a20e25ac11a5409c8948f201c3d80cc3cfa37d72ad2",
+  "s12_native_diff.json": "68c5247ccefbf6058673a23e583d68b65bb8e19785265bac3425211bbf20060b",
+  "s12_reference.json": "99bda3b6cc392ad5187eceabd78dcd5b35400e037de62f51b4ff0495f269ceb0",
+  "s12_whole_chain_delta.json": "96b628177a2c2fa9c3cbcd26bf6da04472388c80b9bc7c31d82d1b2cf2799687"
+}

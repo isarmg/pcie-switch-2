@@ -20,7 +20,7 @@ CPU 为 Ultra 9 288V / 32 GB 封装内存版本；switch 使用经授权虚构�
 
 ![CPU/switch 面接口尺寸](outputs/PCIe_E1S_96x45_USB12mm_RevW/USB_12mm_CPU_Switch_View.png)
 
-当前 E1.S 从保留的第一轮源重新审查，先前未推送的后续本地快照已丢失，不能视为仓库成果。最新源 SHA 和审计入口见 CURRENT_DESIGNS.json。
+当前 E1.S 从保留的第一轮源重新审查，先前未推送的后续本地快照已丢失，不能视为仓库成果。最新已验第二组修正真实BP旁路、Flash封装料号和局部供电，仍有107断网；源 SHA 和独立审计入口见 CURRENT_DESIGNS.json。
 
 ## 独立全 M.2 版本
 

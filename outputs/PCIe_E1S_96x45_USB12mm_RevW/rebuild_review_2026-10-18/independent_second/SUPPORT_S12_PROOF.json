@@ -1,0 +1,100 @@
+{
+  "board_sha256": "0083dece575e4515719c6dc3248dbae3c60fdb5734550eb05b64d91e5e4ad6b1",
+  "native_U607_DNP_confirmed": true,
+  "native_U504_U505_SN_MPN_matches_metadata": true,
+  "U510_six_pin_metadata_model_matches_review": true,
+  "S12_actual_copper_inventory": {
+    "S12_SW_TX2_P": {
+      "track_length_by_layer_mm": {
+        "In14.Cu": 14.217296987489611
+      },
+      "total_track_length_mm": 14.217296987489611,
+      "vias": [
+        {
+          "uuid": "f5d22954-f4bd-4cfc-8541-4320197ac52e",
+          "layers": [
+            "F.Cu",
+            "In30.Cu"
+          ],
+          "xy_mm": [
+            16.32,
+            20.735
+          ]
+        },
+        {
+          "uuid": "b27c47f9-eefd-4c11-928f-b7c2baea0668",
+          "layers": [
+            "In1.Cu",
+            "B.Cu"
+          ],
+          "xy_mm": [
+            16.5,
+            7.0
+          ]
+        }
+      ],
+      "pads": [
+        "C4093.1",
+        "U1.A13"
+      ]
+    },
+    "S12_SW_TX2_N": {
+      "track_length_by_layer_mm": {
+        "In14.Cu": 14.218233978106424
+      },
+      "total_track_length_mm": 14.218233978106424,
+      "vias": [
+        {
+          "uuid": "129b812b-bf7e-43e8-ad0d-64c274971777",
+          "layers": [
+            "F.Cu",
+            "In30.Cu"
+          ],
+          "xy_mm": [
+            16.32,
+            21.335
+          ]
+        },
+        {
+          "uuid": "d1b8adcb-18d5-4507-a385-f41370ad1585",
+          "layers": [
+            "In1.Cu",
+            "B.Cu"
+          ],
+          "xy_mm": [
+            16.5,
+            8.0
+          ]
+        }
+      ],
+      "pads": [
+        "C4094.1",
+        "U1.B13"
+      ]
+    },
+    "S12_SSD_RX2_P": {
+      "track_length_by_layer_mm": {
+        "F.Cu": 1.38
+      },
+      "total_track_length_mm": 1.38,
+      "vias": [],
+      "pads": [
+        "J12.B24",
+        "C4093.2"
+      ]
+    },
+    "S12_SSD_RX2_N": {
+      "track_length_by_layer_mm": {
+        "F.Cu": 1.38
+      },
+      "total_track_length_mm": 1.38,
+      "vias": [],
+      "pads": [
+        "J12.B23",
+        "C4094.2"
+      ]
+    }
+  },
+  "scope": "Copper sums include stubs/branches, do not equal delay; not impedance or SI approval.",
+  "production_ready": false
+}
