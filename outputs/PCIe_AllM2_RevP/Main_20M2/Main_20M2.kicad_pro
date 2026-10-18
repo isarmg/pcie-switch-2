@@ -172,6 +172,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -321,16 +324,112 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "PCIe_DATA_DRAFT",
-        "pattern": "/S*_SW_*"
+        "pattern": "/M*_TX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "*}M*_TX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "/M*_RX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "*}M*_RX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "/N*_TX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "*}N*_TX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "/N*_RX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "*}N*_RX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "/CPU_PEX_TX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "*}CPU_PEX_TX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "/CPU_PEX_RX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "*}CPU_PEX_RX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "/CPU_G5_TX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "*}CPU_G5_TX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "/CPU_G5_RX*"
+      },
+      {
+        "netclass": "PCIe_DATA_DRAFT",
+        "pattern": "*}CPU_G5_RX*"
       },
       {
         "netclass": "REFCLK_DRAFT",
-        "pattern": "/S*_REFCLK*"
+        "pattern": "/M*_CLK_*"
+      },
+      {
+        "netclass": "REFCLK_DRAFT",
+        "pattern": "*}M*_CLK_*"
+      },
+      {
+        "netclass": "REFCLK_DRAFT",
+        "pattern": "/N*_CLK_*"
+      },
+      {
+        "netclass": "REFCLK_DRAFT",
+        "pattern": "*}N*_CLK_*"
+      },
+      {
+        "netclass": "REFCLK_DRAFT",
+        "pattern": "/CPU_CLKBUF*_IN_*"
+      },
+      {
+        "netclass": "REFCLK_DRAFT",
+        "pattern": "*}CPU_CLKBUF*_IN_*"
+      },
+      {
+        "netclass": "REFCLK_DRAFT",
+        "pattern": "/PEX_SYS_REFCLK_*"
+      },
+      {
+        "netclass": "REFCLK_DRAFT",
+        "pattern": "*}PEX_SYS_REFCLK_*"
+      },
+      {
+        "netclass": "REFCLK_DRAFT",
+        "pattern": "/CPU_REFCLK_*"
+      },
+      {
+        "netclass": "REFCLK_DRAFT",
+        "pattern": "*}CPU_REFCLK_*"
       }
     ]
   },

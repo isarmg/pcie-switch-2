@@ -5,6 +5,10 @@
   "power_loop_routing_complete": false,
   "impedance_validated": false,
   "thermal_qualified": false,
-  "whole_board_state": "placement and net-assignment draft; only retained CPU link has copper routing",
-  "production_ready": false
+  "whole_board_state": "partial CPU x4/refclock and four reset bias paths only; 749 physical nets disconnected",
+  "production_ready": false,
+  "four_end_slot_reset_bias_local_paths_copper_connected": true,
+  "reset_bias_input_ground_connected": false,
+  "reset_release_driver_implemented": false,
+  "latest_native_audit": "review_2026-10-18/checkpoint1/NATIVE_ALL_PAD_AUDIT.json"
 }

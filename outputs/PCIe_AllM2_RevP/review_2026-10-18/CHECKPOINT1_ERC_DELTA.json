@@ -1,0 +1,47 @@
+{
+  "added": [
+    [
+      "power_pin_not_driven",
+      "error",
+      "Input Power pin not driven by any Output Power pins",
+      [
+        "Symbol U605 Pin 6 [VDD, Power input, Line]"
+      ]
+    ],
+    [
+      "power_pin_not_driven",
+      "error",
+      "Input Power pin not driven by any Output Power pins",
+      [
+        "Symbol U31 Pin 10 [AVIN, Power input, Line]"
+      ]
+    ],
+    [
+      "power_pin_not_driven",
+      "error",
+      "Input Power pin not driven by any Output Power pins",
+      [
+        "Symbol U31 Pin 6 [AGND, Power input, Line]"
+      ]
+    ]
+  ],
+  "removed": [
+    [
+      "power_pin_not_driven",
+      "error",
+      "Input Power pin not driven by any Output Power pins",
+      [
+        "Symbol U702 Pin 1 [IN, Power input, Line]"
+      ]
+    ],
+    [
+      "power_pin_not_driven",
+      "error",
+      "Input Power pin not driven by any Output Power pins",
+      [
+        "Symbol U502 Pin A4 [VSS, Power input, Line]"
+      ]
+    ]
+  ],
+  "interpretation": "P3V3_AUX and GND existing undriven errors changed representative pins (U702.1\u2192U605.6; U502.A4\u2192U31.6). One new rail error AUX_12V_PROTECTED at U31 AVIN exposed by real model; no copper-net circuit changes."
+}

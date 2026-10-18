@@ -1,0 +1,122 @@
+{
+  "only_change": "net_settings/netclass_patterns",
+  "before": [
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "/S*_SW_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "/S*_REFCLK*"
+    }
+  ],
+  "after": [
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "/M*_TX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "*}M*_TX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "/M*_RX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "*}M*_RX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "/N*_TX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "*}N*_TX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "/N*_RX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "*}N*_RX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "/CPU_PEX_TX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "*}CPU_PEX_TX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "/CPU_PEX_RX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "*}CPU_PEX_RX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "/CPU_G5_TX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "*}CPU_G5_TX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "/CPU_G5_RX*"
+    },
+    {
+      "netclass": "PCIe_DATA_DRAFT",
+      "pattern": "*}CPU_G5_RX*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "/M*_CLK_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "*}M*_CLK_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "/N*_CLK_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "*}N*_CLK_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "/CPU_CLKBUF*_IN_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "*}CPU_CLKBUF*_IN_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "/PEX_SYS_REFCLK_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "*}PEX_SYS_REFCLK_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "/CPU_REFCLK_*"
+    },
+    {
+      "netclass": "REFCLK_DRAFT",
+      "pattern": "*}CPU_REFCLK_*"
+    }
+  ],
+  "other_project_fields_equal": true,
+  "rule_severities_unchanged": true,
+  "production_ready": false
+}

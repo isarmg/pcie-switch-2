@@ -12051,7 +12051,7 @@
       "6": "/P3V3_AUX"
     },
     "height_mm": 1.45,
-    "datasheet": "",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
     "pin_names": {
       "1": "RESET",
       "2": "GND",
@@ -12060,7 +12060,16 @@
       "5": "SENSE",
       "6": "VDD"
     },
-    "dnp": false
+    "dnp": false,
+    "pin_types": {
+      "1": "open_collector",
+      "2": "power_in",
+      "3": "input",
+      "4": "passive",
+      "5": "input",
+      "6": "power_in"
+    },
+    "erc_model_note": "Manufacturer pin functions; paralleled SW terminals represented by one driver; analog timing/bootstrap pins passive. No power-domain, startup or copper guarantee."
   },
   {
     "ref": "U604",
@@ -12612,7 +12621,8 @@
       "1": "/VBANK_A",
       "2": "/GND"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.littelfuse.com/products/tvs-diodes/surface-mount/smbj"
   },
   {
     "ref": "L31",
@@ -12626,7 +12636,8 @@
       "1": "/BUCK_SW",
       "2": "/P3V3_AUX"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.coilcraft.com/getmedia/6adcb47d-8b55-416c-976e-1e22e0d2848c/xal4000.pdf"
   },
   {
     "ref": "F2",
@@ -12640,7 +12651,8 @@
       "1": "/VIN_B",
       "2": "/VBANK_B"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.littelfuse.com/assetdocs/littelfuse_fuse_456_datasheet.pdf?assetguid=d86b18f9-14fa-4764-87ff-8aec12e9a89d"
   },
   {
     "ref": "C311",
@@ -12682,7 +12694,8 @@
       "1": "/VBANK_B",
       "2": "/GND"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.littelfuse.com/products/tvs-diodes/surface-mount/smbj"
   },
   {
     "ref": "R311",
@@ -12710,7 +12723,8 @@
       "1": "/VIN_A",
       "2": "/VBANK_A"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.littelfuse.com/assetdocs/littelfuse_fuse_456_datasheet.pdf?assetguid=d86b18f9-14fa-4764-87ff-8aec12e9a89d"
   },
   {
     "ref": "U31",
@@ -12739,7 +12753,47 @@
       "16": "/GND",
       "17": "/GND"
     },
-    "dnp": false
+    "dnp": false,
+    "pin_names": {
+      "1": "SW",
+      "2": "SW",
+      "3": "SW",
+      "4": "PG",
+      "5": "FB",
+      "6": "AGND",
+      "7": "FSW",
+      "8": "DEF",
+      "9": "SS_TR",
+      "10": "AVIN",
+      "11": "PVIN",
+      "12": "PVIN",
+      "13": "EN",
+      "14": "VOS",
+      "15": "PGND",
+      "16": "PGND",
+      "17": "EP_GND"
+    },
+    "pin_types": {
+      "1": "power_out",
+      "2": "passive",
+      "3": "passive",
+      "4": "open_collector",
+      "5": "input",
+      "6": "power_in",
+      "7": "input",
+      "8": "input",
+      "9": "passive",
+      "10": "power_in",
+      "11": "power_in",
+      "12": "power_in",
+      "13": "input",
+      "14": "input",
+      "15": "power_in",
+      "16": "power_in",
+      "17": "power_in"
+    },
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps62130.pdf",
+    "erc_model_note": "Manufacturer pin functions; paralleled SW terminals represented by one driver; analog timing/bootstrap pins passive. No power-domain, startup or copper guarantee."
   },
   {
     "ref": "U30",
@@ -12761,7 +12815,8 @@
       "9": "/AUX_ILM",
       "10": "unconnected-(U30-ITIMER-Pad10)"
     },
-    "dnp": false
+    "dnp": false,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
   },
   {
     "ref": "R303",
@@ -15398,14 +15453,15 @@
     },
     "pin_types": {
       "1": "power_in",
-      "2": "output",
+      "2": "power_out",
       "3": "power_in",
       "4": "input",
       "5": "input",
-      "6": "output"
+      "6": "passive"
     },
     "status": "12V to 3.3V 4A design budget, 5A IC; power-loop routing and thermal validation pending",
-    "rotation_deg": 0.0
+    "rotation_deg": 0.0,
+    "erc_model_note": "Manufacturer pin functions; paralleled SW terminals represented by one driver; analog timing/bootstrap pins passive. No power-domain, startup or copper guarantee."
   },
   {
     "ref": "L3001",
@@ -15824,14 +15880,15 @@
     },
     "pin_types": {
       "1": "power_in",
-      "2": "output",
+      "2": "power_out",
       "3": "power_in",
       "4": "input",
       "5": "input",
-      "6": "output"
+      "6": "passive"
     },
     "status": "12V to 3.3V 4A design budget, 5A IC; power-loop routing and thermal validation pending",
-    "rotation_deg": 0.0
+    "rotation_deg": 0.0,
+    "erc_model_note": "Manufacturer pin functions; paralleled SW terminals represented by one driver; analog timing/bootstrap pins passive. No power-domain, startup or copper guarantee."
   },
   {
     "ref": "L3002",
@@ -16250,14 +16307,15 @@
     },
     "pin_types": {
       "1": "power_in",
-      "2": "output",
+      "2": "power_out",
       "3": "power_in",
       "4": "input",
       "5": "input",
-      "6": "output"
+      "6": "passive"
     },
     "status": "12V to 3.3V 4A design budget, 5A IC; power-loop routing and thermal validation pending",
-    "rotation_deg": 0.0
+    "rotation_deg": 0.0,
+    "erc_model_note": "Manufacturer pin functions; paralleled SW terminals represented by one driver; analog timing/bootstrap pins passive. No power-domain, startup or copper guarantee."
   },
   {
     "ref": "L3003",
@@ -16676,14 +16734,15 @@
     },
     "pin_types": {
       "1": "power_in",
-      "2": "output",
+      "2": "power_out",
       "3": "power_in",
       "4": "input",
       "5": "input",
-      "6": "output"
+      "6": "passive"
     },
     "status": "12V to 3.3V 4A design budget, 5A IC; power-loop routing and thermal validation pending",
-    "rotation_deg": 0.0
+    "rotation_deg": 0.0,
+    "erc_model_note": "Manufacturer pin functions; paralleled SW terminals represented by one driver; analog timing/bootstrap pins passive. No power-domain, startup or copper guarantee."
   },
   {
     "ref": "L3004",
@@ -24813,5 +24872,73 @@
     "datasheet": "",
     "pin_names": {},
     "rotation_deg": 0.0
+  },
+  {
+    "ref": "R3005",
+    "value": "100k / RESET BIAS ONLY - RELEASE DRIVER PENDING",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M1_PERST",
+      "2": "/GND"
+    },
+    "x": 6,
+    "y": 28,
+    "side": "F",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 270,
+    "status": "Locally copper-connected passive reset bias; no reset-release driver; fabrication process not qualified"
+  },
+  {
+    "ref": "R3015",
+    "value": "100k / RESET BIAS ONLY - RELEASE DRIVER PENDING",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M2_PERST",
+      "2": "/GND"
+    },
+    "x": 12,
+    "y": 28,
+    "side": "F",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 270,
+    "status": "Locally copper-connected passive reset bias; no reset-release driver; fabrication process not qualified"
+  },
+  {
+    "ref": "R3025",
+    "value": "100k / RESET BIAS ONLY - RELEASE DRIVER PENDING",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_PERST",
+      "2": "/GND"
+    },
+    "x": 108,
+    "y": 28,
+    "side": "F",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 270,
+    "status": "Locally copper-connected passive reset bias; no reset-release driver; fabrication process not qualified"
+  },
+  {
+    "ref": "R3035",
+    "value": "100k / RESET BIAS ONLY - RELEASE DRIVER PENDING",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M4_PERST",
+      "2": "/GND"
+    },
+    "x": 114,
+    "y": 28,
+    "side": "F",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 270,
+    "status": "Locally copper-connected passive reset bias; no reset-release driver; fabrication process not qualified"
   }
 ]

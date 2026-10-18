@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "/workspace/scratch/08a6fde47383/m2-independent/baseline/Main_20M2/Main_20M2.kicad_pcb": "6eb773112fd87ea2929aca50dde720efad14e64818e24825c988e15aba79d56a",
+    "outputs/PCIe_AllM2_RevP/Main_20M2/Main_20M2.kicad_pcb": "63f96e5672b22c72ac05c3503155206c7a11ba218e2cc231bb76d9337942048c",
+    "outputs/PCIe_AllM2_RevP/review_2026-10-18/checkpoint1/NATIVE_NET_NAME_MAPPING.json": "c4a890f571947639a33ee772fd4966854625ca8c1dac39a1c2185cc1d11e56fc",
+    "outputs/PCIe_AllM2_RevP/review_2026-10-18/checkpoint1/NATIVE_CONNECTIVITY.net": "f591a7d78ad0a26ff9e5f553e7a07e29d10826127bd4d644de1f9f9a8169322b",
+    "/workspace/scratch/08a6fde47383/m2-independent/baseline/Main_20M2/Main_20M2.kicad_pro": "1506174ea1d680dd788bfc447500dd1b54a8313aa19bfeb292194399aa4ad504",
+    "outputs/PCIe_AllM2_RevP/Main_20M2/Main_20M2.kicad_pro": "e94e22c70b642ad42c1f0641ce86cb68952a7e70846865b75231cf5960046e49"
+  },
+  "script_sha256": "e7b0c5d388baa05808882717bce6f97352dc952479f946d1f27e74f26c7b4594",
+  "precise_bijective_name_ECO_passed": true,
+  "official_ref_pin_nodes": 7540,
+  "pad_shapes_unchanged": 7558,
+  "copper_UUID_geometry_unchanged": 546,
+  "all_physical_pad_clusters_unchanged": true,
+  "renamed_net_count": 1644,
+  "ordinary_literal_net_gate_still_separate": true,
+  "production_ready": false
+}

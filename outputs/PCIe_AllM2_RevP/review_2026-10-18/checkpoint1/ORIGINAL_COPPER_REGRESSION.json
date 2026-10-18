@@ -1,0 +1,78 @@
+{
+  "board_sha256": "63f96e5672b22c72ac05c3503155206c7a11ba218e2cc231bb76d9337942048c",
+  "baseline_sha256": "4a77155c9380b25c80baedd9b3978eae1aa64077a797db697f8dfd4104b9a4aa",
+  "baseline_copper_objects_unchanged": 510,
+  "new_copper_objects": 36,
+  "reset_bias_local_connections": [
+    {
+      "port": "M1",
+      "ref": "R3005",
+      "connector_pin50_to_pull_down_copper_connected": true,
+      "pull_down_to_connector_pin51_copper_connected": true,
+      "ground_connected_to_input_J11_or_J12": false,
+      "reset_release_driver_implemented": false,
+      "signal_cluster": [
+        "J501.50",
+        "R3005.1"
+      ],
+      "ground_cluster": [
+        "J501.51",
+        "R3005.2"
+      ]
+    },
+    {
+      "port": "M2",
+      "ref": "R3015",
+      "connector_pin50_to_pull_down_copper_connected": true,
+      "pull_down_to_connector_pin51_copper_connected": true,
+      "ground_connected_to_input_J11_or_J12": false,
+      "reset_release_driver_implemented": false,
+      "signal_cluster": [
+        "J502.50",
+        "R3015.1"
+      ],
+      "ground_cluster": [
+        "J502.51",
+        "R3015.2"
+      ]
+    },
+    {
+      "port": "M3",
+      "ref": "R3025",
+      "connector_pin50_to_pull_down_copper_connected": true,
+      "pull_down_to_connector_pin51_copper_connected": true,
+      "ground_connected_to_input_J11_or_J12": false,
+      "reset_release_driver_implemented": false,
+      "signal_cluster": [
+        "J503.50",
+        "R3025.1"
+      ],
+      "ground_cluster": [
+        "J503.51",
+        "R3025.2"
+      ]
+    },
+    {
+      "port": "M4",
+      "ref": "R3035",
+      "connector_pin50_to_pull_down_copper_connected": true,
+      "pull_down_to_connector_pin51_copper_connected": true,
+      "ground_connected_to_input_J11_or_J12": false,
+      "reset_release_driver_implemented": false,
+      "signal_cluster": [
+        "J504.50",
+        "R3035.1"
+      ],
+      "ground_cluster": [
+        "J504.51",
+        "R3035.2"
+      ]
+    }
+  ],
+  "netclass_counts": {
+    "PCIe_DATA_DRAFT": 512,
+    "REFCLK_DRAFT": 50
+  },
+  "netclass_numeric_rules_impedance_qualified": false,
+  "production_ready": false
+}

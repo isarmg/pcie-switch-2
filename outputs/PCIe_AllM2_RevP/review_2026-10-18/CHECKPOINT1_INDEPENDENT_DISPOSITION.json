@@ -1,0 +1,18 @@
+{
+  "board_sha256": "63f96e5672b22c72ac05c3503155206c7a11ba218e2cc231bb76d9337942048c",
+  "project_sha256": "e94e22c70b642ad42c1f0641ce86cb68952a7e70846865b75231cf5960046e49",
+  "native_geometry_errors": 0,
+  "native_parity_findings": 0,
+  "ERC_errors": 47,
+  "ERC_warnings": 104,
+  "disconnected_non_NC_nets": 749,
+  "minimum_non_NC_cluster_joins": 5405,
+  "generic_literal_gate_passed": false,
+  "generic_rejection_reason": "Intentional 1644 net spelling/NC identity naming changes and netclass pattern project change. Preserved as separate result.",
+  "exact_name_ECO_passed": true,
+  "geometry_and_saved_zone_fills_unchanged": true,
+  "all_old_physical_pad_clusters_unchanged": true,
+  "project_delta": "Only actual M2 netclass_patterns; numeric rules and severity settings unchanged.",
+  "scope": "Consistency and accurate pin modeling checkpoint; no routing completion or functional qualification.",
+  "production_ready": false
+}

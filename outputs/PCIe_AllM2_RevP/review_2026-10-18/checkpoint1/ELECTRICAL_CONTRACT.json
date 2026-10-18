@@ -1,0 +1,896 @@
+{
+  "scope": "Static assignments only. Does not establish copper connectivity or hardware operation.",
+  "production_ready": false,
+  "checks": {
+    "pcb_metadata": 7540,
+    "exported_netlist": 6341,
+    "lane_endpoint": 320,
+    "connector_endpoint": 320,
+    "tx_ac_coupling": 160,
+    "slot_power": 180,
+    "clock_assignment": 40,
+    "lane_budget": 1,
+    "module_dnc": 32,
+    "module_vout": 16
+  },
+  "contract_failures": [],
+  "reset_networks": [
+    {
+      "port": "M1",
+      "nodes": [
+        [
+          "R3005",
+          "1"
+        ],
+        [
+          "J501",
+          "50"
+        ]
+      ],
+      "pulldowns": [
+        "R3005"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 5
+    },
+    {
+      "port": "M2",
+      "nodes": [
+        [
+          "R3015",
+          "1"
+        ],
+        [
+          "J502",
+          "50"
+        ]
+      ],
+      "pulldowns": [
+        "R3015"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 5
+    },
+    {
+      "port": "M3",
+      "nodes": [
+        [
+          "J503",
+          "50"
+        ],
+        [
+          "R3025",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R3025"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 5
+    },
+    {
+      "port": "M4",
+      "nodes": [
+        [
+          "J504",
+          "50"
+        ],
+        [
+          "R3035",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R3035"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 5
+    },
+    {
+      "port": "N01",
+      "nodes": [
+        [
+          "J6001",
+          "50"
+        ],
+        [
+          "R5015",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5015"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N02",
+      "nodes": [
+        [
+          "J6002",
+          "50"
+        ],
+        [
+          "R5025",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5025"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N03",
+      "nodes": [
+        [
+          "J6003",
+          "50"
+        ],
+        [
+          "R5035",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5035"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N04",
+      "nodes": [
+        [
+          "J6004",
+          "50"
+        ],
+        [
+          "R5045",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5045"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N05",
+      "nodes": [
+        [
+          "J6005",
+          "50"
+        ],
+        [
+          "R5055",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5055"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N06",
+      "nodes": [
+        [
+          "J6006",
+          "50"
+        ],
+        [
+          "R5065",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5065"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N07",
+      "nodes": [
+        [
+          "J6007",
+          "50"
+        ],
+        [
+          "R5075",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5075"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N08",
+      "nodes": [
+        [
+          "J6008",
+          "50"
+        ],
+        [
+          "R5085",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5085"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N09",
+      "nodes": [
+        [
+          "J6009",
+          "50"
+        ],
+        [
+          "R5095",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5095"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N10",
+      "nodes": [
+        [
+          "J6010",
+          "50"
+        ],
+        [
+          "R5105",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5105"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N11",
+      "nodes": [
+        [
+          "J6011",
+          "50"
+        ],
+        [
+          "R5115",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5115"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N12",
+      "nodes": [
+        [
+          "J6012",
+          "50"
+        ],
+        [
+          "R5125",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5125"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N13",
+      "nodes": [
+        [
+          "J6013",
+          "50"
+        ],
+        [
+          "R5135",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5135"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N14",
+      "nodes": [
+        [
+          "J6014",
+          "50"
+        ],
+        [
+          "R5145",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5145"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N15",
+      "nodes": [
+        [
+          "J6015",
+          "50"
+        ],
+        [
+          "R5155",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5155"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    },
+    {
+      "port": "N16",
+      "nodes": [
+        [
+          "J6016",
+          "50"
+        ],
+        [
+          "R5165",
+          "1"
+        ]
+      ],
+      "pulldowns": [
+        "R5165"
+      ],
+      "verified_release_drivers": [],
+      "copper_objects_on_net": 0
+    }
+  ],
+  "clock_assignments": [
+    {
+      "net": "/M1_CLK_P",
+      "buffer_pin": [
+        [
+          "U602",
+          "25"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/M1_CLK_N",
+      "buffer_pin": [
+        [
+          "U602",
+          "26"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/M2_CLK_P",
+      "buffer_pin": [
+        [
+          "U602",
+          "28"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/M2_CLK_N",
+      "buffer_pin": [
+        [
+          "U602",
+          "29"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/M3_CLK_P",
+      "buffer_pin": [
+        [
+          "U602",
+          "32"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/M3_CLK_N",
+      "buffer_pin": [
+        [
+          "U602",
+          "33"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/M4_CLK_P",
+      "buffer_pin": [
+        [
+          "U602",
+          "35"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/M4_CLK_N",
+      "buffer_pin": [
+        [
+          "U602",
+          "36"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N01_CLK_P",
+      "buffer_pin": [
+        [
+          "U601",
+          "16"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N01_CLK_N",
+      "buffer_pin": [
+        [
+          "U601",
+          "17"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N02_CLK_P",
+      "buffer_pin": [
+        [
+          "U601",
+          "21"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N02_CLK_N",
+      "buffer_pin": [
+        [
+          "U601",
+          "22"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N03_CLK_P",
+      "buffer_pin": [
+        [
+          "U601",
+          "25"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N03_CLK_N",
+      "buffer_pin": [
+        [
+          "U601",
+          "26"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N04_CLK_P",
+      "buffer_pin": [
+        [
+          "U601",
+          "28"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N04_CLK_N",
+      "buffer_pin": [
+        [
+          "U601",
+          "29"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N05_CLK_P",
+      "buffer_pin": [
+        [
+          "U601",
+          "32"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N05_CLK_N",
+      "buffer_pin": [
+        [
+          "U601",
+          "33"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N06_CLK_P",
+      "buffer_pin": [
+        [
+          "U601",
+          "35"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N06_CLK_N",
+      "buffer_pin": [
+        [
+          "U601",
+          "36"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N07_CLK_P",
+      "buffer_pin": [
+        [
+          "U601",
+          "39"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N07_CLK_N",
+      "buffer_pin": [
+        [
+          "U601",
+          "40"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N08_CLK_P",
+      "buffer_pin": [
+        [
+          "U602",
+          "13"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N08_CLK_N",
+      "buffer_pin": [
+        [
+          "U602",
+          "14"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N09_CLK_P",
+      "buffer_pin": [
+        [
+          "U602",
+          "16"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N09_CLK_N",
+      "buffer_pin": [
+        [
+          "U602",
+          "17"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N10_CLK_P",
+      "buffer_pin": [
+        [
+          "U602",
+          "21"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N10_CLK_N",
+      "buffer_pin": [
+        [
+          "U602",
+          "22"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N11_CLK_P",
+      "buffer_pin": [
+        [
+          "U602",
+          "39"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N11_CLK_N",
+      "buffer_pin": [
+        [
+          "U602",
+          "40"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N12_CLK_P",
+      "buffer_pin": [
+        [
+          "U6501",
+          "13"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N12_CLK_N",
+      "buffer_pin": [
+        [
+          "U6501",
+          "14"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N13_CLK_P",
+      "buffer_pin": [
+        [
+          "U6501",
+          "16"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N13_CLK_N",
+      "buffer_pin": [
+        [
+          "U6501",
+          "17"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N14_CLK_P",
+      "buffer_pin": [
+        [
+          "U6501",
+          "21"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N14_CLK_N",
+      "buffer_pin": [
+        [
+          "U6501",
+          "22"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N15_CLK_P",
+      "buffer_pin": [
+        [
+          "U6501",
+          "25"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N15_CLK_N",
+      "buffer_pin": [
+        [
+          "U6501",
+          "26"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N16_CLK_P",
+      "buffer_pin": [
+        [
+          "U6501",
+          "28"
+        ]
+      ],
+      "copper_objects": 0
+    },
+    {
+      "net": "/N16_CLK_N",
+      "buffer_pin": [
+        [
+          "U6501",
+          "29"
+        ]
+      ],
+      "copper_objects": 0
+    }
+  ],
+  "slot_rails": [
+    {
+      "rail": "/M1_3V3",
+      "nodes": 16,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/M2_3V3",
+      "nodes": 16,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/M3_3V3",
+      "nodes": 16,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/M4_3V3",
+      "nodes": 16,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N01_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N02_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N03_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N04_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N05_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N06_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N07_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N08_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N09_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N10_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N11_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N12_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N13_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N14_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N15_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    },
+    {
+      "rail": "/N16_3V3",
+      "nodes": 18,
+      "copper_objects": 0
+    }
+  ],
+  "blocking_findings": [
+    "No verified PERST release driver on any of the 20 slots.",
+    "CPU PMIC, reset sequencing, clock enable firmware and switch port configuration remain incomplete.",
+    "Custom power USB connector is not connected to the main bus.",
+    "Mechanical-only JHL9580 has no electrical implementation.",
+    "No impedance, skew, copper current, thermal or connector qualification is established."
+  ],
+  "inputs_sha256": {
+    "Main_20M2.kicad_pcb": "63f96e5672b22c72ac05c3503155206c7a11ba218e2cc231bb76d9337942048c",
+    "COMPONENTS.json": "26abe05be3dfd1404ec7ac52d6949b3b38e37eebe1384d1613a55edc80f52ee7",
+    "CONNECTIVITY.net": "61ff4f01ba953c9138166dedee9c371b71e38cf973ce3a9d60d598d36e4949fc",
+    "M2_PORTS.json": "d6ec4bd10691d628bd2f442e0cb13508d2580d73a6d9e9710451570d640acd37"
+  }
+}
