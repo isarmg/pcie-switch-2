@@ -1,0 +1,67 @@
+{
+  "exclusive_layer": "In5.Cu",
+  "net": "/VBANK_A",
+  "moved_signal_sections": [
+    {
+      "net": "/CPU_PEX_RX2_P",
+      "from_layer": "In5.Cu",
+      "to_layer": "In7.Cu"
+    },
+    {
+      "net": "/CPU_G5_TX2_P",
+      "from_layer": "In5.Cu",
+      "to_layer": "In7.Cu"
+    },
+    {
+      "net": "/CPU_G5_TX2_N",
+      "from_layer": "In5.Cu",
+      "to_layer": "In7.Cu"
+    },
+    {
+      "net": "/TBT_RESET_CT",
+      "from_layer": "In5.Cu",
+      "to_layer": "In16.Cu"
+    },
+    {
+      "net": "/S06_SW_TX0_P",
+      "from_layer": "In5.Cu",
+      "to_layer": "In11.Cu"
+    },
+    {
+      "net": "/S09_SW_RX2_P",
+      "from_layer": "In5.Cu",
+      "to_layer": "In7.Cu"
+    },
+    {
+      "net": "/S12_SW_RX3_P",
+      "from_layer": "In5.Cu",
+      "to_layer": "In3.Cu"
+    },
+    {
+      "net": "/S11_SW_TX0_N",
+      "from_layer": "In5.Cu",
+      "to_layer": "In15.Cu"
+    },
+    {
+      "net": "/S10_SSD_RX1_P",
+      "from_layer": "In5.Cu",
+      "to_layer": "In12.Cu"
+    },
+    {
+      "net": "/S10_SSD_RX0_P",
+      "from_layer": "In5.Cu",
+      "to_layer": "In16.Cu"
+    },
+    {
+      "net": "/S03_SW_RX0_N",
+      "from_layer": "In5.Cu",
+      "to_layer": "In16.Cu"
+    },
+    {
+      "net": "/S10_REFCLK0_N",
+      "from_layer": "In5.Cu",
+      "to_layer": "In3.Cu"
+    }
+  ],
+  "current_rating_qualified": false
+}

@@ -1,0 +1,62 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-29T16:56:16",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/3e59c607-0fb9-421b-9f08-8185efa2789c",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 01/",
+            "uuid_path": "/3e59c607-0fb9-421b-9f08-8185efa2789c/6b937473-79e5-4dd7-92c8-568b5814de82",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 02/",
+            "uuid_path": "/3e59c607-0fb9-421b-9f08-8185efa2789c/2083bd4a-69e7-4662-ba4f-9abf1ee04a5c",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 03/",
+            "uuid_path": "/3e59c607-0fb9-421b-9f08-8185efa2789c/a59c5fb6-bdf3-4e53-bc71-a6475fe4467d",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 04/",
+            "uuid_path": "/3e59c607-0fb9-421b-9f08-8185efa2789c/afdfd13c-9f5a-44e6-9b7a-2fffe6043a55",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 05/",
+            "uuid_path": "/3e59c607-0fb9-421b-9f08-8185efa2789c/bc966c41-0d89-417e-8dbb-ed906d481f2b",
+            "violations": []
+        }
+    ],
+    "source": "Right_M2_Upstream.kicad_sch"
+}

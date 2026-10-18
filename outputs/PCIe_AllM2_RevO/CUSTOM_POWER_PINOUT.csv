@@ -1,0 +1,26 @@
+﻿Contact,Function,Note
+A1,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A2,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A3,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A4,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A5,/CUSTOM_DET_A,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A6,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A7,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A8,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A9,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A10,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A11,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+A12,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B1,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B2,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B3,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B4,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B5,/CUSTOM_DET_B,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B6,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B7,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B8,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B9,/CUSTOM_12V_RAW,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B10,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B11,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+B12,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified
+SH,/GND,PROPRIETARY 12V ONLY; NOT USB/PD; contact current unqualified

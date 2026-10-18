@@ -1,0 +1,170 @@
+(footprint "R_0201_DenseCourtyard_1p0x0p4"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Stock KiCad 0201 copper/paste/model, reduced 1.0x0.4mm courtyard; dense assembly requires qualification.")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0 -1.05 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aee2b107-9c3d-4bff-8380-3b16a5fd9f5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_0201_0603Metric"
+		(at 0 1.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85dfadb3-9dbc-46f1-a630-46327c62b66e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35b499e8-ff1c-4317-83e0-1f4337657393")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad0cc9fb-c635-4d81-8db6-94d5eab33051")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a7aea8f8-b428-4b6d-aa8e-23a2ceeec75a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5 -0.2)
+		(end 0.5 -0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d06565c-7492-424a-84c6-1229c5248fb1")
+	)
+	(fp_line
+		(start -0.5 0.2)
+		(end -0.5 -0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5e48cb9-1458-43fb-8555-80b220681df7")
+	)
+	(fp_line
+		(start 0.5 -0.2)
+		(end 0.5 0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "81145895-b499-41ad-9e00-fd738c3db3c6")
+	)
+	(fp_line
+		(start 0.5 0.2)
+		(end -0.5 0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "18d19812-7485-4bcc-9882-66e38f729610")
+	)
+	(fp_rect
+		(start -0.3 -0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "af678393-bc63-4a1b-83c4-94a805561013")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.68 0)
+		(layer "F.Fab")
+		(uuid "e015db19-762c-4bd7-b50c-46970e96bd50")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.345 0)
+		(size 0.318 0.36)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "719f048e-f0a7-44d5-bcc5-cb53b11095cc")
+	)
+	(pad "" smd roundrect
+		(at 0.345 0)
+		(size 0.318 0.36)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7ad37655-4e58-47ec-a571-5bab980dcf95")
+	)
+	(pad "1" smd roundrect
+		(at -0.32 0)
+		(size 0.46 0.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3309e12d-7b21-4aa7-8c90-a22d467b00aa")
+	)
+	(pad "2" smd roundrect
+		(at 0.32 0)
+		(size 0.46 0.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b9ee1489-b8dd-4d73-80f7-399669b5f607")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/R_0201_0603Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

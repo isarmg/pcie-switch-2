@@ -1,0 +1,67 @@
+{
+  "revision": "K",
+  "production_ready": false,
+  "electrical_design_complete": false,
+  "main_routing_complete": false,
+  "pcie_gen4_qualified": false,
+  "thunderbolt5_qualified": false,
+  "custom_power_full_load_qualified": false,
+  "cpu_and_tb_controller_ballmaps_verified": false,
+  "boards": {
+    "Main_10E1S": {
+      "size_mm": [
+        110.0,
+        45.0
+      ],
+      "copper_layers": 32,
+      "footprints": 211,
+      "schematic_pin_nets_crosschecked": 2611,
+      "netlist_matches": true,
+      "drc_violations_by_type": {},
+      "reported_unconnected_items": 499,
+      "erc_errors": 0,
+      "erc_warnings": 325,
+      "state": "unrouted main placement"
+    },
+    "Left_2M2_Vertical": {
+      "size_mm": [
+        19.5,
+        45.0
+      ],
+      "copper_layers": 32,
+      "footprints": 92,
+      "schematic_pin_nets_crosschecked": 368,
+      "netlist_matches": true,
+      "drc_violations_by_type": {},
+      "reported_unconnected_items": 0,
+      "erc_errors": 0,
+      "erc_warnings": 0,
+      "state": "unchanged Rev J CAD"
+    },
+    "Right_M2_Upstream": {
+      "size_mm": [
+        19.5,
+        45.0
+      ],
+      "copper_layers": 32,
+      "footprints": 81,
+      "schematic_pin_nets_crosschecked": 332,
+      "netlist_matches": true,
+      "drc_violations_by_type": {},
+      "reported_unconnected_items": 0,
+      "erc_errors": 0,
+      "erc_warnings": 0,
+      "state": "unchanged Rev J CAD"
+    }
+  },
+  "real_pex1550_pinmap_crosschecked": true,
+  "all_usb_vertical": true,
+  "usb_pcb_rotation_deg": 90,
+  "usb_geometry_reference_height_mm": 7.46,
+  "usb_height_within_8mm": true,
+  "custom_power_main_bus_connected": false,
+  "lanes_per_side": 12,
+  "links_per_side": "3 independent x4",
+  "cable_pair_count": 54,
+  "cable_map_crosschecked": true
+}

@@ -1,0 +1,54 @@
+{
+  "revision": "V",
+  "source_revision": "U",
+  "board": "Main_12E1S",
+  "main_mm": [
+    96,
+    45
+  ],
+  "e1s_slots": 12,
+  "e1s_pitch_mm": 8,
+  "e1s_origin_y_mm": 26.54,
+  "nominal_seated_ssd_side_to_bottom_gap_mm": 7.25,
+  "m2_slots": 0,
+  "daughterboards": 0,
+  "mounting_or_locator_holes": 0,
+  "cpu": "Ultra 9 288V / 32GB MoP",
+  "switch": "FICTIONAL PEX90064 33x33mm / 1024 balls / 64 lanes",
+  "input_V": 12,
+  "input_feeds": "J101 and J102 solder terminals, same supply, independent 20A-budget positive and return cables",
+  "main_input_USB_connected": false,
+  "ssd_power_budget_W": 300,
+  "ssd_input_budget_A": 25,
+  "slot_protection_channels": 12,
+  "auxiliary_bucks_V": [
+    3.3,
+    5
+  ],
+  "auxiliary_buck_IC_current_limit_A": [
+    3,
+    3
+  ],
+  "dedicated_power_layers": {
+    "In5.Cu": "VBANK_A",
+    "In6.Cu": "VBANK_B"
+  },
+  "power_local_controls_copper_connected": true,
+  "power_net_count_checked": 79,
+  "power_pad_connections_checked": 1061,
+  "signal_sections_copper_verified": 523,
+  "moved_signal_sections_for_power_planes": 27,
+  "low_profile_power_components": true,
+  "cpu_dynamic_vr_implemented": false,
+  "fictional_switch_core_supply_implemented": false,
+  "tbt_internal_supply_distribution_complete": false,
+  "whole_board_power_routing_complete": false,
+  "current_and_thermal_qualified": false,
+  "SI_qualified": false,
+  "blind_via_stackup_qualified": false,
+  "production_ready": false,
+  "reported_unconnected": 499,
+  "unconnected_report_may_be_capped": true,
+  "erc_errors": 42,
+  "erc_warnings": 212
+}

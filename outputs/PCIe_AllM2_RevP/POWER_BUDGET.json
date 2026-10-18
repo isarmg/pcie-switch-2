@@ -1,0 +1,23 @@
+{
+  "input_V": 12,
+  "ssd_slots": 20,
+  "per_slot_V": 3.3,
+  "per_slot_A": 4,
+  "total_ssd_output_W": 264,
+  "total_ssd_output_A": 80,
+  "assumed_conversion_efficiency_for_budget": 0.85,
+  "ssd_input_W_budget": 310.59,
+  "platform_reserve_W": 85,
+  "input_current_A_budget": 32.97,
+  "input_design_target_A": 50,
+  "input_feeds_A": [
+    25,
+    25
+  ],
+  "new_module": "TPSM53604RDAR x16",
+  "existing_end_slot_regulators": "TPS565201 x4",
+  "input_copper_cable_fuse_thermal_qualified": false,
+  "output_capacitance_effective_min_uF": 52,
+  "output_capacitors_nominal_uF_per_new_regulator": 188,
+  "dc_bias_and_thermal_qualified": false
+}

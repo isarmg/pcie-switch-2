@@ -1,0 +1,11 @@
+{
+  "cpu_x4_and_refclock_copper_connections": 34,
+  "m2_net_assignments_complete": true,
+  "m2_copper_routing_complete": false,
+  "power_loop_routing_complete": false,
+  "whole_board_state": "partial CPU link routing; most power/support/downstream nets remain unrouted",
+  "length_tuning_complete": false,
+  "impedance_validated": false,
+  "blind_via_stackup_validated": false,
+  "production_ready": false
+}

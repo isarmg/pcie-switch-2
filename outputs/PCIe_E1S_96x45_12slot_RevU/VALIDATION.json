@@ -1,0 +1,485 @@
+{
+  "revision": "U",
+  "main_mm": [
+    96.0,
+    45.0
+  ],
+  "e1s_slots": 12,
+  "e1s_pitch_mm": 8,
+  "e1s_origin_y_mm": 26.54,
+  "nominal_seated_ssd_side_to_bottom_gap_mm": 7.25,
+  "nominal_opposite_side_gap_mm": 6.25,
+  "side_clearance_includes_manufacturing_tolerances": false,
+  "m2_slots": 0,
+  "daughterboards": 0,
+  "mounting_or_locator_holes": 0,
+  "cpu": "Ultra 9 288V 32GB",
+  "switch": "FICTIONAL PEX90064 33x33mm / 1024 balls / 64 lanes",
+  "allocated_lanes_cpu": 4,
+  "allocated_lanes_ssd": 48,
+  "spare_lanes": 12,
+  "ssd_power_budget_W": 300,
+  "ssd_12V_current_budget_A": 25,
+  "power_routing_and_thermal_qualified": false,
+  "copper_layers": 32,
+  "footprints": 525,
+  "schematic_connected_pins_crosschecked": 5604,
+  "signal_sections_verified_through_actual_copper": 523,
+  "geometric_drc_violations": 0,
+  "reported_unconnected": 499,
+  "unconnected_report_may_be_capped": true,
+  "erc_errors": 42,
+  "erc_warnings": 212,
+  "step_native_roundtrip_passed": true,
+  "whole_board_power_cpu_pmic_boot_firmware_complete": false,
+  "si_impedance_coupling_skew_qualified": false,
+  "blind_via_buildup_qualified": false,
+  "production_ready": false,
+  "differential_sections_with_P_N_on_different_layers": {
+    "/CPU_PEX_RX1": {
+      "N": "In3.Cu",
+      "P": "In9.Cu"
+    },
+    "/CPU_PEX_RX2": {
+      "P": "In5.Cu",
+      "N": "In22.Cu"
+    },
+    "/CPU_G5_RX3": {
+      "P": "In12.Cu",
+      "N": "In28.Cu"
+    },
+    "/CPU_CLKBUF2_IN": {
+      "N": "In15.Cu",
+      "P": "In16.Cu"
+    },
+    "/S12_REFCLK0": {
+      "N": "In1.Cu",
+      "P": "In27.Cu"
+    },
+    "/S01_REFCLK0": {
+      "N": "In29.Cu",
+      "P": "In3.Cu"
+    },
+    "/S06_SW_TX0": {
+      "N": "In19.Cu",
+      "P": "In5.Cu"
+    },
+    "/S06_SW_TX1": {
+      "N": "In26.Cu",
+      "P": "In1.Cu"
+    },
+    "/S06_SW_TX2": {
+      "N": "In23.Cu",
+      "P": "In4.Cu"
+    },
+    "/S06_SW_TX3": {
+      "N": "In22.Cu",
+      "P": "In27.Cu"
+    },
+    "/S10_SW_TX3": {
+      "N": "In21.Cu",
+      "P": "In24.Cu"
+    },
+    "/S10_SW_RX0": {
+      "N": "In3.Cu",
+      "P": "In13.Cu"
+    },
+    "/S10_SW_RX2": {
+      "P": "In16.Cu",
+      "N": "In2.Cu"
+    },
+    "/S10_SW_RX1": {
+      "P": "In11.Cu",
+      "N": "In9.Cu"
+    },
+    "/S10_SW_RX3": {
+      "N": "In11.Cu",
+      "P": "In30.Cu"
+    },
+    "/S10_SW_TX2": {
+      "N": "In27.Cu",
+      "P": "In25.Cu"
+    },
+    "/S10_SW_TX0": {
+      "P": "In15.Cu",
+      "N": "In9.Cu"
+    },
+    "/S10_SW_TX1": {
+      "N": "In21.Cu",
+      "P": "In2.Cu"
+    },
+    "/S09_SW_RX0": {
+      "N": "In6.Cu",
+      "P": "In11.Cu"
+    },
+    "/S09_SW_RX1": {
+      "N": "In26.Cu",
+      "P": "In19.Cu"
+    },
+    "/S09_SW_RX2": {
+      "N": "In13.Cu",
+      "P": "In5.Cu"
+    },
+    "/S09_SW_RX3": {
+      "N": "In24.Cu",
+      "P": "In30.Cu"
+    },
+    "/S02_REFCLK0": {
+      "N": "In16.Cu",
+      "P": "In1.Cu"
+    },
+    "/S08_SW_RX1": {
+      "N": "In12.Cu",
+      "P": "In20.Cu"
+    },
+    "/S08_SW_RX2": {
+      "N": "In12.Cu",
+      "P": "In23.Cu"
+    },
+    "/S08_SW_RX3": {
+      "N": "In2.Cu",
+      "P": "In8.Cu"
+    },
+    "/S07_SW_RX0": {
+      "N": "In17.Cu",
+      "P": "In18.Cu"
+    },
+    "/S07_SW_RX2": {
+      "N": "In17.Cu",
+      "P": "In18.Cu"
+    },
+    "/S07_SW_RX3": {
+      "N": "In27.Cu",
+      "P": "In21.Cu"
+    },
+    "/S06_SW_RX0": {
+      "N": "In4.Cu",
+      "P": "In16.Cu"
+    },
+    "/S06_SW_RX2": {
+      "N": "In1.Cu",
+      "P": "In30.Cu"
+    },
+    "/S06_SW_RX1": {
+      "P": "In14.Cu",
+      "N": "In7.Cu"
+    },
+    "/S06_SW_RX3": {
+      "N": "In9.Cu",
+      "P": "In2.Cu"
+    },
+    "/S03_REFCLK0": {
+      "N": "In26.Cu",
+      "P": "In11.Cu"
+    },
+    "/S09_REFCLK0": {
+      "P": "In13.Cu",
+      "N": "In4.Cu"
+    },
+    "/TBT_AR_TX0_DST": {
+      "P": "In30.Cu",
+      "N": "In1.Cu"
+    },
+    "/S08_REFCLK0": {
+      "N": "In3.Cu",
+      "P": "In21.Cu"
+    },
+    "/S11_SW_RX3": {
+      "P": "In13.Cu",
+      "N": "In4.Cu"
+    },
+    "/S12_SW_RX3": {
+      "P": "In5.Cu",
+      "N": "In8.Cu"
+    },
+    "/S11_SW_RX2": {
+      "P": "In2.Cu",
+      "N": "In21.Cu"
+    },
+    "/S12_SW_RX2": {
+      "P": "In14.Cu",
+      "N": "In12.Cu"
+    },
+    "/TBT_AR_TX3_DST": {
+      "P": "In25.Cu",
+      "N": "In24.Cu"
+    },
+    "/S11_SW_RX1": {
+      "P": "In9.Cu",
+      "N": "In28.Cu"
+    },
+    "/S12_SW_RX1": {
+      "P": "In15.Cu",
+      "N": "In14.Cu"
+    },
+    "/S11_SW_RX0": {
+      "P": "In10.Cu",
+      "N": "In16.Cu"
+    },
+    "/S12_SW_RX0": {
+      "P": "In12.Cu",
+      "N": "In24.Cu"
+    },
+    "/S05_REFCLK0": {
+      "N": "In16.Cu",
+      "P": "In11.Cu"
+    },
+    "/S11_SW_TX3": {
+      "P": "In13.Cu",
+      "N": "In2.Cu"
+    },
+    "/S12_SW_TX3": {
+      "P": "In6.Cu",
+      "N": "In8.Cu"
+    },
+    "/S11_SW_TX0": {
+      "P": "In29.Cu",
+      "N": "In5.Cu"
+    },
+    "/S12_SW_TX0": {
+      "P": "In3.Cu",
+      "N": "In18.Cu"
+    },
+    "/S11_SW_TX2": {
+      "P": "In22.Cu",
+      "N": "In20.Cu"
+    },
+    "/S12_SW_TX2": {
+      "P": "In9.Cu",
+      "N": "In27.Cu"
+    },
+    "/S10_SSD_RX3": {
+      "N": "In11.Cu",
+      "P": "In2.Cu"
+    },
+    "/S11_SW_TX1": {
+      "P": "In7.Cu",
+      "N": "In21.Cu"
+    },
+    "/S12_SW_TX1": {
+      "P": "In10.Cu",
+      "N": "In26.Cu"
+    },
+    "/S06_REFCLK0": {
+      "N": "In3.Cu",
+      "P": "In15.Cu"
+    },
+    "/S10_SSD_RX2": {
+      "N": "In17.Cu",
+      "P": "In10.Cu"
+    },
+    "/S05_SW_TX3": {
+      "P": "In29.Cu",
+      "N": "In1.Cu"
+    },
+    "/S05_SW_TX2": {
+      "P": "In20.Cu",
+      "N": "In19.Cu"
+    },
+    "/S05_SW_TX1": {
+      "P": "In10.Cu",
+      "N": "In3.Cu"
+    },
+    "/S10_SSD_RX1": {
+      "N": "In18.Cu",
+      "P": "In5.Cu"
+    },
+    "/S04_SW_TX3": {
+      "P": "In9.Cu",
+      "N": "In6.Cu"
+    },
+    "/S04_SW_TX2": {
+      "P": "In28.Cu",
+      "N": "In19.Cu"
+    },
+    "/S04_SW_TX1": {
+      "P": "In20.Cu",
+      "N": "In12.Cu"
+    },
+    "/S04_SW_TX0": {
+      "P": "In2.Cu",
+      "N": "In4.Cu"
+    },
+    "/S03_SW_TX3": {
+      "P": "In19.Cu",
+      "N": "In20.Cu"
+    },
+    "/S03_SW_TX2": {
+      "P": "In10.Cu",
+      "N": "In14.Cu"
+    },
+    "/S03_SW_TX1": {
+      "P": "In28.Cu",
+      "N": "In7.Cu"
+    },
+    "/S03_SW_TX0": {
+      "P": "In10.Cu",
+      "N": "In26.Cu"
+    },
+    "/S01_SW_RX3": {
+      "P": "In10.Cu",
+      "N": "In18.Cu"
+    },
+    "/S01_SW_RX2": {
+      "P": "In18.Cu",
+      "N": "In28.Cu"
+    },
+    "/S01_SW_RX1": {
+      "P": "In18.Cu",
+      "N": "In17.Cu"
+    },
+    "/S01_SW_RX0": {
+      "P": "In17.Cu",
+      "N": "In15.Cu"
+    },
+    "/S02_SW_TX3": {
+      "P": "In8.Cu",
+      "N": "In3.Cu"
+    },
+    "/S02_SW_TX2": {
+      "P": "In28.Cu",
+      "N": "In29.Cu"
+    },
+    "/S02_SW_TX1": {
+      "P": "In14.Cu",
+      "N": "In12.Cu"
+    },
+    "/S02_SW_TX0": {
+      "P": "In20.Cu",
+      "N": "In26.Cu"
+    },
+    "/S02_SW_RX2": {
+      "P": "In27.Cu",
+      "N": "In19.Cu"
+    },
+    "/S01_SW_TX3": {
+      "P": "In9.Cu",
+      "N": "In8.Cu"
+    },
+    "/S02_SW_RX0": {
+      "P": "In17.Cu",
+      "N": "In21.Cu"
+    },
+    "/S05_SW_RX3": {
+      "P": "In9.Cu",
+      "N": "In22.Cu"
+    },
+    "/S01_SW_TX2": {
+      "P": "In7.Cu",
+      "N": "In20.Cu"
+    },
+    "/S03_SW_RX3": {
+      "P": "In9.Cu",
+      "N": "In16.Cu"
+    },
+    "/S01_SW_TX1": {
+      "P": "In14.Cu",
+      "N": "In6.Cu"
+    },
+    "/S10_SSD_RX0": {
+      "P": "In5.Cu",
+      "N": "In14.Cu"
+    },
+    "/S03_SW_RX2": {
+      "P": "In1.Cu",
+      "N": "In3.Cu"
+    },
+    "/S01_SW_TX0": {
+      "P": "In10.Cu",
+      "N": "In18.Cu"
+    },
+    "/S05_SW_RX1": {
+      "P": "In22.Cu",
+      "N": "In4.Cu"
+    },
+    "/S03_SW_RX1": {
+      "P": "In20.Cu",
+      "N": "In17.Cu"
+    },
+    "/S05_SW_RX0": {
+      "P": "In14.Cu",
+      "N": "In3.Cu"
+    },
+    "/S03_SW_RX0": {
+      "P": "In11.Cu",
+      "N": "In5.Cu"
+    },
+    "/S09_SSD_RX0": {
+      "P": "In10.Cu",
+      "N": "In22.Cu"
+    },
+    "/S09_SSD_RX2": {
+      "N": "In12.Cu",
+      "P": "In2.Cu"
+    },
+    "/S04_SW_RX3": {
+      "P": "In11.Cu",
+      "N": "In16.Cu"
+    },
+    "/S04_SW_RX2": {
+      "P": "In29.Cu",
+      "N": "In21.Cu"
+    },
+    "/S04_SW_RX1": {
+      "P": "In15.Cu",
+      "N": "In18.Cu"
+    },
+    "/S04_SW_RX0": {
+      "P": "In22.Cu",
+      "N": "In1.Cu"
+    },
+    "/S09_SSD_RX1": {
+      "N": "In9.Cu",
+      "P": "In2.Cu"
+    },
+    "/S10_REFCLK0": {
+      "P": "In30.Cu",
+      "N": "In5.Cu"
+    },
+    "/TBT_CIO_TX0_SRC": {
+      "N": "In17.Cu",
+      "P": "In25.Cu"
+    },
+    "/TBT_REFCLK": {
+      "P": "In10.Cu",
+      "N": "In9.Cu"
+    },
+    "/TBT_PA_AUX": {
+      "N": "In10.Cu",
+      "P": "In7.Cu"
+    },
+    "/TBT_AR_TX3_SRC": {
+      "N": "In26.Cu",
+      "P": "In2.Cu"
+    },
+    "/TBT_DP_ML1_DST": {
+      "N": "In25.Cu",
+      "P": "In1.Cu"
+    },
+    "/TBT_DP_ML0_DST": {
+      "N": "In26.Cu",
+      "P": "In2.Cu"
+    },
+    "/S09_SSD_RX3": {
+      "N": "In7.Cu",
+      "P": "In1.Cu"
+    },
+    "/TBT_AR_TX2_SRC": {
+      "N": "In21.Cu",
+      "P": "In20.Cu"
+    },
+    "/TBT_AR_TX1_SRC": {
+      "N": "In13.Cu",
+      "P": "In20.Cu"
+    },
+    "/TBT_AR_TX0_SRC": {
+      "P": "In12.Cu",
+      "N": "In9.Cu"
+    },
+    "/TBT_CPU_TX3_DST": {
+      "P": "In12.Cu",
+      "N": "In26.Cu"
+    }
+  },
+  "e1s_A1_pad_to_nominal_drive_side_mm": 3.215
+}

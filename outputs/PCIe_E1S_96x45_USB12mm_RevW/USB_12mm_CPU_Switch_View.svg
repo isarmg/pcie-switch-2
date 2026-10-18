@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="830" viewBox="0 0 1120 830"><rect width="1120" height="830" fill="#fafbfc"/>
+<rect x="60" y="100" width="960" height="450" fill="#e7eee9" stroke="#345643" stroke-width="2"/>
+<rect x="655.0" y="160.0" width="330" height="330" fill="#9a7447" stroke="#ffffff" stroke-width="2"/>
+<text x="820.0" y="335.0" font-family="Microsoft YaHei,sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">虚构 PEX90064</text>
+<rect x="340.0" y="187.5" width="270" height="275.0" fill="#577a89" stroke="#ffffff" stroke-width="2"/>
+<text x="475.0" y="335.0" font-family="Microsoft YaHei,sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">Ultra 9 288V / 32GB</text>
+<rect x="215.50000000000006" y="165.5" width="107.0" height="107.0" fill="#70a694" stroke="#ffffff" stroke-width="2"/>
+<text x="269.00000000000006" y="224.0" font-family="Microsoft YaHei,sans-serif" font-size="15" fill="#ffffff" text-anchor="middle">雷电 3</text>
+<rect x="230.0" y="422.0" width="60" height="60" fill="#70a694" stroke="#ffffff" stroke-width="2"/>
+<text x="260.0" y="457.0" font-family="Microsoft YaHei,sans-serif" font-size="15" fill="#ffffff" text-anchor="middle">PD</text>
+<rect x="160.0" y="285.0" width="40" height="80" fill="#1c729c" stroke="#345643" stroke-width="2"/>
+<line x1="170.0" y1="325.0" x2="190.0" y2="325.0" stroke="#ffffff" stroke-width="2"/>
+<line x1="180.0" y1="315.0" x2="180.0" y2="335.0" stroke="#ffffff" stroke-width="2"/>
+<text x="180.0" y="392.0" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#17475e" text-anchor="middle">供电 USB-C</text>
+<line x1="180.0" y1="325.0" x2="180.0" y2="650" stroke="#6596b0" stroke-width="2"/>
+<rect x="280.0" y="285.0" width="40" height="80" fill="#1c729c" stroke="#345643" stroke-width="2"/>
+<line x1="290.0" y1="325.0" x2="310.0" y2="325.0" stroke="#ffffff" stroke-width="2"/>
+<line x1="300.0" y1="315.0" x2="300.0" y2="335.0" stroke="#ffffff" stroke-width="2"/>
+<text x="300.0" y="392.0" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#17475e" text-anchor="middle">雷电 USB-C</text>
+<line x1="300.0" y1="325.0" x2="300.0" y2="650" stroke="#6596b0" stroke-width="2"/>
+<line x1="60" y1="450" x2="60" y2="650" stroke="#6596b0" stroke-width="2"/>
+<line x1="60" y1="590" x2="180" y2="590" stroke="#165c83" stroke-width="3"/>
+<line x1="60" y1="590" x2="68.0" y2="585.0" stroke="#165c83" stroke-width="2"/>
+<line x1="60" y1="590" x2="68.0" y2="595.0" stroke="#165c83" stroke-width="2"/>
+<line x1="180" y1="590" x2="172.0" y2="585.0" stroke="#165c83" stroke-width="2"/>
+<line x1="180" y1="590" x2="172.0" y2="595.0" stroke="#165c83" stroke-width="2"/>
+<text x="120.0" y="587.0" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#165c83" text-anchor="middle">12 mm</text>
+<line x1="180" y1="635.0" x2="300" y2="635.0" stroke="#165c83" stroke-width="3"/>
+<line x1="180" y1="635.0" x2="188.0" y2="630.0" stroke="#165c83" stroke-width="2"/>
+<line x1="180" y1="635.0" x2="188.0" y2="640.0" stroke="#165c83" stroke-width="2"/>
+<line x1="300" y1="635.0" x2="292.0" y2="630.0" stroke="#165c83" stroke-width="2"/>
+<line x1="300" y1="635.0" x2="292.0" y2="640.0" stroke="#165c83" stroke-width="2"/>
+<text x="240.0" y="632.0" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#165c83" text-anchor="middle">12 mm</text>
+<text x="60" y="56" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#213d4b" text-anchor="start">CPU / switch 面：左侧接口 · 中部 CPU · 右侧 switch</text>
+<text x="850" y="85.0" font-family="Microsoft YaHei,sans-serif" font-size="19" fill="#213d4b" text-anchor="start">96 × 45 mm</text>
+<text x="60" y="709" font-family="Microsoft YaHei,sans-serif" font-size="19" fill="#435966" text-anchor="start">尺寸按封装中心测量；两个 USB-C 的中心均位于板高 22.5 mm。</text>
+<text x="60" y="748" font-family="Microsoft YaHei,sans-serif" font-size="18" fill="#435966" text-anchor="start">USB-C 竖直安装、贴片固定脚。辅助器件及完整铜线见 KiCad 工程。</text>
+<text x="60" y="787" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#697b83" text-anchor="start">接口电路沿用已选的雷电 3 方案；本图只示出主要器件和位置尺寸。</text>
+</svg>

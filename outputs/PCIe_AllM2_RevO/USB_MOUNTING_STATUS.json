@@ -1,0 +1,15 @@
+{
+  "ports": [
+    "J401",
+    "J402"
+  ],
+  "shell_pads_per_port": 4,
+  "shell_pad_type": "SMD",
+  "shell_holes_per_port": 0,
+  "plastic_locator_holes_per_port": 2,
+  "vertical": true,
+  "pcb_rotation_degrees": 90,
+  "height_mm": 7.46,
+  "part_status": "custom mechanical draft; original USB4160 is not footprint compatible",
+  "tb5_qualified": false
+}

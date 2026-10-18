@@ -1,0 +1,722 @@
+[
+  {
+    "ref": "C4001",
+    "slot": 1,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S01_SW_TX0_P",
+    "ssd_net": "/S01_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4002",
+    "slot": 1,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S01_SW_TX0_N",
+    "ssd_net": "/S01_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4003",
+    "slot": 1,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S01_SW_TX1_P",
+    "ssd_net": "/S01_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4004",
+    "slot": 1,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S01_SW_TX1_N",
+    "ssd_net": "/S01_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4005",
+    "slot": 1,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S01_SW_TX2_P",
+    "ssd_net": "/S01_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4006",
+    "slot": 1,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S01_SW_TX2_N",
+    "ssd_net": "/S01_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4007",
+    "slot": 1,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S01_SW_TX3_P",
+    "ssd_net": "/S01_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4008",
+    "slot": 1,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S01_SW_TX3_N",
+    "ssd_net": "/S01_SSD_RX3_N",
+    "connector_pad": "B26"
+  },
+  {
+    "ref": "C4009",
+    "slot": 2,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S02_SW_TX0_P",
+    "ssd_net": "/S02_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4010",
+    "slot": 2,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S02_SW_TX0_N",
+    "ssd_net": "/S02_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4011",
+    "slot": 2,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S02_SW_TX1_P",
+    "ssd_net": "/S02_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4012",
+    "slot": 2,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S02_SW_TX1_N",
+    "ssd_net": "/S02_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4013",
+    "slot": 2,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S02_SW_TX2_P",
+    "ssd_net": "/S02_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4014",
+    "slot": 2,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S02_SW_TX2_N",
+    "ssd_net": "/S02_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4015",
+    "slot": 2,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S02_SW_TX3_P",
+    "ssd_net": "/S02_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4016",
+    "slot": 2,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S02_SW_TX3_N",
+    "ssd_net": "/S02_SSD_RX3_N",
+    "connector_pad": "B26"
+  },
+  {
+    "ref": "C4017",
+    "slot": 3,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S03_SW_TX0_P",
+    "ssd_net": "/S03_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4018",
+    "slot": 3,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S03_SW_TX0_N",
+    "ssd_net": "/S03_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4019",
+    "slot": 3,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S03_SW_TX1_P",
+    "ssd_net": "/S03_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4020",
+    "slot": 3,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S03_SW_TX1_N",
+    "ssd_net": "/S03_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4021",
+    "slot": 3,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S03_SW_TX2_P",
+    "ssd_net": "/S03_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4022",
+    "slot": 3,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S03_SW_TX2_N",
+    "ssd_net": "/S03_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4023",
+    "slot": 3,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S03_SW_TX3_P",
+    "ssd_net": "/S03_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4024",
+    "slot": 3,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S03_SW_TX3_N",
+    "ssd_net": "/S03_SSD_RX3_N",
+    "connector_pad": "B26"
+  },
+  {
+    "ref": "C4025",
+    "slot": 4,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S04_SW_TX0_P",
+    "ssd_net": "/S04_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4026",
+    "slot": 4,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S04_SW_TX0_N",
+    "ssd_net": "/S04_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4027",
+    "slot": 4,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S04_SW_TX1_P",
+    "ssd_net": "/S04_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4028",
+    "slot": 4,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S04_SW_TX1_N",
+    "ssd_net": "/S04_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4029",
+    "slot": 4,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S04_SW_TX2_P",
+    "ssd_net": "/S04_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4030",
+    "slot": 4,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S04_SW_TX2_N",
+    "ssd_net": "/S04_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4031",
+    "slot": 4,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S04_SW_TX3_P",
+    "ssd_net": "/S04_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4032",
+    "slot": 4,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S04_SW_TX3_N",
+    "ssd_net": "/S04_SSD_RX3_N",
+    "connector_pad": "B26"
+  },
+  {
+    "ref": "C4033",
+    "slot": 5,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S05_SW_TX0_P",
+    "ssd_net": "/S05_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4034",
+    "slot": 5,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S05_SW_TX0_N",
+    "ssd_net": "/S05_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4035",
+    "slot": 5,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S05_SW_TX1_P",
+    "ssd_net": "/S05_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4036",
+    "slot": 5,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S05_SW_TX1_N",
+    "ssd_net": "/S05_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4037",
+    "slot": 5,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S05_SW_TX2_P",
+    "ssd_net": "/S05_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4038",
+    "slot": 5,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S05_SW_TX2_N",
+    "ssd_net": "/S05_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4039",
+    "slot": 5,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S05_SW_TX3_P",
+    "ssd_net": "/S05_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4040",
+    "slot": 5,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S05_SW_TX3_N",
+    "ssd_net": "/S05_SSD_RX3_N",
+    "connector_pad": "B26"
+  },
+  {
+    "ref": "C4041",
+    "slot": 6,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S06_SW_TX0_P",
+    "ssd_net": "/S06_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4042",
+    "slot": 6,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S06_SW_TX0_N",
+    "ssd_net": "/S06_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4043",
+    "slot": 6,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S06_SW_TX1_P",
+    "ssd_net": "/S06_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4044",
+    "slot": 6,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S06_SW_TX1_N",
+    "ssd_net": "/S06_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4045",
+    "slot": 6,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S06_SW_TX2_P",
+    "ssd_net": "/S06_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4046",
+    "slot": 6,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S06_SW_TX2_N",
+    "ssd_net": "/S06_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4047",
+    "slot": 6,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S06_SW_TX3_P",
+    "ssd_net": "/S06_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4048",
+    "slot": 6,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S06_SW_TX3_N",
+    "ssd_net": "/S06_SSD_RX3_N",
+    "connector_pad": "B26"
+  },
+  {
+    "ref": "C4049",
+    "slot": 7,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S07_SW_TX0_P",
+    "ssd_net": "/S07_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4050",
+    "slot": 7,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S07_SW_TX0_N",
+    "ssd_net": "/S07_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4051",
+    "slot": 7,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S07_SW_TX1_P",
+    "ssd_net": "/S07_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4052",
+    "slot": 7,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S07_SW_TX1_N",
+    "ssd_net": "/S07_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4053",
+    "slot": 7,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S07_SW_TX2_P",
+    "ssd_net": "/S07_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4054",
+    "slot": 7,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S07_SW_TX2_N",
+    "ssd_net": "/S07_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4055",
+    "slot": 7,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S07_SW_TX3_P",
+    "ssd_net": "/S07_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4056",
+    "slot": 7,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S07_SW_TX3_N",
+    "ssd_net": "/S07_SSD_RX3_N",
+    "connector_pad": "B26"
+  },
+  {
+    "ref": "C4057",
+    "slot": 8,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S08_SW_TX0_P",
+    "ssd_net": "/S08_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4058",
+    "slot": 8,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S08_SW_TX0_N",
+    "ssd_net": "/S08_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4059",
+    "slot": 8,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S08_SW_TX1_P",
+    "ssd_net": "/S08_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4060",
+    "slot": 8,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S08_SW_TX1_N",
+    "ssd_net": "/S08_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4061",
+    "slot": 8,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S08_SW_TX2_P",
+    "ssd_net": "/S08_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4062",
+    "slot": 8,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S08_SW_TX2_N",
+    "ssd_net": "/S08_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4063",
+    "slot": 8,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S08_SW_TX3_P",
+    "ssd_net": "/S08_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4064",
+    "slot": 8,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S08_SW_TX3_N",
+    "ssd_net": "/S08_SSD_RX3_N",
+    "connector_pad": "B26"
+  },
+  {
+    "ref": "C4065",
+    "slot": 9,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S09_SW_TX0_P",
+    "ssd_net": "/S09_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4066",
+    "slot": 9,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S09_SW_TX0_N",
+    "ssd_net": "/S09_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4067",
+    "slot": 9,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S09_SW_TX1_P",
+    "ssd_net": "/S09_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4068",
+    "slot": 9,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S09_SW_TX1_N",
+    "ssd_net": "/S09_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4069",
+    "slot": 9,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S09_SW_TX2_P",
+    "ssd_net": "/S09_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4070",
+    "slot": 9,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S09_SW_TX2_N",
+    "ssd_net": "/S09_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4071",
+    "slot": 9,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S09_SW_TX3_P",
+    "ssd_net": "/S09_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4072",
+    "slot": 9,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S09_SW_TX3_N",
+    "ssd_net": "/S09_SSD_RX3_N",
+    "connector_pad": "B26"
+  },
+  {
+    "ref": "C4073",
+    "slot": 10,
+    "lane": 0,
+    "polarity": "P",
+    "switch_net": "/S10_SW_TX0_P",
+    "ssd_net": "/S10_SSD_RX0_P",
+    "connector_pad": "B18"
+  },
+  {
+    "ref": "C4074",
+    "slot": 10,
+    "lane": 0,
+    "polarity": "N",
+    "switch_net": "/S10_SW_TX0_N",
+    "ssd_net": "/S10_SSD_RX0_N",
+    "connector_pad": "B17"
+  },
+  {
+    "ref": "C4075",
+    "slot": 10,
+    "lane": 1,
+    "polarity": "P",
+    "switch_net": "/S10_SW_TX1_P",
+    "ssd_net": "/S10_SSD_RX1_P",
+    "connector_pad": "B21"
+  },
+  {
+    "ref": "C4076",
+    "slot": 10,
+    "lane": 1,
+    "polarity": "N",
+    "switch_net": "/S10_SW_TX1_N",
+    "ssd_net": "/S10_SSD_RX1_N",
+    "connector_pad": "B20"
+  },
+  {
+    "ref": "C4077",
+    "slot": 10,
+    "lane": 2,
+    "polarity": "P",
+    "switch_net": "/S10_SW_TX2_P",
+    "ssd_net": "/S10_SSD_RX2_P",
+    "connector_pad": "B24"
+  },
+  {
+    "ref": "C4078",
+    "slot": 10,
+    "lane": 2,
+    "polarity": "N",
+    "switch_net": "/S10_SW_TX2_N",
+    "ssd_net": "/S10_SSD_RX2_N",
+    "connector_pad": "B23"
+  },
+  {
+    "ref": "C4079",
+    "slot": 10,
+    "lane": 3,
+    "polarity": "P",
+    "switch_net": "/S10_SW_TX3_P",
+    "ssd_net": "/S10_SSD_RX3_P",
+    "connector_pad": "B27"
+  },
+  {
+    "ref": "C4080",
+    "slot": 10,
+    "lane": 3,
+    "polarity": "N",
+    "switch_net": "/S10_SW_TX3_N",
+    "ssd_net": "/S10_SSD_RX3_N",
+    "connector_pad": "B26"
+  }
+]

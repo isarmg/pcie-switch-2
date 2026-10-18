@@ -1,0 +1,77 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-29T18:43:41",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/82d196b6-0e52-4b3a-a1e1-30656a31af7f",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 01/",
+            "uuid_path": "/82d196b6-0e52-4b3a-a1e1-30656a31af7f/7c62e97e-c35f-4457-b434-595d52faa761",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 02/",
+            "uuid_path": "/82d196b6-0e52-4b3a-a1e1-30656a31af7f/4d6959f3-d94d-46a1-88cd-405c00177a91",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 03/",
+            "uuid_path": "/82d196b6-0e52-4b3a-a1e1-30656a31af7f/2d5f303f-33f2-4300-b986-e6f853055783",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 04/",
+            "uuid_path": "/82d196b6-0e52-4b3a-a1e1-30656a31af7f/413d2ae5-8878-4de5-b303-35b68b3ccce1",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 05/",
+            "uuid_path": "/82d196b6-0e52-4b3a-a1e1-30656a31af7f/4899ec52-ebd6-4146-b12f-0a50f006b37d",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 06/",
+            "uuid_path": "/82d196b6-0e52-4b3a-a1e1-30656a31af7f/c2297991-99b8-4f83-81ad-148519f93d6b",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 07/",
+            "uuid_path": "/82d196b6-0e52-4b3a-a1e1-30656a31af7f/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 08/",
+            "uuid_path": "/82d196b6-0e52-4b3a-a1e1-30656a31af7f/04128098-ea45-4906-a4e2-570f52fb376f",
+            "violations": []
+        }
+    ],
+    "source": "Left_2M2_Vertical.kicad_sch"
+}

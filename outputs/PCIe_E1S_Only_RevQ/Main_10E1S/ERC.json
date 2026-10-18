@@ -1,0 +1,4028 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-16T16:02:31",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce",
+            "violations": [
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_SPI_RESET_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.4953
+                            },
+                            "uuid": "6aa4a697-1edd-41af-8904-9e1f2c3c3f84"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_DBG_MODE1'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.6223
+                            },
+                            "uuid": "577906a6-094f-4645-bffb-da08791b72f8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_DBG_MODE2'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.6477
+                            },
+                            "uuid": "232471ea-fc2c-4ab8-81bf-fdfb6c281c26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_DBG_MODE0'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.6477
+                            },
+                            "uuid": "d309059c-8a4d-40cb-8375-ab3d5e25c24f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_MODE_SEL6'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.6985
+                            },
+                            "uuid": "fd9972d4-54b9-4fab-b08c-3b2cd5ad0543"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_MODE_SEL7'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.7747
+                            },
+                            "uuid": "2be95134-0f65-49ed-86b7-48e947753dc6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_MODE_SEL0'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.8001
+                            },
+                            "uuid": "42f8497b-ddb3-4a17-88a4-d541e02e38f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_MODE_SEL4'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.8255
+                            },
+                            "uuid": "c69cc7b1-9e37-458d-a288-87feff6ebfb4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_MODE_SEL2'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 3.4163
+                            },
+                            "uuid": "ff8490d3-2173-49e0-8fbc-a39c9f413046"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_MODE_SEL3'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.8255
+                            },
+                            "uuid": "53162719-376d-465c-9e45-e8a7dc2bb52f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_MODE_SEL1'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.8509
+                            },
+                            "uuid": "4979a005-f80e-4afd-bd30-afb39d8d897d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_PE_REFCLKP'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 1.8669
+                            },
+                            "uuid": "fb6a4574-9039-4400-8e9a-008ad27fce4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_PE_REFCLKN'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 1.8923
+                            },
+                            "uuid": "d1c08b56-b55e-447d-9539-5f9d2e14bc0d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_VDDA'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 1.9177
+                            },
+                            "uuid": "f7d042f7-2eb3-4c11-8150-e7946695365e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_VDDB'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 1.9431
+                            },
+                            "uuid": "b01461e5-2e6e-4135-bd5d-91d2ab141292"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SRNS_REFCLKP'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 1.9685
+                            },
+                            "uuid": "6a665b23-f048-494e-aea9-b86794daafde"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SRNS_REFCLKN'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 1.9939
+                            },
+                            "uuid": "0eae9fc9-e6c4-49dd-9b12-50f4df8fdd63"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_MODE'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 2.0447
+                            },
+                            "uuid": "2fca8b31-9f5c-402c-a035-1943aa5f1630"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_DIF0P'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 2.0955
+                            },
+                            "uuid": "22268e38-ce29-43e3-8664-5381c2855794"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_DIF0N'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 2.1209
+                            },
+                            "uuid": "d0fb8d82-8bc2-49c2-9cde-cc123a432cea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_DIF1P'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 2.1717
+                            },
+                            "uuid": "6f335104-7d38-4fa2-ad3f-11a71e21f867"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_DIF1N'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.8669
+                            },
+                            "uuid": "1dba6487-ec6b-4db1-ac0a-c1c8effa60a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_VDD'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.9177
+                            },
+                            "uuid": "cecf1ca7-f3c3-47b0-bb51-a78c77c22ef0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_DIF2P'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.9431
+                            },
+                            "uuid": "6c742a43-708c-4c5d-aeee-dabc6a1ddefc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_DIF2N'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.9685
+                            },
+                            "uuid": "ca7fba2f-2b84-4514-8e37-7eb62e3e4f18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_DIF3P'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 2.0193
+                            },
+                            "uuid": "03593780-b40a-4529-8b34-241ca5157c8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_DIF3N'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 2.0447
+                            },
+                            "uuid": "30262dde-1a69-4535-8dee-c933e0bc937e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KB_SELAB'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 2.0955
+                            },
+                            "uuid": "05ac7c43-6d44-45b0-8539-3c5076d39c1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KA_X1'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.5842
+                            },
+                            "uuid": "0a4d8c21-f681-4334-9300-a8be9fd9b68f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KA_X2'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.6096
+                            },
+                            "uuid": "96a5d4fe-b41f-4b33-968a-c0b886247504"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KA_DIF0P'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.889
+                            },
+                            "uuid": "0648d49d-7228-4e6a-96b8-e6c76f56faee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMB3_DAT'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.8669
+                            },
+                            "uuid": "dbad25d1-e72c-4ab0-8196-402293332843"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMB3_CLK'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.8923
+                            },
+                            "uuid": "8df21db9-a154-458e-89e7-57f85fb300e3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMB2_DAT'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.9177
+                            },
+                            "uuid": "7b0aa489-1e84-4f38-b162-92655591c882"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMB2_CLK'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.9431
+                            },
+                            "uuid": "f38b3ebb-2d8e-41b7-8526-7239fe949609"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMB1_DAT'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.9685
+                            },
+                            "uuid": "394aae5f-7e04-4ac9-ad37-ab7833c4ff13"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMB1_CLK'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.9939
+                            },
+                            "uuid": "255009a4-2cac-451b-bb3d-892b758dbe7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMB0_DAT'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.0193
+                            },
+                            "uuid": "15e096ae-60e6-4650-b8af-7f464523f96d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMB0_CLK'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.0447
+                            },
+                            "uuid": "6bf5d4ed-df22-41e8-a26d-58d72fb15557"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMA3_DAT'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.0955
+                            },
+                            "uuid": "09c74ec3-7f6a-48bd-b670-f35e84e87184"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMA3_CLK'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.1209
+                            },
+                            "uuid": "01671703-46f2-4b8a-8d75-97516ea61495"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMA2_DAT'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.1463
+                            },
+                            "uuid": "75592eeb-ab48-4f46-9c1d-ea797109f708"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMA2_CLK'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.1717
+                            },
+                            "uuid": "74112e4a-88e4-4c16-8a82-ac2509cee04f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KA_DIF0N'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 0.5842
+                            },
+                            "uuid": "d27e9cd0-b1bf-4c53-9228-463844fbcfc5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KA_VDDA'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 0.635
+                            },
+                            "uuid": "cb22c011-5a9c-4bb9-b1a3-486d03867fb5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KA_OE1'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 0.7112
+                            },
+                            "uuid": "d193e367-d405-42b4-9eb2-a2771158700a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KA_PD#'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 0.7874
+                            },
+                            "uuid": "f37ab081-14bc-4200-ada3-fa2f52d83b1f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_KA_SSEN'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 0.8128
+                            },
+                            "uuid": "9111a0e9-571e-4aa5-b456-a3171e2e2211"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMA1_DAT'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.8669
+                            },
+                            "uuid": "ec15163c-43ca-40e6-8e2c-26f8e5332e6d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMA1_CLK'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.8923
+                            },
+                            "uuid": "f32333d1-5f65-4eb2-8afa-46ae29344260"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMA0_DAT'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.9177
+                            },
+                            "uuid": "f1afaff8-2604-407a-815e-d50305d04d34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SLIMA0_CLK'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.9431
+                            },
+                            "uuid": "06386452-5d3e-44c5-8af2-182d35495036"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SMB_A_A2'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.9685
+                            },
+                            "uuid": "79de7018-f55c-4ffb-80d8-751a5766dc68"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SMB_A_SCL'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.9939
+                            },
+                            "uuid": "011b0cc0-0407-4e09-873a-6a52a25e05e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SMB_A_SDA'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 2.0193
+                            },
+                            "uuid": "d3c1ba18-0482-46c8-9e46-f71b30d3c4b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SMB_A_A0'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 2.0701
+                            },
+                            "uuid": "aaaba79a-3376-431a-bd34-d7969644fba4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_SMB_A_A1'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 2.0955
+                            },
+                            "uuid": "ba2b24ce-9285-4e70-98a7-410d3565f432"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/REF_PERST_BUFF#'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 2.1209
+                            },
+                            "uuid": "4a3e76b4-1d9e-46a3-81c7-aa5292de0f91"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_DFT_IDDT'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 3.1115
+                            },
+                            "uuid": "27ab1965-c88a-4b0e-afc6-ec4cad59e3f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_DFT_TN'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 3.2893
+                            },
+                            "uuid": "01342074-353a-41b8-8d41-20d08b9da65b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_DBG_MODE3'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.4925
+                            },
+                            "uuid": "0f77523c-4686-43d5-95ac-bf3877fcfc51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_MODE_SEL8'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 3.0861
+                            },
+                            "uuid": "34ad24e1-be78-493f-9ad9-304596f53a41"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_MGMT_SCL_1V8'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.8763
+                            },
+                            "uuid": "6ef3bc50-a99d-4646-bcd0-66bc33787b7c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_MODE_SEL5'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.2639
+                            },
+                            "uuid": "349a0793-f956-4620-b216-c42f1dbdfc72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_TRST_L'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.5941
+                            },
+                            "uuid": "7867a9d1-2139-401e-8911-460635071930"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 3.0988
+                            },
+                            "uuid": "18c94fed-066d-40ab-8bfd-8d520adbbca9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 3.1242
+                            },
+                            "uuid": "d86d06cb-b907-4fdc-b2f1-78f91e26eac3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_SMRST_N'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 3.1496
+                            },
+                            "uuid": "86089782-aedf-4597-921a-e20ceb75c72a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_LED'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 3.175
+                            },
+                            "uuid": "9587932b-5f04-495d-8bc1-5a913b34391c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 3.2004
+                            },
+                            "uuid": "f163aeaf-176c-4832-b816-746122922991"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_PRSNT0_N'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 3.2258
+                            },
+                            "uuid": "f58c24d5-555c-4e93-b5f3-cb862e457754"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_REFCLK1_N'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 3.2766
+                            },
+                            "uuid": "b4a0ecc5-2860-4825-bb0a-07caedfb5268"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_REFCLK1_P'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 3.302
+                            },
+                            "uuid": "b273902c-ae6a-4a24-a161-557db055b41b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 3.1242
+                            },
+                            "uuid": "bad6d662-c3e3-434e-ae25-1fb5d6556c61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_PERST0_N'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 3.1496
+                            },
+                            "uuid": "004b4006-22a6-4e6a-8967-58667db1c2d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S03_PWRDIS'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 3.2004
+                            },
+                            "uuid": "162440f6-a771-47e2-b67b-e7e6cb1be3fa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.0988
+                            },
+                            "uuid": "707bbe87-d437-47af-ac9a-d39f96b56470"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.1242
+                            },
+                            "uuid": "ffeae59b-de43-4cf9-9702-6807445bb11f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_SMRST_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.1496
+                            },
+                            "uuid": "54223a88-b958-4c72-a1d9-a5c31a842410"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_LED'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.175
+                            },
+                            "uuid": "b3f5e87f-953c-4ade-93dd-7ef253c728ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.2004
+                            },
+                            "uuid": "c5fe840c-8ff5-4d1a-aa71-94724527e8a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_PRSNT0_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.2258
+                            },
+                            "uuid": "c37a0881-f71a-41b6-8528-801005437cd7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_REFCLK1_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.2766
+                            },
+                            "uuid": "6b17f92f-ac2b-4b5a-a888-bb124b438222"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_REFCLK1_P'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.302
+                            },
+                            "uuid": "f0c0c71f-e5bd-47fc-9f35-1510eac57da7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 3.1242
+                            },
+                            "uuid": "e7a71949-e035-42e9-a03f-77649d98ce15"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_PERST0_N'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 3.1496
+                            },
+                            "uuid": "160614a7-1576-48d0-82bd-3a9bb0b81d62"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S04_PWRDIS'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 3.2004
+                            },
+                            "uuid": "64accf84-5d7c-452f-84ac-82460f129393"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.8161
+                            },
+                            "uuid": "120e9c1e-567f-4156-a9f1-953b1740998b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.8415
+                            },
+                            "uuid": "c17ed616-f651-46f2-94df-8d80eda61aa0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_SMRST_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.8669
+                            },
+                            "uuid": "17e27d03-9cac-4e72-9c51-a7c555e7e536"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_LED'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.8923
+                            },
+                            "uuid": "34af62c1-b643-43ac-8558-409c19e82bfe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.9177
+                            },
+                            "uuid": "54b6df85-4104-4326-a4d8-a658dcb4a718"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_PRSNT0_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.9431
+                            },
+                            "uuid": "0eafe310-8952-4216-ac93-ae9309087185"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_REFCLK1_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.9939
+                            },
+                            "uuid": "f56d444a-a541-4d00-91f2-20b3b376ed8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_REFCLK1_P'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 2.0193
+                            },
+                            "uuid": "e6edf1c7-a8cf-4b4c-925f-98d8b8d59765"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.0988
+                            },
+                            "uuid": "ddba4c09-e250-4a4a-b151-dae372f5995f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.1242
+                            },
+                            "uuid": "bcb8d9b1-6436-48f1-b3e0-0a54b56ed6d7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_SMRST_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.1496
+                            },
+                            "uuid": "21326c61-8cf8-43d9-b62b-ce537bb37d50"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_LED'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.175
+                            },
+                            "uuid": "79f1bc04-8335-4ce7-8eb2-e6984cacaf0c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.2004
+                            },
+                            "uuid": "8ce7aa95-00db-4016-b874-22b1b78d2a0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_PRSNT0_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.2258
+                            },
+                            "uuid": "9da003c3-368f-4b1d-90ef-c1eb2614a5b2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_REFCLK1_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.2766
+                            },
+                            "uuid": "47b45dd5-94d6-477a-bd3b-8b9f3673d809"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_REFCLK1_P'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.302
+                            },
+                            "uuid": "e3196be2-ff4e-4060-a58d-c909beb87f20"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 1.8415
+                            },
+                            "uuid": "bfe46e6c-cccc-45fc-8c41-94ef1624202a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_PERST0_N'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 1.8669
+                            },
+                            "uuid": "e08b7c21-ac7a-4c0e-b544-31fdc4c9d8fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S01_PWRDIS'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 1.9177
+                            },
+                            "uuid": "da179dae-5688-4889-a1b1-aea152361cb2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 3.1242
+                            },
+                            "uuid": "2a4c89af-c20d-4708-9a78-ff75b80f8bde"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_PERST0_N'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 3.1496
+                            },
+                            "uuid": "e459adcb-544a-4454-97e1-66020f4e38b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S05_PWRDIS'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 3.2004
+                            },
+                            "uuid": "aed9c25f-13e5-4df9-90f0-511af06bc89e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.8161
+                            },
+                            "uuid": "e76811af-7eca-4f9e-8db6-9ce2ade06012"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.8415
+                            },
+                            "uuid": "9ddf6d9a-a823-4f7e-a996-847339275a7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_SMRST_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.8669
+                            },
+                            "uuid": "3eab7c68-e09d-48af-aa79-ca0979176f05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_LED'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.8923
+                            },
+                            "uuid": "704bed84-18e6-4a11-8613-c99806156963"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.9177
+                            },
+                            "uuid": "4d83692c-50db-486b-804f-17809e8edc20"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_PRSNT0_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.9431
+                            },
+                            "uuid": "38158606-b1cc-4317-9214-c8cbbfad84e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_REFCLK1_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.9939
+                            },
+                            "uuid": "129fd390-7383-4d27-b8a0-82de9dde0c11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_REFCLK1_P'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.0193
+                            },
+                            "uuid": "3c0acaf9-61f5-415b-ab5e-07051ccf556e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.0988
+                            },
+                            "uuid": "0c65ba54-2a57-488f-a610-d86254248f54"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.1242
+                            },
+                            "uuid": "a442ae4e-d82b-404c-bcca-be0b97624453"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_SMRST_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.1496
+                            },
+                            "uuid": "f7d794a7-7c51-4480-b7d9-cbd8969275f2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_LED'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.175
+                            },
+                            "uuid": "3933c7e8-7cf3-43cc-8cf2-0cf90f81111e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.2004
+                            },
+                            "uuid": "53678819-4a06-42f5-b0b0-a21e96b90094"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_PRSNT0_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.2258
+                            },
+                            "uuid": "92930747-acb1-4e27-9147-27e76b408b0c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_REFCLK1_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.2766
+                            },
+                            "uuid": "79fe58ad-ad73-484a-9896-1bc41d3958e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_REFCLK1_P'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.302
+                            },
+                            "uuid": "84161e0b-1f27-4d10-8e2a-d4a493a346e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.8415
+                            },
+                            "uuid": "c4eb342a-342b-4b38-8653-be9579946113"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_PERST0_N'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.8669
+                            },
+                            "uuid": "6d8296a6-97ce-496f-8dac-8ceb8b7105de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S02_PWRDIS'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.9177
+                            },
+                            "uuid": "8fcb8f12-d34a-4790-91ab-14a1014470de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.1242
+                            },
+                            "uuid": "a330bb7b-fa49-43e3-8330-974eacf6d280"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_PERST0_N'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.1496
+                            },
+                            "uuid": "310fd7c1-c630-487c-9dbf-83f095e928a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S06_PWRDIS'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.2004
+                            },
+                            "uuid": "1e6657cf-df75-4545-a761-d2d35b4aa48c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VDDRIO_SENSE'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.7493
+                            },
+                            "uuid": "d8da0d0f-bef2-463d-ae28-31b29eac46bd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VDDQ_SENSE'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.7747
+                            },
+                            "uuid": "1f4fb80b-6805-4b02-85a6-4e818523e971"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VDD2L_SENSE'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.8001
+                            },
+                            "uuid": "f2fb4a1c-a93d-4dcf-b676-3a2a0bb2d4e8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCPRIM_VNNAON_VSS_SENSE'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.3655
+                            },
+                            "uuid": "e9cf189b-c3cb-434b-a17c-fb551cd114bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCPRIM_VNNAON_SENSE'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 3.4163
+                            },
+                            "uuid": "bc3bd9ad-85de-4da1-8598-361aedaf53ae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VDDRIO_VSS_SENSE'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.2893
+                            },
+                            "uuid": "3cceb359-3d62-4a23-b359-5b5983dcc13c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VDDQ_VSS_SENSE'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.3147
+                            },
+                            "uuid": "6ea741e7-5da4-4229-9ee3-4c82b0a77037"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VDD2L_VSS_SENSE'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.3401
+                            },
+                            "uuid": "8698a591-e8aa-4e53-b6af-3c119a3cd7e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_DFT_SCAN_ENABLE'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.3683
+                            },
+                            "uuid": "048b5756-5930-4584-997b-b519c53221e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_STRAP_DFT_SHIFT_CLK'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.4445
+                            },
+                            "uuid": "a2883a17-eee2-4d09-8fc0-71aadbed7f51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/PEX_MGMT_SDA_1V8'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 1.016
+                            },
+                            "uuid": "b0d0eea4-0844-48aa-93a6-fa9ed9b1003e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.5334
+                            },
+                            "uuid": "609730f9-3c52-4ccc-938d-bf5a20cbfa99"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.5588
+                            },
+                            "uuid": "38d1d58f-7f0d-4382-ac67-74ee1d761fcc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_SMRST_N'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.5842
+                            },
+                            "uuid": "193e8304-111f-44af-9597-4c33f91caa2f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_LED'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.6096
+                            },
+                            "uuid": "2856675e-e1cd-427d-91f5-4ae4e4253b0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.635
+                            },
+                            "uuid": "359a5a5c-ca83-4221-afa4-115eb7851f56"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_PRSNT0_N'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.6604
+                            },
+                            "uuid": "0c2b8bc5-3f21-4436-9fad-70795ca6a77e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_REFCLK1_N'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.7112
+                            },
+                            "uuid": "13a86f40-5865-4063-9f42-859602966a59"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_REFCLK1_P'",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.7366
+                            },
+                            "uuid": "1ee539e1-66b9-4b54-af97-b809b391b86c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.5588
+                            },
+                            "uuid": "48e537a1-0103-483b-b100-43669e9f500f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_PERST0_N'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.5842
+                            },
+                            "uuid": "e873a0c3-4dec-4fa2-95fb-a80647d438fa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S07_PWRDIS'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.635
+                            },
+                            "uuid": "26f245a6-3d92-48d0-95f9-2e487e3c2b26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.5334
+                            },
+                            "uuid": "605f4344-9cf4-4e07-a282-780bc033c3e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.5588
+                            },
+                            "uuid": "7d0272fd-12da-4f2d-97a6-4a60e96d7fb4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_SMRST_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.5842
+                            },
+                            "uuid": "3ae43f79-4959-4203-b182-a3aecba97b3a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_LED'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.6096
+                            },
+                            "uuid": "3a855bda-c46e-456e-8063-a02ae7b1221b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.635
+                            },
+                            "uuid": "d6465f87-fb2b-422b-b705-7dfc92f128cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_PRSNT0_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.6604
+                            },
+                            "uuid": "5c0c7b89-c751-4876-bde7-fb3cd5fcfa0f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_REFCLK1_N'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.7112
+                            },
+                            "uuid": "7f4bef0b-2679-4cf3-a8da-f1eead09e06a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_REFCLK1_P'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.7366
+                            },
+                            "uuid": "d447fab9-2507-4d5d-bbaf-c26d86000fe4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.5588
+                            },
+                            "uuid": "fbcf1113-80a0-436e-9151-b210e60e6eaa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_PERST0_N'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.5842
+                            },
+                            "uuid": "daf05277-afa0-4576-89be-3a8271423f10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S08_PWRDIS'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.635
+                            },
+                            "uuid": "b1469f3f-7193-42a1-ba57-087573342ac0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.5334
+                            },
+                            "uuid": "5e042a71-cbae-400f-a230-c60b09350121"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.5588
+                            },
+                            "uuid": "db74685d-62c2-4ce6-ae59-899206268f90"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_SMRST_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.5842
+                            },
+                            "uuid": "e54d8c44-ab4b-40b7-b8c2-1e770b65bc88"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_LED'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.6096
+                            },
+                            "uuid": "26aeec66-bbed-4297-9f8c-eee0c2ae768e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.635
+                            },
+                            "uuid": "5f7f7dc0-16e0-4d2e-90e0-35086f92626c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_PRSNT0_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.6604
+                            },
+                            "uuid": "2dfbac65-cdfb-4fff-b7ff-3e9906073216"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_REFCLK1_N'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.7112
+                            },
+                            "uuid": "39a4f3cd-5ac9-45e4-b37f-10b735f57355"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_REFCLK1_P'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 0.7366
+                            },
+                            "uuid": "41141631-2658-4934-9f81-fc7d6b9c506a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.5588
+                            },
+                            "uuid": "95c6897c-0fc9-48ab-ada4-3a43220c6ce3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_PERST0_N'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.5842
+                            },
+                            "uuid": "ad6e7f5a-1443-4887-a7af-34b8d235e337"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S09_PWRDIS'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.635
+                            },
+                            "uuid": "cf79424e-88fa-48fa-9d7b-ee11f71b8778"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_SMBCLK_I3CCLK'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.5334
+                            },
+                            "uuid": "c8198407-398f-4ba1-b965-046232bf4cb4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_SMBDATA_I3CDATA'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.5588
+                            },
+                            "uuid": "764760d6-978b-49b9-8fa6-61ceeebb8d8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_SMRST_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.5842
+                            },
+                            "uuid": "6f1757fe-fdbd-4190-8dca-2a3674c51b2f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_LED'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.6096
+                            },
+                            "uuid": "25560964-ea9b-4a59-a872-041b852c1906"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_PERST1_CLKREQ_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.635
+                            },
+                            "uuid": "d100ba4f-7f52-4eb6-b263-897509a747f2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_PRSNT0_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.6604
+                            },
+                            "uuid": "f086a93d-7693-4d32-99b9-a61be8b3c342"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_REFCLK1_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.7112
+                            },
+                            "uuid": "4f874e0a-0b0a-49c2-9ebb-7aec8f17e13e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_REFCLK1_P'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 0.7366
+                            },
+                            "uuid": "f59a8441-f6ba-49a1-b2ab-0fd6e227d1d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_TX1_P'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.8923
+                            },
+                            "uuid": "b465f0e2-9bae-4a96-a817-99a8b767587f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_TX1_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.9177
+                            },
+                            "uuid": "2b4a4c49-d2cb-4244-91e7-c59dad57441a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_CC1'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.9685
+                            },
+                            "uuid": "aa53594b-832a-4605-bf0c-49f196f8e202"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_SBU1'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.0447
+                            },
+                            "uuid": "262496bb-2c90-4c97-a1f1-e9986084fb0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_RX2_N'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.0955
+                            },
+                            "uuid": "0f1d9e57-be6d-4ced-8136-1e5ceb3a5212"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_RX2_P'",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.1209
+                            },
+                            "uuid": "bb5fb468-1a0b-4172-949f-b01f0c0e7010"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_DUALPORTEN_N'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 0.5588
+                            },
+                            "uuid": "61669bc1-c266-48c8-acd6-d7a99a511fbe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_PERST0_N'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 0.5842
+                            },
+                            "uuid": "380a27b8-5d1a-47cb-b4ee-79d011fefeb7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/S10_PWRDIS'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 0.635
+                            },
+                            "uuid": "fbd29794-7ed9-434f-9fa8-a739a2cb2a1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_TX2_P'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.8669
+                            },
+                            "uuid": "c50d19dd-68b3-45ac-adc4-e86383488b7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_TX2_N'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.8923
+                            },
+                            "uuid": "dec5c0ec-91ea-48b6-af7b-5cf1f9acec7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_CC2'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.9431
+                            },
+                            "uuid": "274cdbf9-f8fc-4161-9225-1fa53381fe9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_SBU2'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 2.0193
+                            },
+                            "uuid": "c079ef6a-dca7-4906-8358-690dc00695fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_RX1_N'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 2.0701
+                            },
+                            "uuid": "654f200b-2081-40c4-bbbc-80484443bd56"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/TB5_RX1_P'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 2.0955
+                            },
+                            "uuid": "301d6fe7-037d-49ae-b998-fada901e2db9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCPRIM_VNNAONLV_SENSE'",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 3.3401
+                            },
+                            "uuid": "0f7f52c9-eef6-42a0-95bf-9df291e0deea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCPRIM_IO_VSS_SENSE'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 1.8542
+                            },
+                            "uuid": "b30c5452-a6c1-47a4-b410-d966ae3afe35"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCC_ECORE_VSS_SENSE'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.6195
+                            },
+                            "uuid": "bc76490c-5c12-425c-b8e3-0aa301265307"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCC_ECORE_SENSE'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 3.3147
+                            },
+                            "uuid": "89079e92-9449-4565-b16d-5ea5a8881521"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCPRIM_IO_SENSE'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.8542
+                            },
+                            "uuid": "2cf6d4c9-854a-4523-b9ff-1981fcd233c6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCPRIM_VNNAONLV_VSS_SENSE'",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.905
+                            },
+                            "uuid": "53d6f2c5-522e-4a62-9a48-d848117031d1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCGT_SENSE'",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 2.3368
+                            },
+                            "uuid": "ad3bc59d-30e5-42bf-918d-dc60c11bdf25"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCC_PCORE_SENSE'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.6731
+                            },
+                            "uuid": "b1d54aaf-254e-40f0-9898-c07eede726f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCL2_VSS_SENSE'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.6985
+                            },
+                            "uuid": "facca541-1b2c-4119-9223-acfe35e468df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCSA_SENSE'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.7239
+                            },
+                            "uuid": "e1214048-2a85-47da-b693-2e0736a68168"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VDD2H_VSS_SENSE'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.7493
+                            },
+                            "uuid": "3d085913-0560-4c49-9103-28c8c830e8cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCGT_VSS_SENSE'",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 2.0066
+                            },
+                            "uuid": "e2e88bd7-aa18-476b-9236-1fa17b80ef4b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCC_PCORE_VSS_SENSE'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.5969
+                            },
+                            "uuid": "a187823d-e29e-464a-b5d4-5bbaa316d3d2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCL2_SENSE'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.6223
+                            },
+                            "uuid": "d5028a4a-de98-4555-a816-463afbbf8dfd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VCCSA_VSS_SENSE'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.6477
+                            },
+                            "uuid": "799ff1de-4608-4226-b4fe-03e58b7e2762"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '/CPU_VDD2H_SENSE'",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.6731
+                            },
+                            "uuid": "8a232ece-9aa4-4874-baf9-541f9895daaa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        },
+        {
+            "path": "/Connectivity 01/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/6bd471c9-37ae-493c-80ee-d5e4f7b8c042",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 02/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/7bd26724-8b4a-4ea5-baff-2d4287035444",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 03/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/e8694a84-7ba8-41f9-a898-8caab782fd84",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 04/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/71406630-c8ff-417e-928b-e20d652c2594",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 05/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/114f13ea-2962-44c0-a2d5-84328788cb25",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 06/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/ca44ddd6-dfcd-4c6c-abe0-841df7cf14e1",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 07/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/85d7af6f-8ee4-427e-a71c-e78b78bf371f",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 08/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/b6b8fe50-6d7c-4a1c-9bb8-01c5b68896c2",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 09/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/2d2992ae-2ab4-419c-af29-f0543546f11a",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 10/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/6cde8580-4c23-4c8a-83fc-d103272c74a6",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 11/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/e7a790a6-122c-43e4-b316-c9b6c5681f5e",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 12/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/ec177323-65a7-4ee8-91d4-f586cb9c7909",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 13/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/bf3cc83a-6166-4610-a84b-5b50e7c3bc0c",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 14/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/6be9b1fd-9958-414b-82df-47e12753be4e",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 15/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/af0a95d0-122d-4b63-a75a-33b1937693d8",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 16/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/085b315e-ffa4-40b2-a657-5152af14e2aa",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 17/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/c76041ed-445e-4027-bd56-dcedbcce76c3",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 18/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/0e3146c2-ea97-4b1d-a08d-b9d89d4b2001",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 19/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/8e16bb87-1932-4ca6-bcaf-e3e7055a8bb4",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 20/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/459436db-dc17-4486-8554-2083f7618146",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 21/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/79d41dac-8aa6-47d3-aa75-2fdab7259c28",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 22/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/f4ec221d-fb0e-4e57-86c9-8116871397de",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 23/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/b473990b-bd1f-435f-bcee-a9bded39e526",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 24/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/716b1209-8e98-4932-b3ef-f81803ae0ec6",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 25/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/f99d1cd1-59e0-4382-b4be-3d7edb886e6a",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 A4 [VSS, Power input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.3683
+                            },
+                            "uuid": "74c6142f-a405-402a-a650-da765f66276d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 A34 [VCCGT, Power input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 0.7493
+                            },
+                            "uuid": "534dc707-8839-4629-a6b9-990b0b9ef89d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 AR20 [VCCPRIM_1P8, Power input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.1623
+                            },
+                            "uuid": "d41df8ff-307d-4385-923f-f3cf230aeddb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 AR57 [VDDRIO, Power input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.4925
+                            },
+                            "uuid": "0de9f998-9f23-4b87-abf6-549004795e69"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 AT82 [VDDQ, Power input, Line]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 3.6449
+                            },
+                            "uuid": "16731bbe-11ae-41e1-96cd-d7f1cc7f3fca"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 AU31 [VCCST, Power input, Line]",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.2893
+                            },
+                            "uuid": "7186e75d-6857-44c8-8bd1-197f9b44e48a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 AU34 [VCCSA, Power input, Line]",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.3147
+                            },
+                            "uuid": "e1c67a8b-9f1c-46e7-acdb-504872418c80"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 AK67 [V1P8U_MEM, Power input, Line]",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 2.1844
+                            },
+                            "uuid": "7ab13eab-93f8-4222-87b8-24abc0ccd377"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 AL72 [VDD2L, Power input, Line]",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 2.0828
+                            },
+                            "uuid": "e864b0e5-cffb-44cb-852e-c6a06806dde8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 AW17 [VCCPRIM_3P3, Power input, Line]",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.3147
+                            },
+                            "uuid": "dd31c01e-b43a-4190-a33c-462529070a44"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 AW20 [VCCPRIM_VNNAON, Power input, Line]",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 3.3401
+                            },
+                            "uuid": "5b23a681-0ace-4a98-ab1d-d9bdd6e39582"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Connectivity 26/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/884650ad-696b-42e1-a6ca-29549e045d11",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 B63 [VDDRIO_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.7493
+                            },
+                            "uuid": "b6a7182a-989e-4857-a859-f6ea8eef7126"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 B65 [VDDQ_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.7747
+                            },
+                            "uuid": "5fcc926c-f469-4d62-8a9b-82fe4fcf7820"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 B67 [VDD2L_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.8001
+                            },
+                            "uuid": "6e20aa93-14fe-4645-931b-534cdcacb6d0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 BJ40 [VCC_ECORE, Power input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 1.9558
+                            },
+                            "uuid": "24d534fb-debd-44d7-8656-49be6bc845e7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 BJ83 [VDD2H, Power input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 2.286
+                            },
+                            "uuid": "bc071410-35d4-479e-97a3-ec0ac01071c7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 BB18 [VCCPRIM_IO, Power input, Line]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.4699
+                            },
+                            "uuid": "1f6b5546-9e05-4e71-ae7d-bcf4c080241f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 BK27 [VCCPRIM_VNNAONLV, Power input, Line]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 1.8542
+                            },
+                            "uuid": "75863705-9420-40ae-9dcb-3469a9584898"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 BV41 [VCCL2, Power input, Line]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 3.5179
+                            },
+                            "uuid": "99b6f7ee-5535-4de1-9c81-ad645530dc57"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 BW13 [VCCPRIM_VNNAON_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 3.3655
+                            },
+                            "uuid": "523e157b-e0e2-4a3a-85b6-a0be999ac8a3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 BY12 [VCCPRIM_VNNAON_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 3.4163
+                            },
+                            "uuid": "29fb1e95-744e-477e-ae9c-0258c8ab2eab"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 C62 [VDDRIO_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.2893
+                            },
+                            "uuid": "8f75f92f-0498-44d1-99ff-baa4891017c4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 C64 [VDDQ_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.3147
+                            },
+                            "uuid": "13fad62f-1d6f-4535-8f3e-9e42e053bba1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 C66 [VDD2L_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 3.3401
+                            },
+                            "uuid": "c29f2b46-284e-4433-8638-31347193ca8d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Connectivity 27/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/9e97249f-bacb-44e4-bce0-1f8d7652b865",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 CA40 [VCC_PCORE, Power input, Line]",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.4699
+                            },
+                            "uuid": "dff93670-2e07-4d40-9b1f-b77aee1edf2f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 CV27 [VCCPRIM_VNNAONLV_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 3.3401
+                            },
+                            "uuid": "479a4f14-e17e-4341-baea-540478871785"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 CL13 [VCCPRIM_IO_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 1.8542
+                            },
+                            "uuid": "ca805427-d5bc-412c-a304-96adac3131cd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 CW28 [VCC_ECORE_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.6195
+                            },
+                            "uuid": "172a146c-3d83-4460-ab66-3b23d06d369a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 CY27 [VCC_ECORE_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 3.3147
+                            },
+                            "uuid": "cb72e973-8657-4e95-8f4f-ba22f24fee51"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 CN12 [VCCPRIM_IO_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.8542
+                            },
+                            "uuid": "9b5258b9-3e8b-447f-ad55-585489b4aefe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 CT28 [VCCPRIM_VNNAONLV_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.905
+                            },
+                            "uuid": "1d569306-5dc5-4b2c-bc12-d83123b7584b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Connectivity 28/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/38aab4bc-bfc2-4d64-abbd-d8cb9afc6150",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 F64 [VCCGT_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 2.3368
+                            },
+                            "uuid": "c5e676f4-edb0-4b9d-8ab9-8ba2eb6e0233"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 DG60 [VCC_PCORE_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.6731
+                            },
+                            "uuid": "02da73b7-b463-4869-8ab5-c007334b0b65"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 DG62 [VCCL2_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.6985
+                            },
+                            "uuid": "c4abf7e0-a3e9-446a-88d8-1c91b374d5a5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 DG64 [VCCSA_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.7239
+                            },
+                            "uuid": "a72ea8c5-f7e4-4c68-8074-9af7e29e1f99"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 DG66 [VDD2H_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 0.7493
+                            },
+                            "uuid": "65e0cd55-6f8a-4da1-8f3c-295a0b28ae2a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 H63 [VCCGT_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 2.0066
+                            },
+                            "uuid": "b76929f9-cd06-4180-9fd5-f6841c836897"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 DJ61 [VCC_PCORE_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.5969
+                            },
+                            "uuid": "8f7a4339-6692-4591-9343-4e23e9ac6bd0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 DJ63 [VCCL2_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.6223
+                            },
+                            "uuid": "024501c5-9a6c-4df6-ad89-19324c156360"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 DJ65 [VCCSA_VSS_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.6477
+                            },
+                            "uuid": "ce457262-b2ff-47d0-824b-2fca911fde3a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U502 引脚 DJ67 [VDD2H_SENSE, Input, Line]",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 0.6731
+                            },
+                            "uuid": "e8a59fa3-9b2b-40bf-a959-7d5d9c8ac856"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Connectivity 29/",
+            "uuid_path": "/185cd24f-4cab-480d-96d1-0a980f62f3ce/619bfdaa-a48c-4328-b32a-c5f79c1b60a5",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U702 引脚 1 [IN, Power input, Line]",
+                            "pos": {
+                                "x": 2.032,
+                                "y": 3.2766
+                            },
+                            "uuid": "6d11bc3f-c03a-4f37-86ec-f9b376f7437c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        }
+    ],
+    "source": "Main_10E1S.kicad_sch"
+}

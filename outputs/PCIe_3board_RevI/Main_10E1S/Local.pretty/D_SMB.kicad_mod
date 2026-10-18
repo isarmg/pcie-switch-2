@@ -1,0 +1,237 @@
+(footprint "D_SMB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMBJ13CA; component body height limit 2.5 mm")
+	(tags "Diode SMB (DO-214AA)")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "07498783-90f3-44ac-8336-fbb46c15c13c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_SMB"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbad8535-8782-4846-84da-aabce4db2851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.littelfuse.com/products/tvs-diodes/surface-mount/smbj"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "125b8a5b-df65-4ed4-8c0c-dec1d699468d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "778e77bd-e076-4f59-9250-23ea243741f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.65 -2.25)
+		(end 3.65 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99a1a330-e90f-4e39-86f0-9044b8c82134")
+	)
+	(fp_line
+		(start -3.65 2.25)
+		(end -3.65 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f66632ae-b369-4275-b59e-623dfb894099")
+	)
+	(fp_line
+		(start 3.65 -2.25)
+		(end 3.65 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ec9e7a8-75f0-4e86-84f9-de1400478af1")
+	)
+	(fp_line
+		(start 3.65 2.25)
+		(end -3.65 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6f4af7e-a02e-4e65-813e-81cfec4ae077")
+	)
+	(fp_line
+		(start -2.3 2)
+		(end -2.3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1597c371-7894-4259-a0cb-14d680b865cf")
+	)
+	(fp_line
+		(start -0.64944 -0.79908)
+		(end -0.64944 0.80112)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f90268c3-d03f-4253-80ab-67c19b20ee35")
+	)
+	(fp_line
+		(start -0.64944 0.00102)
+		(end -1.55114 0.00102)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8d1574e-995f-479e-b047-63f8b9228dff")
+	)
+	(fp_line
+		(start -0.64944 0.00102)
+		(end 0.50118 -0.79908)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7b617e5-9323-47ce-9edb-4a27be7e7afd")
+	)
+	(fp_line
+		(start -0.64944 0.00102)
+		(end 0.50118 0.75032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1898f87-93e2-46cd-b1b0-16f08d5da06a")
+	)
+	(fp_line
+		(start 0.50118 0.00102)
+		(end 1.4994 0.00102)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c23c2a92-6ebf-44cd-aa35-cbf997716f52")
+	)
+	(fp_line
+		(start 0.50118 0.75032)
+		(end 0.50118 -0.79908)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f932a22d-2f80-4043-974d-18b7d67b4c12")
+	)
+	(fp_line
+		(start 2.3 -2)
+		(end -2.3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b84d5702-146d-460a-966f-bdf49b001e94")
+	)
+	(fp_line
+		(start 2.3 -2)
+		(end 2.3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22bba44b-c7a8-459b-a29a-b0b93446f1e3")
+	)
+	(fp_line
+		(start 2.3 2)
+		(end -2.3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87a486a1-70be-4ec9-8b48-5aad2bf6806f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(uuid "6d2adcfe-365f-4237-ac18-5b31047c7f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.15 0)
+		(size 2.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1086956522)
+		(uuid "2caaf6cf-a785-4ac6-bd39-56b231ba4259")
+	)
+	(pad "2" smd roundrect
+		(at 2.15 0)
+		(size 2.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1086956522)
+		(uuid "aaca682f-307f-46b0-bd15-6932cda11b6e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/D_SMB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

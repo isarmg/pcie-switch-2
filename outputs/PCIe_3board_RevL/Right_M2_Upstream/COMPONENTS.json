@@ -1,0 +1,1557 @@
+[
+  {
+    "ref": "J101",
+    "value": "M3 TX0",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M3_TX0_N",
+      "P": "/M3_TX0_P"
+    },
+    "x": 1.35,
+    "y": 2.0,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J102",
+    "value": "M3 RX0",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M3_RX0_N",
+      "P": "/M3_RX0_P"
+    },
+    "x": 1.35,
+    "y": 4.3,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J103",
+    "value": "M3 TX1",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M3_TX1_N",
+      "P": "/M3_TX1_P"
+    },
+    "x": 1.35,
+    "y": 6.6,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J104",
+    "value": "M3 RX1",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M3_RX1_N",
+      "P": "/M3_RX1_P"
+    },
+    "x": 1.35,
+    "y": 8.899999,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J105",
+    "value": "M3 TX2",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M3_TX2_N",
+      "P": "/M3_TX2_P"
+    },
+    "x": 1.35,
+    "y": 11.2,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J106",
+    "value": "M3 RX2",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M3_RX2_N",
+      "P": "/M3_RX2_P"
+    },
+    "x": 1.35,
+    "y": 13.5,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J107",
+    "value": "M3 TX3",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M3_TX3_N",
+      "P": "/M3_TX3_P"
+    },
+    "x": 1.35,
+    "y": 15.799999,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J108",
+    "value": "M3 RX3",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M3_RX3_N",
+      "P": "/M3_RX3_P"
+    },
+    "x": 1.35,
+    "y": 18.099999,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J109",
+    "value": "M3 CLK",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M3_CLK_N",
+      "P": "/M3_CLK_P"
+    },
+    "x": 1.35,
+    "y": 20.4,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J110",
+    "value": "UP TX0",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/UP_TX0_N",
+      "P": "/UP_TX0_P"
+    },
+    "x": 1.35,
+    "y": 22.7,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J111",
+    "value": "UP RX0",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/UP_RX0_N",
+      "P": "/UP_RX0_P"
+    },
+    "x": 1.35,
+    "y": 25.0,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J112",
+    "value": "UP TX1",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/UP_TX1_N",
+      "P": "/UP_TX1_P"
+    },
+    "x": 1.35,
+    "y": 27.299999,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J113",
+    "value": "UP RX1",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/UP_RX1_N",
+      "P": "/UP_RX1_P"
+    },
+    "x": 1.35,
+    "y": 29.599999,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J114",
+    "value": "UP TX2",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/UP_TX2_N",
+      "P": "/UP_TX2_P"
+    },
+    "x": 1.35,
+    "y": 31.9,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J115",
+    "value": "UP RX2",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/UP_RX2_N",
+      "P": "/UP_RX2_P"
+    },
+    "x": 1.35,
+    "y": 34.199999,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J116",
+    "value": "UP TX3",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/UP_TX3_N",
+      "P": "/UP_TX3_P"
+    },
+    "x": 1.35,
+    "y": 36.5,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J117",
+    "value": "UP RX3",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/UP_RX3_N",
+      "P": "/UP_RX3_P"
+    },
+    "x": 1.35,
+    "y": 38.8,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J118",
+    "value": "UP CLK",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/UP_CLK_N",
+      "P": "/UP_CLK_P"
+    },
+    "x": 1.35,
+    "y": 41.099999,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J50",
+    "value": "12V protected / GND",
+    "footprint": "Wire_12V_GND_3A",
+    "pinmap": {
+      "1": "/CABLE12",
+      "2": "/GND"
+    },
+    "x": 9.75,
+    "y": 1.75,
+    "side": "F",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C320",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_TX0_P",
+      "2": "/M3_TX0_P_AC"
+    },
+    "x": 3.55,
+    "y": 32.0,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C321",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_TX0_N",
+      "2": "/M3_TX0_N_AC"
+    },
+    "x": 3.55,
+    "y": 33.4,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C322",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_TX1_P",
+      "2": "/M3_TX1_P_AC"
+    },
+    "x": 3.55,
+    "y": 34.8,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C323",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_TX1_N",
+      "2": "/M3_TX1_N_AC"
+    },
+    "x": 3.55,
+    "y": 36.2,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C324",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_TX2_P",
+      "2": "/M3_TX2_P_AC"
+    },
+    "x": 3.55,
+    "y": 37.6,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C325",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_TX2_N",
+      "2": "/M3_TX2_N_AC"
+    },
+    "x": 3.55,
+    "y": 39.0,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C326",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_TX3_P",
+      "2": "/M3_TX3_P_AC"
+    },
+    "x": 3.55,
+    "y": 40.4,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C327",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_TX3_N",
+      "2": "/M3_TX3_N_AC"
+    },
+    "x": 3.55,
+    "y": 41.8,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "R310",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_3V3",
+      "2": "/M3_CLKREQ"
+    },
+    "x": 2.2,
+    "y": 2.8,
+    "side": "F",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "R311",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_3V3",
+      "2": "/M3_WAKE"
+    },
+    "x": 4.5,
+    "y": 2.8,
+    "side": "F",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "U23",
+    "value": "TPS565201DDCR",
+    "footprint": "SOT-23-6",
+    "pinmap": {
+      "1": "/GND",
+      "2": "/M3_SW",
+      "3": "/CABLE12",
+      "4": "/M3_FB",
+      "5": "/CABLE12",
+      "6": "/M3_BST"
+    },
+    "x": 9.5,
+    "y": 11.5,
+    "side": "B",
+    "height_mm": 1.1,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps565201.pdf",
+    "pin_names": {
+      "1": "GND",
+      "2": "SW",
+      "3": "VIN",
+      "4": "VFB",
+      "5": "EN",
+      "6": "VBST"
+    },
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "L3",
+    "value": "2.2uH XAL5030-222MEC",
+    "footprint": "L_Coilcraft_XAL5030-XXX",
+    "pinmap": {
+      "1": "/M3_SW",
+      "2": "/M3_3V3"
+    },
+    "x": 15.7,
+    "y": 11.5,
+    "side": "B",
+    "height_mm": 3.1,
+    "datasheet": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal50xx/xal5030-222/",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C301",
+    "value": "10uF 25V X7R",
+    "footprint": "C_0805_2012Metric",
+    "pinmap": {
+      "1": "/CABLE12",
+      "2": "/GND"
+    },
+    "x": 10.0,
+    "y": 15.8,
+    "side": "B",
+    "height_mm": 1.45,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C302",
+    "value": "100nF 50V",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/CABLE12",
+      "2": "/GND"
+    },
+    "x": 7.0,
+    "y": 15.8,
+    "side": "B",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C303",
+    "value": "100nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_BST",
+      "2": "/M3_SW"
+    },
+    "x": 9.7,
+    "y": 8.9,
+    "side": "B",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C304",
+    "value": "22uF 16V X7R",
+    "footprint": "C_1210_3225Metric",
+    "pinmap": {
+      "1": "/M3_3V3",
+      "2": "/GND"
+    },
+    "x": 15.7,
+    "y": 3.0,
+    "side": "B",
+    "height_mm": 2.8,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C305",
+    "value": "22uF 16V X7R",
+    "footprint": "C_1210_3225Metric",
+    "pinmap": {
+      "1": "/M3_3V3",
+      "2": "/GND"
+    },
+    "x": 15.7,
+    "y": 16.5,
+    "side": "B",
+    "height_mm": 2.8,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "R301",
+    "value": "33.2k",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_3V3",
+      "2": "/M3_FB"
+    },
+    "x": 6.5,
+    "y": 13.5,
+    "side": "B",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "R302",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M3_FB",
+      "2": "/GND"
+    },
+    "x": 6.5,
+    "y": 11.5,
+    "side": "B",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 90.0
+  },
+  {
+    "ref": "C306",
+    "value": "1uF 16V",
+    "footprint": "C_0603_1608Metric",
+    "pinmap": {
+      "1": "/M3_3V3",
+      "2": "/GND"
+    },
+    "x": 7.1,
+    "y": 8.0,
+    "side": "B",
+    "height_mm": 0.9,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C420",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/UP_TX0_P",
+      "2": "/UP_TX0_P_AC"
+    },
+    "x": 15.95,
+    "y": 32.0,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C421",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/UP_TX0_N",
+      "2": "/UP_TX0_N_AC"
+    },
+    "x": 15.95,
+    "y": 33.4,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C422",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/UP_TX1_P",
+      "2": "/UP_TX1_P_AC"
+    },
+    "x": 15.95,
+    "y": 34.8,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C423",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/UP_TX1_N",
+      "2": "/UP_TX1_N_AC"
+    },
+    "x": 15.95,
+    "y": 36.2,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C424",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/UP_TX2_P",
+      "2": "/UP_TX2_P_AC"
+    },
+    "x": 15.95,
+    "y": 37.6,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C425",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/UP_TX2_N",
+      "2": "/UP_TX2_N_AC"
+    },
+    "x": 15.95,
+    "y": 39.0,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C426",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/UP_TX3_P",
+      "2": "/UP_TX3_P_AC"
+    },
+    "x": 15.95,
+    "y": 40.4,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C427",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/UP_TX3_N",
+      "2": "/UP_TX3_N_AC"
+    },
+    "x": 15.95,
+    "y": 41.8,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "TP1",
+    "value": "UP CLKREQ reserved",
+    "footprint": "Testpad_1",
+    "pinmap": {
+      "1": "/UP_CLKREQ"
+    },
+    "x": 17.5,
+    "y": 30.5,
+    "side": "F",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "U25",
+    "value": "TPS565201DDCR",
+    "footprint": "SOT-23-6",
+    "pinmap": {
+      "1": "/GND",
+      "2": "/M5_SW",
+      "3": "/CABLE12",
+      "4": "/M5_FB",
+      "5": "/CABLE12",
+      "6": "/M5_BST"
+    },
+    "x": 9.5,
+    "y": 35.6,
+    "side": "B",
+    "height_mm": 1.1,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps565201.pdf",
+    "pin_names": {
+      "1": "GND",
+      "2": "SW",
+      "3": "VIN",
+      "4": "VFB",
+      "5": "EN",
+      "6": "VBST"
+    },
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "L5",
+    "value": "2.2uH XAL5030-222MEC",
+    "footprint": "L_Coilcraft_XAL5030-XXX",
+    "pinmap": {
+      "1": "/M5_SW",
+      "2": "/M5_3V3"
+    },
+    "x": 15.7,
+    "y": 35.6,
+    "side": "B",
+    "height_mm": 3.1,
+    "datasheet": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal50xx/xal5030-222/",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C501",
+    "value": "10uF 25V X7R",
+    "footprint": "C_0805_2012Metric",
+    "pinmap": {
+      "1": "/CABLE12",
+      "2": "/GND"
+    },
+    "x": 10.0,
+    "y": 40.0,
+    "side": "B",
+    "height_mm": 1.45,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C502",
+    "value": "100nF 50V",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/CABLE12",
+      "2": "/GND"
+    },
+    "x": 7.0,
+    "y": 40.0,
+    "side": "B",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C503",
+    "value": "100nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_BST",
+      "2": "/M5_SW"
+    },
+    "x": 9.7,
+    "y": 33.0,
+    "side": "B",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C504",
+    "value": "22uF 16V X7R",
+    "footprint": "C_1210_3225Metric",
+    "pinmap": {
+      "1": "/M5_3V3",
+      "2": "/GND"
+    },
+    "x": 15.7,
+    "y": 41.0,
+    "side": "B",
+    "height_mm": 2.8,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C505",
+    "value": "22uF 16V X7R",
+    "footprint": "C_1210_3225Metric",
+    "pinmap": {
+      "1": "/M5_3V3",
+      "2": "/GND"
+    },
+    "x": 9.5,
+    "y": 43.0,
+    "side": "B",
+    "height_mm": 2.8,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C506",
+    "value": "1uF 16V",
+    "footprint": "C_0603_1608Metric",
+    "pinmap": {
+      "1": "/M5_3V3",
+      "2": "/GND"
+    },
+    "x": 7.1,
+    "y": 32.1,
+    "side": "B",
+    "height_mm": 0.9,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C520",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_TX0_P",
+      "2": "/M5_TX0_P_AC"
+    },
+    "x": 9.75,
+    "y": 32.0,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C521",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_TX0_N",
+      "2": "/M5_TX0_N_AC"
+    },
+    "x": 9.75,
+    "y": 33.4,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C522",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_TX1_P",
+      "2": "/M5_TX1_P_AC"
+    },
+    "x": 9.75,
+    "y": 34.8,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C523",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_TX1_N",
+      "2": "/M5_TX1_N_AC"
+    },
+    "x": 9.75,
+    "y": 36.2,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C524",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_TX2_P",
+      "2": "/M5_TX2_P_AC"
+    },
+    "x": 9.75,
+    "y": 37.6,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C525",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_TX2_N",
+      "2": "/M5_TX2_N_AC"
+    },
+    "x": 9.75,
+    "y": 39.0,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C526",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_TX3_P",
+      "2": "/M5_TX3_P_AC"
+    },
+    "x": 9.75,
+    "y": 40.4,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "C527",
+    "value": "220nF 16V AC",
+    "footprint": "C_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_TX3_N",
+      "2": "/M5_TX3_N_AC"
+    },
+    "x": 9.75,
+    "y": 41.8,
+    "side": "F",
+    "height_mm": 0.55,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "R501",
+    "value": "33.2k",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_3V3",
+      "2": "/M5_FB"
+    },
+    "x": 6.5,
+    "y": 37.6,
+    "side": "B",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "R502",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_FB",
+      "2": "/GND"
+    },
+    "x": 6.5,
+    "y": 35.6,
+    "side": "B",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 90.0
+  },
+  {
+    "ref": "R510",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_3V3",
+      "2": "/M5_CLKREQ"
+    },
+    "x": 5.7,
+    "y": 1.4,
+    "side": "F",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "R511",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/M5_3V3",
+      "2": "/M5_WAKE"
+    },
+    "x": 13.8,
+    "y": 1.4,
+    "side": "F",
+    "height_mm": 0.4,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J119",
+    "value": "M5 TX0",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M5_TX0_N",
+      "P": "/M5_TX0_P"
+    },
+    "x": 3.75,
+    "y": 4.5,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J120",
+    "value": "M5 RX0",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M5_RX0_N",
+      "P": "/M5_RX0_P"
+    },
+    "x": 3.75,
+    "y": 10.0,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J121",
+    "value": "M5 TX1",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M5_TX1_N",
+      "P": "/M5_TX1_P"
+    },
+    "x": 3.75,
+    "y": 13.8,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J122",
+    "value": "M5 RX1",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M5_RX1_N",
+      "P": "/M5_RX1_P"
+    },
+    "x": 3.75,
+    "y": 17.6,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J123",
+    "value": "M5 TX2",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M5_TX2_N",
+      "P": "/M5_TX2_P"
+    },
+    "x": 3.75,
+    "y": 21.4,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J124",
+    "value": "M5 RX2",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M5_RX2_N",
+      "P": "/M5_RX2_P"
+    },
+    "x": 3.75,
+    "y": 24.0,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J125",
+    "value": "M5 TX3",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M5_TX3_N",
+      "P": "/M5_TX3_P"
+    },
+    "x": 3.75,
+    "y": 30.0,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J126",
+    "value": "M5 RX3",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M5_RX3_N",
+      "P": "/M5_RX3_P"
+    },
+    "x": 3.75,
+    "y": 34.8,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J127",
+    "value": "M5 CLK",
+    "footprint": "Twinax_85R_Solder_DRAFT",
+    "pinmap": {
+      "G": "/GND",
+      "N": "/M5_CLK_N",
+      "P": "/M5_CLK_P"
+    },
+    "x": 3.75,
+    "y": 39.6,
+    "side": "B",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J51",
+    "value": "Three x4 port control / 12-wire",
+    "footprint": "Control_12_Wire",
+    "pinmap": {
+      "1": "/M3_PERST",
+      "2": "/M3_CLKREQ",
+      "3": "/M3_WAKE",
+      "4": "/UP_PERST",
+      "5": "/UP_CLKREQ",
+      "6": "/UP_WAKE",
+      "7": "/M5_PERST",
+      "8": "/M5_CLKREQ",
+      "9": "/M5_WAKE",
+      "10": "/GND",
+      "11": "/GND",
+      "12": "/GND"
+    },
+    "x": 9.75,
+    "y": 44.0,
+    "side": "F",
+    "height_mm": 0,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 0.0
+  },
+  {
+    "ref": "J3",
+    "value": "M3 SSD / MDT350M01001VT Gen4",
+    "footprint": "Amphenol_MDT350M01001VT_MKey_Vertical_Gen4",
+    "pinmap": {
+      "1": "/GND",
+      "2": "/M3_3V3",
+      "3": "/GND",
+      "4": "/M3_3V3",
+      "5": "/M3_RX3_N",
+      "6": "unconnected-(J3-Pad6)",
+      "7": "/M3_RX3_P",
+      "8": "unconnected-(J3-Pad8)",
+      "9": "/GND",
+      "10": "unconnected-(J3-Pad10)",
+      "11": "/M3_TX3_N_AC",
+      "12": "/M3_3V3",
+      "13": "/M3_TX3_P_AC",
+      "14": "/M3_3V3",
+      "15": "/GND",
+      "16": "/M3_3V3",
+      "17": "/M3_RX2_N",
+      "18": "/M3_3V3",
+      "19": "/M3_RX2_P",
+      "20": "unconnected-(J3-Pad20)",
+      "21": "/GND",
+      "22": "unconnected-(J3-Pad22)",
+      "23": "/M3_TX2_N_AC",
+      "24": "unconnected-(J3-Pad24)",
+      "25": "/M3_TX2_P_AC",
+      "26": "unconnected-(J3-Pad26)",
+      "27": "/GND",
+      "28": "unconnected-(J3-Pad28)",
+      "29": "/M3_RX1_N",
+      "30": "unconnected-(J3-Pad30)",
+      "31": "/M3_RX1_P",
+      "32": "unconnected-(J3-Pad32)",
+      "33": "/GND",
+      "34": "unconnected-(J3-Pad34)",
+      "35": "/M3_TX1_N_AC",
+      "36": "unconnected-(J3-Pad36)",
+      "37": "/M3_TX1_P_AC",
+      "38": "unconnected-(J3-Pad38)",
+      "39": "/GND",
+      "40": "unconnected-(J3-Pad40)",
+      "41": "/M3_RX0_N",
+      "42": "unconnected-(J3-Pad42)",
+      "43": "/M3_RX0_P",
+      "44": "unconnected-(J3-Pad44)",
+      "45": "/GND",
+      "46": "unconnected-(J3-Pad46)",
+      "47": "/M3_TX0_N_AC",
+      "48": "unconnected-(J3-Pad48)",
+      "49": "/M3_TX0_P_AC",
+      "50": "/M3_PERST",
+      "51": "/GND",
+      "52": "/M3_CLKREQ",
+      "53": "/M3_CLK_N",
+      "54": "/M3_WAKE",
+      "55": "/M3_CLK_P",
+      "56": "unconnected-(J3-Pad56)",
+      "57": "/GND",
+      "58": "unconnected-(J3-Pad58)",
+      "67": "unconnected-(J3-Pad67)",
+      "68": "unconnected-(J3-Pad68)",
+      "69": "/GND",
+      "70": "/M3_3V3",
+      "71": "/GND",
+      "72": "/M3_3V3",
+      "73": "/GND",
+      "74": "/M3_3V3",
+      "75": "/GND",
+      "MP1": "/GND",
+      "MP2": "/GND"
+    },
+    "x": 3.55,
+    "y": 17.0,
+    "side": "F",
+    "height_mm": 5.5,
+    "datasheet": "https://www.amphenol-cs.com/product/mdt350m01001vt.html",
+    "pin_names": {},
+    "rotation_deg": 90.0
+  },
+  {
+    "ref": "J5",
+    "value": "M5 SSD / MDT350M01001VT Gen4",
+    "footprint": "Amphenol_MDT350M01001VT_MKey_Vertical_Gen4",
+    "pinmap": {
+      "1": "/GND",
+      "2": "/M5_3V3",
+      "3": "/GND",
+      "4": "/M5_3V3",
+      "5": "/M5_RX3_N",
+      "6": "unconnected-(J5-Pad6)",
+      "7": "/M5_RX3_P",
+      "8": "unconnected-(J5-Pad8)",
+      "9": "/GND",
+      "10": "unconnected-(J5-Pad10)",
+      "11": "/M5_TX3_N_AC",
+      "12": "/M5_3V3",
+      "13": "/M5_TX3_P_AC",
+      "14": "/M5_3V3",
+      "15": "/GND",
+      "16": "/M5_3V3",
+      "17": "/M5_RX2_N",
+      "18": "/M5_3V3",
+      "19": "/M5_RX2_P",
+      "20": "unconnected-(J5-Pad20)",
+      "21": "/GND",
+      "22": "unconnected-(J5-Pad22)",
+      "23": "/M5_TX2_N_AC",
+      "24": "unconnected-(J5-Pad24)",
+      "25": "/M5_TX2_P_AC",
+      "26": "unconnected-(J5-Pad26)",
+      "27": "/GND",
+      "28": "unconnected-(J5-Pad28)",
+      "29": "/M5_RX1_N",
+      "30": "unconnected-(J5-Pad30)",
+      "31": "/M5_RX1_P",
+      "32": "unconnected-(J5-Pad32)",
+      "33": "/GND",
+      "34": "unconnected-(J5-Pad34)",
+      "35": "/M5_TX1_N_AC",
+      "36": "unconnected-(J5-Pad36)",
+      "37": "/M5_TX1_P_AC",
+      "38": "unconnected-(J5-Pad38)",
+      "39": "/GND",
+      "40": "unconnected-(J5-Pad40)",
+      "41": "/M5_RX0_N",
+      "42": "unconnected-(J5-Pad42)",
+      "43": "/M5_RX0_P",
+      "44": "unconnected-(J5-Pad44)",
+      "45": "/GND",
+      "46": "unconnected-(J5-Pad46)",
+      "47": "/M5_TX0_N_AC",
+      "48": "unconnected-(J5-Pad48)",
+      "49": "/M5_TX0_P_AC",
+      "50": "/M5_PERST",
+      "51": "/GND",
+      "52": "/M5_CLKREQ",
+      "53": "/M5_CLK_N",
+      "54": "/M5_WAKE",
+      "55": "/M5_CLK_P",
+      "56": "unconnected-(J5-Pad56)",
+      "57": "/GND",
+      "58": "unconnected-(J5-Pad58)",
+      "67": "unconnected-(J5-Pad67)",
+      "68": "unconnected-(J5-Pad68)",
+      "69": "/GND",
+      "70": "/M5_3V3",
+      "71": "/GND",
+      "72": "/M5_3V3",
+      "73": "/GND",
+      "74": "/M5_3V3",
+      "75": "/GND",
+      "MP1": "/GND",
+      "MP2": "/GND"
+    },
+    "x": 9.75,
+    "y": 17.0,
+    "side": "F",
+    "height_mm": 5.5,
+    "datasheet": "https://www.amphenol-cs.com/product/mdt350m01001vt.html",
+    "pin_names": {},
+    "rotation_deg": 90.0
+  },
+  {
+    "ref": "J4",
+    "value": "HOST UPSTREAM / MDT350M01001VT Gen4",
+    "footprint": "Amphenol_MDT350M01001VT_MKey_Vertical_Gen4",
+    "pinmap": {
+      "1": "/GND",
+      "2": "unconnected-(J4-Pad2)",
+      "3": "/GND",
+      "4": "unconnected-(J4-Pad4)",
+      "5": "/UP_TX3_N_AC",
+      "6": "unconnected-(J4-Pad6)",
+      "7": "/UP_TX3_P_AC",
+      "8": "unconnected-(J4-Pad8)",
+      "9": "/GND",
+      "10": "unconnected-(J4-Pad10)",
+      "11": "/UP_RX3_N",
+      "12": "unconnected-(J4-Pad12)",
+      "13": "/UP_RX3_P",
+      "14": "unconnected-(J4-Pad14)",
+      "15": "/GND",
+      "16": "unconnected-(J4-Pad16)",
+      "17": "/UP_TX2_N_AC",
+      "18": "unconnected-(J4-Pad18)",
+      "19": "/UP_TX2_P_AC",
+      "20": "unconnected-(J4-Pad20)",
+      "21": "/GND",
+      "22": "unconnected-(J4-Pad22)",
+      "23": "/UP_RX2_N",
+      "24": "unconnected-(J4-Pad24)",
+      "25": "/UP_RX2_P",
+      "26": "unconnected-(J4-Pad26)",
+      "27": "/GND",
+      "28": "unconnected-(J4-Pad28)",
+      "29": "/UP_TX1_N_AC",
+      "30": "unconnected-(J4-Pad30)",
+      "31": "/UP_TX1_P_AC",
+      "32": "unconnected-(J4-Pad32)",
+      "33": "/GND",
+      "34": "unconnected-(J4-Pad34)",
+      "35": "/UP_RX1_N",
+      "36": "unconnected-(J4-Pad36)",
+      "37": "/UP_RX1_P",
+      "38": "unconnected-(J4-Pad38)",
+      "39": "/GND",
+      "40": "unconnected-(J4-Pad40)",
+      "41": "/UP_TX0_N_AC",
+      "42": "unconnected-(J4-Pad42)",
+      "43": "/UP_TX0_P_AC",
+      "44": "unconnected-(J4-Pad44)",
+      "45": "/GND",
+      "46": "unconnected-(J4-Pad46)",
+      "47": "/UP_RX0_N",
+      "48": "unconnected-(J4-Pad48)",
+      "49": "/UP_RX0_P",
+      "50": "/UP_PERST",
+      "51": "/GND",
+      "52": "/UP_CLKREQ",
+      "53": "/UP_CLK_N",
+      "54": "/UP_WAKE",
+      "55": "/UP_CLK_P",
+      "56": "unconnected-(J4-Pad56)",
+      "57": "/GND",
+      "58": "unconnected-(J4-Pad58)",
+      "67": "unconnected-(J4-Pad67)",
+      "68": "unconnected-(J4-Pad68)",
+      "69": "/GND",
+      "70": "unconnected-(J4-Pad70)",
+      "71": "/GND",
+      "72": "unconnected-(J4-Pad72)",
+      "73": "/GND",
+      "74": "unconnected-(J4-Pad74)",
+      "75": "/GND",
+      "MP1": "/GND",
+      "MP2": "/GND"
+    },
+    "x": 15.95,
+    "y": 17.0,
+    "side": "F",
+    "height_mm": 5.5,
+    "datasheet": "https://www.amphenol-cs.com/product/mdt350m01001vt.html",
+    "pin_names": {},
+    "rotation_deg": 90.0
+  }
+]

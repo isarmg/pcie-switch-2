@@ -1,0 +1,145 @@
+(footprint "Intel_JHL9580_MECH_13x13_UNVERIFIED"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MECHANICAL RESERVATION ONLY. No real ball map or electrical land pattern.")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8ba3d4df-dc5f-4a7f-8a13-7ef181aaa43c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "173005ec-9d39-455f-b8ad-ab9c7ccb611b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02fff3b7-c0e3-4e94-bb4a-663059609ce0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76631db5-883b-4720-935e-16aae3d8dd18")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.75 -6.75)
+		(end 6.75 -6.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d7e18ee-4334-4aaa-ab1d-b14994138d41")
+	)
+	(fp_line
+		(start -6.75 6.75)
+		(end -6.75 -6.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "771e061f-b928-4efc-885f-0bfc6b0565ca")
+	)
+	(fp_line
+		(start 6.75 -6.75)
+		(end 6.75 6.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fdf939b-488f-4f34-a407-e31f046dc4a3")
+	)
+	(fp_line
+		(start 6.75 6.75)
+		(end -6.75 6.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a65c252-8c4d-4ad5-9766-616204d3f0a9")
+	)
+	(fp_line
+		(start -6.5 -6.5)
+		(end 6.5 -6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "db4087aa-c88e-4817-b294-529a1ffb7d08")
+	)
+	(fp_line
+		(start -6.5 6.5)
+		(end -6.5 -6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "027221fc-196a-4065-aab2-ec8f0464d86c")
+	)
+	(fp_line
+		(start 6.5 -6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "568ba90a-d1bb-4a13-9058-8c141f4291c8")
+	)
+	(fp_line
+		(start 6.5 6.5)
+		(end -6.5 6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e8f10c03-f1f2-4f5c-985f-bcddedde064d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/Intel_JHL9580_MECH_13x13_UNVERIFIED.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

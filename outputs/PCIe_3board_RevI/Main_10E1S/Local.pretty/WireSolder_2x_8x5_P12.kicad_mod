@@ -1,0 +1,148 @@
+(footprint "WireSolder_2x_8x5_P12"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "12V 15A FEED B; component body height limit 0 mm")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d26636f7-db65-4fb5-9c3a-0e8c588802d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "WireSolder_2x_8x5_P12"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "741c6747-a88d-43f5-99a9-fc97691078ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a08d04cd-dc2f-4791-9143-1dfd41531c6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "675c90fb-cbea-40a3-b21a-73d4fba39062")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10.15 -2.65)
+		(end 10.15 -2.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a83f4b2d-159d-4aad-8bd2-7443ed68dc5b")
+	)
+	(fp_line
+		(start -10.15 2.65)
+		(end -10.15 -2.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "88ba95f5-035b-4fdc-9527-85ba957681ce")
+	)
+	(fp_line
+		(start 10.15 -2.65)
+		(end 10.15 2.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "71fb7bf3-34e6-4170-89a3-d6d47443b983")
+	)
+	(fp_line
+		(start 10.15 2.65)
+		(end -10.15 2.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "342d888b-b8d0-4b67-9331-307fee8cc1b3")
+	)
+	(fp_line
+		(start -10 -2.5)
+		(end 10 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "60125ca5-9093-4786-bf3e-743657351eca")
+	)
+	(fp_line
+		(start -10 2.5)
+		(end -10 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "97d4cc37-0290-4022-a994-da1a755bea0e")
+	)
+	(fp_line
+		(start 10 -2.5)
+		(end 10 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4454eb73-9cf3-40ea-8bff-e95f3b2b2fef")
+	)
+	(fp_line
+		(start 10 2.5)
+		(end -10 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "12ff88f5-12f0-4491-937a-0d13adb7df6a")
+	)
+	(pad "1" smd rect
+		(at -6 0)
+		(size 8 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8f145305-7928-4d55-9b17-8efe1875b100")
+	)
+	(pad "2" smd rect
+		(at 6 0)
+		(size 8 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a8295d80-150e-4836-8c2d-50f70c34b7d1")
+	)
+	(embedded_fonts no)
+)

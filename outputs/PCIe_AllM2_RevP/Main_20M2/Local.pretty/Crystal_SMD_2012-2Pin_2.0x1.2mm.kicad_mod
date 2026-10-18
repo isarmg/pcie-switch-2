@@ -1,0 +1,127 @@
+(footprint "Crystal_SMD_2012-2Pin_2.0x1.2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2012/2, Crystal, 2.0x1.2mm package, SMD, http://txccrystal.com/images/pdf/9ht11.pdf")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dd324beb-4761-436e-8229-7b356e5e0480")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_2012-2Pin_2.0x1.2mm"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "487fc385-9a32-4759-96b2-0d338b8bcf30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "114a3de2-2c67-4f72-8f0b-7d55dfe063bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e79bd6ac-937c-4598-814d-720e67fe5162")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "crystal_resonator_oscillator"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "91ea1c37-6277-40aa-ad74-1f8390fdae98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "b285b69a-5892-4228-80e7-d33cb246b16e")
+	)
+	(fp_rect
+		(start -1.5 -1.1)
+		(end 1.5 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e0566106-f4b4-46c8-ae73-d52624603c0b")
+	)
+	(fp_poly
+		(pts
+			(xy 1 -0.6) (xy 1 0.6) (xy -0.7 0.6) (xy -1 0.3) (xy -1 -0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ead03a21-95b2-4c51-8793-39027e78edca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a86f97c1-84ff-4e46-a6d0-7bf3d4554cb0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7 0)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d4d44df8-a0cb-4628-9ff0-11ed9df488ad")
+	)
+	(pad "2" smd roundrect
+		(at 0.7 0)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "257ebbf0-e8ce-45af-a27d-443d7ecce001")
+	)
+	(embedded_fonts no)
+)

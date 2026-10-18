@@ -1,0 +1,996 @@
+[
+  {
+    "pair": "CLKBUF1_IN",
+    "P_mm": 54.25390267425929,
+    "N_mm": 57.17687113836786,
+    "geometric_skew_mm": 2.922968464108571,
+    "qualified": false
+  },
+  {
+    "pair": "CLKBUF2_IN",
+    "P_mm": 30.842328099171624,
+    "N_mm": 33.35373432656763,
+    "geometric_skew_mm": 2.5114062273960087,
+    "qualified": false
+  },
+  {
+    "pair": "CPU_REFCLK",
+    "P_mm": 20.530552729646327,
+    "N_mm": 19.895913650797745,
+    "geometric_skew_mm": 0.6346390788485827,
+    "qualified": false
+  },
+  {
+    "pair": "CPU_TX0",
+    "P_mm": 6.35401715638117,
+    "N_mm": 5.631458309972026,
+    "geometric_skew_mm": 0.7225588464091439,
+    "qualified": false
+  },
+  {
+    "pair": "CPU_TX1",
+    "P_mm": 9.44524032563075,
+    "N_mm": 7.889858324576375,
+    "geometric_skew_mm": 1.5553820010543742,
+    "qualified": false
+  },
+  {
+    "pair": "CPU_TX2",
+    "P_mm": 11.516599650438966,
+    "N_mm": 8.900173165601194,
+    "geometric_skew_mm": 2.6164264848377723,
+    "qualified": false
+  },
+  {
+    "pair": "CPU_TX3",
+    "P_mm": 26.079054665215782,
+    "N_mm": 11.476679611967695,
+    "geometric_skew_mm": 14.602375053248087,
+    "qualified": false
+  },
+  {
+    "pair": "PEX_SYS_REFCLK",
+    "P_mm": 12.108587380555063,
+    "N_mm": 13.066728980145434,
+    "geometric_skew_mm": 0.9581415995903715,
+    "qualified": false
+  },
+  {
+    "pair": "PEX_TX0",
+    "P_mm": 25.66937676917121,
+    "N_mm": 18.788208137786707,
+    "geometric_skew_mm": 6.881168631384501,
+    "qualified": false
+  },
+  {
+    "pair": "PEX_TX1",
+    "P_mm": 23.36680920011028,
+    "N_mm": 68.02118548121138,
+    "geometric_skew_mm": 44.654376281101094,
+    "qualified": false
+  },
+  {
+    "pair": "PEX_TX2",
+    "P_mm": 23.797717099819998,
+    "N_mm": 28.132651569953627,
+    "geometric_skew_mm": 4.3349344701336285,
+    "qualified": false
+  },
+  {
+    "pair": "PEX_TX3",
+    "P_mm": 25.17010728895012,
+    "N_mm": 23.610858709569914,
+    "geometric_skew_mm": 1.5592485793802062,
+    "qualified": false
+  },
+  {
+    "pair": "S01_REFCLK",
+    "P_mm": 46.884996,
+    "N_mm": 47.884994999999996,
+    "geometric_skew_mm": 0.9999989999999954,
+    "qualified": false
+  },
+  {
+    "pair": "S01_RX0",
+    "P_mm": 11.972882718814624,
+    "N_mm": 12.341552216290957,
+    "geometric_skew_mm": 0.3686694974763327,
+    "qualified": false
+  },
+  {
+    "pair": "S01_RX1",
+    "P_mm": 12.287133955946821,
+    "N_mm": 11.642517983666592,
+    "geometric_skew_mm": 0.6446159722802296,
+    "qualified": false
+  },
+  {
+    "pair": "S01_RX2",
+    "P_mm": 12.375618178247555,
+    "N_mm": 18.644183411245354,
+    "geometric_skew_mm": 6.268565232997799,
+    "qualified": false
+  },
+  {
+    "pair": "S01_RX3",
+    "P_mm": 12.16066406071455,
+    "N_mm": 16.700393780958848,
+    "geometric_skew_mm": 4.539729720244297,
+    "qualified": false
+  },
+  {
+    "pair": "S01_TX0",
+    "P_mm": 66.865,
+    "N_mm": 36.41241065449853,
+    "geometric_skew_mm": 30.452589345501465,
+    "qualified": false
+  },
+  {
+    "pair": "S01_TX1",
+    "P_mm": 56.535,
+    "N_mm": 37.42999551843688,
+    "geometric_skew_mm": 19.105004481563114,
+    "qualified": false
+  },
+  {
+    "pair": "S01_TX2",
+    "P_mm": 42.148060497313054,
+    "N_mm": 43.75786808374059,
+    "geometric_skew_mm": 1.6098075864275359,
+    "qualified": false
+  },
+  {
+    "pair": "S01_TX3",
+    "P_mm": 78.26499899999999,
+    "N_mm": 47.87873148243389,
+    "geometric_skew_mm": 30.386267517566097,
+    "qualified": false
+  },
+  {
+    "pair": "S02_REFCLK",
+    "P_mm": 33.615655570272416,
+    "N_mm": 34.29243275358367,
+    "geometric_skew_mm": 0.6767771833112519,
+    "qualified": false
+  },
+  {
+    "pair": "S02_RX0",
+    "P_mm": 13.54863320194842,
+    "N_mm": 13.338983436635042,
+    "geometric_skew_mm": 0.20964976531337776,
+    "qualified": false
+  },
+  {
+    "pair": "S02_RX1",
+    "P_mm": 13.498749016112567,
+    "N_mm": 13.279616899594657,
+    "geometric_skew_mm": 0.2191321165179101,
+    "qualified": false
+  },
+  {
+    "pair": "S02_RX2",
+    "P_mm": 63.86500000000001,
+    "N_mm": 14.178002365210524,
+    "geometric_skew_mm": 49.686997634789485,
+    "qualified": false
+  },
+  {
+    "pair": "S02_RX3",
+    "P_mm": 68.864999,
+    "N_mm": 20.12926141520567,
+    "geometric_skew_mm": 48.73573758479433,
+    "qualified": false
+  },
+  {
+    "pair": "S02_TX0",
+    "P_mm": 24.940704147652255,
+    "N_mm": 135.1355921098749,
+    "geometric_skew_mm": 110.19488796222264,
+    "qualified": false
+  },
+  {
+    "pair": "S02_TX1",
+    "P_mm": 44.91122748795874,
+    "N_mm": 24.72210475338498,
+    "geometric_skew_mm": 20.18912273457376,
+    "qualified": false
+  },
+  {
+    "pair": "S02_TX2",
+    "P_mm": 67.35064268251772,
+    "N_mm": 23.46023491796315,
+    "geometric_skew_mm": 43.89040776455457,
+    "qualified": false
+  },
+  {
+    "pair": "S02_TX3",
+    "P_mm": 48.235001,
+    "N_mm": 53.01961118153545,
+    "geometric_skew_mm": 4.784610181535456,
+    "qualified": false
+  },
+  {
+    "pair": "S03_REFCLK",
+    "P_mm": 34.984998000000004,
+    "N_mm": 67.41498999999999,
+    "geometric_skew_mm": 32.429991999999984,
+    "qualified": false
+  },
+  {
+    "pair": "S03_RX0",
+    "P_mm": 17.34635197983871,
+    "N_mm": 58.864999999999995,
+    "geometric_skew_mm": 41.51864802016129,
+    "qualified": false
+  },
+  {
+    "pair": "S03_RX1",
+    "P_mm": 16.2874154278349,
+    "N_mm": 16.13228013367064,
+    "geometric_skew_mm": 0.15513529416426053,
+    "qualified": false
+  },
+  {
+    "pair": "S03_RX2",
+    "P_mm": 16.28576134928625,
+    "N_mm": 25.91163510229534,
+    "geometric_skew_mm": 9.625873753009088,
+    "qualified": false
+  },
+  {
+    "pair": "S03_RX3",
+    "P_mm": 41.735001000000004,
+    "N_mm": 16.645230791856115,
+    "geometric_skew_mm": 25.08977020814389,
+    "qualified": false
+  },
+  {
+    "pair": "S03_TX0",
+    "P_mm": 27.37007269963847,
+    "N_mm": 68.465,
+    "geometric_skew_mm": 41.09492730036153,
+    "qualified": false
+  },
+  {
+    "pair": "S03_TX1",
+    "P_mm": 59.23500000000001,
+    "N_mm": 43.60244189013473,
+    "geometric_skew_mm": 15.632558109865279,
+    "qualified": false
+  },
+  {
+    "pair": "S03_TX2",
+    "P_mm": 27.026504151970205,
+    "N_mm": 35.799521997270084,
+    "geometric_skew_mm": 8.77301784529988,
+    "qualified": false
+  },
+  {
+    "pair": "S03_TX3",
+    "P_mm": 49.235001000000004,
+    "N_mm": 26.566829867304712,
+    "geometric_skew_mm": 22.668171132695292,
+    "qualified": false
+  },
+  {
+    "pair": "S04_REFCLK",
+    "P_mm": 67.45186742841608,
+    "N_mm": 115.21083107582061,
+    "geometric_skew_mm": 47.75896364740453,
+    "qualified": false
+  },
+  {
+    "pair": "S04_RX0",
+    "P_mm": 35.36342426888528,
+    "N_mm": 35.51516102235161,
+    "geometric_skew_mm": 0.15173675346633075,
+    "qualified": false
+  },
+  {
+    "pair": "S04_RX1",
+    "P_mm": 15.18438424061617,
+    "N_mm": 15.677226588220348,
+    "geometric_skew_mm": 0.4928423476041779,
+    "qualified": false
+  },
+  {
+    "pair": "S04_RX2",
+    "P_mm": 16.720989299161946,
+    "N_mm": 22.78166288354502,
+    "geometric_skew_mm": 6.060673584383075,
+    "qualified": false
+  },
+  {
+    "pair": "S04_RX3",
+    "P_mm": 65.66499900000001,
+    "N_mm": 16.559911550512673,
+    "geometric_skew_mm": 49.105087449487336,
+    "qualified": false
+  },
+  {
+    "pair": "S04_TX0",
+    "P_mm": 46.39337463680925,
+    "N_mm": 27.74915270469803,
+    "geometric_skew_mm": 18.64422193211122,
+    "qualified": false
+  },
+  {
+    "pair": "S04_TX1",
+    "P_mm": 59.835,
+    "N_mm": 28.10180533637884,
+    "geometric_skew_mm": 31.733194663621163,
+    "qualified": false
+  },
+  {
+    "pair": "S04_TX2",
+    "P_mm": 56.035000000000004,
+    "N_mm": 28.474582083005785,
+    "geometric_skew_mm": 27.56041791699422,
+    "qualified": false
+  },
+  {
+    "pair": "S04_TX3",
+    "P_mm": 51.235001000000004,
+    "N_mm": 53.835,
+    "geometric_skew_mm": 2.599998999999997,
+    "qualified": false
+  },
+  {
+    "pair": "S05_REFCLK",
+    "P_mm": 30.65687620826814,
+    "N_mm": 27.098282778500018,
+    "geometric_skew_mm": 3.5585934297681234,
+    "qualified": false
+  },
+  {
+    "pair": "S05_RX0",
+    "P_mm": 29.91088466847035,
+    "N_mm": 128.80371078409274,
+    "geometric_skew_mm": 98.8928261156224,
+    "qualified": false
+  },
+  {
+    "pair": "S05_RX1",
+    "P_mm": 20.109523370748494,
+    "N_mm": 26.444279961790528,
+    "geometric_skew_mm": 6.334756591042034,
+    "qualified": false
+  },
+  {
+    "pair": "S05_RX2",
+    "P_mm": 34.201903462936386,
+    "N_mm": 39.99141958710765,
+    "geometric_skew_mm": 5.789516124171264,
+    "qualified": false
+  },
+  {
+    "pair": "S05_RX3",
+    "P_mm": 18.94235057493887,
+    "N_mm": 40.78628793344417,
+    "geometric_skew_mm": 21.8439373585053,
+    "qualified": false
+  },
+  {
+    "pair": "S05_TX0",
+    "P_mm": 73.92469799345679,
+    "N_mm": 70.66500000000002,
+    "geometric_skew_mm": 3.2596979934567685,
+    "qualified": false
+  },
+  {
+    "pair": "S05_TX1",
+    "P_mm": 77.26499999999999,
+    "N_mm": 29.19469298288351,
+    "geometric_skew_mm": 48.07030701711648,
+    "qualified": false
+  },
+  {
+    "pair": "S05_TX2",
+    "P_mm": 79.86500000000001,
+    "N_mm": 30.146097555906252,
+    "geometric_skew_mm": 49.71890244409376,
+    "qualified": false
+  },
+  {
+    "pair": "S05_TX3",
+    "P_mm": 44.71249580870901,
+    "N_mm": 30.066096725903062,
+    "geometric_skew_mm": 14.646399082805946,
+    "qualified": false
+  },
+  {
+    "pair": "S06_REFCLK",
+    "P_mm": 29.379427305829704,
+    "N_mm": 25.18353941199785,
+    "geometric_skew_mm": 4.195887893831856,
+    "qualified": false
+  },
+  {
+    "pair": "S06_RX0",
+    "P_mm": 104.83500000000001,
+    "N_mm": 106.435,
+    "geometric_skew_mm": 1.5999999999999943,
+    "qualified": false
+  },
+  {
+    "pair": "S06_RX1",
+    "P_mm": 103.935,
+    "N_mm": 104.03500000000001,
+    "geometric_skew_mm": 0.10000000000000853,
+    "qualified": false
+  },
+  {
+    "pair": "S06_RX2",
+    "P_mm": 100.135,
+    "N_mm": 98.83500000000001,
+    "geometric_skew_mm": 1.2999999999999972,
+    "qualified": false
+  },
+  {
+    "pair": "S06_RX3",
+    "P_mm": 86.53202730910456,
+    "N_mm": 95.035,
+    "geometric_skew_mm": 8.502972690895433,
+    "qualified": false
+  },
+  {
+    "pair": "S06_TX0",
+    "P_mm": 115.83499899999998,
+    "N_mm": 118.934999,
+    "geometric_skew_mm": 3.1000000000000227,
+    "qualified": false
+  },
+  {
+    "pair": "S06_TX1",
+    "P_mm": 113.534999,
+    "N_mm": 113.63499800000037,
+    "geometric_skew_mm": 0.09999900000036632,
+    "qualified": false
+  },
+  {
+    "pair": "S06_TX2",
+    "P_mm": 109.73499899999999,
+    "N_mm": 109.83499899999998,
+    "geometric_skew_mm": 0.09999999999999432,
+    "qualified": false
+  },
+  {
+    "pair": "S06_TX3",
+    "P_mm": 63.94865597383729,
+    "N_mm": 108.934999,
+    "geometric_skew_mm": 44.986343026162714,
+    "qualified": false
+  },
+  {
+    "pair": "S07_REFCLK",
+    "P_mm": 34.02520601322289,
+    "N_mm": 33.6260623817972,
+    "geometric_skew_mm": 0.3991436314256944,
+    "qualified": false
+  },
+  {
+    "pair": "S07_RX0",
+    "P_mm": 106.83500000000001,
+    "N_mm": 108.435,
+    "geometric_skew_mm": 1.5999999999999943,
+    "qualified": false
+  },
+  {
+    "pair": "S07_RX1",
+    "P_mm": 104.035,
+    "N_mm": 105.635,
+    "geometric_skew_mm": 1.6000000000000085,
+    "qualified": false
+  },
+  {
+    "pair": "S07_RX2",
+    "P_mm": 87.065,
+    "N_mm": 101.83500000000001,
+    "geometric_skew_mm": 14.77000000000001,
+    "qualified": false
+  },
+  {
+    "pair": "S07_RX3",
+    "P_mm": 97.335001,
+    "N_mm": 90.465,
+    "geometric_skew_mm": 6.870001000000002,
+    "qualified": false
+  },
+  {
+    "pair": "S07_TX0",
+    "P_mm": 91.865,
+    "N_mm": 90.265,
+    "geometric_skew_mm": 1.5999999999999943,
+    "qualified": false
+  },
+  {
+    "pair": "S07_TX1",
+    "P_mm": 95.665,
+    "N_mm": 94.06500100000036,
+    "geometric_skew_mm": 1.5999989999996416,
+    "qualified": false
+  },
+  {
+    "pair": "S07_TX2",
+    "P_mm": 99.465,
+    "N_mm": 97.865,
+    "geometric_skew_mm": 1.6000000000000085,
+    "qualified": false
+  },
+  {
+    "pair": "S07_TX3",
+    "P_mm": 102.064999,
+    "N_mm": 101.665,
+    "geometric_skew_mm": 0.399998999999994,
+    "qualified": false
+  },
+  {
+    "pair": "S08_REFCLK",
+    "P_mm": 167.86015056967884,
+    "N_mm": 166.60745937622076,
+    "geometric_skew_mm": 1.2526911934580767,
+    "qualified": false
+  },
+  {
+    "pair": "S08_RX0",
+    "P_mm": 61.34510819142762,
+    "N_mm": 80.96499999999999,
+    "geometric_skew_mm": 19.61989180857237,
+    "qualified": false
+  },
+  {
+    "pair": "S08_RX1",
+    "P_mm": 86.365,
+    "N_mm": 59.7297345491844,
+    "geometric_skew_mm": 26.635265450815595,
+    "qualified": false
+  },
+  {
+    "pair": "S08_RX2",
+    "P_mm": 59.913888860545704,
+    "N_mm": 59.29488746738659,
+    "geometric_skew_mm": 0.6190013931591167,
+    "qualified": false
+  },
+  {
+    "pair": "S08_RX3",
+    "P_mm": 59.44635966031742,
+    "N_mm": 81.58693226144985,
+    "geometric_skew_mm": 22.140572601132426,
+    "qualified": false
+  },
+  {
+    "pair": "S08_TX0",
+    "P_mm": 94.865,
+    "N_mm": 92.765,
+    "geometric_skew_mm": 2.0999999999999943,
+    "qualified": false
+  },
+  {
+    "pair": "S08_TX1",
+    "P_mm": 98.665,
+    "N_mm": 97.06500100000036,
+    "geometric_skew_mm": 1.5999989999996416,
+    "qualified": false
+  },
+  {
+    "pair": "S08_TX2",
+    "P_mm": 102.465,
+    "N_mm": 100.865,
+    "geometric_skew_mm": 1.6000000000000085,
+    "qualified": false
+  },
+  {
+    "pair": "S08_TX3",
+    "P_mm": 106.264999,
+    "N_mm": 104.165,
+    "geometric_skew_mm": 2.099998999999997,
+    "qualified": false
+  },
+  {
+    "pair": "S09_REFCLK",
+    "P_mm": 173.96481668910144,
+    "N_mm": 176.20745637622073,
+    "geometric_skew_mm": 2.2426396871192935,
+    "qualified": false
+  },
+  {
+    "pair": "S09_RX0",
+    "P_mm": 84.465,
+    "N_mm": 82.865,
+    "geometric_skew_mm": 1.6000000000000085,
+    "qualified": false
+  },
+  {
+    "pair": "S09_RX1",
+    "P_mm": 86.06500000000001,
+    "N_mm": 86.66499999999999,
+    "geometric_skew_mm": 0.5999999999999801,
+    "qualified": false
+  },
+  {
+    "pair": "S09_RX2",
+    "P_mm": 92.61490866759429,
+    "N_mm": 88.26500000000001,
+    "geometric_skew_mm": 4.349908667594278,
+    "qualified": false
+  },
+  {
+    "pair": "S09_RX3",
+    "P_mm": 162.470421652895,
+    "N_mm": 92.06500000000001,
+    "geometric_skew_mm": 70.40542165289499,
+    "qualified": false
+  },
+  {
+    "pair": "S09_TX0",
+    "P_mm": 148.96499999999997,
+    "N_mm": 142.495,
+    "geometric_skew_mm": 6.46999999999997,
+    "qualified": false
+  },
+  {
+    "pair": "S09_TX1",
+    "P_mm": 125.09892522567834,
+    "N_mm": 99.29153156069067,
+    "geometric_skew_mm": 25.80739366498767,
+    "qualified": false
+  },
+  {
+    "pair": "S09_TX2",
+    "P_mm": 117.24001376411401,
+    "N_mm": 138.70225878449747,
+    "geometric_skew_mm": 21.462245020383463,
+    "qualified": false
+  },
+  {
+    "pair": "S09_TX3",
+    "P_mm": 143.495001,
+    "N_mm": 196.34658845648426,
+    "geometric_skew_mm": 52.85158745648425,
+    "qualified": false
+  },
+  {
+    "pair": "S10_REFCLK",
+    "P_mm": 81.5618667972837,
+    "N_mm": 188.72897895410188,
+    "geometric_skew_mm": 107.16711215681818,
+    "qualified": false
+  },
+  {
+    "pair": "S10_RX0",
+    "P_mm": 65.49114096950632,
+    "N_mm": 218.08700035035096,
+    "geometric_skew_mm": 152.59585938084464,
+    "qualified": false
+  },
+  {
+    "pair": "S10_RX1",
+    "P_mm": 63.919151536098504,
+    "N_mm": 65.61510819142765,
+    "geometric_skew_mm": 1.695956655329148,
+    "qualified": false
+  },
+  {
+    "pair": "S10_RX2",
+    "P_mm": 65.30119147584519,
+    "N_mm": 84.80708458294252,
+    "geometric_skew_mm": 19.505893107097336,
+    "qualified": false
+  },
+  {
+    "pair": "S10_RX3",
+    "P_mm": 94.21601219425902,
+    "N_mm": 63.3777301798612,
+    "geometric_skew_mm": 30.83828201439782,
+    "qualified": false
+  },
+  {
+    "pair": "S10_TX0",
+    "P_mm": 77.81875582359064,
+    "N_mm": 149.72066709731718,
+    "geometric_skew_mm": 71.90191127372654,
+    "qualified": false
+  },
+  {
+    "pair": "S10_TX1",
+    "P_mm": 159.86202725159217,
+    "N_mm": 114.00922420543044,
+    "geometric_skew_mm": 45.852803046161725,
+    "qualified": false
+  },
+  {
+    "pair": "S10_TX2",
+    "P_mm": 114.06572144624374,
+    "N_mm": 114.95810960166874,
+    "geometric_skew_mm": 0.8923881554249959,
+    "qualified": false
+  },
+  {
+    "pair": "S10_TX3",
+    "P_mm": 116.08689353898271,
+    "N_mm": 113.56349198858497,
+    "geometric_skew_mm": 2.523401550397736,
+    "qualified": false
+  },
+  {
+    "pair": "S11_CLK",
+    "P_mm": 80.084995,
+    "N_mm": 82.48499400000001,
+    "geometric_skew_mm": 2.399999000000008,
+    "qualified": false
+  },
+  {
+    "pair": "S11_RX0",
+    "P_mm": 33.435,
+    "N_mm": 35.035,
+    "geometric_skew_mm": 1.5999999999999943,
+    "qualified": false
+  },
+  {
+    "pair": "S11_RX1",
+    "P_mm": 36.035000000000004,
+    "N_mm": 64.66499999999999,
+    "geometric_skew_mm": 28.62999999999999,
+    "qualified": false
+  },
+  {
+    "pair": "S11_RX2",
+    "P_mm": 70.065,
+    "N_mm": 68.465,
+    "geometric_skew_mm": 1.5999999999999943,
+    "qualified": false
+  },
+  {
+    "pair": "S11_RX3",
+    "P_mm": 34.035001,
+    "N_mm": 33.435,
+    "geometric_skew_mm": 0.6000009999999989,
+    "qualified": false
+  },
+  {
+    "pair": "S11_TX0",
+    "P_mm": 33.835,
+    "N_mm": 61.26500000000001,
+    "geometric_skew_mm": 27.430000000000007,
+    "qualified": false
+  },
+  {
+    "pair": "S11_TX1",
+    "P_mm": 29.835,
+    "N_mm": 61.065001000000365,
+    "geometric_skew_mm": 31.230001000000364,
+    "qualified": false
+  },
+  {
+    "pair": "S11_TX2",
+    "P_mm": 26.035,
+    "N_mm": 62.365,
+    "geometric_skew_mm": 36.33,
+    "qualified": false
+  },
+  {
+    "pair": "S11_TX3",
+    "P_mm": 65.42499899999999,
+    "N_mm": 29.395,
+    "geometric_skew_mm": 36.02999899999999,
+    "qualified": false
+  },
+  {
+    "pair": "S12_CLK",
+    "P_mm": 71.484992,
+    "N_mm": 98.514995,
+    "geometric_skew_mm": 27.030002999999994,
+    "qualified": false
+  },
+  {
+    "pair": "S12_RX0",
+    "P_mm": 32.435,
+    "N_mm": 35.035,
+    "geometric_skew_mm": 2.5999999999999943,
+    "qualified": false
+  },
+  {
+    "pair": "S12_RX1",
+    "P_mm": 66.265,
+    "N_mm": 33.035000000000004,
+    "geometric_skew_mm": 33.23,
+    "qualified": false
+  },
+  {
+    "pair": "S12_RX2",
+    "P_mm": 31.635,
+    "N_mm": 67.265,
+    "geometric_skew_mm": 35.629999999999995,
+    "qualified": false
+  },
+  {
+    "pair": "S12_RX3",
+    "P_mm": 33.035001,
+    "N_mm": 33.435,
+    "geometric_skew_mm": 0.3999990000000011,
+    "qualified": false
+  },
+  {
+    "pair": "S12_TX0",
+    "P_mm": 63.864999999999995,
+    "N_mm": 35.235,
+    "geometric_skew_mm": 28.629999999999995,
+    "qualified": false
+  },
+  {
+    "pair": "S12_TX1",
+    "P_mm": 62.96499999999999,
+    "N_mm": 59.86500100000036,
+    "geometric_skew_mm": 3.0999989999996274,
+    "qualified": false
+  },
+  {
+    "pair": "S12_TX2",
+    "P_mm": 27.234999999999996,
+    "N_mm": 62.224999999999994,
+    "geometric_skew_mm": 34.989999999999995,
+    "qualified": false
+  },
+  {
+    "pair": "S12_TX3",
+    "P_mm": 66.624999,
+    "N_mm": 65.02499999999999,
+    "geometric_skew_mm": 1.599999000000011,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_AR_TX0",
+    "P_mm": 40.776197493674125,
+    "N_mm": 41.25980149703279,
+    "geometric_skew_mm": 0.48360400335866416,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_AR_TX1",
+    "P_mm": 51.97569974597239,
+    "N_mm": 52.70444713147274,
+    "geometric_skew_mm": 0.7287473855003483,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_AR_TX2",
+    "P_mm": 68.26134451975678,
+    "N_mm": 78.68106743966341,
+    "geometric_skew_mm": 10.419722919906633,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_AR_TX3",
+    "P_mm": 53.810494216571534,
+    "N_mm": 39.96367753625694,
+    "geometric_skew_mm": 13.846816680314596,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_CIO_RX0",
+    "P_mm": 55.876216745101246,
+    "N_mm": 59.2500234960429,
+    "geometric_skew_mm": 3.373806750941654,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_CIO_RX1",
+    "P_mm": 138.21227921388515,
+    "N_mm": 136.30559466325604,
+    "geometric_skew_mm": 1.9066845506291088,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_CIO_TX0",
+    "P_mm": 113.45803853344532,
+    "N_mm": 123.72935621740972,
+    "geometric_skew_mm": 10.271317683964398,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_CIO_TX1",
+    "P_mm": 60.319109867261176,
+    "N_mm": 195.62432665265294,
+    "geometric_skew_mm": 135.30521678539176,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_CPU_TX0",
+    "P_mm": 65.78149666119799,
+    "N_mm": 57.01018891730498,
+    "geometric_skew_mm": 8.771307743893011,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_CPU_TX1",
+    "P_mm": 66.01467284787216,
+    "N_mm": 77.57465534825957,
+    "geometric_skew_mm": 11.559982500387406,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_CPU_TX2",
+    "P_mm": 48.768727327507975,
+    "N_mm": 60.86887079672603,
+    "geometric_skew_mm": 12.100143469218054,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_CPU_TX3",
+    "P_mm": 44.04411478041859,
+    "N_mm": 44.32883473857542,
+    "geometric_skew_mm": 0.2847199581568276,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_DP_AUX",
+    "P_mm": 119.7789088697867,
+    "N_mm": 73.64228227180415,
+    "geometric_skew_mm": 46.136626597982556,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_DP_ML0",
+    "P_mm": 33.98008133340623,
+    "N_mm": 29.219826210104813,
+    "geometric_skew_mm": 4.76025512330142,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_DP_ML1",
+    "P_mm": 31.435480200007838,
+    "N_mm": 31.722205785359975,
+    "geometric_skew_mm": 0.2867255853521371,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_DP_ML2",
+    "P_mm": 33.97346858562541,
+    "N_mm": 68.80830437822372,
+    "geometric_skew_mm": 34.83483579259831,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_DP_ML3",
+    "P_mm": 71.51794034870409,
+    "N_mm": 198.59040778364854,
+    "geometric_skew_mm": 127.07246743494446,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_PA_AUX",
+    "P_mm": 47.421055726278446,
+    "N_mm": 75.32532676883703,
+    "geometric_skew_mm": 27.904271042558584,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_REFCLK",
+    "P_mm": 32.801008014739836,
+    "N_mm": 36.774039669874234,
+    "geometric_skew_mm": 3.973031655134399,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_USB2_BOTTOM",
+    "P_mm": 36.71295827366501,
+    "N_mm": 12.50826232948346,
+    "geometric_skew_mm": 24.20469594418155,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_USB2_RP",
+    "P_mm": 29.24337625034355,
+    "N_mm": 38.81041456234927,
+    "geometric_skew_mm": 9.567038312005721,
+    "qualified": false
+  },
+  {
+    "pair": "TBT_USB2_TOP",
+    "P_mm": 149.00483776041435,
+    "N_mm": 11.196985831845934,
+    "geometric_skew_mm": 137.80785192856843,
+    "qualified": false
+  }
+]

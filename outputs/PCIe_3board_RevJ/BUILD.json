@@ -1,0 +1,43 @@
+{
+  "revision": "J",
+  "main_mm": [
+    80,
+    45
+  ],
+  "left_mm": [
+    19.5,
+    45
+  ],
+  "right_mm": [
+    19.5,
+    45
+  ],
+  "main_layers": 32,
+  "daughter_layers": 32,
+  "m2_vertical": true,
+  "m2_footprint_verified": false,
+  "fictional_bga_balls": 400,
+  "pcie_lanes": 64,
+  "data_pairs_per_cable": 24,
+  "clock_pairs_per_cable": 3,
+  "route_status": "All three boards: KiCad DRC zero violations / zero unconnected; schematic and cable maps crosschecked. Gen4 SI and thermal not qualified.",
+  "m2_planes": "YZ, perpendicular to carrier XY, parallel to main E1.S slots",
+  "upstream_interface": "Vertical M-Key socket, host via straight-through M.2 cable/adapter; not an SSD port",
+  "upstream_vertical": true,
+  "upstream_socket_rotation_deg": 90,
+  "m2_center_pitch_mm": 6.2,
+  "lanes_per_side": 12,
+  "links_per_side": "3 independent x4 links; not a bonded x12 link",
+  "ssd_count": 5,
+  "left_current_limit_target_A": 5.0,
+  "right_current_limit_target_A": 3.5,
+  "m2_connector": "Amphenol MDT350M01001VT",
+  "m2_connector_limit": "PCIe Gen4 / 16 GT/s; channel NOT qualified",
+  "m2_body_mm": [
+    24.2,
+    3.5,
+    5.5
+  ],
+  "m2_land_geometry_source": "CMDT350X0X001VT rev 2",
+  "m2_pin_numbering_verified": false
+}

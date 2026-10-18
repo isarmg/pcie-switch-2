@@ -1,0 +1,1154 @@
+[
+  {
+    "ref": "C4001",
+    "pinmap": {
+      "1": "/S01_SW_TX0_P",
+      "2": "/S01_SSD_RX0_P"
+    },
+    "position_mm": [
+      24.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4002",
+    "pinmap": {
+      "1": "/S01_SW_TX0_N",
+      "2": "/S01_SSD_RX0_N"
+    },
+    "position_mm": [
+      24.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4003",
+    "pinmap": {
+      "1": "/S01_SW_TX1_P",
+      "2": "/S01_SSD_RX1_P"
+    },
+    "position_mm": [
+      24.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4004",
+    "pinmap": {
+      "1": "/S01_SW_TX1_N",
+      "2": "/S01_SSD_RX1_N"
+    },
+    "position_mm": [
+      24.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4005",
+    "pinmap": {
+      "1": "/S01_SW_TX2_P",
+      "2": "/S01_SSD_RX2_P"
+    },
+    "position_mm": [
+      24.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4006",
+    "pinmap": {
+      "1": "/S01_SW_TX2_N",
+      "2": "/S01_SSD_RX2_N"
+    },
+    "position_mm": [
+      24.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4007",
+    "pinmap": {
+      "1": "/S01_SW_TX3_P",
+      "2": "/S01_SSD_RX3_P"
+    },
+    "position_mm": [
+      24.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4008",
+    "pinmap": {
+      "1": "/S01_SW_TX3_N",
+      "2": "/S01_SSD_RX3_N"
+    },
+    "position_mm": [
+      24.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4009",
+    "pinmap": {
+      "1": "/S02_SW_TX0_P",
+      "2": "/S02_SSD_RX0_P"
+    },
+    "position_mm": [
+      32.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4010",
+    "pinmap": {
+      "1": "/S02_SW_TX0_N",
+      "2": "/S02_SSD_RX0_N"
+    },
+    "position_mm": [
+      32.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4011",
+    "pinmap": {
+      "1": "/S02_SW_TX1_P",
+      "2": "/S02_SSD_RX1_P"
+    },
+    "position_mm": [
+      32.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4012",
+    "pinmap": {
+      "1": "/S02_SW_TX1_N",
+      "2": "/S02_SSD_RX1_N"
+    },
+    "position_mm": [
+      32.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4013",
+    "pinmap": {
+      "1": "/S02_SW_TX2_P",
+      "2": "/S02_SSD_RX2_P"
+    },
+    "position_mm": [
+      32.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4014",
+    "pinmap": {
+      "1": "/S02_SW_TX2_N",
+      "2": "/S02_SSD_RX2_N"
+    },
+    "position_mm": [
+      32.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4015",
+    "pinmap": {
+      "1": "/S02_SW_TX3_P",
+      "2": "/S02_SSD_RX3_P"
+    },
+    "position_mm": [
+      32.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4016",
+    "pinmap": {
+      "1": "/S02_SW_TX3_N",
+      "2": "/S02_SSD_RX3_N"
+    },
+    "position_mm": [
+      32.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4017",
+    "pinmap": {
+      "1": "/S03_SW_TX0_P",
+      "2": "/S03_SSD_RX0_P"
+    },
+    "position_mm": [
+      40.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4018",
+    "pinmap": {
+      "1": "/S03_SW_TX0_N",
+      "2": "/S03_SSD_RX0_N"
+    },
+    "position_mm": [
+      40.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4019",
+    "pinmap": {
+      "1": "/S03_SW_TX1_P",
+      "2": "/S03_SSD_RX1_P"
+    },
+    "position_mm": [
+      40.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4020",
+    "pinmap": {
+      "1": "/S03_SW_TX1_N",
+      "2": "/S03_SSD_RX1_N"
+    },
+    "position_mm": [
+      40.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4021",
+    "pinmap": {
+      "1": "/S03_SW_TX2_P",
+      "2": "/S03_SSD_RX2_P"
+    },
+    "position_mm": [
+      40.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4022",
+    "pinmap": {
+      "1": "/S03_SW_TX2_N",
+      "2": "/S03_SSD_RX2_N"
+    },
+    "position_mm": [
+      40.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4023",
+    "pinmap": {
+      "1": "/S03_SW_TX3_P",
+      "2": "/S03_SSD_RX3_P"
+    },
+    "position_mm": [
+      40.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4024",
+    "pinmap": {
+      "1": "/S03_SW_TX3_N",
+      "2": "/S03_SSD_RX3_N"
+    },
+    "position_mm": [
+      40.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4025",
+    "pinmap": {
+      "1": "/S04_SW_TX0_P",
+      "2": "/S04_SSD_RX0_P"
+    },
+    "position_mm": [
+      48.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4026",
+    "pinmap": {
+      "1": "/S04_SW_TX0_N",
+      "2": "/S04_SSD_RX0_N"
+    },
+    "position_mm": [
+      48.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4027",
+    "pinmap": {
+      "1": "/S04_SW_TX1_P",
+      "2": "/S04_SSD_RX1_P"
+    },
+    "position_mm": [
+      48.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4028",
+    "pinmap": {
+      "1": "/S04_SW_TX1_N",
+      "2": "/S04_SSD_RX1_N"
+    },
+    "position_mm": [
+      48.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4029",
+    "pinmap": {
+      "1": "/S04_SW_TX2_P",
+      "2": "/S04_SSD_RX2_P"
+    },
+    "position_mm": [
+      48.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4030",
+    "pinmap": {
+      "1": "/S04_SW_TX2_N",
+      "2": "/S04_SSD_RX2_N"
+    },
+    "position_mm": [
+      48.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4031",
+    "pinmap": {
+      "1": "/S04_SW_TX3_P",
+      "2": "/S04_SSD_RX3_P"
+    },
+    "position_mm": [
+      48.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4032",
+    "pinmap": {
+      "1": "/S04_SW_TX3_N",
+      "2": "/S04_SSD_RX3_N"
+    },
+    "position_mm": [
+      48.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4033",
+    "pinmap": {
+      "1": "/S05_SW_TX0_P",
+      "2": "/S05_SSD_RX0_P"
+    },
+    "position_mm": [
+      56.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4034",
+    "pinmap": {
+      "1": "/S05_SW_TX0_N",
+      "2": "/S05_SSD_RX0_N"
+    },
+    "position_mm": [
+      56.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4035",
+    "pinmap": {
+      "1": "/S05_SW_TX1_P",
+      "2": "/S05_SSD_RX1_P"
+    },
+    "position_mm": [
+      56.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4036",
+    "pinmap": {
+      "1": "/S05_SW_TX1_N",
+      "2": "/S05_SSD_RX1_N"
+    },
+    "position_mm": [
+      56.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4037",
+    "pinmap": {
+      "1": "/S05_SW_TX2_P",
+      "2": "/S05_SSD_RX2_P"
+    },
+    "position_mm": [
+      56.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4038",
+    "pinmap": {
+      "1": "/S05_SW_TX2_N",
+      "2": "/S05_SSD_RX2_N"
+    },
+    "position_mm": [
+      56.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4039",
+    "pinmap": {
+      "1": "/S05_SW_TX3_P",
+      "2": "/S05_SSD_RX3_P"
+    },
+    "position_mm": [
+      56.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4040",
+    "pinmap": {
+      "1": "/S05_SW_TX3_N",
+      "2": "/S05_SSD_RX3_N"
+    },
+    "position_mm": [
+      56.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4041",
+    "pinmap": {
+      "1": "/S06_SW_TX0_P",
+      "2": "/S06_SSD_RX0_P"
+    },
+    "position_mm": [
+      64.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4042",
+    "pinmap": {
+      "1": "/S06_SW_TX0_N",
+      "2": "/S06_SSD_RX0_N"
+    },
+    "position_mm": [
+      64.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4043",
+    "pinmap": {
+      "1": "/S06_SW_TX1_P",
+      "2": "/S06_SSD_RX1_P"
+    },
+    "position_mm": [
+      64.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4044",
+    "pinmap": {
+      "1": "/S06_SW_TX1_N",
+      "2": "/S06_SSD_RX1_N"
+    },
+    "position_mm": [
+      64.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4045",
+    "pinmap": {
+      "1": "/S06_SW_TX2_P",
+      "2": "/S06_SSD_RX2_P"
+    },
+    "position_mm": [
+      64.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4046",
+    "pinmap": {
+      "1": "/S06_SW_TX2_N",
+      "2": "/S06_SSD_RX2_N"
+    },
+    "position_mm": [
+      64.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4047",
+    "pinmap": {
+      "1": "/S06_SW_TX3_P",
+      "2": "/S06_SSD_RX3_P"
+    },
+    "position_mm": [
+      64.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4048",
+    "pinmap": {
+      "1": "/S06_SW_TX3_N",
+      "2": "/S06_SSD_RX3_N"
+    },
+    "position_mm": [
+      64.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4049",
+    "pinmap": {
+      "1": "/S07_SW_TX0_P",
+      "2": "/S07_SSD_RX0_P"
+    },
+    "position_mm": [
+      72.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4050",
+    "pinmap": {
+      "1": "/S07_SW_TX0_N",
+      "2": "/S07_SSD_RX0_N"
+    },
+    "position_mm": [
+      72.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4051",
+    "pinmap": {
+      "1": "/S07_SW_TX1_P",
+      "2": "/S07_SSD_RX1_P"
+    },
+    "position_mm": [
+      72.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4052",
+    "pinmap": {
+      "1": "/S07_SW_TX1_N",
+      "2": "/S07_SSD_RX1_N"
+    },
+    "position_mm": [
+      72.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4053",
+    "pinmap": {
+      "1": "/S07_SW_TX2_P",
+      "2": "/S07_SSD_RX2_P"
+    },
+    "position_mm": [
+      72.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4054",
+    "pinmap": {
+      "1": "/S07_SW_TX2_N",
+      "2": "/S07_SSD_RX2_N"
+    },
+    "position_mm": [
+      72.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4055",
+    "pinmap": {
+      "1": "/S07_SW_TX3_P",
+      "2": "/S07_SSD_RX3_P"
+    },
+    "position_mm": [
+      72.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4056",
+    "pinmap": {
+      "1": "/S07_SW_TX3_N",
+      "2": "/S07_SSD_RX3_N"
+    },
+    "position_mm": [
+      72.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4057",
+    "pinmap": {
+      "1": "/S08_SW_TX0_P",
+      "2": "/S08_SSD_RX0_P"
+    },
+    "position_mm": [
+      80.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4058",
+    "pinmap": {
+      "1": "/S08_SW_TX0_N",
+      "2": "/S08_SSD_RX0_N"
+    },
+    "position_mm": [
+      80.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4059",
+    "pinmap": {
+      "1": "/S08_SW_TX1_P",
+      "2": "/S08_SSD_RX1_P"
+    },
+    "position_mm": [
+      80.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4060",
+    "pinmap": {
+      "1": "/S08_SW_TX1_N",
+      "2": "/S08_SSD_RX1_N"
+    },
+    "position_mm": [
+      80.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4061",
+    "pinmap": {
+      "1": "/S08_SW_TX2_P",
+      "2": "/S08_SSD_RX2_P"
+    },
+    "position_mm": [
+      80.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4062",
+    "pinmap": {
+      "1": "/S08_SW_TX2_N",
+      "2": "/S08_SSD_RX2_N"
+    },
+    "position_mm": [
+      80.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4063",
+    "pinmap": {
+      "1": "/S08_SW_TX3_P",
+      "2": "/S08_SSD_RX3_P"
+    },
+    "position_mm": [
+      80.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4064",
+    "pinmap": {
+      "1": "/S08_SW_TX3_N",
+      "2": "/S08_SSD_RX3_N"
+    },
+    "position_mm": [
+      80.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4065",
+    "pinmap": {
+      "1": "/S09_SW_TX0_P",
+      "2": "/S09_SSD_RX0_P"
+    },
+    "position_mm": [
+      88,
+      18.3
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4066",
+    "pinmap": {
+      "1": "/S09_SW_TX0_N",
+      "2": "/S09_SSD_RX0_N"
+    },
+    "position_mm": [
+      88,
+      19.7
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4067",
+    "pinmap": {
+      "1": "/S09_SW_TX1_P",
+      "2": "/S09_SSD_RX1_P"
+    },
+    "position_mm": [
+      88,
+      21.1
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4068",
+    "pinmap": {
+      "1": "/S09_SW_TX1_N",
+      "2": "/S09_SSD_RX1_N"
+    },
+    "position_mm": [
+      88,
+      22.5
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4069",
+    "pinmap": {
+      "1": "/S09_SW_TX2_P",
+      "2": "/S09_SSD_RX2_P"
+    },
+    "position_mm": [
+      88,
+      23.9
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4070",
+    "pinmap": {
+      "1": "/S09_SW_TX2_N",
+      "2": "/S09_SSD_RX2_N"
+    },
+    "position_mm": [
+      88,
+      25.3
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4071",
+    "pinmap": {
+      "1": "/S09_SW_TX3_P",
+      "2": "/S09_SSD_RX3_P"
+    },
+    "position_mm": [
+      88,
+      26.7
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4072",
+    "pinmap": {
+      "1": "/S09_SW_TX3_N",
+      "2": "/S09_SSD_RX3_N"
+    },
+    "position_mm": [
+      88,
+      28.099999
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4073",
+    "pinmap": {
+      "1": "/S10_SW_TX0_P",
+      "2": "/S10_SSD_RX0_P"
+    },
+    "position_mm": [
+      88,
+      29.5
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4074",
+    "pinmap": {
+      "1": "/S10_SW_TX0_N",
+      "2": "/S10_SSD_RX0_N"
+    },
+    "position_mm": [
+      88,
+      30.9
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4075",
+    "pinmap": {
+      "1": "/S10_SW_TX1_P",
+      "2": "/S10_SSD_RX1_P"
+    },
+    "position_mm": [
+      88,
+      32.3
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4076",
+    "pinmap": {
+      "1": "/S10_SW_TX1_N",
+      "2": "/S10_SSD_RX1_N"
+    },
+    "position_mm": [
+      88,
+      33.7
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4077",
+    "pinmap": {
+      "1": "/S10_SW_TX2_P",
+      "2": "/S10_SSD_RX2_P"
+    },
+    "position_mm": [
+      88,
+      35.1
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4078",
+    "pinmap": {
+      "1": "/S10_SW_TX2_N",
+      "2": "/S10_SSD_RX2_N"
+    },
+    "position_mm": [
+      88,
+      36.5
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4079",
+    "pinmap": {
+      "1": "/S10_SW_TX3_P",
+      "2": "/S10_SSD_RX3_P"
+    },
+    "position_mm": [
+      88,
+      37.899999
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4080",
+    "pinmap": {
+      "1": "/S10_SW_TX3_N",
+      "2": "/S10_SSD_RX3_N"
+    },
+    "position_mm": [
+      88,
+      39.3
+    ],
+    "rotation_deg": 90
+  },
+  {
+    "ref": "C4081",
+    "pinmap": {
+      "1": "/S11_SW_TX0_P",
+      "2": "/S11_SSD_RX0_P"
+    },
+    "position_mm": [
+      8.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4082",
+    "pinmap": {
+      "1": "/S11_SW_TX0_N",
+      "2": "/S11_SSD_RX0_N"
+    },
+    "position_mm": [
+      8.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4083",
+    "pinmap": {
+      "1": "/S11_SW_TX1_P",
+      "2": "/S11_SSD_RX1_P"
+    },
+    "position_mm": [
+      8.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4084",
+    "pinmap": {
+      "1": "/S11_SW_TX1_N",
+      "2": "/S11_SSD_RX1_N"
+    },
+    "position_mm": [
+      8.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4085",
+    "pinmap": {
+      "1": "/S11_SW_TX2_P",
+      "2": "/S11_SSD_RX2_P"
+    },
+    "position_mm": [
+      8.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4086",
+    "pinmap": {
+      "1": "/S11_SW_TX2_N",
+      "2": "/S11_SSD_RX2_N"
+    },
+    "position_mm": [
+      8.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4087",
+    "pinmap": {
+      "1": "/S11_SW_TX3_P",
+      "2": "/S11_SSD_RX3_P"
+    },
+    "position_mm": [
+      8.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4088",
+    "pinmap": {
+      "1": "/S11_SW_TX3_N",
+      "2": "/S11_SSD_RX3_N"
+    },
+    "position_mm": [
+      8.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4089",
+    "pinmap": {
+      "1": "/S12_SW_TX0_P",
+      "2": "/S12_SSD_RX0_P"
+    },
+    "position_mm": [
+      16.0,
+      24.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4090",
+    "pinmap": {
+      "1": "/S12_SW_TX0_N",
+      "2": "/S12_SSD_RX0_N"
+    },
+    "position_mm": [
+      16.0,
+      24.935
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4091",
+    "pinmap": {
+      "1": "/S12_SW_TX1_P",
+      "2": "/S12_SSD_RX1_P"
+    },
+    "position_mm": [
+      16.0,
+      22.535
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4092",
+    "pinmap": {
+      "1": "/S12_SW_TX1_N",
+      "2": "/S12_SSD_RX1_N"
+    },
+    "position_mm": [
+      16.0,
+      23.134999
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4093",
+    "pinmap": {
+      "1": "/S12_SW_TX2_P",
+      "2": "/S12_SSD_RX2_P"
+    },
+    "position_mm": [
+      16.0,
+      20.735
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4094",
+    "pinmap": {
+      "1": "/S12_SW_TX2_N",
+      "2": "/S12_SSD_RX2_N"
+    },
+    "position_mm": [
+      16.0,
+      21.335
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4095",
+    "pinmap": {
+      "1": "/S12_SW_TX3_P",
+      "2": "/S12_SSD_RX3_P"
+    },
+    "position_mm": [
+      16.0,
+      18.935001
+    ],
+    "rotation_deg": 180.0
+  },
+  {
+    "ref": "C4096",
+    "pinmap": {
+      "1": "/S12_SW_TX3_N",
+      "2": "/S12_SSD_RX3_N"
+    },
+    "position_mm": [
+      16.0,
+      19.535
+    ],
+    "rotation_deg": 180.0
+  }
+]

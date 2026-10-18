@@ -1,0 +1,24 @@
+{
+  "Left_2M2_Vertical": {
+    "native_reimport_reexport": true,
+    "unique_solid_definitions": 9,
+    "bytes": 539296,
+    "retained_from_unchanged_revision": "J"
+  },
+  "Right_M2_Upstream": {
+    "native_reimport_reexport": true,
+    "unique_solid_definitions": 9,
+    "bytes": 531917,
+    "retained_from_unchanged_revision": "J"
+  },
+  "Main_10E1S": {
+    "native_reimport_reexport": true,
+    "unique_solid_definitions": 26,
+    "bytes": 780757
+  },
+  "Assembly_View": {
+    "native_reimport_reexport": true,
+    "unique_solid_definitions": 106,
+    "bytes": 9617872
+  }
+}

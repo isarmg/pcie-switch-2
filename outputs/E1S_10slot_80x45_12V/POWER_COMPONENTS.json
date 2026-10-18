@@ -1,0 +1,2027 @@
+[
+  {
+    "ref": "J11",
+    "value": "12V 15A FEED A",
+    "footprint": "WireSolder_2x_8x5_P12",
+    "x": 24,
+    "y": 4,
+    "height_mm": 0,
+    "side": "F",
+    "pinmap": {
+      "1": "/VIN_A",
+      "2": "/GND"
+    },
+    "uuid": "47f88133-ec76-436c-b7d3-b6cf2f7033fd",
+    "mpn": "12V 15A FEED A",
+    "datasheet": "",
+    "legacy_ref": "JINA"
+  },
+  {
+    "ref": "F1",
+    "value": "20A 125V",
+    "footprint": "Littelfuse_456_20A",
+    "x": 13,
+    "y": 10,
+    "height_mm": 3.5,
+    "side": "B",
+    "pinmap": {
+      "1": "/VIN_A",
+      "2": "/VBANK_A"
+    },
+    "uuid": "8e4842fc-7d6a-4740-8483-35f9e477cc62",
+    "mpn": "0456020.ER",
+    "datasheet": "https://www.littelfuse.com/assetdocs/littelfuse_fuse_456_datasheet.pdf?assetguid=d86b18f9-14fa-4764-87ff-8aec12e9a89d",
+    "legacy_ref": "FA"
+  },
+  {
+    "ref": "D1",
+    "value": "SMBJ13CA",
+    "footprint": "D_SMB",
+    "x": 18,
+    "y": 17,
+    "height_mm": 2.5,
+    "side": "B",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/GND"
+    },
+    "uuid": "d5acaed4-56ba-4ffa-a2f5-8c14addfdd41",
+    "mpn": "SMBJ13CA",
+    "datasheet": "https://www.littelfuse.com/products/tvs-diodes/surface-mount/smbj",
+    "legacy_ref": "DA"
+  },
+  {
+    "ref": "C1",
+    "value": "10uF 25V X7R",
+    "footprint": "C_1210_3225Metric",
+    "x": 14,
+    "y": 23,
+    "height_mm": 2.8,
+    "side": "B",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/GND"
+    },
+    "uuid": "ae5e4f82-b2b1-466c-93e7-be33272db44e",
+    "mpn": "GRM32ER71E106KA12",
+    "datasheet": "",
+    "legacy_ref": "CBA"
+  },
+  {
+    "ref": "J12",
+    "value": "12V 15A FEED B",
+    "footprint": "WireSolder_2x_8x5_P12",
+    "x": 56,
+    "y": 4,
+    "height_mm": 0,
+    "side": "F",
+    "pinmap": {
+      "1": "/VIN_B",
+      "2": "/GND"
+    },
+    "uuid": "ce477ce3-d214-4ed1-889e-92f0afaf5d0a",
+    "mpn": "12V 15A FEED B",
+    "datasheet": "",
+    "legacy_ref": "JINB"
+  },
+  {
+    "ref": "F2",
+    "value": "20A 125V",
+    "footprint": "Littelfuse_456_20A",
+    "x": 67,
+    "y": 10,
+    "height_mm": 3.5,
+    "side": "B",
+    "pinmap": {
+      "1": "/VIN_B",
+      "2": "/VBANK_B"
+    },
+    "uuid": "03d3e877-d8e4-4577-ac37-4e4ab1c3c1b3",
+    "mpn": "0456020.ER",
+    "datasheet": "https://www.littelfuse.com/assetdocs/littelfuse_fuse_456_datasheet.pdf?assetguid=d86b18f9-14fa-4764-87ff-8aec12e9a89d",
+    "legacy_ref": "FB"
+  },
+  {
+    "ref": "D2",
+    "value": "SMBJ13CA",
+    "footprint": "D_SMB",
+    "x": 62,
+    "y": 17,
+    "height_mm": 2.5,
+    "side": "B",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/GND"
+    },
+    "uuid": "ffcca4d9-5e22-4357-9a8f-21a26fecaf2e",
+    "mpn": "SMBJ13CA",
+    "datasheet": "https://www.littelfuse.com/products/tvs-diodes/surface-mount/smbj",
+    "legacy_ref": "DB"
+  },
+  {
+    "ref": "C2",
+    "value": "10uF 25V X7R",
+    "footprint": "C_1210_3225Metric",
+    "x": 66,
+    "y": 23,
+    "height_mm": 2.8,
+    "side": "B",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/GND"
+    },
+    "uuid": "dd5d0046-d7e8-4e3a-b071-4dab12428724",
+    "mpn": "GRM32ER71E106KA12",
+    "datasheet": "",
+    "legacy_ref": "CBB"
+  },
+  {
+    "ref": "U11",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 4,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S01_PWR_UV",
+      "2": "/S01_PWR_OV",
+      "3": "unconnected-(U11-Pad3)",
+      "4": "unconnected-(U11-Pad4)",
+      "5": "/VBANK_A",
+      "6": "/P12_SLOT01",
+      "7": "/S01_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S01_PWR_ILM",
+      "10": "unconnected-(U11-Pad10)"
+    },
+    "uuid": "5b695a5f-a137-47a4-97c4-52c928d393c5",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U11"
+  },
+  {
+    "ref": "R101",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 1.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S01_PWR_UV"
+    },
+    "uuid": "5077a2e0-3396-4614-8621-46ed440691b0",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R1_UVT"
+  },
+  {
+    "ref": "R102",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 1.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S01_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "eee929c1-36b7-488f-aace-3d9ae31202b4",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R1_UVB"
+  },
+  {
+    "ref": "R103",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 1.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S01_PWR_OV"
+    },
+    "uuid": "2efdd5ce-30e9-4ce6-b826-ccf0dc31f97e",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R1_OVT"
+  },
+  {
+    "ref": "R104",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 2.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S01_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "bdc38f55-102f-4b2c-a485-04a52b33d1a4",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R1_OVB"
+  },
+  {
+    "ref": "R105",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 6.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S01_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "4051893b-9aa1-4763-b8f7-25e831eabde1",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R1_ILM"
+  },
+  {
+    "ref": "C101",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 6.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S01_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "bc4115da-171c-436e-b542-6a3e0b9caff4",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C1_SS"
+  },
+  {
+    "ref": "C102",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 4,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/GND"
+    },
+    "uuid": "74f2ff82-854f-42d1-93ca-3c05ac92fd16",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C1_IN"
+  },
+  {
+    "ref": "C103",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 5.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT01",
+      "2": "/GND"
+    },
+    "uuid": "3fe9c789-364e-4d79-a8ce-af026eda532c",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C1_OUT"
+  },
+  {
+    "ref": "U12",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 12,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S02_PWR_UV",
+      "2": "/S02_PWR_OV",
+      "3": "unconnected-(U12-Pad3)",
+      "4": "unconnected-(U12-Pad4)",
+      "5": "/VBANK_A",
+      "6": "/P12_SLOT02",
+      "7": "/S02_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S02_PWR_ILM",
+      "10": "unconnected-(U12-Pad10)"
+    },
+    "uuid": "2ae66f37-2927-4621-8e96-bde53eb6760c",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U12"
+  },
+  {
+    "ref": "R106",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 9.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S02_PWR_UV"
+    },
+    "uuid": "44c74f62-5811-4028-b45f-d56f81cfee88",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R2_UVT"
+  },
+  {
+    "ref": "R107",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 9.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S02_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "548e8a2a-a795-4dfc-90c3-0bc5c5bf1051",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R2_UVB"
+  },
+  {
+    "ref": "R108",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 9.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S02_PWR_OV"
+    },
+    "uuid": "adb376cd-198c-46cd-bbd0-669e95aae4bb",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R2_OVT"
+  },
+  {
+    "ref": "R109",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 10.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S02_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "d1380c42-a12a-4b43-afdb-e89300ddbb3a",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R2_OVB"
+  },
+  {
+    "ref": "R110",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 14.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S02_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "f54ba2d6-cec9-4c54-9af6-27a1c53dde5c",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R2_ILM"
+  },
+  {
+    "ref": "C104",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 14.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S02_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "091402f4-2238-49bd-9a51-5f525d0be6d3",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C2_SS"
+  },
+  {
+    "ref": "C105",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 12,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/GND"
+    },
+    "uuid": "06ebcd42-3fbc-4356-86b3-8be7e2bc1543",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C2_IN"
+  },
+  {
+    "ref": "C106",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 13.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT02",
+      "2": "/GND"
+    },
+    "uuid": "df073d24-6141-4a89-a9bd-96fe68a565ec",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C2_OUT"
+  },
+  {
+    "ref": "U13",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 20,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S03_PWR_UV",
+      "2": "/S03_PWR_OV",
+      "3": "unconnected-(U13-Pad3)",
+      "4": "unconnected-(U13-Pad4)",
+      "5": "/VBANK_A",
+      "6": "/P12_SLOT03",
+      "7": "/S03_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S03_PWR_ILM",
+      "10": "unconnected-(U13-Pad10)"
+    },
+    "uuid": "d451c665-e80e-4e4f-927e-c653f7669cec",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U13"
+  },
+  {
+    "ref": "R111",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 17.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S03_PWR_UV"
+    },
+    "uuid": "5b8026e7-340e-488c-b8ae-721ba91fff26",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R3_UVT"
+  },
+  {
+    "ref": "R112",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 17.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S03_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "c8ffe30b-104e-4544-ac8b-07019648dd48",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R3_UVB"
+  },
+  {
+    "ref": "R113",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 17.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S03_PWR_OV"
+    },
+    "uuid": "3d09cb8c-cf60-47d1-9702-02db54669380",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R3_OVT"
+  },
+  {
+    "ref": "R114",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 18.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S03_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "32a9d6d1-5ada-44ae-8834-1138625fa5a8",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R3_OVB"
+  },
+  {
+    "ref": "R115",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 22.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S03_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "c7e0d896-8efc-4098-a211-c318269e2d1b",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R3_ILM"
+  },
+  {
+    "ref": "C107",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 22.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S03_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "5e981882-4470-4344-bc94-61e5fd60b6d0",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C3_SS"
+  },
+  {
+    "ref": "C108",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 20,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/GND"
+    },
+    "uuid": "422e2439-89c9-4018-8083-349bf165ad6d",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C3_IN"
+  },
+  {
+    "ref": "C109",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 21.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT03",
+      "2": "/GND"
+    },
+    "uuid": "2de488a2-69f4-4cc7-8a7f-6c7c62944c84",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C3_OUT"
+  },
+  {
+    "ref": "U14",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 28,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S04_PWR_UV",
+      "2": "/S04_PWR_OV",
+      "3": "unconnected-(U14-Pad3)",
+      "4": "unconnected-(U14-Pad4)",
+      "5": "/VBANK_A",
+      "6": "/P12_SLOT04",
+      "7": "/S04_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S04_PWR_ILM",
+      "10": "unconnected-(U14-Pad10)"
+    },
+    "uuid": "1088b25a-abb3-4e8a-98ac-3c6d4a880523",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U14"
+  },
+  {
+    "ref": "R116",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 25.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S04_PWR_UV"
+    },
+    "uuid": "b79efba5-b64f-4fbb-b97b-421ae9cfdf1b",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R4_UVT"
+  },
+  {
+    "ref": "R117",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 25.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S04_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "a4c0d069-78db-4d18-9d4b-ac8437ff8a0a",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R4_UVB"
+  },
+  {
+    "ref": "R118",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 25.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S04_PWR_OV"
+    },
+    "uuid": "62258e76-6cd3-4ac5-a30b-9bb896ea15d5",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R4_OVT"
+  },
+  {
+    "ref": "R119",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 26.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S04_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "be821c60-19e6-4b15-b138-df5d518965ad",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R4_OVB"
+  },
+  {
+    "ref": "R120",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 30.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S04_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "0c9c56b3-c831-4eca-9483-51f95244765d",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R4_ILM"
+  },
+  {
+    "ref": "C110",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 30.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S04_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "79c64e61-f89a-4190-9ba2-a7c65f6652f0",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C4_SS"
+  },
+  {
+    "ref": "C111",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 28,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/GND"
+    },
+    "uuid": "ce88b132-f3d0-4886-bb0d-e5eeb5af8aca",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C4_IN"
+  },
+  {
+    "ref": "C112",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 29.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT04",
+      "2": "/GND"
+    },
+    "uuid": "60da4bfe-b8ef-43bc-8fc1-fea238e10f39",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C4_OUT"
+  },
+  {
+    "ref": "U15",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 36,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S05_PWR_UV",
+      "2": "/S05_PWR_OV",
+      "3": "unconnected-(U15-Pad3)",
+      "4": "unconnected-(U15-Pad4)",
+      "5": "/VBANK_A",
+      "6": "/P12_SLOT05",
+      "7": "/S05_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S05_PWR_ILM",
+      "10": "unconnected-(U15-Pad10)"
+    },
+    "uuid": "ba0dc571-e370-4f5e-8040-c21359ed961a",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U15"
+  },
+  {
+    "ref": "R121",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 33.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S05_PWR_UV"
+    },
+    "uuid": "b2f6cf19-7f9a-4d89-b433-3ab623184118",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R5_UVT"
+  },
+  {
+    "ref": "R122",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 33.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S05_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "a37b1113-1d17-44bd-9e17-84ef2fe6df6e",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R5_UVB"
+  },
+  {
+    "ref": "R123",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 33.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/S05_PWR_OV"
+    },
+    "uuid": "a29cd374-a9d2-4e0e-a9a3-71b551c31207",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R5_OVT"
+  },
+  {
+    "ref": "R124",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 34.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S05_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "debc7544-9771-43ec-a0f8-7f4f74024b90",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R5_OVB"
+  },
+  {
+    "ref": "R125",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 38.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S05_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "c7fa6de6-2f14-48af-8d46-7a5e577b1c21",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R5_ILM"
+  },
+  {
+    "ref": "C113",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 38.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S05_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "94ed2922-ef5c-4704-ae26-c9cd662f2ffd",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C5_SS"
+  },
+  {
+    "ref": "C114",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 36,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/GND"
+    },
+    "uuid": "8154ebf8-c6b9-48ec-ac66-a790862b73be",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C5_IN"
+  },
+  {
+    "ref": "C115",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 37.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT05",
+      "2": "/GND"
+    },
+    "uuid": "392ebf85-779e-48e6-87dd-1dc2dbd1f8f1",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C5_OUT"
+  },
+  {
+    "ref": "U16",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 44,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S06_PWR_UV",
+      "2": "/S06_PWR_OV",
+      "3": "unconnected-(U16-Pad3)",
+      "4": "unconnected-(U16-Pad4)",
+      "5": "/VBANK_B",
+      "6": "/P12_SLOT06",
+      "7": "/S06_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S06_PWR_ILM",
+      "10": "unconnected-(U16-Pad10)"
+    },
+    "uuid": "ed9cb099-2402-4574-8fd6-92f19f0839bc",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U16"
+  },
+  {
+    "ref": "R126",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 41.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S06_PWR_UV"
+    },
+    "uuid": "d9ec8edc-9ce7-4518-a320-c6483adaa6f9",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R6_UVT"
+  },
+  {
+    "ref": "R127",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 41.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S06_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "8e5a0ed6-c379-4c56-8271-ade29d4c1440",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R6_UVB"
+  },
+  {
+    "ref": "R128",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 41.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S06_PWR_OV"
+    },
+    "uuid": "a0442f39-6864-40df-846d-2bed1f3c2ac3",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R6_OVT"
+  },
+  {
+    "ref": "R129",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 42.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S06_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "a336962e-595e-4c48-a54c-253286b35b02",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R6_OVB"
+  },
+  {
+    "ref": "R130",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 46.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S06_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "c4c9abb8-000a-411b-9052-6ff752c685b1",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R6_ILM"
+  },
+  {
+    "ref": "C116",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 46.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S06_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "ab54af7f-fdf4-4f10-a9b7-90c2934f8c24",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C6_SS"
+  },
+  {
+    "ref": "C117",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 44,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/GND"
+    },
+    "uuid": "fc26302d-8477-4b66-9312-460af85dfd82",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C6_IN"
+  },
+  {
+    "ref": "C118",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 45.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT06",
+      "2": "/GND"
+    },
+    "uuid": "a9e63521-4e05-4f5e-8bcd-962a84497d40",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C6_OUT"
+  },
+  {
+    "ref": "U17",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 52,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S07_PWR_UV",
+      "2": "/S07_PWR_OV",
+      "3": "unconnected-(U17-Pad3)",
+      "4": "unconnected-(U17-Pad4)",
+      "5": "/VBANK_B",
+      "6": "/P12_SLOT07",
+      "7": "/S07_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S07_PWR_ILM",
+      "10": "unconnected-(U17-Pad10)"
+    },
+    "uuid": "ff4253d8-ae6d-4b3b-b26d-86b44c4604d5",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U17"
+  },
+  {
+    "ref": "R131",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 49.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S07_PWR_UV"
+    },
+    "uuid": "876ff8bf-a494-45c5-8e81-06afc49bf291",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R7_UVT"
+  },
+  {
+    "ref": "R132",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 49.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S07_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "c94446bc-6e04-454a-b10b-9e771294c51f",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R7_UVB"
+  },
+  {
+    "ref": "R133",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 49.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S07_PWR_OV"
+    },
+    "uuid": "8752c0de-03f7-40dd-903d-74f1c838dc20",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R7_OVT"
+  },
+  {
+    "ref": "R134",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 50.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S07_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "009d133f-2af2-412d-bf2b-7b0d9acdbc68",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R7_OVB"
+  },
+  {
+    "ref": "R135",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 54.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S07_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "9ceeee53-2458-4374-a971-85e52af01ff0",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R7_ILM"
+  },
+  {
+    "ref": "C119",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 54.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S07_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "b8398229-b00d-4b34-9f85-5565d2af9132",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C7_SS"
+  },
+  {
+    "ref": "C120",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 52,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/GND"
+    },
+    "uuid": "85c99633-b3cb-4cb1-8ad1-ca8e07e55f90",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C7_IN"
+  },
+  {
+    "ref": "C121",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 53.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT07",
+      "2": "/GND"
+    },
+    "uuid": "724170d6-058f-46d0-aca6-15135b91901a",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C7_OUT"
+  },
+  {
+    "ref": "U18",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 60,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S08_PWR_UV",
+      "2": "/S08_PWR_OV",
+      "3": "unconnected-(U18-Pad3)",
+      "4": "unconnected-(U18-Pad4)",
+      "5": "/VBANK_B",
+      "6": "/P12_SLOT08",
+      "7": "/S08_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S08_PWR_ILM",
+      "10": "unconnected-(U18-Pad10)"
+    },
+    "uuid": "529cfeca-bd3f-489b-8dbb-147d2dbf49cf",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U18"
+  },
+  {
+    "ref": "R136",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 57.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S08_PWR_UV"
+    },
+    "uuid": "384b6aa3-f7dd-40db-9e7b-60b29dc1752c",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R8_UVT"
+  },
+  {
+    "ref": "R137",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 57.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S08_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "083716ec-7221-41d7-ba51-58aac27a4579",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R8_UVB"
+  },
+  {
+    "ref": "R138",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 57.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S08_PWR_OV"
+    },
+    "uuid": "6a095ea5-f6be-406e-8a51-edc68c12bfae",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R8_OVT"
+  },
+  {
+    "ref": "R139",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 58.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S08_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "19505afb-410b-4373-a8c1-d8267fb52fe9",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R8_OVB"
+  },
+  {
+    "ref": "R140",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 62.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S08_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "199a45c6-eca2-49ab-8b20-f317f0144198",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R8_ILM"
+  },
+  {
+    "ref": "C122",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 62.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S08_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "e18620bb-ac6c-42f6-a4be-a5a7f45f45d8",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C8_SS"
+  },
+  {
+    "ref": "C123",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 60,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/GND"
+    },
+    "uuid": "113d2f4c-0a49-4799-a69b-4fcff0a88ef9",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C8_IN"
+  },
+  {
+    "ref": "C124",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 61.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT08",
+      "2": "/GND"
+    },
+    "uuid": "16210e77-f399-4633-8d6e-7e0924a8c47a",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C8_OUT"
+  },
+  {
+    "ref": "U19",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 68,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S09_PWR_UV",
+      "2": "/S09_PWR_OV",
+      "3": "unconnected-(U19-Pad3)",
+      "4": "unconnected-(U19-Pad4)",
+      "5": "/VBANK_B",
+      "6": "/P12_SLOT09",
+      "7": "/S09_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S09_PWR_ILM",
+      "10": "unconnected-(U19-Pad10)"
+    },
+    "uuid": "df52c1a9-74f8-48ca-ae7c-d1e2b9d2e994",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U19"
+  },
+  {
+    "ref": "R141",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 65.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S09_PWR_UV"
+    },
+    "uuid": "5dce1680-4c68-4baf-afff-9937ff4275c2",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R9_UVT"
+  },
+  {
+    "ref": "R142",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 65.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S09_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "1cb09222-2afd-43f5-bc06-9df47ccdc27e",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R9_UVB"
+  },
+  {
+    "ref": "R143",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 65.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S09_PWR_OV"
+    },
+    "uuid": "231d3eb5-5c5d-4ec0-bd1d-e536488ca7d4",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R9_OVT"
+  },
+  {
+    "ref": "R144",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 66.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S09_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "568f2034-48cc-4d1e-8d52-61044dc48cb8",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R9_OVB"
+  },
+  {
+    "ref": "R145",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 70.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S09_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "15600b76-c889-4082-82c6-43d9c1dbc23d",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R9_ILM"
+  },
+  {
+    "ref": "C125",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 70.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S09_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "47f9cb47-45b4-479c-af3a-ed35e6ef23e5",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C9_SS"
+  },
+  {
+    "ref": "C126",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 68,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/GND"
+    },
+    "uuid": "5fb9617b-55ae-4560-a7fa-41696fa483a1",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C9_IN"
+  },
+  {
+    "ref": "C127",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 69.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT09",
+      "2": "/GND"
+    },
+    "uuid": "d0eca4fb-2e62-4f3e-87f5-e814e1c4561e",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C9_OUT"
+  },
+  {
+    "ref": "U20",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 76,
+    "y": 38.5,
+    "height_mm": 1,
+    "side": "F",
+    "pinmap": {
+      "1": "/S10_PWR_UV",
+      "2": "/S10_PWR_OV",
+      "3": "unconnected-(U20-Pad3)",
+      "4": "unconnected-(U20-Pad4)",
+      "5": "/VBANK_B",
+      "6": "/P12_SLOT10",
+      "7": "/S10_PWR_DVDT",
+      "8": "/GND",
+      "9": "/S10_PWR_ILM",
+      "10": "unconnected-(U20-Pad10)"
+    },
+    "uuid": "d6ff7347-7de0-4d53-8285-89b502672d8e",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U20"
+  },
+  {
+    "ref": "R146",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 73.5,
+    "y": 35.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S10_PWR_UV"
+    },
+    "uuid": "af72285f-f505-474b-9bff-7078e8f34a4c",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R10_UVT"
+  },
+  {
+    "ref": "R147",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 73.5,
+    "y": 37.7,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S10_PWR_UV",
+      "2": "/GND"
+    },
+    "uuid": "9b6fb8a0-bbc8-40cd-a6f8-b14c308acb69",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R10_UVB"
+  },
+  {
+    "ref": "R148",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 73.5,
+    "y": 39.3,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/S10_PWR_OV"
+    },
+    "uuid": "f4bb6e94-1d74-48a6-8bde-dbabebc8bfa7",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R10_OVT"
+  },
+  {
+    "ref": "R149",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 74.5,
+    "y": 43,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S10_PWR_OV",
+      "2": "/GND"
+    },
+    "uuid": "c80462df-b639-418c-9c0f-5ca821d9af9c",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R10_OVB"
+  },
+  {
+    "ref": "R150",
+    "value": "1.10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 78.5,
+    "y": 36.5,
+    "height_mm": 0.4,
+    "side": "F",
+    "pinmap": {
+      "1": "/S10_PWR_ILM",
+      "2": "/GND"
+    },
+    "uuid": "f003af98-bd1f-4b58-8d59-43bd3d130004",
+    "mpn": "1.10k",
+    "datasheet": "",
+    "legacy_ref": "R10_ILM"
+  },
+  {
+    "ref": "C128",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 78.5,
+    "y": 39,
+    "height_mm": 0.55,
+    "side": "F",
+    "pinmap": {
+      "1": "/S10_PWR_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "c2f5f153-42d2-40e7-ae87-325de165fcb6",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C10_SS"
+  },
+  {
+    "ref": "C129",
+    "value": "100nF 50V",
+    "footprint": "C_0603_1608Metric",
+    "x": 76,
+    "y": 35.9,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/VBANK_B",
+      "2": "/GND"
+    },
+    "uuid": "1cc45deb-a697-48ee-89db-49a1d6b164f3",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C10_IN"
+  },
+  {
+    "ref": "C130",
+    "value": "1uF 25V",
+    "footprint": "C_0603_1608Metric",
+    "x": 77.5,
+    "y": 42.5,
+    "height_mm": 0.9,
+    "side": "F",
+    "pinmap": {
+      "1": "/P12_SLOT10",
+      "2": "/GND"
+    },
+    "uuid": "e600e065-b87e-4efd-bdc5-8818b090165d",
+    "mpn": "1uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C10_OUT"
+  },
+  {
+    "ref": "U30",
+    "value": "TPS259470ARPWR",
+    "footprint": "TI_RPW0010A_TPS25947",
+    "x": 6,
+    "y": 21,
+    "height_mm": 1,
+    "side": "B",
+    "pinmap": {
+      "1": "/AUX_UV",
+      "2": "/AUX_OV",
+      "3": "unconnected-(U30-Pad3)",
+      "4": "unconnected-(U30-Pad4)",
+      "5": "/VBANK_A",
+      "6": "/AUX_12V_PROTECTED",
+      "7": "/AUX_DVDT",
+      "8": "/GND",
+      "9": "/AUX_ILM",
+      "10": "unconnected-(U30-Pad10)"
+    },
+    "uuid": "95dbeea5-e555-4aa0-b485-0859db18d784",
+    "mpn": "TPS259470ARPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+    "legacy_ref": "U30"
+  },
+  {
+    "ref": "R301",
+    "value": "76.1k",
+    "footprint": "R_0402_1005Metric",
+    "x": 3,
+    "y": 17,
+    "height_mm": 0.4,
+    "side": "B",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/AUX_UV"
+    },
+    "uuid": "5d07d8a7-ab16-4375-8118-a30a5c1517f5",
+    "mpn": "76.1k",
+    "datasheet": "",
+    "legacy_ref": "R30U"
+  },
+  {
+    "ref": "R302",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 3,
+    "y": 20,
+    "height_mm": 0.4,
+    "side": "B",
+    "pinmap": {
+      "1": "/AUX_UV",
+      "2": "/GND"
+    },
+    "uuid": "b4d2003e-d984-4e19-bebc-4c9325af8d77",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R30L"
+  },
+  {
+    "ref": "R303",
+    "value": "102k",
+    "footprint": "R_0402_1005Metric",
+    "x": 3,
+    "y": 23,
+    "height_mm": 0.4,
+    "side": "B",
+    "pinmap": {
+      "1": "/VBANK_A",
+      "2": "/AUX_OV"
+    },
+    "uuid": "4c818d52-e58d-45ac-a096-b494b73f8fc8",
+    "mpn": "102k",
+    "datasheet": "",
+    "legacy_ref": "R30O"
+  },
+  {
+    "ref": "R304",
+    "value": "10k",
+    "footprint": "R_0402_1005Metric",
+    "x": 3,
+    "y": 26,
+    "height_mm": 0.4,
+    "side": "B",
+    "pinmap": {
+      "1": "/AUX_OV",
+      "2": "/GND"
+    },
+    "uuid": "5a810b15-eb01-425b-8dfd-08431d0e6f04",
+    "mpn": "10k",
+    "datasheet": "",
+    "legacy_ref": "R30B"
+  },
+  {
+    "ref": "R305",
+    "value": "3.32k",
+    "footprint": "R_0402_1005Metric",
+    "x": 9,
+    "y": 21,
+    "height_mm": 0.4,
+    "side": "B",
+    "pinmap": {
+      "1": "/AUX_ILM",
+      "2": "/GND"
+    },
+    "uuid": "bd1543bc-0955-4043-ba19-71c3875e4c7a",
+    "mpn": "3.32k",
+    "datasheet": "",
+    "legacy_ref": "R30I"
+  },
+  {
+    "ref": "C301",
+    "value": "10nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 9,
+    "y": 24,
+    "height_mm": 0.55,
+    "side": "B",
+    "pinmap": {
+      "1": "/AUX_DVDT",
+      "2": "/GND"
+    },
+    "uuid": "35db27b5-63e7-4d9b-94c4-17453a5cf5e2",
+    "mpn": "10nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C30SS"
+  },
+  {
+    "ref": "U31",
+    "value": "TPS62132RGTR",
+    "footprint": "VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm",
+    "x": 10,
+    "y": 30,
+    "height_mm": 1,
+    "side": "B",
+    "pinmap": {
+      "1": "/BUCK_SW",
+      "2": "/BUCK_SW",
+      "3": "/BUCK_SW",
+      "4": "/AUX_PG",
+      "5": "/GND",
+      "6": "/GND",
+      "7": "/GND",
+      "8": "/GND",
+      "9": "/BUCK_SS",
+      "10": "/AUX_12V_PROTECTED",
+      "11": "/AUX_12V_PROTECTED",
+      "12": "/AUX_12V_PROTECTED",
+      "13": "/AUX_12V_PROTECTED",
+      "14": "/P3V3_AUX",
+      "15": "/GND",
+      "16": "/GND",
+      "17": "/GND"
+    },
+    "uuid": "5bb140be-e922-46eb-9114-30c786ca1634",
+    "mpn": "TPS62132RGTR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps62130.pdf",
+    "legacy_ref": "U31",
+    "model_note": "Simplified closed STEP height envelope, not manufacturer CAD"
+  },
+  {
+    "ref": "L31",
+    "value": "2.2uH",
+    "footprint": "L_Coilcraft_XAL4020-XXX",
+    "x": 15.5,
+    "y": 30,
+    "height_mm": 2.1,
+    "side": "B",
+    "pinmap": {
+      "1": "/BUCK_SW",
+      "2": "/P3V3_AUX"
+    },
+    "uuid": "22afc270-1d0d-4900-badb-8444f72b1fb9",
+    "mpn": "XAL4020-222MEC",
+    "datasheet": "https://www.coilcraft.com/getmedia/6adcb47d-8b55-416c-976e-1e22e0d2848c/xal4000.pdf",
+    "legacy_ref": "L31"
+  },
+  {
+    "ref": "C311",
+    "value": "10uF 25V",
+    "footprint": "C_0805_2012Metric",
+    "x": 6.3,
+    "y": 29,
+    "height_mm": 1.45,
+    "side": "B",
+    "pinmap": {
+      "1": "/AUX_12V_PROTECTED",
+      "2": "/GND"
+    },
+    "uuid": "02af6a5d-918a-433c-96d3-47a50c26c635",
+    "mpn": "10uF 25V",
+    "datasheet": "",
+    "legacy_ref": "C31IN"
+  },
+  {
+    "ref": "C312",
+    "value": "100nF 50V",
+    "footprint": "C_0402_1005Metric",
+    "x": 8.2,
+    "y": 26.5,
+    "height_mm": 0.55,
+    "side": "B",
+    "pinmap": {
+      "1": "/AUX_12V_PROTECTED",
+      "2": "/GND"
+    },
+    "uuid": "ceeea26e-9324-4c85-a5b6-aeaeb6249052",
+    "mpn": "100nF 50V",
+    "datasheet": "",
+    "legacy_ref": "C31HF"
+  },
+  {
+    "ref": "C313",
+    "value": "3.3nF 25V",
+    "footprint": "C_0402_1005Metric",
+    "x": 10,
+    "y": 26.5,
+    "height_mm": 0.55,
+    "side": "B",
+    "pinmap": {
+      "1": "/BUCK_SS",
+      "2": "/GND"
+    },
+    "uuid": "577f95f9-4f30-4b78-8055-fd240095ea93",
+    "mpn": "3.3nF 25V",
+    "datasheet": "",
+    "legacy_ref": "C31SS"
+  },
+  {
+    "ref": "C314",
+    "value": "47uF 16V",
+    "footprint": "C_1210_3225Metric",
+    "x": 15,
+    "y": 35,
+    "height_mm": 2.8,
+    "side": "B",
+    "pinmap": {
+      "1": "/P3V3_AUX",
+      "2": "/GND"
+    },
+    "uuid": "d2992ed2-f9b3-475a-9836-e5daedaf1a3f",
+    "mpn": "47uF 16V",
+    "datasheet": "",
+    "legacy_ref": "C31O1"
+  },
+  {
+    "ref": "C315",
+    "value": "47uF 16V",
+    "footprint": "C_1210_3225Metric",
+    "x": 15,
+    "y": 39,
+    "height_mm": 2.8,
+    "side": "B",
+    "pinmap": {
+      "1": "/P3V3_AUX",
+      "2": "/GND"
+    },
+    "uuid": "99955e17-933b-49b0-bdcb-c78b6e895b4e",
+    "mpn": "47uF 16V",
+    "datasheet": "",
+    "legacy_ref": "C31O2"
+  },
+  {
+    "ref": "R311",
+    "value": "100k",
+    "footprint": "R_0402_1005Metric",
+    "x": 7,
+    "y": 34,
+    "height_mm": 0.4,
+    "side": "B",
+    "pinmap": {
+      "1": "/P3V3_AUX",
+      "2": "/AUX_PG"
+    },
+    "uuid": "82dfc0af-e147-464a-a42e-ad0728930966",
+    "mpn": "100k",
+    "datasheet": "",
+    "legacy_ref": "R31PG"
+  }
+]

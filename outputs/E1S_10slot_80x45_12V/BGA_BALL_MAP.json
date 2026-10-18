@@ -1,0 +1,2317 @@
+{
+  "fictional": true,
+  "seed": 20260925,
+  "ball_count": 256,
+  "candidate_grid": [
+    32,
+    32
+  ],
+  "pitch_mm": 1,
+  "pad_diameter_mm": 0.45,
+  "assignments": [
+    {
+      "ball": "C7",
+      "x": 30.5,
+      "y": 9.0,
+      "slot": 1,
+      "signal": "SW_RX0_N",
+      "net": "/S01_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C8",
+      "x": 31.5,
+      "y": 9.0,
+      "slot": 1,
+      "signal": "SW_RX0_P",
+      "net": "/S01_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AK1",
+      "x": 24.5,
+      "y": 36.0,
+      "slot": 1,
+      "signal": "SW_RX1_N",
+      "net": "/S01_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AK2",
+      "x": 25.5,
+      "y": 36.0,
+      "slot": 1,
+      "signal": "SW_RX1_P",
+      "net": "/S01_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AJ31",
+      "x": 54.5,
+      "y": 35.0,
+      "slot": 1,
+      "signal": "SW_RX2_N",
+      "net": "/S01_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AJ32",
+      "x": 55.5,
+      "y": 35.0,
+      "slot": 1,
+      "signal": "SW_RX2_P",
+      "net": "/S01_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "B5",
+      "x": 28.5,
+      "y": 8.0,
+      "slot": 1,
+      "signal": "SW_RX3_N",
+      "net": "/S01_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "B6",
+      "x": 29.5,
+      "y": 8.0,
+      "slot": 1,
+      "signal": "SW_RX3_P",
+      "net": "/S01_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AF5",
+      "x": 28.5,
+      "y": 32.0,
+      "slot": 1,
+      "signal": "SW_TX0_N",
+      "net": "/S01_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AF6",
+      "x": 29.5,
+      "y": 32.0,
+      "slot": 1,
+      "signal": "SW_TX0_P",
+      "net": "/S01_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "B1",
+      "x": 24.5,
+      "y": 8.0,
+      "slot": 1,
+      "signal": "SW_TX1_N",
+      "net": "/S01_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "B2",
+      "x": 25.5,
+      "y": 8.0,
+      "slot": 1,
+      "signal": "SW_TX1_P",
+      "net": "/S01_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL23",
+      "x": 46.5,
+      "y": 37.0,
+      "slot": 1,
+      "signal": "SW_TX2_N",
+      "net": "/S01_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL24",
+      "x": 47.5,
+      "y": 37.0,
+      "slot": 1,
+      "signal": "SW_TX2_P",
+      "net": "/S01_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AH9",
+      "x": 32.5,
+      "y": 34.0,
+      "slot": 1,
+      "signal": "SW_TX3_N",
+      "net": "/S01_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AH10",
+      "x": 33.5,
+      "y": 34.0,
+      "slot": 1,
+      "signal": "SW_TX3_P",
+      "net": "/S01_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C19",
+      "x": 42.5,
+      "y": 9.0,
+      "slot": 1,
+      "signal": "REFCLK0_N",
+      "net": "/S01_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "C20",
+      "x": 43.5,
+      "y": 9.0,
+      "slot": 1,
+      "signal": "REFCLK0_P",
+      "net": "/S01_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AF13",
+      "x": 36.5,
+      "y": 32.0,
+      "slot": 1,
+      "signal": "REFCLK1_N",
+      "net": "/S01_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AF14",
+      "x": 37.5,
+      "y": 32.0,
+      "slot": 1,
+      "signal": "REFCLK1_P",
+      "net": "/S01_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AM25",
+      "x": 48.5,
+      "y": 38.0,
+      "slot": 2,
+      "signal": "SW_RX0_N",
+      "net": "/S02_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AM26",
+      "x": 49.5,
+      "y": 38.0,
+      "slot": 2,
+      "signal": "SW_RX0_P",
+      "net": "/S02_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL17",
+      "x": 40.5,
+      "y": 37.0,
+      "slot": 2,
+      "signal": "SW_RX1_N",
+      "net": "/S02_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL18",
+      "x": 41.5,
+      "y": 37.0,
+      "slot": 2,
+      "signal": "SW_RX1_P",
+      "net": "/S02_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C5",
+      "x": 28.5,
+      "y": 9.0,
+      "slot": 2,
+      "signal": "SW_RX2_N",
+      "net": "/S02_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C6",
+      "x": 29.5,
+      "y": 9.0,
+      "slot": 2,
+      "signal": "SW_RX2_P",
+      "net": "/S02_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AK23",
+      "x": 46.5,
+      "y": 36.0,
+      "slot": 2,
+      "signal": "SW_RX3_N",
+      "net": "/S02_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AK24",
+      "x": 47.5,
+      "y": 36.0,
+      "slot": 2,
+      "signal": "SW_RX3_P",
+      "net": "/S02_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL25",
+      "x": 48.5,
+      "y": 37.0,
+      "slot": 2,
+      "signal": "SW_TX0_N",
+      "net": "/S02_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL26",
+      "x": 49.5,
+      "y": 37.0,
+      "slot": 2,
+      "signal": "SW_TX0_P",
+      "net": "/S02_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "B31",
+      "x": 54.5,
+      "y": 8.0,
+      "slot": 2,
+      "signal": "SW_TX1_N",
+      "net": "/S02_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "B32",
+      "x": 55.5,
+      "y": 8.0,
+      "slot": 2,
+      "signal": "SW_TX1_P",
+      "net": "/S02_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AM7",
+      "x": 30.5,
+      "y": 38.0,
+      "slot": 2,
+      "signal": "SW_TX2_N",
+      "net": "/S02_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AM8",
+      "x": 31.5,
+      "y": 38.0,
+      "slot": 2,
+      "signal": "SW_TX2_P",
+      "net": "/S02_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AH23",
+      "x": 46.5,
+      "y": 34.0,
+      "slot": 2,
+      "signal": "SW_TX3_N",
+      "net": "/S02_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AH24",
+      "x": 47.5,
+      "y": 34.0,
+      "slot": 2,
+      "signal": "SW_TX3_P",
+      "net": "/S02_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL13",
+      "x": 36.5,
+      "y": 37.0,
+      "slot": 2,
+      "signal": "REFCLK0_N",
+      "net": "/S02_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AL14",
+      "x": 37.5,
+      "y": 37.0,
+      "slot": 2,
+      "signal": "REFCLK0_P",
+      "net": "/S02_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AM21",
+      "x": 44.5,
+      "y": 38.0,
+      "slot": 2,
+      "signal": "REFCLK1_N",
+      "net": "/S02_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AM22",
+      "x": 45.5,
+      "y": 38.0,
+      "slot": 2,
+      "signal": "REFCLK1_P",
+      "net": "/S02_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AG15",
+      "x": 38.5,
+      "y": 33.0,
+      "slot": 3,
+      "signal": "SW_RX0_N",
+      "net": "/S03_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AG16",
+      "x": 39.5,
+      "y": 33.0,
+      "slot": 3,
+      "signal": "SW_RX0_P",
+      "net": "/S03_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C13",
+      "x": 36.5,
+      "y": 9.0,
+      "slot": 3,
+      "signal": "SW_RX1_N",
+      "net": "/S03_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C14",
+      "x": 37.5,
+      "y": 9.0,
+      "slot": 3,
+      "signal": "SW_RX1_P",
+      "net": "/S03_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C21",
+      "x": 44.5,
+      "y": 9.0,
+      "slot": 3,
+      "signal": "SW_RX2_N",
+      "net": "/S03_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C22",
+      "x": 45.5,
+      "y": 9.0,
+      "slot": 3,
+      "signal": "SW_RX2_P",
+      "net": "/S03_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "A1",
+      "x": 24.5,
+      "y": 7.0,
+      "slot": 3,
+      "signal": "SW_RX3_N",
+      "net": "/S03_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "A2",
+      "x": 25.5,
+      "y": 7.0,
+      "slot": 3,
+      "signal": "SW_RX3_P",
+      "net": "/S03_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL11",
+      "x": 34.5,
+      "y": 37.0,
+      "slot": 3,
+      "signal": "SW_TX0_N",
+      "net": "/S03_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL12",
+      "x": 35.5,
+      "y": 37.0,
+      "slot": 3,
+      "signal": "SW_TX0_P",
+      "net": "/S03_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "D9",
+      "x": 32.5,
+      "y": 10.0,
+      "slot": 3,
+      "signal": "SW_TX1_N",
+      "net": "/S03_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "D10",
+      "x": 33.5,
+      "y": 10.0,
+      "slot": 3,
+      "signal": "SW_TX1_P",
+      "net": "/S03_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AH1",
+      "x": 24.5,
+      "y": 34.0,
+      "slot": 3,
+      "signal": "SW_TX2_N",
+      "net": "/S03_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AH2",
+      "x": 25.5,
+      "y": 34.0,
+      "slot": 3,
+      "signal": "SW_TX2_P",
+      "net": "/S03_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "D17",
+      "x": 40.5,
+      "y": 10.0,
+      "slot": 3,
+      "signal": "SW_TX3_N",
+      "net": "/S03_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "D18",
+      "x": 41.5,
+      "y": 10.0,
+      "slot": 3,
+      "signal": "SW_TX3_P",
+      "net": "/S03_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "D23",
+      "x": 46.5,
+      "y": 10.0,
+      "slot": 3,
+      "signal": "REFCLK0_N",
+      "net": "/S03_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "D24",
+      "x": 47.5,
+      "y": 10.0,
+      "slot": 3,
+      "signal": "REFCLK0_P",
+      "net": "/S03_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "B9",
+      "x": 32.5,
+      "y": 8.0,
+      "slot": 3,
+      "signal": "REFCLK1_N",
+      "net": "/S03_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "B10",
+      "x": 33.5,
+      "y": 8.0,
+      "slot": 3,
+      "signal": "REFCLK1_P",
+      "net": "/S03_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AH7",
+      "x": 30.5,
+      "y": 34.0,
+      "slot": 4,
+      "signal": "SW_RX0_N",
+      "net": "/S04_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AH8",
+      "x": 31.5,
+      "y": 34.0,
+      "slot": 4,
+      "signal": "SW_RX0_P",
+      "net": "/S04_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AF21",
+      "x": 44.5,
+      "y": 32.0,
+      "slot": 4,
+      "signal": "SW_RX1_N",
+      "net": "/S04_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AF22",
+      "x": 45.5,
+      "y": 32.0,
+      "slot": 4,
+      "signal": "SW_RX1_P",
+      "net": "/S04_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AM31",
+      "x": 54.5,
+      "y": 38.0,
+      "slot": 4,
+      "signal": "SW_RX2_N",
+      "net": "/S04_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AM32",
+      "x": 55.5,
+      "y": 38.0,
+      "slot": 4,
+      "signal": "SW_RX2_P",
+      "net": "/S04_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "E31",
+      "x": 54.5,
+      "y": 11.0,
+      "slot": 4,
+      "signal": "SW_RX3_N",
+      "net": "/S04_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "E32",
+      "x": 55.5,
+      "y": 11.0,
+      "slot": 4,
+      "signal": "SW_RX3_P",
+      "net": "/S04_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AF17",
+      "x": 40.5,
+      "y": 32.0,
+      "slot": 4,
+      "signal": "SW_TX0_N",
+      "net": "/S04_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AF18",
+      "x": 41.5,
+      "y": 32.0,
+      "slot": 4,
+      "signal": "SW_TX0_P",
+      "net": "/S04_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AM27",
+      "x": 50.5,
+      "y": 38.0,
+      "slot": 4,
+      "signal": "SW_TX1_N",
+      "net": "/S04_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AM28",
+      "x": 51.5,
+      "y": 38.0,
+      "slot": 4,
+      "signal": "SW_TX1_P",
+      "net": "/S04_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AF3",
+      "x": 26.5,
+      "y": 32.0,
+      "slot": 4,
+      "signal": "SW_TX2_N",
+      "net": "/S04_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AF4",
+      "x": 27.5,
+      "y": 32.0,
+      "slot": 4,
+      "signal": "SW_TX2_P",
+      "net": "/S04_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AK7",
+      "x": 30.5,
+      "y": 36.0,
+      "slot": 4,
+      "signal": "SW_TX3_N",
+      "net": "/S04_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AK8",
+      "x": 31.5,
+      "y": 36.0,
+      "slot": 4,
+      "signal": "SW_TX3_P",
+      "net": "/S04_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL3",
+      "x": 26.5,
+      "y": 37.0,
+      "slot": 4,
+      "signal": "REFCLK0_N",
+      "net": "/S04_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AL4",
+      "x": 27.5,
+      "y": 37.0,
+      "slot": 4,
+      "signal": "REFCLK0_P",
+      "net": "/S04_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AG17",
+      "x": 40.5,
+      "y": 33.0,
+      "slot": 4,
+      "signal": "REFCLK1_N",
+      "net": "/S04_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AG18",
+      "x": 41.5,
+      "y": 33.0,
+      "slot": 4,
+      "signal": "REFCLK1_P",
+      "net": "/S04_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "C23",
+      "x": 46.5,
+      "y": 9.0,
+      "slot": 5,
+      "signal": "SW_RX0_N",
+      "net": "/S05_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C24",
+      "x": 47.5,
+      "y": 9.0,
+      "slot": 5,
+      "signal": "SW_RX0_P",
+      "net": "/S05_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "A25",
+      "x": 48.5,
+      "y": 7.0,
+      "slot": 5,
+      "signal": "SW_RX1_N",
+      "net": "/S05_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "A26",
+      "x": 49.5,
+      "y": 7.0,
+      "slot": 5,
+      "signal": "SW_RX1_P",
+      "net": "/S05_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL27",
+      "x": 50.5,
+      "y": 37.0,
+      "slot": 5,
+      "signal": "SW_RX2_N",
+      "net": "/S05_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL28",
+      "x": 51.5,
+      "y": 37.0,
+      "slot": 5,
+      "signal": "SW_RX2_P",
+      "net": "/S05_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AJ15",
+      "x": 38.5,
+      "y": 35.0,
+      "slot": 5,
+      "signal": "SW_RX3_N",
+      "net": "/S05_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AJ16",
+      "x": 39.5,
+      "y": 35.0,
+      "slot": 5,
+      "signal": "SW_RX3_P",
+      "net": "/S05_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "D7",
+      "x": 30.5,
+      "y": 10.0,
+      "slot": 5,
+      "signal": "SW_TX0_N",
+      "net": "/S05_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "D8",
+      "x": 31.5,
+      "y": 10.0,
+      "slot": 5,
+      "signal": "SW_TX0_P",
+      "net": "/S05_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C1",
+      "x": 24.5,
+      "y": 9.0,
+      "slot": 5,
+      "signal": "SW_TX1_N",
+      "net": "/S05_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C2",
+      "x": 25.5,
+      "y": 9.0,
+      "slot": 5,
+      "signal": "SW_TX1_P",
+      "net": "/S05_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AM17",
+      "x": 40.5,
+      "y": 38.0,
+      "slot": 5,
+      "signal": "SW_TX2_N",
+      "net": "/S05_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AM18",
+      "x": 41.5,
+      "y": 38.0,
+      "slot": 5,
+      "signal": "SW_TX2_P",
+      "net": "/S05_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "B21",
+      "x": 44.5,
+      "y": 8.0,
+      "slot": 5,
+      "signal": "SW_TX3_N",
+      "net": "/S05_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "B22",
+      "x": 45.5,
+      "y": 8.0,
+      "slot": 5,
+      "signal": "SW_TX3_P",
+      "net": "/S05_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "A17",
+      "x": 40.5,
+      "y": 7.0,
+      "slot": 5,
+      "signal": "REFCLK0_N",
+      "net": "/S05_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "A18",
+      "x": 41.5,
+      "y": 7.0,
+      "slot": 5,
+      "signal": "REFCLK0_P",
+      "net": "/S05_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AM29",
+      "x": 52.5,
+      "y": 38.0,
+      "slot": 5,
+      "signal": "REFCLK1_N",
+      "net": "/S05_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AM30",
+      "x": 53.5,
+      "y": 38.0,
+      "slot": 5,
+      "signal": "REFCLK1_P",
+      "net": "/S05_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "A27",
+      "x": 50.5,
+      "y": 7.0,
+      "slot": 6,
+      "signal": "SW_RX0_N",
+      "net": "/S06_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "A28",
+      "x": 51.5,
+      "y": 7.0,
+      "slot": 6,
+      "signal": "SW_RX0_P",
+      "net": "/S06_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AG9",
+      "x": 32.5,
+      "y": 33.0,
+      "slot": 6,
+      "signal": "SW_RX1_N",
+      "net": "/S06_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AG10",
+      "x": 33.5,
+      "y": 33.0,
+      "slot": 6,
+      "signal": "SW_RX1_P",
+      "net": "/S06_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C25",
+      "x": 48.5,
+      "y": 9.0,
+      "slot": 6,
+      "signal": "SW_RX2_N",
+      "net": "/S06_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C26",
+      "x": 49.5,
+      "y": 9.0,
+      "slot": 6,
+      "signal": "SW_RX2_P",
+      "net": "/S06_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AF11",
+      "x": 34.5,
+      "y": 32.0,
+      "slot": 6,
+      "signal": "SW_RX3_N",
+      "net": "/S06_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AF12",
+      "x": 35.5,
+      "y": 32.0,
+      "slot": 6,
+      "signal": "SW_RX3_P",
+      "net": "/S06_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "B19",
+      "x": 42.5,
+      "y": 8.0,
+      "slot": 6,
+      "signal": "SW_TX0_N",
+      "net": "/S06_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "B20",
+      "x": 43.5,
+      "y": 8.0,
+      "slot": 6,
+      "signal": "SW_TX0_P",
+      "net": "/S06_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "A29",
+      "x": 52.5,
+      "y": 7.0,
+      "slot": 6,
+      "signal": "SW_TX1_N",
+      "net": "/S06_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "A30",
+      "x": 53.5,
+      "y": 7.0,
+      "slot": 6,
+      "signal": "SW_TX1_P",
+      "net": "/S06_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "A15",
+      "x": 38.5,
+      "y": 7.0,
+      "slot": 6,
+      "signal": "SW_TX2_N",
+      "net": "/S06_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "A16",
+      "x": 39.5,
+      "y": 7.0,
+      "slot": 6,
+      "signal": "SW_TX2_P",
+      "net": "/S06_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C31",
+      "x": 54.5,
+      "y": 9.0,
+      "slot": 6,
+      "signal": "SW_TX3_N",
+      "net": "/S06_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C32",
+      "x": 55.5,
+      "y": 9.0,
+      "slot": 6,
+      "signal": "SW_TX3_P",
+      "net": "/S06_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AK29",
+      "x": 52.5,
+      "y": 36.0,
+      "slot": 6,
+      "signal": "REFCLK0_N",
+      "net": "/S06_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AK30",
+      "x": 53.5,
+      "y": 36.0,
+      "slot": 6,
+      "signal": "REFCLK0_P",
+      "net": "/S06_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AF29",
+      "x": 52.5,
+      "y": 32.0,
+      "slot": 6,
+      "signal": "REFCLK1_N",
+      "net": "/S06_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AF30",
+      "x": 53.5,
+      "y": 32.0,
+      "slot": 6,
+      "signal": "REFCLK1_P",
+      "net": "/S06_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "E23",
+      "x": 46.5,
+      "y": 11.0,
+      "slot": 7,
+      "signal": "SW_RX0_N",
+      "net": "/S07_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "E24",
+      "x": 47.5,
+      "y": 11.0,
+      "slot": 7,
+      "signal": "SW_RX0_P",
+      "net": "/S07_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AK21",
+      "x": 44.5,
+      "y": 36.0,
+      "slot": 7,
+      "signal": "SW_RX1_N",
+      "net": "/S07_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AK22",
+      "x": 45.5,
+      "y": 36.0,
+      "slot": 7,
+      "signal": "SW_RX1_P",
+      "net": "/S07_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL31",
+      "x": 54.5,
+      "y": 37.0,
+      "slot": 7,
+      "signal": "SW_RX2_N",
+      "net": "/S07_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL32",
+      "x": 55.5,
+      "y": 37.0,
+      "slot": 7,
+      "signal": "SW_RX2_P",
+      "net": "/S07_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AJ17",
+      "x": 40.5,
+      "y": 35.0,
+      "slot": 7,
+      "signal": "SW_RX3_N",
+      "net": "/S07_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AJ18",
+      "x": 41.5,
+      "y": 35.0,
+      "slot": 7,
+      "signal": "SW_RX3_P",
+      "net": "/S07_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AK15",
+      "x": 38.5,
+      "y": 36.0,
+      "slot": 7,
+      "signal": "SW_TX0_N",
+      "net": "/S07_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AK16",
+      "x": 39.5,
+      "y": 36.0,
+      "slot": 7,
+      "signal": "SW_TX0_P",
+      "net": "/S07_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AH25",
+      "x": 48.5,
+      "y": 34.0,
+      "slot": 7,
+      "signal": "SW_TX1_N",
+      "net": "/S07_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AH26",
+      "x": 49.5,
+      "y": 34.0,
+      "slot": 7,
+      "signal": "SW_TX1_P",
+      "net": "/S07_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AG1",
+      "x": 24.5,
+      "y": 33.0,
+      "slot": 7,
+      "signal": "SW_TX2_N",
+      "net": "/S07_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AG2",
+      "x": 25.5,
+      "y": 33.0,
+      "slot": 7,
+      "signal": "SW_TX2_P",
+      "net": "/S07_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AF19",
+      "x": 42.5,
+      "y": 32.0,
+      "slot": 7,
+      "signal": "SW_TX3_N",
+      "net": "/S07_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AF20",
+      "x": 43.5,
+      "y": 32.0,
+      "slot": 7,
+      "signal": "SW_TX3_P",
+      "net": "/S07_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "B17",
+      "x": 40.5,
+      "y": 8.0,
+      "slot": 7,
+      "signal": "REFCLK0_N",
+      "net": "/S07_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "B18",
+      "x": 41.5,
+      "y": 8.0,
+      "slot": 7,
+      "signal": "REFCLK0_P",
+      "net": "/S07_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AG31",
+      "x": 54.5,
+      "y": 33.0,
+      "slot": 7,
+      "signal": "REFCLK1_N",
+      "net": "/S07_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AG32",
+      "x": 55.5,
+      "y": 33.0,
+      "slot": 7,
+      "signal": "REFCLK1_P",
+      "net": "/S07_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "B13",
+      "x": 36.5,
+      "y": 8.0,
+      "slot": 8,
+      "signal": "SW_RX0_N",
+      "net": "/S08_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "B14",
+      "x": 37.5,
+      "y": 8.0,
+      "slot": 8,
+      "signal": "SW_RX0_P",
+      "net": "/S08_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "F31",
+      "x": 54.5,
+      "y": 12.0,
+      "slot": 8,
+      "signal": "SW_RX1_N",
+      "net": "/S08_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "F32",
+      "x": 55.5,
+      "y": 12.0,
+      "slot": 8,
+      "signal": "SW_RX1_P",
+      "net": "/S08_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AF15",
+      "x": 38.5,
+      "y": 32.0,
+      "slot": 8,
+      "signal": "SW_RX2_N",
+      "net": "/S08_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AF16",
+      "x": 39.5,
+      "y": 32.0,
+      "slot": 8,
+      "signal": "SW_RX2_P",
+      "net": "/S08_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C17",
+      "x": 40.5,
+      "y": 9.0,
+      "slot": 8,
+      "signal": "SW_RX3_N",
+      "net": "/S08_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C18",
+      "x": 41.5,
+      "y": 9.0,
+      "slot": 8,
+      "signal": "SW_RX3_P",
+      "net": "/S08_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL19",
+      "x": 42.5,
+      "y": 37.0,
+      "slot": 8,
+      "signal": "SW_TX0_N",
+      "net": "/S08_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL20",
+      "x": 43.5,
+      "y": 37.0,
+      "slot": 8,
+      "signal": "SW_TX0_P",
+      "net": "/S08_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AH31",
+      "x": 54.5,
+      "y": 34.0,
+      "slot": 8,
+      "signal": "SW_TX1_N",
+      "net": "/S08_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AH32",
+      "x": 55.5,
+      "y": 34.0,
+      "slot": 8,
+      "signal": "SW_TX1_P",
+      "net": "/S08_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL21",
+      "x": 44.5,
+      "y": 37.0,
+      "slot": 8,
+      "signal": "SW_TX2_N",
+      "net": "/S08_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL22",
+      "x": 45.5,
+      "y": 37.0,
+      "slot": 8,
+      "signal": "SW_TX2_P",
+      "net": "/S08_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL29",
+      "x": 52.5,
+      "y": 37.0,
+      "slot": 8,
+      "signal": "SW_TX3_N",
+      "net": "/S08_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL30",
+      "x": 53.5,
+      "y": 37.0,
+      "slot": 8,
+      "signal": "SW_TX3_P",
+      "net": "/S08_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "B27",
+      "x": 50.5,
+      "y": 8.0,
+      "slot": 8,
+      "signal": "REFCLK0_N",
+      "net": "/S08_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "B28",
+      "x": 51.5,
+      "y": 8.0,
+      "slot": 8,
+      "signal": "REFCLK0_P",
+      "net": "/S08_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AM15",
+      "x": 38.5,
+      "y": 38.0,
+      "slot": 8,
+      "signal": "REFCLK1_N",
+      "net": "/S08_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AM16",
+      "x": 39.5,
+      "y": 38.0,
+      "slot": 8,
+      "signal": "REFCLK1_P",
+      "net": "/S08_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AK27",
+      "x": 50.5,
+      "y": 36.0,
+      "slot": 9,
+      "signal": "SW_RX0_N",
+      "net": "/S09_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AK28",
+      "x": 51.5,
+      "y": 36.0,
+      "slot": 9,
+      "signal": "SW_RX0_P",
+      "net": "/S09_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C11",
+      "x": 34.5,
+      "y": 9.0,
+      "slot": 9,
+      "signal": "SW_RX1_N",
+      "net": "/S09_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C12",
+      "x": 35.5,
+      "y": 9.0,
+      "slot": 9,
+      "signal": "SW_RX1_P",
+      "net": "/S09_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "A21",
+      "x": 44.5,
+      "y": 7.0,
+      "slot": 9,
+      "signal": "SW_RX2_N",
+      "net": "/S09_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "A22",
+      "x": 45.5,
+      "y": 7.0,
+      "slot": 9,
+      "signal": "SW_RX2_P",
+      "net": "/S09_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "F1",
+      "x": 24.5,
+      "y": 12.0,
+      "slot": 9,
+      "signal": "SW_RX3_N",
+      "net": "/S09_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "F2",
+      "x": 25.5,
+      "y": 12.0,
+      "slot": 9,
+      "signal": "SW_RX3_P",
+      "net": "/S09_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AK13",
+      "x": 36.5,
+      "y": 36.0,
+      "slot": 9,
+      "signal": "SW_TX0_N",
+      "net": "/S09_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AK14",
+      "x": 37.5,
+      "y": 36.0,
+      "slot": 9,
+      "signal": "SW_TX0_P",
+      "net": "/S09_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "E1",
+      "x": 24.5,
+      "y": 11.0,
+      "slot": 9,
+      "signal": "SW_TX1_N",
+      "net": "/S09_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "E2",
+      "x": 25.5,
+      "y": 11.0,
+      "slot": 9,
+      "signal": "SW_TX1_P",
+      "net": "/S09_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "B23",
+      "x": 46.5,
+      "y": 8.0,
+      "slot": 9,
+      "signal": "SW_TX2_N",
+      "net": "/S09_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "B24",
+      "x": 47.5,
+      "y": 8.0,
+      "slot": 9,
+      "signal": "SW_TX2_P",
+      "net": "/S09_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C15",
+      "x": 38.5,
+      "y": 9.0,
+      "slot": 9,
+      "signal": "SW_TX3_N",
+      "net": "/S09_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "C16",
+      "x": 39.5,
+      "y": 9.0,
+      "slot": 9,
+      "signal": "SW_TX3_P",
+      "net": "/S09_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "C27",
+      "x": 50.5,
+      "y": 9.0,
+      "slot": 9,
+      "signal": "REFCLK0_N",
+      "net": "/S09_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "C28",
+      "x": 51.5,
+      "y": 9.0,
+      "slot": 9,
+      "signal": "REFCLK0_P",
+      "net": "/S09_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AG7",
+      "x": 30.5,
+      "y": 33.0,
+      "slot": 9,
+      "signal": "REFCLK1_N",
+      "net": "/S09_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "AG8",
+      "x": 31.5,
+      "y": 33.0,
+      "slot": 9,
+      "signal": "REFCLK1_P",
+      "net": "/S09_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "AG25",
+      "x": 48.5,
+      "y": 33.0,
+      "slot": 10,
+      "signal": "SW_RX0_N",
+      "net": "/S10_SW_RX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AG26",
+      "x": 49.5,
+      "y": 33.0,
+      "slot": 10,
+      "signal": "SW_RX0_P",
+      "net": "/S10_SW_RX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "A11",
+      "x": 34.5,
+      "y": 7.0,
+      "slot": 10,
+      "signal": "SW_RX1_N",
+      "net": "/S10_SW_RX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "A12",
+      "x": 35.5,
+      "y": 7.0,
+      "slot": 10,
+      "signal": "SW_RX1_P",
+      "net": "/S10_SW_RX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AM11",
+      "x": 34.5,
+      "y": 38.0,
+      "slot": 10,
+      "signal": "SW_RX2_N",
+      "net": "/S10_SW_RX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AM12",
+      "x": 35.5,
+      "y": 38.0,
+      "slot": 10,
+      "signal": "SW_RX2_P",
+      "net": "/S10_SW_RX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AF1",
+      "x": 24.5,
+      "y": 32.0,
+      "slot": 10,
+      "signal": "SW_RX3_N",
+      "net": "/S10_SW_RX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AF2",
+      "x": 25.5,
+      "y": 32.0,
+      "slot": 10,
+      "signal": "SW_RX3_P",
+      "net": "/S10_SW_RX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "A31",
+      "x": 54.5,
+      "y": 7.0,
+      "slot": 10,
+      "signal": "SW_TX0_N",
+      "net": "/S10_SW_TX0_N",
+      "kind": "data"
+    },
+    {
+      "ball": "A32",
+      "x": 55.5,
+      "y": 7.0,
+      "slot": 10,
+      "signal": "SW_TX0_P",
+      "net": "/S10_SW_TX0_P",
+      "kind": "data"
+    },
+    {
+      "ball": "F9",
+      "x": 32.5,
+      "y": 12.0,
+      "slot": 10,
+      "signal": "SW_TX1_N",
+      "net": "/S10_SW_TX1_N",
+      "kind": "data"
+    },
+    {
+      "ball": "F10",
+      "x": 33.5,
+      "y": 12.0,
+      "slot": 10,
+      "signal": "SW_TX1_P",
+      "net": "/S10_SW_TX1_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AF9",
+      "x": 32.5,
+      "y": 32.0,
+      "slot": 10,
+      "signal": "SW_TX2_N",
+      "net": "/S10_SW_TX2_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AF10",
+      "x": 33.5,
+      "y": 32.0,
+      "slot": 10,
+      "signal": "SW_TX2_P",
+      "net": "/S10_SW_TX2_P",
+      "kind": "data"
+    },
+    {
+      "ball": "AL15",
+      "x": 38.5,
+      "y": 37.0,
+      "slot": 10,
+      "signal": "SW_TX3_N",
+      "net": "/S10_SW_TX3_N",
+      "kind": "data"
+    },
+    {
+      "ball": "AL16",
+      "x": 39.5,
+      "y": 37.0,
+      "slot": 10,
+      "signal": "SW_TX3_P",
+      "net": "/S10_SW_TX3_P",
+      "kind": "data"
+    },
+    {
+      "ball": "A9",
+      "x": 32.5,
+      "y": 7.0,
+      "slot": 10,
+      "signal": "REFCLK0_N",
+      "net": "/S10_REFCLK0_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "A10",
+      "x": 33.5,
+      "y": 7.0,
+      "slot": 10,
+      "signal": "REFCLK0_P",
+      "net": "/S10_REFCLK0_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "A13",
+      "x": 36.5,
+      "y": 7.0,
+      "slot": 10,
+      "signal": "REFCLK1_N",
+      "net": "/S10_REFCLK1_N",
+      "kind": "clock"
+    },
+    {
+      "ball": "A14",
+      "x": 37.5,
+      "y": 7.0,
+      "slot": 10,
+      "signal": "REFCLK1_P",
+      "net": "/S10_REFCLK1_P",
+      "kind": "clock"
+    },
+    {
+      "ball": "F23",
+      "x": 46.5,
+      "y": 12.0,
+      "slot": 1,
+      "signal": "PERST0_N",
+      "net": "/S01_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "F24",
+      "x": 47.5,
+      "y": 12.0,
+      "slot": 2,
+      "signal": "PERST0_N",
+      "net": "/S02_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "F17",
+      "x": 40.5,
+      "y": 12.0,
+      "slot": 3,
+      "signal": "PERST0_N",
+      "net": "/S03_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "F18",
+      "x": 41.5,
+      "y": 12.0,
+      "slot": 4,
+      "signal": "PERST0_N",
+      "net": "/S04_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "AH15",
+      "x": 38.5,
+      "y": 34.0,
+      "slot": 5,
+      "signal": "PERST0_N",
+      "net": "/S05_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "AH16",
+      "x": 39.5,
+      "y": 34.0,
+      "slot": 6,
+      "signal": "PERST0_N",
+      "net": "/S06_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "E25",
+      "x": 48.5,
+      "y": 11.0,
+      "slot": 7,
+      "signal": "PERST0_N",
+      "net": "/S07_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "E26",
+      "x": 49.5,
+      "y": 11.0,
+      "slot": 8,
+      "signal": "PERST0_N",
+      "net": "/S08_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "AK3",
+      "x": 26.5,
+      "y": 36.0,
+      "slot": 9,
+      "signal": "PERST0_N",
+      "net": "/S09_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "AK4",
+      "x": 27.5,
+      "y": 36.0,
+      "slot": 10,
+      "signal": "PERST0_N",
+      "net": "/S10_PERST0_N",
+      "kind": "reset"
+    },
+    {
+      "ball": "F25",
+      "x": 48.5,
+      "y": 12.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadF25)",
+      "kind": "NC"
+    },
+    {
+      "ball": "F26",
+      "x": 49.5,
+      "y": 12.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadF26)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AM9",
+      "x": 32.5,
+      "y": 38.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAM9)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AM10",
+      "x": 33.5,
+      "y": 38.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAM10)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AG23",
+      "x": 46.5,
+      "y": 33.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAG23)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AG24",
+      "x": 47.5,
+      "y": 33.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAG24)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AJ1",
+      "x": 24.5,
+      "y": 35.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAJ1)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AJ2",
+      "x": 25.5,
+      "y": 35.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAJ2)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AJ7",
+      "x": 30.5,
+      "y": 35.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAJ7)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AJ8",
+      "x": 31.5,
+      "y": 35.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAJ8)",
+      "kind": "NC"
+    },
+    {
+      "ball": "D31",
+      "x": 54.5,
+      "y": 10.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadD31)",
+      "kind": "NC"
+    },
+    {
+      "ball": "D32",
+      "x": 55.5,
+      "y": 10.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadD32)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AM23",
+      "x": 46.5,
+      "y": 38.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAM23)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AM24",
+      "x": 47.5,
+      "y": 38.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAM24)",
+      "kind": "NC"
+    },
+    {
+      "ball": "B3",
+      "x": 26.5,
+      "y": 8.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadB3)",
+      "kind": "NC"
+    },
+    {
+      "ball": "B4",
+      "x": 27.5,
+      "y": 8.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadB4)",
+      "kind": "NC"
+    },
+    {
+      "ball": "C29",
+      "x": 52.5,
+      "y": 9.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadC29)",
+      "kind": "NC"
+    },
+    {
+      "ball": "C30",
+      "x": 53.5,
+      "y": 9.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadC30)",
+      "kind": "NC"
+    },
+    {
+      "ball": "D25",
+      "x": 48.5,
+      "y": 10.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadD25)",
+      "kind": "NC"
+    },
+    {
+      "ball": "D26",
+      "x": 49.5,
+      "y": 10.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadD26)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AK17",
+      "x": 40.5,
+      "y": 36.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAK17)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AK18",
+      "x": 41.5,
+      "y": 36.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAK18)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AF27",
+      "x": 50.5,
+      "y": 32.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAF27)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AF28",
+      "x": 51.5,
+      "y": 32.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAF28)",
+      "kind": "NC"
+    },
+    {
+      "ball": "B15",
+      "x": 38.5,
+      "y": 8.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadB15)",
+      "kind": "NC"
+    },
+    {
+      "ball": "B16",
+      "x": 39.5,
+      "y": 8.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadB16)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AK19",
+      "x": 42.5,
+      "y": 36.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAK19)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AK20",
+      "x": 43.5,
+      "y": 36.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAK20)",
+      "kind": "NC"
+    },
+    {
+      "ball": "B7",
+      "x": 30.5,
+      "y": 8.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadB7)",
+      "kind": "NC"
+    },
+    {
+      "ball": "B8",
+      "x": 31.5,
+      "y": 8.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadB8)",
+      "kind": "NC"
+    },
+    {
+      "ball": "E9",
+      "x": 32.5,
+      "y": 11.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadE9)",
+      "kind": "NC"
+    },
+    {
+      "ball": "E10",
+      "x": 33.5,
+      "y": 11.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadE10)",
+      "kind": "NC"
+    },
+    {
+      "ball": "C9",
+      "x": 32.5,
+      "y": 9.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadC9)",
+      "kind": "NC"
+    },
+    {
+      "ball": "C10",
+      "x": 33.5,
+      "y": 9.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadC10)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AM13",
+      "x": 36.5,
+      "y": 38.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAM13)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AM14",
+      "x": 37.5,
+      "y": 38.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAM14)",
+      "kind": "NC"
+    },
+    {
+      "ball": "A23",
+      "x": 46.5,
+      "y": 7.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadA23)",
+      "kind": "NC"
+    },
+    {
+      "ball": "A24",
+      "x": 47.5,
+      "y": 7.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadA24)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AK9",
+      "x": 32.5,
+      "y": 36.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAK9)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AK10",
+      "x": 33.5,
+      "y": 36.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAK10)",
+      "kind": "NC"
+    },
+    {
+      "ball": "A19",
+      "x": 42.5,
+      "y": 7.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadA19)",
+      "kind": "NC"
+    },
+    {
+      "ball": "A20",
+      "x": 43.5,
+      "y": 7.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadA20)",
+      "kind": "NC"
+    },
+    {
+      "ball": "A7",
+      "x": 30.5,
+      "y": 7.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadA7)",
+      "kind": "NC"
+    },
+    {
+      "ball": "A8",
+      "x": 31.5,
+      "y": 7.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadA8)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AK5",
+      "x": 28.5,
+      "y": 36.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAK5)",
+      "kind": "NC"
+    },
+    {
+      "ball": "AK6",
+      "x": 29.5,
+      "y": 36.0,
+      "slot": null,
+      "signal": "SPARE_NC",
+      "net": "unconnected-(U1-PadAK6)",
+      "kind": "NC"
+    }
+  ]
+}

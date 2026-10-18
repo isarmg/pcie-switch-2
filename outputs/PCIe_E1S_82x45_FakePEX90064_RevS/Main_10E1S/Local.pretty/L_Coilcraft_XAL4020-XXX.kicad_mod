@@ -1,0 +1,127 @@
+(footprint "L_Coilcraft_XAL4020-XXX"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "XAL4020-222MEC; component body height limit 2.1 mm")
+	(tags "xal")
+	(property "Reference" "REF**"
+		(at 0 -3.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2cbeb845-3ec7-4dbd-945e-a5f522aabaf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Coilcraft_XAL4020-XXX"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05aa1fd3-d323-498e-ba6a-e7aba8738004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/getmedia/6adcb47d-8b55-416c-976e-1e22e0d2848c/xal4000.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e91141bb-29a3-41c7-b1ed-656d8076cee6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c4cf384-e6e2-4029-a260-1339d3baaab1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "inductor/SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0db7aa13-2204-4abb-8c66-8d404a34f594")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.4 -2.4)
+		(end 2.4 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4c8736ac-bde7-4952-a9af-b9f038d49066")
+	)
+	(fp_rect
+		(start -2.15 -2.15)
+		(end 2.15 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0326dd1d-62cd-41fb-9b07-9095cef3e768")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9225949c-313c-4fa8-a40f-99dcd5851e0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "817b0d20-54fe-466d-a82c-d71891b0681a")
+	)
+	(pad "2" smd roundrect
+		(at 1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "085815e7-5bd3-4407-9d47-4f8ae6666f29")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/L_Coilcraft_XAL4020-XXX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

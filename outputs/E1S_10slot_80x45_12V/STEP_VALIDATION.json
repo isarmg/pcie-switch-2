@@ -1,0 +1,87 @@
+{
+  "revision": "H",
+  "pcb_nominal_mm": [
+    80,
+    45,
+    1.6
+  ],
+  "exported_board_body_mm": [
+    80.0,
+    45.0,
+    1.555985
+  ],
+  "component_model_instances": 122,
+  "unique_solid_definitions": 13,
+  "component_references_verified": true,
+  "native_step_reimport_and_reexport_passed": true,
+  "connector_count": 10,
+  "ssd_models": 0,
+  "solid_dimensions_mm": [
+    [
+      1.0,
+      0.5,
+      0.35
+    ],
+    [
+      1.6,
+      0.8,
+      0.8
+    ],
+    [
+      1.0,
+      0.5,
+      0.5
+    ],
+    [
+      23.88,
+      6.0,
+      9.05
+    ],
+    [
+      2.0,
+      2.0,
+      1.0
+    ],
+    [
+      37.5,
+      37.5,
+      2.5
+    ],
+    [
+      3.2,
+      2.5,
+      2.5
+    ],
+    [
+      5.3,
+      3.55,
+      2.15
+    ],
+    [
+      4.3,
+      4.3,
+      2.1
+    ],
+    [
+      10.08,
+      3.43,
+      3.5
+    ],
+    [
+      2.0,
+      1.25,
+      1.25
+    ],
+    [
+      3.0,
+      3.0,
+      1.0
+    ],
+    [
+      80.0,
+      45.0,
+      1.555985
+    ]
+  ],
+  "note": "Component envelopes are simplified. Board-body STEP excludes copper/mask thickness; nominal PCB setting is 1.6 mm."
+}

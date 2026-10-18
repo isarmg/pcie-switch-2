@@ -1,0 +1,414 @@
+[
+  {
+    "group": "TBT_CPU_TX0",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_CPU_TX0_SRC_P",
+      "/TBT_CPU_TX0_DST_P"
+    ],
+    "layer_index": 19,
+    "paired": true,
+    "cap": "C5201"
+  },
+  {
+    "group": "TBT_CPU_TX0",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_CPU_TX0_SRC_N",
+      "/TBT_CPU_TX0_DST_N"
+    ],
+    "layer_index": 19,
+    "paired": true,
+    "cap": "C5202"
+  },
+  {
+    "group": "TBT_CPU_TX1",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_CPU_TX1_SRC_P",
+      "/TBT_CPU_TX1_DST_P"
+    ],
+    "layer_index": 19,
+    "paired": true,
+    "cap": "C5203"
+  },
+  {
+    "group": "TBT_CPU_TX1",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_CPU_TX1_SRC_N",
+      "/TBT_CPU_TX1_DST_N"
+    ],
+    "layer_index": 19,
+    "paired": true,
+    "cap": "C5204"
+  },
+  {
+    "group": "TBT_CPU_TX2",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_CPU_TX2_SRC_P",
+      "/TBT_CPU_TX2_DST_P"
+    ],
+    "layer_index": 19,
+    "paired": true,
+    "cap": "C5205"
+  },
+  {
+    "group": "TBT_CPU_TX2",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_CPU_TX2_SRC_N",
+      "/TBT_CPU_TX2_DST_N"
+    ],
+    "layer_index": 19,
+    "paired": true,
+    "cap": "C5206"
+  },
+  {
+    "group": "TBT_CPU_TX3",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_CPU_TX3_SRC_P",
+      "/TBT_CPU_TX3_DST_P"
+    ],
+    "layer_index": 19,
+    "paired": true,
+    "cap": "C5207"
+  },
+  {
+    "group": "TBT_CPU_TX3",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_CPU_TX3_SRC_N",
+      "/TBT_CPU_TX3_DST_N"
+    ],
+    "layer_index": 19,
+    "paired": true,
+    "cap": "C5208"
+  },
+  {
+    "group": "TBT_AR_TX0",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_AR_TX0_SRC_P",
+      "/TBT_AR_TX0_DST_P"
+    ],
+    "layer_index": 22,
+    "paired": true,
+    "cap": "C5209"
+  },
+  {
+    "group": "TBT_AR_TX0",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_AR_TX0_SRC_N",
+      "/TBT_AR_TX0_DST_N"
+    ],
+    "layer_index": 22,
+    "paired": true,
+    "cap": "C5210"
+  },
+  {
+    "group": "TBT_AR_TX1",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_AR_TX1_SRC_P",
+      "/TBT_AR_TX1_DST_P"
+    ],
+    "layer_index": 22,
+    "paired": true,
+    "cap": "C5211"
+  },
+  {
+    "group": "TBT_AR_TX1",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_AR_TX1_SRC_N",
+      "/TBT_AR_TX1_DST_N"
+    ],
+    "layer_index": 22,
+    "paired": true,
+    "cap": "C5212"
+  },
+  {
+    "group": "TBT_AR_TX2",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_AR_TX2_SRC_P",
+      "/TBT_AR_TX2_DST_P"
+    ],
+    "layer_index": 22,
+    "paired": true,
+    "cap": "C5213"
+  },
+  {
+    "group": "TBT_AR_TX2",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_AR_TX2_SRC_N",
+      "/TBT_AR_TX2_DST_N"
+    ],
+    "layer_index": 22,
+    "paired": true,
+    "cap": "C5214"
+  },
+  {
+    "group": "TBT_AR_TX3",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_AR_TX3_SRC_P",
+      "/TBT_AR_TX3_DST_P"
+    ],
+    "layer_index": 22,
+    "paired": true,
+    "cap": "C5215"
+  },
+  {
+    "group": "TBT_AR_TX3",
+    "kind": "TB3_PCIE",
+    "nets": [
+      "/TBT_AR_TX3_SRC_N",
+      "/TBT_AR_TX3_DST_N"
+    ],
+    "layer_index": 22,
+    "paired": true,
+    "cap": "C5216"
+  },
+  {
+    "group": "TBT_DP_ML0",
+    "kind": "TB3_DP",
+    "nets": [
+      "/TBT_DP_ML0_SRC_P",
+      "/TBT_DP_ML0_DST_P"
+    ],
+    "layer_index": 25,
+    "paired": true,
+    "cap": "C5217"
+  },
+  {
+    "group": "TBT_DP_ML0",
+    "kind": "TB3_DP",
+    "nets": [
+      "/TBT_DP_ML0_SRC_N",
+      "/TBT_DP_ML0_DST_N"
+    ],
+    "layer_index": 25,
+    "paired": true,
+    "cap": "C5218"
+  },
+  {
+    "group": "TBT_DP_ML1",
+    "kind": "TB3_DP",
+    "nets": [
+      "/TBT_DP_ML1_SRC_P",
+      "/TBT_DP_ML1_DST_P"
+    ],
+    "layer_index": 25,
+    "paired": true,
+    "cap": "C5219"
+  },
+  {
+    "group": "TBT_DP_ML1",
+    "kind": "TB3_DP",
+    "nets": [
+      "/TBT_DP_ML1_SRC_N",
+      "/TBT_DP_ML1_DST_N"
+    ],
+    "layer_index": 25,
+    "paired": true,
+    "cap": "C5220"
+  },
+  {
+    "group": "TBT_DP_ML2",
+    "kind": "TB3_DP",
+    "nets": [
+      "/TBT_DP_ML2_SRC_P",
+      "/TBT_DP_ML2_DST_P"
+    ],
+    "layer_index": 25,
+    "paired": true,
+    "cap": "C5221"
+  },
+  {
+    "group": "TBT_DP_ML2",
+    "kind": "TB3_DP",
+    "nets": [
+      "/TBT_DP_ML2_SRC_N",
+      "/TBT_DP_ML2_DST_N"
+    ],
+    "layer_index": 25,
+    "paired": true,
+    "cap": "C5222"
+  },
+  {
+    "group": "TBT_DP_ML3",
+    "kind": "TB3_DP",
+    "nets": [
+      "/TBT_DP_ML3_SRC_P",
+      "/TBT_DP_ML3_DST_P"
+    ],
+    "layer_index": 25,
+    "paired": true,
+    "cap": "C5223"
+  },
+  {
+    "group": "TBT_DP_ML3",
+    "kind": "TB3_DP",
+    "nets": [
+      "/TBT_DP_ML3_SRC_N",
+      "/TBT_DP_ML3_DST_N"
+    ],
+    "layer_index": 25,
+    "paired": true,
+    "cap": "C5224"
+  },
+  {
+    "group": "TBT_CIO_TX0",
+    "kind": "TB3_CIO",
+    "nets": [
+      "/TBT_CIO_TX0_SRC_P",
+      "/TBT_CIO_TX0_DST_P"
+    ],
+    "layer_index": 28,
+    "paired": true,
+    "cap": "C5225"
+  },
+  {
+    "group": "TBT_CIO_TX0",
+    "kind": "TB3_CIO",
+    "nets": [
+      "/TBT_CIO_TX0_SRC_N",
+      "/TBT_CIO_TX0_DST_N"
+    ],
+    "layer_index": 28,
+    "paired": true,
+    "cap": "C5226"
+  },
+  {
+    "group": "TBT_CIO_TX1",
+    "kind": "TB3_CIO",
+    "nets": [
+      "/TBT_CIO_TX1_SRC_P",
+      "/TBT_CIO_TX1_DST_P"
+    ],
+    "layer_index": 28,
+    "paired": true,
+    "cap": "C5227"
+  },
+  {
+    "group": "TBT_CIO_TX1",
+    "kind": "TB3_CIO",
+    "nets": [
+      "/TBT_CIO_TX1_SRC_N",
+      "/TBT_CIO_TX1_DST_N"
+    ],
+    "layer_index": 28,
+    "paired": true,
+    "cap": "C5228"
+  },
+  {
+    "group": "TBT_CIO_RX0",
+    "kind": "TB3_CIO",
+    "nets": [
+      "/TBT_CIO_RX0_SRC_P",
+      "/TBT_CIO_RX0_DST_P"
+    ],
+    "layer_index": 28,
+    "paired": true,
+    "cap": "C5229"
+  },
+  {
+    "group": "TBT_CIO_RX0",
+    "kind": "TB3_CIO",
+    "nets": [
+      "/TBT_CIO_RX0_SRC_N",
+      "/TBT_CIO_RX0_DST_N"
+    ],
+    "layer_index": 28,
+    "paired": true,
+    "cap": "C5230"
+  },
+  {
+    "group": "TBT_CIO_RX1",
+    "kind": "TB3_CIO",
+    "nets": [
+      "/TBT_CIO_RX1_SRC_P",
+      "/TBT_CIO_RX1_DST_P"
+    ],
+    "layer_index": 28,
+    "paired": true,
+    "cap": "C5231"
+  },
+  {
+    "group": "TBT_CIO_RX1",
+    "kind": "TB3_CIO",
+    "nets": [
+      "/TBT_CIO_RX1_SRC_N",
+      "/TBT_CIO_RX1_DST_N"
+    ],
+    "layer_index": 28,
+    "paired": true,
+    "cap": "C5232"
+  },
+  {
+    "group": "TBT_DP_AUX",
+    "kind": "TB3_DP",
+    "nets": [
+      "/TBT_DP_AUX_P",
+      "/TBT_DP_AUX_N"
+    ],
+    "layer_index": 29,
+    "paired": true
+  },
+  {
+    "group": "TBT_REFCLK",
+    "kind": "TB3_REFCLK",
+    "nets": [
+      "/TBT_REFCLK_P",
+      "/TBT_REFCLK_N"
+    ],
+    "layer_index": 30,
+    "paired": true
+  },
+  {
+    "group": "TBT_PA_AUX",
+    "kind": "TB3_SIDEBAND",
+    "nets": [
+      "/TBT_PA_AUX_P",
+      "/TBT_PA_AUX_N"
+    ],
+    "layer_index": 29,
+    "paired": true
+  },
+  {
+    "group": "TBT_USB2_RP",
+    "kind": "TB3_USB2",
+    "nets": [
+      "/TBT_USB2_RP_P",
+      "/TBT_USB2_RP_N"
+    ],
+    "layer_index": 30,
+    "paired": true
+  },
+  {
+    "group": "TBT_USB2_TOP",
+    "kind": "TB3_USB2",
+    "nets": [
+      "/TBT_USB2_TOP_P",
+      "/TBT_USB2_TOP_N"
+    ],
+    "layer_index": 29,
+    "paired": true
+  },
+  {
+    "group": "TBT_USB2_BOTTOM",
+    "kind": "TB3_USB2",
+    "nets": [
+      "/TBT_USB2_BOTTOM_P",
+      "/TBT_USB2_BOTTOM_N"
+    ],
+    "layer_index": 30,
+    "paired": true
+  }
+]

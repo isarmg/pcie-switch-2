@@ -1,0 +1,6 @@
+{
+  "state": "unrouted",
+  "reason": "Replace fictional switch with real 1550-ball PEX88096; reconstruct electrical design against supplied reference before routing.",
+  "stale_RevJ_tracks_removed": true,
+  "production_ready": false
+}

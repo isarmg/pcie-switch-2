@@ -1,0 +1,2722 @@
+{
+  "part": "Alpine Ridge DP / DSL6540 reference",
+  "balls": 337,
+  "body_mm": [
+    10.7,
+    10.7
+  ],
+  "height_mm_max": 0.889,
+  "land_diameter_mm_provisional": 0.23,
+  "source": "User-supplied Alpine-Ridge DP Datasheet.pdf",
+  "source_pages": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    635,
+    636
+  ],
+  "manufacturer_view": "TOP VIEW A1 upper-left",
+  "host_mode": true,
+  "pins": [
+    {
+      "ball": "H9",
+      "signal": "VCC3P3A",
+      "x_mm": -1.3,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/P3V3_AUX"
+    },
+    {
+      "ball": "B3",
+      "signal": "VCC3P3_SVR",
+      "x_mm": -4.14,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/P3V3_AUX"
+    },
+    {
+      "ball": "J16",
+      "signal": "VCC3P3_ANA_USB2",
+      "x_mm": 1.95,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC3P3_ANA_USB2"
+    },
+    {
+      "ball": "L16",
+      "signal": "VCC3P3_ANA_PCIE",
+      "x_mm": 1.95,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC3P3_ANA_PCIE"
+    },
+    {
+      "ball": "J9",
+      "signal": "VCC0P9_SVR_SENSE",
+      "x_mm": -1.3,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR"
+    },
+    {
+      "ball": "M16",
+      "signal": "VCC0P9_PCIE",
+      "x_mm": 1.95,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_PCIE"
+    },
+    {
+      "ball": "R9",
+      "signal": "VCC0P9_CIO",
+      "x_mm": -1.3,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_CIO"
+    },
+    {
+      "ball": "N18",
+      "signal": "VCC0P9_ANA_PCIE_2",
+      "x_mm": 2.6,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_PCIE_2"
+    },
+    {
+      "ball": "N19",
+      "signal": "VCC0P9_ANA_PCIE_1",
+      "x_mm": 3.25,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_PCIE_1"
+    },
+    {
+      "ball": "M6",
+      "signal": "VCC0P9_ANA_DPSRC",
+      "x_mm": -2.6,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_DPSRC"
+    },
+    {
+      "ball": "V13",
+      "signal": "VCC0P9_ANA_DPSNK",
+      "x_mm": 0.65,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_DPSNK"
+    },
+    {
+      "ball": "J11",
+      "signal": "VCC0P9_LVR",
+      "x_mm": -0.65,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_LVR"
+    },
+    {
+      "ball": "F15",
+      "signal": "VCC0P9_SVR_ANA",
+      "x_mm": 1.3,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR_ANA"
+    },
+    {
+      "ball": "M9",
+      "signal": "VCC0P9_SVR",
+      "x_mm": -1.3,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR"
+    },
+    {
+      "ball": "T12",
+      "signal": "VCC0P9_DP",
+      "x_mm": 0.0,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_DP"
+    },
+    {
+      "ball": "R16",
+      "signal": "VCC0P9_USB",
+      "x_mm": 1.95,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_USB"
+    },
+    {
+      "ball": "B2",
+      "signal": "SVR_VSS",
+      "x_mm": -4.6,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "T9",
+      "signal": "VSS",
+      "x_mm": -1.3,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y9",
+      "signal": "VSS_ANA",
+      "x_mm": -1.3,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A1",
+      "signal": "SVR_VSS",
+      "x_mm": -5.06,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "H6",
+      "signal": "RBIAS",
+      "x_mm": -2.6,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/TBT_RBIAS"
+    },
+    {
+      "ball": "A10",
+      "signal": "VSS_ANA",
+      "x_mm": -0.92,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "H8",
+      "signal": "VSS",
+      "x_mm": -1.95,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A11",
+      "signal": "PB_TX0_P",
+      "x_mm": -0.46,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadA11)"
+    },
+    {
+      "ball": "A12",
+      "signal": "VSS_ANA",
+      "x_mm": 0.0,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "J1",
+      "signal": "DPSRC_ML3_N",
+      "x_mm": -5.06,
+      "y_mm": -1.38,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadJ1)"
+    },
+    {
+      "ball": "A13",
+      "signal": "PB_RX0_P",
+      "x_mm": 0.46,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadA13)"
+    },
+    {
+      "ball": "A14",
+      "signal": "VSS_ANA",
+      "x_mm": 0.92,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "J12",
+      "signal": "VSS",
+      "x_mm": 0.0,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A15",
+      "signal": "PA_RX1_P",
+      "x_mm": 1.38,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CIO_RX1_SRC_P"
+    },
+    {
+      "ball": "J13",
+      "signal": "VSS",
+      "x_mm": 0.65,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A16",
+      "signal": "VSS_ANA",
+      "x_mm": 1.84,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "J15",
+      "signal": "VSS",
+      "x_mm": 1.3,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A17",
+      "signal": "PA_TX1_P",
+      "x_mm": 2.3,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CIO_TX1_SRC_P"
+    },
+    {
+      "ball": "A18",
+      "signal": "VSS_ANA",
+      "x_mm": 2.76,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "J18",
+      "signal": "VSS_ANA",
+      "x_mm": 2.6,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A19",
+      "signal": "PA_TX0_P",
+      "x_mm": 3.22,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CIO_TX0_SRC_P"
+    },
+    {
+      "ball": "J19",
+      "signal": "VSS_ANA",
+      "x_mm": 3.25,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A2",
+      "signal": "VCC3P3_SVR",
+      "x_mm": -4.6,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/P3V3_AUX"
+    },
+    {
+      "ball": "J2",
+      "signal": "DPSRC_ML3_P",
+      "x_mm": -4.6,
+      "y_mm": -1.38,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadJ2)"
+    },
+    {
+      "ball": "A20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.68,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "J20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A21",
+      "signal": "PA_RX0_N",
+      "x_mm": 4.14,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CIO_RX0_SRC_N"
+    },
+    {
+      "ball": "J22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": -1.38,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "A22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "J23",
+      "signal": "VSS_ANA",
+      "x_mm": 5.06,
+      "y_mm": -1.38,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "A23",
+      "signal": "ATEST_P",
+      "x_mm": 5.06,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadA23)"
+    },
+    {
+      "ball": "J4",
+      "signal": "POC_GPIO_0",
+      "x_mm": -3.9,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_PD_IRQ_N"
+    },
+    {
+      "ball": "A3",
+      "signal": "VCC3P3_SVR",
+      "x_mm": -4.14,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/P3V3_AUX"
+    },
+    {
+      "ball": "J5",
+      "signal": "VSS_ANA",
+      "x_mm": -3.25,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A4",
+      "signal": "PA_LSRX",
+      "x_mm": -3.68,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_LSX_P2R"
+    },
+    {
+      "ball": "J6",
+      "signal": "RSENSE",
+      "x_mm": -2.6,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_RSENSE"
+    },
+    {
+      "ball": "A5",
+      "signal": "PA_LSTX",
+      "x_mm": -3.22,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_LSX_R2P"
+    },
+    {
+      "ball": "J8",
+      "signal": "VSS",
+      "x_mm": -1.95,
+      "y_mm": -1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "A6",
+      "signal": "VSS_ANA",
+      "x_mm": -2.76,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "A7",
+      "signal": "PB_RX1_N",
+      "x_mm": -2.3,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadA7)"
+    },
+    {
+      "ball": "K1",
+      "signal": "VSS_ANA",
+      "x_mm": -5.06,
+      "y_mm": -0.92,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "A8",
+      "signal": "VSS_ANA",
+      "x_mm": -1.84,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "K2",
+      "signal": "VSS_ANA",
+      "x_mm": -4.6,
+      "y_mm": -0.92,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "A9",
+      "signal": "PB_TX1_P",
+      "x_mm": -1.38,
+      "y_mm": -5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadA9)"
+    },
+    {
+      "ball": "K22",
+      "signal": "PCIE_TX2_N",
+      "x_mm": 4.6,
+      "y_mm": -0.92,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_TX2_SRC_N"
+    },
+    {
+      "ball": "AA1",
+      "signal": "GPIO_8",
+      "x_mm": -5.06,
+      "y_mm": 4.14,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAA1)"
+    },
+    {
+      "ball": "K23",
+      "signal": "PCIE_TX2_P",
+      "x_mm": 5.06,
+      "y_mm": -0.92,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_TX2_SRC_P"
+    },
+    {
+      "ball": "AA2",
+      "signal": "DPSNK0_HPD",
+      "x_mm": -4.6,
+      "y_mm": 4.14,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_HPD_3V3"
+    },
+    {
+      "ball": "L1",
+      "signal": "DPSRC_ML2_N",
+      "x_mm": -5.06,
+      "y_mm": -0.46,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadL1)"
+    },
+    {
+      "ball": "AA22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": 4.14,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "L11",
+      "signal": "VCC0P9_DP",
+      "x_mm": -0.65,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_DP"
+    },
+    {
+      "ball": "AA23",
+      "signal": "VSS_ANA",
+      "x_mm": 5.06,
+      "y_mm": 4.14,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "L12",
+      "signal": "VCC0P9_DP",
+      "x_mm": 0.0,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_DP"
+    },
+    {
+      "ball": "AB1",
+      "signal": "VSS",
+      "x_mm": -5.06,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "L13",
+      "signal": "VSS",
+      "x_mm": 0.65,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB10",
+      "signal": "VSS_ANA",
+      "x_mm": -0.92,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "L15",
+      "signal": "FUSE_VQPS_64",
+      "x_mm": 1.3,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB11",
+      "signal": "DPSNK0_ML2_P",
+      "x_mm": -0.46,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_DP_ML2_DST_P"
+    },
+    {
+      "ball": "AB12",
+      "signal": "VSS_ANA",
+      "x_mm": 0.0,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "L18",
+      "signal": "VCC0P9_ANA_PCIE_2",
+      "x_mm": 2.6,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_PCIE_2"
+    },
+    {
+      "ball": "AB13",
+      "signal": "DPSNK0_ML3_P",
+      "x_mm": 0.46,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_DP_ML3_DST_P"
+    },
+    {
+      "ball": "L19",
+      "signal": "VCC0P9_ANA_PCIE_1",
+      "x_mm": 3.25,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_PCIE_1"
+    },
+    {
+      "ball": "AB14",
+      "signal": "VSS_ANA",
+      "x_mm": 0.92,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "L2",
+      "signal": "DPSRC_ML2_P",
+      "x_mm": -4.6,
+      "y_mm": -0.46,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadL2)"
+    },
+    {
+      "ball": "AB15",
+      "signal": "DPSNK1_ML0_P",
+      "x_mm": 1.38,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAB15)"
+    },
+    {
+      "ball": "L20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB16",
+      "signal": "VSS_ANA",
+      "x_mm": 1.84,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "L22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": -0.46,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB17",
+      "signal": "DPSNK1_ML1_P",
+      "x_mm": 2.3,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAB17)"
+    },
+    {
+      "ball": "L23",
+      "signal": "VSS_ANA",
+      "x_mm": 5.06,
+      "y_mm": -0.46,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB18",
+      "signal": "VSS_ANA",
+      "x_mm": 2.76,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "L4",
+      "signal": "PERST_N",
+      "x_mm": -3.9,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_PCIE_PERST_3V3_N"
+    },
+    {
+      "ball": "AB19",
+      "signal": "DPSNK1_ML2_P",
+      "x_mm": 3.22,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAB19)"
+    },
+    {
+      "ball": "L5",
+      "signal": "VSS_ANA",
+      "x_mm": -3.25,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB2",
+      "signal": "MONDC_DPSRC",
+      "x_mm": -4.6,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAB2)"
+    },
+    {
+      "ball": "L6",
+      "signal": "VCC0P9_ANA_DPSRC",
+      "x_mm": -2.6,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_DPSRC"
+    },
+    {
+      "ball": "AB20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.68,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "L8",
+      "signal": "VCC0P9_DP",
+      "x_mm": -1.95,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_DP"
+    },
+    {
+      "ball": "AB21",
+      "signal": "DPSNK1_ML3_P",
+      "x_mm": 4.14,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAB21)"
+    },
+    {
+      "ball": "L9",
+      "signal": "VCC0P9_SVR",
+      "x_mm": -1.3,
+      "y_mm": -0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR"
+    },
+    {
+      "ball": "AB22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "M1",
+      "signal": "VSS_ANA",
+      "x_mm": -5.06,
+      "y_mm": 0.0,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB23",
+      "signal": "THERMDA",
+      "x_mm": 5.06,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAB23)"
+    },
+    {
+      "ball": "M11",
+      "signal": "VSS",
+      "x_mm": -0.65,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB3",
+      "signal": "EE_DI",
+      "x_mm": -4.14,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_SPI_MOSI"
+    },
+    {
+      "ball": "M12",
+      "signal": "VSS",
+      "x_mm": 0.0,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB4",
+      "signal": "EE_CLK",
+      "x_mm": -3.68,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_SPI_CLK"
+    },
+    {
+      "ball": "M13",
+      "signal": "VCC0P9_PCIE",
+      "x_mm": 0.65,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_PCIE"
+    },
+    {
+      "ball": "AB5",
+      "signal": "TEST_PWR_GOOD",
+      "x_mm": -3.22,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_TEST_PWR_GOOD"
+    },
+    {
+      "ball": "M15",
+      "signal": "VCC0P9_PCIE",
+      "x_mm": 1.3,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_PCIE"
+    },
+    {
+      "ball": "AB6",
+      "signal": "VSS_ANA",
+      "x_mm": -2.76,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB7",
+      "signal": "DPSNK0_ML0_P",
+      "x_mm": -2.3,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_DP_ML0_DST_P"
+    },
+    {
+      "ball": "M18",
+      "signal": "VCC0P9_ANA_PCIE_2",
+      "x_mm": 2.6,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_PCIE_2"
+    },
+    {
+      "ball": "AB8",
+      "signal": "VSS_ANA",
+      "x_mm": -1.84,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "M19",
+      "signal": "VSS_ANA",
+      "x_mm": 3.25,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AB9",
+      "signal": "DPSNK0_ML1_P",
+      "x_mm": -1.38,
+      "y_mm": 4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_DP_ML1_DST_P"
+    },
+    {
+      "ball": "M2",
+      "signal": "VSS_ANA",
+      "x_mm": -4.6,
+      "y_mm": 0.0,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC1",
+      "signal": "TEST_EDM",
+      "x_mm": -5.06,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "M20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC10",
+      "signal": "VSS_ANA",
+      "x_mm": -0.92,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "M22",
+      "signal": "PCIE_RX2_N",
+      "x_mm": 4.6,
+      "y_mm": 0.0,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CPU_TX2_DST_N"
+    },
+    {
+      "ball": "AC11",
+      "signal": "DPSNK0_ML2_N",
+      "x_mm": -0.46,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_DP_ML2_DST_N"
+    },
+    {
+      "ball": "M23",
+      "signal": "PCIE_RX2_P",
+      "x_mm": 5.06,
+      "y_mm": 0.0,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CPU_TX2_DST_P"
+    },
+    {
+      "ball": "AC12",
+      "signal": "VSS_ANA",
+      "x_mm": 0.0,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "M4",
+      "signal": "PA_DPSRC_HPD",
+      "x_mm": -3.9,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/TBT_PD_HPD"
+    },
+    {
+      "ball": "AC13",
+      "signal": "DPSNK0_ML3_N",
+      "x_mm": 0.46,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_DP_ML3_DST_N"
+    },
+    {
+      "ball": "M5",
+      "signal": "VSS_ANA",
+      "x_mm": -3.25,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC14",
+      "signal": "VSS_ANA",
+      "x_mm": 0.92,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC15",
+      "signal": "DPSNK1_ML0_N",
+      "x_mm": 1.38,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAC15)"
+    },
+    {
+      "ball": "M8",
+      "signal": "VCC0P9_DP",
+      "x_mm": -1.95,
+      "y_mm": 0.0,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_DP"
+    },
+    {
+      "ball": "AC16",
+      "signal": "VSS_ANA",
+      "x_mm": 1.84,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC17",
+      "signal": "DPSNK1_ML1_N",
+      "x_mm": 2.3,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAC17)"
+    },
+    {
+      "ball": "N1",
+      "signal": "DPSRC_ML1_N",
+      "x_mm": -5.06,
+      "y_mm": 0.46,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadN1)"
+    },
+    {
+      "ball": "AC18",
+      "signal": "VSS_ANA",
+      "x_mm": 2.76,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "N11",
+      "signal": "VSS",
+      "x_mm": -0.65,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC19",
+      "signal": "DPSNK1_ML2_N",
+      "x_mm": 3.22,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAC19)"
+    },
+    {
+      "ball": "N12",
+      "signal": "VSS",
+      "x_mm": 0.0,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC2",
+      "signal": "VSS",
+      "x_mm": -4.6,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "N13",
+      "signal": "VSS",
+      "x_mm": 0.65,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.68,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "N15",
+      "signal": "FUSE_VQPS_128",
+      "x_mm": 1.3,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC21",
+      "signal": "DPSNK1_ML3_N",
+      "x_mm": 4.14,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAC21)"
+    },
+    {
+      "ball": "N16",
+      "signal": "PCIE_RBIAS",
+      "x_mm": 1.95,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_PCIE_RBIAS"
+    },
+    {
+      "ball": "AC22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC23",
+      "signal": "THERMDA",
+      "x_mm": 5.06,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadAC23)"
+    },
+    {
+      "ball": "AC3",
+      "signal": "EE_CS_N",
+      "x_mm": -4.14,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_SPI_CS_N"
+    },
+    {
+      "ball": "N2",
+      "signal": "DPSRC_ML1_P",
+      "x_mm": -4.6,
+      "y_mm": 0.46,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadN2)"
+    },
+    {
+      "ball": "AC4",
+      "signal": "EE_DO",
+      "x_mm": -3.68,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_SPI_MISO"
+    },
+    {
+      "ball": "N20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC5",
+      "signal": "PCIE_CLKREQ_N",
+      "x_mm": -3.22,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_PCIE_CLKREQ_N"
+    },
+    {
+      "ball": "N22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": 0.46,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC6",
+      "signal": "VSS_ANA",
+      "x_mm": -2.76,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "N23",
+      "signal": "VSS_ANA",
+      "x_mm": 5.06,
+      "y_mm": 0.46,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC7",
+      "signal": "DPSNK0_ML0_N",
+      "x_mm": -2.3,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_DP_ML0_DST_N"
+    },
+    {
+      "ball": "N4",
+      "signal": "DPSNK1_DDC_DATA",
+      "x_mm": -3.9,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_DPSNK1_DDC_DATA"
+    },
+    {
+      "ball": "AC8",
+      "signal": "VSS_ANA",
+      "x_mm": -1.84,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "N5",
+      "signal": "VSS_ANA",
+      "x_mm": -3.25,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "AC9",
+      "signal": "DPSNK0_ML1_N",
+      "x_mm": -1.38,
+      "y_mm": 5.06,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_DP_ML1_DST_N"
+    },
+    {
+      "ball": "N6",
+      "signal": "DPSRC_RBIAS",
+      "x_mm": -2.6,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/TBT_DPSRC_RBIAS"
+    },
+    {
+      "ball": "B1",
+      "signal": "SVR_VSS",
+      "x_mm": -5.06,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "N8",
+      "signal": "VSS",
+      "x_mm": -1.95,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "B10",
+      "signal": "VSS_ANA",
+      "x_mm": -0.92,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "N9",
+      "signal": "VSS",
+      "x_mm": -1.3,
+      "y_mm": 0.65,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "B11",
+      "signal": "PB_TX0_N",
+      "x_mm": -0.46,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadB11)"
+    },
+    {
+      "ball": "P1",
+      "signal": "VSS_ANA",
+      "x_mm": -5.06,
+      "y_mm": 0.92,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "B12",
+      "signal": "VSS_ANA",
+      "x_mm": 0.0,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "P2",
+      "signal": "VSS_ANA",
+      "x_mm": -4.6,
+      "y_mm": 0.92,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "B13",
+      "signal": "PB_RX0_N",
+      "x_mm": 0.46,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadB13)"
+    },
+    {
+      "ball": "P22",
+      "signal": "PCIE_TX1_N",
+      "x_mm": 4.6,
+      "y_mm": 0.92,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_TX1_SRC_N"
+    },
+    {
+      "ball": "B14",
+      "signal": "VSS_ANA",
+      "x_mm": 0.92,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "P23",
+      "signal": "PCIE_TX1_P",
+      "x_mm": 5.06,
+      "y_mm": 0.92,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_TX1_SRC_P"
+    },
+    {
+      "ball": "B15",
+      "signal": "PA_RX1_N",
+      "x_mm": 1.38,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CIO_RX1_SRC_N"
+    },
+    {
+      "ball": "R1",
+      "signal": "DPSRC_ML0_N",
+      "x_mm": -5.06,
+      "y_mm": 1.38,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadR1)"
+    },
+    {
+      "ball": "B16",
+      "signal": "VSS_ANA",
+      "x_mm": 1.84,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "R11",
+      "signal": "VCC0P9_CIO",
+      "x_mm": -0.65,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_CIO"
+    },
+    {
+      "ball": "B17",
+      "signal": "PA_TX1_N",
+      "x_mm": 2.3,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CIO_TX1_SRC_N"
+    },
+    {
+      "ball": "R12",
+      "signal": "VCC0P9_CIO",
+      "x_mm": 0.0,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_CIO"
+    },
+    {
+      "ball": "B18",
+      "signal": "VSS_ANA",
+      "x_mm": 2.76,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "R13",
+      "signal": "VCC3P3_S0",
+      "x_mm": 0.65,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/P3V3_AUX"
+    },
+    {
+      "ball": "B19",
+      "signal": "PA_TX0_N",
+      "x_mm": 3.22,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CIO_TX0_SRC_N"
+    },
+    {
+      "ball": "R15",
+      "signal": "VCC0P9_USB",
+      "x_mm": 1.3,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_USB"
+    },
+    {
+      "ball": "B20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.68,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "R18",
+      "signal": "VSS_ANA",
+      "x_mm": 2.6,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "B21",
+      "signal": "PA_RX0_P",
+      "x_mm": 4.14,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CIO_RX0_SRC_P"
+    },
+    {
+      "ball": "R19",
+      "signal": "VSS_ANA",
+      "x_mm": 3.25,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "B22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "R2",
+      "signal": "DPSRC_ML0_P",
+      "x_mm": -4.6,
+      "y_mm": 1.38,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadR2)"
+    },
+    {
+      "ball": "B23",
+      "signal": "ATEST_N",
+      "x_mm": 5.06,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadB23)"
+    },
+    {
+      "ball": "R20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "R22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": 1.38,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "B4",
+      "signal": "PB_LSTX",
+      "x_mm": -3.68,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadB4)"
+    },
+    {
+      "ball": "R23",
+      "signal": "VSS_ANA",
+      "x_mm": 5.06,
+      "y_mm": 1.38,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "B5",
+      "signal": "PB_LSRX",
+      "x_mm": -3.22,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadB5)"
+    },
+    {
+      "ball": "R4",
+      "signal": "DPSNK0_DDC_DATA",
+      "x_mm": -3.9,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_DPSNK0_DDC_DATA"
+    },
+    {
+      "ball": "B6",
+      "signal": "VSS_ANA",
+      "x_mm": -2.76,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "R5",
+      "signal": "VSS_ANA",
+      "x_mm": -3.25,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "B7",
+      "signal": "PB_RX1_P",
+      "x_mm": -2.3,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadB7)"
+    },
+    {
+      "ball": "R6",
+      "signal": "VCC3P3_LC",
+      "x_mm": -2.6,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC3P3_LC"
+    },
+    {
+      "ball": "B8",
+      "signal": "VSS_ANA",
+      "x_mm": -1.84,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "R8",
+      "signal": "VCC0P9_CIO",
+      "x_mm": -1.95,
+      "y_mm": 1.3,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_CIO"
+    },
+    {
+      "ball": "B9",
+      "signal": "PB_TX1_N",
+      "x_mm": -1.38,
+      "y_mm": -4.6,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadB9)"
+    },
+    {
+      "ball": "C1",
+      "signal": "SVR_IND",
+      "x_mm": -5.06,
+      "y_mm": -4.14,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_SVR_SW"
+    },
+    {
+      "ball": "T1",
+      "signal": "VSS_ANA",
+      "x_mm": -5.06,
+      "y_mm": 1.84,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "C2",
+      "signal": "SVR_IND",
+      "x_mm": -4.6,
+      "y_mm": -4.14,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_SVR_SW"
+    },
+    {
+      "ball": "T11",
+      "signal": "VCC0P9_DP",
+      "x_mm": -0.65,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_DP"
+    },
+    {
+      "ball": "C22",
+      "signal": "MONDC_CIO_1",
+      "x_mm": 4.6,
+      "y_mm": -4.14,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadC22)"
+    },
+    {
+      "ball": "C23",
+      "signal": "MONDC_CIO_0",
+      "x_mm": 5.06,
+      "y_mm": -4.14,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadC23)"
+    },
+    {
+      "ball": "T13",
+      "signal": "VSS",
+      "x_mm": 0.65,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "D1",
+      "signal": "SVR_IND",
+      "x_mm": -5.06,
+      "y_mm": -3.68,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_SVR_SW"
+    },
+    {
+      "ball": "T15",
+      "signal": "VSS",
+      "x_mm": 1.3,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "D11",
+      "signal": "VSS_ANA",
+      "x_mm": -0.65,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "T16",
+      "signal": "VSS",
+      "x_mm": 1.95,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "D12",
+      "signal": "VSS_ANA",
+      "x_mm": 0.0,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "T18",
+      "signal": "VSS",
+      "x_mm": 2.6,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "D13",
+      "signal": "VSS_ANA",
+      "x_mm": 0.65,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "T19",
+      "signal": "PCIE_REFCLK_100_IN_N",
+      "x_mm": 3.25,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/TBT_REFCLK_N"
+    },
+    {
+      "ball": "D15",
+      "signal": "VSS_ANA",
+      "x_mm": 1.3,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "T2",
+      "signal": "VSS_ANA",
+      "x_mm": -4.6,
+      "y_mm": 1.84,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "D16",
+      "signal": "VSS_ANA",
+      "x_mm": 1.95,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "T20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "D18",
+      "signal": "VSS_ANA",
+      "x_mm": 2.6,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "T22",
+      "signal": "PCIE_RX1_N",
+      "x_mm": 4.6,
+      "y_mm": 1.84,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CPU_TX1_DST_N"
+    },
+    {
+      "ball": "D19",
+      "signal": "PB_USB2_D_N",
+      "x_mm": 3.25,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadD19)"
+    },
+    {
+      "ball": "T23",
+      "signal": "PCIE_RX1_P",
+      "x_mm": 5.06,
+      "y_mm": 1.84,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CPU_TX1_DST_P"
+    },
+    {
+      "ball": "D2",
+      "signal": "POC_GPIO_5",
+      "x_mm": -4.6,
+      "y_mm": -3.68,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_POC_GPIO_5"
+    },
+    {
+      "ball": "T4",
+      "signal": "TCK",
+      "x_mm": -3.9,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadT4)"
+    },
+    {
+      "ball": "D20",
+      "signal": "PA_USB2_D_N",
+      "x_mm": 3.9,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/TBT_USB2_RP_N"
+    },
+    {
+      "ball": "T5",
+      "signal": "VSS_ANA",
+      "x_mm": -3.25,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "D22",
+      "signal": "XTAL_25_IN",
+      "x_mm": 4.6,
+      "y_mm": -3.68,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_XTAL_IN"
+    },
+    {
+      "ball": "T6",
+      "signal": "VSS",
+      "x_mm": -2.6,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "D23",
+      "signal": "XTAL_25_OUT",
+      "x_mm": 5.06,
+      "y_mm": -3.68,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_XTAL_OUT"
+    },
+    {
+      "ball": "T8",
+      "signal": "VSS",
+      "x_mm": -1.95,
+      "y_mm": 1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "D4",
+      "signal": "POC_GPIO_2",
+      "x_mm": -3.9,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/TBT_POC_GPIO_2"
+    },
+    {
+      "ball": "D5",
+      "signal": "VSS",
+      "x_mm": -3.25,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "U1",
+      "signal": "GPIO_0",
+      "x_mm": -5.06,
+      "y_mm": 2.3,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_PD_I2C_SDA"
+    },
+    {
+      "ball": "D6",
+      "signal": "MONDC_SVR",
+      "x_mm": -2.6,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadD6)"
+    },
+    {
+      "ball": "U2",
+      "signal": "GPIO_1",
+      "x_mm": -4.6,
+      "y_mm": 2.3,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_PD_I2C_SCL"
+    },
+    {
+      "ball": "D8",
+      "signal": "VSS_ANA",
+      "x_mm": -1.95,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "U22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": 2.3,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "D9",
+      "signal": "VSS_ANA",
+      "x_mm": -1.3,
+      "y_mm": -3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "U23",
+      "signal": "VSS_ANA",
+      "x_mm": 5.06,
+      "y_mm": 2.3,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "E1",
+      "signal": "TEST_EN",
+      "x_mm": -5.06,
+      "y_mm": -3.22,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "V1",
+      "signal": "GPIO_2",
+      "x_mm": -5.06,
+      "y_mm": 2.76,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_FLASH_WP_N"
+    },
+    {
+      "ball": "E11",
+      "signal": "VSS_ANA",
+      "x_mm": -0.65,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "V11",
+      "signal": "VCC0P9_ANA_DPSNK",
+      "x_mm": -0.65,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_DPSNK"
+    },
+    {
+      "ball": "E12",
+      "signal": "VCC0P9_SVR_ANA",
+      "x_mm": 0.0,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR_ANA"
+    },
+    {
+      "ball": "V12",
+      "signal": "VCC0P9_ANA_DPSNK",
+      "x_mm": 0.0,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_ANA_DPSNK"
+    },
+    {
+      "ball": "E13",
+      "signal": "VCC0P9_SVR_ANA",
+      "x_mm": 0.65,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR_ANA"
+    },
+    {
+      "ball": "E15",
+      "signal": "VSS_ANA",
+      "x_mm": 1.3,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "V15",
+      "signal": "VSS_ANA",
+      "x_mm": 1.3,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "E16",
+      "signal": "VSS_ANA",
+      "x_mm": 1.95,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "V16",
+      "signal": "VSS_ANA",
+      "x_mm": 1.95,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "E18",
+      "signal": "USB2_ATEST",
+      "x_mm": 2.6,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadE18)"
+    },
+    {
+      "ball": "V18",
+      "signal": "PCIE_ATEST",
+      "x_mm": 2.6,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadV18)"
+    },
+    {
+      "ball": "E19",
+      "signal": "PB_USB2_D_P",
+      "x_mm": 3.25,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadE19)"
+    },
+    {
+      "ball": "V19",
+      "signal": "PCIE_REFCLK_100_IN_P",
+      "x_mm": 3.25,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_REFCLK_P"
+    },
+    {
+      "ball": "E2",
+      "signal": "POC_GPIO_1",
+      "x_mm": -4.6,
+      "y_mm": -3.22,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_UNUSED_PORTB_IRQ_N"
+    },
+    {
+      "ball": "V2",
+      "signal": "GPIO_3",
+      "x_mm": -4.6,
+      "y_mm": 2.76,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadV2)"
+    },
+    {
+      "ball": "E20",
+      "signal": "PA_USB2_D_P",
+      "x_mm": 3.9,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/TBT_USB2_RP_P"
+    },
+    {
+      "ball": "V20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "E22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": -3.22,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "V22",
+      "signal": "PCIE_TX0_N",
+      "x_mm": 4.6,
+      "y_mm": 2.76,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_TX0_SRC_N"
+    },
+    {
+      "ball": "E23",
+      "signal": "VSS_ANA",
+      "x_mm": 5.06,
+      "y_mm": -3.22,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "V23",
+      "signal": "PCIE_TX0_P",
+      "x_mm": 5.06,
+      "y_mm": 2.76,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_TX0_SRC_P"
+    },
+    {
+      "ball": "E4",
+      "signal": "VSS",
+      "x_mm": -3.9,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "V4",
+      "signal": "TMS",
+      "x_mm": -3.9,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadV4)"
+    },
+    {
+      "ball": "E5",
+      "signal": "VSS",
+      "x_mm": -3.25,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "V5",
+      "signal": "VSS_ANA",
+      "x_mm": -3.25,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "E6",
+      "signal": "VSS",
+      "x_mm": -2.6,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "V6",
+      "signal": "VSS_ANA",
+      "x_mm": -2.6,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "E8",
+      "signal": "VSS_ANA",
+      "x_mm": -1.95,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "V8",
+      "signal": "VSS_ANA",
+      "x_mm": -1.95,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "E9",
+      "signal": "VSS_ANA",
+      "x_mm": -1.3,
+      "y_mm": -3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "V9",
+      "signal": "VSS_ANA",
+      "x_mm": -1.3,
+      "y_mm": 2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "F1",
+      "signal": "POC_GPIO_6",
+      "x_mm": -5.06,
+      "y_mm": -2.76,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_POC_GPIO_6"
+    },
+    {
+      "ball": "W1",
+      "signal": "GPIO_4",
+      "x_mm": -5.06,
+      "y_mm": 3.22,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_GPIO_4"
+    },
+    {
+      "ball": "F11",
+      "signal": "VCC0P9_SVR_ANA",
+      "x_mm": -0.65,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR_ANA"
+    },
+    {
+      "ball": "W11",
+      "signal": "DPSNK0_AUX_N",
+      "x_mm": -0.65,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "/TBT_DP_AUX_N"
+    },
+    {
+      "ball": "F12",
+      "signal": "VCC0P9_SVR_ANA",
+      "x_mm": 0.0,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR_ANA"
+    },
+    {
+      "ball": "W12",
+      "signal": "DPSNK1_AUX_N",
+      "x_mm": 0.0,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadW12)"
+    },
+    {
+      "ball": "F13",
+      "signal": "VCC0P9_SVR_ANA",
+      "x_mm": 0.65,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR_ANA"
+    },
+    {
+      "ball": "W13",
+      "signal": "MONDC_DPSNK_0",
+      "x_mm": 0.65,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadW13)"
+    },
+    {
+      "ball": "W15",
+      "signal": "PA_DPSRC_AUX_N",
+      "x_mm": 1.3,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "/TBT_PA_AUX_N"
+    },
+    {
+      "ball": "F16",
+      "signal": "VSS_ANA",
+      "x_mm": 1.95,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "W16",
+      "signal": "PB_DPSRC_AUX_N",
+      "x_mm": 1.95,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadW16)"
+    },
+    {
+      "ball": "F18",
+      "signal": "VCC0P9_LVR",
+      "x_mm": 2.6,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_LVR"
+    },
+    {
+      "ball": "W18",
+      "signal": "MONDC_DPSNK_1",
+      "x_mm": 2.6,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadW18)"
+    },
+    {
+      "ball": "F19",
+      "signal": "PB_USB2_RBIAS",
+      "x_mm": 3.25,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_PB_USB2_RBIAS"
+    },
+    {
+      "ball": "W19",
+      "signal": "DPSRC_AUX_P",
+      "x_mm": 3.25,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadW19)"
+    },
+    {
+      "ball": "F2",
+      "signal": "POC_GPIO_4",
+      "x_mm": -4.6,
+      "y_mm": -2.76,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_POC_GPIO_4"
+    },
+    {
+      "ball": "W2",
+      "signal": "GPIO_5",
+      "x_mm": -4.6,
+      "y_mm": 3.22,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_GPIO_5"
+    },
+    {
+      "ball": "F20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "W20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "F22",
+      "signal": "PCIE_TX3_N",
+      "x_mm": 4.6,
+      "y_mm": -2.76,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_TX3_SRC_N"
+    },
+    {
+      "ball": "W22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": 3.22,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "F23",
+      "signal": "PCIE_TX3_P",
+      "x_mm": 5.06,
+      "y_mm": -2.76,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_AR_TX3_SRC_P"
+    },
+    {
+      "ball": "W23",
+      "signal": "VSS_ANA",
+      "x_mm": 5.06,
+      "y_mm": 3.22,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "F4",
+      "signal": "RESET_N",
+      "x_mm": -3.9,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/TBT_RESET_N"
+    },
+    {
+      "ball": "W4",
+      "signal": "TDO",
+      "x_mm": -3.9,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadW4)"
+    },
+    {
+      "ball": "F5",
+      "signal": "VSS",
+      "x_mm": -3.25,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "W5",
+      "signal": "VSS_ANA",
+      "x_mm": -3.25,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "F6",
+      "signal": "VSS",
+      "x_mm": -2.6,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "W6",
+      "signal": "VSS_ANA",
+      "x_mm": -2.6,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "F8",
+      "signal": "VCC3P3_SX",
+      "x_mm": -1.95,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/P3V3_AUX"
+    },
+    {
+      "ball": "W8",
+      "signal": "VSS_ANA",
+      "x_mm": -1.95,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "F9",
+      "signal": "VSS_ANA",
+      "x_mm": -1.3,
+      "y_mm": -2.6,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "W9",
+      "signal": "VSS_ANA",
+      "x_mm": -1.3,
+      "y_mm": 3.25,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "G1",
+      "signal": "DPSRC_HPD",
+      "x_mm": -5.06,
+      "y_mm": -2.3,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadG1)"
+    },
+    {
+      "ball": "Y1",
+      "signal": "GPIO_6",
+      "x_mm": -5.06,
+      "y_mm": 3.68,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadY1)"
+    },
+    {
+      "ball": "G2",
+      "signal": "PB_DPSRC_HPD",
+      "x_mm": -4.6,
+      "y_mm": -2.3,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadG2)"
+    },
+    {
+      "ball": "Y11",
+      "signal": "DPSNK0_AUX_P",
+      "x_mm": -0.65,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "/TBT_DP_AUX_P"
+    },
+    {
+      "ball": "G22",
+      "signal": "VSS_ANA",
+      "x_mm": 4.6,
+      "y_mm": -2.3,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y12",
+      "signal": "DPSNK1_AUX_P",
+      "x_mm": 0.0,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadY12)"
+    },
+    {
+      "ball": "G23",
+      "signal": "VSS_ANA",
+      "x_mm": 5.06,
+      "y_mm": -2.3,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y13",
+      "signal": "VSS_ANA",
+      "x_mm": 0.65,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "H1",
+      "signal": "VSS_ANA",
+      "x_mm": -5.06,
+      "y_mm": -1.84,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y15",
+      "signal": "PA_DPSRC_AUX_P",
+      "x_mm": 1.3,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "/TBT_PA_AUX_P"
+    },
+    {
+      "ball": "H11",
+      "signal": "VCC0P9_LVR_SENSE",
+      "x_mm": -0.65,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_SVR"
+    },
+    {
+      "ball": "Y16",
+      "signal": "PB_DPSRC_AUX_P",
+      "x_mm": 1.95,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadY16)"
+    },
+    {
+      "ball": "H12",
+      "signal": "VSS_ANA",
+      "x_mm": 0.0,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y18",
+      "signal": "DPSNK_RBIAS",
+      "x_mm": 2.6,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "/TBT_DPSNK_RBIAS"
+    },
+    {
+      "ball": "H13",
+      "signal": "VSS_ANA",
+      "x_mm": 0.65,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y19",
+      "signal": "DPSRC_AUX_N",
+      "x_mm": 3.25,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadY19)"
+    },
+    {
+      "ball": "H15",
+      "signal": "VSS_ANA",
+      "x_mm": 1.3,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y2",
+      "signal": "GPIO_7",
+      "x_mm": -4.6,
+      "y_mm": 3.68,
+      "region": "0.46mm outer rings",
+      "net": "unconnected-(U501-PadY2)"
+    },
+    {
+      "ball": "H16",
+      "signal": "VSS_ANA",
+      "x_mm": 1.95,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "H18",
+      "signal": "VCC0P9_LVR",
+      "x_mm": 2.6,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/TBT_VCC0P9_LVR"
+    },
+    {
+      "ball": "Y22",
+      "signal": "PCIE_RX0_N",
+      "x_mm": 4.6,
+      "y_mm": 3.68,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CPU_TX0_DST_N"
+    },
+    {
+      "ball": "H19",
+      "signal": "PA_USB2_RBIAS",
+      "x_mm": 3.25,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/TBT_PA_USB2_RBIAS"
+    },
+    {
+      "ball": "Y23",
+      "signal": "PCIE_RX0_P",
+      "x_mm": 5.06,
+      "y_mm": 3.68,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CPU_TX0_DST_P"
+    },
+    {
+      "ball": "H2",
+      "signal": "VSS_ANA",
+      "x_mm": -4.6,
+      "y_mm": -1.84,
+      "region": "0.46mm outer rings",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y4",
+      "signal": "TDI",
+      "x_mm": -3.9,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadY4)"
+    },
+    {
+      "ball": "H20",
+      "signal": "VSS_ANA",
+      "x_mm": 3.9,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    },
+    {
+      "ball": "Y5",
+      "signal": "DPSNK0_DDC_CLK",
+      "x_mm": -3.25,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "/TBT_DPSNK0_DDC_CLK"
+    },
+    {
+      "ball": "H22",
+      "signal": "PCIE_RX3_N",
+      "x_mm": 4.6,
+      "y_mm": -1.84,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CPU_TX3_DST_N"
+    },
+    {
+      "ball": "Y6",
+      "signal": "DPSNK1_HPD",
+      "x_mm": -2.6,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "unconnected-(U501-PadY6)"
+    },
+    {
+      "ball": "H23",
+      "signal": "PCIE_RX3_P",
+      "x_mm": 5.06,
+      "y_mm": -1.84,
+      "region": "0.46mm outer rings",
+      "net": "/TBT_CPU_TX3_DST_P"
+    },
+    {
+      "ball": "Y8",
+      "signal": "DPSNK1_DDC_CLK",
+      "x_mm": -1.95,
+      "y_mm": 3.9,
+      "region": "0.65mm inner array",
+      "net": "/TBT_DPSNK1_DDC_CLK"
+    },
+    {
+      "ball": "H4",
+      "signal": "POC_GPIO_3",
+      "x_mm": -3.9,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/TBT_POC_GPIO_3"
+    },
+    {
+      "ball": "H5",
+      "signal": "VSS",
+      "x_mm": -3.25,
+      "y_mm": -1.95,
+      "region": "0.65mm inner array",
+      "net": "/GND"
+    }
+  ]
+}

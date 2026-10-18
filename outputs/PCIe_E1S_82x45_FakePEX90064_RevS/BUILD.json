@@ -1,0 +1,36 @@
+{
+  "revision": "S",
+  "source_revision": "R",
+  "main_mm": [
+    82,
+    45
+  ],
+  "boards": 1,
+  "daughter_boards": 0,
+  "m2_slots": 0,
+  "e1s_slots": 10,
+  "e1s_pitch_mm": 8,
+  "e1s_drive_models": 0,
+  "cpu": "Intel Core Ultra 9 288V",
+  "cpu_bga_balls": 2833,
+  "switch": "PEX90064 FICTIONAL",
+  "switch_package_mm": [
+    33,
+    33
+  ],
+  "switch_bga_balls": 1024,
+  "switch_lanes": 64,
+  "host_x4": 1,
+  "e1s_downstream_x4": 10,
+  "reserved_lanes": 20,
+  "new_tx_ac_capacitors": 80,
+  "prior_parts_repacked_for_caps": [],
+  "cpu_pmic_implemented": false,
+  "electrical_design_complete": false,
+  "production_ready": false,
+  "memory_GB": 32,
+  "memory_on_package": true,
+  "allocated_pcie_data_clock_reset_copper_sections": 310,
+  "main_routing_complete": false,
+  "all_allocated_pcie_signal_routes_complete": true
+}

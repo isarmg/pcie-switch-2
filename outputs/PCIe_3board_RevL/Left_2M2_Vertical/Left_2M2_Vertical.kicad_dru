@@ -1,0 +1,17 @@
+(version 1)
+# Factory MDT350 drawing: 0.05 mm minimum between its own locating hole and pad.
+# This local land-pattern rule requires PCB fabricator approval.
+(rule "MDT350_J1_internal_hole_to_land"
+ (condition "A.Reference == 'J1' && B.Reference == 'J1'")
+ (constraint hole_clearance (min 0.05mm)))
+(rule "MDT350_J2_internal_hole_to_land"
+ (condition "A.Reference == 'J2' && B.Reference == 'J2'")
+ (constraint hole_clearance (min 0.05mm)))
+(rule "MDT350_J4_internal_hole_to_land"
+ (condition "A.Reference == 'J4' && B.Reference == 'J4'")
+ (constraint hole_clearance (min 0.05mm)))
+
+# HDI design target; confirm with fabricator. Hole-to-hole remains 0.25 mm.
+(rule "HDI_via_to_via_copper_hole"
+ (condition "A.Type == 'Via' && B.Type == 'Via'")
+ (constraint hole_clearance (min 0.20mm)))

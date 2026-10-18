@@ -1,0 +1,1 @@
+Single main PCB with four upright M.2 2280 SSD envelopes. No daughter PCBs or inter-board cables. Visualization only; electrical design is Main_10E1S. SSDs are mechanical envelopes, not manufacturer CAD.

@@ -1,0 +1,28 @@
+{
+    "revision":  "I",
+    "main_mm":  [
+                    80,
+                    45
+                ],
+    "left_mm":  [
+                    52,
+                    45
+                ],
+    "right_mm":  [
+                     52,
+                     45
+                 ],
+    "main_layers":  32,
+    "daughter_layers":  12,
+    "m2_vertical":  true,
+    "m2_footprint_verified":  false,
+    "fictional_bga_balls":  400,
+    "pcie_lanes":  56,
+    "data_pairs_per_cable":  16,
+    "clock_pairs_per_cable":  2,
+    "route_status":  "Draft routing complete; all three boards have zero DRC errors and zero unconnected items; PCIe Gen5 signal integrity not qualified",
+    "m2_planes":  "YZ, perpendicular to carrier XY, parallel to main E1.S slots",
+    "upstream_interface":  "Vertical M-Key socket, host via straight-through M.2 cable/adapter; not an SSD port",
+    "upstream_vertical":  true,
+    "upstream_socket_rotation_deg":  90
+}

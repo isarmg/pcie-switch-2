@@ -1,0 +1,115 @@
+{
+  "cpu_x4_and_refclock_copper_connections": 34,
+  "cpu_data_pairs": 8,
+  "cpu_refclock_pairs": 1,
+  "coupled_sections": [
+    {
+      "section": "/CPU_REFCLK",
+      "short_fanout_only": false,
+      "centerline_mm": 54.994318635535315,
+      "trace_width_mm": 0.1,
+      "parallel_gap_mm": 0.15
+    },
+    {
+      "section": "/CPU_G5_TX0",
+      "short_fanout_only": true,
+      "centerline_mm": 0
+    },
+    {
+      "section": "/CPU_PEX_RX0",
+      "short_fanout_only": false,
+      "centerline_mm": 16.618535189705305,
+      "trace_width_mm": 0.1,
+      "parallel_gap_mm": 0.15
+    },
+    {
+      "section": "/CPU_G5_TX1",
+      "short_fanout_only": true,
+      "centerline_mm": 0
+    },
+    {
+      "section": "/CPU_PEX_RX1",
+      "short_fanout_only": false,
+      "centerline_mm": 14.186473563937945,
+      "trace_width_mm": 0.1,
+      "parallel_gap_mm": 0.15
+    },
+    {
+      "section": "/CPU_G5_TX2",
+      "short_fanout_only": true,
+      "centerline_mm": 0
+    },
+    {
+      "section": "/CPU_PEX_RX2",
+      "short_fanout_only": false,
+      "centerline_mm": 14.965348281669055,
+      "trace_width_mm": 0.1,
+      "parallel_gap_mm": 0.15
+    },
+    {
+      "section": "/CPU_G5_TX3",
+      "short_fanout_only": true,
+      "centerline_mm": 0
+    },
+    {
+      "section": "/CPU_PEX_RX3",
+      "short_fanout_only": false,
+      "centerline_mm": 13.188425999433651,
+      "trace_width_mm": 0.1,
+      "parallel_gap_mm": 0.15
+    },
+    {
+      "section": "/CPU_PEX_TX0",
+      "short_fanout_only": true,
+      "centerline_mm": 0
+    },
+    {
+      "section": "/CPU_G5_RX0",
+      "short_fanout_only": false,
+      "centerline_mm": 15.088351573899839,
+      "trace_width_mm": 0.1,
+      "parallel_gap_mm": 0.15
+    },
+    {
+      "section": "/CPU_PEX_TX1",
+      "short_fanout_only": true,
+      "centerline_mm": 0
+    },
+    {
+      "section": "/CPU_G5_RX1",
+      "short_fanout_only": false,
+      "centerline_mm": 15.080103610973579,
+      "trace_width_mm": 0.1,
+      "parallel_gap_mm": 0.15
+    },
+    {
+      "section": "/CPU_PEX_TX2",
+      "short_fanout_only": true,
+      "centerline_mm": 0
+    },
+    {
+      "section": "/CPU_G5_RX2",
+      "short_fanout_only": false,
+      "centerline_mm": 16.931928622915557,
+      "trace_width_mm": 0.1,
+      "parallel_gap_mm": 0.15
+    },
+    {
+      "section": "/CPU_PEX_TX3",
+      "short_fanout_only": true,
+      "centerline_mm": 0
+    },
+    {
+      "section": "/CPU_G5_RX3",
+      "short_fanout_only": false,
+      "centerline_mm": 18.508522127936555,
+      "trace_width_mm": 0.1,
+      "parallel_gap_mm": 0.15
+    }
+  ],
+  "whole_board_state": "partially routed; most power/support/downstream nets remain unrouted",
+  "length_tuning_complete": false,
+  "impedance_validated": false,
+  "blind_via_stackup_validated": false,
+  "production_ready": false
+}

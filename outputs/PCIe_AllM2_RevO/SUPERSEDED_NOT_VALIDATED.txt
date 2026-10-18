@@ -1,0 +1,1 @@
+Superseded by Rev P: user changed M.2 center pitch to 6 mm. Rev O is a 27-slot placement experiment only. Its schematic, power copper and STEP were not finalized or validated. Use outputs/PCIe_AllM2_RevP instead.

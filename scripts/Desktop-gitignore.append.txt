@@ -1,0 +1,3 @@
+
+# Local KiCad E1.S / vertical M.2 layout project
+/pcie switch 2/

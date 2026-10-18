@@ -1,0 +1,23 @@
+{
+  "processor": "Intel Core Ultra 9 288V",
+  "memory_GB": 32,
+  "memory_on_package": true,
+  "external_ddr_interface": false,
+  "memory_type": "LPDDR5X",
+  "memory_max_MTs": 8533,
+  "package_mm": [
+    27.5,
+    27
+  ],
+  "socket": "FCBGA2833",
+  "processor_base_power_W": 30,
+  "maximum_turbo_power_W": 37,
+  "sku_source": "https://www.intel.com/content/www/us/en/products/sku/240961/intel-core-ultra-9-processor-288v-12m-cache-up-to-5-10-ghz/specifications.html",
+  "mop_source": "https://cdrdv2-public.intel.com/834208/vpro-with-core-ultra-series-2.pdf",
+  "ball_map_source": "https://cdrdv2-public.intel.com/829568/829568-004.pdf",
+  "family_ballmap_workbook": "825698-001_Ballout.xlsx",
+  "family_ball_coordinates_sha256": "dc4fcf989f019fbecb0bb7dd355c7e6c04d479d2552824be7f45c19513a99114",
+  "existing_location_and_pad_nets_preserved": true,
+  "power_firmware_thermal_qualified": false,
+  "verified_date": "2026-10-16"
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "port": "M1",
+    "ref": "J501",
+    "location": "left outer",
+    "position_mm": [
+      3.6,
+      23.3
+    ],
+    "rotation_deg": 90,
+    "side": "F",
+    "role": "NVMe SSD downstream x4",
+    "pex_lanes": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "rail": "/M1_3V3",
+    "design_output_budget_A": 4,
+    "no_locating_pegs_required": true,
+    "physical_pin_numbering_verified": false,
+    "pcie_gen4_channel_qualified": false
+  },
+  {
+    "port": "M2",
+    "ref": "J502",
+    "location": "left inner",
+    "position_mm": [
+      9.8,
+      23.3
+    ],
+    "rotation_deg": 90,
+    "side": "F",
+    "role": "NVMe SSD downstream x4",
+    "pex_lanes": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "rail": "/M2_3V3",
+    "design_output_budget_A": 4,
+    "no_locating_pegs_required": true,
+    "physical_pin_numbering_verified": false,
+    "pcie_gen4_channel_qualified": false
+  },
+  {
+    "port": "M3",
+    "ref": "J503",
+    "location": "right inner",
+    "position_mm": [
+      100.2,
+      23.3
+    ],
+    "rotation_deg": 90,
+    "side": "F",
+    "role": "NVMe SSD downstream x4",
+    "pex_lanes": [
+      56,
+      57,
+      58,
+      59
+    ],
+    "rail": "/M3_3V3",
+    "design_output_budget_A": 4,
+    "no_locating_pegs_required": true,
+    "physical_pin_numbering_verified": false,
+    "pcie_gen4_channel_qualified": false
+  },
+  {
+    "port": "M4",
+    "ref": "J504",
+    "location": "right outer",
+    "position_mm": [
+      106.4,
+      23.3
+    ],
+    "rotation_deg": 90,
+    "side": "F",
+    "role": "NVMe SSD downstream x4",
+    "pex_lanes": [
+      52,
+      53,
+      54,
+      55
+    ],
+    "rail": "/M4_3V3",
+    "design_output_budget_A": 4,
+    "no_locating_pegs_required": true,
+    "physical_pin_numbering_verified": false,
+    "pcie_gen4_channel_qualified": false
+  }
+]

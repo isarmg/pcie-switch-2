@@ -1,0 +1,1971 @@
+{
+  "checked_pad_connections": 1061,
+  "net_count": 79,
+  "all_selected_nets_connected": true,
+  "disconnected_nets": [],
+  "nets": [
+    {
+      "net": "/AUX_12V_PROTECTED",
+      "pads": 14,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C311.1",
+          "C312.1",
+          "C5161.1",
+          "C5162.1",
+          "C9131.1",
+          "U30.6",
+          "U31.10",
+          "U31.11",
+          "U31.12",
+          "U31.13",
+          "U506.10",
+          "U506.11",
+          "U506.12",
+          "U506.13"
+        ]
+      ]
+    },
+    {
+      "net": "/AUX_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U30.7",
+          "U30.7",
+          "C301.1"
+        ]
+      ]
+    },
+    {
+      "net": "/AUX_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U30.9",
+          "R305.1"
+        ]
+      ]
+    },
+    {
+      "net": "/AUX_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R304.1",
+          "U30.2",
+          "R303.2"
+        ]
+      ]
+    },
+    {
+      "net": "/AUX_PG",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R311.2",
+          "U31.4"
+        ]
+      ]
+    },
+    {
+      "net": "/AUX_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U30.1",
+          "U30.1",
+          "R302.1",
+          "R301.2"
+        ]
+      ]
+    },
+    {
+      "net": "/BUCK_SS",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U31.9",
+          "C313.1"
+        ]
+      ]
+    },
+    {
+      "net": "/BUCK_SW",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "L31.1",
+          "U31.1",
+          "U31.2",
+          "U31.3"
+        ]
+      ]
+    },
+    {
+      "net": "/GND",
+      "pads": 593,
+      "connected_components": 1,
+      "groups": [
+        [
+          "J101.2",
+          "J102.2",
+          "U601.49",
+          "U602.49",
+          "C101.2",
+          "C103.2",
+          "C104.2",
+          "C105.2",
+          "C106.2",
+          "C107.2",
+          "C108.2",
+          "C109.2",
+          "C110.2",
+          "C111.2",
+          "C112.2",
+          "C113.2",
+          "C114.2",
+          "C115.2",
+          "C116.2",
+          "C117.2",
+          "C118.2",
+          "C119.2",
+          "C120.2",
+          "C121.2",
+          "C122.2",
+          "C123.2",
+          "C124.2",
+          "C125.2",
+          "C126.2",
+          "C127.2",
+          "C128.2",
+          "C129.2",
+          "C130.2",
+          "C131.2",
+          "C133.2",
+          "C134.2",
+          "C136.2",
+          "C2.2",
+          "C301.2",
+          "C311.2",
+          "C312.2",
+          "C313.2",
+          "C314.2",
+          "C315.2",
+          "C5110.2",
+          "C5117.2",
+          "C5118.2",
+          "C5152.2",
+          "C5156.2",
+          "C5158.2",
+          "C5160.2",
+          "C5161.2",
+          "C5162.2",
+          "C5163.2",
+          "C5164.2",
+          "C707.2",
+          "C720.2",
+          "C721.2",
+          "C722.2",
+          "C723.2",
+          "C724.2",
+          "C725.2",
+          "C727.2",
+          "C730.2",
+          "C731.2",
+          "C732.2",
+          "C733.2",
+          "C734.2",
+          "C735.2",
+          "C736.2",
+          "C737.2",
+          "C742.2",
+          "C9101.2",
+          "C9102.2",
+          "C9103.2",
+          "C9104.2",
+          "C9105.2",
+          "C9106.2",
+          "C9107.2",
+          "C9108.2",
+          "C9109.2",
+          "C9110.2",
+          "C9111.2",
+          "C9112.2",
+          "C9130.2",
+          "C9131.2",
+          "D1.2",
+          "D2.2",
+          "J1.A1",
+          "J1.A2",
+          "J1.A3",
+          "J1.A4",
+          "J1.A5",
+          "J1.A6",
+          "J1.A13",
+          "J1.A16",
+          "J1.A19",
+          "J1.A22",
+          "J1.A25",
+          "J1.A28",
+          "J1.B13",
+          "J1.B16",
+          "J1.B19",
+          "J1.B22",
+          "J1.B25",
+          "J1.B28",
+          "J10.A1",
+          "J10.A2",
+          "J10.A3",
+          "J10.A4",
+          "J10.A5",
+          "J10.A6",
+          "J10.A13",
+          "J10.A16",
+          "J10.A19",
+          "J10.A22",
+          "J10.A25",
+          "J10.A28",
+          "J10.B13",
+          "J10.B16",
+          "J10.B19",
+          "J10.B22",
+          "J10.B25",
+          "J10.B28",
+          "J11.A1",
+          "J11.A2",
+          "J11.A3",
+          "J11.A4",
+          "J11.A5",
+          "J11.A6",
+          "J11.A13",
+          "J11.A16",
+          "J11.A19",
+          "J11.A22",
+          "J11.A25",
+          "J11.A28",
+          "J11.B13",
+          "J11.B16",
+          "J11.B19",
+          "J11.B22",
+          "J11.B25",
+          "J11.B28",
+          "J12.A1",
+          "J12.A2",
+          "J12.A3",
+          "J12.A4",
+          "J12.A5",
+          "J12.A6",
+          "J12.A13",
+          "J12.A16",
+          "J12.A19",
+          "J12.A22",
+          "J12.A25",
+          "J12.A28",
+          "J12.B13",
+          "J12.B16",
+          "J12.B19",
+          "J12.B22",
+          "J12.B25",
+          "J12.B28",
+          "J2.A1",
+          "J2.A2",
+          "J2.A3",
+          "J2.A4",
+          "J2.A5",
+          "J2.A6",
+          "J2.A13",
+          "J2.A16",
+          "J2.A19",
+          "J2.A22",
+          "J2.A25",
+          "J2.A28",
+          "J2.B13",
+          "J2.B16",
+          "J2.B19",
+          "J2.B22",
+          "J2.B25",
+          "J2.B28",
+          "J3.A1",
+          "J3.A2",
+          "J3.A3",
+          "J3.A4",
+          "J3.A5",
+          "J3.A6",
+          "J3.A13",
+          "J3.A16",
+          "J3.A19",
+          "J3.A22",
+          "J3.A25",
+          "J3.A28",
+          "J3.B13",
+          "J3.B16",
+          "J3.B19",
+          "J3.B22",
+          "J3.B25",
+          "J3.B28",
+          "J4.A1",
+          "J4.A2",
+          "J4.A3",
+          "J4.A4",
+          "J4.A5",
+          "J4.A6",
+          "J4.A13",
+          "J4.A16",
+          "J4.A19",
+          "J4.A22",
+          "J4.A25",
+          "J4.A28",
+          "J4.B13",
+          "J4.B16",
+          "J4.B19",
+          "J4.B22",
+          "J4.B25",
+          "J4.B28",
+          "J402.A1",
+          "J402.A12",
+          "J402.B1",
+          "J402.B12",
+          "J402.SH",
+          "J402.SH",
+          "J402.SH",
+          "J402.SH",
+          "J5.A1",
+          "J5.A2",
+          "J5.A3",
+          "J5.A4",
+          "J5.A5",
+          "J5.A6",
+          "J5.A13",
+          "J5.A16",
+          "J5.A19",
+          "J5.A22",
+          "J5.A25",
+          "J5.A28",
+          "J5.B13",
+          "J5.B16",
+          "J5.B19",
+          "J5.B22",
+          "J5.B25",
+          "J5.B28",
+          "J6.A1",
+          "J6.A2",
+          "J6.A3",
+          "J6.A4",
+          "J6.A5",
+          "J6.A6",
+          "J6.A13",
+          "J6.A16",
+          "J6.A19",
+          "J6.A22",
+          "J6.A25",
+          "J6.A28",
+          "J6.B13",
+          "J6.B16",
+          "J6.B19",
+          "J6.B22",
+          "J6.B25",
+          "J6.B28",
+          "J7.A1",
+          "J7.A2",
+          "J7.A3",
+          "J7.A4",
+          "J7.A5",
+          "J7.A6",
+          "J7.A13",
+          "J7.A16",
+          "J7.A19",
+          "J7.A22",
+          "J7.A25",
+          "J7.A28",
+          "J7.B13",
+          "J7.B16",
+          "J7.B19",
+          "J7.B22",
+          "J7.B25",
+          "J7.B28",
+          "J8.A1",
+          "J8.A2",
+          "J8.A3",
+          "J8.A4",
+          "J8.A5",
+          "J8.A6",
+          "J8.A13",
+          "J8.A16",
+          "J8.A19",
+          "J8.A22",
+          "J8.A25",
+          "J8.A28",
+          "J8.B13",
+          "J8.B16",
+          "J8.B19",
+          "J8.B22",
+          "J8.B25",
+          "J8.B28",
+          "J9.A1",
+          "J9.A2",
+          "J9.A3",
+          "J9.A4",
+          "J9.A5",
+          "J9.A6",
+          "J9.A13",
+          "J9.A16",
+          "J9.A19",
+          "J9.A22",
+          "J9.A25",
+          "J9.A28",
+          "J9.B13",
+          "J9.B16",
+          "J9.B19",
+          "J9.B22",
+          "J9.B25",
+          "J9.B28",
+          "R102.2",
+          "R104.2",
+          "R105.2",
+          "R107.2",
+          "R109.2",
+          "R110.2",
+          "R112.2",
+          "R114.2",
+          "R115.2",
+          "R117.2",
+          "R119.2",
+          "R120.2",
+          "R122.2",
+          "R124.2",
+          "R125.2",
+          "R127.2",
+          "R129.2",
+          "R130.2",
+          "R132.2",
+          "R134.2",
+          "R135.2",
+          "R137.2",
+          "R139.2",
+          "R140.2",
+          "R142.2",
+          "R144.2",
+          "R145.2",
+          "R147.2",
+          "R149.2",
+          "R150.2",
+          "R152.2",
+          "R154.2",
+          "R155.2",
+          "R157.2",
+          "R159.2",
+          "R160.2",
+          "R302.2",
+          "R304.2",
+          "R305.2",
+          "U11.8",
+          "U12.8",
+          "U13.8",
+          "U14.8",
+          "U15.8",
+          "U16.8",
+          "U17.8",
+          "U18.8",
+          "U19.8",
+          "U20.8",
+          "U21.8",
+          "U22.8",
+          "U30.8",
+          "U31.5",
+          "U31.6",
+          "U31.7",
+          "U31.8",
+          "U31.15",
+          "U31.16",
+          "U31.17",
+          "U501.A1",
+          "U501.A6",
+          "U501.A8",
+          "U501.A10",
+          "U501.A12",
+          "U501.A14",
+          "U501.A16",
+          "U501.A18",
+          "U501.A20",
+          "U501.A22",
+          "U501.AA22",
+          "U501.AA23",
+          "U501.AB1",
+          "U501.AB6",
+          "U501.AB8",
+          "U501.AB10",
+          "U501.AB12",
+          "U501.AB14",
+          "U501.AB16",
+          "U501.AB18",
+          "U501.AB20",
+          "U501.AB22",
+          "U501.AC1",
+          "U501.AC2",
+          "U501.AC6",
+          "U501.AC8",
+          "U501.AC10",
+          "U501.AC12",
+          "U501.AC14",
+          "U501.AC16",
+          "U501.AC18",
+          "U501.AC20",
+          "U501.AC22",
+          "U501.B1",
+          "U501.B2",
+          "U501.B6",
+          "U501.B8",
+          "U501.B10",
+          "U501.B12",
+          "U501.B14",
+          "U501.B16",
+          "U501.B18",
+          "U501.B20",
+          "U501.B22",
+          "U501.D5",
+          "U501.D8",
+          "U501.D9",
+          "U501.D11",
+          "U501.D12",
+          "U501.D13",
+          "U501.D15",
+          "U501.D16",
+          "U501.D18",
+          "U501.E1",
+          "U501.E4",
+          "U501.E5",
+          "U501.E6",
+          "U501.E8",
+          "U501.E9",
+          "U501.E11",
+          "U501.E15",
+          "U501.E16",
+          "U501.E22",
+          "U501.E23",
+          "U501.F5",
+          "U501.F6",
+          "U501.F9",
+          "U501.F16",
+          "U501.F20",
+          "U501.G22",
+          "U501.G23",
+          "U501.H1",
+          "U501.H2",
+          "U501.H5",
+          "U501.H8",
+          "U501.H12",
+          "U501.H13",
+          "U501.H15",
+          "U501.H16",
+          "U501.H20",
+          "U501.J5",
+          "U501.J8",
+          "U501.J12",
+          "U501.J13",
+          "U501.J15",
+          "U501.J18",
+          "U501.J19",
+          "U501.J20",
+          "U501.J22",
+          "U501.J23",
+          "U501.K1",
+          "U501.K2",
+          "U501.L5",
+          "U501.L13",
+          "U501.L15",
+          "U501.L20",
+          "U501.L22",
+          "U501.L23",
+          "U501.M1",
+          "U501.M2",
+          "U501.M5",
+          "U501.M11",
+          "U501.M12",
+          "U501.M19",
+          "U501.M20",
+          "U501.N5",
+          "U501.N8",
+          "U501.N9",
+          "U501.N11",
+          "U501.N12",
+          "U501.N13",
+          "U501.N15",
+          "U501.N20",
+          "U501.N22",
+          "U501.N23",
+          "U501.P1",
+          "U501.P2",
+          "U501.R5",
+          "U501.R18",
+          "U501.R19",
+          "U501.R20",
+          "U501.R22",
+          "U501.R23",
+          "U501.T1",
+          "U501.T2",
+          "U501.T5",
+          "U501.T6",
+          "U501.T8",
+          "U501.T9",
+          "U501.T13",
+          "U501.T15",
+          "U501.T16",
+          "U501.T18",
+          "U501.T20",
+          "U501.U22",
+          "U501.U23",
+          "U501.V5",
+          "U501.V6",
+          "U501.V8",
+          "U501.V9",
+          "U501.V15",
+          "U501.V16",
+          "U501.V20",
+          "U501.W5",
+          "U501.W6",
+          "U501.W8",
+          "U501.W9",
+          "U501.W20",
+          "U501.W22",
+          "U501.W23",
+          "U501.Y9",
+          "U501.Y13",
+          "U501.Y20",
+          "U503.A1",
+          "U503.A6",
+          "U503.A7",
+          "U503.A8",
+          "U503.B7",
+          "U503.B8",
+          "U503.D6",
+          "U503.D8",
+          "U503.E5",
+          "U503.E6",
+          "U503.E7",
+          "U503.E8",
+          "U503.F5",
+          "U503.F6",
+          "U503.F7",
+          "U503.F8",
+          "U503.G5",
+          "U503.G6",
+          "U503.G7",
+          "U503.G8",
+          "U503.H4",
+          "U503.H5",
+          "U503.H8",
+          "U503.K9",
+          "U503.K10",
+          "U503.L1",
+          "U506.5",
+          "U506.6",
+          "U506.7",
+          "U506.8",
+          "U506.15",
+          "U506.16",
+          "U506.17",
+          "U510.2",
+          "U511.2",
+          "U512.2",
+          "U512.5",
+          "U601.2",
+          "U601.11",
+          "U601.18",
+          "U601.23",
+          "U601.24",
+          "U601.30",
+          "U601.31",
+          "U601.37",
+          "U601.41",
+          "U602.2",
+          "U602.11",
+          "U602.18",
+          "U602.23",
+          "U602.24",
+          "U602.30",
+          "U602.31",
+          "U602.37",
+          "U602.41",
+          "U607.9",
+          "U607.25",
+          "U702.2",
+          "C1.2",
+          "C102.2",
+          "C726.2",
+          "U603.5",
+          "U603.6",
+          "U603.10",
+          "U603.12",
+          "U603.15",
+          "U603.21",
+          "U603.24",
+          "U603.25"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT01",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C103.1",
+          "J1.B1",
+          "J1.B2",
+          "J1.B3",
+          "J1.B4",
+          "J1.B5",
+          "J1.B6",
+          "U11.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT02",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C106.1",
+          "J2.B1",
+          "J2.B2",
+          "J2.B3",
+          "J2.B4",
+          "J2.B5",
+          "J2.B6",
+          "U12.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT03",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C109.1",
+          "J3.B1",
+          "J3.B2",
+          "J3.B3",
+          "J3.B4",
+          "J3.B5",
+          "J3.B6",
+          "U13.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT04",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C112.1",
+          "J4.B1",
+          "J4.B2",
+          "J4.B3",
+          "J4.B4",
+          "J4.B5",
+          "J4.B6",
+          "U14.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT05",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C115.1",
+          "J5.B1",
+          "J5.B2",
+          "J5.B3",
+          "J5.B4",
+          "J5.B5",
+          "J5.B6",
+          "U15.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT06",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C118.1",
+          "J6.B1",
+          "J6.B2",
+          "J6.B3",
+          "J6.B4",
+          "J6.B5",
+          "J6.B6",
+          "U16.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT07",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C121.1",
+          "J7.B1",
+          "J7.B2",
+          "J7.B3",
+          "J7.B4",
+          "J7.B5",
+          "J7.B6",
+          "U17.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT08",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C124.1",
+          "J8.B1",
+          "J8.B2",
+          "J8.B3",
+          "J8.B4",
+          "J8.B5",
+          "J8.B6",
+          "U18.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT09",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C127.1",
+          "J9.B1",
+          "J9.B2",
+          "J9.B3",
+          "J9.B4",
+          "J9.B5",
+          "J9.B6",
+          "U19.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT10",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C130.1",
+          "J10.B1",
+          "J10.B2",
+          "J10.B3",
+          "J10.B4",
+          "J10.B5",
+          "J10.B6",
+          "U20.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT11",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C133.1",
+          "J11.B1",
+          "J11.B2",
+          "J11.B3",
+          "J11.B4",
+          "J11.B5",
+          "J11.B6",
+          "U21.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P12_SLOT12",
+      "pads": 8,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C136.1",
+          "J12.B1",
+          "J12.B2",
+          "J12.B3",
+          "J12.B4",
+          "J12.B5",
+          "J12.B6",
+          "U22.6"
+        ]
+      ]
+    },
+    {
+      "net": "/P3V3_AUX",
+      "pads": 93,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C314.1",
+          "C315.1",
+          "C5110.1",
+          "C5152.1",
+          "C5156.1",
+          "C5158.1",
+          "C5160.1",
+          "C707.1",
+          "C720.1",
+          "C721.1",
+          "C722.1",
+          "C723.1",
+          "C724.1",
+          "C725.1",
+          "C727.1",
+          "C730.1",
+          "C731.1",
+          "C732.1",
+          "C733.1",
+          "C734.1",
+          "C735.1",
+          "C736.1",
+          "C737.1",
+          "C742.1",
+          "J1.B11",
+          "J10.B11",
+          "J11.B11",
+          "J12.B11",
+          "J2.B11",
+          "J3.B11",
+          "J4.B11",
+          "J5.B11",
+          "J6.B11",
+          "J7.B11",
+          "J8.B11",
+          "J9.B11",
+          "L31.2",
+          "R311.1",
+          "R5121.2",
+          "R5122.2",
+          "R5123.2",
+          "R5124.2",
+          "R5125.2",
+          "R5128.2",
+          "R5131.2",
+          "R5132.2",
+          "R5133.2",
+          "R5181.2",
+          "R5191.2",
+          "R5192.2",
+          "R5193.2",
+          "R721.1",
+          "R722.1",
+          "U1.W32",
+          "U31.14",
+          "U501.A2",
+          "U501.A3",
+          "U501.B3",
+          "U501.F8",
+          "U501.H9",
+          "U501.R13",
+          "U503.H1",
+          "U510.5",
+          "U510.6",
+          "U511.6",
+          "U512.6",
+          "U601.1",
+          "U601.3",
+          "U601.10",
+          "U601.15",
+          "U601.19",
+          "U601.27",
+          "U601.34",
+          "U601.38",
+          "U601.42",
+          "U601.47",
+          "U601.48",
+          "U602.1",
+          "U602.3",
+          "U602.10",
+          "U602.15",
+          "U602.19",
+          "U602.27",
+          "U602.34",
+          "U602.38",
+          "U602.42",
+          "U602.47",
+          "U602.48",
+          "U605.6",
+          "U607.21",
+          "U702.1",
+          "U702.3",
+          "C726.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S01_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C101.1",
+          "U11.7",
+          "U11.7"
+        ]
+      ]
+    },
+    {
+      "net": "/S01_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R105.1",
+          "U11.9"
+        ]
+      ]
+    },
+    {
+      "net": "/S01_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R103.2",
+          "U11.2",
+          "R104.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S01_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R101.2",
+          "R102.1",
+          "U11.1",
+          "U11.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S02_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U12.7",
+          "U12.7",
+          "C104.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S02_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R110.1",
+          "U12.9"
+        ]
+      ]
+    },
+    {
+      "net": "/S02_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R108.2",
+          "R109.1",
+          "U12.2"
+        ]
+      ]
+    },
+    {
+      "net": "/S02_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R106.2",
+          "R107.1",
+          "U12.1",
+          "U12.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S03_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C107.1",
+          "U13.7",
+          "U13.7"
+        ]
+      ]
+    },
+    {
+      "net": "/S03_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R115.1",
+          "U13.9"
+        ]
+      ]
+    },
+    {
+      "net": "/S03_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U13.2",
+          "R113.2",
+          "R114.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S03_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U13.1",
+          "U13.1",
+          "R112.1",
+          "R111.2"
+        ]
+      ]
+    },
+    {
+      "net": "/S04_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U14.7",
+          "U14.7",
+          "C110.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S04_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U14.9",
+          "R120.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S04_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R118.2",
+          "R119.1",
+          "U14.2"
+        ]
+      ]
+    },
+    {
+      "net": "/S04_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R116.2",
+          "R117.1",
+          "U14.1",
+          "U14.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S05_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U15.7",
+          "U15.7",
+          "C113.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S05_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R125.1",
+          "U15.9"
+        ]
+      ]
+    },
+    {
+      "net": "/S05_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U15.2",
+          "R123.2",
+          "R124.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S05_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U15.1",
+          "U15.1",
+          "R122.1",
+          "R121.2"
+        ]
+      ]
+    },
+    {
+      "net": "/S06_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U16.7",
+          "U16.7",
+          "C116.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S06_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U16.9",
+          "R130.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S06_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U16.2",
+          "R129.1",
+          "R128.2"
+        ]
+      ]
+    },
+    {
+      "net": "/S06_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U16.1",
+          "U16.1",
+          "R126.2",
+          "R127.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S07_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C119.1",
+          "U17.7",
+          "U17.7"
+        ]
+      ]
+    },
+    {
+      "net": "/S07_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R135.1",
+          "U17.9"
+        ]
+      ]
+    },
+    {
+      "net": "/S07_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R134.1",
+          "R133.2",
+          "U17.2"
+        ]
+      ]
+    },
+    {
+      "net": "/S07_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R131.2",
+          "R132.1",
+          "U17.1",
+          "U17.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S08_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U18.7",
+          "U18.7",
+          "C122.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S08_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R140.1",
+          "U18.9"
+        ]
+      ]
+    },
+    {
+      "net": "/S08_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R138.2",
+          "U18.2",
+          "R139.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S08_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U18.1",
+          "U18.1",
+          "R136.2",
+          "R137.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S09_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C125.1",
+          "U19.7",
+          "U19.7"
+        ]
+      ]
+    },
+    {
+      "net": "/S09_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R145.1",
+          "U19.9"
+        ]
+      ]
+    },
+    {
+      "net": "/S09_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R143.2",
+          "U19.2",
+          "R144.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S09_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U19.1",
+          "U19.1",
+          "R141.2",
+          "R142.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S10_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U20.7",
+          "U20.7",
+          "C128.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S10_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R150.1",
+          "U20.9"
+        ]
+      ]
+    },
+    {
+      "net": "/S10_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R149.1",
+          "U20.2",
+          "R148.2"
+        ]
+      ]
+    },
+    {
+      "net": "/S10_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R146.2",
+          "R147.1",
+          "U20.1",
+          "U20.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S11_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C131.1",
+          "U21.7",
+          "U21.7"
+        ]
+      ]
+    },
+    {
+      "net": "/S11_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R155.1",
+          "U21.9"
+        ]
+      ]
+    },
+    {
+      "net": "/S11_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R154.1",
+          "R153.2",
+          "U21.2"
+        ]
+      ]
+    },
+    {
+      "net": "/S11_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R151.2",
+          "U21.1",
+          "U21.1",
+          "R152.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S12_PWR_DVDT",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U22.7",
+          "U22.7",
+          "C134.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S12_PWR_ILM",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U22.9",
+          "R160.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S12_PWR_OV",
+      "pads": 3,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U22.2",
+          "R158.2",
+          "R159.1"
+        ]
+      ]
+    },
+    {
+      "net": "/S12_PWR_UV",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "R157.1",
+          "U22.1",
+          "U22.1",
+          "R156.2"
+        ]
+      ]
+    },
+    {
+      "net": "/TBT_5V0",
+      "pads": 10,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C5117.1",
+          "C5163.1",
+          "L502.2",
+          "R5194.2",
+          "U503.A11",
+          "U503.B11",
+          "U503.C11",
+          "U503.D11",
+          "U503.H10",
+          "U506.14"
+        ]
+      ]
+    },
+    {
+      "net": "/TBT_5V_PG",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U506.4",
+          "R5194.1"
+        ]
+      ]
+    },
+    {
+      "net": "/TBT_5V_SS",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U506.9",
+          "C5164.1"
+        ]
+      ]
+    },
+    {
+      "net": "/TBT_5V_SW",
+      "pads": 4,
+      "connected_components": 1,
+      "groups": [
+        [
+          "U506.1",
+          "U506.2",
+          "U506.3",
+          "L502.1"
+        ]
+      ]
+    },
+    {
+      "net": "/TBT_VBUS",
+      "pads": 11,
+      "connected_components": 1,
+      "groups": [
+        [
+          "C5118.1",
+          "J402.A4",
+          "J402.A9",
+          "J402.B4",
+          "J402.B9",
+          "U503.A10",
+          "U503.B10",
+          "U503.H11",
+          "U503.J10",
+          "U503.J11",
+          "U503.K11"
+        ]
+      ]
+    },
+    {
+      "net": "/VBANK_A",
+      "pads": 36,
+      "connected_components": 1,
+      "groups": [
+        [
+          "F1.2",
+          "C105.1",
+          "C108.1",
+          "C111.1",
+          "C114.1",
+          "C9101.1",
+          "C9102.1",
+          "C9103.1",
+          "C9104.1",
+          "C9105.1",
+          "C9111.1",
+          "C9130.1",
+          "D1.1",
+          "R101.1",
+          "R103.1",
+          "R106.1",
+          "R108.1",
+          "R111.1",
+          "R113.1",
+          "R116.1",
+          "R118.1",
+          "R121.1",
+          "R123.1",
+          "R151.1",
+          "R153.1",
+          "R301.1",
+          "R303.1",
+          "U11.5",
+          "U12.5",
+          "U13.5",
+          "U14.5",
+          "U15.5",
+          "U21.5",
+          "U30.5",
+          "C1.1",
+          "C102.1"
+        ]
+      ]
+    },
+    {
+      "net": "/VBANK_B",
+      "pads": 32,
+      "connected_components": 1,
+      "groups": [
+        [
+          "F2.2",
+          "C117.1",
+          "C120.1",
+          "C123.1",
+          "C126.1",
+          "C129.1",
+          "C2.1",
+          "C9106.1",
+          "C9107.1",
+          "C9108.1",
+          "C9109.1",
+          "C9110.1",
+          "C9112.1",
+          "D2.1",
+          "R126.1",
+          "R128.1",
+          "R131.1",
+          "R133.1",
+          "R136.1",
+          "R138.1",
+          "R141.1",
+          "R143.1",
+          "R146.1",
+          "R148.1",
+          "R156.1",
+          "R158.1",
+          "U16.5",
+          "U17.5",
+          "U18.5",
+          "U19.5",
+          "U20.5",
+          "U22.5"
+        ]
+      ]
+    },
+    {
+      "net": "/VIN_A",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "F1.1",
+          "J101.1"
+        ]
+      ]
+    },
+    {
+      "net": "/VIN_B",
+      "pads": 2,
+      "connected_components": 1,
+      "groups": [
+        [
+          "F2.1",
+          "J102.1"
+        ]
+      ]
+    }
+  ],
+  "filled_zones": [
+    {
+      "net": "/GND",
+      "layer": "In1.Cu",
+      "filled_islands": 12,
+      "touched_islands": 12
+    },
+    {
+      "net": "/P3V3_AUX",
+      "layer": "In2.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/VIN_B",
+      "layer": "In3.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/VIN_A",
+      "layer": "In3.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "In4.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/VBANK_A",
+      "layer": "In5.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/VBANK_B",
+      "layer": "In6.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "In7.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT01",
+      "layer": "In8.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT02",
+      "layer": "In9.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "In10.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT03",
+      "layer": "In11.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT04",
+      "layer": "In12.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "In13.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT05",
+      "layer": "In14.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT06",
+      "layer": "In15.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "In16.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT07",
+      "layer": "In17.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT08",
+      "layer": "In18.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "In19.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT09",
+      "layer": "In20.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT10",
+      "layer": "In21.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "In22.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT11",
+      "layer": "In23.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P12_SLOT12",
+      "layer": "In24.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "In25.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/AUX_12V_PROTECTED",
+      "layer": "In26.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/TBT_5V0",
+      "layer": "In27.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/GND",
+      "layer": "In28.Cu",
+      "filled_islands": 2,
+      "touched_islands": 2
+    },
+    {
+      "net": "/TBT_VBUS",
+      "layer": "In29.Cu",
+      "filled_islands": 1,
+      "touched_islands": 1
+    },
+    {
+      "net": "/P3V3_AUX",
+      "layer": "In30.Cu",
+      "filled_islands": 3,
+      "touched_islands": 3
+    }
+  ],
+  "current_and_thermal_validation": false,
+  "signal_integrity_validation": false,
+  "cpu_and_switch_vr_complete": false
+}

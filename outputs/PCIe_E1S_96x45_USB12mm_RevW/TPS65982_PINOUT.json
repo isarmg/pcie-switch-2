@@ -1,0 +1,700 @@
+{
+  "part": "TPS65982ABZBHR",
+  "balls": 96,
+  "body_mm": [
+    6,
+    6
+  ],
+  "height_mm_max": 1,
+  "land_diameter_mm_provisional": 0.27,
+  "source": "TI TPS65982 SLVSD02E Rev E",
+  "source_url": "https://www.ti.com/lit/ds/symlink/tps65982.pdf",
+  "source_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    91,
+    113,
+    114,
+    115,
+    116,
+    117
+  ],
+  "pins": [
+    {
+      "ball": "A1",
+      "signal": "GND",
+      "x_mm": -2.5,
+      "y_mm": -2.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "A2",
+      "signal": "LDO_1V8D",
+      "x_mm": -2.0,
+      "y_mm": -2.5,
+      "net": "/TBT_PD_LDO_1V8D"
+    },
+    {
+      "ball": "A3",
+      "signal": "SPI_CLK",
+      "x_mm": -1.5,
+      "y_mm": -2.5,
+      "net": "/TBT_PD_SPI_CLK"
+    },
+    {
+      "ball": "A4",
+      "signal": "SPI_POCI",
+      "x_mm": -1.0,
+      "y_mm": -2.5,
+      "net": "/TBT_PD_SPI_MISO"
+    },
+    {
+      "ball": "A5",
+      "signal": "I2C_SDA2",
+      "x_mm": -0.5,
+      "y_mm": -2.5,
+      "net": "/TBT_PD_I2C2_SDA"
+    },
+    {
+      "ball": "A6",
+      "signal": "PP_HV",
+      "x_mm": 0.0,
+      "y_mm": -2.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "A7",
+      "signal": "PP_HV",
+      "x_mm": 0.5,
+      "y_mm": -2.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "A8",
+      "signal": "PP_HV",
+      "x_mm": 1.0,
+      "y_mm": -2.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "A9",
+      "signal": "HV_GATE2",
+      "x_mm": 1.5,
+      "y_mm": -2.5,
+      "net": "unconnected-(U503-PadA9)"
+    },
+    {
+      "ball": "A10",
+      "signal": "SENSEN",
+      "x_mm": 2.0,
+      "y_mm": -2.5,
+      "net": "/TBT_VBUS"
+    },
+    {
+      "ball": "A11",
+      "signal": "PP_5V0",
+      "x_mm": 2.5,
+      "y_mm": -2.5,
+      "net": "/TBT_5V0"
+    },
+    {
+      "ball": "B1",
+      "signal": "VDDIO",
+      "x_mm": -2.5,
+      "y_mm": -2.0,
+      "net": "/TBT_PD_LDO_3V3"
+    },
+    {
+      "ball": "B2",
+      "signal": "GPIO0",
+      "x_mm": -2.0,
+      "y_mm": -2.0,
+      "net": "/TBT_PD_UNUSED_GPIO0"
+    },
+    {
+      "ball": "B3",
+      "signal": "SPI_CSZ",
+      "x_mm": -1.5,
+      "y_mm": -2.0,
+      "net": "/TBT_PD_SPI_CS_N"
+    },
+    {
+      "ball": "B4",
+      "signal": "SPI_PICO",
+      "x_mm": -1.0,
+      "y_mm": -2.0,
+      "net": "/TBT_PD_SPI_MOSI"
+    },
+    {
+      "ball": "B5",
+      "signal": "I2C_SCL2",
+      "x_mm": -0.5,
+      "y_mm": -2.0,
+      "net": "/TBT_PD_I2C2_SCL"
+    },
+    {
+      "ball": "B6",
+      "signal": "I2C_IRQ2Z",
+      "x_mm": 0.0,
+      "y_mm": -2.0,
+      "net": "unconnected-(U503-PadB6)"
+    },
+    {
+      "ball": "B7",
+      "signal": "PP_HV",
+      "x_mm": 0.5,
+      "y_mm": -2.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "B8",
+      "signal": "GND",
+      "x_mm": 1.0,
+      "y_mm": -2.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "B9",
+      "signal": "HV_GATE1",
+      "x_mm": 1.5,
+      "y_mm": -2.0,
+      "net": "unconnected-(U503-PadB9)"
+    },
+    {
+      "ball": "B10",
+      "signal": "SENSEP",
+      "x_mm": 2.0,
+      "y_mm": -2.0,
+      "net": "/TBT_VBUS"
+    },
+    {
+      "ball": "B11",
+      "signal": "PP_5V0",
+      "x_mm": 2.5,
+      "y_mm": -2.0,
+      "net": "/TBT_5V0"
+    },
+    {
+      "ball": "C1",
+      "signal": "I2C_IRQ1Z",
+      "x_mm": -2.5,
+      "y_mm": -1.5,
+      "net": "/TBT_PD_IRQ_N"
+    },
+    {
+      "ball": "C2",
+      "signal": "GPIO1",
+      "x_mm": -2.0,
+      "y_mm": -1.5,
+      "net": "/TBT_PD_UNUSED_GPIO1"
+    },
+    {
+      "ball": "C10",
+      "signal": "GPIO4",
+      "x_mm": 2.0,
+      "y_mm": -1.5,
+      "net": "/TBT_PD_HPD"
+    },
+    {
+      "ball": "C11",
+      "signal": "PP_5V0",
+      "x_mm": 2.5,
+      "y_mm": -1.5,
+      "net": "/TBT_5V0"
+    },
+    {
+      "ball": "D1",
+      "signal": "I2C_SDA1",
+      "x_mm": -2.5,
+      "y_mm": -1.0,
+      "net": "/TBT_PD_I2C_SDA"
+    },
+    {
+      "ball": "D2",
+      "signal": "I2C_SCL1",
+      "x_mm": -2.0,
+      "y_mm": -1.0,
+      "net": "/TBT_PD_I2C_SCL"
+    },
+    {
+      "ball": "D5",
+      "signal": "DEBUG_CTL2",
+      "x_mm": -0.5,
+      "y_mm": -1.0,
+      "net": "/TBT_PD_UNUSED_DEBUG_CTL2"
+    },
+    {
+      "ball": "D6",
+      "signal": "HRESET",
+      "x_mm": 0.0,
+      "y_mm": -1.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "D7",
+      "signal": "GPIO7",
+      "x_mm": 0.5,
+      "y_mm": -1.0,
+      "net": "/TBT_PD_UNUSED_GPIO7"
+    },
+    {
+      "ball": "D8",
+      "signal": "GND",
+      "x_mm": 1.0,
+      "y_mm": -1.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "D10",
+      "signal": "GPIO2",
+      "x_mm": 2.0,
+      "y_mm": -1.0,
+      "net": "/TBT_PD_UNUSED_GPIO2"
+    },
+    {
+      "ball": "D11",
+      "signal": "PP_5V0",
+      "x_mm": 2.5,
+      "y_mm": -1.0,
+      "net": "/TBT_5V0"
+    },
+    {
+      "ball": "E1",
+      "signal": "LDO_BMC",
+      "x_mm": -2.5,
+      "y_mm": -0.5,
+      "net": "/TBT_PD_LDO_BMC"
+    },
+    {
+      "ball": "E2",
+      "signal": "UART_TX",
+      "x_mm": -2.0,
+      "y_mm": -0.5,
+      "net": "/TBT_PD_UART_LOOP"
+    },
+    {
+      "ball": "E4",
+      "signal": "DEBUG_CTL1",
+      "x_mm": -1.0,
+      "y_mm": -0.5,
+      "net": "/TBT_PD_UNUSED_DEBUG_CTL1"
+    },
+    {
+      "ball": "E5",
+      "signal": "GND",
+      "x_mm": -0.5,
+      "y_mm": -0.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "E6",
+      "signal": "GND",
+      "x_mm": 0.0,
+      "y_mm": -0.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "E7",
+      "signal": "GND",
+      "x_mm": 0.5,
+      "y_mm": -0.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "E8",
+      "signal": "GND",
+      "x_mm": 1.0,
+      "y_mm": -0.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "E10",
+      "signal": "GPIO5",
+      "x_mm": 2.0,
+      "y_mm": -0.5,
+      "net": "/TBT_PD_UNUSED_GPIO5"
+    },
+    {
+      "ball": "E11",
+      "signal": "MRESET",
+      "x_mm": 2.5,
+      "y_mm": -0.5,
+      "net": "/TBT_PD_UNUSED_MRESET"
+    },
+    {
+      "ball": "F1",
+      "signal": "I2C_ADDR",
+      "x_mm": -2.5,
+      "y_mm": 0.0,
+      "net": "/TBT_PD_I2C_ADDR"
+    },
+    {
+      "ball": "F2",
+      "signal": "UART_RX",
+      "x_mm": -2.0,
+      "y_mm": 0.0,
+      "net": "/TBT_PD_UART_LOOP"
+    },
+    {
+      "ball": "F4",
+      "signal": "SWD_DATA",
+      "x_mm": -1.0,
+      "y_mm": 0.0,
+      "net": "unconnected-(U503-PadF4)"
+    },
+    {
+      "ball": "F5",
+      "signal": "GND",
+      "x_mm": -0.5,
+      "y_mm": 0.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "F6",
+      "signal": "GND",
+      "x_mm": 0.0,
+      "y_mm": 0.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "F7",
+      "signal": "GND",
+      "x_mm": 0.5,
+      "y_mm": 0.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "F8",
+      "signal": "GND",
+      "x_mm": 1.0,
+      "y_mm": 0.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "F10",
+      "signal": "BUSPOWERZ",
+      "x_mm": 2.0,
+      "y_mm": 0.0,
+      "net": "/TBT_PD_BUSPOWERZ"
+    },
+    {
+      "ball": "F11",
+      "signal": "RESETZ",
+      "x_mm": 2.5,
+      "y_mm": 0.0,
+      "net": "/TBT_PD_RESET_N"
+    },
+    {
+      "ball": "G1",
+      "signal": "LDO_3V3",
+      "x_mm": -2.5,
+      "y_mm": 0.5,
+      "net": "/TBT_PD_LDO_3V3"
+    },
+    {
+      "ball": "G2",
+      "signal": "R_OSC",
+      "x_mm": -2.0,
+      "y_mm": 0.5,
+      "net": "/TBT_PD_R_OSC"
+    },
+    {
+      "ball": "G4",
+      "signal": "SWD_CLK",
+      "x_mm": -1.0,
+      "y_mm": 0.5,
+      "net": "unconnected-(U503-PadG4)"
+    },
+    {
+      "ball": "G5",
+      "signal": "GND",
+      "x_mm": -0.5,
+      "y_mm": 0.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "G6",
+      "signal": "GND",
+      "x_mm": 0.0,
+      "y_mm": 0.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "G7",
+      "signal": "GND",
+      "x_mm": 0.5,
+      "y_mm": 0.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "G8",
+      "signal": "GND",
+      "x_mm": 1.0,
+      "y_mm": 0.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "G10",
+      "signal": "GPIO6",
+      "x_mm": 2.0,
+      "y_mm": 0.5,
+      "net": "/TBT_PD_UNUSED_GPIO6"
+    },
+    {
+      "ball": "G11",
+      "signal": "GPIO3",
+      "x_mm": 2.5,
+      "y_mm": 0.5,
+      "net": "/TBT_PD_UNUSED_GPIO3"
+    },
+    {
+      "ball": "H1",
+      "signal": "VIN_3V3",
+      "x_mm": -2.5,
+      "y_mm": 1.0,
+      "net": "/P3V3_AUX"
+    },
+    {
+      "ball": "H2",
+      "signal": "VOUT_3V3",
+      "x_mm": -2.0,
+      "y_mm": 1.0,
+      "net": "/TBT_PD_VOUT_3V3"
+    },
+    {
+      "ball": "H4",
+      "signal": "GND",
+      "x_mm": -1.0,
+      "y_mm": 1.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "H5",
+      "signal": "GND",
+      "x_mm": -0.5,
+      "y_mm": 1.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "H6",
+      "signal": "GPIO8",
+      "x_mm": 0.0,
+      "y_mm": 1.0,
+      "net": "/TBT_PD_UNUSED_GPIO8"
+    },
+    {
+      "ball": "H7",
+      "signal": "SS",
+      "x_mm": 0.5,
+      "y_mm": 1.0,
+      "net": "/TBT_PD_SS"
+    },
+    {
+      "ball": "H8",
+      "signal": "GND",
+      "x_mm": 1.0,
+      "y_mm": 1.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "H10",
+      "signal": "PP_CABLE",
+      "x_mm": 2.0,
+      "y_mm": 1.0,
+      "net": "/TBT_5V0"
+    },
+    {
+      "ball": "H11",
+      "signal": "VBUS",
+      "x_mm": 2.5,
+      "y_mm": 1.0,
+      "net": "/TBT_VBUS"
+    },
+    {
+      "ball": "J1",
+      "signal": "AUX_P",
+      "x_mm": -2.5,
+      "y_mm": 1.5,
+      "net": "/TBT_PA_AUX_P"
+    },
+    {
+      "ball": "J2",
+      "signal": "AUX_N",
+      "x_mm": -2.0,
+      "y_mm": 1.5,
+      "net": "/TBT_PA_AUX_N"
+    },
+    {
+      "ball": "J10",
+      "signal": "VBUS",
+      "x_mm": 2.0,
+      "y_mm": 1.5,
+      "net": "/TBT_VBUS"
+    },
+    {
+      "ball": "J11",
+      "signal": "VBUS",
+      "x_mm": 2.5,
+      "y_mm": 1.5,
+      "net": "/TBT_VBUS"
+    },
+    {
+      "ball": "K1",
+      "signal": "LDO_1V8A",
+      "x_mm": -2.5,
+      "y_mm": 2.0,
+      "net": "/TBT_PD_LDO_1V8A"
+    },
+    {
+      "ball": "K2",
+      "signal": "DEBUG2",
+      "x_mm": -2.0,
+      "y_mm": 2.0,
+      "net": "/TBT_PD_UNUSED_DEBUG2"
+    },
+    {
+      "ball": "K3",
+      "signal": "DEBUG4",
+      "x_mm": -1.5,
+      "y_mm": 2.0,
+      "net": "/TBT_PD_UNUSED_DEBUG4"
+    },
+    {
+      "ball": "K4",
+      "signal": "LSX_P2R",
+      "x_mm": -1.0,
+      "y_mm": 2.0,
+      "net": "/TBT_LSX_P2R"
+    },
+    {
+      "ball": "K5",
+      "signal": "USB_RP_N",
+      "x_mm": -0.5,
+      "y_mm": 2.0,
+      "net": "/TBT_USB2_RP_N"
+    },
+    {
+      "ball": "K6",
+      "signal": "C_USB_TP",
+      "x_mm": 0.0,
+      "y_mm": 2.0,
+      "net": "/TBT_USB2_TOP_P"
+    },
+    {
+      "ball": "K7",
+      "signal": "C_USB_BP",
+      "x_mm": 0.5,
+      "y_mm": 2.0,
+      "net": "/TBT_USB2_BOTTOM_P"
+    },
+    {
+      "ball": "K8",
+      "signal": "C_SBU1",
+      "x_mm": 1.0,
+      "y_mm": 2.0,
+      "net": "/TBT_SBU1"
+    },
+    {
+      "ball": "K9",
+      "signal": "RPD_G1",
+      "x_mm": 1.5,
+      "y_mm": 2.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "K10",
+      "signal": "RPD_G2",
+      "x_mm": 2.0,
+      "y_mm": 2.0,
+      "net": "/GND"
+    },
+    {
+      "ball": "K11",
+      "signal": "VBUS",
+      "x_mm": 2.5,
+      "y_mm": 2.0,
+      "net": "/TBT_VBUS"
+    },
+    {
+      "ball": "L1",
+      "signal": "GND",
+      "x_mm": -2.5,
+      "y_mm": 2.5,
+      "net": "/GND"
+    },
+    {
+      "ball": "L2",
+      "signal": "DEBUG1",
+      "x_mm": -2.0,
+      "y_mm": 2.5,
+      "net": "/TBT_PD_UNUSED_DEBUG1"
+    },
+    {
+      "ball": "L3",
+      "signal": "DEBUG3",
+      "x_mm": -1.5,
+      "y_mm": 2.5,
+      "net": "/TBT_PD_UNUSED_DEBUG3"
+    },
+    {
+      "ball": "L4",
+      "signal": "LSX_R2P",
+      "x_mm": -1.0,
+      "y_mm": 2.5,
+      "net": "/TBT_LSX_R2P"
+    },
+    {
+      "ball": "L5",
+      "signal": "USB_RP_P",
+      "x_mm": -0.5,
+      "y_mm": 2.5,
+      "net": "/TBT_USB2_RP_P"
+    },
+    {
+      "ball": "L6",
+      "signal": "C_USB_TN",
+      "x_mm": 0.0,
+      "y_mm": 2.5,
+      "net": "/TBT_USB2_TOP_N"
+    },
+    {
+      "ball": "L7",
+      "signal": "C_USB_BN",
+      "x_mm": 0.5,
+      "y_mm": 2.5,
+      "net": "/TBT_USB2_BOTTOM_N"
+    },
+    {
+      "ball": "L8",
+      "signal": "C_SBU2",
+      "x_mm": 1.0,
+      "y_mm": 2.5,
+      "net": "/TBT_SBU2"
+    },
+    {
+      "ball": "L9",
+      "signal": "C_CC1",
+      "x_mm": 1.5,
+      "y_mm": 2.5,
+      "net": "/TBT_CC1"
+    },
+    {
+      "ball": "L10",
+      "signal": "C_CC2",
+      "x_mm": 2.0,
+      "y_mm": 2.5,
+      "net": "/TBT_CC2"
+    },
+    {
+      "ball": "L11",
+      "signal": "NC",
+      "x_mm": 2.5,
+      "y_mm": 2.5,
+      "net": "unconnected-(U503-PadL11)"
+    }
+  ]
+}

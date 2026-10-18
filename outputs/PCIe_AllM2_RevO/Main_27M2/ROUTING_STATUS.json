@@ -1,0 +1,10 @@
+{
+  "cpu_x4_and_refclock_copper_connections": 34,
+  "slot_data_net_assignments_complete": true,
+  "slot_copper_routing_complete": false,
+  "power_loop_routing_complete": false,
+  "impedance_validated": false,
+  "thermal_qualified": false,
+  "whole_board_state": "placement and net-assignment draft; only retained CPU link has copper routing",
+  "production_ready": false
+}

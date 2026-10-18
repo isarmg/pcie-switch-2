@@ -1,0 +1,22 @@
+{
+  "Main_10E1S": {
+    "native_reimport_reexport": true,
+    "unique_solid_definitions": 13,
+    "bytes": 588975
+  },
+  "Left_2M2_Vertical": {
+    "native_reimport_reexport": true,
+    "unique_solid_definitions": 9,
+    "bytes": 516602
+  },
+  "Right_M2_Upstream": {
+    "native_reimport_reexport": true,
+    "unique_solid_definitions": 9,
+    "bytes": 509126
+  },
+  "Assembly_View": {
+    "native_reimport_reexport": true,
+    "unique_solid_definitions": 75,
+    "bytes": 6962998
+  }
+}

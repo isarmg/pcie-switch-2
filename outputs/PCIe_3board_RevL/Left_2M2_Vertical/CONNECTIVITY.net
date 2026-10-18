@@ -1,0 +1,4681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\micro\Desktop\方案\pcie switch 2\outputs\PCIe_3board_RevJ\Left_2M2_Vertical\Left_2M2_Vertical.kicad_sch</source>
+    <date>2026-09-29T18:43:21</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Left_2M2_Vertical</title>
+        <company/>
+        <rev>J</rev>
+        <date>2026-09-29</date>
+        <source>Left_2M2_Vertical.kicad_sch</source>
+        <comment number="1" value="Connectivity/layout draft; fictitious switch; provisional vertical M.2 lands"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/">
+      <title_block>
+        <title>Left_2M2_Vertical / Connectivity 01</title>
+        <company/>
+        <rev>J</rev>
+        <date>2026-09-29</date>
+        <source>Connectivity_01.kicad_sch</source>
+        <comment number="1" value="Connectivity/layout draft; fictitious switch; provisional vertical M.2 lands"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/">
+      <title_block>
+        <title>Left_2M2_Vertical / Connectivity 02</title>
+        <company/>
+        <rev>J</rev>
+        <date>2026-09-29</date>
+        <source>Connectivity_02.kicad_sch</source>
+        <comment number="1" value="Connectivity/layout draft; fictitious switch; provisional vertical M.2 lands"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/">
+      <title_block>
+        <title>Left_2M2_Vertical / Connectivity 03</title>
+        <company/>
+        <rev>J</rev>
+        <date>2026-09-29</date>
+        <source>Connectivity_03.kicad_sch</source>
+        <comment number="1" value="Connectivity/layout draft; fictitious switch; provisional vertical M.2 lands"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/">
+      <title_block>
+        <title>Left_2M2_Vertical / Connectivity 04</title>
+        <company/>
+        <rev>J</rev>
+        <date>2026-09-29</date>
+        <source>Connectivity_04.kicad_sch</source>
+        <comment number="1" value="Connectivity/layout draft; fictitious switch; provisional vertical M.2 lands"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/">
+      <title_block>
+        <title>Left_2M2_Vertical / Connectivity 05</title>
+        <company/>
+        <rev>J</rev>
+        <date>2026-09-29</date>
+        <source>Connectivity_05.kicad_sch</source>
+        <comment number="1" value="Connectivity/layout draft; fictitious switch; provisional vertical M.2 lands"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/">
+      <title_block>
+        <title>Left_2M2_Vertical / Connectivity 06</title>
+        <company/>
+        <rev>J</rev>
+        <date>2026-09-29</date>
+        <source>Connectivity_06.kicad_sch</source>
+        <comment number="1" value="Connectivity/layout draft; fictitious switch; provisional vertical M.2 lands"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/">
+      <title_block>
+        <title>Left_2M2_Vertical / Connectivity 07</title>
+        <company/>
+        <rev>J</rev>
+        <date>2026-09-29</date>
+        <source>Connectivity_07.kicad_sch</source>
+        <comment number="1" value="Connectivity/layout draft; fictitious switch; provisional vertical M.2 lands"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/">
+      <title_block>
+        <title>Left_2M2_Vertical / Connectivity 08</title>
+        <company/>
+        <rev>J</rev>
+        <date>2026-09-29</date>
+        <source>Connectivity_08.kicad_sch</source>
+        <comment number="1" value="Connectivity/layout draft; fictitious switch; provisional vertical M.2 lands"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>10uF 25V X7R</value>
+      <footprint>Local:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C101" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>b750034c-4e4c-485a-ad27-2595b69772a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C102">
+      <value>100nF 50V</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C102" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>e2d7f3c6-60d9-4217-bafc-8c765a700db5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C103">
+      <value>100nF 25V</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C103" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>41a8426e-25b3-454a-a0ef-4e1b78490a92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C104">
+      <value>22uF 16V X7R</value>
+      <footprint>Local:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C104" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>581f648b-d4d3-4e69-ba8d-a0f69c2bbf95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C105">
+      <value>22uF 16V X7R</value>
+      <footprint>Local:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C105" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>4c42df88-7e07-48e3-8566-7043489a9f54</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C106">
+      <value>1uF 16V</value>
+      <footprint>Local:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C106" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>b13119de-cf5e-4a67-8f93-e5733238ee04</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C120">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C120" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>3b18f736-01b1-4319-acbb-d24eca686927</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C121">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C121" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>cc8f43be-46cf-4b6d-bb00-3cee5d05a06a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C122">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C122" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>66d37656-8710-467f-b122-724ea49629a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C123">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C123" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>fbd3f88f-bfbc-43e7-ad2a-3a88c58a8112</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C124">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C124" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>3aaf4cb0-5409-454b-8814-cfafe7a52132</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C125">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C125" description=""/>
+      <property name="Sheetname" value="Connectivity 01"/>
+      <property name="Sheetfile" value="Connectivity_01.kicad_sch"/>
+      <sheetpath names="/Connectivity 01/" tstamps="/7c62e97e-c35f-4457-b434-595d52faa761/"/>
+      <tstamps>661aa1a8-4b06-422d-9a0a-bfef1693a621</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C126">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C126" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>aec07850-367d-4c9b-bc1e-1766527d1414</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C127">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C127" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>65c2c3f1-8f57-44ea-bfe2-84dbfe24983a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C201">
+      <value>10uF 25V X7R</value>
+      <footprint>Local:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C201" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>c30577ff-6ba7-4de2-985d-564493898598</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C202">
+      <value>100nF 50V</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C202" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>c4fe954d-0493-4f84-86df-bc8a2a5fb952</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C203">
+      <value>100nF 25V</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C203" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>b5853a47-2fd0-4fd5-9656-534676be3a25</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C204">
+      <value>22uF 16V X7R</value>
+      <footprint>Local:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C204" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>16f0f6ef-af49-4a07-95df-4562b8689b42</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C205">
+      <value>22uF 16V X7R</value>
+      <footprint>Local:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C205" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>f0075985-0260-45bd-aabc-6ff92f188200</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C206">
+      <value>1uF 16V</value>
+      <footprint>Local:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C206" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>a25fa0d2-c8e8-4dc5-a4b1-c7603e29022d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C220">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C220" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>a452eaf9-5267-4576-a947-cf7b71a00669</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C221">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C221" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>68d920dd-f19d-4bc1-bdf7-7841e6f3846e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C222">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C222" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>9a83849f-49c0-4fc2-a236-0d1e5dee03fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C223">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C223" description=""/>
+      <property name="Sheetname" value="Connectivity 02"/>
+      <property name="Sheetfile" value="Connectivity_02.kicad_sch"/>
+      <sheetpath names="/Connectivity 02/" tstamps="/4d6959f3-d94d-46a1-88cd-405c00177a91/"/>
+      <tstamps>23beef66-6c15-48ae-9391-f69680aca32c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C224">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C224" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>035dc396-3dcd-4c10-9c12-36375e005f38</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C225">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C225" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>d3c8d935-a692-4107-99f6-092a5de8cdf1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C226">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C226" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>20eb1a88-f199-4acc-bc67-2dc80e93dd20</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C227">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C227" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>aa161628-4706-4c39-84b4-769f7b73d0a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C401">
+      <value>10uF 25V X7R</value>
+      <footprint>Local:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C401" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>ebff6af4-43ec-41bc-abc0-179f99d084a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C402">
+      <value>100nF 50V</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C402" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>aa83f952-1861-4d72-a1f3-32f70d20d842</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C403">
+      <value>100nF 25V</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C403" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>3a319694-756b-44d8-98f5-7eec1351adb0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C404">
+      <value>22uF 16V X7R</value>
+      <footprint>Local:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C404" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>0fecb37b-9920-4f0c-9bee-ca380e29fcb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C405">
+      <value>22uF 16V X7R</value>
+      <footprint>Local:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C405" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>4f7b4206-0bd6-4433-a917-440e0c37c3cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C406">
+      <value>1uF 16V</value>
+      <footprint>Local:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C406" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>20c8c92e-762a-4b57-a57f-dd8ebb7a2745</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C420">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C420" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>6838dc96-beb5-48f7-a733-5419c91ae055</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C421">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C421" description=""/>
+      <property name="Sheetname" value="Connectivity 03"/>
+      <property name="Sheetfile" value="Connectivity_03.kicad_sch"/>
+      <sheetpath names="/Connectivity 03/" tstamps="/2d5f303f-33f2-4300-b986-e6f853055783/"/>
+      <tstamps>a5186f0a-ab04-4d71-8215-486046e05410</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C422">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C422" description=""/>
+      <property name="Sheetname" value="Connectivity 04"/>
+      <property name="Sheetfile" value="Connectivity_04.kicad_sch"/>
+      <sheetpath names="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/"/>
+      <tstamps>c294fb91-d1f9-4cd1-a17e-25bac48533ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C423">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C423" description=""/>
+      <property name="Sheetname" value="Connectivity 04"/>
+      <property name="Sheetfile" value="Connectivity_04.kicad_sch"/>
+      <sheetpath names="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/"/>
+      <tstamps>c091823c-612a-45e7-8d32-698d47db72fb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C424">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C424" description=""/>
+      <property name="Sheetname" value="Connectivity 04"/>
+      <property name="Sheetfile" value="Connectivity_04.kicad_sch"/>
+      <sheetpath names="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/"/>
+      <tstamps>a26a54e9-e134-4eb4-8760-95fe429ca555</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C425">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C425" description=""/>
+      <property name="Sheetname" value="Connectivity 04"/>
+      <property name="Sheetfile" value="Connectivity_04.kicad_sch"/>
+      <sheetpath names="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/"/>
+      <tstamps>9c106554-efa2-4cf7-9dce-9197b89d5263</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C426">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C426" description=""/>
+      <property name="Sheetname" value="Connectivity 04"/>
+      <property name="Sheetfile" value="Connectivity_04.kicad_sch"/>
+      <sheetpath names="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/"/>
+      <tstamps>ad085f43-7099-4419-aabd-c7e68ba9d519</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C427">
+      <value>220nF 16V AC</value>
+      <footprint>Local:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_C427" description=""/>
+      <property name="Sheetname" value="Connectivity 04"/>
+      <property name="Sheetfile" value="Connectivity_04.kicad_sch"/>
+      <sheetpath names="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/"/>
+      <tstamps>c574ec9c-9536-4a60-9131-1e5e423b79f0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>M1 SSD / MDT350M01001VT Gen4</value>
+      <footprint>Local:Amphenol_MDT350M01001VT_MKey_Vertical_Gen4</footprint>
+      <fields>
+        <field name="Footprint">Local:Amphenol_MDT350M01001VT_MKey_Vertical_Gen4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J1" description=""/>
+      <property name="Sheetname" value="Connectivity 04"/>
+      <property name="Sheetfile" value="Connectivity_04.kicad_sch"/>
+      <sheetpath names="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/"/>
+      <tstamps>db90a76d-586e-42d2-84f6-602d4ba4ab4c 045935e0-c7f5-41de-94fe-52950f408687</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="42"/>
+            <pin num="43"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="46"/>
+            <pin num="47"/>
+            <pin num="48"/>
+            <pin num="49"/>
+            <pin num="50"/>
+            <pin num="51"/>
+            <pin num="52"/>
+            <pin num="53"/>
+            <pin num="54"/>
+            <pin num="55"/>
+            <pin num="56"/>
+            <pin num="57"/>
+            <pin num="58"/>
+            <pin num="67"/>
+            <pin num="68"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="69"/>
+            <pin num="70"/>
+            <pin num="71"/>
+            <pin num="72"/>
+            <pin num="73"/>
+            <pin num="74"/>
+            <pin num="75"/>
+            <pin num="MP1"/>
+            <pin num="MP2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>M2 SSD / MDT350M01001VT Gen4</value>
+      <footprint>Local:Amphenol_MDT350M01001VT_MKey_Vertical_Gen4</footprint>
+      <fields>
+        <field name="Footprint">Local:Amphenol_MDT350M01001VT_MKey_Vertical_Gen4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J2" description=""/>
+      <property name="Sheetname" value="Connectivity 04"/>
+      <property name="Sheetfile" value="Connectivity_04.kicad_sch"/>
+      <sheetpath names="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/"/>
+      <tstamps>dbd01c15-aeb7-4432-a14e-300c2fd72204 43c8a6c2-9a80-4910-a504-5d79b95eeec1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="42"/>
+            <pin num="43"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="46"/>
+            <pin num="47"/>
+            <pin num="48"/>
+            <pin num="49"/>
+            <pin num="50"/>
+            <pin num="51"/>
+            <pin num="52"/>
+            <pin num="53"/>
+            <pin num="54"/>
+            <pin num="55"/>
+            <pin num="56"/>
+            <pin num="57"/>
+            <pin num="58"/>
+            <pin num="67"/>
+            <pin num="68"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="69"/>
+            <pin num="70"/>
+            <pin num="71"/>
+            <pin num="72"/>
+            <pin num="73"/>
+            <pin num="74"/>
+            <pin num="75"/>
+            <pin num="MP1"/>
+            <pin num="MP2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>M4 SSD / MDT350M01001VT Gen4</value>
+      <footprint>Local:Amphenol_MDT350M01001VT_MKey_Vertical_Gen4</footprint>
+      <fields>
+        <field name="Footprint">Local:Amphenol_MDT350M01001VT_MKey_Vertical_Gen4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J4" description=""/>
+      <property name="Sheetname" value="Connectivity 04"/>
+      <property name="Sheetfile" value="Connectivity_04.kicad_sch"/>
+      <sheetpath names="/Connectivity 04/" tstamps="/413d2ae5-8878-4de5-b303-35b68b3ccce1/"/>
+      <tstamps>f0e43ffa-96ca-423a-8ece-1eaf9101714f e4095a0e-f00c-47c3-a151-0ab71fb8842c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="42"/>
+            <pin num="43"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="46"/>
+            <pin num="47"/>
+            <pin num="48"/>
+            <pin num="49"/>
+            <pin num="50"/>
+            <pin num="51"/>
+            <pin num="52"/>
+            <pin num="53"/>
+            <pin num="54"/>
+            <pin num="55"/>
+            <pin num="56"/>
+            <pin num="57"/>
+            <pin num="58"/>
+            <pin num="67"/>
+            <pin num="68"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="69"/>
+            <pin num="70"/>
+            <pin num="71"/>
+            <pin num="72"/>
+            <pin num="73"/>
+            <pin num="74"/>
+            <pin num="75"/>
+            <pin num="MP1"/>
+            <pin num="MP2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J50">
+      <value>12V protected / GND / 5A design target</value>
+      <footprint>Local:Wire_12V_GND_3A</footprint>
+      <fields>
+        <field name="Footprint">Local:Wire_12V_GND_3A</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J50" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>31bd3c2c-340d-4d00-a984-c6366ef4f3aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J51">
+      <value>Three x4 port control / 12-wire</value>
+      <footprint>Local:Control_12_Wire</footprint>
+      <fields>
+        <field name="Footprint">Local:Control_12_Wire</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J51" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>65579dac-eddc-4ee9-af47-cb446a78909e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J101">
+      <value>M1 TX0</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J101" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>82578b77-6152-4861-ba7b-7fbb023223e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J102">
+      <value>M1 RX0</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J102" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>569694c3-7fb3-476d-92d9-45a076badfd6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J103">
+      <value>M1 TX1</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J103" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>804f0008-916b-42fb-8486-57e6160c44f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J104">
+      <value>M1 RX1</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J104" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>5097c83f-d1ce-4ba5-bd9c-886d148e73be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J105">
+      <value>M1 TX2</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J105" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>56065237-e8f1-4ac3-9c0b-35226eb0d70e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J106">
+      <value>M1 RX2</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J106" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>e2662149-8b12-41cb-bea2-651ac449616b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J107">
+      <value>M1 TX3</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J107" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>c20bbed2-247e-4741-9fcb-89210a0f250c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J108">
+      <value>M1 RX3</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J108" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>3c05581a-3bbb-43e3-98c5-d06fd96816c4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J109">
+      <value>M1 CLK</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J109" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>bf66aaef-dd06-4ab0-99f3-fbd20f5b6dff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J110">
+      <value>M2 TX0</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J110" description=""/>
+      <property name="Sheetname" value="Connectivity 05"/>
+      <property name="Sheetfile" value="Connectivity_05.kicad_sch"/>
+      <sheetpath names="/Connectivity 05/" tstamps="/4899ec52-ebd6-4146-b12f-0a50f006b37d/"/>
+      <tstamps>21f958d9-8c97-4d9c-9f5a-90f3ec881cf2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J111">
+      <value>M2 RX0</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J111" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>dab9a50a-522d-4bc8-ac14-6f67e43f3ea5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J112">
+      <value>M2 TX1</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J112" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>3243d55a-342d-43a2-8ffd-10dc8186280b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J113">
+      <value>M2 RX1</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J113" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>552b28a9-1b19-431e-910f-376583e62f51</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J114">
+      <value>M2 TX2</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J114" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>ff5dc738-5a34-4bfd-9f2a-bf939f115e76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J115">
+      <value>M2 RX2</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J115" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>7db4cca5-07bf-47a0-b1bb-e85b261eb4f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J116">
+      <value>M2 TX3</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J116" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>17de08a6-a59a-4f76-b26d-8373fc4b479c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J117">
+      <value>M2 RX3</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J117" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>50f355e3-54c7-4e62-8ff5-6b883655e106</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J118">
+      <value>M2 CLK</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J118" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>6b41aeac-4aff-4e3e-971e-3628274b1959</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J119">
+      <value>M4 TX0</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J119" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>53fb9dd8-3509-44b9-893f-8abfe6c1afae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J120">
+      <value>M4 RX0</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J120" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>f22eeb10-9c68-4e5b-866a-73a961b189d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J121">
+      <value>M4 TX1</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J121" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>a45bfe59-4294-4122-984f-a8d3d56ead7a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J122">
+      <value>M4 RX1</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J122" description=""/>
+      <property name="Sheetname" value="Connectivity 06"/>
+      <property name="Sheetfile" value="Connectivity_06.kicad_sch"/>
+      <sheetpath names="/Connectivity 06/" tstamps="/c2297991-99b8-4f83-81ad-148519f93d6b/"/>
+      <tstamps>f9e66ea6-2032-40b5-8747-a7c6d552956d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J123">
+      <value>M4 TX2</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J123" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>8c52d52b-db80-4171-9cf3-cb3a357d2948</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J124">
+      <value>M4 RX2</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J124" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>ebd075af-6cb1-4487-bc94-5e3a5b6a0e8d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J125">
+      <value>M4 TX3</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J125" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>cd6744e2-d97f-43a7-a946-99481a583268</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J126">
+      <value>M4 RX3</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J126" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>eb4fb121-9cda-4c58-9a4b-2d277c2364d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J127">
+      <value>M4 CLK</value>
+      <footprint>Local:Twinax_85R_Solder_DRAFT</footprint>
+      <fields>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_J127" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>c1e85e0d-6d24-4c59-9247-a7262be499db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="G"/>
+            <pin num="N"/>
+            <pin num="P"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH XAL5030-222MEC</value>
+      <footprint>Local:L_Coilcraft_XAL5030-XXX</footprint>
+      <fields>
+        <field name="Footprint">Local:L_Coilcraft_XAL5030-XXX</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_L1" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>a023a788-bb80-4eb4-b252-eedffd179311</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH XAL5030-222MEC</value>
+      <footprint>Local:L_Coilcraft_XAL5030-XXX</footprint>
+      <fields>
+        <field name="Footprint">Local:L_Coilcraft_XAL5030-XXX</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_L2" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>0b6c8b5e-a29f-49af-b093-42e88202360c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L4">
+      <value>2.2uH XAL5030-222MEC</value>
+      <footprint>Local:L_Coilcraft_XAL5030-XXX</footprint>
+      <fields>
+        <field name="Footprint">Local:L_Coilcraft_XAL5030-XXX</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_L4" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>b878e842-506e-45b1-b648-cfbec65e3c87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R101">
+      <value>33.2k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R101" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>037e155b-b87a-492e-b9c8-90f47a78c26b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R102">
+      <value>10k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R102" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>1e41b4e6-422c-4ab1-95d4-6a010c0b15c7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R110">
+      <value>10k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R110" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>fdd6fada-04ba-4b93-b5f5-6e0051ee4d6f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R111">
+      <value>10k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R111" description=""/>
+      <property name="Sheetname" value="Connectivity 07"/>
+      <property name="Sheetfile" value="Connectivity_07.kicad_sch"/>
+      <sheetpath names="/Connectivity 07/" tstamps="/760883fb-ff4b-4fc4-8b2f-e6b1b0ed7e64/"/>
+      <tstamps>87bd9b61-1aa4-453d-bd2e-4c9dff84d339</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R201">
+      <value>33.2k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R201" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>5563b368-303b-4f2a-af77-ac3f1e9385d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R202">
+      <value>10k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R202" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>f734e6f4-fa14-4199-a307-01e4e7373619</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R210">
+      <value>10k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R210" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>dbb47b72-66ed-48e7-923a-697345a889a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R211">
+      <value>10k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R211" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>29669c62-f1f0-4bb1-8200-bbf7aa521857</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R401">
+      <value>33.2k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R401" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>76b0f4f8-631c-4eac-8c2c-7f76c3edeab6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R402">
+      <value>10k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R402" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>37c3f719-dcd9-4b10-a572-3a18f29b42d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R410">
+      <value>10k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R410" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>91f7edc7-1e50-4e58-a02f-f67fb5047141</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R411">
+      <value>10k</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R411" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>d7938e39-30b4-4d4a-af64-b7d4719d2781</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U21">
+      <value>TPS565201DDCR</value>
+      <footprint>Local:SOT-23-6</footprint>
+      <fields>
+        <field name="Footprint">Local:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_U21" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>fc50ae3c-bfc1-43c3-a200-dc7a4bf84117</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U22">
+      <value>TPS565201DDCR</value>
+      <footprint>Local:SOT-23-6</footprint>
+      <fields>
+        <field name="Footprint">Local:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_U22" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>120aef77-0271-40e2-b7cc-9bc26e92199f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U24">
+      <value>TPS565201DDCR</value>
+      <footprint>Local:SOT-23-6</footprint>
+      <fields>
+        <field name="Footprint">Local:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_U24" description=""/>
+      <property name="Sheetname" value="Connectivity 08"/>
+      <property name="Sheetfile" value="Connectivity_08.kicad_sch"/>
+      <sheetpath names="/Connectivity 08/" tstamps="/04128098-ea45-4906-a4e2-570f52fb376f/"/>
+      <tstamps>63db34b5-980a-4bd9-abed-2240a381f267</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Local" part="PART_C101">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF 25V X7R</field>
+        <field name="Footprint">Local:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C102">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C103">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 25V</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C104">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF 16V X7R</field>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C105">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF 16V X7R</field>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C106">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF 16V</field>
+        <field name="Footprint">Local:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C120">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C121">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C122">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C123">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C124">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C125">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C126">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C127">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C201">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF 25V X7R</field>
+        <field name="Footprint">Local:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C202">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C203">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 25V</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C204">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF 16V X7R</field>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C205">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF 16V X7R</field>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C206">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF 16V</field>
+        <field name="Footprint">Local:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C220">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C221">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C222">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C223">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C224">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C225">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C226">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C227">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C401">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF 25V X7R</field>
+        <field name="Footprint">Local:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C402">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C403">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 25V</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C404">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF 16V X7R</field>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C405">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF 16V X7R</field>
+        <field name="Footprint">Local:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C406">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF 16V</field>
+        <field name="Footprint">Local:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C420">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C421">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C422">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C423">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C424">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C425">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C426">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_C427">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF 16V AC</field>
+        <field name="Footprint">Local:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 SSD / MDT350M01001VT Gen4</field>
+        <field name="Footprint">Local:Amphenol_MDT350M01001VT_MKey_Vertical_Gen4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="" type="passive"/>
+        <pin num="49" name="49" type="passive"/>
+        <pin num="50" name="50" type="passive"/>
+        <pin num="51" name="51" type="passive"/>
+        <pin num="52" name="52" type="passive"/>
+        <pin num="53" name="53" type="passive"/>
+        <pin num="54" name="54" type="passive"/>
+        <pin num="55" name="55" type="passive"/>
+        <pin num="56" name="" type="passive"/>
+        <pin num="57" name="57" type="passive"/>
+        <pin num="58" name="" type="passive"/>
+        <pin num="67" name="" type="passive"/>
+        <pin num="68" name="" type="passive"/>
+        <pin num="69" name="69" type="passive"/>
+        <pin num="70" name="70" type="passive"/>
+        <pin num="71" name="71" type="passive"/>
+        <pin num="72" name="72" type="passive"/>
+        <pin num="73" name="73" type="passive"/>
+        <pin num="74" name="74" type="passive"/>
+        <pin num="75" name="75" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J101">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 TX0</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J102">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 RX0</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J103">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 TX1</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J104">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 RX1</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J105">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 TX2</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J106">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 RX2</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J107">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 TX3</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J108">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 RX3</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J109">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M1 CLK</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J110">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 TX0</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J111">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 RX0</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J112">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 TX1</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J113">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 RX1</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J114">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 TX2</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J115">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 RX2</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J116">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 TX3</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J117">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 RX3</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J118">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 CLK</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J119">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 TX0</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J120">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 RX0</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J121">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 TX1</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J122">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 RX1</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J123">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 TX2</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J124">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 RX2</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J125">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 TX3</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J126">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 RX3</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J127">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 CLK</field>
+        <field name="Footprint">Local:Twinax_85R_Solder_DRAFT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="G" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M2 SSD / MDT350M01001VT Gen4</field>
+        <field name="Footprint">Local:Amphenol_MDT350M01001VT_MKey_Vertical_Gen4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="" type="passive"/>
+        <pin num="49" name="49" type="passive"/>
+        <pin num="50" name="50" type="passive"/>
+        <pin num="51" name="51" type="passive"/>
+        <pin num="52" name="52" type="passive"/>
+        <pin num="53" name="53" type="passive"/>
+        <pin num="54" name="54" type="passive"/>
+        <pin num="55" name="55" type="passive"/>
+        <pin num="56" name="" type="passive"/>
+        <pin num="57" name="57" type="passive"/>
+        <pin num="58" name="" type="passive"/>
+        <pin num="67" name="" type="passive"/>
+        <pin num="68" name="" type="passive"/>
+        <pin num="69" name="69" type="passive"/>
+        <pin num="70" name="70" type="passive"/>
+        <pin num="71" name="71" type="passive"/>
+        <pin num="72" name="72" type="passive"/>
+        <pin num="73" name="73" type="passive"/>
+        <pin num="74" name="74" type="passive"/>
+        <pin num="75" name="75" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M4 SSD / MDT350M01001VT Gen4</field>
+        <field name="Footprint">Local:Amphenol_MDT350M01001VT_MKey_Vertical_Gen4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="" type="passive"/>
+        <pin num="49" name="49" type="passive"/>
+        <pin num="50" name="50" type="passive"/>
+        <pin num="51" name="51" type="passive"/>
+        <pin num="52" name="52" type="passive"/>
+        <pin num="53" name="53" type="passive"/>
+        <pin num="54" name="54" type="passive"/>
+        <pin num="55" name="55" type="passive"/>
+        <pin num="56" name="" type="passive"/>
+        <pin num="57" name="57" type="passive"/>
+        <pin num="58" name="" type="passive"/>
+        <pin num="67" name="" type="passive"/>
+        <pin num="68" name="" type="passive"/>
+        <pin num="69" name="69" type="passive"/>
+        <pin num="70" name="70" type="passive"/>
+        <pin num="71" name="71" type="passive"/>
+        <pin num="72" name="72" type="passive"/>
+        <pin num="73" name="73" type="passive"/>
+        <pin num="74" name="74" type="passive"/>
+        <pin num="75" name="75" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J50">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">12V protected / GND / 5A design target</field>
+        <field name="Footprint">Local:Wire_12V_GND_3A</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_J51">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Three x4 port control / 12-wire</field>
+        <field name="Footprint">Local:Control_12_Wire</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_L1">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">2.2uH XAL5030-222MEC</field>
+        <field name="Footprint">Local:L_Coilcraft_XAL5030-XXX</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_L2">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">2.2uH XAL5030-222MEC</field>
+        <field name="Footprint">Local:L_Coilcraft_XAL5030-XXX</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_L4">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">2.2uH XAL5030-222MEC</field>
+        <field name="Footprint">Local:L_Coilcraft_XAL5030-XXX</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R101">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">33.2k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R102">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R110">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R111">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R201">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">33.2k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R202">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R210">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R211">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R401">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">33.2k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R402">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R410">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R411">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_U21">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS565201DDCR</field>
+        <field name="Footprint">Local:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+        <pin num="4" name="VFB" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="VBST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_U22">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS565201DDCR</field>
+        <field name="Footprint">Local:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+        <pin num="4" name="VFB" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="VBST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_U24">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS565201DDCR</field>
+        <field name="Footprint">Local:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+        <pin num="4" name="VFB" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="VBST" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Local">
+      <uri>${KIPRJMOD}/Local.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CABLE12" class="Default">
+      <node ref="C101" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C102" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C201" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C202" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C401" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C402" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J50" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U21" pin="3" pinfunction="VIN_3" pintype="passive"/>
+      <node ref="U21" pin="5" pinfunction="EN_5" pintype="passive"/>
+      <node ref="U22" pin="3" pinfunction="VIN_3" pintype="passive"/>
+      <node ref="U22" pin="5" pinfunction="EN_5" pintype="passive"/>
+      <node ref="U24" pin="3" pinfunction="VIN_3" pintype="passive"/>
+      <node ref="U24" pin="5" pinfunction="EN_5" pintype="passive"/>
+    </net>
+    <net code="2" name="/GND" class="Default">
+      <node ref="C101" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C102" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C104" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C105" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C106" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C201" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C202" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C204" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C205" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C206" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C401" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C402" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C404" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C405" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C406" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="15_15" pintype="passive"/>
+      <node ref="J1" pin="21" pinfunction="21_21" pintype="passive"/>
+      <node ref="J1" pin="27" pinfunction="27_27" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J1" pin="33" pinfunction="33_33" pintype="passive"/>
+      <node ref="J1" pin="39" pinfunction="39_39" pintype="passive"/>
+      <node ref="J1" pin="45" pinfunction="45_45" pintype="passive"/>
+      <node ref="J1" pin="51" pinfunction="51_51" pintype="passive"/>
+      <node ref="J1" pin="57" pinfunction="57_57" pintype="passive"/>
+      <node ref="J1" pin="69" pinfunction="69_69" pintype="passive"/>
+      <node ref="J1" pin="71" pinfunction="71_71" pintype="passive"/>
+      <node ref="J1" pin="73" pinfunction="73_73" pintype="passive"/>
+      <node ref="J1" pin="75" pinfunction="75_75" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="J1" pin="MP1" pinfunction="MP1_MP1" pintype="passive"/>
+      <node ref="J1" pin="MP2" pinfunction="MP2_MP2" pintype="passive"/>
+      <node ref="J101" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J102" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J103" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J104" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J105" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J106" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J107" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J108" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J109" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J110" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J111" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J112" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J113" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J114" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J115" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J116" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J117" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J118" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J119" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J120" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J121" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J122" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J123" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J124" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J125" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J126" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J127" pin="G" pinfunction="G_G" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="15_15" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="21_21" pintype="passive"/>
+      <node ref="J2" pin="27" pinfunction="27_27" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J2" pin="33" pinfunction="33_33" pintype="passive"/>
+      <node ref="J2" pin="39" pinfunction="39_39" pintype="passive"/>
+      <node ref="J2" pin="45" pinfunction="45_45" pintype="passive"/>
+      <node ref="J2" pin="51" pinfunction="51_51" pintype="passive"/>
+      <node ref="J2" pin="57" pinfunction="57_57" pintype="passive"/>
+      <node ref="J2" pin="69" pinfunction="69_69" pintype="passive"/>
+      <node ref="J2" pin="71" pinfunction="71_71" pintype="passive"/>
+      <node ref="J2" pin="73" pinfunction="73_73" pintype="passive"/>
+      <node ref="J2" pin="75" pinfunction="75_75" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="J2" pin="MP1" pinfunction="MP1_MP1" pintype="passive"/>
+      <node ref="J2" pin="MP2" pinfunction="MP2_MP2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="15_15" pintype="passive"/>
+      <node ref="J4" pin="21" pinfunction="21_21" pintype="passive"/>
+      <node ref="J4" pin="27" pinfunction="27_27" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J4" pin="33" pinfunction="33_33" pintype="passive"/>
+      <node ref="J4" pin="39" pinfunction="39_39" pintype="passive"/>
+      <node ref="J4" pin="45" pinfunction="45_45" pintype="passive"/>
+      <node ref="J4" pin="51" pinfunction="51_51" pintype="passive"/>
+      <node ref="J4" pin="57" pinfunction="57_57" pintype="passive"/>
+      <node ref="J4" pin="69" pinfunction="69_69" pintype="passive"/>
+      <node ref="J4" pin="71" pinfunction="71_71" pintype="passive"/>
+      <node ref="J4" pin="73" pinfunction="73_73" pintype="passive"/>
+      <node ref="J4" pin="75" pinfunction="75_75" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="J4" pin="MP1" pinfunction="MP1_MP1" pintype="passive"/>
+      <node ref="J4" pin="MP2" pinfunction="MP2_MP2" pintype="passive"/>
+      <node ref="J50" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J51" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="J51" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="J51" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="R102" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R202" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R402" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U21" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U22" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U24" pin="1" pinfunction="GND_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/M1_3V3" class="Default">
+      <node ref="C104" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C105" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C106" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="14_14" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="16_16" pintype="passive"/>
+      <node ref="J1" pin="18" pinfunction="18_18" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J1" pin="70" pinfunction="70_70" pintype="passive"/>
+      <node ref="J1" pin="72" pinfunction="72_72" pintype="passive"/>
+      <node ref="J1" pin="74" pinfunction="74_74" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R101" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R110" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R111" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/M1_BST" class="Default">
+      <node ref="C103" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U21" pin="6" pinfunction="VBST_6" pintype="passive"/>
+    </net>
+    <net code="5" name="/M1_CLKREQ" class="Default">
+      <node ref="J1" pin="52" pinfunction="52_52" pintype="passive"/>
+      <node ref="J51" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R110" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/M1_CLK_N" class="Default">
+      <node ref="J1" pin="53" pinfunction="53_53" pintype="passive"/>
+      <node ref="J109" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="7" name="/M1_CLK_P" class="Default">
+      <node ref="J1" pin="55" pinfunction="55_55" pintype="passive"/>
+      <node ref="J109" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="8" name="/M1_FB" class="Default">
+      <node ref="R101" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R102" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U21" pin="4" pinfunction="VFB_4" pintype="passive"/>
+    </net>
+    <net code="9" name="/M1_PERST" class="Default">
+      <node ref="J1" pin="50" pinfunction="50_50" pintype="passive"/>
+      <node ref="J51" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="10" name="/M1_RX0_N" class="Default">
+      <node ref="J1" pin="41" pinfunction="41_41" pintype="passive"/>
+      <node ref="J102" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="11" name="/M1_RX0_P" class="Default">
+      <node ref="J1" pin="43" pinfunction="43_43" pintype="passive"/>
+      <node ref="J102" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="12" name="/M1_RX1_N" class="Default">
+      <node ref="J1" pin="29" pinfunction="29_29" pintype="passive"/>
+      <node ref="J104" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="13" name="/M1_RX1_P" class="Default">
+      <node ref="J1" pin="31" pinfunction="31_31" pintype="passive"/>
+      <node ref="J104" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="14" name="/M1_RX2_N" class="Default">
+      <node ref="J1" pin="17" pinfunction="17_17" pintype="passive"/>
+      <node ref="J106" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="15" name="/M1_RX2_P" class="Default">
+      <node ref="J1" pin="19" pinfunction="19_19" pintype="passive"/>
+      <node ref="J106" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="16" name="/M1_RX3_N" class="Default">
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J108" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="17" name="/M1_RX3_P" class="Default">
+      <node ref="J1" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="J108" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="18" name="/M1_SW" class="Default">
+      <node ref="C103" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U21" pin="2" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="19" name="/M1_TX0_N" class="Default">
+      <node ref="C121" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J101" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="20" name="/M1_TX0_N_AC" class="Default">
+      <node ref="C121" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="47" pinfunction="47_47" pintype="passive"/>
+    </net>
+    <net code="21" name="/M1_TX0_P" class="Default">
+      <node ref="C120" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J101" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="22" name="/M1_TX0_P_AC" class="Default">
+      <node ref="C120" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="49" pinfunction="49_49" pintype="passive"/>
+    </net>
+    <net code="23" name="/M1_TX1_N" class="Default">
+      <node ref="C123" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J103" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="24" name="/M1_TX1_N_AC" class="Default">
+      <node ref="C123" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="35" pinfunction="35_35" pintype="passive"/>
+    </net>
+    <net code="25" name="/M1_TX1_P" class="Default">
+      <node ref="C122" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J103" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="26" name="/M1_TX1_P_AC" class="Default">
+      <node ref="C122" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="37" pinfunction="37_37" pintype="passive"/>
+    </net>
+    <net code="27" name="/M1_TX2_N" class="Default">
+      <node ref="C125" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J105" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="28" name="/M1_TX2_N_AC" class="Default">
+      <node ref="C125" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="23_23" pintype="passive"/>
+    </net>
+    <net code="29" name="/M1_TX2_P" class="Default">
+      <node ref="C124" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J105" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="30" name="/M1_TX2_P_AC" class="Default">
+      <node ref="C124" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="25" pinfunction="25_25" pintype="passive"/>
+    </net>
+    <net code="31" name="/M1_TX3_N" class="Default">
+      <node ref="C127" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J107" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="32" name="/M1_TX3_N_AC" class="Default">
+      <node ref="C127" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="11_11" pintype="passive"/>
+    </net>
+    <net code="33" name="/M1_TX3_P" class="Default">
+      <node ref="C126" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J107" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="34" name="/M1_TX3_P_AC" class="Default">
+      <node ref="C126" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="13_13" pintype="passive"/>
+    </net>
+    <net code="35" name="/M1_WAKE" class="Default">
+      <node ref="J1" pin="54" pinfunction="54_54" pintype="passive"/>
+      <node ref="J51" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R111" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="36" name="/M2_3V3" class="Default">
+      <node ref="C204" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C205" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C206" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="14_14" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="16_16" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="18_18" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J2" pin="70" pinfunction="70_70" pintype="passive"/>
+      <node ref="J2" pin="72" pinfunction="72_72" pintype="passive"/>
+      <node ref="J2" pin="74" pinfunction="74_74" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R201" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R210" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R211" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="37" name="/M2_BST" class="Default">
+      <node ref="C203" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U22" pin="6" pinfunction="VBST_6" pintype="passive"/>
+    </net>
+    <net code="38" name="/M2_CLKREQ" class="Default">
+      <node ref="J2" pin="52" pinfunction="52_52" pintype="passive"/>
+      <node ref="J51" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R210" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="39" name="/M2_CLK_N" class="Default">
+      <node ref="J118" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J2" pin="53" pinfunction="53_53" pintype="passive"/>
+    </net>
+    <net code="40" name="/M2_CLK_P" class="Default">
+      <node ref="J118" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J2" pin="55" pinfunction="55_55" pintype="passive"/>
+    </net>
+    <net code="41" name="/M2_FB" class="Default">
+      <node ref="R201" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R202" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U22" pin="4" pinfunction="VFB_4" pintype="passive"/>
+    </net>
+    <net code="42" name="/M2_PERST" class="Default">
+      <node ref="J2" pin="50" pinfunction="50_50" pintype="passive"/>
+      <node ref="J51" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="43" name="/M2_RX0_N" class="Default">
+      <node ref="J111" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J2" pin="41" pinfunction="41_41" pintype="passive"/>
+    </net>
+    <net code="44" name="/M2_RX0_P" class="Default">
+      <node ref="J111" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J2" pin="43" pinfunction="43_43" pintype="passive"/>
+    </net>
+    <net code="45" name="/M2_RX1_N" class="Default">
+      <node ref="J113" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J2" pin="29" pinfunction="29_29" pintype="passive"/>
+    </net>
+    <net code="46" name="/M2_RX1_P" class="Default">
+      <node ref="J113" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J2" pin="31" pinfunction="31_31" pintype="passive"/>
+    </net>
+    <net code="47" name="/M2_RX2_N" class="Default">
+      <node ref="J115" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="17_17" pintype="passive"/>
+    </net>
+    <net code="48" name="/M2_RX2_P" class="Default">
+      <node ref="J115" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="19_19" pintype="passive"/>
+    </net>
+    <net code="49" name="/M2_RX3_N" class="Default">
+      <node ref="J117" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5_5" pintype="passive"/>
+    </net>
+    <net code="50" name="/M2_RX3_P" class="Default">
+      <node ref="J117" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7_7" pintype="passive"/>
+    </net>
+    <net code="51" name="/M2_SW" class="Default">
+      <node ref="C203" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U22" pin="2" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="52" name="/M2_TX0_N" class="Default">
+      <node ref="C221" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J110" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="53" name="/M2_TX0_N_AC" class="Default">
+      <node ref="C221" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="47" pinfunction="47_47" pintype="passive"/>
+    </net>
+    <net code="54" name="/M2_TX0_P" class="Default">
+      <node ref="C220" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J110" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="55" name="/M2_TX0_P_AC" class="Default">
+      <node ref="C220" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="49" pinfunction="49_49" pintype="passive"/>
+    </net>
+    <net code="56" name="/M2_TX1_N" class="Default">
+      <node ref="C223" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J112" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="57" name="/M2_TX1_N_AC" class="Default">
+      <node ref="C223" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="35" pinfunction="35_35" pintype="passive"/>
+    </net>
+    <net code="58" name="/M2_TX1_P" class="Default">
+      <node ref="C222" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J112" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="59" name="/M2_TX1_P_AC" class="Default">
+      <node ref="C222" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="37" pinfunction="37_37" pintype="passive"/>
+    </net>
+    <net code="60" name="/M2_TX2_N" class="Default">
+      <node ref="C225" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J114" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="61" name="/M2_TX2_N_AC" class="Default">
+      <node ref="C225" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="23" pinfunction="23_23" pintype="passive"/>
+    </net>
+    <net code="62" name="/M2_TX2_P" class="Default">
+      <node ref="C224" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J114" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="63" name="/M2_TX2_P_AC" class="Default">
+      <node ref="C224" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="25" pinfunction="25_25" pintype="passive"/>
+    </net>
+    <net code="64" name="/M2_TX3_N" class="Default">
+      <node ref="C227" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J116" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="65" name="/M2_TX3_N_AC" class="Default">
+      <node ref="C227" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="11_11" pintype="passive"/>
+    </net>
+    <net code="66" name="/M2_TX3_P" class="Default">
+      <node ref="C226" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J116" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="67" name="/M2_TX3_P_AC" class="Default">
+      <node ref="C226" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="13" pinfunction="13_13" pintype="passive"/>
+    </net>
+    <net code="68" name="/M2_WAKE" class="Default">
+      <node ref="J2" pin="54" pinfunction="54_54" pintype="passive"/>
+      <node ref="J51" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R211" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="69" name="/M4_3V3" class="Default">
+      <node ref="C404" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C405" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C406" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="14_14" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="16_16" pintype="passive"/>
+      <node ref="J4" pin="18" pinfunction="18_18" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J4" pin="70" pinfunction="70_70" pintype="passive"/>
+      <node ref="J4" pin="72" pinfunction="72_72" pintype="passive"/>
+      <node ref="J4" pin="74" pinfunction="74_74" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R401" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R410" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R411" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="70" name="/M4_BST" class="Default">
+      <node ref="C403" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U24" pin="6" pinfunction="VBST_6" pintype="passive"/>
+    </net>
+    <net code="71" name="/M4_CLKREQ" class="Default">
+      <node ref="J4" pin="52" pinfunction="52_52" pintype="passive"/>
+      <node ref="J51" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="R410" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="72" name="/M4_CLK_N" class="Default">
+      <node ref="J127" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J4" pin="53" pinfunction="53_53" pintype="passive"/>
+    </net>
+    <net code="73" name="/M4_CLK_P" class="Default">
+      <node ref="J127" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J4" pin="55" pinfunction="55_55" pintype="passive"/>
+    </net>
+    <net code="74" name="/M4_FB" class="Default">
+      <node ref="R401" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R402" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U24" pin="4" pinfunction="VFB_4" pintype="passive"/>
+    </net>
+    <net code="75" name="/M4_PERST" class="Default">
+      <node ref="J4" pin="50" pinfunction="50_50" pintype="passive"/>
+      <node ref="J51" pin="7" pinfunction="7_7" pintype="passive"/>
+    </net>
+    <net code="76" name="/M4_RX0_N" class="Default">
+      <node ref="J120" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J4" pin="41" pinfunction="41_41" pintype="passive"/>
+    </net>
+    <net code="77" name="/M4_RX0_P" class="Default">
+      <node ref="J120" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J4" pin="43" pinfunction="43_43" pintype="passive"/>
+    </net>
+    <net code="78" name="/M4_RX1_N" class="Default">
+      <node ref="J122" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J4" pin="29" pinfunction="29_29" pintype="passive"/>
+    </net>
+    <net code="79" name="/M4_RX1_P" class="Default">
+      <node ref="J122" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J4" pin="31" pinfunction="31_31" pintype="passive"/>
+    </net>
+    <net code="80" name="/M4_RX2_N" class="Default">
+      <node ref="J124" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J4" pin="17" pinfunction="17_17" pintype="passive"/>
+    </net>
+    <net code="81" name="/M4_RX2_P" class="Default">
+      <node ref="J124" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J4" pin="19" pinfunction="19_19" pintype="passive"/>
+    </net>
+    <net code="82" name="/M4_RX3_N" class="Default">
+      <node ref="J126" pin="N" pinfunction="N_N" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5_5" pintype="passive"/>
+    </net>
+    <net code="83" name="/M4_RX3_P" class="Default">
+      <node ref="J126" pin="P" pinfunction="P_P" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="7_7" pintype="passive"/>
+    </net>
+    <net code="84" name="/M4_SW" class="Default">
+      <node ref="C403" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U24" pin="2" pinfunction="SW_2" pintype="passive"/>
+    </net>
+    <net code="85" name="/M4_TX0_N" class="Default">
+      <node ref="C421" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J119" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="86" name="/M4_TX0_N_AC" class="Default">
+      <node ref="C421" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="47" pinfunction="47_47" pintype="passive"/>
+    </net>
+    <net code="87" name="/M4_TX0_P" class="Default">
+      <node ref="C420" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J119" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="88" name="/M4_TX0_P_AC" class="Default">
+      <node ref="C420" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="49" pinfunction="49_49" pintype="passive"/>
+    </net>
+    <net code="89" name="/M4_TX1_N" class="Default">
+      <node ref="C423" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J121" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="90" name="/M4_TX1_N_AC" class="Default">
+      <node ref="C423" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="35" pinfunction="35_35" pintype="passive"/>
+    </net>
+    <net code="91" name="/M4_TX1_P" class="Default">
+      <node ref="C422" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J121" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="92" name="/M4_TX1_P_AC" class="Default">
+      <node ref="C422" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="37" pinfunction="37_37" pintype="passive"/>
+    </net>
+    <net code="93" name="/M4_TX2_N" class="Default">
+      <node ref="C425" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J123" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="94" name="/M4_TX2_N_AC" class="Default">
+      <node ref="C425" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="23" pinfunction="23_23" pintype="passive"/>
+    </net>
+    <net code="95" name="/M4_TX2_P" class="Default">
+      <node ref="C424" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J123" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="96" name="/M4_TX2_P_AC" class="Default">
+      <node ref="C424" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="25" pinfunction="25_25" pintype="passive"/>
+    </net>
+    <net code="97" name="/M4_TX3_N" class="Default">
+      <node ref="C427" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J125" pin="N" pinfunction="N_N" pintype="passive"/>
+    </net>
+    <net code="98" name="/M4_TX3_N_AC" class="Default">
+      <node ref="C427" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="11_11" pintype="passive"/>
+    </net>
+    <net code="99" name="/M4_TX3_P" class="Default">
+      <node ref="C426" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J125" pin="P" pinfunction="P_P" pintype="passive"/>
+    </net>
+    <net code="100" name="/M4_TX3_P_AC" class="Default">
+      <node ref="C426" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="13_13" pintype="passive"/>
+    </net>
+    <net code="101" name="/M4_WAKE" class="Default">
+      <node ref="J4" pin="54" pinfunction="54_54" pintype="passive"/>
+      <node ref="J51" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="R411" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(J1-Pad6)" class="Default">
+      <node ref="J1" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J1-Pad8)" class="Default">
+      <node ref="J1" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J1-Pad10)" class="Default">
+      <node ref="J1" pin="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J1-Pad20)" class="Default">
+      <node ref="J1" pin="20" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J1-Pad22)" class="Default">
+      <node ref="J1" pin="22" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J1-Pad24)" class="Default">
+      <node ref="J1" pin="24" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J1-Pad26)" class="Default">
+      <node ref="J1" pin="26" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J1-Pad28)" class="Default">
+      <node ref="J1" pin="28" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J1-Pad30)" class="Default">
+      <node ref="J1" pin="30" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J1-Pad32)" class="Default">
+      <node ref="J1" pin="32" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(J1-Pad34)" class="Default">
+      <node ref="J1" pin="34" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(J1-Pad36)" class="Default">
+      <node ref="J1" pin="36" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J1-Pad38)" class="Default">
+      <node ref="J1" pin="38" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J1-Pad40)" class="Default">
+      <node ref="J1" pin="40" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(J1-Pad42)" class="Default">
+      <node ref="J1" pin="42" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(J1-Pad44)" class="Default">
+      <node ref="J1" pin="44" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(J1-Pad46)" class="Default">
+      <node ref="J1" pin="46" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J1-Pad48)" class="Default">
+      <node ref="J1" pin="48" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(J1-Pad56)" class="Default">
+      <node ref="J1" pin="56" pintype="passive+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(J1-Pad58)" class="Default">
+      <node ref="J1" pin="58" pintype="passive+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(J1-Pad67)" class="Default">
+      <node ref="J1" pin="67" pintype="passive+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(J1-Pad68)" class="Default">
+      <node ref="J1" pin="68" pintype="passive+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(J2-Pad6)" class="Default">
+      <node ref="J2" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(J2-Pad8)" class="Default">
+      <node ref="J2" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(J2-Pad10)" class="Default">
+      <node ref="J2" pin="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(J2-Pad20)" class="Default">
+      <node ref="J2" pin="20" pintype="passive+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(J2-Pad22)" class="Default">
+      <node ref="J2" pin="22" pintype="passive+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(J2-Pad24)" class="Default">
+      <node ref="J2" pin="24" pintype="passive+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(J2-Pad26)" class="Default">
+      <node ref="J2" pin="26" pintype="passive+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(J2-Pad28)" class="Default">
+      <node ref="J2" pin="28" pintype="passive+no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(J2-Pad30)" class="Default">
+      <node ref="J2" pin="30" pintype="passive+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(J2-Pad32)" class="Default">
+      <node ref="J2" pin="32" pintype="passive+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(J2-Pad34)" class="Default">
+      <node ref="J2" pin="34" pintype="passive+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(J2-Pad36)" class="Default">
+      <node ref="J2" pin="36" pintype="passive+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(J2-Pad38)" class="Default">
+      <node ref="J2" pin="38" pintype="passive+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(J2-Pad40)" class="Default">
+      <node ref="J2" pin="40" pintype="passive+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(J2-Pad42)" class="Default">
+      <node ref="J2" pin="42" pintype="passive+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(J2-Pad44)" class="Default">
+      <node ref="J2" pin="44" pintype="passive+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(J2-Pad46)" class="Default">
+      <node ref="J2" pin="46" pintype="passive+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(J2-Pad48)" class="Default">
+      <node ref="J2" pin="48" pintype="passive+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(J2-Pad56)" class="Default">
+      <node ref="J2" pin="56" pintype="passive+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(J2-Pad58)" class="Default">
+      <node ref="J2" pin="58" pintype="passive+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(J2-Pad67)" class="Default">
+      <node ref="J2" pin="67" pintype="passive+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(J2-Pad68)" class="Default">
+      <node ref="J2" pin="68" pintype="passive+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(J4-Pad6)" class="Default">
+      <node ref="J4" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(J4-Pad8)" class="Default">
+      <node ref="J4" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(J4-Pad10)" class="Default">
+      <node ref="J4" pin="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(J4-Pad20)" class="Default">
+      <node ref="J4" pin="20" pintype="passive+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(J4-Pad22)" class="Default">
+      <node ref="J4" pin="22" pintype="passive+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(J4-Pad24)" class="Default">
+      <node ref="J4" pin="24" pintype="passive+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(J4-Pad26)" class="Default">
+      <node ref="J4" pin="26" pintype="passive+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(J4-Pad28)" class="Default">
+      <node ref="J4" pin="28" pintype="passive+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(J4-Pad30)" class="Default">
+      <node ref="J4" pin="30" pintype="passive+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(J4-Pad32)" class="Default">
+      <node ref="J4" pin="32" pintype="passive+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(J4-Pad34)" class="Default">
+      <node ref="J4" pin="34" pintype="passive+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(J4-Pad36)" class="Default">
+      <node ref="J4" pin="36" pintype="passive+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(J4-Pad38)" class="Default">
+      <node ref="J4" pin="38" pintype="passive+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(J4-Pad40)" class="Default">
+      <node ref="J4" pin="40" pintype="passive+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(J4-Pad42)" class="Default">
+      <node ref="J4" pin="42" pintype="passive+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(J4-Pad44)" class="Default">
+      <node ref="J4" pin="44" pintype="passive+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(J4-Pad46)" class="Default">
+      <node ref="J4" pin="46" pintype="passive+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(J4-Pad48)" class="Default">
+      <node ref="J4" pin="48" pintype="passive+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(J4-Pad56)" class="Default">
+      <node ref="J4" pin="56" pintype="passive+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(J4-Pad58)" class="Default">
+      <node ref="J4" pin="58" pintype="passive+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(J4-Pad67)" class="Default">
+      <node ref="J4" pin="67" pintype="passive+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(J4-Pad68)" class="Default">
+      <node ref="J4" pin="68" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,15 @@
+{
+  "revision": "L",
+  "main_mm": [
+    110,
+    45
+  ],
+  "cpu_bga_balls": 2833,
+  "cpu_ball_coordinates": "exact manufacturer XY, ballmap crosscheck passed",
+  "cpu_lands": "0.25mm provisional; package 751493 still required",
+  "cpu_pcie": "PCIE_5..8 -> PEX lane 0..3 via 16 AC capacitors; link target Gen4 x4",
+  "cpu_pmic_implemented": false,
+  "jhl9580": "deferred per user, mechanical placeholder retained",
+  "daughter_boards": "unchanged Rev K/Rev J",
+  "production_ready": false
+}

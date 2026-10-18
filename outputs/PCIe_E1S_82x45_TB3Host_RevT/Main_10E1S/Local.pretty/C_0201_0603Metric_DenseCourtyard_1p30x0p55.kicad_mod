@@ -1,0 +1,170 @@
+(footprint "C_0201_0603Metric_DenseCourtyard_1p30x0p55"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Stock KiCad 0201 copper, paste and model; reduced 1.30x0.55mm assembly courtyard for the 0.6mm contact pitch. Copper and component size unchanged. Dense assembly process not qualified.")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.05 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a89e3e4a-c926-425e-bc77-482aefffda00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_0201_0603Metric"
+		(at 0 1.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1284f6f3-bd05-484a-be7c-aea407fe2115")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56e28b9e-f993-4967-98df-2606b694a431")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee6a4ac8-c705-4ed5-bbc9-f1b14fa73b73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6b5ca401-be76-433d-a2f6-2b68ce91a599")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.65 -0.275)
+		(end 0.65 -0.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "89a36ad9-8630-44e5-9427-98e49bdba3b3")
+	)
+	(fp_line
+		(start -0.65 0.275)
+		(end -0.65 -0.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d250d89f-9c3b-4ab0-95c8-2689a9e34bb3")
+	)
+	(fp_line
+		(start 0.65 -0.275)
+		(end 0.65 0.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7e52785-28dd-42eb-9ca3-0b07afaeaafb")
+	)
+	(fp_line
+		(start 0.65 0.275)
+		(end -0.65 0.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "943804dc-9784-4ec5-97bc-befe24fa2565")
+	)
+	(fp_rect
+		(start -0.3 -0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "05b76170-5d9a-4c89-8094-c30e698642d9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.68 0)
+		(layer "F.Fab")
+		(uuid "5777831a-0918-4a42-8173-48f67429b913")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.345 0)
+		(size 0.318 0.36)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d46a258f-27fd-4d82-9142-a1bc3d1a4e3b")
+	)
+	(pad "" smd roundrect
+		(at 0.345 0)
+		(size 0.318 0.36)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e5e35b84-07cc-4681-8255-e4039fb52ab0")
+	)
+	(pad "1" smd roundrect
+		(at -0.32 0)
+		(size 0.46 0.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "650ab2d3-28b9-48e9-ab19-9a36efb3f407")
+	)
+	(pad "2" smd roundrect
+		(at 0.32 0)
+		(size 0.46 0.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d4107bac-f17c-459a-8dfd-9487ed9f94c2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/C_0201_0603Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

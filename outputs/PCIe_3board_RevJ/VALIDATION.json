@@ -1,0 +1,107 @@
+{
+  "revision": "J",
+  "production_ready": false,
+  "pcie_gen4_qualified": false,
+  "m2_geometry_source": "Amphenol CMDT350X0X001VT rev 2",
+  "m2_pin_numbering_verified": false,
+  "power_thermal_qualified": false,
+  "fictional_switch": true,
+  "boards": {
+    "Main_10E1S": {
+      "size_mm": [
+        80.0,
+        45.0
+      ],
+      "layers": 32,
+      "components": 198,
+      "connected_pins_crosschecked": 1404,
+      "schematic_matches_pcb": true,
+      "corner_mounting_holes": 0,
+      "connector_locating_holes": 0,
+      "drc_errors": 0,
+      "drc_warnings": 0,
+      "unconnected_items": 0,
+      "erc_errors": 0,
+      "erc_warnings": 80,
+      "model_instances": 138,
+      "new_component_height_mm": {
+        "F": 0,
+        "B": 1
+      },
+      "step_bytes": 588975,
+      "max_known_component_envelope_mm": {
+        "B": 3.5,
+        "F": 9.05,
+        "E1S_connector_exempt": true
+      }
+    },
+    "Left_2M2_Vertical": {
+      "size_mm": [
+        19.5,
+        45.0
+      ],
+      "layers": 32,
+      "components": 92,
+      "connected_pins_crosschecked": 368,
+      "schematic_matches_pcb": true,
+      "corner_mounting_holes": 0,
+      "connector_locating_holes": 6,
+      "drc_errors": 0,
+      "drc_warnings": 0,
+      "unconnected_items": 0,
+      "erc_errors": 0,
+      "erc_warnings": 0,
+      "model_instances": 63,
+      "new_component_height_mm": {
+        "F": 5.5,
+        "B": 3.1
+      },
+      "step_bytes": 539296,
+      "max_known_component_envelope_mm": {
+        "B": 3.1,
+        "F": 5.5,
+        "E1S_connector_exempt": false
+      }
+    },
+    "Right_M2_Upstream": {
+      "size_mm": [
+        19.5,
+        45.0
+      ],
+      "layers": 32,
+      "components": 81,
+      "connected_pins_crosschecked": 332,
+      "schematic_matches_pcb": true,
+      "corner_mounting_holes": 0,
+      "connector_locating_holes": 6,
+      "drc_errors": 0,
+      "drc_warnings": 0,
+      "unconnected_items": 0,
+      "erc_errors": 0,
+      "erc_warnings": 0,
+      "model_instances": 51,
+      "new_component_height_mm": {
+        "F": 5.5,
+        "B": 3.1
+      },
+      "step_bytes": 531917,
+      "max_known_component_envelope_mm": {
+        "B": 3.1,
+        "F": 5.5,
+        "E1S_connector_exempt": false
+      }
+    }
+  },
+  "pcie_lanes_total": 64,
+  "lanes_per_side": 12,
+  "links_per_side": "3 independent x4",
+  "twinax_pairs_per_side": 27,
+  "twinax_data_pairs_per_side": 24,
+  "clock_pairs_per_side": 3,
+  "ssd_count": 5,
+  "m2_socket_count": 6,
+  "all_m2_sockets_on_top": true,
+  "vertical_ssds_parallel_to_e1s": true,
+  "cable_map_crosschecked": true,
+  "electrical_draft_checks_pass": true
+}

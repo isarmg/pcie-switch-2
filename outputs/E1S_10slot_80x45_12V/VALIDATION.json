@@ -1,0 +1,645 @@
+{
+  "revision": "H",
+  "pcb_mm": [
+    80.0,
+    45.0,
+    1.6
+  ],
+  "connector_count": 10,
+  "connector_pitch_mm": 8,
+  "ssd_models": 0,
+  "fictitious_bga": true,
+  "signal_nets_routed_to_bga": 210,
+  "power_components_added": 113,
+  "copper_layers": 20,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "erc_errors": 0,
+  "erc_warnings": 80,
+  "erc_warning_reason": "80 reserved management/sideband pins have isolated labels",
+  "power_target_w": 250,
+  "slot_target_w": 25,
+  "input_v": 12,
+  "nominal_ssd_input_a": 20.833333333333332,
+  "new_component_height_envelopes_mm": {
+    "F": 1,
+    "B": 3.5
+  },
+  "component_models": [
+    {
+      "reference": "R108",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C114",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R106",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R134",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C125",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R140",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C117",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C101",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "J8",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "R138",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R105",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R135",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C107",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R110",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C124",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "U18",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "R149",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R115",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R116",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R118",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "U13",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "R125",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R146",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R147",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "U15",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "C119",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R101",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "J9",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "C113",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R102",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "U16",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "R136",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C105",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R133",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C121",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C126",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "J5",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "R143",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R139",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C129",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "J6",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "R109",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R129",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C115",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R119",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R145",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R131",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R113",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R114",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R117",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "U14",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "R150",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C123",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R123",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R132",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C130",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R126",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C106",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C122",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R103",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R112",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C116",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R130",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C102",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "U19",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "C108",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R122",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R141",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R124",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "J10",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "J1",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "U11",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "R128",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R107",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C103",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "J3",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "U20",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "J7",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "R111",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C109",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R137",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R148",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C128",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C110",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "J2",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "R127",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C111",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "U17",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "U12",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "F"
+    },
+    {
+      "reference": "R104",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C104",
+      "model": "C_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C118",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R121",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "J4",
+      "model": "HSEC6_envelope.step",
+      "side": "F"
+    },
+    {
+      "reference": "C127",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C112",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R144",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "C120",
+      "model": "C_0603_1608Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R142",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R120",
+      "model": "R_0402_1005Metric.step",
+      "side": "F"
+    },
+    {
+      "reference": "R304",
+      "model": "R_0402_1005Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "U1",
+      "model": "FICTITIOUS_BGA256_body.step",
+      "side": "B"
+    },
+    {
+      "reference": "C1",
+      "model": "C_1210_3225Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "D1",
+      "model": "D_SMB.step",
+      "side": "B"
+    },
+    {
+      "reference": "L31",
+      "model": "L_Coilcraft_XAL4020-XXX.step",
+      "side": "B"
+    },
+    {
+      "reference": "F2",
+      "model": "Littelfuse_456_20A.step",
+      "side": "B"
+    },
+    {
+      "reference": "C311",
+      "model": "C_0805_2012Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "C314",
+      "model": "C_1210_3225Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "D2",
+      "model": "D_SMB.step",
+      "side": "B"
+    },
+    {
+      "reference": "R311",
+      "model": "R_0402_1005Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "F1",
+      "model": "Littelfuse_456_20A.step",
+      "side": "B"
+    },
+    {
+      "reference": "U31",
+      "model": "TPS62132_3x3x1_envelope.step",
+      "side": "B"
+    },
+    {
+      "reference": "U30",
+      "model": "TI_RPW0010A_TPS25947.step",
+      "side": "B"
+    },
+    {
+      "reference": "R303",
+      "model": "R_0402_1005Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "C301",
+      "model": "C_0402_1005Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "R305",
+      "model": "R_0402_1005Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "C315",
+      "model": "C_1210_3225Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "C2",
+      "model": "C_1210_3225Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "C313",
+      "model": "C_0402_1005Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "R302",
+      "model": "R_0402_1005Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "R301",
+      "model": "R_0402_1005Metric.step",
+      "side": "B"
+    },
+    {
+      "reference": "C312",
+      "model": "C_0402_1005Metric.step",
+      "side": "B"
+    }
+  ],
+  "production_ready": false,
+  "gen5_qualified": false,
+  "power_thermal_qualified": false,
+  "stackup_fabrication_qualified": false
+}

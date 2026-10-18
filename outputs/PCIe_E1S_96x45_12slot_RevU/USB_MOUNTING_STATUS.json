@@ -1,0 +1,20 @@
+{
+  "upright": true,
+  "rotation_deg": 90,
+  "side": "B / switch face",
+  "y_center_mm": 22.5,
+  "view_position": "left edge as viewed from switch face",
+  "shell_pads_smt": true,
+  "locator_holes": 0,
+  "model": "simplified locator-free frame; vendor part pending",
+  "positions_mm": {
+    "J401": [
+      93,
+      22.5
+    ],
+    "J402": [
+      88,
+      22.5
+    ]
+  }
+}

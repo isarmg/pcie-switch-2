@@ -1,0 +1,87 @@
+{
+  "revision": "T",
+  "main_mm": [
+    82.0,
+    45.0
+  ],
+  "e1s_slots": 10,
+  "e1s_pitch_mm": 8,
+  "daughterboards": 0,
+  "m2_slots": 0,
+  "corner_mounting_holes": 0,
+  "usb_locator_holes": 0,
+  "usb_switch_side_view": "left, centers at y=22.5mm",
+  "usb_positions_mm": {
+    "J401": [
+      78,
+      22.5
+    ],
+    "J402": [
+      73,
+      22.5
+    ]
+  },
+  "usb_vertical": true,
+  "usb_rotation_deg": 90,
+  "usb_shell_smt": true,
+  "usb_model": "locator-free closed STEP concept; unverified orderable part",
+  "copper_layers": 32,
+  "footprints": 491,
+  "schematic_components": 491,
+  "schematic_connected_pins_crosschecked": 5384,
+  "cpu": "Ultra 9 288V 32GB on-package LPDDR5X",
+  "cpu_balls_crosschecked": 2833,
+  "switch": "FICTIONAL PEX90064 33x33mm / 64 lanes",
+  "switch_balls_crosschecked": 1024,
+  "thunderbolt_controller": "Alpine Ridge DP / DSL6540 reference",
+  "tb3_controller_balls_crosschecked": 337,
+  "pd_controller": "TPS65982",
+  "pd_balls_crosschecked": 96,
+  "host_role": true,
+  "allocated_copper_route_sections_verified": 469,
+  "allocated_signal_nets_verified": 457,
+  "route_sections_by_kind": {
+    "E1S_DATA": 240,
+    "E1S_REFCLK": 20,
+    "CPU_DATA": 32,
+    "E1S_RESET": 10,
+    "TB3_CONTROL": 83,
+    "CPU_REFCLK": 2,
+    "CLOCK_DISTRIBUTION": 6,
+    "TB3_CIO": 16,
+    "TB3_DP": 18,
+    "TB3_PCIE": 32,
+    "TB3_USB2": 6,
+    "TB3_REFCLK": 2,
+    "TB3_SIDEBAND": 2
+  },
+  "geometric_drc_violations": 0,
+  "hdi_rules_provisional": {
+    "copper_clearance_mm": 0.075,
+    "via_diameter_mm": [
+      0.2,
+      0.25
+    ],
+    "drill_mm": 0.1,
+    "hole_to_copper_mm": 0.1,
+    "hole_to_hole_mm": 0.25,
+    "edge_to_copper_mm": 0.4
+  },
+  "remaining_reported_unconnected": 499,
+  "unconnected_report_capped": true,
+  "erc_errors": 42,
+  "erc_warnings": 192,
+  "erc_by_type": {
+    "isolated_pin_label": 192,
+    "power_pin_not_driven": 18,
+    "pin_not_driven": 24
+  },
+  "native_step_roundtrip_passed": true,
+  "max_untuned_pair_skew_mm": 9.806625834826178,
+  "whole_board_power_and_management_routing_complete": false,
+  "cpu_pmic_and_boot_design_complete": false,
+  "thunderbolt_firmware_and_bios_validated": false,
+  "si_impedance_and_length_tuning_complete": false,
+  "hdi_manufacturing_process_qualified": false,
+  "production_ready": false
+}

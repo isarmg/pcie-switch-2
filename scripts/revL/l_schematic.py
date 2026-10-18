@@ -1,0 +1,13 @@
+from pathlib import Path
+R=Path('C:/Users/micro/Desktop/方案/pcie switch 2')
+src=(R/'scripts/revK/k_schematic.py').read_text(encoding='utf-8')
+src=src.replace('PCIe_3board_RevK','PCIe_3board_RevL').replace('(rev "K")','(rev "L")')
+src=src.replace('Real PEX88096 pinout; CPU and TB5 mechanical reservations only; NOT READY FOR FABRICATION','True PEX and CPU ball maps; provisional CPU lands; CPU PMIC and full-board routing incomplete')
+src=src.replace("pinname='~' if nn.startswith('unconnected-') else cs.get(ref,{}).get('pin_names',{}).get(pn,pn)","pinname=cs.get(ref,{}).get('pin_names',{}).get(pn,pn).split('/')[0];pintype=cs.get(ref,{}).get('pin_types',{}).get(pn,'passive')")
+src=src.replace('(pin passive line','(pin {pintype} line')
+src=src.replace('(dnp no)','(dnp {"yes" if c["foot"].IsDNP() else "no"})')
+src=src.replace('REV K: UNROUTED PLACEMENT / NET-ASSIGNMENT DRAFT','REV L: VERIFIED CPU / PEX BALL MAPS - ELECTRICAL DESIGN IN PROGRESS')
+src=src.replace('Main routing pending. Intel parts are mechanical reservations, with no verified ball maps.','CPU 2833-ball coordinates verified. JHL9580 deferred. CPU PMIC/boot firmware/full-board routing pending.')
+src=src.replace('Pin types are passive: ERC does not validate power sequencing, firmware, or link behavior.','CPU pin directions and power inputs are modeled. ERC power-driver errors expose unfinished supply domains.')
+src=src.replace("header(root,n,'A3')","header(root,n,'A2')")
+exec(compile(src,str(__file__),'exec'))

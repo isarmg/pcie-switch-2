@@ -1,0 +1,49 @@
+{
+  "revision": "P",
+  "main_mm": [
+    120,
+    45
+  ],
+  "boards": 1,
+  "daughter_boards": 0,
+  "e1s_slots": 0,
+  "m2_slots": 20,
+  "m2_no_peg_draft": true,
+  "retained_platform_geometry_matches_RevM": true,
+  "retained_platform_footprints": 233,
+  "power_only_slots": 0,
+  "all_m2_pitch_mm": 6,
+  "data_lanes": 96,
+  "host_lanes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "downstream_x4_ports": 20,
+  "allocated_main_data_lanes": 84,
+  "unallocated_main_data_lanes": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "port_firmware_configured": false,
+  "cpu_bga_balls": 2833,
+  "pex_bga_balls": 1550,
+  "cpu_pmic_implemented": false,
+  "production_ready": false,
+  "usb_shell_mounting": "SMT custom mechanical draft; original USB4160 part not compatible",
+  "cpu_pinmap_verified": true,
+  "cpu_link_copper_connections": 34,
+  "main_routing_complete": false,
+  "electrical_design_complete": false
+}

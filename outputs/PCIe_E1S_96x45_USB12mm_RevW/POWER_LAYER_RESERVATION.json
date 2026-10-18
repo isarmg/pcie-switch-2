@@ -1,0 +1,13 @@
+{
+  "revision": "W",
+  "exclusive_layers": {
+    "In5.Cu": "/VBANK_A",
+    "In6.Cu": "/VBANK_B",
+    "In19.Cu": "/PEX_0V9",
+    "In22.Cu": "/PEX_0V9A",
+    "In4.Cu": "/PEX_1V8",
+    "In7.Cu": "/PEX_1V8A"
+  },
+  "all_each_single_continuous_island_verified": true,
+  "current_capacity_qualified": false
+}

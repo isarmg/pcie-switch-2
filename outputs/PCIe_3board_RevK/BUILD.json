@@ -1,0 +1,30 @@
+{
+  "revision": "K",
+  "main_mm": [
+    110,
+    45
+  ],
+  "main_state": "unrouted placement and net assignment draft",
+  "real_pex_ballmap": true,
+  "intel_cpu_ballmap": false,
+  "intel_jhl9580_ballmap": false,
+  "custom_power_contacts": {
+    "positive_12V": 10,
+    "ground": 12,
+    "detect": 2
+  },
+  "custom_power_main_bus_connected": false,
+  "usb_orientation": "vertical entry, 90-degree PCB rotation, long axis parallel to E1.S",
+  "usb_height_mm": 7.46,
+  "usb_actual_tb5_qualified": false,
+  "daughter_boards": "unchanged Rev J; individual CAD/DRC retained",
+  "ordering_view": "viewed from B.Cu/switch side",
+  "left_to_right": [
+    "J401 custom power",
+    "J402 TB5",
+    "U502 Core Ultra 7 268V",
+    "U1 PEX88096"
+  ],
+  "JHL9580": "under the two USB-shaped ports",
+  "production_ready": false
+}

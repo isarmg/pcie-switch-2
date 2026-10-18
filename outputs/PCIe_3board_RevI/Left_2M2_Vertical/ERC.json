@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-29T16:56:09",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/b9e08484-20c4-4a7b-b900-cc93223b64ee",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 01/",
+            "uuid_path": "/b9e08484-20c4-4a7b-b900-cc93223b64ee/dca51fb2-05a0-4930-9777-b8f19592c9fc",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 02/",
+            "uuid_path": "/b9e08484-20c4-4a7b-b900-cc93223b64ee/74f485fc-316c-44de-88c0-c8341f742d1b",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 03/",
+            "uuid_path": "/b9e08484-20c4-4a7b-b900-cc93223b64ee/e92aaa9d-94b0-430f-8b6e-0014a4d8b2be",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 04/",
+            "uuid_path": "/b9e08484-20c4-4a7b-b900-cc93223b64ee/8fd220ec-b894-4383-87d5-d2c961e93d73",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 05/",
+            "uuid_path": "/b9e08484-20c4-4a7b-b900-cc93223b64ee/ee6d1fd3-3e53-4de0-9eaf-9eddab92776d",
+            "violations": []
+        },
+        {
+            "path": "/Connectivity 06/",
+            "uuid_path": "/b9e08484-20c4-4a7b-b900-cc93223b64ee/9fde38ea-56d5-4394-a60f-bb928458f40d",
+            "violations": []
+        }
+    ],
+    "source": "Left_2M2_Vertical.kicad_sch"
+}

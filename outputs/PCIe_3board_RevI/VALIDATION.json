@@ -1,0 +1,86 @@
+{
+    "revision":  "I",
+    "production_ready":  false,
+    "gen5_qualified":  false,
+    "m2_land_pattern_verified":  false,
+    "power_thermal_qualified":  false,
+    "migration_executed":  true,
+    "boards":  {
+                   "Main_10E1S":  {
+                                      "size_mm":  [
+                                                      80.0,
+                                                      45.0
+                                                  ],
+                                      "layers":  32,
+                                      "components":  180,
+                                      "connected_pins_crosschecked":  1300,
+                                      "schematic_matches_pcb":  true,
+                                      "mounting_holes":  0,
+                                      "drc_errors":  0,
+                                      "drc_warnings":  0,
+                                      "unconnected_items":  0,
+                                      "erc_errors":  0,
+                                      "erc_warnings":  80,
+                                      "model_instances":  138,
+                                      "new_component_height_mm":  {
+                                                                      "F":  0,
+                                                                      "B":  1
+                                                                  },
+                                      "step_bytes":  588975
+                                  },
+                   "Left_2M2_Vertical":  {
+                                             "size_mm":  [
+                                                             52.0,
+                                                             45.0
+                                                         ],
+                                             "layers":  12,
+                                             "components":  62,
+                                             "connected_pins_crosschecked":  246,
+                                             "schematic_matches_pcb":  true,
+                                             "mounting_holes":  0,
+                                             "drc_errors":  0,
+                                             "drc_warnings":  0,
+                                             "unconnected_items":  0,
+                                             "erc_errors":  0,
+                                             "erc_warnings":  0,
+                                             "model_instances":  42,
+                                             "new_component_height_mm":  {
+                                                                             "F":  5.3,
+                                                                             "B":  3.1
+                                                                         },
+                                             "step_bytes":  516602
+                                         },
+                   "Right_M2_Upstream":  {
+                                             "size_mm":  [
+                                                             52.0,
+                                                             45.0
+                                                         ],
+                                             "layers":  12,
+                                             "components":  51,
+                                             "connected_pins_crosschecked":  210,
+                                             "schematic_matches_pcb":  true,
+                                             "mounting_holes":  0,
+                                             "drc_errors":  0,
+                                             "drc_warnings":  0,
+                                             "unconnected_items":  0,
+                                             "erc_errors":  0,
+                                             "erc_warnings":  0,
+                                             "model_instances":  30,
+                                             "new_component_height_mm":  {
+                                                                             "F":  5.3,
+                                                                             "B":  3.1
+                                                                         },
+                                             "step_bytes":  509126
+                                         }
+               },
+    "notes":  [
+                  "Fictitious BGA400; no real switch supply/clock/reset implementation",
+                  "Provisional vertical M.2 footprint",
+                  "PCB connectivity checks do not establish 32 GT/s channel performance"
+              ],
+    "pcie_lanes_total":  56,
+    "twinax_pairs_per_side":  18,
+    "twinax_data_pairs_per_side":  16,
+    "vertical_ssds_parallel_to_e1s":  true,
+    "cable_pin_map_crosschecked":  true
+}

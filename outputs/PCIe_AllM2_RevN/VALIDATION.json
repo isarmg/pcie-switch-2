@@ -1,0 +1,135 @@
+{
+  "revision": "N",
+  "production_ready": false,
+  "electrical_design_complete": false,
+  "main_routing_complete": false,
+  "cpu_pmic_implemented": false,
+  "firmware_boot_qualified": false,
+  "pcie_gen4_qualified": false,
+  "thunderbolt5_qualified": false,
+  "custom_power_full_load_qualified": false,
+  "cpu_land_pattern_manufacturer_approved": false,
+  "hdi_process_validated": false,
+  "boards": {
+    "Main_23M2": {
+      "size_mm": [
+        120.0,
+        45.0
+      ],
+      "copper_layers": 32,
+      "footprints": 709,
+      "schematic_pin_nets_crosschecked": 6681,
+      "netlist_matches": true,
+      "drc_violations_by_type": {},
+      "reported_unconnected_items": 499,
+      "unconnected_report_may_be_capped": true,
+      "erc_errors": 46,
+      "erc_warnings": 108,
+      "state": "partial CPU x4/clock routing; most nets unrouted"
+    }
+  },
+  "U502_ball_coordinates_crosschecked": 2833,
+  "U1_ball_coordinates_crosschecked": 1550,
+  "cpu_pin_types": {
+    "input": 200,
+    "passive": 236,
+    "output": 116,
+    "bidirectional": 50,
+    "open_collector": 7,
+    "power_in": 2224
+  },
+  "cpu_link_copper_connections_crosschecked": 34,
+  "cpu_link_data_pairs": 8,
+  "cpu_link_refclock_pairs": 1,
+  "length_tuning_complete": false,
+  "cpu_link_pair_lengths": [
+    {
+      "pair": "CLK",
+      "P_mm": 58.9634039487003,
+      "N_mm": 57.43463541263622,
+      "geometric_skew_mm": 1.528768536064078,
+      "length_tuning_complete": false
+    },
+    {
+      "pair": "CPU_TX0",
+      "P_mm": 21.10852378910975,
+      "N_mm": 21.91248192612251,
+      "geometric_skew_mm": 0.80395813701276,
+      "length_tuning_complete": false
+    },
+    {
+      "pair": "CPU_TX1",
+      "P_mm": 23.060763074528865,
+      "N_mm": 21.699415056408775,
+      "geometric_skew_mm": 1.3613480181200899,
+      "length_tuning_complete": false
+    },
+    {
+      "pair": "CPU_TX2",
+      "P_mm": 23.39886531909758,
+      "N_mm": 23.132049020856527,
+      "geometric_skew_mm": 0.2668162982410536,
+      "length_tuning_complete": false
+    },
+    {
+      "pair": "CPU_TX3",
+      "P_mm": 25.920931947879026,
+      "N_mm": 25.676122480920984,
+      "geometric_skew_mm": 0.24480946695804207,
+      "length_tuning_complete": false
+    },
+    {
+      "pair": "PEX_TX0",
+      "P_mm": 21.36371177436944,
+      "N_mm": 23.09705180884807,
+      "geometric_skew_mm": 1.7333400344786334,
+      "length_tuning_complete": false
+    },
+    {
+      "pair": "PEX_TX1",
+      "P_mm": 24.80247682656838,
+      "N_mm": 24.934773034426353,
+      "geometric_skew_mm": 0.1322962078579728,
+      "length_tuning_complete": false
+    },
+    {
+      "pair": "PEX_TX2",
+      "P_mm": 26.885594164977924,
+      "N_mm": 28.467592371089452,
+      "geometric_skew_mm": 1.5819982061115283,
+      "length_tuning_complete": false
+    },
+    {
+      "pair": "PEX_TX3",
+      "P_mm": 27.648741135547393,
+      "N_mm": 29.728478975607377,
+      "geometric_skew_mm": 2.079737840059984,
+      "length_tuning_complete": false
+    }
+  ],
+  "daughter_boards": 0,
+  "e1s_slots": 0,
+  "m2_slots": 23,
+  "slot_data_nets_crosschecked": 552,
+  "main_data_lanes_allocated": 96,
+  "host_link_lanes": 4,
+  "downstream_x4_ports": 23,
+  "switch_port_firmware_configured": false,
+  "retained_footprint_positions_crosschecked": 277,
+  "m2_no_peg_concepts": true,
+  "m2_actual_part_and_pin_direction_qualified": false,
+  "clock_buffers": 3,
+  "per_slot_design_A": 4,
+  "total_ssd_output_W": 303.6,
+  "input_design_target_A": 50,
+  "power_copper_and_thermal_qualified": false,
+  "slot_copper_routing_complete": false,
+  "all_usb_vertical": true,
+  "usb_pcb_rotation_deg": 90,
+  "usb_shell_mounting": "four SMD pads each",
+  "usb_metal_stake_holes": 0,
+  "usb_plastic_locator_holes_per_port": 2,
+  "usb_actual_part_qualified": false,
+  "custom_power_main_bus_connected": false,
+  "step_roundtrip_passed": true
+}

@@ -1,0 +1,2433 @@
+{
+  "source_revision": "M",
+  "removed_footprints": [
+    {
+      "ref": "C411",
+      "value": "10nF",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/EXT_41_DVDT",
+        "2": "/GND"
+      },
+      "x": 76.935,
+      "y": 7.485,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C421",
+      "value": "10nF",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/EXT_42_DVDT",
+        "2": "/GND"
+      },
+      "x": 57.735,
+      "y": 7.685,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3081",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_TX0_P",
+        "2": "/M4_TX0_P_AC"
+      },
+      "x": 103.3,
+      "y": 13.5,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3083",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_TX1_P",
+        "2": "/M4_TX1_P_AC"
+      },
+      "x": 103.3,
+      "y": 17.9,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R412",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/EXT_41_UV",
+        "2": "/GND"
+      },
+      "x": 43.955,
+      "y": 7.495,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3072",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_TX0_N",
+        "2": "/M3_TX0_N_AC"
+      },
+      "x": 97.1,
+      "y": 15.7,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3063",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_TX1_P",
+        "2": "/M2_TX1_P_AC"
+      },
+      "x": 12.9,
+      "y": 17.9,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3067",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_TX3_P",
+        "2": "/M2_TX3_P_AC"
+      },
+      "x": 12.9,
+      "y": 26.7,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3005",
+      "value": "22uF 10V X5R / DC-bias review pending",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M1_3V3",
+        "2": "/GND"
+      },
+      "x": 21.125,
+      "y": 1.805,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3068",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_TX3_N",
+        "2": "/M2_TX3_N_AC"
+      },
+      "x": 12.9,
+      "y": 28.9,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R3033",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_3V3",
+        "2": "/M4_CLKREQ"
+      },
+      "x": 103.3,
+      "y": 31.5,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3036",
+      "value": "1uF 16V",
+      "footprint": "C_0603_1608Metric",
+      "pinmap": {
+        "1": "/M4_3V3",
+        "2": "/GND"
+      },
+      "x": 106.105,
+      "y": 41.555,
+      "side": "F",
+      "height_mm": 0.9,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3066",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_TX2_N",
+        "2": "/M2_TX2_N_AC"
+      },
+      "x": 12.9,
+      "y": 24.5,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R423",
+      "value": "102k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/VIN_B",
+        "2": "/EXT_42_OV"
+      },
+      "x": 74.755,
+      "y": 7.495,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "R413",
+      "value": "102k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/VIN_A",
+        "2": "/EXT_41_OV"
+      },
+      "x": 27.555,
+      "y": 1.295,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "R3013",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_3V3",
+        "2": "/M2_CLKREQ"
+      },
+      "x": 12.9,
+      "y": 31.5,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R422",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/EXT_42_UV",
+        "2": "/GND"
+      },
+      "x": 70.355,
+      "y": 7.495,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "R3001",
+      "value": "33.2k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_3V3",
+        "2": "/M1_FB"
+      },
+      "x": 24.155,
+      "y": 3.095,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R3023",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_3V3",
+        "2": "/M3_CLKREQ"
+      },
+      "x": 97.1,
+      "y": 31.5,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R3022",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_FB",
+        "2": "/GND"
+      },
+      "x": 98.555,
+      "y": 1.295,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R3034",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_3V3",
+        "2": "/M4_WAKE"
+      },
+      "x": 103.3,
+      "y": 33.7,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3003",
+      "value": "100nF 25V",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_BST",
+        "2": "/M1_SW"
+      },
+      "x": 14.935,
+      "y": 3.685,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3006",
+      "value": "1uF 16V",
+      "footprint": "C_0603_1608Metric",
+      "pinmap": {
+        "1": "/M1_3V3",
+        "2": "/GND"
+      },
+      "x": 24.705,
+      "y": 1.555,
+      "side": "F",
+      "height_mm": 0.9,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3014",
+      "value": "22uF 10V X5R / DC-bias review pending",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M2_3V3",
+        "2": "/GND"
+      },
+      "x": 12.725,
+      "y": 40.805,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R3012",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_FB",
+        "2": "/GND"
+      },
+      "x": 13.755,
+      "y": 42.695,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "U3001",
+      "value": "TPS565201DDCR",
+      "footprint": "SOT-23-6",
+      "pinmap": {
+        "1": "/GND",
+        "2": "/M1_SW",
+        "3": "/M2_12V_L",
+        "4": "/M1_FB",
+        "5": "/M2_12V_L",
+        "6": "/M1_BST"
+      },
+      "x": 9.275,
+      "y": 2.525,
+      "side": "F",
+      "height_mm": 1.1,
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps565201.pdf",
+      "pin_names": {
+        "1": "GND",
+        "2": "SW",
+        "3": "VIN",
+        "4": "VFB",
+        "5": "EN",
+        "6": "VBST"
+      },
+      "pin_types": {
+        "1": "power_in",
+        "2": "output",
+        "3": "power_in",
+        "4": "input",
+        "5": "input",
+        "6": "output"
+      },
+      "status": "12V to 3.3V 4A design budget, 5A IC; power-loop routing and thermal validation pending",
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3052",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_TX0_N",
+        "2": "/M1_TX0_N_AC"
+      },
+      "x": 6.7,
+      "y": 15.7,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3033",
+      "value": "100nF 25V",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_BST",
+        "2": "/M4_SW"
+      },
+      "x": 103.935,
+      "y": 43.085,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R411",
+      "value": "76.1k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/VIN_A",
+        "2": "/EXT_41_UV"
+      },
+      "x": 61.555,
+      "y": 7.495,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3065",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_TX2_P",
+        "2": "/M2_TX2_P_AC"
+      },
+      "x": 12.9,
+      "y": 22.3,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "L3003",
+      "value": "2.2uH XAL5030-222MEC",
+      "footprint": "L_Coilcraft_XAL5030-XXX",
+      "pinmap": {
+        "1": "/M3_SW",
+        "2": "/M3_3V3"
+      },
+      "x": 84.615,
+      "y": 3.915,
+      "side": "F",
+      "height_mm": 3.1,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R421",
+      "value": "76.1k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/VIN_B",
+        "2": "/EXT_42_UV"
+      },
+      "x": 72.555,
+      "y": 7.495,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3023",
+      "value": "100nF 25V",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_BST",
+        "2": "/M3_SW"
+      },
+      "x": 107.335,
+      "y": 2.685,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3002",
+      "value": "100nF 50V",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_12V_L",
+        "2": "/GND"
+      },
+      "x": 12.735,
+      "y": 3.685,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3085",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_TX2_P",
+        "2": "/M4_TX2_P_AC"
+      },
+      "x": 103.3,
+      "y": 22.3,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3032",
+      "value": "100nF 50V",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_12V_R",
+        "2": "/GND"
+      },
+      "x": 97.535,
+      "y": 43.085,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "J503",
+      "value": "M3 SSD / VERTICAL M-Key 2280 / NO-PEG DRAFT",
+      "footprint": "MKey_Vertical_Gen4_24p2x3p5_NoLocatingPegs_DRAFT",
+      "pinmap": {
+        "1": "/GND",
+        "2": "/M3_3V3",
+        "3": "/GND",
+        "4": "/M3_3V3",
+        "5": "/M3_RX3_N",
+        "6": "unconnected-(J503-Pad6)",
+        "7": "/M3_RX3_P",
+        "8": "unconnected-(J503-Pad8)",
+        "9": "/GND",
+        "10": "unconnected-(J503-Pad10)",
+        "11": "/M3_TX3_N_AC",
+        "12": "/M3_3V3",
+        "13": "/M3_TX3_P_AC",
+        "14": "/M3_3V3",
+        "15": "/GND",
+        "16": "/M3_3V3",
+        "17": "/M3_RX2_N",
+        "18": "/M3_3V3",
+        "19": "/M3_RX2_P",
+        "20": "unconnected-(J503-Pad20)",
+        "21": "/GND",
+        "22": "unconnected-(J503-Pad22)",
+        "23": "/M3_TX2_N_AC",
+        "24": "unconnected-(J503-Pad24)",
+        "25": "/M3_TX2_P_AC",
+        "26": "unconnected-(J503-Pad26)",
+        "27": "/GND",
+        "28": "unconnected-(J503-Pad28)",
+        "29": "/M3_RX1_N",
+        "30": "unconnected-(J503-Pad30)",
+        "31": "/M3_RX1_P",
+        "32": "unconnected-(J503-Pad32)",
+        "33": "/GND",
+        "34": "unconnected-(J503-Pad34)",
+        "35": "/M3_TX1_N_AC",
+        "36": "unconnected-(J503-Pad36)",
+        "37": "/M3_TX1_P_AC",
+        "38": "unconnected-(J503-Pad38)",
+        "39": "/GND",
+        "40": "unconnected-(J503-Pad40)",
+        "41": "/M3_RX0_N",
+        "42": "unconnected-(J503-Pad42)",
+        "43": "/M3_RX0_P",
+        "44": "unconnected-(J503-Pad44)",
+        "45": "/GND",
+        "46": "unconnected-(J503-Pad46)",
+        "47": "/M3_TX0_N_AC",
+        "48": "unconnected-(J503-Pad48)",
+        "49": "/M3_TX0_P_AC",
+        "50": "/M3_PERST",
+        "51": "/GND",
+        "52": "/M3_CLKREQ",
+        "53": "/M3_CLK_N",
+        "54": "/M3_WAKE",
+        "55": "/M3_CLK_P",
+        "56": "unconnected-(J503-Pad56)",
+        "57": "/GND",
+        "58": "unconnected-(J503-Pad58)",
+        "67": "unconnected-(J503-Pad67)",
+        "68": "unconnected-(J503-Pad68)",
+        "69": "/GND",
+        "70": "/M3_3V3",
+        "71": "/GND",
+        "72": "/M3_3V3",
+        "73": "/GND",
+        "74": "/M3_3V3",
+        "75": "/GND",
+        "MP1": "/GND",
+        "MP2": "/GND"
+      },
+      "x": 100.2,
+      "y": 23.3,
+      "side": "F",
+      "height_mm": 5.5,
+      "datasheet": "",
+      "pin_names": {},
+      "actual_orderable_part_verified": false,
+      "locating_pegs_removed_in_draft": true,
+      "physical_pin_numbering_verified": false,
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R414",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/EXT_41_OV",
+        "2": "/GND"
+      },
+      "x": 46.155,
+      "y": 7.495,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "R3024",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_3V3",
+        "2": "/M3_WAKE"
+      },
+      "x": 97.1,
+      "y": 33.7,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3035",
+      "value": "22uF 10V X5R / DC-bias review pending",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M4_3V3",
+        "2": "/GND"
+      },
+      "x": 102.525,
+      "y": 40.805,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3055",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_TX2_P",
+        "2": "/M1_TX2_P_AC"
+      },
+      "x": 6.7,
+      "y": 22.3,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R3011",
+      "value": "33.2k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_3V3",
+        "2": "/M2_FB"
+      },
+      "x": 11.555,
+      "y": 42.695,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3054",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_TX1_N",
+        "2": "/M1_TX1_N_AC"
+      },
+      "x": 6.7,
+      "y": 20.1,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "J504",
+      "value": "M4 SSD / VERTICAL M-Key 2280 / NO-PEG DRAFT",
+      "footprint": "MKey_Vertical_Gen4_24p2x3p5_NoLocatingPegs_DRAFT",
+      "pinmap": {
+        "1": "/GND",
+        "2": "/M4_3V3",
+        "3": "/GND",
+        "4": "/M4_3V3",
+        "5": "/M4_RX3_N",
+        "6": "unconnected-(J504-Pad6)",
+        "7": "/M4_RX3_P",
+        "8": "unconnected-(J504-Pad8)",
+        "9": "/GND",
+        "10": "unconnected-(J504-Pad10)",
+        "11": "/M4_TX3_N_AC",
+        "12": "/M4_3V3",
+        "13": "/M4_TX3_P_AC",
+        "14": "/M4_3V3",
+        "15": "/GND",
+        "16": "/M4_3V3",
+        "17": "/M4_RX2_N",
+        "18": "/M4_3V3",
+        "19": "/M4_RX2_P",
+        "20": "unconnected-(J504-Pad20)",
+        "21": "/GND",
+        "22": "unconnected-(J504-Pad22)",
+        "23": "/M4_TX2_N_AC",
+        "24": "unconnected-(J504-Pad24)",
+        "25": "/M4_TX2_P_AC",
+        "26": "unconnected-(J504-Pad26)",
+        "27": "/GND",
+        "28": "unconnected-(J504-Pad28)",
+        "29": "/M4_RX1_N",
+        "30": "unconnected-(J504-Pad30)",
+        "31": "/M4_RX1_P",
+        "32": "unconnected-(J504-Pad32)",
+        "33": "/GND",
+        "34": "unconnected-(J504-Pad34)",
+        "35": "/M4_TX1_N_AC",
+        "36": "unconnected-(J504-Pad36)",
+        "37": "/M4_TX1_P_AC",
+        "38": "unconnected-(J504-Pad38)",
+        "39": "/GND",
+        "40": "unconnected-(J504-Pad40)",
+        "41": "/M4_RX0_N",
+        "42": "unconnected-(J504-Pad42)",
+        "43": "/M4_RX0_P",
+        "44": "unconnected-(J504-Pad44)",
+        "45": "/GND",
+        "46": "unconnected-(J504-Pad46)",
+        "47": "/M4_TX0_N_AC",
+        "48": "unconnected-(J504-Pad48)",
+        "49": "/M4_TX0_P_AC",
+        "50": "/M4_PERST",
+        "51": "/GND",
+        "52": "/M4_CLKREQ",
+        "53": "/M4_CLK_N",
+        "54": "/M4_WAKE",
+        "55": "/M4_CLK_P",
+        "56": "unconnected-(J504-Pad56)",
+        "57": "/GND",
+        "58": "unconnected-(J504-Pad58)",
+        "67": "unconnected-(J504-Pad67)",
+        "68": "unconnected-(J504-Pad68)",
+        "69": "/GND",
+        "70": "/M4_3V3",
+        "71": "/GND",
+        "72": "/M4_3V3",
+        "73": "/GND",
+        "74": "/M4_3V3",
+        "75": "/GND",
+        "MP1": "/GND",
+        "MP2": "/GND"
+      },
+      "x": 106.4,
+      "y": 23.3,
+      "side": "F",
+      "height_mm": 5.5,
+      "datasheet": "",
+      "pin_names": {},
+      "actual_orderable_part_verified": false,
+      "locating_pegs_removed_in_draft": true,
+      "physical_pin_numbering_verified": false,
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3013",
+      "value": "100nF 25V",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_BST",
+        "2": "/M2_SW"
+      },
+      "x": 3.935,
+      "y": 43.085,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "L3002",
+      "value": "2.2uH XAL5030-222MEC",
+      "footprint": "L_Coilcraft_XAL5030-XXX",
+      "pinmap": {
+        "1": "/M2_SW",
+        "2": "/M2_3V3"
+      },
+      "x": 3.815,
+      "y": 39.115,
+      "side": "F",
+      "height_mm": 3.1,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3056",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_TX2_N",
+        "2": "/M1_TX2_N_AC"
+      },
+      "x": 6.7,
+      "y": 24.5,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "U3003",
+      "value": "TPS565201DDCR",
+      "footprint": "SOT-23-6",
+      "pinmap": {
+        "1": "/GND",
+        "2": "/M3_SW",
+        "3": "/M2_12V_R",
+        "4": "/M3_FB",
+        "5": "/M2_12V_R",
+        "6": "/M3_BST"
+      },
+      "x": 90.075,
+      "y": 2.525,
+      "side": "F",
+      "height_mm": 1.1,
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps565201.pdf",
+      "pin_names": {
+        "1": "GND",
+        "2": "SW",
+        "3": "VIN",
+        "4": "VFB",
+        "5": "EN",
+        "6": "VBST"
+      },
+      "pin_types": {
+        "1": "power_in",
+        "2": "output",
+        "3": "power_in",
+        "4": "input",
+        "5": "input",
+        "6": "output"
+      },
+      "status": "12V to 3.3V 4A design budget, 5A IC; power-loop routing and thermal validation pending",
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3051",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_TX0_P",
+        "2": "/M1_TX0_P_AC"
+      },
+      "x": 6.7,
+      "y": 13.5,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R3021",
+      "value": "33.2k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_3V3",
+        "2": "/M3_FB"
+      },
+      "x": 93.555,
+      "y": 1.295,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3062",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_TX0_N",
+        "2": "/M2_TX0_N_AC"
+      },
+      "x": 12.9,
+      "y": 15.7,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "J501",
+      "value": "M1 SSD / VERTICAL M-Key 2280 / NO-PEG DRAFT",
+      "footprint": "MKey_Vertical_Gen4_24p2x3p5_NoLocatingPegs_DRAFT",
+      "pinmap": {
+        "1": "/GND",
+        "2": "/M1_3V3",
+        "3": "/GND",
+        "4": "/M1_3V3",
+        "5": "/M1_RX3_N",
+        "6": "unconnected-(J501-Pad6)",
+        "7": "/M1_RX3_P",
+        "8": "unconnected-(J501-Pad8)",
+        "9": "/GND",
+        "10": "unconnected-(J501-Pad10)",
+        "11": "/M1_TX3_N_AC",
+        "12": "/M1_3V3",
+        "13": "/M1_TX3_P_AC",
+        "14": "/M1_3V3",
+        "15": "/GND",
+        "16": "/M1_3V3",
+        "17": "/M1_RX2_N",
+        "18": "/M1_3V3",
+        "19": "/M1_RX2_P",
+        "20": "unconnected-(J501-Pad20)",
+        "21": "/GND",
+        "22": "unconnected-(J501-Pad22)",
+        "23": "/M1_TX2_N_AC",
+        "24": "unconnected-(J501-Pad24)",
+        "25": "/M1_TX2_P_AC",
+        "26": "unconnected-(J501-Pad26)",
+        "27": "/GND",
+        "28": "unconnected-(J501-Pad28)",
+        "29": "/M1_RX1_N",
+        "30": "unconnected-(J501-Pad30)",
+        "31": "/M1_RX1_P",
+        "32": "unconnected-(J501-Pad32)",
+        "33": "/GND",
+        "34": "unconnected-(J501-Pad34)",
+        "35": "/M1_TX1_N_AC",
+        "36": "unconnected-(J501-Pad36)",
+        "37": "/M1_TX1_P_AC",
+        "38": "unconnected-(J501-Pad38)",
+        "39": "/GND",
+        "40": "unconnected-(J501-Pad40)",
+        "41": "/M1_RX0_N",
+        "42": "unconnected-(J501-Pad42)",
+        "43": "/M1_RX0_P",
+        "44": "unconnected-(J501-Pad44)",
+        "45": "/GND",
+        "46": "unconnected-(J501-Pad46)",
+        "47": "/M1_TX0_N_AC",
+        "48": "unconnected-(J501-Pad48)",
+        "49": "/M1_TX0_P_AC",
+        "50": "/M1_PERST",
+        "51": "/GND",
+        "52": "/M1_CLKREQ",
+        "53": "/M1_CLK_N",
+        "54": "/M1_WAKE",
+        "55": "/M1_CLK_P",
+        "56": "unconnected-(J501-Pad56)",
+        "57": "/GND",
+        "58": "unconnected-(J501-Pad58)",
+        "67": "unconnected-(J501-Pad67)",
+        "68": "unconnected-(J501-Pad68)",
+        "69": "/GND",
+        "70": "/M1_3V3",
+        "71": "/GND",
+        "72": "/M1_3V3",
+        "73": "/GND",
+        "74": "/M1_3V3",
+        "75": "/GND",
+        "MP1": "/GND",
+        "MP2": "/GND"
+      },
+      "x": 3.6,
+      "y": 23.3,
+      "side": "F",
+      "height_mm": 5.5,
+      "datasheet": "",
+      "pin_names": {},
+      "actual_orderable_part_verified": false,
+      "locating_pegs_removed_in_draft": true,
+      "physical_pin_numbering_verified": false,
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R415",
+      "value": "665R 1% / ILIM 5.0A",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/EXT_41_ILM",
+        "2": "/GND"
+      },
+      "x": 37.355,
+      "y": 7.495,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "J502",
+      "value": "M2 SSD / VERTICAL M-Key 2280 / NO-PEG DRAFT",
+      "footprint": "MKey_Vertical_Gen4_24p2x3p5_NoLocatingPegs_DRAFT",
+      "pinmap": {
+        "1": "/GND",
+        "2": "/M2_3V3",
+        "3": "/GND",
+        "4": "/M2_3V3",
+        "5": "/M2_RX3_N",
+        "6": "unconnected-(J502-Pad6)",
+        "7": "/M2_RX3_P",
+        "8": "unconnected-(J502-Pad8)",
+        "9": "/GND",
+        "10": "unconnected-(J502-Pad10)",
+        "11": "/M2_TX3_N_AC",
+        "12": "/M2_3V3",
+        "13": "/M2_TX3_P_AC",
+        "14": "/M2_3V3",
+        "15": "/GND",
+        "16": "/M2_3V3",
+        "17": "/M2_RX2_N",
+        "18": "/M2_3V3",
+        "19": "/M2_RX2_P",
+        "20": "unconnected-(J502-Pad20)",
+        "21": "/GND",
+        "22": "unconnected-(J502-Pad22)",
+        "23": "/M2_TX2_N_AC",
+        "24": "unconnected-(J502-Pad24)",
+        "25": "/M2_TX2_P_AC",
+        "26": "unconnected-(J502-Pad26)",
+        "27": "/GND",
+        "28": "unconnected-(J502-Pad28)",
+        "29": "/M2_RX1_N",
+        "30": "unconnected-(J502-Pad30)",
+        "31": "/M2_RX1_P",
+        "32": "unconnected-(J502-Pad32)",
+        "33": "/GND",
+        "34": "unconnected-(J502-Pad34)",
+        "35": "/M2_TX1_N_AC",
+        "36": "unconnected-(J502-Pad36)",
+        "37": "/M2_TX1_P_AC",
+        "38": "unconnected-(J502-Pad38)",
+        "39": "/GND",
+        "40": "unconnected-(J502-Pad40)",
+        "41": "/M2_RX0_N",
+        "42": "unconnected-(J502-Pad42)",
+        "43": "/M2_RX0_P",
+        "44": "unconnected-(J502-Pad44)",
+        "45": "/GND",
+        "46": "unconnected-(J502-Pad46)",
+        "47": "/M2_TX0_N_AC",
+        "48": "unconnected-(J502-Pad48)",
+        "49": "/M2_TX0_P_AC",
+        "50": "/M2_PERST",
+        "51": "/GND",
+        "52": "/M2_CLKREQ",
+        "53": "/M2_CLK_N",
+        "54": "/M2_WAKE",
+        "55": "/M2_CLK_P",
+        "56": "unconnected-(J502-Pad56)",
+        "57": "/GND",
+        "58": "unconnected-(J502-Pad58)",
+        "67": "unconnected-(J502-Pad67)",
+        "68": "unconnected-(J502-Pad68)",
+        "69": "/GND",
+        "70": "/M2_3V3",
+        "71": "/GND",
+        "72": "/M2_3V3",
+        "73": "/GND",
+        "74": "/M2_3V3",
+        "75": "/GND",
+        "MP1": "/GND",
+        "MP2": "/GND"
+      },
+      "x": 9.8,
+      "y": 23.3,
+      "side": "F",
+      "height_mm": 5.5,
+      "datasheet": "",
+      "pin_names": {},
+      "actual_orderable_part_verified": false,
+      "locating_pegs_removed_in_draft": true,
+      "physical_pin_numbering_verified": false,
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3086",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_TX2_N",
+        "2": "/M4_TX2_N_AC"
+      },
+      "x": 103.3,
+      "y": 24.5,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "U3002",
+      "value": "TPS565201DDCR",
+      "footprint": "SOT-23-6",
+      "pinmap": {
+        "1": "/GND",
+        "2": "/M2_SW",
+        "3": "/M2_12V_L",
+        "4": "/M2_FB",
+        "5": "/M2_12V_L",
+        "6": "/M2_BST"
+      },
+      "x": 9.275,
+      "y": 37.725,
+      "side": "F",
+      "height_mm": 1.1,
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps565201.pdf",
+      "pin_names": {
+        "1": "GND",
+        "2": "SW",
+        "3": "VIN",
+        "4": "VFB",
+        "5": "EN",
+        "6": "VBST"
+      },
+      "pin_types": {
+        "1": "power_in",
+        "2": "output",
+        "3": "power_in",
+        "4": "input",
+        "5": "input",
+        "6": "output"
+      },
+      "status": "12V to 3.3V 4A design budget, 5A IC; power-loop routing and thermal validation pending",
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R3014",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_3V3",
+        "2": "/M2_WAKE"
+      },
+      "x": 12.9,
+      "y": 33.7,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3088",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_TX3_N",
+        "2": "/M4_TX3_N_AC"
+      },
+      "x": 103.3,
+      "y": 28.9,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3034",
+      "value": "22uF 10V X5R / DC-bias review pending",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M4_3V3",
+        "2": "/GND"
+      },
+      "x": 107.125,
+      "y": 39.405,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "U3004",
+      "value": "TPS565201DDCR",
+      "footprint": "SOT-23-6",
+      "pinmap": {
+        "1": "/GND",
+        "2": "/M4_SW",
+        "3": "/M2_12V_R",
+        "4": "/M4_FB",
+        "5": "/M2_12V_R",
+        "6": "/M4_BST"
+      },
+      "x": 102.875,
+      "y": 37.725,
+      "side": "F",
+      "height_mm": 1.1,
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps565201.pdf",
+      "pin_names": {
+        "1": "GND",
+        "2": "SW",
+        "3": "VIN",
+        "4": "VFB",
+        "5": "EN",
+        "6": "VBST"
+      },
+      "pin_types": {
+        "1": "power_in",
+        "2": "output",
+        "3": "power_in",
+        "4": "input",
+        "5": "input",
+        "6": "output"
+      },
+      "status": "12V to 3.3V 4A design budget, 5A IC; power-loop routing and thermal validation pending",
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R425",
+      "value": "953R 1% / ILIM 3.5A",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/EXT_42_ILM",
+        "2": "/GND"
+      },
+      "x": 32.955,
+      "y": 7.495,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3075",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_TX2_P",
+        "2": "/M3_TX2_P_AC"
+      },
+      "x": 97.1,
+      "y": 22.3,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R3004",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_3V3",
+        "2": "/M1_WAKE"
+      },
+      "x": 6.7,
+      "y": 33.7,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3053",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_TX1_P",
+        "2": "/M1_TX1_P_AC"
+      },
+      "x": 6.7,
+      "y": 17.9,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3058",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_TX3_N",
+        "2": "/M1_TX3_N_AC"
+      },
+      "x": 6.7,
+      "y": 28.9,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3074",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_TX1_N",
+        "2": "/M3_TX1_N_AC"
+      },
+      "x": 97.1,
+      "y": 20.1,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3082",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_TX0_N",
+        "2": "/M4_TX0_N_AC"
+      },
+      "x": 103.3,
+      "y": 15.7,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3021",
+      "value": "10uF 25V X7R",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M2_12V_R",
+        "2": "/GND"
+      },
+      "x": 104.325,
+      "y": 1.805,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R3031",
+      "value": "33.2k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_3V3",
+        "2": "/M4_FB"
+      },
+      "x": 101.755,
+      "y": 42.695,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3078",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_TX3_N",
+        "2": "/M3_TX3_N_AC"
+      },
+      "x": 97.1,
+      "y": 28.9,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "L3004",
+      "value": "2.2uH XAL5030-222MEC",
+      "footprint": "L_Coilcraft_XAL5030-XXX",
+      "pinmap": {
+        "1": "/M4_SW",
+        "2": "/M4_3V3"
+      },
+      "x": 97.415,
+      "y": 39.115,
+      "side": "F",
+      "height_mm": 3.1,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "R3003",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_3V3",
+        "2": "/M1_CLKREQ"
+      },
+      "x": 6.7,
+      "y": 31.5,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R3002",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_FB",
+        "2": "/GND"
+      },
+      "x": 26.355,
+      "y": 3.095,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3011",
+      "value": "10uF 25V X7R",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M2_12V_L",
+        "2": "/GND"
+      },
+      "x": 8.925,
+      "y": 40.805,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3015",
+      "value": "22uF 10V X5R / DC-bias review pending",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M2_3V3",
+        "2": "/GND"
+      },
+      "x": 13.405,
+      "y": 37.525,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3084",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_TX1_N",
+        "2": "/M4_TX1_N_AC"
+      },
+      "x": 103.3,
+      "y": 20.1,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "L3001",
+      "value": "2.2uH XAL5030-222MEC",
+      "footprint": "L_Coilcraft_XAL5030-XXX",
+      "pinmap": {
+        "1": "/M1_SW",
+        "2": "/M1_3V3"
+      },
+      "x": 3.815,
+      "y": 3.915,
+      "side": "F",
+      "height_mm": 3.1,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3061",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_TX0_P",
+        "2": "/M2_TX0_P_AC"
+      },
+      "x": 12.9,
+      "y": 13.5,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3087",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_TX3_P",
+        "2": "/M4_TX3_P_AC"
+      },
+      "x": 103.3,
+      "y": 26.7,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R424",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/EXT_42_OV",
+        "2": "/GND"
+      },
+      "x": 41.755,
+      "y": 7.495,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3064",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_TX1_N",
+        "2": "/M2_TX1_N_AC"
+      },
+      "x": 12.9,
+      "y": 20.1,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3004",
+      "value": "22uF 10V X5R / DC-bias review pending",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M1_3V3",
+        "2": "/GND"
+      },
+      "x": 17.325,
+      "y": 1.805,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3071",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_TX0_P",
+        "2": "/M3_TX0_P_AC"
+      },
+      "x": 97.1,
+      "y": 13.5,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3031",
+      "value": "10uF 25V X7R",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M2_12V_R",
+        "2": "/GND"
+      },
+      "x": 107.125,
+      "y": 37.005,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3001",
+      "value": "10uF 25V X7R",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M2_12V_L",
+        "2": "/GND"
+      },
+      "x": 13.525,
+      "y": 1.805,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3077",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_TX3_P",
+        "2": "/M3_TX3_P_AC"
+      },
+      "x": 97.1,
+      "y": 26.7,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C422",
+      "value": "100nF 50V",
+      "footprint": "C_0603_1608Metric",
+      "pinmap": {
+        "1": "/VIN_B",
+        "2": "/GND"
+      },
+      "x": 54.905,
+      "y": 6.555,
+      "side": "F",
+      "height_mm": 0.9,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3012",
+      "value": "100nF 50V",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_12V_L",
+        "2": "/GND"
+      },
+      "x": 1.735,
+      "y": 43.085,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "U41",
+      "value": "TPS259470ARPWR",
+      "footprint": "TI_RPW0010A_TPS25947",
+      "pinmap": {
+        "1": "/EXT_41_UV",
+        "2": "/EXT_41_OV",
+        "3": "unconnected-(U41-Pad3)",
+        "4": "unconnected-(U41-Pad4)",
+        "5": "/VIN_A",
+        "6": "/M2_12V_L",
+        "7": "/EXT_41_DVDT",
+        "8": "/GND",
+        "9": "/EXT_41_ILM",
+        "10": "unconnected-(U41-Pad10)"
+      },
+      "x": 13.574999,
+      "y": 5.974999,
+      "side": "F",
+      "height_mm": 1,
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3025",
+      "value": "22uF 10V X5R / DC-bias review pending",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M3_3V3",
+        "2": "/GND"
+      },
+      "x": 98.125,
+      "y": 4.005,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3057",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M1_TX3_P",
+        "2": "/M1_TX3_P_AC"
+      },
+      "x": 6.7,
+      "y": 26.7,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "R3032",
+      "value": "10k",
+      "footprint": "R_0402_1005Metric",
+      "pinmap": {
+        "1": "/M4_FB",
+        "2": "/GND"
+      },
+      "x": 95.355,
+      "y": 43.095,
+      "side": "F",
+      "height_mm": 0.4,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3073",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_TX1_P",
+        "2": "/M3_TX1_P_AC"
+      },
+      "x": 97.1,
+      "y": 17.9,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3076",
+      "value": "220nF 16V AC",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M3_TX2_N",
+        "2": "/M3_TX2_N_AC"
+      },
+      "x": 97.1,
+      "y": 24.5,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 90.0
+    },
+    {
+      "ref": "C3022",
+      "value": "100nF 50V",
+      "footprint": "C_0402_1005Metric",
+      "pinmap": {
+        "1": "/M2_12V_R",
+        "2": "/GND"
+      },
+      "x": 107.335,
+      "y": 1.285,
+      "side": "F",
+      "height_mm": 0.55,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "U42",
+      "value": "TPS259470ARPWR",
+      "footprint": "TI_RPW0010A_TPS25947",
+      "pinmap": {
+        "1": "/EXT_42_UV",
+        "2": "/EXT_42_OV",
+        "3": "unconnected-(U42-Pad3)",
+        "4": "unconnected-(U42-Pad4)",
+        "5": "/VIN_B",
+        "6": "/M2_12V_R",
+        "7": "/EXT_42_DVDT",
+        "8": "/GND",
+        "9": "/EXT_42_ILM",
+        "10": "unconnected-(U42-Pad10)"
+      },
+      "x": 58.774999,
+      "y": 5.374999,
+      "side": "F",
+      "height_mm": 1,
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3026",
+      "value": "1uF 16V",
+      "footprint": "C_0603_1608Metric",
+      "pinmap": {
+        "1": "/M3_3V3",
+        "2": "/GND"
+      },
+      "x": 101.705,
+      "y": 3.955,
+      "side": "F",
+      "height_mm": 0.9,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C412",
+      "value": "100nF 50V",
+      "footprint": "C_0603_1608Metric",
+      "pinmap": {
+        "1": "/VIN_A",
+        "2": "/GND"
+      },
+      "x": 30.105,
+      "y": 7.755,
+      "side": "F",
+      "height_mm": 0.9,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0,
+      "dnp": false
+    },
+    {
+      "ref": "C3024",
+      "value": "22uF 10V X5R / DC-bias review pending",
+      "footprint": "C_0805_2012Metric",
+      "pinmap": {
+        "1": "/M3_3V3",
+        "2": "/GND"
+      },
+      "x": 94.325,
+      "y": 4.005,
+      "side": "F",
+      "height_mm": 1.45,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    },
+    {
+      "ref": "C3016",
+      "value": "1uF 16V",
+      "footprint": "C_0603_1608Metric",
+      "pinmap": {
+        "1": "/M2_3V3",
+        "2": "/GND"
+      },
+      "x": 8.705,
+      "y": 42.955,
+      "side": "F",
+      "height_mm": 0.9,
+      "datasheet": "",
+      "pin_names": {},
+      "rotation_deg": 0.0
+    }
+  ],
+  "disconnected_switch_and_clock_pads": [
+    {
+      "ref": "U1",
+      "pad": "A31",
+      "old_net": "/M3_TX3_P",
+      "new_net": "unconnected-(U1-PadA31)"
+    },
+    {
+      "ref": "U1",
+      "pad": "A32",
+      "old_net": "/M3_TX2_P",
+      "new_net": "unconnected-(U1-PadA32)"
+    },
+    {
+      "ref": "U1",
+      "pad": "A33",
+      "old_net": "/M3_TX1_P",
+      "new_net": "unconnected-(U1-PadA33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "A34",
+      "old_net": "/M3_TX0_P",
+      "new_net": "unconnected-(U1-PadA34)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AF2",
+      "old_net": "/M1_TX3_P",
+      "new_net": "unconnected-(U1-PadAF2)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AF3",
+      "old_net": "/M1_TX3_N",
+      "new_net": "unconnected-(U1-PadAF3)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AF7",
+      "old_net": "/M1_RX3_P",
+      "new_net": "unconnected-(U1-PadAF7)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AF8",
+      "old_net": "/M1_RX3_N",
+      "new_net": "unconnected-(U1-PadAF8)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AG1",
+      "old_net": "/M1_TX2_P",
+      "new_net": "unconnected-(U1-PadAG1)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AG2",
+      "old_net": "/M1_TX2_N",
+      "new_net": "unconnected-(U1-PadAG2)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AG5",
+      "old_net": "/M1_RX2_P",
+      "new_net": "unconnected-(U1-PadAG5)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AG6",
+      "old_net": "/M1_RX2_N",
+      "new_net": "unconnected-(U1-PadAG6)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AH2",
+      "old_net": "/M1_TX1_P",
+      "new_net": "unconnected-(U1-PadAH2)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AH3",
+      "old_net": "/M1_TX1_N",
+      "new_net": "unconnected-(U1-PadAH3)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AH7",
+      "old_net": "/M1_RX1_P",
+      "new_net": "unconnected-(U1-PadAH7)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AH8",
+      "old_net": "/M1_RX1_N",
+      "new_net": "unconnected-(U1-PadAH8)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AJ1",
+      "old_net": "/M1_TX0_P",
+      "new_net": "unconnected-(U1-PadAJ1)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AJ2",
+      "old_net": "/M1_TX0_N",
+      "new_net": "unconnected-(U1-PadAJ2)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AJ5",
+      "old_net": "/M1_RX0_P",
+      "new_net": "unconnected-(U1-PadAJ5)"
+    },
+    {
+      "ref": "U1",
+      "pad": "AJ6",
+      "old_net": "/M1_RX0_N",
+      "new_net": "unconnected-(U1-PadAJ6)"
+    },
+    {
+      "ref": "U1",
+      "pad": "B31",
+      "old_net": "/M3_TX3_N",
+      "new_net": "unconnected-(U1-PadB31)"
+    },
+    {
+      "ref": "U1",
+      "pad": "B32",
+      "old_net": "/M3_TX2_N",
+      "new_net": "unconnected-(U1-PadB32)"
+    },
+    {
+      "ref": "U1",
+      "pad": "B33",
+      "old_net": "/M3_TX1_N",
+      "new_net": "unconnected-(U1-PadB33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "B34",
+      "old_net": "/M3_TX0_N",
+      "new_net": "unconnected-(U1-PadB34)"
+    },
+    {
+      "ref": "U1",
+      "pad": "D32",
+      "old_net": "/M3_RX2_P",
+      "new_net": "unconnected-(U1-PadD32)"
+    },
+    {
+      "ref": "U1",
+      "pad": "D34",
+      "old_net": "/M3_RX0_P",
+      "new_net": "unconnected-(U1-PadD34)"
+    },
+    {
+      "ref": "U1",
+      "pad": "E31",
+      "old_net": "/M3_RX3_P",
+      "new_net": "unconnected-(U1-PadE31)"
+    },
+    {
+      "ref": "U1",
+      "pad": "E32",
+      "old_net": "/M3_RX2_N",
+      "new_net": "unconnected-(U1-PadE32)"
+    },
+    {
+      "ref": "U1",
+      "pad": "E33",
+      "old_net": "/M3_RX1_P",
+      "new_net": "unconnected-(U1-PadE33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "E34",
+      "old_net": "/M3_RX0_N",
+      "new_net": "unconnected-(U1-PadE34)"
+    },
+    {
+      "ref": "U1",
+      "pad": "F31",
+      "old_net": "/M3_RX3_N",
+      "new_net": "unconnected-(U1-PadF31)"
+    },
+    {
+      "ref": "U1",
+      "pad": "F33",
+      "old_net": "/M3_RX1_N",
+      "new_net": "unconnected-(U1-PadF33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "H33",
+      "old_net": "/M4_RX3_N",
+      "new_net": "unconnected-(U1-PadH33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "H34",
+      "old_net": "/M4_RX3_P",
+      "new_net": "unconnected-(U1-PadH34)"
+    },
+    {
+      "ref": "U1",
+      "pad": "H36",
+      "old_net": "/M4_TX3_N",
+      "new_net": "unconnected-(U1-PadH36)"
+    },
+    {
+      "ref": "U1",
+      "pad": "H37",
+      "old_net": "/M4_TX3_P",
+      "new_net": "unconnected-(U1-PadH37)"
+    },
+    {
+      "ref": "U1",
+      "pad": "J32",
+      "old_net": "/M4_RX2_N",
+      "new_net": "unconnected-(U1-PadJ32)"
+    },
+    {
+      "ref": "U1",
+      "pad": "J33",
+      "old_net": "/M4_RX2_P",
+      "new_net": "unconnected-(U1-PadJ33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "J36",
+      "old_net": "/M4_TX2_N",
+      "new_net": "unconnected-(U1-PadJ36)"
+    },
+    {
+      "ref": "U1",
+      "pad": "J37",
+      "old_net": "/M4_TX2_P",
+      "new_net": "unconnected-(U1-PadJ37)"
+    },
+    {
+      "ref": "U1",
+      "pad": "K33",
+      "old_net": "/M4_RX1_N",
+      "new_net": "unconnected-(U1-PadK33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "K34",
+      "old_net": "/M4_RX1_P",
+      "new_net": "unconnected-(U1-PadK34)"
+    },
+    {
+      "ref": "U1",
+      "pad": "K36",
+      "old_net": "/M4_TX1_N",
+      "new_net": "unconnected-(U1-PadK36)"
+    },
+    {
+      "ref": "U1",
+      "pad": "K37",
+      "old_net": "/M4_TX1_P",
+      "new_net": "unconnected-(U1-PadK37)"
+    },
+    {
+      "ref": "U1",
+      "pad": "L32",
+      "old_net": "/M4_RX0_N",
+      "new_net": "unconnected-(U1-PadL32)"
+    },
+    {
+      "ref": "U1",
+      "pad": "L33",
+      "old_net": "/M4_RX0_P",
+      "new_net": "unconnected-(U1-PadL33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "L36",
+      "old_net": "/M4_TX0_N",
+      "new_net": "unconnected-(U1-PadL36)"
+    },
+    {
+      "ref": "U1",
+      "pad": "L37",
+      "old_net": "/M4_TX0_P",
+      "new_net": "unconnected-(U1-PadL37)"
+    },
+    {
+      "ref": "U1",
+      "pad": "M33",
+      "old_net": "/M2_RX3_N",
+      "new_net": "unconnected-(U1-PadM33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "M34",
+      "old_net": "/M2_RX3_P",
+      "new_net": "unconnected-(U1-PadM34)"
+    },
+    {
+      "ref": "U1",
+      "pad": "M36",
+      "old_net": "/M2_TX3_N",
+      "new_net": "unconnected-(U1-PadM36)"
+    },
+    {
+      "ref": "U1",
+      "pad": "M37",
+      "old_net": "/M2_TX3_P",
+      "new_net": "unconnected-(U1-PadM37)"
+    },
+    {
+      "ref": "U1",
+      "pad": "N32",
+      "old_net": "/M2_RX2_N",
+      "new_net": "unconnected-(U1-PadN32)"
+    },
+    {
+      "ref": "U1",
+      "pad": "N33",
+      "old_net": "/M2_RX2_P",
+      "new_net": "unconnected-(U1-PadN33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "N36",
+      "old_net": "/M2_TX2_N",
+      "new_net": "unconnected-(U1-PadN36)"
+    },
+    {
+      "ref": "U1",
+      "pad": "N37",
+      "old_net": "/M2_TX2_P",
+      "new_net": "unconnected-(U1-PadN37)"
+    },
+    {
+      "ref": "U1",
+      "pad": "P33",
+      "old_net": "/M2_RX1_N",
+      "new_net": "unconnected-(U1-PadP33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "P34",
+      "old_net": "/M2_RX1_P",
+      "new_net": "unconnected-(U1-PadP34)"
+    },
+    {
+      "ref": "U1",
+      "pad": "P36",
+      "old_net": "/M2_TX1_N",
+      "new_net": "unconnected-(U1-PadP36)"
+    },
+    {
+      "ref": "U1",
+      "pad": "P37",
+      "old_net": "/M2_TX1_P",
+      "new_net": "unconnected-(U1-PadP37)"
+    },
+    {
+      "ref": "U1",
+      "pad": "R32",
+      "old_net": "/M2_RX0_N",
+      "new_net": "unconnected-(U1-PadR32)"
+    },
+    {
+      "ref": "U1",
+      "pad": "R33",
+      "old_net": "/M2_RX0_P",
+      "new_net": "unconnected-(U1-PadR33)"
+    },
+    {
+      "ref": "U1",
+      "pad": "R36",
+      "old_net": "/M2_TX0_N",
+      "new_net": "unconnected-(U1-PadR36)"
+    },
+    {
+      "ref": "U1",
+      "pad": "R37",
+      "old_net": "/M2_TX0_P",
+      "new_net": "unconnected-(U1-PadR37)"
+    },
+    {
+      "ref": "U602",
+      "pad": "25",
+      "old_net": "/M1_CLK_P",
+      "new_net": "unconnected-(U602-Pad25)"
+    },
+    {
+      "ref": "U602",
+      "pad": "26",
+      "old_net": "/M1_CLK_N",
+      "new_net": "unconnected-(U602-Pad26)"
+    },
+    {
+      "ref": "U602",
+      "pad": "28",
+      "old_net": "/M2_CLK_P",
+      "new_net": "unconnected-(U602-Pad28)"
+    },
+    {
+      "ref": "U602",
+      "pad": "29",
+      "old_net": "/M2_CLK_N",
+      "new_net": "unconnected-(U602-Pad29)"
+    },
+    {
+      "ref": "U602",
+      "pad": "32",
+      "old_net": "/M3_CLK_P",
+      "new_net": "unconnected-(U602-Pad32)"
+    },
+    {
+      "ref": "U602",
+      "pad": "33",
+      "old_net": "/M3_CLK_N",
+      "new_net": "unconnected-(U602-Pad33)"
+    },
+    {
+      "ref": "U602",
+      "pad": "35",
+      "old_net": "/M4_CLK_P",
+      "new_net": "unconnected-(U602-Pad35)"
+    },
+    {
+      "ref": "U602",
+      "pad": "36",
+      "old_net": "/M4_CLK_N",
+      "new_net": "unconnected-(U602-Pad36)"
+    }
+  ],
+  "daughterboards_in_derivative": 0,
+  "m2_sockets_in_derivative": 0
+}

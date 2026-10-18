@@ -1,0 +1,1 @@
+Intermediate 110 x 45 mm removal-only draft. Latest requested E1.S-only carrier is outputs/PCIe_E1S_82x45_RevR, 82 x 45 mm.

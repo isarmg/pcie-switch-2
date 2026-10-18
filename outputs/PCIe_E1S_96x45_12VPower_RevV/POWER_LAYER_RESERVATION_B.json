@@ -1,0 +1,82 @@
+{
+  "exclusive_layer": "In6.Cu",
+  "net": "/VBANK_B",
+  "moved_signal_sections": [
+    {
+      "net": "/CPU_G5_TX3_P",
+      "from_layer": "In6.Cu",
+      "to_layer": "In16.Cu"
+    },
+    {
+      "net": "/CPU_G5_TX3_N",
+      "from_layer": "In6.Cu",
+      "to_layer": "In16.Cu"
+    },
+    {
+      "net": "/CPU_PEX_RX3_P",
+      "from_layer": "In6.Cu",
+      "to_layer": "In7.Cu"
+    },
+    {
+      "net": "/CPU_PEX_RX3_N",
+      "from_layer": "In6.Cu",
+      "to_layer": "In7.Cu"
+    },
+    {
+      "net": "/TBT_PD_UNUSED_DEBUG3",
+      "from_layer": "In6.Cu",
+      "to_layer": "In12.Cu"
+    },
+    {
+      "net": "/S09_SW_TX1_N",
+      "from_layer": "In6.Cu",
+      "to_layer": "In12.Cu"
+    },
+    {
+      "net": "/S09_SW_TX1_P",
+      "from_layer": "In6.Cu",
+      "to_layer": "In9.Cu"
+    },
+    {
+      "net": "/S09_SW_RX0_N",
+      "from_layer": "In6.Cu",
+      "to_layer": "In16.Cu"
+    },
+    {
+      "net": "/S08_PERST0_N",
+      "from_layer": "In6.Cu",
+      "to_layer": "In29.Cu"
+    },
+    {
+      "net": "/S11_PERST0_N",
+      "from_layer": "In6.Cu",
+      "to_layer": "In15.Cu"
+    },
+    {
+      "net": "/S12_SW_TX3_P",
+      "from_layer": "In6.Cu",
+      "to_layer": "In19.Cu"
+    },
+    {
+      "net": "/S04_SW_TX3_N",
+      "from_layer": "In6.Cu",
+      "to_layer": "In8.Cu"
+    },
+    {
+      "net": "/S01_SW_TX1_N",
+      "from_layer": "In6.Cu",
+      "to_layer": "In12.Cu"
+    },
+    {
+      "net": "/TBT_RESET_N",
+      "from_layer": "In6.Cu",
+      "to_layer": "In7.Cu"
+    },
+    {
+      "net": "/TBT_PCIE_RBIAS",
+      "from_layer": "In6.Cu",
+      "to_layer": "In16.Cu"
+    }
+  ],
+  "current_rating_qualified": false
+}

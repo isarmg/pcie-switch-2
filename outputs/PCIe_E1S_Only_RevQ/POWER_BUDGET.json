@@ -1,0 +1,19 @@
+{
+  "input_V": 12,
+  "e1s_slots": 10,
+  "ssd_per_slot_budget_W": 25,
+  "total_ssd_output_W": 250,
+  "total_ssd_12V_current_A": 20.833,
+  "input_feed_existing_annotations_A": [
+    15,
+    15
+  ],
+  "fuse_existing_annotations_A": [
+    20,
+    20
+  ],
+  "cpu_switch_and_auxiliary_power_extra": true,
+  "whole_board_power_routing_complete": false,
+  "current_capacity_and_thermal_qualified": false,
+  "m2_power_stages": 0
+}

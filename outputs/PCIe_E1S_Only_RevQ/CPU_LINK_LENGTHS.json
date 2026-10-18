@@ -1,0 +1,65 @@
+[
+  {
+    "pair": "CLK",
+    "P_mm": 58.9634039487003,
+    "N_mm": 57.43463541263622,
+    "geometric_skew_mm": 1.528768536064078,
+    "length_tuning_complete": false
+  },
+  {
+    "pair": "CPU_TX0",
+    "P_mm": 21.10852378910975,
+    "N_mm": 21.91248192612251,
+    "geometric_skew_mm": 0.80395813701276,
+    "length_tuning_complete": false
+  },
+  {
+    "pair": "CPU_TX1",
+    "P_mm": 23.060763074528865,
+    "N_mm": 21.699415056408775,
+    "geometric_skew_mm": 1.3613480181200899,
+    "length_tuning_complete": false
+  },
+  {
+    "pair": "CPU_TX2",
+    "P_mm": 23.39886531909758,
+    "N_mm": 23.132049020856527,
+    "geometric_skew_mm": 0.2668162982410536,
+    "length_tuning_complete": false
+  },
+  {
+    "pair": "CPU_TX3",
+    "P_mm": 25.920931947879026,
+    "N_mm": 25.676122480920984,
+    "geometric_skew_mm": 0.24480946695804207,
+    "length_tuning_complete": false
+  },
+  {
+    "pair": "PEX_TX0",
+    "P_mm": 21.36371177436944,
+    "N_mm": 23.09705180884807,
+    "geometric_skew_mm": 1.7333400344786334,
+    "length_tuning_complete": false
+  },
+  {
+    "pair": "PEX_TX1",
+    "P_mm": 24.80247682656838,
+    "N_mm": 24.934773034426353,
+    "geometric_skew_mm": 0.1322962078579728,
+    "length_tuning_complete": false
+  },
+  {
+    "pair": "PEX_TX2",
+    "P_mm": 26.885594164977924,
+    "N_mm": 28.467592371089452,
+    "geometric_skew_mm": 1.5819982061115283,
+    "length_tuning_complete": false
+  },
+  {
+    "pair": "PEX_TX3",
+    "P_mm": 27.648741135547393,
+    "N_mm": 29.728478975607377,
+    "geometric_skew_mm": 2.079737840059984,
+    "length_tuning_complete": false
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "board_mm": [
+    96,
+    45
+  ],
+  "e1s_slots": 12,
+  "e1s_pitch_mm": 8,
+  "footprint_origin_y_mm": 26.54,
+  "previous_y_mm": 23.5,
+  "translation_y_mm": 3.04,
+  "device_body_y_min_mm": 6.25,
+  "device_body_y_max_mm": 37.75,
+  "pcb_bottom_y_mm": 45,
+  "nominal_body_side_to_bottom_edge_mm": 7.25,
+  "nominal_opposite_side_clearance_mm": 6.25,
+  "body_width_mm": 31.5,
+  "datum_e_local_x_mm": 0.02,
+  "body_center_local_x_mm": 4.54,
+  "orientation_deg": 90,
+  "dimension_interpretation": "In-plane distance from seated E1.S lower side edge to PCB bottom edge, not insertion height or Z standoff.",
+  "source": "SFF-TA-1006 Rev 2.0 Fig 5-1/Table 5-1 and original Samtec footprint A1 datum",
+  "source_url": "https://members.snia.org/document/dl/26956",
+  "ssd_models_in_final_step": false,
+  "tolerance_not_included": true
+}

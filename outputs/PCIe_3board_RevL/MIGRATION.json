@@ -1,0 +1,10 @@
+{
+    "migration_executed":  true,
+    "source":  "C:\\Users\\micro\\Documents\\ChatGPT\\pcie switch 2",
+    "destination":  "C:\\Users\\micro\\Desktop\\方案\\pcie switch 2",
+    "verified_files":  875,
+    "verification":  "SHA-256 compared for every copied file before source cleanup",
+    "source_remaining_files":  0,
+    "source_empty_directories_held_open":  true,
+    "migrated_at":  "2026-09-29T17:04:25.4686724+08:00"
+}

@@ -1,0 +1,20 @@
+{
+  "allocated_pcie_data_and_clock_sections": 300,
+  "slot_reset_connections": 10,
+  "allocated_signal_sections_copper_routed": 310,
+  "e1s_downstream_lanes": 40,
+  "cpu_host_lanes": 4,
+  "active_data_differential_pairs": 88,
+  "reference_clock_differential_pairs": 14,
+  "reserved_switch_lanes": 20,
+  "e1s_tx_source_coupling_caps": 80,
+  "all_allocated_pcie_data_clock_reset_routed": true,
+  "switch_pinout_is_fictional": true,
+  "fictional_reset_io_voltage": 3.3,
+  "whole_board_routing_complete": false,
+  "cpu_and_switch_power_design_complete": false,
+  "length_tuning_complete": false,
+  "impedance_validated": false,
+  "blind_via_stackup_validated": false,
+  "production_ready": false
+}

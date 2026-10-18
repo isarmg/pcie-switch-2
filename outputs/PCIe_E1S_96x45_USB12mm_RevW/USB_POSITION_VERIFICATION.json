@@ -1,0 +1,33 @@
+{
+  "view": "CPU/switch face; native PCB X mirrored",
+  "board_mm": [
+    96,
+    45
+  ],
+  "ports": {
+    "J401": {
+      "native_center_mm": [
+        84.0,
+        22.5
+      ],
+      "cpu_switch_view_center_from_left_mm": 12.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "shell_mount": "SMT"
+    },
+    "J402": {
+      "native_center_mm": [
+        72.0,
+        22.5
+      ],
+      "cpu_switch_view_center_from_left_mm": 24.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "shell_mount": "SMT"
+    }
+  },
+  "center_pitch_mm": 12,
+  "cpu_center_from_view_left_mm": 41.5,
+  "switch_center_from_view_left_mm": 76,
+  "controller_electrical_design": "Thunderbolt 3 Alpine Ridge DP; no TB4 upgrade implied"
+}

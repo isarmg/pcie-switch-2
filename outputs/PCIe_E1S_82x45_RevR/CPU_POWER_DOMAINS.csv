@@ -1,0 +1,18 @@
+﻿Rail,Ball_count,Control,Supply_status
+V1P8U_MEM,110,Fixed or sequenced; confirm Intel PDG,PMIC not implemented
+VCCGT,405,SVID IMVP9.2,PMIC not implemented
+VCCL2,6,SVID IMVP9.2,PMIC not implemented
+VCCPRIM_1P8,8,Fixed or sequenced; confirm Intel PDG,PMIC not implemented
+VCCPRIM_3P3,2,Fixed or sequenced; confirm Intel PDG,PMIC not implemented
+VCCPRIM_IO,40,Fixed or sequenced; confirm Intel PDG,PMIC not implemented
+VCCPRIM_VNNAON,65,Fixed or sequenced; confirm Intel PDG,PMIC not implemented
+VCCPRIM_VNNAONLV,36,Fixed or sequenced; confirm Intel PDG,PMIC not implemented
+VCCRTC,1,Fixed or sequenced; confirm Intel PDG,RTC LDO fitted
+VCCSA,162,SVID IMVP9.2,PMIC not implemented
+VCCST,2,Fixed or sequenced; confirm Intel PDG,PMIC not implemented
+VCC_ECORE,28,SVID IMVP9.2,PMIC not implemented
+VCC_PCORE,347,SVID IMVP9.2,PMIC not implemented
+VDD2H,31,Fixed or sequenced; confirm Intel PDG,PMIC not implemented
+VDD2L,63,Fixed or sequenced; confirm Intel PDG,PMIC not implemented
+VDDQ,31,SVID IMVP9.2,PMIC not implemented
+VDDRIO,77,Fixed or sequenced; confirm Intel PDG,PMIC not implemented

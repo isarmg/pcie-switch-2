@@ -1,0 +1,70 @@
+{
+  "input_V": 12,
+  "input_source": "same regulated 12V supply; J101 and J102 independent positive and return cables",
+  "input_feeds_A_budget": [
+    20,
+    20
+  ],
+  "input_capacity_W_budget": 480,
+  "input_connector_current_rating_qualified": false,
+  "fuses": "2x Littelfuse 0456025.ER 25A with temperature derating",
+  "e1s_slots": 12,
+  "ssd_per_slot_budget_W": 25,
+  "total_ssd_output_W": 300,
+  "total_ssd_12V_current_A": 25,
+  "banks_ssd_W": [
+    150,
+    150
+  ],
+  "bank_A_slots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    11
+  ],
+  "bank_B_slots": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+  ],
+  "per_slot_efuse": "TPS259470ARPWR",
+  "per_slot_current_limit_nominal_A": 3.0309090909090908,
+  "uvlo_rising_nominal_V": 10.331999999999999,
+  "ovlo_rising_nominal_V": 13.44,
+  "aux_efuse_limit_nominal_A": 4.445333333333333,
+  "aux_3v3_output_current_ic_limit_A": 3,
+  "aux_5v_output_current_ic_limit_A": 3,
+  "aux_both_outputs_W_at_ic_max": 24.9,
+  "aux_efficiency_budget_assumption": 0.85,
+  "aux_input_W_budget": 29.294117647058822,
+  "ssd_plus_aux_input_A_budget": 27.441176470588236,
+  "cpu_and_switch_power_extra": true,
+  "cpu_dynamic_vr_implemented": false,
+  "fictional_switch_core_regulators_implemented": true,
+  "tbt_internal_regulator_distribution_complete": false,
+  "custom_power_usb_C_main_bus_connected": false,
+  "whole_board_power_routing_complete": false,
+  "current_capacity_and_thermal_qualified": false,
+  "edsff_3v3_aux_per_slot_max_A": 0.025,
+  "edsff_3v3_aux_total_max_A": 0.3,
+  "edsff_3v3_current_source": "SFF-TA-1009 Rev4.1a Table6-2; PCIe SSD / 1C, not OCP NIC 4C+",
+  "switch_current_reference_model": "PEX88096 worst-case Table29; NOT a PEX90064 specification",
+  "switch_0v9_current_budget_A": 37.427,
+  "switch_1v8_current_budget_A": 6.903,
+  "switch_regulator_IC_current_A": [
+    40,
+    8
+  ],
+  "switch_regulator_output_V": [
+    0.9004,
+    1.8
+  ],
+  "switch_regulator_efficiency_budget": 0.85,
+  "switch_reference_input_W": 54.2643185882353,
+  "ssd_plus_aux_plus_switch_input_A_budget": 31.963203019607846
+}

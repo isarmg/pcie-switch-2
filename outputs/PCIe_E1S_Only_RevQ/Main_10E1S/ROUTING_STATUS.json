@@ -1,0 +1,13 @@
+{
+  "cpu_x4_and_refclock_copper_connections": 34,
+  "e1s_slots": 10,
+  "m2_slots": 0,
+  "daughter_boards": 0,
+  "e1s_network_assignments_preserved": true,
+  "e1s_copper_routing_complete": false,
+  "power_loop_routing_complete": false,
+  "length_tuning_complete": false,
+  "impedance_validated": false,
+  "blind_via_stackup_validated": false,
+  "production_ready": false
+}

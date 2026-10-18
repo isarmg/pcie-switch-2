@@ -1,0 +1,159 @@
+(footprint "Littelfuse_456_20A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "0456020.ER; component body height limit 3.05 mm")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f41dcd53-8a58-4f1c-9404-283a9a1279a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "Littelfuse_456_20A"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "082bf851-143b-4a14-a1a1-1885fd70553b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_fuse_456_datasheet.pdf?assetguid=d86b18f9-14fa-4764-87ff-8aec12e9a89d"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77852360-dbd1-4f13-b0e8-d600fd4a4f65")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb8e2ce4-d7d5-4992-8931-1f08b13bacab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.189999 -2.4)
+		(end 6.189999 -2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e135514f-197b-49b2-bf6e-d41c29906bcb")
+	)
+	(fp_line
+		(start -6.189999 2.4)
+		(end -6.189999 -2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "48531fb8-a119-4f03-ac6e-d04adfe555a0")
+	)
+	(fp_line
+		(start 6.189999 -2.4)
+		(end 6.189999 2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "00146feb-6e0d-450d-a0bd-4b7623122579")
+	)
+	(fp_line
+		(start 6.189999 2.4)
+		(end -6.189999 2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "073be1a1-e9c7-4b32-99d1-34dd186c5d34")
+	)
+	(fp_line
+		(start -5.04 -1.525)
+		(end 5.04 -1.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a0194daa-9c3a-4c26-aaf5-24e7623e7fef")
+	)
+	(fp_line
+		(start -5.04 1.525)
+		(end -5.04 -1.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "86a88da3-0da5-48da-b018-5c8ff77fcae6")
+	)
+	(fp_line
+		(start 5.04 -1.525)
+		(end 5.04 1.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "51e8df18-256a-4c87-a4ae-b3d9cb804310")
+	)
+	(fp_line
+		(start 5.04 1.525)
+		(end -5.04 1.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7085cfbb-f905-4530-be10-0277934304b8")
+	)
+	(pad "1" smd rect
+		(at -4.515 0)
+		(size 3.05 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2ab47000-831e-4080-9ae1-dc8f99246e8c")
+	)
+	(pad "2" smd rect
+		(at 4.515 0)
+		(size 3.05 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "cf705b27-1c66-434c-98d3-329af9848172")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/Littelfuse_456_20A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

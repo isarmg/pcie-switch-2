@@ -1,0 +1,20 @@
+{
+  "host_role": true,
+  "port": "J402 Port A",
+  "port_B_unused": true,
+  "ar_pinout_source": "supplied Alpine-Ridge DP datasheet 2015",
+  "pd_pinout_source": "TI SLVSD02E",
+  "lands_provisional": true,
+  "smtshell_connector_part_unverified": true,
+  "nvm_firmware_pending": true,
+  "BIOS_ACPI_GPIO_pinmux_pending": true,
+  "clock_request_and_wake_platform_integration_pending": true,
+  "esd_selection_pending": true,
+  "full_power_current_thermal_validation_pending": true,
+  "si_and_timing_validation_pending": true,
+  "external_5V_source_current_provisional_A": 3,
+  "revision": "W",
+  "current_positions_in": "PLACEMENT_PLAN.json",
+  "cpu_switch_view": "mirrored native PCB X; power USB at12mm, TB USB at24mm",
+  "electrical_revision_note": "Existing TB3 circuitry retained; real CPU balls unchanged. Reference fictional-switch power added."
+}

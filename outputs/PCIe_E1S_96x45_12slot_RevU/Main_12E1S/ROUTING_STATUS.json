@@ -1,0 +1,54 @@
+{
+  "revision": "U",
+  "source_revision": "T",
+  "board": "Main_12E1S",
+  "main_mm": [
+    96,
+    45
+  ],
+  "e1s_slots": 12,
+  "e1s_pitch_mm": 8,
+  "e1s_origin_y_mm": 26.54,
+  "nominal_seated_ssd_side_to_bottom_gap_mm": 7.25,
+  "m2_slots": 0,
+  "daughterboards": 0,
+  "mounting_or_locator_holes": 0,
+  "cpu": "Ultra 9 288V 32GB",
+  "switch": "FICTIONAL PEX90064 / 33x33mm / 64 lanes / 1024 balls",
+  "tb3": "HOST / Alpine Ridge DP DSL6540 reference + TPS65982",
+  "tb3_controller_position_mm": [
+    90.1,
+    11.9
+  ],
+  "usb_positions_mm": {
+    "J401": [
+      93,
+      22.5
+    ],
+    "J402": [
+      88,
+      22.5
+    ]
+  },
+  "allocated_cpu_lanes": 4,
+  "allocated_ssd_lanes": 48,
+  "spare_lanes": 12,
+  "allocated_signal_sections_copper_routed": 523,
+  "allocated_signal_nets_copper_routed": 511,
+  "ssd_power_budget_W": 300,
+  "ssd_12V_input_budget_A": 25,
+  "extra_cpu_switch_and_aux_power": true,
+  "copper_layers": 32,
+  "signal_via_copper_diameter_mm": 0.2,
+  "signal_via_drill_mm": 0.1,
+  "floating_ground_islands_removed": true,
+  "differential_coupling_and_skew_tuning_complete": false,
+  "si_qualified": false,
+  "power_routing_complete": false,
+  "current_capacity_and_thermal_qualified": false,
+  "blind_via_manufacturing_qualified": false,
+  "cpu_pmic_and_boot_complete": false,
+  "production_ready": false,
+  "remaining_reported_unconnected": 499,
+  "unconnected_report_may_be_capped": true
+}

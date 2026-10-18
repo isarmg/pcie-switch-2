@@ -1,0 +1,1 @@
+Visualization only. This compound PCB is not an electrical/manufacturing design. Use the three separate projects. SSD and cable STEP solids are mechanical envelopes, not exact production CAD.

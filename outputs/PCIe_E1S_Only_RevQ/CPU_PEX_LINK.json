@@ -1,0 +1,82 @@
+[
+  {
+    "lane": 0,
+    "polarity": "P",
+    "cpu_tx_ball": "DK17",
+    "cpu_rx_ball": "DE14",
+    "cpu_tx_cap": "C801",
+    "pex_tx_cap": "C811",
+    "pex_rx_ball": "AF31",
+    "pex_tx_ball": "AF36"
+  },
+  {
+    "lane": 0,
+    "polarity": "N",
+    "cpu_tx_ball": "DL16",
+    "cpu_rx_ball": "DD16",
+    "cpu_tx_cap": "C802",
+    "pex_tx_cap": "C812",
+    "pex_rx_ball": "AF30",
+    "pex_tx_ball": "AF35"
+  },
+  {
+    "lane": 1,
+    "polarity": "P",
+    "cpu_tx_ball": "DF18",
+    "cpu_rx_ball": "CY17",
+    "cpu_tx_cap": "C803",
+    "pex_tx_cap": "C813",
+    "pex_rx_ball": "AG33",
+    "pex_tx_ball": "AG37"
+  },
+  {
+    "lane": 1,
+    "polarity": "N",
+    "cpu_tx_ball": "DH17",
+    "cpu_rx_ball": "DA18",
+    "cpu_tx_cap": "C804",
+    "pex_tx_cap": "C814",
+    "pex_rx_ball": "AG32",
+    "pex_tx_ball": "AG36"
+  },
+  {
+    "lane": 2,
+    "polarity": "P",
+    "cpu_tx_ball": "DF21",
+    "cpu_rx_ball": "DA21",
+    "cpu_tx_cap": "C805",
+    "pex_tx_cap": "C815",
+    "pex_rx_ball": "AH31",
+    "pex_tx_ball": "AH36"
+  },
+  {
+    "lane": 2,
+    "polarity": "N",
+    "cpu_tx_ball": "DH22",
+    "cpu_rx_ball": "CY22",
+    "cpu_tx_cap": "C806",
+    "pex_tx_cap": "C816",
+    "pex_rx_ball": "AH30",
+    "pex_tx_ball": "AH35"
+  },
+  {
+    "lane": 3,
+    "polarity": "P",
+    "cpu_tx_ball": "DK22",
+    "cpu_rx_ball": "DD23",
+    "cpu_tx_cap": "C807",
+    "pex_tx_cap": "C817",
+    "pex_rx_ball": "AJ33",
+    "pex_tx_ball": "AJ37"
+  },
+  {
+    "lane": 3,
+    "polarity": "N",
+    "cpu_tx_ball": "DL23",
+    "cpu_rx_ball": "DC24",
+    "cpu_tx_cap": "C808",
+    "pex_tx_cap": "C818",
+    "pex_rx_ball": "AJ32",
+    "pex_tx_ball": "AJ36"
+  }
+]

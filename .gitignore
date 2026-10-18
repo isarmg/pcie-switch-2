@@ -1,0 +1,48 @@
+# Local builds and reproducible routing scratch
+/work/
+__pycache__/
+*.py[cod]
+*.obj
+*.exe
+*.log
+
+# KiCad machine-local state and autosave/backup files
+*.kicad_prl
+*.lck
+*.bak
+*.tmp
+_autosave-*
+~*.kicad_*
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Release archives can be regenerated; retain CAD sources and accepted STEP files
+/outputs/*.zip
+/outputs/PCIe_3board_RevI/*.zip
+/outputs/PCIe_3board_RevJ/*.zip
+Thumbs.db
+Desktop.ini
+.DS_Store
+/outputs/PCIe_3board_RevK/*.zip
+/outputs/PCIe_Main_RevM/*.zip
+/outputs/PCIe_AllM2_RevN/*.zip
+/outputs/PCIe_AllM2_RevP/*.zip
+/outputs/PCIe_E1S_82x45_TB3Host_RevT/*.zip
+/outputs/PCIe_E1S_96x45_12slot_RevU/*.zip
+/outputs/PCIe_E1S_96x45_12VPower_RevV/*.zip
+/outputs/PCIe_E1S_96x45_USB12mm_RevW/*.zip
+/work/revW/
+/tmp/route_deps/
+# Public source publication: downloaded inputs and local CAD imports stay local
+**/references/
+*.zip
+*.SLDPRT
+*.sldprt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.SLDASM
+*.sldasm

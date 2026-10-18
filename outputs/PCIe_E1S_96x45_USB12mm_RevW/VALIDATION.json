@@ -1,0 +1,69 @@
+{
+  "revision": "W",
+  "source_revision": "V",
+  "main_mm": [
+    96.0,
+    45.0
+  ],
+  "e1s_slots": 12,
+  "e1s_pitch_mm": 8,
+  "e1s_origin_y_mm": 26.54,
+  "nominal_seated_ssd_side_to_bottom_gap_mm": 7.25,
+  "usb_view": "CPU/switch face",
+  "power_usb_center_from_left_mm": 12,
+  "thunderbolt_usb_center_from_left_mm": 24,
+  "usb_center_pitch_mm": 12,
+  "cpu": "Ultra 9 288V / 32GB MoP",
+  "switch": "FICTIONAL PEX90064 / 33x33 / 1024 balls",
+  "cpu_center_from_view_left_mm": 41.5,
+  "switch_center_from_view_left_mm": 76,
+  "m2_slots": 0,
+  "daughterboards": 0,
+  "mounting_or_locator_holes": 0,
+  "input_V": 12,
+  "ssd_power_budget_W": 300,
+  "copper_layers": 32,
+  "footprints": 581,
+  "schematic_connected_pins_crosschecked": 5768,
+  "signal_sections_verified_through_actual_copper": 523,
+  "power_and_local_control_nets_checked": 99,
+  "power_and_local_control_pad_connections_checked": 2915,
+  "selected_power_nets_all_connected": true,
+  "geometric_drc_violations": 1,
+  "reported_unconnected": 499,
+  "unconnected_report_may_be_capped": true,
+  "erc_errors": 42,
+  "erc_warnings": 212,
+  "step_native_roundtrip_passed": true,
+  "reference_switch_core_regulators_added": true,
+  "reference_switch_rails_V": [
+    0.9004,
+    1.8
+  ],
+  "reference_switch_regulator_IC_current_A": [
+    40,
+    8
+  ],
+  "switch_data_and_power_ballmap_fictional": true,
+  "cpu_dynamic_vr_implemented": false,
+  "cpu_ballmap_changed": false,
+  "tbt_version": 3,
+  "tbt_internal_power_distribution_complete": false,
+  "custom_power_usb_main_bus_connected": false,
+  "whole_board_electrical_design_complete": false,
+  "si_and_impedance_qualified": false,
+  "current_and_thermal_qualified": false,
+  "blind_via_manufacturing_qualified": false,
+  "production_ready": false,
+  "input_and_aux_layers_reserved": [
+    "In2.Cu",
+    "In3.Cu",
+    "In30.Cu"
+  ],
+  "geometric_drc_errors": 0,
+  "geometric_drc_warnings": 1,
+  "geometric_drc_warning_types": {
+    "copper_sliver": 1
+  },
+  "remaining_copper_sliver_warning": true
+}
