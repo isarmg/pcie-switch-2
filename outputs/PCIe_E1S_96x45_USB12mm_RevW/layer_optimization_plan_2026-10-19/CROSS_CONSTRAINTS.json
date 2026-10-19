@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "scope": "Independent consistency check only; no PCB edit or qualification",
+  "checks": {
+    "source_identical": true,
+    "roles_identical": true,
+    "counts_identical": true,
+    "SS_identical": true,
+    "references_identical": true,
+    "approvals_false": true,
+    "via_macro_unapproved": true,
+    "all_manufacturing_values_missing": true,
+    "source_still_32": true,
+    "907_deep_via_queue": true
+  },
+  "missing_manufacturing_inputs": 35,
+  "deep_via_queue_rows": 907
+}

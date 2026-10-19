@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "pass": true,
+  "validation_scope": "Read-only source identity and proposal consistency only; no board change, routing, SI/PI, timing, current/thermal or manufacturing approval.",
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "checks": [
+    {
+      "check": "exact_source_sha256",
+      "pass": true
+    },
+    {
+      "check": "source_still_32_copper_layers",
+      "pass": true
+    },
+    {
+      "check": "planning_only_and_not_production_ready",
+      "pass": true
+    },
+    {
+      "check": "no_direct_layer_index_remapping",
+      "pass": true
+    },
+    {
+      "check": "all_signoffs_explicitly_false",
+      "pass": true
+    },
+    {
+      "check": "no_invented_physical_stackup",
+      "pass": true
+    },
+    {
+      "check": "incomplete_source_not_hidden",
+      "pass": true
+    },
+    {
+      "check": "SSD_channels_not_AC_double_counted",
+      "pass": true
+    },
+    {
+      "check": "PCIe_56_lanes_112_differential_data_channels",
+      "pass": true
+    },
+    {
+      "check": "channel_budget_is_not_verified_capacity",
+      "pass": true
+    },
+    {
+      "check": "explicit_20_and_24_candidates",
+      "pass": true
+    },
+    {
+      "check": "24L:correct_layer_count",
+      "pass": true
+    },
+    {
+      "check": "24L:mirror_role_sequence",
+      "pass": true
+    },
+    {
+      "check": "24L:resource_budget",
+      "pass": true
+    },
+    {
+      "check": "24L:frozen_budget",
+      "pass": true
+    },
+    {
+      "check": "24L:layer_records_match_sequence",
+      "pass": true
+    },
+    {
+      "check": "24L:each_signal_has_recorded_adjacent_GND",
+      "pass": true
+    },
+    {
+      "check": "24L:all_adjacent_SS_risks_unresolved_and_recorded",
+      "pass": true
+    },
+    {
+      "check": "24L:unreferenced_power_layer_risk_recorded",
+      "pass": true
+    },
+    {
+      "check": "24L:12_unique_slot_output_domains",
+      "pass": true
+    },
+    {
+      "check": "24L:power_islands_not_shortened_and_banks_preserved",
+      "pass": true
+    },
+    {
+      "check": "24L:all_required_power_nets_exist_in_source",
+      "pass": true
+    },
+    {
+      "check": "24L:near_surface_microvia_concept_only",
+      "pass": true
+    },
+    {
+      "check": "24L:planning_quota_not_routability",
+      "pass": true
+    },
+    {
+      "check": "24L:planned_channel_quotas",
+      "pass": true
+    },
+    {
+      "check": "24L:each_signal_layer_assigned_once",
+      "pass": true
+    },
+    {
+      "check": "20L:correct_layer_count",
+      "pass": true
+    },
+    {
+      "check": "20L:mirror_role_sequence",
+      "pass": true
+    },
+    {
+      "check": "20L:resource_budget",
+      "pass": true
+    },
+    {
+      "check": "20L:frozen_budget",
+      "pass": true
+    },
+    {
+      "check": "20L:layer_records_match_sequence",
+      "pass": true
+    },
+    {
+      "check": "20L:each_signal_has_recorded_adjacent_GND",
+      "pass": true
+    },
+    {
+      "check": "20L:all_adjacent_SS_risks_unresolved_and_recorded",
+      "pass": true
+    },
+    {
+      "check": "20L:unreferenced_power_layer_risk_recorded",
+      "pass": true
+    },
+    {
+      "check": "20L:12_unique_slot_output_domains",
+      "pass": true
+    },
+    {
+      "check": "20L:power_islands_not_shortened_and_banks_preserved",
+      "pass": true
+    },
+    {
+      "check": "20L:all_required_power_nets_exist_in_source",
+      "pass": true
+    },
+    {
+      "check": "20L:near_surface_microvia_concept_only",
+      "pass": true
+    },
+    {
+      "check": "20L:planning_quota_not_routability",
+      "pass": true
+    },
+    {
+      "check": "fabricator_approval_and_deep_via_blockers_preserved",
+      "pass": true
+    }
+  ],
+  "failures": []
+}

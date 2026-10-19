@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.0",
+  "document_type": "required_inputs_template",
+  "status": "UNQUALIFIED_DRAFT",
+  "fabricator_approved": false,
+  "safe_to_route_from_this_template": false,
+  "safe_to_fabricate": false,
+  "source": {
+    "pcb_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "git_commit": "6c2364c",
+    "pcb_relative_path": "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb",
+    "source_copper_layers": 32,
+    "source_vias": 3837,
+    "source_explicit_stackup": false
+  },
+  "candidate_copper_layer_count": 24,
+  "values": {
+    "manufacturer_site": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Exact factory/site and approved process owner; a corporate brochure is not project approval.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "project_stackup_revision": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Project-specific signed stackup identifier and revision.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "finished_board_thickness_mm": {
+      "value": null,
+      "owner": "fabricator_and_mechanical",
+      "units": "mm",
+      "description": "Nominal finished thickness; do not inherit the old 1.6 mm.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "finished_board_thickness_tolerance_mm": {
+      "value": null,
+      "owner": "fabricator_and_mechanical",
+      "units": "mm",
+      "description": "Finished thickness tolerance and measurement convention.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "mechanical_thickness_approval": {
+      "value": null,
+      "owner": "mechanical",
+      "units": null,
+      "description": "Connector, keepout, assembly and enclosure approval of thickness.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "material_systems": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Laminate/prepreg vendors, exact grades, resin/glass styles and press construction.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "copper_layers": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "24 layer records with base/finished copper thickness, plating and roughness.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "dielectric_gaps": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "23 cured gap records with core/prepreg, thickness/tolerance and frequency-dependent Dk/Df.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "symmetric_construction_tolerances": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Permitted mirrored copper/dielectric deviations and copper-balance rules.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "material_frequency_data_and_models": {
+      "value": null,
+      "owner": "fabricator_and_si",
+      "units": null,
+      "description": "Dk/Df extraction conditions, roughness model and frequency-dependent solver data.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "lamination_sequence": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Actual subassemblies, drill/plate/fill steps, buildup count per side and sequence; 2+20+2 is only a candidate.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "trace_space_limits": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Layer/process-specific finished widths, clearances, etch tolerances and cap-plating restrictions.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "layer_registration_tolerance_um": {
+      "value": null,
+      "owner": "fabricator",
+      "units": "um",
+      "description": "Registration for each relevant drilling/lamination process.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "approved_via_macros": {
+      "value": null,
+      "owner": "fabricator_and_si",
+      "units": null,
+      "description": "Whole interconnect macro geometries and process sequences, not just individual hole layer pairs.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "microvia_geometry": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Laser entry/target diameter, capture/target pad, depth, taper, aspect ratio convention and limit.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "microvia_fill_and_cap": {
+      "value": null,
+      "owner": "fabricator_and_assembly",
+      "units": null,
+      "description": "Copper fill, planarization, cap plating, wrap, dimple and void/reliability limits.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "microvia_stacking_limits": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Approved stacked stages, permitted landing types, and prohibition/permission of microvia-on-core-via.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "staggered_microvia_clearance": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Center/edge clearance definitions, minimum offsets and lateral landing bridge rules.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "signal_landing_on_ground_layer": {
+      "value": null,
+      "owner": "fabricator_and_si",
+      "units": null,
+      "description": "L2/L23 isolated signal landing and local bridge geometry, antipad, registration and reference-plane damage limits.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "mechanical_drill_geometry": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Tool vs finished hole sizes, annular requirements, aspect ratios, padstack and antipad clearances.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "buried_core_via_options": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Approved core layer spans and plating/fill process; no arbitrary internal end layers.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "backdrill_process": {
+      "value": null,
+      "owner": "fabricator_and_si",
+      "units": null,
+      "description": "Sides, drill diameters, target/stop conventions, depth tolerance, maximum residual stub and copper keepout.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "core_backdrill_capability": {
+      "value": null,
+      "owner": "fabricator",
+      "units": null,
+      "description": "Whether core-level backdrill exists; process and tolerances if used, explicitly not assumed.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "via_in_pad_assembly_rules": {
+      "value": null,
+      "owner": "fabricator_and_assembly",
+      "units": null,
+      "description": "VIPPO/copper filled microvia requirements, solder finish, dimple/void criteria and stencil implications.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "reliability_acceptance": {
+      "value": null,
+      "owner": "fabricator_and_quality",
+      "units": null,
+      "description": "IPC class, coupon structures, electrical reflow/thermal tests and project acceptance evidence.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "bareboard_test_plan": {
+      "value": null,
+      "owner": "fabricator_and_quality",
+      "units": null,
+      "description": "Electrical netlist testing, impedance/coupon measurements, inspection and traceability.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "component_ballmaps_and_pdg": {
+      "value": null,
+      "owner": "device_design",
+      "units": null,
+      "description": "Real CPU/switch/connector pinouts, footprints, escape guidance, validated sources and revisions.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "interface_net_classification": {
+      "value": null,
+      "owner": "device_design",
+      "units": null,
+      "description": "Verified high-speed pairs, clock/sensitive analog/PDN nets and P/N membership; name inference is insufficient.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "impedance_profiles": {
+      "value": null,
+      "owner": "fabricator_and_si",
+      "units": null,
+      "description": "Per-interface/per-layer impedance targets, finished W/S/T/H, tolerance and solver/coupon evidence.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "broadside_coupling_envelopes": {
+      "value": null,
+      "owner": "si",
+      "units": null,
+      "description": "Qualified geometry/per-interface S-S spacing, cross-layer lateral offset, near-parallel length and crossing limits for pairs 6/7,12/13,18/19.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "signal_reference_corridors": {
+      "value": null,
+      "owner": "si",
+      "units": null,
+      "description": "Required uninterrupted reference polygon corridors and clearances from holes, edges, islands and plane splits.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "return_transition_macros": {
+      "value": null,
+      "owner": "si",
+      "units": null,
+      "description": "Signal pair and GND stitching geometry connecting every old/new reference plane.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "channel_acceptance_limits": {
+      "value": null,
+      "owner": "device_design_and_si",
+      "units": null,
+      "description": "Per-interface loss/return loss/NEXT/FEXT/mode conversion/skew/jitter/eye budgets with package/connector models.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "pdn_and_thermal_limits": {
+      "value": null,
+      "owner": "power_design",
+      "units": null,
+      "description": "Per-net DC/current/transient/temperature constraints; 300 W is a budget, not a rating.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    },
+    "route_exception_registry": {
+      "value": null,
+      "owner": "design_review",
+      "units": null,
+      "description": "Approved bounded escape/crossing/plane-void exceptions with evidence and expiry tied to revisions.",
+      "status": "missing",
+      "source_uri": null,
+      "revision": null
+    }
+  },
+  "record_contracts": {
+    "copper_layers": {
+      "cardinality": 24,
+      "required_record_fields": [
+        "layer",
+        "role",
+        "base_copper_um",
+        "finished_copper_um",
+        "finished_copper_tolerance_um",
+        "plating_process",
+        "roughness_model",
+        "fabricator_revision"
+      ]
+    },
+    "dielectric_gaps": {
+      "cardinality": 23,
+      "required_record_fields": [
+        "between_layers",
+        "construction_type",
+        "material_id",
+        "cured_thickness_um",
+        "thickness_tolerance_um",
+        "glass_style",
+        "resin_content",
+        "dk_df_frequency_data",
+        "fabricator_revision"
+      ]
+    },
+    "approved_via_macros": {
+      "required_record_fields": [
+        "macro_id",
+        "approval_status",
+        "geometry_revision",
+        "process_revision",
+        "electrical_start_layer",
+        "electrical_end_layer",
+        "physical_drill_spans",
+        "capture_target_lands",
+        "isolated_intermediate_lands",
+        "stagger_or_stack_geometry",
+        "fill_cap_requirements",
+        "process_steps",
+        "nonfunctional_pad_policy",
+        "antipad_geometry",
+        "stub_model",
+        "return_path_macro_id",
+        "dfm_evidence",
+        "si_evidence",
+        "reliability_evidence"
+      ]
+    },
+    "broadside_coupling_envelopes": {
+      "required_record_fields": [
+        "envelope_id",
+        "layer_pair",
+        "interface_classes",
+        "stackup_revision",
+        "geometry_limits",
+        "frequency_range",
+        "aggressor_scenarios",
+        "solver_model_id",
+        "result_metrics",
+        "acceptance_limits",
+        "approval_status"
+      ]
+    },
+    "signal_reference_corridors": {
+      "required_record_fields": [
+        "rule_id",
+        "signal_layer",
+        "reference_layer",
+        "interface_class",
+        "corridor_margin_mm",
+        "void_edge_clearance_mm",
+        "qualified_stackup_revision",
+        "approval_status"
+      ]
+    },
+    "route_exception_registry": {
+      "required_record_fields": [
+        "exception_id",
+        "rule_ids",
+        "nets",
+        "layers",
+        "bounded_polygon_mm",
+        "rationale",
+        "geometry_revision",
+        "reviewer",
+        "evidence",
+        "approval_status"
+      ]
+    }
+  },
+  "required_before_manufacturing_release": [
+    "manufacturer_site",
+    "project_stackup_revision",
+    "finished_board_thickness_mm",
+    "finished_board_thickness_tolerance_mm",
+    "mechanical_thickness_approval",
+    "material_systems",
+    "copper_layers",
+    "dielectric_gaps",
+    "symmetric_construction_tolerances",
+    "material_frequency_data_and_models",
+    "lamination_sequence",
+    "trace_space_limits",
+    "layer_registration_tolerance_um",
+    "approved_via_macros",
+    "microvia_geometry",
+    "microvia_fill_and_cap",
+    "microvia_stacking_limits",
+    "staggered_microvia_clearance",
+    "signal_landing_on_ground_layer",
+    "mechanical_drill_geometry",
+    "buried_core_via_options",
+    "backdrill_process",
+    "core_backdrill_capability",
+    "via_in_pad_assembly_rules",
+    "reliability_acceptance",
+    "bareboard_test_plan",
+    "component_ballmaps_and_pdg",
+    "interface_net_classification",
+    "impedance_profiles",
+    "broadside_coupling_envelopes",
+    "signal_reference_corridors",
+    "return_transition_macros",
+    "channel_acceptance_limits",
+    "pdn_and_thermal_limits",
+    "route_exception_registry"
+  ],
+  "missing_value_semantics": "null or missing source/revision/approval is BLOCKED for routing qualification and release; it is never zero, unlimited, waived, or approved."
+}

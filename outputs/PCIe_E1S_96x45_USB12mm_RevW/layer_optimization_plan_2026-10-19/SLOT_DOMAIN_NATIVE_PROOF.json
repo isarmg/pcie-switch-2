@@ -1,0 +1,102 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "method": "KiCad 10.0.7 GetFootprints/Pads net extraction; footprint pads 5 and 6 only, not independent part pinout certification.",
+  "slot_domains": [
+    {
+      "slot": 1,
+      "eFuse_ref": "U11",
+      "input_pin": "5",
+      "input_net": "VBANK_A",
+      "output_pin": "6",
+      "output_net": "P12_SLOT01"
+    },
+    {
+      "slot": 2,
+      "eFuse_ref": "U12",
+      "input_pin": "5",
+      "input_net": "VBANK_A",
+      "output_pin": "6",
+      "output_net": "P12_SLOT02"
+    },
+    {
+      "slot": 3,
+      "eFuse_ref": "U13",
+      "input_pin": "5",
+      "input_net": "VBANK_A",
+      "output_pin": "6",
+      "output_net": "P12_SLOT03"
+    },
+    {
+      "slot": 4,
+      "eFuse_ref": "U14",
+      "input_pin": "5",
+      "input_net": "VBANK_A",
+      "output_pin": "6",
+      "output_net": "P12_SLOT04"
+    },
+    {
+      "slot": 5,
+      "eFuse_ref": "U15",
+      "input_pin": "5",
+      "input_net": "VBANK_A",
+      "output_pin": "6",
+      "output_net": "P12_SLOT05"
+    },
+    {
+      "slot": 6,
+      "eFuse_ref": "U16",
+      "input_pin": "5",
+      "input_net": "VBANK_B",
+      "output_pin": "6",
+      "output_net": "P12_SLOT06"
+    },
+    {
+      "slot": 7,
+      "eFuse_ref": "U17",
+      "input_pin": "5",
+      "input_net": "VBANK_B",
+      "output_pin": "6",
+      "output_net": "P12_SLOT07"
+    },
+    {
+      "slot": 8,
+      "eFuse_ref": "U18",
+      "input_pin": "5",
+      "input_net": "VBANK_B",
+      "output_pin": "6",
+      "output_net": "P12_SLOT08"
+    },
+    {
+      "slot": 9,
+      "eFuse_ref": "U19",
+      "input_pin": "5",
+      "input_net": "VBANK_B",
+      "output_pin": "6",
+      "output_net": "P12_SLOT09"
+    },
+    {
+      "slot": 10,
+      "eFuse_ref": "U20",
+      "input_pin": "5",
+      "input_net": "VBANK_B",
+      "output_pin": "6",
+      "output_net": "P12_SLOT10"
+    },
+    {
+      "slot": 11,
+      "eFuse_ref": "U21",
+      "input_pin": "5",
+      "input_net": "VBANK_A",
+      "output_pin": "6",
+      "output_net": "P12_SLOT11"
+    },
+    {
+      "slot": 12,
+      "eFuse_ref": "U22",
+      "input_pin": "5",
+      "input_net": "VBANK_B",
+      "output_pin": "6",
+      "output_net": "P12_SLOT12"
+    }
+  ]
+}

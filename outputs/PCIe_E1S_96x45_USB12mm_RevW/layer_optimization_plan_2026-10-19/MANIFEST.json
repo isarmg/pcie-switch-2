@@ -1,0 +1,42 @@
+{
+  "source_pcb_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "source_commit": "6c2364c22a1648e9eac45f1b1c66f55d32ce5f06",
+  "source_modified": false,
+  "files": {
+    "BANK_SOURCE.json": "581262a955e8253859464c57af01633b6851390585cc37baf54543af6412fb0b",
+    "CROSS_CONSTRAINTS.json": "d839ef6e2e93122ab8ae1e1eb35e872f9e0ff4e8552c6e3d379bc6990d25eb85",
+    "LAYER_ARCHITECTURE_AUDIT.json": "83cdcf566d13429731d6303519792d172b2a34ee7b5c6f012102c81e288f9219",
+    "LAYER_SUMMARY.csv": "8bcaafcbfa4e6c4067329fb4357a0a02a8d14c0e2d7aba32931fe29ec3378929",
+    "PLAN_NEGATIVE_TESTS.json": "9fc2604cad9a2e532c0b184d3b9404c9a889c414dc0592d39ee6f7fa0a4cbbf4",
+    "PLAN_VALIDATION.json": "0e814bf43b32553f6b1fde57702c9d81c36184520a9bc446cc374886a82b5558",
+    "PORTABLE_REPLAY.json": "e2f219ee1e16515092f4c3ba1e126b16ea10ef9a6a330c9bdc718b12300c2740",
+    "README.md": "8f5af4f91b281ab18bebf9769dd83c9604c396d4752dbffb97a69a8775834645",
+    "README.zh-CN.md": "bdbe13778d7545436d6de93e1d0a658f6549d81c25c5f686ce70d7ca5f7311d5",
+    "REPORT.md": "425d47c56da9a2da020218d9a0a2bce29fbf0a03c0fa87356bb991472fc8b713",
+    "SLOT_DOMAIN_NATIVE_PROOF.json": "3d4dfa9b2c1bf00f53052461e162d87b3de351aa5747c6fa18fee762174ad4e7",
+    "analyze.py": "01ccc761b85c37945296d78e851e2db9e366c141574cb81133d9022d53445179",
+    "check_cross_constraints.py": "64aa62ed55ba2f7d26071dc30bc150e76ee5587fa17e8ea2db186f205efca87a",
+    "dump.py": "66471e7a0d502329e56dcdf0c5b46ba415fbb3e3ce38e00319f570be3c80544d",
+    "layer_plan.json": "ec7d71eb10ecc0c7d12720a7d976a79e0698725cecca0a0ff784eabef0e4f311",
+    "manufacturing/24L_IMPLEMENTATION_CONSTRAINTS.md": "6932473130dc645daf3bb6fd6944cee2e17dec17e4a1510b3245bffdca606aca",
+    "manufacturing/24L_PLAN_CONSTRAINTS.json": "855adff8434a97357c0ccbe7504cb3f7f89b36fb016a86993869132a8b318bd7",
+    "manufacturing/DEEP_VIA_REPLACEMENT_QUEUE.csv": "cb2caa03e70bc6a8439a342ff26d923a5f4888784d813d6413e85c40470f1bdc",
+    "manufacturing/FAB_INPUT_TEMPLATE.json": "c765c379d5aa6a1ef9a9fdda87f09578d3f7d826d50c372137224fa95aa3e7e4",
+    "manufacturing/NATIVE_REPLAY.txt": "c50397125809626ed20f10b12691125d8544fc9f513cdf4d172a8a936e8230be",
+    "manufacturing/REPORT.md": "fe7cf34096cbe3970424d64d73b1b86fa6c78935a2be0cc2cedcb1560829f927",
+    "manufacturing/audit.json": "98f6886685b87fea158c7f69fd4c6b688a7670d5fda04d5d3a08cdddced5e391",
+    "manufacturing/audit_vias.py": "d55933b91d60f93c7d3c368cab18533fb15dfc9fe1f70ab73961971fe92d8369",
+    "manufacturing/native.json": "a2e2b1d206aea79e746eec80ddb860f073febbf801cc92cca6110f0af015618e",
+    "manufacturing/native.py": "47e1d61545671cc7602a26a26b4f49477caeb4ca61894d1c483130cd38375dfd",
+    "manufacturing/via_pairs.csv": "6472c62e922293dab63d45fb784536c98552a709f7685fd3ca287f74d96af56c",
+    "manufacturing/vias.csv": "a43fe7dfa79863e80986f370ac6edbf0d39d822d897b1f987d2ffa696459c6a6",
+    "test_validate_layer_plan.py": "a8e1c566dd164bdbf8eeb5079958956c6baa9c776d83b2c83581a3b671f509bc",
+    "validate_layer_plan.py": "718acdb9edadf331e9b89572600ff721d44baa8d5139b2b41e2b2d6b20fabff6"
+  },
+  "publisher_edits": {
+    "REPORT.md": "Evidence list points to authoritative layer_plan.json; explicitly identifies uncommitted geometry as reproducible scratch output and lists only delivered scripts.",
+    "README.md": "Publisher entry point, independent checks, and unchanged-32-layer status.",
+    "manufacturing/audit.json": "source path normalized to repository-relative; audited bytes and result unchanged",
+    "manufacturing/audit_vias.py": "default board path repository-relative; --board remains supported"
+  }
+}

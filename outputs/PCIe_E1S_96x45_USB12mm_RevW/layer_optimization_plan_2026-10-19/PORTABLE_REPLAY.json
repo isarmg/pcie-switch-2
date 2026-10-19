@@ -1,0 +1,8 @@
+{
+  "portable_native_dump_replayed": true,
+  "native_geometry_equal": true,
+  "portable_analysis_replayed": true,
+  "audit_json_equal": true,
+  "source_pcb_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "read_only": true
+}

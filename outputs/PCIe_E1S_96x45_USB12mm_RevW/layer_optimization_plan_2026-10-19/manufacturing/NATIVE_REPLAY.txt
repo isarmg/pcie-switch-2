@@ -1,0 +1,7 @@
+KiCad 10.0.7 layers 32 vias 3837 thickness 1.6
+via enum Counter({2: 3804, 4: 33})
+size drill Counter({(0.2, 0.1): 3585, (0.45, 0.25): 248, (0.6, 0.3): 4})
+native explicit stackup False
+stackup info ['__getattribute__', '__getstate__']
+native exact center smd via count 3070 [('U1', 829), ('U502', 773), ('U501', 236), ('U503', 84), ('J10', 37), ('J9', 34), ('J6', 34), ('J1', 34), ('J3', 34), ('J4', 32)]
+PASS independent native via identity/count/layer-pair/size/drill cross-check

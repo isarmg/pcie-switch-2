@@ -1,0 +1,75 @@
+{
+  "pass": true,
+  "negative_controls": [
+    {
+      "case": "wrong_source_sha",
+      "rejected": true,
+      "failures": [
+        "exact_source_sha256"
+      ]
+    },
+    {
+      "case": "claim_SI_signoff",
+      "rejected": true,
+      "failures": [
+        "all_signoffs_explicitly_false"
+      ]
+    },
+    {
+      "case": "invent_Dk",
+      "rejected": true,
+      "failures": [
+        "no_invented_physical_stackup"
+      ]
+    },
+    {
+      "case": "merge_slot_domains",
+      "rejected": true,
+      "failures": [
+        "24L:12_unique_slot_output_domains"
+      ]
+    },
+    {
+      "case": "remove_signal_reference",
+      "rejected": true,
+      "failures": [
+        "24L:each_signal_has_recorded_adjacent_GND"
+      ]
+    },
+    {
+      "case": "silently_pass_SS",
+      "rejected": true,
+      "failures": [
+        "24L:all_adjacent_SS_risks_unresolved_and_recorded"
+      ]
+    },
+    {
+      "case": "hide_20_power_reference_risk",
+      "rejected": true,
+      "failures": [
+        "20L:unreferenced_power_layer_risk_recorded"
+      ]
+    },
+    {
+      "case": "double_count_AC_channels",
+      "rejected": true,
+      "failures": [
+        "PCIe_56_lanes_112_differential_data_channels"
+      ]
+    },
+    {
+      "case": "allow_deep_blind_inheritance",
+      "rejected": true,
+      "failures": [
+        "fabricator_approval_and_deep_via_blockers_preserved"
+      ]
+    },
+    {
+      "case": "allow_index_remapping",
+      "rejected": true,
+      "failures": [
+        "no_direct_layer_index_remapping"
+      ]
+    }
+  ]
+}

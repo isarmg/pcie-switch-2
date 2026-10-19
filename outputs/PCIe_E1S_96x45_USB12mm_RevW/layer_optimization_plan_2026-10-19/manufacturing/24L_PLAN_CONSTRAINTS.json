@@ -1,0 +1,565 @@
+{
+  "schema_version": "1.0",
+  "document_type": "architecture_constraints_not_board_mapping",
+  "status": "DRAFT_FOR_FEASIBILITY",
+  "applied_to_current_pcb": false,
+  "fabricator_approved": false,
+  "si_qualified": false,
+  "mechanical_thickness_approved": false,
+  "execution_enabled": false,
+  "source": {
+    "pcb_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "git_commit": "6c2364c",
+    "pcb_relative_path": "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb",
+    "source_copper_layers": 32,
+    "source_vias": 3837,
+    "source_explicit_stackup": false
+  },
+  "candidate": {
+    "copper_layer_count": 24,
+    "role_counts": {
+      "S": 12,
+      "G": 8,
+      "P": 4
+    },
+    "layers": [
+      {
+        "layer": 1,
+        "role": "S",
+        "mirror_layer": 24,
+        "reference_ground_layer": 2
+      },
+      {
+        "layer": 2,
+        "role": "G",
+        "mirror_layer": 23
+      },
+      {
+        "layer": 3,
+        "role": "S",
+        "mirror_layer": 22,
+        "reference_ground_layer": 2
+      },
+      {
+        "layer": 4,
+        "role": "P",
+        "mirror_layer": 21
+      },
+      {
+        "layer": 5,
+        "role": "G",
+        "mirror_layer": 20
+      },
+      {
+        "layer": 6,
+        "role": "S",
+        "mirror_layer": 19,
+        "reference_ground_layer": 5
+      },
+      {
+        "layer": 7,
+        "role": "S",
+        "mirror_layer": 18,
+        "reference_ground_layer": 8
+      },
+      {
+        "layer": 8,
+        "role": "G",
+        "mirror_layer": 17
+      },
+      {
+        "layer": 9,
+        "role": "P",
+        "mirror_layer": 16
+      },
+      {
+        "layer": 10,
+        "role": "S",
+        "mirror_layer": 15,
+        "reference_ground_layer": 11
+      },
+      {
+        "layer": 11,
+        "role": "G",
+        "mirror_layer": 14
+      },
+      {
+        "layer": 12,
+        "role": "S",
+        "mirror_layer": 13,
+        "reference_ground_layer": 11
+      },
+      {
+        "layer": 13,
+        "role": "S",
+        "mirror_layer": 12,
+        "reference_ground_layer": 14
+      },
+      {
+        "layer": 14,
+        "role": "G",
+        "mirror_layer": 11
+      },
+      {
+        "layer": 15,
+        "role": "S",
+        "mirror_layer": 10,
+        "reference_ground_layer": 14
+      },
+      {
+        "layer": 16,
+        "role": "P",
+        "mirror_layer": 9
+      },
+      {
+        "layer": 17,
+        "role": "G",
+        "mirror_layer": 8
+      },
+      {
+        "layer": 18,
+        "role": "S",
+        "mirror_layer": 7,
+        "reference_ground_layer": 17
+      },
+      {
+        "layer": 19,
+        "role": "S",
+        "mirror_layer": 6,
+        "reference_ground_layer": 20
+      },
+      {
+        "layer": 20,
+        "role": "G",
+        "mirror_layer": 5
+      },
+      {
+        "layer": 21,
+        "role": "P",
+        "mirror_layer": 4
+      },
+      {
+        "layer": 22,
+        "role": "S",
+        "mirror_layer": 3,
+        "reference_ground_layer": 23
+      },
+      {
+        "layer": 23,
+        "role": "G",
+        "mirror_layer": 2
+      },
+      {
+        "layer": 24,
+        "role": "S",
+        "mirror_layer": 1,
+        "reference_ground_layer": 23
+      }
+    ],
+    "s_s_adjacent_layer_pairs": [
+      [
+        6,
+        7
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        18,
+        19
+      ]
+    ],
+    "candidate_process_family": "2+20+2 HDI for discussion only",
+    "selected_process_family": null,
+    "finished_thickness_mm": null,
+    "selected_laser_buildup_count_per_side": null,
+    "allowed_via_macros": [],
+    "ground_plane_net": "/GND",
+    "net_serialization_alias": {
+      "{slash}GND": "/GND"
+    }
+  },
+  "planning_candidate_via_options": [
+    {
+      "id": "TOP_L1_TO_L3",
+      "status": "UNAPPROVED",
+      "candidate_spans": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "intermediate_ground_layer": 2,
+      "requires": "An isolated same-signal landing on L2, with either an approved short stagger bridge or specifically qualified copper-filled stack. The L2 landing must not connect to GND. L2-L3 is a separate buildup drilling/plate/fill stage. Never auto-stack."
+    },
+    {
+      "id": "BOTTOM_L24_TO_L22",
+      "status": "UNAPPROVED",
+      "candidate_spans": [
+        [
+          24,
+          23
+        ],
+        [
+          23,
+          22
+        ]
+      ],
+      "intermediate_ground_layer": 23,
+      "requires": "Mirror of top macro including isolated signal land, limited ground-plane disruption, staged fabrication and qualification. Never auto-stack."
+    },
+    {
+      "id": "MECHANICAL_PTH",
+      "status": "UNAPPROVED",
+      "candidate_spans": [
+        [
+          1,
+          24
+        ]
+      ],
+      "requires": "Approved mechanical drill/pad/antipad geometry and clearances; model both unused barrel sections for every electrical tap."
+    },
+    {
+      "id": "CORE_PTH",
+      "status": "UNAPPROVED",
+      "candidate_spans": [
+        [
+          3,
+          22
+        ]
+      ],
+      "requires": "Core construction and total aspect ratio approved. Combining with surface HDI needs complete macro approval; inner-layer taps may leave long stubs. Core backdrill is not assumed."
+    },
+    {
+      "id": "BACKDRILLED_PTH",
+      "status": "UNAPPROVED",
+      "candidate_spans": [
+        [
+          1,
+          24
+        ]
+      ],
+      "requires": "Approved single/double side process, stop tolerance, residual stub, enlarged drill keepout and return path; connection to other layers must survive removal."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ARCH24",
+      "phase": "plan_schema",
+      "severity": "ERROR",
+      "check": "Exactly 24 ordered copper layers; 12S/8G/4P; role[i]==role[25-i]; every S references an adjacent G; each physical copper/insulator mirror pair must be tied to fabricator symmetry tolerances before qualification."
+    },
+    {
+      "id": "NO_DIRECT_REMAP",
+      "phase": "all",
+      "severity": "ERROR",
+      "check": "No old_layer_to_new_layer execution map, deleted net, net renaming or arbitrary deep blind preservation may be inferred from this architecture document."
+    },
+    {
+      "id": "INPUTS_FAIL_CLOSED",
+      "phase": "qualification_and_release",
+      "severity": "BLOCKED",
+      "check": "Each gate checks only its declared required inputs. Missing qualified geometry/limits blocks coupling or manufacturing qualification, not architecture arithmetic or explicitly hypothetical geometric experiments. Release requires every applicable field source-linked, reviewed and revision-bound. Non-applicable fields need an approved not-used record; null is not a waiver."
+    },
+    {
+      "id": "PAIR_SAME_LAYER",
+      "phase": "geometry",
+      "severity": "ERROR",
+      "check": "This candidate chooses same-layer edge-coupled differential routing: P and N occupy the same signal layer along every coupled section; transitions use matching approved macro ID/order. Splitting P/N across an S-S pair violates this project strategy. This is not a claim that properly designed broadside differential transmission lines are universally invalid."
+    },
+    {
+      "id": "S_S_ENUMERATION",
+      "phase": "geometry",
+      "severity": "ERROR",
+      "check": "Enumerate inter-net cross-layer interactions for layers 6/7,12/13,18/19 including escape, bends, tuning and pads; record nearest XY edge distance, angle, parallel projected overlap, actual z separation and qualified-envelope ID. Never use plane fill or nominal orthogonality as a substitute for enumeration."
+    },
+    {
+      "id": "S_S_ENVELOPE",
+      "phase": "routing_qualification",
+      "severity": "BLOCKED_OR_ERROR",
+      "check": "For every S-S interaction, compare geometry to its SI-qualified envelope tied to this cured stackup, width/gap and interface. Missing envelope/threshold -> BLOCKED; out-of-envelope -> ERROR unless bounded exception has approving SI evidence."
+    },
+    {
+      "id": "S_S_ORIENTATION",
+      "phase": "planning",
+      "severity": "REVIEW",
+      "check": "Prefer orthogonal predominant directions in each S-S pair and avoid broadside co-parallel trunks; 90 degrees is a routing preference, not an SI pass. Local diagonal turns, serpentine and connector fanout remain subject to S_S_ENVELOPE. Prefer region separation if both neighbors need parallel trunk directions."
+    },
+    {
+      "id": "REF_PLANE_CONTINUITY",
+      "phase": "geometry_and_si",
+      "severity": "BLOCKED_OR_ERROR",
+      "check": "For every high-speed path, its inflated XY corridor must lie in connected GND copper on the designated reference layer; subtract actual antipads/voids/plane splits. Corridor/void margin comes from approved SI inputs. Unknown margin -> BLOCKED; geometric failure -> ERROR."
+    },
+    {
+      "id": "GROUND_LAYER_USE",
+      "phase": "geometry",
+      "severity": "ERROR",
+      "check": "G layers contain GND plane/stitches, with non-GND copper limited to registered compact escape landing/bridge exceptions. General signal/power routing on G layers is forbidden; local holes may not sever return corridors."
+    },
+    {
+      "id": "APPROVED_VIA_MACRO",
+      "phase": "geometry_and_fabrication",
+      "severity": "BLOCKED_OR_ERROR",
+      "check": "Every via belongs to a whole approved macro/process table. Matching a candidate layer pair alone is insufficient. Arbitrary blind depth, automatically generated 2+ stages, unqualified skip via or stacked-on-buried via -> ERROR."
+    },
+    {
+      "id": "HDI_GROUND_LANDING",
+      "phase": "geometry_and_fabrication",
+      "severity": "ERROR",
+      "check": "For L1->L3 or L24->L22 signal escape, the middle G-layer landing/bridge is the signal net, isolated by approved antipad; verify capture/target pads, registration, offset, fill/cap and manufacturing stages. Coincident XY is stacked HDI and requires explicit macro approval."
+    },
+    {
+      "id": "RETURN_TRANSITION",
+      "phase": "geometry_and_si",
+      "severity": "BLOCKED_OR_ERROR",
+      "check": "Every signal reference change has approved nearby return macro actually connecting all old/new GND planes. Merely a nearby GND-labelled pad or disconnected island cannot pass."
+    },
+    {
+      "id": "BARREL_STUBS",
+      "phase": "geometry_and_si",
+      "severity": "BLOCKED_OR_ERROR",
+      "check": "Compute all unused barrel lengths from actual z coordinates and electrical taps, including core stubs and dual-sided drill tolerance. Compare worst-case residual stub to qualified limits; missing actual stackup/backdrill data -> BLOCKED."
+    },
+    {
+      "id": "BACKDRILL_CLEARANCE",
+      "phase": "fabrication",
+      "severity": "ERROR",
+      "check": "Check swept oversized drill volume plus registration/depth tolerance against protected copper on every crossed layer; do not erase needed tap, fill/cap requirement or return connection."
+    },
+    {
+      "id": "INDEPENDENT_PWR_NETS",
+      "phase": "geometry_and_pdn",
+      "severity": "ERROR",
+      "check": "Keep all independently fused SSD output nets and other rails isolated; neither P-layer consolidation nor copper fill may merge nets. Current, thermal and dynamic PDN evidence is required separately."
+    },
+    {
+      "id": "RELEASE_GATES",
+      "phase": "release",
+      "severity": "BLOCKED",
+      "check": "Real component/ballmap/PDG + routed connectivity/DRC + approved DFM stack/vias + channel SI + PDN/thermal + mechanical + assembly/reliability evidence must all pass; no individual script can set manufacturing_ready."
+    }
+  ],
+  "geometry_interaction_record_required_fields": [
+    "net_a",
+    "net_b",
+    "layer_a",
+    "layer_b",
+    "segment_or_pad_ids",
+    "xy_edge_clearance_mm",
+    "crossing_angle_deg",
+    "parallel_projected_overlap_mm",
+    "actual_z_clearance_mm",
+    "qualified_envelope_id",
+    "result",
+    "exception_id"
+  ],
+  "fabricator_input_template": "FAB_INPUT_TEMPLATE.json",
+  "required_input_keys": [
+    "manufacturer_site",
+    "project_stackup_revision",
+    "finished_board_thickness_mm",
+    "finished_board_thickness_tolerance_mm",
+    "mechanical_thickness_approval",
+    "material_systems",
+    "copper_layers",
+    "dielectric_gaps",
+    "symmetric_construction_tolerances",
+    "material_frequency_data_and_models",
+    "lamination_sequence",
+    "trace_space_limits",
+    "layer_registration_tolerance_um",
+    "approved_via_macros",
+    "microvia_geometry",
+    "microvia_fill_and_cap",
+    "microvia_stacking_limits",
+    "staggered_microvia_clearance",
+    "signal_landing_on_ground_layer",
+    "mechanical_drill_geometry",
+    "buried_core_via_options",
+    "backdrill_process",
+    "core_backdrill_capability",
+    "via_in_pad_assembly_rules",
+    "reliability_acceptance",
+    "bareboard_test_plan",
+    "component_ballmaps_and_pdg",
+    "interface_net_classification",
+    "impedance_profiles",
+    "broadside_coupling_envelopes",
+    "signal_reference_corridors",
+    "return_transition_macros",
+    "channel_acceptance_limits",
+    "pdn_and_thermal_limits",
+    "route_exception_registry"
+  ],
+  "gate_scopes": {
+    "ARCHITECTURE_ARITHMETIC": {
+      "required_fabricator_inputs": [],
+      "can_run_now": true,
+      "checks": [
+        "layer role counts",
+        "mirror symmetry",
+        "adjacent G references",
+        "candidate layer-pair graph"
+      ],
+      "does_not_claim": [
+        "routability",
+        "coupling performance",
+        "manufacturability"
+      ]
+    },
+    "EXPLORATORY_GEOMETRY": {
+      "required_fabricator_inputs": [],
+      "can_run_now": true,
+      "checks": [
+        "actual corridor congestion",
+        "pair same-layer policy",
+        "projected overlap inventory",
+        "clearance under explicitly declared trial geometry"
+      ],
+      "does_not_claim": [
+        "qualified impedance",
+        "qualified crosstalk",
+        "fabricator DFM approval"
+      ],
+      "must_label_assumptions": true
+    },
+    "COUPLING_QUALIFICATION": {
+      "can_run_now": false,
+      "required_input_keys": [
+        "project_stackup_revision",
+        "copper_layers",
+        "dielectric_gaps",
+        "material_frequency_data_and_models",
+        "component_ballmaps_and_pdg",
+        "interface_net_classification",
+        "impedance_profiles",
+        "broadside_coupling_envelopes",
+        "signal_reference_corridors",
+        "return_transition_macros",
+        "channel_acceptance_limits",
+        "route_exception_registry"
+      ],
+      "missing_result": "BLOCKED"
+    },
+    "HDI_FABRICATION_QUALIFICATION": {
+      "can_run_now": false,
+      "required_input_keys": [
+        "manufacturer_site",
+        "project_stackup_revision",
+        "finished_board_thickness_mm",
+        "finished_board_thickness_tolerance_mm",
+        "material_systems",
+        "copper_layers",
+        "dielectric_gaps",
+        "symmetric_construction_tolerances",
+        "lamination_sequence",
+        "trace_space_limits",
+        "layer_registration_tolerance_um",
+        "approved_via_macros",
+        "microvia_geometry",
+        "microvia_fill_and_cap",
+        "microvia_stacking_limits",
+        "staggered_microvia_clearance",
+        "signal_landing_on_ground_layer",
+        "mechanical_drill_geometry",
+        "buried_core_via_options",
+        "backdrill_process",
+        "core_backdrill_capability",
+        "via_in_pad_assembly_rules",
+        "reliability_acceptance"
+      ],
+      "missing_result": "BLOCKED"
+    },
+    "MANUFACTURING_RELEASE": {
+      "can_run_now": false,
+      "required_input_keys": [
+        "manufacturer_site",
+        "project_stackup_revision",
+        "finished_board_thickness_mm",
+        "finished_board_thickness_tolerance_mm",
+        "mechanical_thickness_approval",
+        "material_systems",
+        "copper_layers",
+        "dielectric_gaps",
+        "symmetric_construction_tolerances",
+        "material_frequency_data_and_models",
+        "lamination_sequence",
+        "trace_space_limits",
+        "layer_registration_tolerance_um",
+        "approved_via_macros",
+        "microvia_geometry",
+        "microvia_fill_and_cap",
+        "microvia_stacking_limits",
+        "staggered_microvia_clearance",
+        "signal_landing_on_ground_layer",
+        "mechanical_drill_geometry",
+        "buried_core_via_options",
+        "backdrill_process",
+        "core_backdrill_capability",
+        "via_in_pad_assembly_rules",
+        "reliability_acceptance",
+        "bareboard_test_plan",
+        "component_ballmaps_and_pdg",
+        "interface_net_classification",
+        "impedance_profiles",
+        "broadside_coupling_envelopes",
+        "signal_reference_corridors",
+        "return_transition_macros",
+        "channel_acceptance_limits",
+        "pdn_and_thermal_limits",
+        "route_exception_registry"
+      ],
+      "missing_result": "BLOCKED",
+      "additional_required_evidence": [
+        "complete net connectivity",
+        "native DRC disposition",
+        "mechanical approval",
+        "channel SI pass",
+        "PDN/thermal pass",
+        "assembly and reliability approval"
+      ]
+    }
+  },
+  "validator_result_contract": {
+    "plan_schema_pass_is_not_manufacturability": true,
+    "states": [
+      "PASS",
+      "FAIL",
+      "BLOCKED",
+      "NOT_RUN"
+    ],
+    "unknown_must_never_be_pass": true,
+    "release_requires_all_gates_pass": true,
+    "source_hash_guard_required": true
+  },
+  "sources": [
+    {
+      "id": "INTEL_AN958",
+      "url": "https://cdrdv2-public.intel.com/677286/an958-683073-677286.pdf",
+      "section": "5.1.2 pp23-24",
+      "use": "Qualitative dual-stripline crosstalk mitigation only; no CPU-specific PDG or universal numeric coupling guarantee."
+    },
+    {
+      "id": "TI_SNLA426",
+      "url": "https://www.ti.com/lit/an/snla426/snla426.pdf",
+      "section": "19,23,24",
+      "use": "Reference continuity, symmetric pair transitions and stub review; not a fabricator approval."
+    },
+    {
+      "id": "NCAB_MICROVIAS",
+      "url": "https://www.ncabgroup.com/microvias/",
+      "use": "Buildup/microvia process and reliability constraints; vendor examples are not granted capabilities."
+    },
+    {
+      "id": "NCAB_HDI",
+      "url": "https://www.ncabgroup.com/hdi-high-density-interconnect-pcb/",
+      "use": "Filled via-in-pad and staggered/stacked manufacturability considerations."
+    }
+  ]
+}

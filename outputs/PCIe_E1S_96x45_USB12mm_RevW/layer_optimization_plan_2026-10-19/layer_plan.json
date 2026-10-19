@@ -1,0 +1,956 @@
+{
+  "schema_version": 1,
+  "decision": "provisional_reconstruction_plan",
+  "recommended_first_candidate": 24,
+  "not_a_fabrication_stackup": true,
+  "production_ready": false,
+  "direct_old_layer_index_remapping_allowed": false,
+  "source": {
+    "pcb_path": "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb",
+    "pcb_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "git_commit": "6c2364c22a1648e9eac45f1b1c66f55d32ce5f06",
+    "actual_copper_layers": 32,
+    "actual_routing_layers": 23,
+    "disconnected_non_NC_nets": 97,
+    "disconnected_populated_non_NC_nets": 94
+  },
+  "preserved_constraints": {
+    "outline_mm": [
+      96,
+      45
+    ],
+    "connector_positions": "unchanged placeholders; genuine models not yet selected",
+    "M2": "out of scope",
+    "independent_slot_outputs": true
+  },
+  "signoff": {
+    "routability": false,
+    "signal_integrity": false,
+    "controlled_impedance": false,
+    "timing": false,
+    "power_integrity": false,
+    "current_and_thermal": false,
+    "fabrication": false,
+    "genuine_switch_ballmap": false,
+    "genuine_SMT_connectors": false,
+    "CPU_PDG_VR_complete": false
+  },
+  "physical_stackup": {
+    "provided": false,
+    "finished_thickness_mm": null,
+    "dielectric_thicknesses_mm": null,
+    "Dk": null,
+    "Df": null,
+    "copper_weights": null,
+    "material": null
+  },
+  "channel_budget": {
+    "unit": "unidirectional differential data channels; AC coupling sections counted once",
+    "PCIe": {
+      "SSD_slots": 12,
+      "PCIe_lanes_per_SSD": 4,
+      "diff_channels_per_bidirectional_lane": 2,
+      "SSD_channels": 96,
+      "CPU_switch_x4_channels": 8,
+      "CPU_TBT_x4_channels": 8,
+      "total_bidirectional_lanes": 56,
+      "total_diff_data_channels": 112
+    },
+    "additional_data": {
+      "TBT_CIO_diff_channels": 4,
+      "DP_main_link_diff_channels": 4
+    },
+    "clock_pair_sections": 17,
+    "aux_and_USB2": "Two AUX P/N pairs; USB2 RP/TOP/BOTTOM are net sections, not three independently proven USB ports.",
+    "capacity_verified": false
+  },
+  "candidates": [
+    {
+      "total_layers": 24,
+      "disposition": "recommended_first_geometry_reconstruction",
+      "budget": {
+        "S": 12,
+        "G": 8,
+        "P": 4
+      },
+      "sequence": [
+        "S",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "S",
+        "S",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "S"
+      ],
+      "layers": [
+        {
+          "physical_layer": 1,
+          "role": "S",
+          "adjacent_GND_layers": [
+            2
+          ],
+          "preferred_reference_GND": 2,
+          "function": "F.Cu: connector escape, short local signal/control/power only"
+        },
+        {
+          "physical_layer": 2,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Dedicated GND"
+        },
+        {
+          "physical_layer": 3,
+          "role": "S",
+          "adjacent_GND_layers": [
+            2
+          ],
+          "preferred_reference_GND": 2,
+          "function": "SSD data A: target 16 differential channels (2 x4 slots equivalent)"
+        },
+        {
+          "physical_layer": 4,
+          "role": "P",
+          "adjacent_GND_layers": [
+            5
+          ],
+          "preferred_reference_GND": null,
+          "function": "Power: bank A input/protected bus and six separately switched SSD output islands/corridors"
+        },
+        {
+          "physical_layer": 5,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Dedicated GND"
+        },
+        {
+          "physical_layer": 6,
+          "role": "S",
+          "adjacent_GND_layers": [
+            5
+          ],
+          "preferred_reference_GND": 5,
+          "function": "SSD data B: target 16 differential channels"
+        },
+        {
+          "physical_layer": 7,
+          "role": "S",
+          "adjacent_GND_layers": [
+            8
+          ],
+          "preferred_reference_GND": 8,
+          "function": "SSD data C: target 16 differential channels"
+        },
+        {
+          "physical_layer": 8,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Dedicated GND"
+        },
+        {
+          "physical_layer": 9,
+          "role": "P",
+          "adjacent_GND_layers": [
+            8
+          ],
+          "preferred_reference_GND": null,
+          "function": "Power: CPU/local VR and auxiliary rail regions; exact allocation unresolved"
+        },
+        {
+          "physical_layer": 10,
+          "role": "S",
+          "adjacent_GND_layers": [
+            11
+          ],
+          "preferred_reference_GND": 11,
+          "function": "CPU-to-switch x4 and CPU-to-TBT x4: target 16 differential data channels"
+        },
+        {
+          "physical_layer": 11,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Dedicated GND"
+        },
+        {
+          "physical_layer": 12,
+          "role": "S",
+          "adjacent_GND_layers": [
+            11
+          ],
+          "preferred_reference_GND": 11,
+          "function": "Clock/control A: reserve 17 refclock pairs across L12/L13 plus local control"
+        },
+        {
+          "physical_layer": 13,
+          "role": "S",
+          "adjacent_GND_layers": [
+            14
+          ],
+          "preferred_reference_GND": 14,
+          "function": "Clock/control B: USB2/AUX and control; spacing from L12 clock channels must be modeled"
+        },
+        {
+          "physical_layer": 14,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Dedicated GND"
+        },
+        {
+          "physical_layer": 15,
+          "role": "S",
+          "adjacent_GND_layers": [
+            14
+          ],
+          "preferred_reference_GND": 14,
+          "function": "TBT CIO 4 differential channels + DP main-link 4 differential channels; reserve routing margin"
+        },
+        {
+          "physical_layer": 16,
+          "role": "P",
+          "adjacent_GND_layers": [
+            17
+          ],
+          "preferred_reference_GND": null,
+          "function": "Power: PEX and TBT/auxiliary local rail regions; exact allocation unresolved"
+        },
+        {
+          "physical_layer": 17,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Dedicated GND"
+        },
+        {
+          "physical_layer": 18,
+          "role": "S",
+          "adjacent_GND_layers": [
+            17
+          ],
+          "preferred_reference_GND": 17,
+          "function": "SSD data D: target 16 differential channels"
+        },
+        {
+          "physical_layer": 19,
+          "role": "S",
+          "adjacent_GND_layers": [
+            20
+          ],
+          "preferred_reference_GND": 20,
+          "function": "SSD data E: target 16 differential channels"
+        },
+        {
+          "physical_layer": 20,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Dedicated GND"
+        },
+        {
+          "physical_layer": 21,
+          "role": "P",
+          "adjacent_GND_layers": [
+            20
+          ],
+          "preferred_reference_GND": null,
+          "function": "Power: bank B input/protected bus and six separately switched SSD output islands/corridors"
+        },
+        {
+          "physical_layer": 22,
+          "role": "S",
+          "adjacent_GND_layers": [
+            23
+          ],
+          "preferred_reference_GND": 23,
+          "function": "SSD data F: target 16 differential channels"
+        },
+        {
+          "physical_layer": 23,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Dedicated GND"
+        },
+        {
+          "physical_layer": 24,
+          "role": "S",
+          "adjacent_GND_layers": [
+            23
+          ],
+          "preferred_reference_GND": 23,
+          "function": "B.Cu: CPU/switch/TBT escape and short local control/power only"
+        }
+      ],
+      "adjacent_SS_risks": [
+        {
+          "layers": [
+            6,
+            7
+          ],
+          "GND_references": [
+            5,
+            8
+          ],
+          "status": "unresolved",
+          "requirements": [
+            "Fabricator-defined dielectric geometry and field-solver/crosstalk validation",
+            "No default broadside P/N assignment; P/N coupled on the same layer",
+            "Offset long parallel routes; orthogonal routing alone does not establish a pass",
+            "If failed, add ground separation or re-budget signal layers; never assert symmetry equals shielding"
+          ]
+        },
+        {
+          "layers": [
+            12,
+            13
+          ],
+          "GND_references": [
+            11,
+            14
+          ],
+          "status": "unresolved",
+          "requirements": [
+            "Fabricator-defined dielectric geometry and field-solver/crosstalk validation",
+            "No default broadside P/N assignment; P/N coupled on the same layer",
+            "Offset long parallel routes; orthogonal routing alone does not establish a pass",
+            "If failed, add ground separation or re-budget signal layers; never assert symmetry equals shielding"
+          ]
+        },
+        {
+          "layers": [
+            18,
+            19
+          ],
+          "GND_references": [
+            17,
+            20
+          ],
+          "status": "unresolved",
+          "requirements": [
+            "Fabricator-defined dielectric geometry and field-solver/crosstalk validation",
+            "No default broadside P/N assignment; P/N coupled on the same layer",
+            "Offset long parallel routes; orthogonal routing alone does not establish a pass",
+            "If failed, add ground separation or re-budget signal layers; never assert symmetry equals shielding"
+          ]
+        }
+      ],
+      "power_layers_without_adjacent_GND": [],
+      "power_domains": {
+        "electrical_merge_permitted": false,
+        "slot_assignments": [
+          {
+            "slot": 1,
+            "net": "P12_SLOT01",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 2,
+            "net": "P12_SLOT02",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 3,
+            "net": "P12_SLOT03",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 4,
+            "net": "P12_SLOT04",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 5,
+            "net": "P12_SLOT05",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 6,
+            "net": "P12_SLOT06",
+            "bank": "B",
+            "candidate_physical_layer": 21,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 7,
+            "net": "P12_SLOT07",
+            "bank": "B",
+            "candidate_physical_layer": 21,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 8,
+            "net": "P12_SLOT08",
+            "bank": "B",
+            "candidate_physical_layer": 21,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 9,
+            "net": "P12_SLOT09",
+            "bank": "B",
+            "candidate_physical_layer": 21,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 10,
+            "net": "P12_SLOT10",
+            "bank": "B",
+            "candidate_physical_layer": 21,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 11,
+            "net": "P12_SLOT11",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 12,
+            "net": "P12_SLOT12",
+            "bank": "B",
+            "candidate_physical_layer": 21,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          }
+        ],
+        "also_keep_distinct": [
+          "VIN_A",
+          "VIN_B",
+          "VBANK_A",
+          "VBANK_B",
+          "AUX_12V_PROTECTED"
+        ],
+        "unallocated_CPU_PEX_aux_regions": {
+          "layers": [
+            9,
+            16
+          ],
+          "status": "unresolved genuine rail/current/VR input; not a capacity claim"
+        }
+      },
+      "near_surface_microvia_concept": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ]
+      ],
+      "route_budget_is_not_routability_proof": true,
+      "route_reservations": {
+        "SSD_data": [
+          {
+            "physical_layer": 3,
+            "target_diff_channels": 16
+          },
+          {
+            "physical_layer": 6,
+            "target_diff_channels": 16
+          },
+          {
+            "physical_layer": 7,
+            "target_diff_channels": 16
+          },
+          {
+            "physical_layer": 18,
+            "target_diff_channels": 16
+          },
+          {
+            "physical_layer": 19,
+            "target_diff_channels": 16
+          },
+          {
+            "physical_layer": 22,
+            "target_diff_channels": 16
+          }
+        ],
+        "CPU_switch_TBT_PCIe": [
+          {
+            "physical_layer": 10,
+            "target_diff_channels": 16
+          }
+        ],
+        "CIO_DP_main": [
+          {
+            "physical_layer": 15,
+            "target_diff_channels": 8
+          }
+        ],
+        "clock_control_layers": [
+          12,
+          13
+        ],
+        "short_escape_layers": [
+          1,
+          24
+        ],
+        "quota_verified": false
+      }
+    },
+    {
+      "total_layers": 20,
+      "disposition": "conditional_cost_down_after_24_passes",
+      "budget": {
+        "S": 10,
+        "G": 6,
+        "P": 4
+      },
+      "sequence": [
+        "S",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "P",
+        "S",
+        "G",
+        "S",
+        "S",
+        "G",
+        "S",
+        "P",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "S"
+      ],
+      "layers": [
+        {
+          "physical_layer": 1,
+          "role": "S",
+          "adjacent_GND_layers": [
+            2
+          ],
+          "preferred_reference_GND": 2,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 2,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 3,
+          "role": "S",
+          "adjacent_GND_layers": [
+            2
+          ],
+          "preferred_reference_GND": 2,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 4,
+          "role": "P",
+          "adjacent_GND_layers": [
+            5
+          ],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 5,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 6,
+          "role": "S",
+          "adjacent_GND_layers": [
+            5
+          ],
+          "preferred_reference_GND": 5,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 7,
+          "role": "P",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 8,
+          "role": "S",
+          "adjacent_GND_layers": [
+            9
+          ],
+          "preferred_reference_GND": 9,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 9,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 10,
+          "role": "S",
+          "adjacent_GND_layers": [
+            9
+          ],
+          "preferred_reference_GND": 9,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 11,
+          "role": "S",
+          "adjacent_GND_layers": [
+            12
+          ],
+          "preferred_reference_GND": 12,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 12,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 13,
+          "role": "S",
+          "adjacent_GND_layers": [
+            12
+          ],
+          "preferred_reference_GND": 12,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 14,
+          "role": "P",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 15,
+          "role": "S",
+          "adjacent_GND_layers": [
+            16
+          ],
+          "preferred_reference_GND": 16,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 16,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 17,
+          "role": "P",
+          "adjacent_GND_layers": [
+            16
+          ],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 18,
+          "role": "S",
+          "adjacent_GND_layers": [
+            19
+          ],
+          "preferred_reference_GND": 19,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 19,
+          "role": "G",
+          "adjacent_GND_layers": [],
+          "preferred_reference_GND": null,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        },
+        {
+          "physical_layer": 20,
+          "role": "S",
+          "adjacent_GND_layers": [
+            19
+          ],
+          "preferred_reference_GND": 19,
+          "function": "Signal, reference or isolated power resource; detailed route assignment is deferred."
+        }
+      ],
+      "adjacent_SS_risks": [
+        {
+          "layers": [
+            10,
+            11
+          ],
+          "GND_references": [
+            9,
+            12
+          ],
+          "status": "unresolved",
+          "requirements": [
+            "Fabricator-defined dielectric geometry and field-solver/crosstalk validation",
+            "No default broadside P/N assignment; P/N coupled on the same layer",
+            "Offset long parallel routes; orthogonal routing alone does not establish a pass",
+            "If failed, add ground separation or re-budget signal layers; never assert symmetry equals shielding"
+          ]
+        }
+      ],
+      "power_layers_without_adjacent_GND": [
+        7,
+        14
+      ],
+      "power_domains": {
+        "electrical_merge_permitted": false,
+        "slot_assignments": [
+          {
+            "slot": 1,
+            "net": "P12_SLOT01",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 2,
+            "net": "P12_SLOT02",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 3,
+            "net": "P12_SLOT03",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 4,
+            "net": "P12_SLOT04",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 5,
+            "net": "P12_SLOT05",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 6,
+            "net": "P12_SLOT06",
+            "bank": "B",
+            "candidate_physical_layer": 17,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 7,
+            "net": "P12_SLOT07",
+            "bank": "B",
+            "candidate_physical_layer": 17,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 8,
+            "net": "P12_SLOT08",
+            "bank": "B",
+            "candidate_physical_layer": 17,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 9,
+            "net": "P12_SLOT09",
+            "bank": "B",
+            "candidate_physical_layer": 17,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 10,
+            "net": "P12_SLOT10",
+            "bank": "B",
+            "candidate_physical_layer": 17,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 11,
+            "net": "P12_SLOT11",
+            "bank": "A",
+            "candidate_physical_layer": 4,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          },
+          {
+            "slot": 12,
+            "net": "P12_SLOT12",
+            "bank": "B",
+            "candidate_physical_layer": 17,
+            "isolation": "distinct eFuse output island/corridor; no output-to-output short"
+          }
+        ],
+        "also_keep_distinct": [
+          "VIN_A",
+          "VIN_B",
+          "VBANK_A",
+          "VBANK_B",
+          "AUX_12V_PROTECTED"
+        ],
+        "unallocated_CPU_PEX_aux_regions": {
+          "layers": [
+            7,
+            14
+          ],
+          "status": "unresolved genuine rail/current/VR input; not a capacity claim"
+        }
+      },
+      "near_surface_microvia_concept": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ]
+      ],
+      "route_budget_is_not_routability_proof": true
+    }
+  ],
+  "other_candidates": [
+    {
+      "total_layers": 16,
+      "budget": {
+        "S": 8,
+        "G": 6,
+        "P": 2
+      },
+      "disposition": "Do not force first iteration; power and signal resource risk. 6S/6G/4P is a separately constrained alternative."
+    },
+    {
+      "total_layers": 28,
+      "budget": {
+        "S": 14,
+        "G": 10,
+        "P": 4
+      },
+      "disposition": "Fallback only after measured escape/channel shortage or need for added ground separation; PDN failure may need a different budget."
+    },
+    {
+      "total_layers": 32,
+      "budget": {
+        "S": 16,
+        "G": 10,
+        "P": 6
+      },
+      "disposition": "Fallback only after measured need; not the existing 32-layer arbitrary-blind mixed-plane structure."
+    }
+  ],
+  "manufacturing": {
+    "fabricator_approved": false,
+    "concept": "Two buildup layers each face plus a manufacturer-defined core; 24-layer concept 2+20+2, 20-layer concept 2+16+2.",
+    "microvia_policy": "Only near-surface adjacent layer transitions proposed; staggered preferred. Stack/fill, core span, backdrill and all dimensions require fabricator approval.",
+    "inherited_deep_blind_vias_allowed": false,
+    "same_layer_PN_default": true,
+    "return_transition_stitching_required": true
+  },
+  "progression_gates": {
+    "before_claiming_24_routable": [
+      "Authenticate endpoint pinout and footprints, or label the result explicitly as placeholder-only geometry",
+      "Define manufacturer-legal via primitives and actual stackup; no invented thickness or Dk",
+      "Complete required connectivity and verify every mandatory pad, no power-domain merges",
+      "Demonstrate actual escape and local corridor capacity for all planned data/control routes",
+      "Validate GND projection, return stitching, S-S coupling, impedance, loss, timing and PDN/thermal targets"
+    ],
+    "try_20_only_after": [
+      "24-layer actual routing and PDN/return-path constraints pass with quantified local margin",
+      "Reroute independently for eight internal signal layers and six GND layers; no deletion/remapping shortcut"
+    ],
+    "escalate_28_or_32_if": [
+      "Verified legal-via escape or local channel capacity fails after geometry/route optimization",
+      "Adjacent S-S coupling requires more ground separation and the reduced-signal 24-layer alternative lacks capacity",
+      "Verified CPU/PEX/SSD power delivery needs additional copper resources"
+    ],
+    "do_not_infer": [
+      "No empty old layer means 32 is necessary",
+      "Low global area percentage means 24 will route",
+      "A local route failure means the whole candidate is impossible",
+      "Native DRC zero means SI/PI/fabrication signoff"
+    ]
+  },
+  "references": [
+    {
+      "title": "TI SNLA426: High-Speed PCB Layout for PCIe Gen 5",
+      "url": "https://www.ti.com/lit/an/snla426/snla426.pdf",
+      "use": "General reference-plane continuity, paired transition and stub principles; not the CPU/PEX product PDG and not a stackup approval."
+    },
+    {
+      "title": "NCAB Microvias",
+      "url": "https://www.ncabgroup.com/microvias/",
+      "use": "Short microvia and conservative stacked-via manufacturing/reliability guidance; actual fab capability must be contracted."
+    },
+    {
+      "title": "NCAB HDI",
+      "url": "https://www.ncabgroup.com/hdi-high-density-interconnect-pcb/",
+      "use": "Buildup and via-in-pad process context."
+    },
+    {
+      "title": "TTM HDI Advanced Solutions 2026",
+      "url": "https://www.ttm.com/sites/default/files/documents/3K.%20HDI_Advanced%20Solutions_High%20Res_2026.pdf",
+      "use": "2+N+2 process families and supplier-specific capabilities, not approval for this board."
+    }
+  ]
+}
