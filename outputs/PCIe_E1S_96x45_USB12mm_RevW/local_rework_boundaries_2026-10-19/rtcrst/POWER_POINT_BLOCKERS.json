@@ -1,0 +1,56 @@
+{
+  "source_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
+  "point_mm": [
+    64.7,
+    36.25
+  ],
+  "minimum_center_to_copper_for_450um_via_at75um_clearance": 0.3,
+  "minimum_for600um": 0.375,
+  "obstacles": [
+    {
+      "object": "528e4fb5-8147-4757-b412-82d9682cd572",
+      "net": "{slash}S10_SW_RX0_N",
+      "type": "PCB_TRACK",
+      "layer": "In26.Cu",
+      "distance_from_hole_center_to_copper_mm": 0.06137890145834082,
+      "start": [
+        57.1,
+        43.6
+      ],
+      "end": [
+        64.9,
+        36.2
+      ]
+    },
+    {
+      "object": "44d95b88-6822-4b76-89d6-334d3c643fe5",
+      "net": "{slash}S10_SW_RX0_N",
+      "type": "PCB_TRACK",
+      "layer": "In26.Cu",
+      "distance_from_hole_center_to_copper_mm": 0.16615528649211597,
+      "start": [
+        64.9,
+        36.2
+      ],
+      "end": [
+        64.9,
+        19.3
+      ]
+    },
+    {
+      "object": "fcdfe494-4618-4a2d-8e5f-e18bd319dac0",
+      "net": "{slash}TBT_DP_AUX_P",
+      "type": "PCB_TRACK",
+      "layer": "In16.Cu",
+      "distance_from_hole_center_to_copper_mm": 0.2809414789724779,
+      "start": [
+        55.3,
+        36.2
+      ],
+      "end": [
+        69.3,
+        35.8
+      ]
+    }
+  ]
+}

@@ -34,11 +34,15 @@
   "primary_E1S_power_usb_distance_from_left_mm": 12,
   "primary_E1S_thunderbolt_usb_distance_from_left_mm": 24,
   "primary_E1S_usb_center_pitch_mm": 12,
-  "primary_E1S_connectivity_status": "incomplete; rebuilt from retained first-round source after unpublished later snapshot loss",
-  "primary_E1S_review": "outputs/PCIe_E1S_96x45_USB12mm_RevW/rebuild_review_2026-10-18/README.md",
-  "primary_E1S_all_pad_audit": "outputs/PCIe_E1S_96x45_USB12mm_RevW/rebuild_review_2026-10-18/INDEPENDENT_THIRD_ALL_PAD.json",
-  "primary_E1S_step_and_preview_status": "historical; not regenerated after 2026-10-18 electrical ECO",
-  "primary_E1S_pcb_sha256": "c350871d495780568e12e64cd4d33fe8ec5ce248fe5f51ea87519bf3b767b92e",
-  "primary_E1S_disconnected_non_NC_nets": 104,
-  "primary_E1S_native_review": "outputs/PCIe_E1S_96x45_USB12mm_RevW/rebuild_review_2026-10-18/independent_third/REVIEW.json"
+  "primary_E1S_connectivity_status": "incomplete; AN20 DC feed connected, CPU-local RTC bypass/reset and broader power/timing remain open",
+  "primary_E1S_review": "outputs/PCIe_E1S_96x45_USB12mm_RevW/rtc_an20_feed_review_2026-10-19/README.md",
+  "primary_E1S_all_pad_audit": "outputs/PCIe_E1S_96x45_USB12mm_RevW/rtc_an20_feed_review_2026-10-19/AUDIT.json",
+  "primary_E1S_step_and_preview_status": "historical; not regenerated or revalidated for the current PCB SHA",
+  "primary_E1S_pcb_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
+  "primary_E1S_disconnected_non_NC_nets": 98,
+  "primary_E1S_native_review": "outputs/PCIe_E1S_96x45_USB12mm_RevW/rtc_an20_feed_review_2026-10-19/DRC.json",
+  "primary_E1S_electrical_source_commit": "ee3aec2714b6021698ba782691d2ecad39630c1d",
+  "primary_E1S_disconnected_populated_non_NC_nets": 95,
+  "primary_E1S_minimum_non_NC_cluster_joins": 1758,
+  "primary_E1S_local_rework_boundaries": "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/README.md"
 }

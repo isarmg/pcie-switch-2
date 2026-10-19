@@ -1,0 +1,179 @@
+{
+  "source_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
+  "project_sha256": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "read_only_no_candidate": true,
+  "CPU_AN20": [
+    58.347,
+    30.265899
+  ],
+  "existing_capacitors": [
+    {
+      "ref": "C917",
+      "value": "100nF / PDN budget",
+      "fpid": "Local:C_0402_1005Metric",
+      "xy": [
+        1.535,
+        29.935
+      ],
+      "layer": "B.Cu",
+      "courtyard": [
+        0.6,
+        29.45,
+        2.47,
+        30.42
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "{slash}CPU_VCCRTC",
+          "xy": [
+            1.055,
+            29.935
+          ]
+        },
+        {
+          "number": "2",
+          "net": "{slash}GND",
+          "xy": [
+            2.015,
+            29.935
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "C918",
+      "value": "4.7uF / PDN budget",
+      "fpid": "Local:C_0603_1608Metric",
+      "xy": [
+        31.555,
+        1.355
+      ],
+      "layer": "B.Cu",
+      "courtyard": [
+        30.05,
+        0.6,
+        33.06,
+        2.11
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "{slash}CPU_VCCRTC",
+          "xy": [
+            30.78,
+            1.355
+          ]
+        },
+        {
+          "number": "2",
+          "net": "{slash}GND",
+          "xy": [
+            32.33,
+            1.355
+          ]
+        }
+      ]
+    }
+  ],
+  "F_courtyards": {
+    "J5": [
+      48.725,
+      13.965,
+      55.275,
+      39.115
+    ],
+    "J6": [
+      56.725,
+      13.965,
+      63.275,
+      39.115
+    ]
+  },
+  "CPU_B_courtyard": [
+    40.725,
+    8.475,
+    68.275,
+    36.525
+  ],
+  "shortest_straight_AN20_to_B_courtyard_edge_mm": 6.259100999999998,
+  "screen": {
+    "0.6": {
+      "drill": 0.3,
+      "points": [],
+      "count": 0,
+      "continuous_free_area_mm2": 0.0,
+      "continuous_free_bounds": [],
+      "scope": "All original pad copper includingNC is protected; sameRTC tracks may be touched, but no via-in-pad. All layers copper physical clearance, not yet plane-loss screen."
+    },
+    "0.45": {
+      "drill": 0.25,
+      "points": [],
+      "count": 0,
+      "continuous_free_area_mm2": 0.0,
+      "continuous_free_bounds": [],
+      "scope": "All original pad copper includingNC is protected; sameRTC tracks may be touched, but no via-in-pad. All layers copper physical clearance, not yet plane-loss screen."
+    }
+  },
+  "screen_rect_mm": [
+    55,
+    29,
+    58.8,
+    32.3
+  ],
+  "screen_clearance_mm": 0.075,
+  "additional_screen_margin_mm": 0.001,
+  "F_gap_proposal": {
+    "C917_center_approx": [
+      56,
+      30.8
+    ],
+    "rotation_deg": 90,
+    "center_distance_AN20_mm": 2.407004960152971,
+    "cap_courtyard_width_after_rotation_mm": 0.97,
+    "connector_gap_width_mm": 1.45,
+    "ground_anchor": "J6.A6 at57.7,31.534999 using existing F-In1 .20/.10 via41587ef0-a5ee-470a-8c1c-8ae5fa1b9411"
+  },
+  "ground_anchor_and_CPU_GND_same_native_cluster": true,
+  "closest_ground_transition_In1_to_In28": [
+    {
+      "uuid": "54acb13b-a37f-4ab2-8759-b14676bf3442",
+      "xy": [
+        64.0,
+        39.5
+      ],
+      "straight_distance_to_AN20_mm": 10.827050857837557,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "9ee6b5a1-355f-4cee-af37-8cd26680eb4a",
+      "xy": [
+        39.75,
+        40.5
+      ],
+      "straight_distance_to_AN20_mm": 21.22699301074462,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "98dea853-d61d-4c29-9d28-493cc8772380",
+      "xy": [
+        37.32,
+        41.95
+      ],
+      "straight_distance_to_AN20_mm": 24.055206196958718,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    }
+  ],
+  "through_hole_GND_pads": [],
+  "decision": "Do not move C917/C918 or add holes. Near front gap has no admissible single conventional through-via position in bounded region, and existing F-In1 ground anchor alone would return to CPU In28 through a distant10.827mm bridge. Back-side placement must clear CPU courtyard and is already at least6.259mm fromAN20 before capacitor extent. No claimed near-end PDN improvement.",
+  "values_evidence": "100nF and4.7uF are existing PDN-budget draft values. No affirmative Intel public-source requirement for these exact capacitances was found in the reviewed829568-004/embeddedElectrical material. Values unchanged; actual MLCC and transient PDN requirements remain open."
+}

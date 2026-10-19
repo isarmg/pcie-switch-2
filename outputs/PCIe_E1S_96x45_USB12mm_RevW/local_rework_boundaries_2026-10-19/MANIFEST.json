@@ -1,0 +1,21 @@
+{
+  "electrical_source_commit": "ee3aec2714b6021698ba782691d2ecad39630c1d",
+  "pcb_unchanged_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
+  "no_PCB_candidate_or_design_change": true,
+  "files": {
+    "CURRENT_DESIGNS.json": "70df9749d00d83ebada648c12964ae9352b65d27c9fba50bf12e7c9c37a4aa5c",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/README.md": "3a3fd6a0c62c2eb0bf68d9df1b0cd9a6fa212681a93061c2b7ed6c9818725101",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/rtcrst/POWER_POINT_BLOCKERS.json": "7180725e6fb7d11450cd535376ecc479a6aaa528ca6f0690bcd7dc2574580ee9",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/rtcrst/TRIAL_SCOPE.json": "b2ceb792836feb246cb59758fe9d1c150403dac5a78c779e8bf4ac3ab121d802",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/rtcrst/READONLY.json": "89218e9375bb359488613d2fc9edacba190989a29be527371c011d9332710e10",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/rtcrst/VIA_SCREEN.json": "c08e916fc321fbf8c2986d9dbdb52d15942cdc0eb6b983eefc71af8a8182623e",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/rtcrst/README.md": "44c7bc95a945828696d1a96e182d20fc10d9ad3bb2c0f9ebc429c158fcea33b3",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/rtcrst/POWER_VIA_SCREEN.json": "cb23a96d12656a14d8214b980a997c6a7dae280ef9e2e5acda2c03d784464137",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/rtcrst/INDEPENDENT_POWER_VIA_SCREEN.json": "cb23a96d12656a14d8214b980a997c6a7dae280ef9e2e5acda2c03d784464137",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/nearcap/INDEPENDENT_VIA_SCREEN.json": "cb23a96d12656a14d8214b980a997c6a7dae280ef9e2e5acda2c03d784464137",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/nearcap/TRIAL_SCOPE.json": "5282923a21b1443b91989092c4e6412f2130f0281a5de123f1c445f063ca5bf1",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/nearcap/FEASIBILITY.json": "309702ee650e26b082eb7fd7a7f3308ad5fa398cabc9543964c7d4bdd5de9fff",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/nearcap/VIA_SCREEN.json": "cb23a96d12656a14d8214b980a997c6a7dae280ef9e2e5acda2c03d784464137",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/nearcap/README.md": "31562d5d2d2294f1150c95492aa56caa9008ff714199b4167a28b471fd72abd4"
+  }
+}

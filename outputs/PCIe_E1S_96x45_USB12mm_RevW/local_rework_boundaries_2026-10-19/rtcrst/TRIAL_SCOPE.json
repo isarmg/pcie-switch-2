@@ -1,0 +1,36 @@
+{
+  "source_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
+  "authorized_topology_trials": 1,
+  "topology": "F64 local R710/C709 with separate conventional RTC supply and reset vias",
+  "physical_screen_windows": 2,
+  "windows_mm": {
+    "reset": [
+      63,
+      30,
+      68,
+      36
+    ],
+    "RTC_supply": [
+      64.35,
+      36.05,
+      64.85,
+      36.55
+    ]
+  },
+  "via_types_tested_each": [
+    [
+      0.6,
+      0.3
+    ],
+    [
+      0.45,
+      0.25
+    ]
+  ],
+  "sample_pitch_mm": 0.025,
+  "continuous_polygon_free_area_also_evaluated": true,
+  "native_candidate_PCBs_generated": 0,
+  "DRC_fill_candidate_trials": 0,
+  "stop": "RTC supply window has zero admissible physical area; no more positions or layer types tried",
+  "source_unchanged": true
+}

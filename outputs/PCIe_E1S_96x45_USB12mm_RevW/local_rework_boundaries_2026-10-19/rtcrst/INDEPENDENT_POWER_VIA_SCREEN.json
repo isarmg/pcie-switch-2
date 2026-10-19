@@ -1,0 +1,18 @@
+{
+  "0.6": {
+    "drill": 0.3,
+    "points": [],
+    "count": 0,
+    "continuous_free_area_mm2": 0.0,
+    "continuous_free_bounds": [],
+    "scope": "All original pad copper includingNC is protected; sameRTC tracks may be touched, but no via-in-pad. All layers copper physical clearance, not yet plane-loss screen."
+  },
+  "0.45": {
+    "drill": 0.25,
+    "points": [],
+    "count": 0,
+    "continuous_free_area_mm2": 0.0,
+    "continuous_free_bounds": [],
+    "scope": "All original pad copper includingNC is protected; sameRTC tracks may be touched, but no via-in-pad. All layers copper physical clearance, not yet plane-loss screen."
+  }
+}

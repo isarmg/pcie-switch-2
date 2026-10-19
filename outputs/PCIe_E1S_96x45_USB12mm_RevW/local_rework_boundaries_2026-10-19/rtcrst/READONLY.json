@@ -1,0 +1,274 @@
+{
+  "source_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
+  "ballout_sha256": "6e50fc43a2e05ef9ea99a9cf75fd248f2f8ec812b499c594ee80b292c45af83e",
+  "ballout_rows": [
+    {
+      "sheet": "Pinlist",
+      "row": 1792,
+      "values": [
+        "H15",
+        "RTCRST#",
+        "I",
+        "Power Management/RTC",
+        9175,
+        -10885.5,
+        null
+      ]
+    }
+  ],
+  "primary_document": "Intel829568 Rev004 officialPDF section16.1/16.2 printed143\u2013144",
+  "requirements": "RTC-domain RTCRST should be high when RTC planes are powered except G3 clear. SRT and RTCRST must not be shorted. No exact100k/100n recommended values found in reviewed public section; existing draft values only.",
+  "nets": [
+    {
+      "net": "{slash}CPU_RTCRST_N",
+      "intentional_nc": false,
+      "groups": [
+        {
+          "pad_uuids": [
+            "05f84413-b662-47c2-9f9b-1a2494cb72bf"
+          ],
+          "ref_pin": [
+            "U502.H15"
+          ],
+          "populated_ref_pin": [
+            "U502.H15"
+          ],
+          "physical_pad_shapes": 1
+        },
+        {
+          "pad_uuids": [
+            "9ed41e16-78ed-4724-8255-8edf87b492b3"
+          ],
+          "ref_pin": [
+            "C709.1"
+          ],
+          "populated_ref_pin": [
+            "C709.1"
+          ],
+          "physical_pad_shapes": 1
+        },
+        {
+          "pad_uuids": [
+            "f5efaf41-b06c-403d-a94f-bd10e10dc805"
+          ],
+          "ref_pin": [
+            "R710.1"
+          ],
+          "populated_ref_pin": [
+            "R710.1"
+          ],
+          "physical_pad_shapes": 1
+        }
+      ],
+      "component_count": 3,
+      "populated_component_count": 3
+    },
+    {
+      "net": "{slash}CPU_VCCRTC",
+      "intentional_nc": false,
+      "groups": [
+        {
+          "pad_uuids": [
+            "0996ea74-aea8-413a-8003-43273de17c0f"
+          ],
+          "ref_pin": [
+            "C917.1"
+          ],
+          "populated_ref_pin": [
+            "C917.1"
+          ],
+          "physical_pad_shapes": 1
+        },
+        {
+          "pad_uuids": [
+            "5b966e8c-4d00-4074-982e-a6e81e1b4924",
+            "e61ef8a7-d7d0-48b2-a465-6afdaa64ee8e",
+            "ea1953c6-f0d0-452d-bd00-92dbe872158f"
+          ],
+          "ref_pin": [
+            "C708.1",
+            "U502.AN20",
+            "U702.5"
+          ],
+          "populated_ref_pin": [
+            "C708.1",
+            "U502.AN20",
+            "U702.5"
+          ],
+          "physical_pad_shapes": 3
+        },
+        {
+          "pad_uuids": [
+            "dc92a30b-54ec-4370-bc7c-103afaee4c96"
+          ],
+          "ref_pin": [
+            "C918.1"
+          ],
+          "populated_ref_pin": [
+            "C918.1"
+          ],
+          "physical_pad_shapes": 1
+        },
+        {
+          "pad_uuids": [
+            "eb2ecadb-398e-4cda-aefd-3a1904600be2"
+          ],
+          "ref_pin": [
+            "R711.2"
+          ],
+          "populated_ref_pin": [
+            "R711.2"
+          ],
+          "physical_pad_shapes": 1
+        },
+        {
+          "pad_uuids": [
+            "31313a87-f68f-41c9-99d4-87cca13ba2ec"
+          ],
+          "ref_pin": [
+            "R710.2"
+          ],
+          "populated_ref_pin": [
+            "R710.2"
+          ],
+          "physical_pad_shapes": 1
+        }
+      ],
+      "component_count": 5,
+      "populated_component_count": 5
+    }
+  ],
+  "C709_ground_cluster": [
+    {
+      "pad_uuids": [
+        "e65a54d3-3c9a-4190-aa64-fcf6cb054cc3"
+      ],
+      "ref_pin": [
+        "C709.2"
+      ],
+      "populated_ref_pin": [
+        "C709.2"
+      ],
+      "physical_pad_shapes": 1
+    }
+  ],
+  "reset_via_screen": {
+    "0.6": {
+      "drill": 0.3,
+      "points": [],
+      "count": 0,
+      "continuous_free_area_mm2": 0.0,
+      "continuous_free_bounds": [],
+      "scope": "All original pad copper includingNC is protected; sameRTC tracks may be touched, but no via-in-pad. All layers copper physical clearance, not yet plane-loss screen."
+    },
+    "0.45": {
+      "drill": 0.25,
+      "points": [
+        [
+          67.97499999999971,
+          30.599999999999966
+        ],
+        [
+          67.97499999999971,
+          30.574999999999967
+        ],
+        [
+          67.97499999999971,
+          30.54999999999997
+        ],
+        [
+          67.97499999999971,
+          30.52499999999997
+        ],
+        [
+          67.97499999999971,
+          30.49999999999997
+        ]
+      ],
+      "count": 5,
+      "continuous_free_area_mm2": 0.007067570789176101,
+      "continuous_free_bounds": [
+        67.95722676583624,
+        30.478291602866562,
+        68.0,
+        30.80441677228217
+      ],
+      "scope": "All original pad copper includingNC is protected; sameRTC tracks may be touched, but no via-in-pad. All layers copper physical clearance, not yet plane-loss screen."
+    }
+  },
+  "power_via_screen": {
+    "0.6": {
+      "drill": 0.3,
+      "points": [],
+      "count": 0,
+      "continuous_free_area_mm2": 0.0,
+      "continuous_free_bounds": [],
+      "scope": "All original pad copper includingNC is protected; sameRTC tracks may be touched, but no via-in-pad. All layers copper physical clearance, not yet plane-loss screen."
+    },
+    "0.45": {
+      "drill": 0.25,
+      "points": [],
+      "count": 0,
+      "continuous_free_area_mm2": 0.0,
+      "continuous_free_bounds": [],
+      "scope": "All original pad copper includingNC is protected; sameRTC tracks may be touched, but no via-in-pad. All layers copper physical clearance, not yet plane-loss screen."
+    }
+  },
+  "power_point_blockers": {
+    "source_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
+    "point_mm": [
+      64.7,
+      36.25
+    ],
+    "minimum_center_to_copper_for_450um_via_at75um_clearance": 0.3,
+    "minimum_for600um": 0.375,
+    "obstacles": [
+      {
+        "object": "528e4fb5-8147-4757-b412-82d9682cd572",
+        "net": "{slash}S10_SW_RX0_N",
+        "type": "PCB_TRACK",
+        "layer": "In26.Cu",
+        "distance_from_hole_center_to_copper_mm": 0.06137890145834082,
+        "start": [
+          57.1,
+          43.6
+        ],
+        "end": [
+          64.9,
+          36.2
+        ]
+      },
+      {
+        "object": "44d95b88-6822-4b76-89d6-334d3c643fe5",
+        "net": "{slash}S10_SW_RX0_N",
+        "type": "PCB_TRACK",
+        "layer": "In26.Cu",
+        "distance_from_hole_center_to_copper_mm": 0.16615528649211597,
+        "start": [
+          64.9,
+          36.2
+        ],
+        "end": [
+          64.9,
+          19.3
+        ]
+      },
+      {
+        "object": "fcdfe494-4618-4a2d-8e5f-e18bd319dac0",
+        "net": "{slash}TBT_DP_AUX_P",
+        "type": "PCB_TRACK",
+        "layer": "In16.Cu",
+        "distance_from_hole_center_to_copper_mm": 0.2809414789724779,
+        "start": [
+          55.3,
+          36.2
+        ],
+        "end": [
+          69.3,
+          35.8
+        ]
+      }
+    ]
+  },
+  "decision": "No candidate. Authorized single two-via prescreen rejected because RTC power via localwindow has zero continuous free physical area for0.60/0.30 and0.45/0.25. Example64.7,36.25 conflicts with existingS10_SW_RX0_N In26 andTBT_DP_AUX_P In16. No new positions searched after rejection; no main or metadata change. Reset-side narrow0.45/0.25 opportunity is not validated for all-plane projections or routing and is not approved for use."
+}

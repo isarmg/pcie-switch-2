@@ -1,0 +1,25 @@
+{
+  "source_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
+  "physical_screen_windows": 1,
+  "window_mm": [
+    55,
+    29,
+    58.8,
+    32.3
+  ],
+  "via_types_tested": [
+    [
+      0.6,
+      0.3
+    ],
+    [
+      0.45,
+      0.25
+    ]
+  ],
+  "sample_pitch_mm": 0.025,
+  "continuous_polygon_free_area_also_evaluated": true,
+  "native_candidate_PCBs_generated": 0,
+  "DRC_fill_candidate_trials": 0,
+  "source_unchanged": true
+}
