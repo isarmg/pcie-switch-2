@@ -1,0 +1,116 @@
+{
+  "BASE_AUDIT": [
+    {
+      "net": "{slash}CPU_EPD_ON_LOOP_1V25",
+      "intentional_nc": false,
+      "groups": [
+        {
+          "pad_uuids": [
+            "a3a41fbb-09ac-4473-afe6-f5fb439c5a31"
+          ],
+          "ref_pin": [
+            "U502.AB27"
+          ],
+          "populated_ref_pin": [
+            "U502.AB27"
+          ],
+          "physical_pad_shapes": 1
+        },
+        {
+          "pad_uuids": [
+            "3d5a1433-9b19-4073-a1fb-393f67b987ba"
+          ],
+          "ref_pin": [
+            "U502.Y27"
+          ],
+          "populated_ref_pin": [
+            "U502.Y27"
+          ],
+          "physical_pad_shapes": 1
+        }
+      ],
+      "component_count": 2,
+      "populated_component_count": 2
+    },
+    {
+      "net": "{slash}CPU_VDD2_PWRGOOD_LOOP",
+      "intentional_nc": false,
+      "groups": [
+        {
+          "pad_uuids": [
+            "6a4340bf-b5ab-4704-ae63-892e3ea14b8d"
+          ],
+          "ref_pin": [
+            "U502.AA26"
+          ],
+          "populated_ref_pin": [
+            "U502.AA26"
+          ],
+          "physical_pad_shapes": 1
+        },
+        {
+          "pad_uuids": [
+            "e58c5003-585a-4706-97f8-4591c32fff28"
+          ],
+          "ref_pin": [
+            "U502.AC26"
+          ],
+          "populated_ref_pin": [
+            "U502.AC26"
+          ],
+          "physical_pad_shapes": 1
+        }
+      ],
+      "component_count": 2,
+      "populated_component_count": 2
+    }
+  ],
+  "AUDIT": [
+    {
+      "net": "{slash}CPU_EPD_ON_LOOP_1V25",
+      "intentional_nc": false,
+      "groups": [
+        {
+          "pad_uuids": [
+            "3d5a1433-9b19-4073-a1fb-393f67b987ba",
+            "a3a41fbb-09ac-4473-afe6-f5fb439c5a31"
+          ],
+          "ref_pin": [
+            "U502.AB27",
+            "U502.Y27"
+          ],
+          "populated_ref_pin": [
+            "U502.AB27",
+            "U502.Y27"
+          ],
+          "physical_pad_shapes": 2
+        }
+      ],
+      "component_count": 1,
+      "populated_component_count": 1
+    },
+    {
+      "net": "{slash}CPU_VDD2_PWRGOOD_LOOP",
+      "intentional_nc": false,
+      "groups": [
+        {
+          "pad_uuids": [
+            "6a4340bf-b5ab-4704-ae63-892e3ea14b8d",
+            "e58c5003-585a-4706-97f8-4591c32fff28"
+          ],
+          "ref_pin": [
+            "U502.AA26",
+            "U502.AC26"
+          ],
+          "populated_ref_pin": [
+            "U502.AA26",
+            "U502.AC26"
+          ],
+          "physical_pad_shapes": 2
+        }
+      ],
+      "component_count": 1,
+      "populated_component_count": 1
+    }
+  ]
+}

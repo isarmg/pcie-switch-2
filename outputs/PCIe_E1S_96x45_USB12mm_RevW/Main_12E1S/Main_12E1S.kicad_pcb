@@ -235310,6 +235310,22 @@
 		(uuid "282e8c68-c9ed-4b05-9aa3-9d37b89c80c3")
 	)
 	(segment
+		(start 61.767 28.6223)
+		(end 61.197 28.6223)
+		(width 0.1)
+		(layer "B.Cu")
+		(net "{slash}CPU_VDD2_PWRGOOD_LOOP")
+		(uuid "ea0876b4-7952-4878-9705-3213d75e29d9")
+	)
+	(segment
+		(start 62.052 28.211399)
+		(end 61.482 28.211399)
+		(width 0.1)
+		(layer "B.Cu")
+		(net "{slash}CPU_EPD_ON_LOOP_1V25")
+		(uuid "0dd7a5e2-5ef7-4aed-a467-330286c0a4bb")
+	)
+	(segment
 		(start 41.450006 5.599998)
 		(end 40.800006 5.599998)
 		(width 0.1)

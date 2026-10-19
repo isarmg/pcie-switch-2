@@ -1,0 +1,1316 @@
+{
+  "script_sha256": "366fb103441ed644bb91e91ad76e5cd386d2455864953594cbc6134eb9bafe31",
+  "source_hashes_before": {
+    "/workspace/scratch/08a6fde47383/e1s-local-power-20261019/Base/Main_12E1S.kicad_pcb": "bb7cc241cf5f548508e9091352a07ab4407bc8ff08489037f1e11aeb80c8ccbb",
+    "/workspace/scratch/08a6fde47383/e1s-local-power-20261019/Candidate/Main_12E1S.kicad_pcb": "f31316e79ea4290db7e75fc3f79ba0a1861925ea6e8a98a7d457b0c1a1160a60",
+    "/workspace/scratch/08a6fde47383/e1s-local-power-20261019/Base/Main_12E1S.kicad_pro": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+    "/workspace/scratch/08a6fde47383/e1s-local-power-20261019/Candidate/Main_12E1S.kicad_pro": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30"
+  },
+  "source_hashes_after": {
+    "/workspace/scratch/08a6fde47383/e1s-local-power-20261019/Base/Main_12E1S.kicad_pcb": "bb7cc241cf5f548508e9091352a07ab4407bc8ff08489037f1e11aeb80c8ccbb",
+    "/workspace/scratch/08a6fde47383/e1s-local-power-20261019/Candidate/Main_12E1S.kicad_pcb": "f31316e79ea4290db7e75fc3f79ba0a1861925ea6e8a98a7d457b0c1a1160a60",
+    "/workspace/scratch/08a6fde47383/e1s-local-power-20261019/Base/Main_12E1S.kicad_pro": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+    "/workspace/scratch/08a6fde47383/e1s-local-power-20261019/Candidate/Main_12E1S.kicad_pro": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30"
+  },
+  "sources_unchanged": true,
+  "scope": "Exact polygon lost/gained for all actual filled layer/net plane groups, including power and GND; all candidate non-GND straight tracks on each immediately adjacent physical layer checked at actual halfwidth. Includes low-speed and power tracks, not just selected differential nets. Comparison isolates reference-plane changes using candidate signal geometry in both plane states. No SI qualification.",
+  "quad_segs": 128,
+  "native_outline_repairs_before": [
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 16.665776778140014,
+      "after_mm2": 16.665776778140028
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 1237.1135680201153,
+      "after_mm2": 1237.1135680200894
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 887.2668092749173,
+      "after_mm2": 887.2668092749252
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 700.7956224687712,
+      "after_mm2": 700.7956224687624
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 32.833077538521565,
+      "after_mm2": 32.83307753852154
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 357.94764095442514,
+      "after_mm2": 357.9476409544248
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 15.461193909659956,
+      "after_mm2": 15.46119390966
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 451.930487122477,
+      "after_mm2": 451.9304871224792
+    },
+    {
+      "zone": "dcaa84f1-bacf-4f44-b72b-ce5059057970",
+      "layer": "In2.Cu",
+      "before_mm2": 3970.5712006094063,
+      "after_mm2": 3970.571200609396
+    },
+    {
+      "zone": "798b5c89-6161-4833-855a-12f40a06cca7",
+      "layer": "In3.Cu",
+      "before_mm2": 1848.6335373015181,
+      "after_mm2": 1848.633537301488
+    },
+    {
+      "zone": "94f76314-9a9b-4196-a51a-a2f1c31dd8eb",
+      "layer": "In3.Cu",
+      "before_mm2": 2136.8858344973482,
+      "after_mm2": 2136.8858344973837
+    },
+    {
+      "zone": "0277df45-dd94-4dd8-b966-af88039538da",
+      "layer": "In4.Cu",
+      "before_mm2": 4003.294584355541,
+      "after_mm2": 4003.2945843555485
+    },
+    {
+      "zone": "673e3c7e-9097-4fff-88d8-64d69cf41606",
+      "layer": "In5.Cu",
+      "before_mm2": 4004.2547264098152,
+      "after_mm2": 4004.2547264098503
+    },
+    {
+      "zone": "a62199db-f81a-48a6-8703-2eb8657e644a",
+      "layer": "In6.Cu",
+      "before_mm2": 4013.9861130974537,
+      "after_mm2": 4013.986113097491
+    },
+    {
+      "zone": "5bce15dd-2a26-492e-9ffb-ebd7ba583eb4",
+      "layer": "In7.Cu",
+      "before_mm2": 4009.6212005197735,
+      "after_mm2": 4009.6212005198254
+    },
+    {
+      "zone": "949ba112-e5d4-4dfc-a9cd-b740c9b96daf",
+      "layer": "In8.Cu",
+      "before_mm2": 1352.7256023119285,
+      "after_mm2": 1352.725602311914
+    },
+    {
+      "zone": "949ba112-e5d4-4dfc-a9cd-b740c9b96daf",
+      "layer": "In8.Cu",
+      "before_mm2": 333.71729239944517,
+      "after_mm2": 333.7172923994468
+    },
+    {
+      "zone": "ded8182d-6109-46b4-9a55-1f48d761a6fb",
+      "layer": "In9.Cu",
+      "before_mm2": 1512.7816426872264,
+      "after_mm2": 1512.7816426872207
+    },
+    {
+      "zone": "ded8182d-6109-46b4-9a55-1f48d761a6fb",
+      "layer": "In9.Cu",
+      "before_mm2": 707.7580452929093,
+      "after_mm2": 707.7580452929088
+    },
+    {
+      "zone": "181f8b1b-a82f-4266-ab0e-d4c418f4e059",
+      "layer": "In10.Cu",
+      "before_mm2": 1242.72116571171,
+      "after_mm2": 1242.7211657116957
+    },
+    {
+      "zone": "181f8b1b-a82f-4266-ab0e-d4c418f4e059",
+      "layer": "In10.Cu",
+      "before_mm2": 989.708018096182,
+      "after_mm2": 989.7080180961752
+    },
+    {
+      "zone": "181f8b1b-a82f-4266-ab0e-d4c418f4e059",
+      "layer": "In10.Cu",
+      "before_mm2": 93.20374761237865,
+      "after_mm2": 93.20374761237902
+    },
+    {
+      "zone": "181f8b1b-a82f-4266-ab0e-d4c418f4e059",
+      "layer": "In10.Cu",
+      "before_mm2": 700.5960892794665,
+      "after_mm2": 700.5960892794624
+    },
+    {
+      "zone": "0eaf26c1-afcc-4b18-97bb-843a8b56b9ee",
+      "layer": "In11.Cu",
+      "before_mm2": 1202.4133149461893,
+      "after_mm2": 1202.4133149461936
+    },
+    {
+      "zone": "0eaf26c1-afcc-4b18-97bb-843a8b56b9ee",
+      "layer": "In11.Cu",
+      "before_mm2": 891.0568484605479,
+      "after_mm2": 891.0568484605537
+    },
+    {
+      "zone": "c17c7834-d42d-45d4-8cae-9bf6a900ae5e",
+      "layer": "In12.Cu",
+      "before_mm2": 2458.9809372344703,
+      "after_mm2": 2458.980937234483
+    },
+    {
+      "zone": "c17c7834-d42d-45d4-8cae-9bf6a900ae5e",
+      "layer": "In12.Cu",
+      "before_mm2": 802.2080089724591,
+      "after_mm2": 802.2080089724572
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 1127.651146089538,
+      "after_mm2": 1127.651146089535
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 298.7073533065588,
+      "after_mm2": 298.70735330655975
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 349.20304322425915,
+      "after_mm2": 349.2030432242589
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 399.5131022837359,
+      "after_mm2": 399.5131022837349
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 303.2625537517237,
+      "after_mm2": 303.2625537517235
+    },
+    {
+      "zone": "a3defa32-1676-44b8-9ba0-def20b76201f",
+      "layer": "In14.Cu",
+      "before_mm2": 888.7289033443785,
+      "after_mm2": 888.7289033443739
+    },
+    {
+      "zone": "a3defa32-1676-44b8-9ba0-def20b76201f",
+      "layer": "In14.Cu",
+      "before_mm2": 1181.0545810483643,
+      "after_mm2": 1181.0545810483593
+    },
+    {
+      "zone": "f1559fe6-33e4-473a-8fe0-e352625ffefe",
+      "layer": "In15.Cu",
+      "before_mm2": 1286.7417793627676,
+      "after_mm2": 1286.74177936276
+    },
+    {
+      "zone": "f1559fe6-33e4-473a-8fe0-e352625ffefe",
+      "layer": "In15.Cu",
+      "before_mm2": 353.15560086828447,
+      "after_mm2": 353.15560086828543
+    },
+    {
+      "zone": "15547666-62d7-42f1-969d-7018670f32a5",
+      "layer": "In16.Cu",
+      "before_mm2": 985.0488616406642,
+      "after_mm2": 985.0488616406737
+    },
+    {
+      "zone": "15547666-62d7-42f1-969d-7018670f32a5",
+      "layer": "In16.Cu",
+      "before_mm2": 500.61278292741474,
+      "after_mm2": 500.61278292741747
+    },
+    {
+      "zone": "15547666-62d7-42f1-969d-7018670f32a5",
+      "layer": "In16.Cu",
+      "before_mm2": 1125.3627341123718,
+      "after_mm2": 1125.3627341123706
+    },
+    {
+      "zone": "3b354270-2183-44fc-a5d8-22f5a539d7ba",
+      "layer": "In17.Cu",
+      "before_mm2": 1917.9644606001257,
+      "after_mm2": 1917.9644606001768
+    },
+    {
+      "zone": "3b354270-2183-44fc-a5d8-22f5a539d7ba",
+      "layer": "In17.Cu",
+      "before_mm2": 43.279024887315465,
+      "after_mm2": 43.27902488731542
+    },
+    {
+      "zone": "4bffc171-06b6-4d60-90a6-85517ebd09d2",
+      "layer": "In18.Cu",
+      "before_mm2": 1812.8315689843994,
+      "after_mm2": 1812.8315689844035
+    },
+    {
+      "zone": "4bffc171-06b6-4d60-90a6-85517ebd09d2",
+      "layer": "In18.Cu",
+      "before_mm2": 552.9349714235047,
+      "after_mm2": 552.9349714235149
+    },
+    {
+      "zone": "4bffc171-06b6-4d60-90a6-85517ebd09d2",
+      "layer": "In18.Cu",
+      "before_mm2": 185.82899737120778,
+      "after_mm2": 185.82899737120945
+    },
+    {
+      "zone": "81b61e03-c9da-4014-b429-a5f20eff7709",
+      "layer": "In19.Cu",
+      "before_mm2": 4009.551690501814,
+      "after_mm2": 4009.5516905018476
+    },
+    {
+      "zone": "97fbd6cb-0b5e-4b41-8953-ef3083983fe0",
+      "layer": "In20.Cu",
+      "before_mm2": 772.9193674285772,
+      "after_mm2": 772.9193674285792
+    },
+    {
+      "zone": "97fbd6cb-0b5e-4b41-8953-ef3083983fe0",
+      "layer": "In20.Cu",
+      "before_mm2": 160.86697217103696,
+      "after_mm2": 160.8669721710372
+    },
+    {
+      "zone": "b35b883c-d332-4001-ad2e-1544a41bb567",
+      "layer": "In21.Cu",
+      "before_mm2": 1024.999818112865,
+      "after_mm2": 1024.999818112877
+    },
+    {
+      "zone": "b35b883c-d332-4001-ad2e-1544a41bb567",
+      "layer": "In21.Cu",
+      "before_mm2": 596.4757183127836,
+      "after_mm2": 596.4757183127824
+    },
+    {
+      "zone": "7b8c8e50-e339-4e30-a050-c0e7cb3015b1",
+      "layer": "In22.Cu",
+      "before_mm2": 4003.9102705010923,
+      "after_mm2": 4003.9102705011182
+    },
+    {
+      "zone": "53ee85da-7044-4c62-b0cc-31c0e59d5c99",
+      "layer": "In23.Cu",
+      "before_mm2": 288.2979452638988,
+      "after_mm2": 288.2979452638995
+    },
+    {
+      "zone": "53ee85da-7044-4c62-b0cc-31c0e59d5c99",
+      "layer": "In23.Cu",
+      "before_mm2": 442.23652337695927,
+      "after_mm2": 442.23652337695904
+    },
+    {
+      "zone": "d3f31486-0f52-4773-8281-ac308b05ab21",
+      "layer": "In24.Cu",
+      "before_mm2": 455.1823229828504,
+      "after_mm2": 455.18232298284994
+    },
+    {
+      "zone": "d3f31486-0f52-4773-8281-ac308b05ab21",
+      "layer": "In24.Cu",
+      "before_mm2": 416.79830006309726,
+      "after_mm2": 416.79830006309805
+    },
+    {
+      "zone": "f38afafe-8a7a-4c5b-86c3-faef85ad72be",
+      "layer": "In25.Cu",
+      "before_mm2": 2168.2664255204763,
+      "after_mm2": 2168.2664255204904
+    },
+    {
+      "zone": "f38afafe-8a7a-4c5b-86c3-faef85ad72be",
+      "layer": "In25.Cu",
+      "before_mm2": 756.4377948164097,
+      "after_mm2": 756.4377948164027
+    },
+    {
+      "zone": "f38afafe-8a7a-4c5b-86c3-faef85ad72be",
+      "layer": "In25.Cu",
+      "before_mm2": 300.00404031183575,
+      "after_mm2": 300.00404031183655
+    },
+    {
+      "zone": "fe9b6060-1915-4dbe-b1ec-3a516d35b90b",
+      "layer": "In26.Cu",
+      "before_mm2": 396.45499774150426,
+      "after_mm2": 396.4549977415058
+    },
+    {
+      "zone": "fe9b6060-1915-4dbe-b1ec-3a516d35b90b",
+      "layer": "In26.Cu",
+      "before_mm2": 672.9313714321627,
+      "after_mm2": 672.9313714321554
+    },
+    {
+      "zone": "fe9b6060-1915-4dbe-b1ec-3a516d35b90b",
+      "layer": "In26.Cu",
+      "before_mm2": 372.38974519357146,
+      "after_mm2": 372.3897451935709
+    },
+    {
+      "zone": "fe9b6060-1915-4dbe-b1ec-3a516d35b90b",
+      "layer": "In26.Cu",
+      "before_mm2": 183.51060584596013,
+      "after_mm2": 183.5106058459595
+    },
+    {
+      "zone": "99d11f58-e93f-4022-9339-b0251cc48016",
+      "layer": "In27.Cu",
+      "before_mm2": 463.8278647264282,
+      "after_mm2": 463.82786472643005
+    },
+    {
+      "zone": "99d11f58-e93f-4022-9339-b0251cc48016",
+      "layer": "In27.Cu",
+      "before_mm2": 81.72147703681323,
+      "after_mm2": 81.72147703681345
+    },
+    {
+      "zone": "99d11f58-e93f-4022-9339-b0251cc48016",
+      "layer": "In27.Cu",
+      "before_mm2": 26.526597969341488,
+      "after_mm2": 26.526597969341445
+    },
+    {
+      "zone": "99d11f58-e93f-4022-9339-b0251cc48016",
+      "layer": "In27.Cu",
+      "before_mm2": 21.64328440073751,
+      "after_mm2": 21.6432844007375
+    },
+    {
+      "zone": "1547af80-2a46-47df-96fd-cc4562113619",
+      "layer": "In28.Cu",
+      "before_mm2": 3159.9241644510184,
+      "after_mm2": 3159.9241644510016
+    },
+    {
+      "zone": "1547af80-2a46-47df-96fd-cc4562113619",
+      "layer": "In28.Cu",
+      "before_mm2": 14.343619201484014,
+      "after_mm2": 14.343619201484012
+    },
+    {
+      "zone": "1547af80-2a46-47df-96fd-cc4562113619",
+      "layer": "In28.Cu",
+      "before_mm2": 585.2556949955331,
+      "after_mm2": 585.255694995531
+    },
+    {
+      "zone": "fe502b43-37f7-4406-840f-c5969dd1a924",
+      "layer": "In29.Cu",
+      "before_mm2": 3110.1452104434024,
+      "after_mm2": 3110.145210443288
+    },
+    {
+      "zone": "f899d7a5-4a9a-45fe-8d5b-c969d7978c64",
+      "layer": "In30.Cu",
+      "before_mm2": 3748.22496521957,
+      "after_mm2": 3748.2249652195355
+    }
+  ],
+  "native_outline_repairs_after": [
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 16.665776778140014,
+      "after_mm2": 16.665776778140028
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 1237.1135680201153,
+      "after_mm2": 1237.1135680200894
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 887.2668092749173,
+      "after_mm2": 887.2668092749252
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 700.7956224687712,
+      "after_mm2": 700.7956224687624
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 32.833077538521565,
+      "after_mm2": 32.83307753852154
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 357.94764095442514,
+      "after_mm2": 357.9476409544248
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 15.461193909659956,
+      "after_mm2": 15.46119390966
+    },
+    {
+      "zone": "61b0e897-6f3b-43cb-93f4-15e80ca1384a",
+      "layer": "In1.Cu",
+      "before_mm2": 451.930487122477,
+      "after_mm2": 451.9304871224792
+    },
+    {
+      "zone": "dcaa84f1-bacf-4f44-b72b-ce5059057970",
+      "layer": "In2.Cu",
+      "before_mm2": 3970.5712006094063,
+      "after_mm2": 3970.571200609396
+    },
+    {
+      "zone": "798b5c89-6161-4833-855a-12f40a06cca7",
+      "layer": "In3.Cu",
+      "before_mm2": 1848.6335373015181,
+      "after_mm2": 1848.633537301488
+    },
+    {
+      "zone": "94f76314-9a9b-4196-a51a-a2f1c31dd8eb",
+      "layer": "In3.Cu",
+      "before_mm2": 2136.8858344973482,
+      "after_mm2": 2136.8858344973837
+    },
+    {
+      "zone": "0277df45-dd94-4dd8-b966-af88039538da",
+      "layer": "In4.Cu",
+      "before_mm2": 4003.294584355541,
+      "after_mm2": 4003.2945843555485
+    },
+    {
+      "zone": "673e3c7e-9097-4fff-88d8-64d69cf41606",
+      "layer": "In5.Cu",
+      "before_mm2": 4004.2547264098152,
+      "after_mm2": 4004.2547264098503
+    },
+    {
+      "zone": "a62199db-f81a-48a6-8703-2eb8657e644a",
+      "layer": "In6.Cu",
+      "before_mm2": 4013.9861130974537,
+      "after_mm2": 4013.986113097491
+    },
+    {
+      "zone": "5bce15dd-2a26-492e-9ffb-ebd7ba583eb4",
+      "layer": "In7.Cu",
+      "before_mm2": 4009.6212005197735,
+      "after_mm2": 4009.6212005198254
+    },
+    {
+      "zone": "949ba112-e5d4-4dfc-a9cd-b740c9b96daf",
+      "layer": "In8.Cu",
+      "before_mm2": 1352.7256023119285,
+      "after_mm2": 1352.725602311914
+    },
+    {
+      "zone": "949ba112-e5d4-4dfc-a9cd-b740c9b96daf",
+      "layer": "In8.Cu",
+      "before_mm2": 333.71729239944517,
+      "after_mm2": 333.7172923994468
+    },
+    {
+      "zone": "ded8182d-6109-46b4-9a55-1f48d761a6fb",
+      "layer": "In9.Cu",
+      "before_mm2": 1512.7816426872264,
+      "after_mm2": 1512.7816426872207
+    },
+    {
+      "zone": "ded8182d-6109-46b4-9a55-1f48d761a6fb",
+      "layer": "In9.Cu",
+      "before_mm2": 707.7580452929093,
+      "after_mm2": 707.7580452929088
+    },
+    {
+      "zone": "181f8b1b-a82f-4266-ab0e-d4c418f4e059",
+      "layer": "In10.Cu",
+      "before_mm2": 1242.72116571171,
+      "after_mm2": 1242.7211657116957
+    },
+    {
+      "zone": "181f8b1b-a82f-4266-ab0e-d4c418f4e059",
+      "layer": "In10.Cu",
+      "before_mm2": 989.708018096182,
+      "after_mm2": 989.7080180961752
+    },
+    {
+      "zone": "181f8b1b-a82f-4266-ab0e-d4c418f4e059",
+      "layer": "In10.Cu",
+      "before_mm2": 93.20374761237865,
+      "after_mm2": 93.20374761237902
+    },
+    {
+      "zone": "181f8b1b-a82f-4266-ab0e-d4c418f4e059",
+      "layer": "In10.Cu",
+      "before_mm2": 700.5960892794665,
+      "after_mm2": 700.5960892794624
+    },
+    {
+      "zone": "0eaf26c1-afcc-4b18-97bb-843a8b56b9ee",
+      "layer": "In11.Cu",
+      "before_mm2": 1202.4133149461893,
+      "after_mm2": 1202.4133149461936
+    },
+    {
+      "zone": "0eaf26c1-afcc-4b18-97bb-843a8b56b9ee",
+      "layer": "In11.Cu",
+      "before_mm2": 891.0568484605479,
+      "after_mm2": 891.0568484605537
+    },
+    {
+      "zone": "c17c7834-d42d-45d4-8cae-9bf6a900ae5e",
+      "layer": "In12.Cu",
+      "before_mm2": 2458.9809372344703,
+      "after_mm2": 2458.980937234483
+    },
+    {
+      "zone": "c17c7834-d42d-45d4-8cae-9bf6a900ae5e",
+      "layer": "In12.Cu",
+      "before_mm2": 802.2080089724591,
+      "after_mm2": 802.2080089724572
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 1127.651146089538,
+      "after_mm2": 1127.651146089535
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 298.7073533065588,
+      "after_mm2": 298.70735330655975
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 349.20304322425915,
+      "after_mm2": 349.2030432242589
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 399.5131022837359,
+      "after_mm2": 399.5131022837349
+    },
+    {
+      "zone": "34fd79d5-e435-4856-9beb-424a042765f5",
+      "layer": "In13.Cu",
+      "before_mm2": 303.2625537517237,
+      "after_mm2": 303.2625537517235
+    },
+    {
+      "zone": "a3defa32-1676-44b8-9ba0-def20b76201f",
+      "layer": "In14.Cu",
+      "before_mm2": 888.7289033443785,
+      "after_mm2": 888.7289033443739
+    },
+    {
+      "zone": "a3defa32-1676-44b8-9ba0-def20b76201f",
+      "layer": "In14.Cu",
+      "before_mm2": 1181.0545810483643,
+      "after_mm2": 1181.0545810483593
+    },
+    {
+      "zone": "f1559fe6-33e4-473a-8fe0-e352625ffefe",
+      "layer": "In15.Cu",
+      "before_mm2": 1286.7417793627676,
+      "after_mm2": 1286.74177936276
+    },
+    {
+      "zone": "f1559fe6-33e4-473a-8fe0-e352625ffefe",
+      "layer": "In15.Cu",
+      "before_mm2": 353.15560086828447,
+      "after_mm2": 353.15560086828543
+    },
+    {
+      "zone": "15547666-62d7-42f1-969d-7018670f32a5",
+      "layer": "In16.Cu",
+      "before_mm2": 985.0488616406642,
+      "after_mm2": 985.0488616406737
+    },
+    {
+      "zone": "15547666-62d7-42f1-969d-7018670f32a5",
+      "layer": "In16.Cu",
+      "before_mm2": 500.61278292741474,
+      "after_mm2": 500.61278292741747
+    },
+    {
+      "zone": "15547666-62d7-42f1-969d-7018670f32a5",
+      "layer": "In16.Cu",
+      "before_mm2": 1125.3627341123718,
+      "after_mm2": 1125.3627341123706
+    },
+    {
+      "zone": "3b354270-2183-44fc-a5d8-22f5a539d7ba",
+      "layer": "In17.Cu",
+      "before_mm2": 1917.9644606001257,
+      "after_mm2": 1917.9644606001768
+    },
+    {
+      "zone": "3b354270-2183-44fc-a5d8-22f5a539d7ba",
+      "layer": "In17.Cu",
+      "before_mm2": 43.279024887315465,
+      "after_mm2": 43.27902488731542
+    },
+    {
+      "zone": "4bffc171-06b6-4d60-90a6-85517ebd09d2",
+      "layer": "In18.Cu",
+      "before_mm2": 1812.8315689843994,
+      "after_mm2": 1812.8315689844035
+    },
+    {
+      "zone": "4bffc171-06b6-4d60-90a6-85517ebd09d2",
+      "layer": "In18.Cu",
+      "before_mm2": 552.9349714235047,
+      "after_mm2": 552.9349714235149
+    },
+    {
+      "zone": "4bffc171-06b6-4d60-90a6-85517ebd09d2",
+      "layer": "In18.Cu",
+      "before_mm2": 185.82899737120778,
+      "after_mm2": 185.82899737120945
+    },
+    {
+      "zone": "81b61e03-c9da-4014-b429-a5f20eff7709",
+      "layer": "In19.Cu",
+      "before_mm2": 4009.551690501814,
+      "after_mm2": 4009.5516905018476
+    },
+    {
+      "zone": "97fbd6cb-0b5e-4b41-8953-ef3083983fe0",
+      "layer": "In20.Cu",
+      "before_mm2": 772.9193674285772,
+      "after_mm2": 772.9193674285792
+    },
+    {
+      "zone": "97fbd6cb-0b5e-4b41-8953-ef3083983fe0",
+      "layer": "In20.Cu",
+      "before_mm2": 160.86697217103696,
+      "after_mm2": 160.8669721710372
+    },
+    {
+      "zone": "b35b883c-d332-4001-ad2e-1544a41bb567",
+      "layer": "In21.Cu",
+      "before_mm2": 1024.999818112865,
+      "after_mm2": 1024.999818112877
+    },
+    {
+      "zone": "b35b883c-d332-4001-ad2e-1544a41bb567",
+      "layer": "In21.Cu",
+      "before_mm2": 596.4757183127836,
+      "after_mm2": 596.4757183127824
+    },
+    {
+      "zone": "7b8c8e50-e339-4e30-a050-c0e7cb3015b1",
+      "layer": "In22.Cu",
+      "before_mm2": 4003.9102705010923,
+      "after_mm2": 4003.9102705011182
+    },
+    {
+      "zone": "53ee85da-7044-4c62-b0cc-31c0e59d5c99",
+      "layer": "In23.Cu",
+      "before_mm2": 288.2979452638988,
+      "after_mm2": 288.2979452638995
+    },
+    {
+      "zone": "53ee85da-7044-4c62-b0cc-31c0e59d5c99",
+      "layer": "In23.Cu",
+      "before_mm2": 442.23652337695927,
+      "after_mm2": 442.23652337695904
+    },
+    {
+      "zone": "d3f31486-0f52-4773-8281-ac308b05ab21",
+      "layer": "In24.Cu",
+      "before_mm2": 455.1823229828504,
+      "after_mm2": 455.18232298284994
+    },
+    {
+      "zone": "d3f31486-0f52-4773-8281-ac308b05ab21",
+      "layer": "In24.Cu",
+      "before_mm2": 416.79830006309726,
+      "after_mm2": 416.79830006309805
+    },
+    {
+      "zone": "f38afafe-8a7a-4c5b-86c3-faef85ad72be",
+      "layer": "In25.Cu",
+      "before_mm2": 2168.2664255204763,
+      "after_mm2": 2168.2664255204904
+    },
+    {
+      "zone": "f38afafe-8a7a-4c5b-86c3-faef85ad72be",
+      "layer": "In25.Cu",
+      "before_mm2": 756.4377948164097,
+      "after_mm2": 756.4377948164027
+    },
+    {
+      "zone": "f38afafe-8a7a-4c5b-86c3-faef85ad72be",
+      "layer": "In25.Cu",
+      "before_mm2": 300.00404031183575,
+      "after_mm2": 300.00404031183655
+    },
+    {
+      "zone": "fe9b6060-1915-4dbe-b1ec-3a516d35b90b",
+      "layer": "In26.Cu",
+      "before_mm2": 396.45499774150426,
+      "after_mm2": 396.4549977415058
+    },
+    {
+      "zone": "fe9b6060-1915-4dbe-b1ec-3a516d35b90b",
+      "layer": "In26.Cu",
+      "before_mm2": 672.9313714321627,
+      "after_mm2": 672.9313714321554
+    },
+    {
+      "zone": "fe9b6060-1915-4dbe-b1ec-3a516d35b90b",
+      "layer": "In26.Cu",
+      "before_mm2": 372.38974519357146,
+      "after_mm2": 372.3897451935709
+    },
+    {
+      "zone": "fe9b6060-1915-4dbe-b1ec-3a516d35b90b",
+      "layer": "In26.Cu",
+      "before_mm2": 183.51060584596013,
+      "after_mm2": 183.5106058459595
+    },
+    {
+      "zone": "99d11f58-e93f-4022-9339-b0251cc48016",
+      "layer": "In27.Cu",
+      "before_mm2": 463.8278647264282,
+      "after_mm2": 463.82786472643005
+    },
+    {
+      "zone": "99d11f58-e93f-4022-9339-b0251cc48016",
+      "layer": "In27.Cu",
+      "before_mm2": 81.72147703681323,
+      "after_mm2": 81.72147703681345
+    },
+    {
+      "zone": "99d11f58-e93f-4022-9339-b0251cc48016",
+      "layer": "In27.Cu",
+      "before_mm2": 26.526597969341488,
+      "after_mm2": 26.526597969341445
+    },
+    {
+      "zone": "99d11f58-e93f-4022-9339-b0251cc48016",
+      "layer": "In27.Cu",
+      "before_mm2": 21.64328440073751,
+      "after_mm2": 21.6432844007375
+    },
+    {
+      "zone": "1547af80-2a46-47df-96fd-cc4562113619",
+      "layer": "In28.Cu",
+      "before_mm2": 3159.9241644510184,
+      "after_mm2": 3159.9241644510016
+    },
+    {
+      "zone": "1547af80-2a46-47df-96fd-cc4562113619",
+      "layer": "In28.Cu",
+      "before_mm2": 14.343619201484014,
+      "after_mm2": 14.343619201484012
+    },
+    {
+      "zone": "1547af80-2a46-47df-96fd-cc4562113619",
+      "layer": "In28.Cu",
+      "before_mm2": 585.2556949955331,
+      "after_mm2": 585.255694995531
+    },
+    {
+      "zone": "fe502b43-37f7-4406-840f-c5969dd1a924",
+      "layer": "In29.Cu",
+      "before_mm2": 3110.1452104434024,
+      "after_mm2": 3110.145210443288
+    },
+    {
+      "zone": "f899d7a5-4a9a-45fe-8d5b-c969d7978c64",
+      "layer": "In30.Cu",
+      "before_mm2": 3748.22496521957,
+      "after_mm2": 3748.2249652195355
+    }
+  ],
+  "layers": {
+    "F.Cu|/PEX09_SW": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In1.Cu|/GND": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In10.Cu|/GND": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In11.Cu|/P12_SLOT03": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In12.Cu|/P12_SLOT04": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In13.Cu|/GND": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In14.Cu|/P12_SLOT05": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In15.Cu|/P12_SLOT06": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In16.Cu|/GND": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In17.Cu|/P12_SLOT07": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In18.Cu|/P12_SLOT08": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In19.Cu|/PEX_0V9": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In2.Cu|/P3V3_AUX": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In20.Cu|/P12_SLOT09": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In21.Cu|/P12_SLOT10": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In22.Cu|/PEX_0V9A": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In23.Cu|/P12_SLOT11": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In24.Cu|/P12_SLOT12": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In25.Cu|/GND": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In26.Cu|/AUX_12V_PROTECTED": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In27.Cu|/TBT_5V0": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In28.Cu|/GND": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In29.Cu|/TBT_VBUS": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In3.Cu|/VIN_A": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In3.Cu|/VIN_B": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In30.Cu|/P3V3_AUX": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In4.Cu|/PEX_1V8": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In5.Cu|/VBANK_A": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In6.Cu|/VBANK_B": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In7.Cu|/PEX_1V8A": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In8.Cu|/P12_SLOT01": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    },
+    "In9.Cu|/P12_SLOT02": {
+      "lost_area_mm2": 0.0,
+      "gained_area_mm2": 0.0,
+      "lost_bounds": [],
+      "gained_bounds": [],
+      "lost_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "gained_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      }
+    }
+  },
+  "affected_track_projections": [],
+  "skipped_arcs": [],
+  "differential_added_area_sum_mm2": 0,
+  "note": "Summed individual track intersections can double-count joined overlap. The zero/nonzero differential result does not rely on summing disjointness."
+}
