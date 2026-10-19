@@ -1,0 +1,74 @@
+{
+  "candidate_sha256": "85925cdde82c42707f076a2f72fd9e6779cc3108ed5079a6396b24edfbc7b9bb",
+  "diagnoses": {
+    "BASE_AUDIT": {
+      "board_sha256": "105148eff6d2d17b32d6b61c081103438f84cfed36f086c4c6a7f540ce61854e",
+      "groups": [
+        [
+          "C103.1",
+          "J1.B1",
+          "J1.B2",
+          "J1.B3",
+          "J1.B4",
+          "J1.B5",
+          "J1.B6",
+          "U11.6"
+        ]
+      ]
+    },
+    "NoNarrow_AUDIT": {
+      "board_sha256": "dcf8cf46b348d40171302d9eb4546d13c0a5861777f0876d777f33fa7d0becaf",
+      "groups": [
+        [
+          "J1.B1",
+          "J1.B2",
+          "J1.B3",
+          "J1.B4",
+          "J1.B5",
+          "J1.B6"
+        ],
+        [
+          "C103.1",
+          "U11.6"
+        ]
+      ]
+    },
+    "AUDIT": {
+      "board_sha256": "85925cdde82c42707f076a2f72fd9e6779cc3108ed5079a6396b24edfbc7b9bb",
+      "groups": [
+        [
+          "C103.1",
+          "J1.B1",
+          "J1.B2",
+          "J1.B3",
+          "J1.B4",
+          "J1.B5",
+          "J1.B6",
+          "U11.6"
+        ]
+      ]
+    },
+    "FINAL_NO_BRIDGE_AUDIT": {
+      "board_sha256": "f003afba66abd302b948e35cad18013ebf4eb088312b60ef433a53eb0d411077",
+      "groups": [
+        [
+          "J1.B1",
+          "J1.B2",
+          "J1.B3",
+          "J1.B4",
+          "J1.B5",
+          "J1.B6"
+        ],
+        [
+          "C103.1",
+          "U11.6"
+        ]
+      ]
+    }
+  },
+  "cumulative_removed_mm_by_width": {
+    "0.1": 161.4661471607487,
+    "0.3": 49.96374630220071
+  },
+  "series_path_note": "Removed copper total includes branches and is not equivalent series route length. Candidate new B bridge has3 series tracks totaling14.763876mm; vias/plane spreading and existing escapes are additional impedance."
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_sha256": "85925cdde82c42707f076a2f72fd9e6779cc3108ed5079a6396b24edfbc7b9bb",
+  "declared_new_copper_net": "{slash}P12_SLOT01",
+  "new_copper_uuid_net": {
+    "8aa18385-4a26-4ee0-8f28-8c2dd901f4d3": "{slash}P12_SLOT01",
+    "f62c446c-71f6-40b0-84cc-4b1f93732998": "{slash}P12_SLOT01",
+    "984942dd-e0d8-452c-900c-b90e28b6a162": "{slash}P12_SLOT01",
+    "86eb79ec-e051-4c49-9efa-e82f64a92652": "{slash}P12_SLOT01",
+    "6473d2ae-9ccc-47f5-a903-969c2eeb7734": "{slash}P12_SLOT01"
+  },
+  "all_match_declared_net": true,
+  "all_old_retained_copper_unchanged": true,
+  "all_prefill_expected_copper_and_footprints_match_postfill": true
+}
