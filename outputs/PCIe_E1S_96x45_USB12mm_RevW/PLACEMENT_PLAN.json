@@ -2076,8 +2076,8 @@
       72.075,
       32.225
     ],
-    "side": "B",
-    "rotation_deg": 0.0
+    "side": "F",
+    "rotation_deg": 180.0
   },
   "C9023": {
     "position_mm": [
@@ -4204,8 +4204,8 @@
       72.125,
       33.225
     ],
-    "side": "B",
-    "rotation_deg": 0.0
+    "side": "F",
+    "rotation_deg": 180.0
   },
   "R109": {
     "position_mm": [
@@ -4649,11 +4649,11 @@
   },
   "C5113": {
     "position_mm": [
-      76.0,
-      43.0
+      72.15,
+      32.9
     ],
     "side": "B",
-    "rotation_deg": 0.0
+    "rotation_deg": 90.0
   },
   "TP708": {
     "position_mm": [

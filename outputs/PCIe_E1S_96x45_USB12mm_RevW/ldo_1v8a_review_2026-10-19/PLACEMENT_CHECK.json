@@ -1,0 +1,90 @@
+{
+  "objects": [
+    {
+      "ref": "TP710",
+      "xy_mm": [
+        72.075,
+        32.225
+      ],
+      "rotation": 180.0,
+      "layer": "F.Cu",
+      "courtyard_graphics": {
+        "F.CrtYd": 0,
+        "B.CrtYd": 0
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}CPU_SLP_S3_1V8_N",
+          "pad_layer_names": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "connected_item_count": 1
+        }
+      ]
+    },
+    {
+      "ref": "TP706",
+      "xy_mm": [
+        72.125,
+        33.225
+      ],
+      "rotation": 180.0,
+      "layer": "F.Cu",
+      "courtyard_graphics": {
+        "F.CrtYd": 0,
+        "B.CrtYd": 0
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}CPU_RSMRST_N",
+          "pad_layer_names": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "connected_item_count": 1
+        }
+      ]
+    },
+    {
+      "ref": "C5113",
+      "xy_mm": [
+        72.15,
+        32.9
+      ],
+      "rotation": 90.0,
+      "layer": "B.Cu",
+      "courtyard_graphics": {
+        "F.CrtYd": 0,
+        "B.CrtYd": 0
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}TBT_PD_LDO_1V8A",
+          "pad_layer_names": [
+            "B.Cu",
+            "B.Mask",
+            "B.Paste"
+          ],
+          "connected_item_count": 3
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "pad_layer_names": [
+            "B.Cu",
+            "B.Mask",
+            "B.Paste"
+          ],
+          "connected_item_count": 4094
+        }
+      ]
+    }
+  ],
+  "scope": "Native copper/defined courtyard/board-edge DRC checked separately; probe approach clearance, enclosure/SSD overlay and assembly 3D accessibility not qualified."
+}

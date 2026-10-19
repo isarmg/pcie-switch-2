@@ -1,0 +1,7 @@
+{
+  "front_other_courtyard_bbox_intersections": {
+    "TP706": [],
+    "TP710": []
+  },
+  "scope": "Conservative pad rectangle versus every defined front-side footprint courtyard bounding box; no enclosure/installed-module or probe approach verification."
+}
