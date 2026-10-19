@@ -3329,11 +3329,11 @@
   },
   "R708": {
     "position_mm": [
-      23.254998,
-      4.395
+      64.0,
+      36.61
     ],
-    "side": "B",
-    "rotation_deg": 0.0
+    "side": "F",
+    "rotation_deg": 270.0
   },
   "R113": {
     "position_mm": [

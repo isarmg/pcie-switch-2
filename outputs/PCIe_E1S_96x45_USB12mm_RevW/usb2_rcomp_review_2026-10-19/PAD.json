@@ -1,0 +1,48 @@
+{
+  "board_sha256": "19d8c4acb0864a77939dd64220e8a3c99aa1bc40799fd65ac28729134a9c4aae",
+  "project_sha256": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "plane_report_sha256": "5bc86e40ab985a7ceeafdab53ba45dec7d6c8f0c64dedb447f1ff0432c9090ce",
+  "script_sha256": "fcf2ce49b48deef6e62b5f074e4abd6d1b4a5764268bc7a24b82885b547a416b",
+  "functional_pad_layer_shapes_checked": 3787,
+  "hits": [
+    {
+      "ref_pin": "R708.1",
+      "dnp": false,
+      "net": "/CPU_USB2_RCOMP",
+      "pad_layer": "F.Cu",
+      "plane": "In1.Cu|/GND",
+      "area_mm2": 4.579285940205789e-07,
+      "bounds": [
+        63.68,
+        35.891853680708756,
+        64.29846749803883,
+        35.966280181980665
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "U902.10",
+      "dnp": false,
+      "net": "/PEX_1V8",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 1.1195135963016138e-08,
+      "bounds": [
+        83.869976,
+        36.086425,
+        83.8921832856178,
+        36.14003886105884
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    }
+  ],
+  "scope": "All numbered nonempty nonGND nonNC pad shapes includingDNP, immediate different-net adjacent plane lost polygons; native1nmERROR_OUTSIDE; sensitivity erodes lost polygon; noSIqualification."
+}

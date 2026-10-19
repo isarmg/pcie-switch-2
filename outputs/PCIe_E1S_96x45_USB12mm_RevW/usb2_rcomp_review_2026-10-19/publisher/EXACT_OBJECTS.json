@@ -1,0 +1,8 @@
+{
+  "removed_exact": 0,
+  "added_exact": 4,
+  "base_objects": 13437,
+  "final_objects": 13441,
+  "retained_nonzone_objects_unchanged_except_declared_R708_footprint": true,
+  "replaced_footprint_uuid": "7e17e887-0f61-4f96-a4ed-252c6491ef4c"
+}

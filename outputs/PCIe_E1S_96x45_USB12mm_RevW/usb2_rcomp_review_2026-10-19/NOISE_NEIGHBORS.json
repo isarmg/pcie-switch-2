@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "track_uuid": "4f5c3365-067b-4869-bfd9-93ab3a6d5b7b",
+      "layer": "F.Cu",
+      "nearest_same_layer_flash_crystal_pads": []
+    },
+    {
+      "track_uuid": "595cac7d-6777-4bd2-917a-18f763b745e6",
+      "layer": "B.Cu",
+      "nearest_same_layer_flash_crystal_pads": [
+        {
+          "ref_pin": "U504.5",
+          "net": "{slash}TBT_AR_SPI_MOSI",
+          "copper_clearance_mm": 0.8825002249374307
+        },
+        {
+          "ref_pin": "Y701.1",
+          "net": "{slash}CPU_XTAL_IN",
+          "copper_clearance_mm": 1.9145148792789384
+        },
+        {
+          "ref_pin": "U504.6",
+          "net": "{slash}TBT_AR_SPI_CLK",
+          "copper_clearance_mm": 2.1525002249374343
+        },
+        {
+          "ref_pin": "Y701.4",
+          "net": "{slash}GND",
+          "copper_clearance_mm": 3.0370668763128563
+        },
+        {
+          "ref_pin": "U504.7",
+          "net": "{slash}TBT_VCC3P3_LC",
+          "copper_clearance_mm": 3.42250022493743
+        }
+      ]
+    }
+  ],
+  "scope": "Physical same-layer distances to existingflash/crystal pads only, not a coupled-noise transfer model; no internal switching spectrum or package groundbounce supplied."
+}

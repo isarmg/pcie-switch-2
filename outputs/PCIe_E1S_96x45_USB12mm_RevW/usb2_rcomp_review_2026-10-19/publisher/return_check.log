@@ -1,0 +1,2 @@
+[{'layer': 'F.Cu', 'plane': 'In1.Cu|{slash}GND', 'absolute_missing_mm2': 0.036459853462408535, 'missing_outside_declared_0p34mm_own_via_launch_mm2': 0.0}, {'layer': 'B.Cu', 'plane': 'In30.Cu|{slash}P3V3_AUX', 'absolute_missing_mm2': 0.026624531358294273, 'missing_outside_declared_0p34mm_own_via_launch_mm2': 0.0}]
+Declared In28 physical return centerline fully covered 4.636304215548018

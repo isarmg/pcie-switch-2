@@ -1,0 +1,31 @@
+{
+  "paths": [
+    {
+      "plane": "In28.Cu|{slash}GND",
+      "start": [
+        64,
+        39.5
+      ],
+      "end": [
+        61.404,
+        35.69
+      ],
+      "centerline_example": [
+        [
+          64.0,
+          39.5
+        ],
+        [
+          61.9,
+          36.8
+        ],
+        [
+          61.404,
+          35.69
+        ]
+      ],
+      "length_mm": 4.636304215548018
+    }
+  ],
+  "limitation": "Geometric plane centerline examples, not a unique current return or loop-inductance model; native connectivity independently verifies all endpoints. .1mm endpoint disks include same-net existing via copper."
+}

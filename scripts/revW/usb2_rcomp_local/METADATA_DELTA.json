@@ -1,0 +1,26 @@
+{
+  "scope": "Only R708 position, side and rotation; original value/net/footprint identity preserved. Historical reports are not rewritten.",
+  "files": [
+    {
+      "path": "Main_12E1S/COMPONENTS.json",
+      "before_sha256": "a499f8224111752bd91abbd24ce0ca9dd7644e0cc48cf5ff874cb3eb894933ed",
+      "after_sha256": "ecbd2c0f89506d028b29de55c219c29bd1688d29a740dad39ad50a55bf38b94d",
+      "before": "  {\r\n    \"ref\": \"R708\",\r\n    \"value\": \"200R 1%\",\r\n    \"footprint\": \"R_0402_1005Metric\",\r\n    \"pinmap\": {\r\n      \"1\": \"/CPU_USB2_RCOMP\",\r\n      \"2\": \"/GND\"\r\n    },\r\n    \"x\": 23.254998,\r\n    \"y\": 4.395,\r\n    \"side\": \"B\",\r\n    \"height_mm\": 0.5,\r\n    \"datasheet\": \"\",\r\n    \"pin_names\": {},\r\n    \"rotation_deg\": 0.0,\r\n    \"dnp\": false\r\n  }",
+      "after": "  {\r\n    \"ref\": \"R708\",\r\n    \"value\": \"200R 1%\",\r\n    \"footprint\": \"R_0402_1005Metric\",\r\n    \"pinmap\": {\r\n      \"1\": \"/CPU_USB2_RCOMP\",\r\n      \"2\": \"/GND\"\r\n    },\r\n    \"x\": 64.0,\r\n    \"y\": 36.61,\r\n    \"side\": \"F\",\r\n    \"height_mm\": 0.5,\r\n    \"datasheet\": \"\",\r\n    \"pin_names\": {},\r\n    \"rotation_deg\": 270.0,\r\n    \"dnp\": false\r\n  }"
+    },
+    {
+      "path": "PLACEMENT_PLAN.json",
+      "before_sha256": "12f554cbe16b6eb7cfe0f5250b56c7f281d1305565208c20a816ea1b3c3ef1bb",
+      "after_sha256": "e3b5e6cedd11f79d57ed047edeb87ec364e3918abb6c56e0338851eea50f0106",
+      "before": "  \"R708\": {\r\n    \"position_mm\": [\r\n      23.254998,\r\n      4.395\r\n    ],\r\n    \"side\": \"B\",\r\n    \"rotation_deg\": 0.0\r\n  }",
+      "after": "  \"R708\": {\r\n    \"position_mm\": [\r\n      64.0,\r\n      36.61\r\n    ],\r\n    \"side\": \"F\",\r\n    \"rotation_deg\": 270.0\r\n  }"
+    },
+    {
+      "path": "BOM.csv",
+      "before_sha256": "3beb169dbca81c26f165ce0723da0905b4ad2d21150156aed94daa1bd1e6ac40",
+      "after_sha256": "e896c5b2135be860a847c6e8b35f8c80834a801b8f396b3101dc8b4140361e3a",
+      "before": "R708,200R 1%,R_0402_1005Metric,B,23.254998,4.395,0.0,0.5,no",
+      "after": "R708,200R 1%,R_0402_1005Metric,F,64.0,36.61,270.0,0.5,no"
+    }
+  ]
+}

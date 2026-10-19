@@ -1,0 +1,88 @@
+{
+  "candidate_sha256": "19d8c4acb0864a77939dd64220e8a3c99aa1bc40799fd65ac28729134a9c4aae",
+  "all_expected_copper_uuid_nets_match": true,
+  "original_physical_pad_shapes": 6624,
+  "candidate_physical_pad_shapes": 6624,
+  "disconnected_nets_before": 102,
+  "disconnected_nets_after": 101,
+  "before_signal_groups": [
+    {
+      "pad_uuids": [
+        "23e6070e-fc29-4962-8fa8-852d984f83c9"
+      ],
+      "ref_pin": [
+        "R708.1"
+      ],
+      "populated_ref_pin": [
+        "R708.1"
+      ],
+      "physical_pad_shapes": 1
+    },
+    {
+      "pad_uuids": [
+        "919c2d8f-4844-4a97-bbeb-3bd49a9ac78a"
+      ],
+      "ref_pin": [
+        "U502.W1"
+      ],
+      "populated_ref_pin": [
+        "U502.W1"
+      ],
+      "physical_pad_shapes": 1
+    }
+  ],
+  "before_resistor_ground_ref_pin_count": 1,
+  "before_resistor_ground_physical_pad_count": 1,
+  "before_resistor_ground_includes_CPU_AB1": false,
+  "after_signal_groups": [
+    {
+      "pad_uuids": [
+        "23e6070e-fc29-4962-8fa8-852d984f83c9",
+        "919c2d8f-4844-4a97-bbeb-3bd49a9ac78a"
+      ],
+      "ref_pin": [
+        "R708.1",
+        "U502.W1"
+      ],
+      "populated_ref_pin": [
+        "R708.1",
+        "U502.W1"
+      ],
+      "physical_pad_shapes": 2
+    }
+  ],
+  "after_resistor_ground_ref_pin_count": 1876,
+  "after_resistor_ground_physical_pad_count": 1882,
+  "after_resistor_ground_includes_CPU_AB1": true,
+  "resistor": {
+    "value": "200R 1%",
+    "fpid": "R_0402_1005Metric",
+    "dnp": false,
+    "layer": "F.Cu",
+    "xy": [
+      64.0,
+      36.61
+    ],
+    "orientation": -90.0,
+    "pads": [
+      {
+        "number": "1",
+        "uuid": "23e6070e-fc29-4962-8fa8-852d984f83c9",
+        "net": "{slash}CPU_USB2_RCOMP",
+        "xy": [
+          64.0,
+          36.1
+        ]
+      },
+      {
+        "number": "2",
+        "uuid": "da4606b8-59ae-4830-a0ae-cde5f78c8ac8",
+        "net": "{slash}GND",
+        "xy": [
+          64.0,
+          37.12
+        ]
+      }
+    ]
+  }
+}

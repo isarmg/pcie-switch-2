@@ -1,0 +1,67 @@
+{
+  "official_url": "https://cdrdv2-public.intel.com/829568/829568-004.pdf",
+  "sha256": {
+    "intel.pdf": "2cc842355a01e43a6898474bf5ea60ffac9ad3c51714bb6f917409e38fd867a0",
+    "825698-001_Ballout.xlsx": "6e50fc43a2e05ef9ea99a9cf75fd248f2f8ec812b499c594ee80b292c45af83e"
+  },
+  "rechecked_utc": "2026-10-19",
+  "ballout_rows": [
+    {
+      "sheet": "Pinlist",
+      "row": 35,
+      "values": [
+        "BG3",
+        "CLK_S_RCOMP",
+        "Analog",
+        "Clocking",
+        12482,
+        176,
+        null
+      ]
+    },
+    {
+      "sheet": "Pinlist",
+      "row": 1836,
+      "values": [
+        "W1",
+        "USB2_RCOMP",
+        "Analog",
+        "USB",
+        13190,
+        -7612,
+        null
+      ]
+    },
+    {
+      "sheet": "Pinlist",
+      "row": 1857,
+      "values": [
+        "BG1",
+        "USB32_RCOMP",
+        "Analog",
+        "USB",
+        13190,
+        176,
+        null
+      ]
+    }
+  ],
+  "requirements_paraphrased": [
+    {
+      "section": "15.1 Figure14",
+      "printed_page": 140,
+      "requirement": "CLK_S_RCOMP uses180ohm +/-1% toGND."
+    },
+    {
+      "section": "19.2",
+      "requirement": "USB2_RCOMP andUSB32_RCOMP each use200ohm +/-1% toGND.",
+      "printed_page": 157
+    }
+  ],
+  "current_mapping": {
+    "R705": "BG3 CPU_CLK_RCOMP180R1%",
+    "R708": "W1 CPU_USB2_RCOMP200R1%",
+    "R709": "BG1 CPU_USB32_RCOMP200R1%"
+  },
+  "scope": "Preserve existing values and nets; DDR/PCIe/UFS/other RCOMP not inferred. Native pad routing and full reference checks required."
+}

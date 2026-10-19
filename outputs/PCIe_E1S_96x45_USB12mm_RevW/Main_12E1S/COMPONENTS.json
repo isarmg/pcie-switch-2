@@ -14187,13 +14187,13 @@
       "1": "/CPU_USB2_RCOMP",
       "2": "/GND"
     },
-    "x": 23.254998,
-    "y": 4.395,
-    "side": "B",
+    "x": 64.0,
+    "y": 36.61,
+    "side": "F",
     "height_mm": 0.5,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": 270.0,
     "dnp": false
   },
   {
