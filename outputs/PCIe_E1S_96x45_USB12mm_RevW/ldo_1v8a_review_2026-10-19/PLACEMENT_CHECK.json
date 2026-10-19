@@ -9,7 +9,7 @@
       "rotation": 180.0,
       "layer": "F.Cu",
       "courtyard_graphics": {
-        "F.CrtYd": 0,
+        "F.CrtYd": 4,
         "B.CrtYd": 0
       },
       "pads": [
@@ -34,7 +34,7 @@
       "rotation": 180.0,
       "layer": "F.Cu",
       "courtyard_graphics": {
-        "F.CrtYd": 0,
+        "F.CrtYd": 4,
         "B.CrtYd": 0
       },
       "pads": [
@@ -60,7 +60,7 @@
       "layer": "B.Cu",
       "courtyard_graphics": {
         "F.CrtYd": 0,
-        "B.CrtYd": 0
+        "B.CrtYd": 1
       },
       "pads": [
         {

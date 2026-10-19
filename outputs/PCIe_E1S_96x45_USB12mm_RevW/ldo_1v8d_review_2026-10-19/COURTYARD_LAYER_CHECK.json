@@ -1,0 +1,170 @@
+{
+  "TP710": [
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    }
+  ],
+  "TP709": [
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    }
+  ],
+  "TP707": [
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    }
+  ],
+  "TP706": [
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 31,
+      "layer_name": "F.Courtyard",
+      "is_F_CrtYd": true
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    },
+    {
+      "layer_id": 35,
+      "layer_name": "F.Fab",
+      "is_F_CrtYd": false
+    }
+  ]
+}

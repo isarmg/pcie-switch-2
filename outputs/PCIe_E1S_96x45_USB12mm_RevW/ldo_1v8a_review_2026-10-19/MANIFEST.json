@@ -19,9 +19,10 @@
     "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/ERC.json": "786adadd226b721d79d5363f98b3bf2e3a6a13ab9157a1cc4a54b2064f7ec8fe",
     "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/ALL_PLANE.json": "e5ac3043a673c014c31d19c081aca73f1ac12fbf6e0ce8bbe7bd43008ef25d52",
     "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/TP_MECHANICAL.json": "0ea9529465bbd4cd92df6cad39c76074e1ba86de5b78bcd32bf42adc07cd963a",
-    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/PLACEMENT_CHECK.json": "6f5fd77500f763b39dfaf59c58471b24671e44a14ab4b135f7e88cae10efdf4a",
-    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/README.md": "b949944dd2249fd47eb9901a24938ea0aa96b89858015733950d2b2308ee29d5",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/PLACEMENT_CHECK.json": "3088756c8df2982df040e28e989d912e7d43ab5b50742101804467088ba2d6e3",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/README.md": "657a703a193b73207935ea6bb0407d0af59f277c2d5eeaa8dc3666c43edfd206",
     "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/PAD_INPUT.json": "c90d0656210bba7591e5451e8f77bf9fb5fb6ab33809add49e92fe278fc0ca06",
     "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/AUDIT.json": "85ca12fb671a1ee3c60c5398e9eccfa034676daa05bbf19e85311cac95bc7f1b"
-  }
+  },
+  "report_correction": "Courtyard count display-name mismatch corrected after native enum verification; PCB/electrical results unchanged. See subsequent LDO1V8D review."
 }

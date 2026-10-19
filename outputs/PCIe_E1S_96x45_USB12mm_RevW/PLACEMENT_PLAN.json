@@ -2900,8 +2900,8 @@
       71.725,
       37.225
     ],
-    "side": "B",
-    "rotation_deg": 0.0
+    "side": "F",
+    "rotation_deg": 180.0
   },
   "C5132": {
     "position_mm": [
@@ -3057,11 +3057,11 @@
   },
   "C5112": {
     "position_mm": [
-      73.8,
-      43.0
+      72.15,
+      37.85
     ],
     "side": "B",
-    "rotation_deg": 0.0
+    "rotation_deg": 90.0
   },
   "C121": {
     "position_mm": [
@@ -3788,8 +3788,8 @@
       71.725,
       38.225
     ],
-    "side": "B",
-    "rotation_deg": 0.0
+    "side": "F",
+    "rotation_deg": 180.0
   },
   "R5113": {
     "position_mm": [

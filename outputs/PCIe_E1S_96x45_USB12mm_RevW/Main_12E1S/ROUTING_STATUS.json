@@ -73,15 +73,15 @@
     "step_native_roundtrip_passed": true,
     "protected_SSD_and_aux_and_reference_switch_power_copper_connected": true
   },
-  "source_board_sha256": "444ec27be380166832ead348ed5d326d45554e9030f70c22d216fae331fae792",
+  "source_board_sha256": "518aa6761e0a69122ed0daf2ba59297fb774352e7c3383f438162cfd757eff56",
   "verified_utc_date": "2026-10-19",
   "native_kicad_version": "10.0.7",
   "schematic_logical_ref_pin_nodes": 6560,
   "native_numbered_physical_pad_shapes": 6626,
   "non_NC_net_count": 927,
-  "disconnected_non_NC_nets": 100,
-  "disconnected_populated_non_NC_nets": 97,
-  "minimum_non_NC_cluster_joins": 1765,
+  "disconnected_non_NC_nets": 99,
+  "disconnected_populated_non_NC_nets": 96,
+  "minimum_non_NC_cluster_joins": 1763,
   "schematic_parity_findings": 0,
   "derived_STEP_and_previews_status": "Historical outputs, not regenerated or revalidated for this board SHA.",
   "verification_scope": "Fresh native DRC, schematic parity/ERC, full-pad/old-cluster/copper-net regressions, source-netlist consistency, all-plane and functional-pad delta checks. No SI/PI/thermal/current/production qualification.",
@@ -91,7 +91,7 @@
   "U606_host_CS_U1_AJ32_connected": false,
   "U606_SPI_path_complete": false,
   "U606_local_high_frequency_decoupling_qualified": false,
-  "GND_physical_components": 135,
+  "GND_physical_components": 134,
   "R716_ground_connected_to_main_GND": true,
   "C5159_ground_connected_to_main_GND": true,
   "C5101_ground_connected_to_main_GND": true,
@@ -105,5 +105,8 @@
   "system_reset_and_PD_timing_qualified": false,
   "TPS65982_LDO_1V8A_local_bypass_topology_connected": true,
   "TPS65982_LDO_1V8A_stability_qualified": false,
-  "TP706_TP710_front_probe_access_qualified": false
+  "TP706_TP710_front_probe_access_qualified": false,
+  "TPS65982_LDO_1V8D_local_bypass_topology_connected": true,
+  "TPS65982_LDO_1V8D_stability_qualified": false,
+  "TP709_TP707_front_probe_access_qualified": false
 }

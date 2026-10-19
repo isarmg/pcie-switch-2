@@ -15814,11 +15814,11 @@
     },
     "x": 71.725,
     "y": 38.225,
-    "side": "B",
+    "side": "F",
     "height_mm": 0,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": 180.0,
     "dnp": false
   },
   {
@@ -15846,11 +15846,11 @@
     },
     "x": 71.725,
     "y": 37.225,
-    "side": "B",
+    "side": "F",
     "height_mm": 0,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": 180.0,
     "dnp": false
   },
   {
@@ -18915,13 +18915,13 @@
       "1": "/TBT_PD_LDO_1V8D",
       "2": "/GND"
     },
-    "x": 73.8,
-    "y": 43.0,
+    "x": 72.15,
+    "y": 37.85,
     "side": "B",
     "height_mm": 0.6,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0
+    "rotation_deg": 90.0
   },
   {
     "ref": "C5113",

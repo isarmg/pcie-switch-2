@@ -1,0 +1,33 @@
+{
+  "base_commit": "6894cc92850028415d5bee9d40c625db1e93a849",
+  "files": {
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb": "518aa6761e0a69122ed0daf2ba59297fb774352e7c3383f438162cfd757eff56",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/COMPONENTS.json": "c69b24889d4417d5817dede5fab1f64a09836881f45d199642831d764c8624ad",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/PLACEMENT_PLAN.json": "4684afa276a942b706f67c8eccba6e0dcba981629e15dec23bf4e52757d598d9",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/BOM.csv": "23f670be926bc5946f2a7252e3b6db6dcaa2bc228a0fd5bf24b008e18db6fd61",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/ROUTING_STATUS.json": "d13a12442de43639c4cd40876809909946750bf4c93bff2384a896cd6cbd156c",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/PLACEMENT_CHECK.json": "3088756c8df2982df040e28e989d912e7d43ab5b50742101804467088ba2d6e3",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/README.md": "657a703a193b73207935ea6bb0407d0af59f277c2d5eeaa8dc3666c43edfd206",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8a_review_2026-10-19/MANIFEST.json": "fafec7ec28351681eacaef228392f1952ab6dece8f258016b700e3c5ad4b96b7",
+    "scripts/revW/ldo_1v8d/check_tp_court.py": "a34a449eca6ee258132cf0591f88179097945a16879be25f5c5a7657f5f7be08",
+    "scripts/revW/ldo_1v8d/test_courtyard_layers.py": "cc350c62322dcbac8989f7674c93fc152cdb7dd57b793e8c4da325f0f5881e9d",
+    "scripts/revW/ldo_1v8d/replay_full.py": "660ad3f302e7038707c8f5e58632e7ff26ce36e9df08b4771385bd5f6665095c",
+    "scripts/revW/ldo_1v8d/replay3.py": "0e2fbe1f7af0386bc240b777146d480a3f97cdc05c33a9b096f32a5c6a9c6aa5",
+    "scripts/revW/ldo_1v8d/METADATA_DELTA.json": "ed681caae89fab50d86eaa76c3e84147b75e78aa97884dae2224d4de562ceee3",
+    "scripts/revW/ldo_1v8d/DELTA3.json": "cf637e8b2a062aa06387e4c825221ae590e98e5ccdb58b0f38acbe3254febaff",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/EXACT_OBJECTS.json": "db0498293f12243c6d2301e8697be19d69131395d790767ebab91a1ff26948c4",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/REGRESSION.json": "aeb88149ea543a759c6f70b69b6740391443390125d6a87d54470f10642df388",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/DRC.json": "a21607d174fb4a52213ac9ddb88d0ddf2666a3743303589acb3cb17e882ff9b9",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/PLACEMENT_DETAILS.json": "a2baebe23fc822012f6fbba48e8433368adec945d6e4e0317527ffbf05cb9707",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/PAD.json": "77f2bff363dc2ba0eea1d5bfd7b2ea3b60014504423bf58a7261b4c5531eb1e6",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/TP_F_COURTYARD.json": "051da10f33e6d624c1810018a02441e3846e938dff9ea9c7b51d972ad7692e92",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/VERIFICATION3.json": "7f3949d60a638623586e871a3df7eb9abad83450576dd304cc4bbadfba91c301",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/ERC.json": "266b3afc134a110d3c60d077127bbceee82ec9aa6d93b58cc1a321fae7ddef5c",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/ALL_PLANE.json": "25038bed70421312af3a6c94b1af646fc5fc4cc2f33290110b006b02d1312f72",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/README.md": "5287fee688735af7d8fa8dfc83ed8de1cdf88442fa2ef01c2102b16fa2a119c5",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/PAD_INPUT.json": "c0cd76e0e2c3d73f19013b6538ac7e233a60ecfc4a8ce6fa768a31386629a1a2",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/COURTYARD_LAYER_CHECK.json": "ef4def4b2c3660bd411727fe4da769797e868de6fd6ca3eb6689d329a3b7dd4a",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/AUDIT.json": "8dbd921f078ad2bc3380a135b71e3deb1815f1496d1ab4a60add98f118e28d58",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_1v8d_review_2026-10-19/COURTYARD_REGRESSION.json": "6a9f7e22ca5f221b35ae36c86ab9cd12cd79549b1ae77b1766c8b2069d6a1009"
+  }
+}
