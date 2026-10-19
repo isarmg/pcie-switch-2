@@ -1,0 +1,15 @@
+{
+  "path_length_mm": 3.977539,
+  "width_mm": 0.15,
+  "assumed_copper_um": [
+    18,
+    35
+  ],
+  "assumed_temperature_C": 20,
+  "rho_ohm_m": 1.724e-08,
+  "estimated_ohm": [
+    0.025397323096296304,
+    0.013061480449523814
+  ],
+  "excludes": "via/pad/plane impedances, actual foil and temperature, current and AC dynamics; not timing or noise qualification"
+}
