@@ -582,3 +582,4 @@ U902,TPSM63610RDFR / 1.8V 8A,TI_RDF0022A_TPSM63610_NotchedLand,B,87.0,33.6,180.0
 Y501,25MHz / 20pF / 30ppm / ESR <=50R / select part,Crystal_SMD_3225-4Pin_3.2x2.5mm,B,73.5,3.0,0.0,0.8,no
 Y701,38.4MHz crystal / load and ESR selection pending,Crystal_SMD_3225-4Pin_3.2x2.5mm,B,66.325,38.575,0.0,0.8,no
 Y702,32.768kHz crystal / load and ESR selection pending,Crystal_SMD_2012-2Pin_2.0x1.2mm,B,6.324999,1.725,0.0,0.6,no
+R9041,10k 1% / PEX flash CS pull-up,R_0402_1005Metric,B,39.3,39.4,90,0.5,no

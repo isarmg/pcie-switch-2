@@ -1,0 +1,8 @@
+{
+  "old_ref_pin_nodes_preserved": 6558,
+  "added_nodes": {
+    "R9041.2": "/PEX_1V8",
+    "R9041.1": "/PEX_SPI_CS_N"
+  },
+  "independent_fresh_export_matches_candidate": true
+}

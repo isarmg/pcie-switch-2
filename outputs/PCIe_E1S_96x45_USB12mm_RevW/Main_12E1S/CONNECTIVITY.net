@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/workspace/scratch/08a6fde47383/e1s-rebuild-20261018/group3/Main_12E1S/Main_12E1S.kicad_sch</source>
-    <date>2026-10-18T10:21:40</date>
+    <source>/workspace/scratch/08a6fde47383/e1s-flash-recovery-20261019/Candidate/Main_12E1S.kicad_sch</source>
+    <date>2026-10-18T19:57:38</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1002,6 +1002,24 @@
         <date>2026-10-17</date>
         <source>Connectivity_55.kicad_sch</source>
         <comment number="1" value="FICTIONAL reordered PEX90064 map; CPU288V 32GB MoP; layout and routing study only"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="57" name="/Flash CS bias/" tstamps="/e38b4083-3375-526d-996b-81479444ab45/">
+      <title_block>
+        <title>U606 Flash CS static bias</title>
+        <company/>
+        <rev>W</rev>
+        <date>2026-10-19</date>
+        <source>Connectivity_56.kicad_sch</source>
+        <comment number="1" value="Local static bias only; host SPI and startup remain unqualified"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -19599,6 +19617,28 @@
         </unit>
       </units>
     </comp>
+    <comp ref="R9041">
+      <value>10k 1% / PEX flash CS pull-up</value>
+      <footprint>Local:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Local" part="PART_R9041" description=""/>
+      <property name="Sheetname" value="Flash CS bias"/>
+      <property name="Sheetfile" value="Connectivity_56.kicad_sch"/>
+      <sheetpath names="/Flash CS bias/" tstamps="/e38b4083-3375-526d-996b-81479444ab45/"/>
+      <tstamps>4b39ab9c-d8ab-5b37-9531-196a3e5a8743</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Local" part="PART_C1">
@@ -27293,6 +27333,19 @@
         <field name="Reference">R</field>
         <field name="Value">10k 1% / reset fail-low</field>
         <field name="Footprint">Local:R_0201_DenseCourtyard_1p0x0p4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PART_R9041">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k 1% / PEX flash CS pull-up</field>
+        <field name="Footprint">Local:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -37179,6 +37232,7 @@
       <node ref="L903" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="R724" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="R9022" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9041" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="U1" pin="AA22" pinfunction="VDD18_AA22" pintype="passive"/>
       <node ref="U1" pin="AA24" pinfunction="VDD18_AA24" pintype="passive"/>
       <node ref="U1" pin="AC4" pinfunction="VDD18_AC4" pintype="passive"/>
@@ -37308,6 +37362,7 @@
       <node ref="U606" pin="6" pinfunction="CLK_6" pintype="passive"/>
     </net>
     <net code="185" name="/PEX_SPI_CS_N" class="Default">
+      <node ref="R9041" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="AJ32" pinfunction="SPI_FLASH_CS_N_AJ32" pintype="passive"/>
       <node ref="U606" pin="1" pinfunction="CS#_1" pintype="passive"/>
     </net>

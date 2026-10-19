@@ -22505,5 +22505,22 @@
     "datasheet": "",
     "pin_names": {},
     "dnp": false
+  },
+  {
+    "ref": "R9041",
+    "value": "10k 1% / PEX flash CS pull-up",
+    "footprint": "R_0402_1005Metric",
+    "pinmap": {
+      "1": "/PEX_SPI_CS_N",
+      "2": "/PEX_1V8"
+    },
+    "x": 39.3,
+    "y": 39.4,
+    "side": "B",
+    "height_mm": 0.5,
+    "datasheet": "",
+    "pin_names": {},
+    "rotation_deg": 90.0,
+    "dnp": false
   }
 ]

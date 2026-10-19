@@ -4662,5 +4662,13 @@
     ],
     "side": "B",
     "rotation_deg": 0.0
+  },
+  "R9041": {
+    "position_mm": [
+      39.3,
+      39.4
+    ],
+    "side": "B",
+    "rotation_deg": 90.0
   }
 }

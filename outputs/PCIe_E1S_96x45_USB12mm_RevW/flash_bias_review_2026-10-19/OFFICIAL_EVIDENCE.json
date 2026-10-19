@@ -1,0 +1,7 @@
+{
+  "url": "https://www.winbond.com/resource-files/W25Q32JW%20SPI%20RevI%2004272026%20Plus.pdf",
+  "pdf_sha256": "f28cc651958fe33bf240edb115c2493bb1a7f4d059db403c3ae65e6da2deca76",
+  "revision": "I 2026-04-27",
+  "all_exported_component_values_footprints_match_metadata": true,
+  "scope": "Local CS static bias and ground connection only."
+}

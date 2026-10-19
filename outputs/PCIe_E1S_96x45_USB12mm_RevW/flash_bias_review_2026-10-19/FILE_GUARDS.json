@@ -1,0 +1,47 @@
+[
+  {
+    "relative_path": "Main_12E1S/Main_12E1S.kicad_pcb",
+    "before_sha256": "19d8c4acb0864a77939dd64220e8a3c99aa1bc40799fd65ac28729134a9c4aae",
+    "after_sha256": "d00db6176ae27151f5d08b64233ef289fe29c3ec41095fc2a38e91462fe26e44"
+  },
+  {
+    "relative_path": "Main_12E1S/Main_12E1S.kicad_sch",
+    "before_sha256": "e89c8e4259f4616b0f90594da5fec9e2e0e74993f65abd606e5ac7ccbff655a9",
+    "after_sha256": "0b9706392e7c756bb9e27dc2000499d9f48a6a37bfc0a89cf2fe711135e09f7f"
+  },
+  {
+    "relative_path": "Main_12E1S/Local.kicad_sym",
+    "before_sha256": "905dc385751e0535a8fc0831a61747478599d7dd5525747ed1791a7e40f4252f",
+    "after_sha256": "3ae9534a8c5cb6e02398d9053bb3e7adf5b16641aecd6c02ebd5a71ec25ee7b8"
+  },
+  {
+    "relative_path": "Main_12E1S/COMPONENTS.json",
+    "before_sha256": "ecbd2c0f89506d028b29de55c219c29bd1688d29a740dad39ad50a55bf38b94d",
+    "after_sha256": "5aa93c9493852ba17bb06f3c2e6b951ae2e93e0b8972626763a4fdd1a68fc8df"
+  },
+  {
+    "relative_path": "Main_12E1S/CONNECTIVITY.net",
+    "before_sha256": "7dad806f479cab902fb58bf21adcee99d45d0d468f4e4237df7bc868fdcb3772",
+    "after_sha256": "2db9f20f3c58924b681580a7e1ae45d3b615518e1ac5652651d5af358244e252"
+  },
+  {
+    "relative_path": "Main_12E1S/Connectivity_56.kicad_sch",
+    "before_sha256": null,
+    "after_sha256": "db2be5d5e5ad6bff0192b8d74546ed6b96211aad8325c6b00a2367a9599bd24e"
+  },
+  {
+    "relative_path": "Main_12E1S/PIN_MAP.csv",
+    "before_sha256": "53cbed6675464f1140cc7be4f1f863d53170ea964dde17d2a61bd611014783fa",
+    "after_sha256": "93ac2e452f138c9aead9672f117b7841bbc45164e27077e1b9f6ff11f73e998a"
+  },
+  {
+    "relative_path": "BOM.csv",
+    "before_sha256": "e896c5b2135be860a847c6e8b35f8c80834a801b8f396b3101dc8b4140361e3a",
+    "after_sha256": "e9abee72199572609832726fe00d558c1df109fc130a627b143b4b81728e1162"
+  },
+  {
+    "relative_path": "PLACEMENT_PLAN.json",
+    "before_sha256": "e3b5e6cedd11f79d57ed047edeb87ec364e3918abb6c56e0338851eea50f0106",
+    "after_sha256": "6ccaaf3a11309f558c20b2b234304911e3ce481ae4eee22ce79dc3ce8ee3d9e1"
+  }
+]

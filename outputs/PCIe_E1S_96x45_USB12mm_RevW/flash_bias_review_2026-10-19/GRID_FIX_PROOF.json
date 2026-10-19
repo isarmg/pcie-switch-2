@@ -1,0 +1,14 @@
+{
+  "PCB_sha256_unchanged": "d00db6176ae27151f5d08b64233ef289fe29c3ec41095fc2a38e91462fe26e44",
+  "unchanged_logical_nodes": 6560,
+  "uuid_and_net_changes": false,
+  "fixed_files": {
+    "Connectivity_56.kicad_sch": "db2be5d5e5ad6bff0192b8d74546ed6b96211aad8325c6b00a2367a9599bd24e",
+    "CONNECTIVITY.net": "2db9f20f3c58924b681580a7e1ae45d3b615518e1ac5652651d5af358244e252"
+  },
+  "ERC_counts": {
+    "warning": 212,
+    "error": 43
+  },
+  "parity": 0
+}

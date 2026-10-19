@@ -7793,4 +7793,8 @@
 (pin power_in line (at -15.24 0 0) (length 2.54) (name "VIN1" (effects (font (size 0.8 0.8)))) (number "1" (effects (font (size 0.8 0.8)))))
 (pin passive line (at 15.24 0 180) (length 2.54) (name "RBOOT" (effects (font (size 0.8 0.8)))) (number "2" (effects (font (size 0.8 0.8)))))))
 (symbol "PART_R9040" (pin_names (offset .5)) (in_bom yes) (on_board yes) (property "Reference" "R" (at 0 0 0) (effects (font (size 1 1)))) (property "Value" "10k 1% / reset fail-low" (at 0 0 0) (effects (font (size 1 1)))) (property "Footprint" "Local:R_0201_DenseCourtyard_1p0x0p4" (at 0 0 0) (effects (font (size 1 1)))) (symbol "PART_R9040_1_1" (rectangle (start -12.7 3.81) (end 12.7 -3.81) (stroke (width .254) (type default)) (fill (type background))) (pin passive line (at -15.24 0 0) (length 2.54) (name "1" (effects (font (size .8 .8)))) (number "1" (effects (font (size .8 .8))))) (pin passive line (at 15.24 0 180) (length 2.54) (name "2" (effects (font (size .8 .8)))) (number "2" (effects (font (size .8 .8)))))))
+(symbol "PART_R9041" (pin_names (offset .5)) (in_bom yes) (on_board yes) (property "Reference" "R" (at 0 0 0) (effects (font (size 1 1))))(property "Value" "10k 1% / PEX flash CS pull-up" (at 0 0 0) (effects (font (size 1 1))))(property "Footprint" "Local:R_0402_1005Metric" (at 0 0 0) (effects (font (size 1 1)) (hide yes)))
+(symbol "PART_R9041_1_1" (rectangle (start -12.7 3.81) (end 12.7 -3.81) (stroke (width .254) (type default)) (fill (type background)))
+(pin passive line (at -15.24 0.0 0) (length 2.54) (name "1" (effects (font (size 0.8 0.8)))) (number "1" (effects (font (size 0.8 0.8)))))
+(pin passive line (at 15.24 0.0 180) (length 2.54) (name "2" (effects (font (size 0.8 0.8)))) (number "2" (effects (font (size 0.8 0.8)))))))
 )

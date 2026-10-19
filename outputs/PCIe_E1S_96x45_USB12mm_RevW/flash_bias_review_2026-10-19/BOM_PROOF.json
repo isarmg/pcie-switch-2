@@ -1,0 +1,16 @@
+{
+  "before_sha256": "e896c5b2135be860a847c6e8b35f8c80834a801b8f396b3101dc8b4140361e3a",
+  "after_sha256": "e9abee72199572609832726fe00d558c1df109fc130a627b143b4b81728e1162",
+  "all_old_rows_identical": true,
+  "new_row": {
+    "Ref": "R9041",
+    "Value": "10k 1% / PEX flash CS pull-up",
+    "Footprint": "R_0402_1005Metric",
+    "Side": "B",
+    "X_mm": "39.3",
+    "Y_mm": "39.4",
+    "Rotation_deg": "90",
+    "Height_mm": "0.5",
+    "DNP": "no"
+  }
+}
