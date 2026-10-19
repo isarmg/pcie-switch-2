@@ -1,0 +1,54 @@
+{
+  "pass": true,
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "scope": "Independent endpoints, polyline lengths, same-plane P/N gap, all old via projections and board edge; no other internal routes/planes or via-span/return/SI validation",
+  "checks": [
+    {
+      "net": "{slash}S06_SW_TX0_P",
+      "endpoint_ids": [
+        "C4041:1",
+        "U1:AH3"
+      ],
+      "max_endpoint_error_mm": 9.999999974752427e-07,
+      "length_mm": 74.53241522424041,
+      "nearest_other_via_edge_mm": 0.12007048482663649,
+      "board_edge_clearance_mm": 6.45
+    },
+    {
+      "net": "{slash}S06_SW_TX0_N",
+      "endpoint_ids": [
+        "C4042:1",
+        "U1:AJ3"
+      ],
+      "max_endpoint_error_mm": 9.999999974752427e-07,
+      "length_mm": 74.67901073330076,
+      "nearest_other_via_edge_mm": 0.11999999999999597,
+      "board_edge_clearance_mm": 6.45
+    },
+    {
+      "net": "{slash}S06_SW_RX0_P",
+      "endpoint_ids": [
+        "J6:A18",
+        "U1:AH5"
+      ],
+      "max_endpoint_error_mm": 0.0,
+      "length_mm": 62.183578643274004,
+      "nearest_other_via_edge_mm": 0.12000000000000158,
+      "board_edge_clearance_mm": 8.45
+    },
+    {
+      "net": "{slash}S06_SW_RX0_N",
+      "endpoint_ids": [
+        "J6:A17",
+        "U1:AJ5"
+      ],
+      "max_endpoint_error_mm": 0.0,
+      "length_mm": 62.0558433326125,
+      "nearest_other_via_edge_mm": 0.11999999999999603,
+      "board_edge_clearance_mm": 8.45
+    }
+  ],
+  "other_internal_copper_accounted": false,
+  "new_reference_plane_verified": false,
+  "native_24_layer_DRC_run": false
+}

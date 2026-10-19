@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "kicad": "10.0.7",
+  "replay_exit_code": 0,
+  "comparison": "JSON exact parsed equality, excluding only top-level seconds elapsed",
+  "checks": {
+    "NATIVE_GEOMETRY.json": true,
+    "extra_geometry.json": true,
+    "TRIAL_RESULT.json": true,
+    "RX0_RESULT.json": true,
+    "RX0_WEST_RESULT.json": true,
+    "RX0_SEPARATE_RESULT.json": true,
+    "VALIDATION_SUMMARY.json": true,
+    "PAIR_SECTION_AUDIT.json": true,
+    "VIA_DIAMETER_CHECK.json": true
+  },
+  "render_repeated": false,
+  "image_status": "Original frozen PNG visually reviewed; independently replayed geometry equal",
+  "source_PCB_saved": false,
+  "native_new_24_layer_DRC_run": false
+}

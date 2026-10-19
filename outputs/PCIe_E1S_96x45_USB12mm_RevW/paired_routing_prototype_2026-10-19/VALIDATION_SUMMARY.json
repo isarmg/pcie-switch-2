@@ -1,0 +1,394 @@
+{
+  "status": "bounded geometry prototype, no source PCB changed and no 24-layer PCB produced",
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "native_parser_version": "10.0.7",
+  "source_track_segments": 9065,
+  "source_vias_all_retained_as_obstacles": 3837,
+  "source_pads": 7120,
+  "source_drilled_pads": 0,
+  "source_rule_areas": [],
+  "pair_section_audit": {
+    "count": 214,
+    "mismatched_internal_layer_sets": 140,
+    "by_class": {
+      "PCIe": 176,
+      "clock": 17,
+      "USB_TBT": 11,
+      "DP": 10
+    },
+    "slot_TX_directional_channels": 48,
+    "slot_RX_directional_channels": 48,
+    "slot_AC_extra_sections_not_extra_channels": 48,
+    "slot_bidirectional_x1_lanes": 48
+  },
+  "selected_scope": {
+    "slot": "S06/J6",
+    "bidirectional_x1_lanes": 1,
+    "directional_differential_channels": 2,
+    "on_board_differential_net_sections": 3,
+    "conductors": 6,
+    "TX_path": "U1 AH3/AJ3 -> C4041/C4042 pin 1; capacitors; C4041/C4042 pin 2 -> J6 B18/B17",
+    "RX_path": "J6 A18/A17 -> U1 AH5/AJ5",
+    "TX_long_section_prospective_layer": 7,
+    "TX_adjacent_ground_requirement": 8,
+    "RX_long_section_prospective_layer": 18,
+    "RX_adjacent_ground_requirement": 17,
+    "AC_after_section_retained_layer": "F.Cu"
+  },
+  "old_lengths_mm": [
+    {
+      "pair": "S06_SW_TX0",
+      "P_length_mm": 114.45499799999999,
+      "N_length_mm": 117.554998,
+      "abs_difference_mm": 3.1000000000000085
+    },
+    {
+      "pair": "S06_SW_RX0",
+      "P_length_mm": 104.83500000000001,
+      "N_length_mm": 106.435,
+      "abs_difference_mm": 1.5999999999999943
+    }
+  ],
+  "new_lengths_mm": {
+    "TX_before_AC_P": 74.53241522424041,
+    "TX_before_AC_N": 74.67901073330076,
+    "TX_after_AC_P": 1.38,
+    "TX_after_AC_N": 1.38,
+    "TX_total_copper_P_excluding_cap_and_via_vertical_lengths": 75.9124152242404,
+    "TX_total_copper_N_excluding_cap_and_via_vertical_lengths": 76.05901073330075,
+    "TX_P_N_difference": 0.14659550906034724,
+    "RX_P": 62.183578643274004,
+    "RX_N": 62.0558433326125,
+    "RX_P_N_difference": 0.12773531066150667
+  },
+  "geometry_assumptions": {
+    "width_mm": 0.1,
+    "intra_pair_edge_gap_mm": 0.1,
+    "other_net_clearance_mm": 0.1,
+    "pair_copper_envelope_mm": 0.30000000000000004,
+    "corridor_with_clearance_mm": 0.5,
+    "board_edge_copper_clearance_min_mm": 0.25,
+    "grid_mm": 0.05
+  },
+  "parallel_bus_estimates_mm": [
+    {
+      "directional_pair_count": 1,
+      "pair_to_pair_edge_gap_mm": 0.1,
+      "total_width_with_outer_0p1mm_margins": 0.5,
+      "is_SI_approved": false
+    },
+    {
+      "directional_pair_count": 1,
+      "pair_to_pair_edge_gap_mm": 0.3,
+      "total_width_with_outer_0p1mm_margins": 0.5,
+      "is_SI_approved": false
+    },
+    {
+      "directional_pair_count": 2,
+      "pair_to_pair_edge_gap_mm": 0.1,
+      "total_width_with_outer_0p1mm_margins": 0.8999999999999999,
+      "is_SI_approved": false
+    },
+    {
+      "directional_pair_count": 2,
+      "pair_to_pair_edge_gap_mm": 0.3,
+      "total_width_with_outer_0p1mm_margins": 1.0999999999999999,
+      "is_SI_approved": false
+    },
+    {
+      "directional_pair_count": 8,
+      "pair_to_pair_edge_gap_mm": 0.1,
+      "total_width_with_outer_0p1mm_margins": 3.3000000000000003,
+      "is_SI_approved": false
+    },
+    {
+      "directional_pair_count": 8,
+      "pair_to_pair_edge_gap_mm": 0.3,
+      "total_width_with_outer_0p1mm_margins": 4.7,
+      "is_SI_approved": false
+    },
+    {
+      "directional_pair_count": 16,
+      "pair_to_pair_edge_gap_mm": 0.1,
+      "total_width_with_outer_0p1mm_margins": 6.5,
+      "is_SI_approved": false
+    },
+    {
+      "directional_pair_count": 16,
+      "pair_to_pair_edge_gap_mm": 0.3,
+      "total_width_with_outer_0p1mm_margins": 9.5,
+      "is_SI_approved": false
+    }
+  ],
+  "endpoint_checks": [
+    {
+      "net": "{slash}S06_SW_TX0_P",
+      "assigned_new_plane": 7,
+      "endpoints": [
+        {
+          "pad": "U1:AH3",
+          "pad_xy_mm": [
+            6.5,
+            34.0
+          ],
+          "pad_copper_layers": [
+            "B.Cu"
+          ],
+          "route_xy_mm": [
+            6.5,
+            34.0
+          ],
+          "route_to_pad_center_error_mm": 0.0,
+          "route_to_original_via_error_mm": 0.0,
+          "original_via_top": "In1.Cu",
+          "original_via_bottom": "B.Cu",
+          "via_diameter_mm": 0.2,
+          "via_drill_mm": 0.1
+        },
+        {
+          "pad": "C4041:1",
+          "pad_xy_mm": [
+            64.32,
+            24.335
+          ],
+          "pad_copper_layers": [
+            "F.Cu"
+          ],
+          "route_xy_mm": [
+            64.319999,
+            24.335
+          ],
+          "route_to_pad_center_error_mm": 9.999999974752427e-07,
+          "route_to_original_via_error_mm": 0.0,
+          "original_via_top": "F.Cu",
+          "original_via_bottom": "In30.Cu",
+          "via_diameter_mm": 0.2,
+          "via_drill_mm": 0.1
+        }
+      ],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SW_TX0_N",
+      "assigned_new_plane": 7,
+      "endpoints": [
+        {
+          "pad": "U1:AJ3",
+          "pad_xy_mm": [
+            6.5,
+            35.0
+          ],
+          "pad_copper_layers": [
+            "B.Cu"
+          ],
+          "route_xy_mm": [
+            6.5,
+            35.0
+          ],
+          "route_to_pad_center_error_mm": 0.0,
+          "route_to_original_via_error_mm": 0.0,
+          "original_via_top": "In1.Cu",
+          "original_via_bottom": "B.Cu",
+          "via_diameter_mm": 0.2,
+          "via_drill_mm": 0.1
+        },
+        {
+          "pad": "C4042:1",
+          "pad_xy_mm": [
+            64.32,
+            24.935
+          ],
+          "pad_copper_layers": [
+            "F.Cu"
+          ],
+          "route_xy_mm": [
+            64.319999,
+            24.935
+          ],
+          "route_to_pad_center_error_mm": 9.999999974752427e-07,
+          "route_to_original_via_error_mm": 0.0,
+          "original_via_top": "F.Cu",
+          "original_via_bottom": "In30.Cu",
+          "via_diameter_mm": 0.2,
+          "via_drill_mm": 0.1
+        }
+      ],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SW_RX0_P",
+      "assigned_new_plane": 18,
+      "endpoints": [
+        {
+          "pad": "U1:AH5",
+          "pad_xy_mm": [
+            8.5,
+            34.0
+          ],
+          "pad_copper_layers": [
+            "B.Cu"
+          ],
+          "route_xy_mm": [
+            8.5,
+            34.0
+          ],
+          "route_to_pad_center_error_mm": 0.0,
+          "route_to_original_via_error_mm": 0.0,
+          "original_via_top": "In1.Cu",
+          "original_via_bottom": "B.Cu",
+          "via_diameter_mm": 0.2,
+          "via_drill_mm": 0.1
+        },
+        {
+          "pad": "J6:A18",
+          "pad_xy_mm": [
+            57.7,
+            24.335
+          ],
+          "pad_copper_layers": [
+            "F.Cu"
+          ],
+          "route_xy_mm": [
+            57.7,
+            24.335
+          ],
+          "route_to_pad_center_error_mm": 0.0,
+          "route_to_original_via_error_mm": 0.0,
+          "original_via_top": "F.Cu",
+          "original_via_bottom": "In30.Cu",
+          "via_diameter_mm": 0.2,
+          "via_drill_mm": 0.1
+        }
+      ],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SW_RX0_N",
+      "assigned_new_plane": 18,
+      "endpoints": [
+        {
+          "pad": "U1:AJ5",
+          "pad_xy_mm": [
+            8.5,
+            35.0
+          ],
+          "pad_copper_layers": [
+            "B.Cu"
+          ],
+          "route_xy_mm": [
+            8.5,
+            35.0
+          ],
+          "route_to_pad_center_error_mm": 0.0,
+          "route_to_original_via_error_mm": 0.0,
+          "original_via_top": "In1.Cu",
+          "original_via_bottom": "B.Cu",
+          "via_diameter_mm": 0.2,
+          "via_drill_mm": 0.1
+        },
+        {
+          "pad": "J6:A17",
+          "pad_xy_mm": [
+            57.7,
+            24.935
+          ],
+          "pad_copper_layers": [
+            "F.Cu"
+          ],
+          "route_xy_mm": [
+            57.7,
+            24.935
+          ],
+          "route_to_pad_center_error_mm": 0.0,
+          "route_to_original_via_error_mm": 0.0,
+          "original_via_top": "F.Cu",
+          "original_via_bottom": "In30.Cu",
+          "via_diameter_mm": 0.2,
+          "via_drill_mm": 0.1
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "trace_to_source_via_minima": [
+    {
+      "net": "{slash}S06_SW_TX0_P",
+      "minimum_other_net_via_copper_edge_gap_mm": 0.12007048482663649
+    },
+    {
+      "net": "{slash}S06_SW_TX0_N",
+      "minimum_other_net_via_copper_edge_gap_mm": 0.11999999999999597
+    },
+    {
+      "net": "{slash}S06_SW_RX0_P",
+      "minimum_other_net_via_copper_edge_gap_mm": 0.12000000000000158
+    },
+    {
+      "net": "{slash}S06_SW_RX0_N",
+      "minimum_other_net_via_copper_edge_gap_mm": 0.11999999999999603
+    }
+  ],
+  "AC_after_checks": [
+    {
+      "net": "{slash}S06_SSD_RX0_P",
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "length_mm": 1.38,
+      "points": [
+        [
+          63.68,
+          24.335
+        ],
+        [
+          62.3,
+          24.335
+        ]
+      ],
+      "endpoint_pads": [
+        "C4041:2",
+        "J6:B18"
+      ],
+      "other_front_copper_min_edge_gap_mm": 0.3499999999999986,
+      "violations_at_0p1mm": [],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SSD_RX0_N",
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "length_mm": 1.38,
+      "points": [
+        [
+          63.68,
+          24.935
+        ],
+        [
+          62.3,
+          24.935
+        ]
+      ],
+      "endpoint_pads": [
+        "J6:B17",
+        "C4042:2"
+      ],
+      "other_front_copper_min_edge_gap_mm": 0.3499999999999986,
+      "violations_at_0p1mm": [],
+      "pass": true
+    }
+  ],
+  "source_hash_unchanged": true,
+  "local_geometry_pass": true,
+  "same_plane_two_channel_attempt_passed": false,
+  "same_plane_failure_scope": "A* at 0.05mm grid, centerline corridor inflated by 0.27mm to every original via, fixed TX0 route treated as copper, east fanout no path; west fanout blocked endpoint. This is a bounded failed search, not a proof of unroutability.",
+  "not_proven": [
+    "Two slots / 16 directional differential channels per signal layer",
+    "24-layer full-board routing, clearance and connectivity",
+    "Filled/continuous electrically connected reference GND or return-via transitions",
+    "New 24-layer via span/HDI fabrication sequence or signal via stub behavior",
+    "Actual PEX ball map and vendor-validated package escape",
+    "Impedance, timing budget, insertion/return loss, crosstalk, eye diagram",
+    "Existing other signal and power copper is intentionally absent from each clean-plane trial; no unchanged-net connectivity claim",
+    "Ordinary native full-board DRC was not run on a nonexistent 24-layer candidate",
+    "Trace skew omits capacitor package paths and vertical via propagation; no acceptance limit is asserted"
+  ]
+}

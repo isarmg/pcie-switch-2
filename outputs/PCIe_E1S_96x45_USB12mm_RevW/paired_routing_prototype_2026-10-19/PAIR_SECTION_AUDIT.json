@@ -1,0 +1,2196 @@
+[
+  {
+    "pair": "S11_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In29.Cu"
+    ],
+    "N_internal_layers": [
+      "In29.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S11_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S06_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In24.Cu"
+    ],
+    "N_internal_layers": [
+      "In17.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S06_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S04_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In13.Cu"
+    ],
+    "N_internal_layers": [
+      "In15.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S04_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S08_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In28.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S08_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In16.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S08_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In23.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S08_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In1.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S08_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S08_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S08_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S08_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S08_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S02_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In23.Cu"
+    ],
+    "N_internal_layers": [
+      "In21.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S09_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In9.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S09_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In26.Cu"
+    ],
+    "N_internal_layers": [
+      "In18.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S05_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In26.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S05_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S11_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In18.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S11_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S09_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In20.Cu"
+    ],
+    "N_internal_layers": [
+      "In20.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S09_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In14.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S06_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In23.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S06_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S03_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In24.Cu"
+    ],
+    "N_internal_layers": [
+      "In24.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S03_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S08_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In13.Cu"
+    ],
+    "N_internal_layers": [
+      "In10.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S05_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In18.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S05_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S08_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In16.Cu"
+    ],
+    "N_internal_layers": [
+      "In29.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S12_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In28.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S12_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S09_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S09_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In20.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S09_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In20.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S09_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In20.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S09_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In9.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S09_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In28.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S09_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In29.Cu"
+    ],
+    "N_internal_layers": [
+      "In17.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S08_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In28.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In27.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In17.Cu"
+    ],
+    "N_internal_layers": [
+      "In21.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S11_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In28.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S11_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S04_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In18.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S04_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S01_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In10.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S01_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S06_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In18.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S06_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S05_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In15.Cu"
+    ],
+    "N_internal_layers": [
+      "In23.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S05_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In9.Cu"
+    ],
+    "N_internal_layers": [
+      "In21.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S05_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In13.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S05_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In9.Cu"
+    ],
+    "N_internal_layers": [
+      "In15.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S05_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In15.Cu"
+    ],
+    "N_internal_layers": [
+      "In15.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S05_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S05_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S11_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In1.Cu"
+    ],
+    "N_internal_layers": [
+      "In25.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S11_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S06_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In18.Cu"
+    ],
+    "N_internal_layers": [
+      "In20.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S06_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In13.Cu"
+    ],
+    "N_internal_layers": [
+      "In29.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S06_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In20.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S06_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In16.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S06_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In15.Cu"
+    ],
+    "N_internal_layers": [
+      "In21.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S06_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S08_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In15.Cu"
+    ],
+    "N_internal_layers": [
+      "In25.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S03_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In24.Cu"
+    ],
+    "N_internal_layers": [
+      "In28.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S03_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S01_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In1.Cu"
+    ],
+    "N_internal_layers": [
+      "In20.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S01_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S04_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In23.Cu"
+    ],
+    "N_internal_layers": [
+      "In20.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S04_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S07_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In23.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S01_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S01_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S12_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In28.Cu"
+    ],
+    "N_internal_layers": [
+      "In1.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S12_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In29.Cu"
+    ],
+    "N_internal_layers": [
+      "In10.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S12_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In18.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S12_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In29.Cu"
+    ],
+    "N_internal_layers": [
+      "In8.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S12_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In28.Cu"
+    ],
+    "N_internal_layers": [
+      "In17.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S12_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S12_SSD_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S12_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S11_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In28.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S11_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In1.Cu"
+    ],
+    "N_internal_layers": [
+      "In28.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S11_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In26.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S11_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In9.Cu"
+    ],
+    "N_internal_layers": [
+      "In9.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S11_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In26.Cu"
+    ],
+    "N_internal_layers": [
+      "In28.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S01_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In20.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S01_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S05_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In16.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S05_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S06_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In21.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In24.Cu"
+    ],
+    "N_internal_layers": [
+      "In18.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S03_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In15.Cu"
+    ],
+    "N_internal_layers": [
+      "In24.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S03_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S07_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In18.Cu"
+    ],
+    "N_internal_layers": [
+      "In26.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S10_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In13.Cu"
+    ],
+    "N_internal_layers": [
+      "In26.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In9.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In16.Cu"
+    ],
+    "N_internal_layers": [
+      "In9.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In26.Cu"
+    ],
+    "N_internal_layers": [
+      "In1.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In8.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In12.Cu"
+    ],
+    "N_internal_layers": [
+      "In26.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S10_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In1.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S01_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In21.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S01_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In17.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S01_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In10.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S01_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In12.Cu"
+    ],
+    "N_internal_layers": [
+      "In8.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S01_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In12.Cu"
+    ],
+    "N_internal_layers": [
+      "In29.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In17.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SSD_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S03_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In28.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S03_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In27.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S03_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In27.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S03_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In14.Cu"
+    ],
+    "N_internal_layers": [
+      "In24.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S03_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In17.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S03_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S10_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In24.Cu"
+    ],
+    "N_internal_layers": [
+      "In21.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In14.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In15.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In18.Cu"
+    ],
+    "N_internal_layers": [
+      "In9.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In1.Cu"
+    ],
+    "N_internal_layers": [
+      "In26.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S07_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In14.Cu"
+    ],
+    "N_internal_layers": [
+      "In15.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S12_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In1.Cu"
+    ],
+    "N_internal_layers": [
+      "In28.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S09_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In14.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S12_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In28.Cu"
+    ],
+    "N_internal_layers": [
+      "In29.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S09_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In1.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In16.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In17.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In18.Cu"
+    ],
+    "N_internal_layers": [
+      "In16.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In26.Cu"
+    ],
+    "N_internal_layers": [
+      "In8.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In1.Cu"
+    ],
+    "N_internal_layers": [
+      "In29.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S02_SSD_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S12_SW_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In14.Cu"
+    ],
+    "N_internal_layers": [
+      "In14.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S02_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In14.Cu"
+    ],
+    "N_internal_layers": [
+      "In21.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S03_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In16.Cu"
+    ],
+    "N_internal_layers": [
+      "In24.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S02_SW_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In14.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S04_SW_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In17.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S04_SSD_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [],
+    "N_internal_layers": [],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S10_SW_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In15.Cu"
+    ],
+    "N_internal_layers": [
+      "In18.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S04_SW_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In15.Cu"
+    ],
+    "N_internal_layers": [
+      "In21.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S04_SW_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In9.Cu"
+    ],
+    "N_internal_layers": [
+      "In9.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S04_SW_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In9.Cu"
+    ],
+    "N_internal_layers": [
+      "In9.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "S04_SW_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In29.Cu"
+    ],
+    "N_internal_layers": [
+      "In9.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "S04_REFCLK0",
+    "class": "clock",
+    "P_internal_layers": [
+      "In23.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CIO_RX1_SRC",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In12.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CIO_TX1_SRC",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In18.Cu"
+    ],
+    "N_internal_layers": [
+      "In26.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CIO_TX0_SRC",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In15.Cu"
+    ],
+    "N_internal_layers": [
+      "In16.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_DP_ML0_DST",
+    "class": "DP",
+    "P_internal_layers": [
+      "In13.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_DP_ML1_DST",
+    "class": "DP",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In10.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_DP_ML2_DST",
+    "class": "DP",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In20.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_DP_ML3_DST",
+    "class": "DP",
+    "P_internal_layers": [
+      "In20.Cu"
+    ],
+    "N_internal_layers": [
+      "In23.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CIO_RX0_SRC",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In17.Cu"
+    ],
+    "N_internal_layers": [
+      "In14.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_USB2_RP",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In14.Cu"
+    ],
+    "N_internal_layers": [
+      "In23.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_AR_TX3_SRC",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In10.Cu"
+    ],
+    "N_internal_layers": [
+      "In13.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CPU_TX3_DST",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In12.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_AR_TX2_SRC",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In25.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_CPU_TX2_DST",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In9.Cu"
+    ],
+    "N_internal_layers": [
+      "In1.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_AR_TX1_SRC",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In9.Cu"
+    ],
+    "N_internal_layers": [
+      "In18.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CPU_TX1_DST",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In16.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_REFCLK",
+    "class": "clock",
+    "P_internal_layers": [
+      "In9.Cu"
+    ],
+    "N_internal_layers": [
+      "In9.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_AR_TX0_SRC",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In1.Cu"
+    ],
+    "N_internal_layers": [
+      "In1.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_DP_AUX",
+    "class": "DP",
+    "P_internal_layers": [
+      "In16.Cu"
+    ],
+    "N_internal_layers": [
+      "In24.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_PA_AUX",
+    "class": "DP",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In24.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CPU_TX0_DST",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_AR_TX2_DST",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In13.Cu"
+    ],
+    "N_internal_layers": [
+      "In27.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_G5_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In16.Cu"
+    ],
+    "N_internal_layers": [
+      "In16.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "CPU_PEX_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_AR_TX0_DST",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In20.Cu"
+    ],
+    "N_internal_layers": [
+      "In10.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_G5_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In24.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_PEX_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In18.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_G5_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "CPU_PEX_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In26.Cu"
+    ],
+    "N_internal_layers": [
+      "In18.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CIO_TX0_DST",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In16.Cu"
+    ],
+    "N_internal_layers": [
+      "In16.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_USB2_TOP",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In27.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_CIO_RX1_DST",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In14.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CIO_TX1_DST",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In23.Cu"
+    ],
+    "N_internal_layers": [
+      "In14.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_USB2_BOTTOM",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In16.Cu"
+    ],
+    "N_internal_layers": [
+      "In29.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CIO_RX0_DST",
+    "class": "USB_TBT",
+    "P_internal_layers": [
+      "In23.Cu"
+    ],
+    "N_internal_layers": [
+      "In27.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CPU_TX1_SRC",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In8.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_PEX_TX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "CPU_G5_RX2",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In27.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_CPU_TX0_SRC",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In21.Cu"
+    ],
+    "N_internal_layers": [
+      "In26.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CPU_TX3_SRC",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In20.Cu"
+    ],
+    "N_internal_layers": [
+      "In10.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_AR_TX3_DST",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In23.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_CLKBUF2_IN",
+    "class": "clock",
+    "P_internal_layers": [
+      "In24.Cu"
+    ],
+    "N_internal_layers": [
+      "In27.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_PEX_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In25.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "CPU_G5_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In18.Cu"
+    ],
+    "N_internal_layers": [
+      "In17.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_CPU_TX2_SRC",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In29.Cu"
+    ],
+    "N_internal_layers": [
+      "In29.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "PEX_SYS_REFCLK",
+    "class": "clock",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In8.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "CPU_REFCLK",
+    "class": "clock",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In26.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_PEX_TX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "CPU_PEX_TX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In8.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_PEX_RX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In11.Cu"
+    ],
+    "N_internal_layers": [
+      "In11.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "CPU_CLKBUF1_IN",
+    "class": "clock",
+    "P_internal_layers": [
+      "In1.Cu"
+    ],
+    "N_internal_layers": [
+      "In1.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_DP_ML1_SRC",
+    "class": "DP",
+    "P_internal_layers": [
+      "In1.Cu"
+    ],
+    "N_internal_layers": [
+      "In25.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_DP_ML0_SRC",
+    "class": "DP",
+    "P_internal_layers": [
+      "In25.Cu"
+    ],
+    "N_internal_layers": [
+      "In25.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "TBT_DP_ML3_SRC",
+    "class": "DP",
+    "P_internal_layers": [
+      "In14.Cu"
+    ],
+    "N_internal_layers": [
+      "In15.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_DP_ML2_SRC",
+    "class": "DP",
+    "P_internal_layers": [
+      "In20.Cu"
+    ],
+    "N_internal_layers": [
+      "In15.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "CPU_G5_RX1",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In24.Cu"
+    ],
+    "N_internal_layers": [
+      "In24.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "CPU_G5_RX0",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In27.Cu"
+    ],
+    "N_internal_layers": [
+      "In24.Cu"
+    ],
+    "mismatched_internal_layers": true
+  },
+  {
+    "pair": "TBT_AR_TX1_DST",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In24.Cu"
+    ],
+    "N_internal_layers": [
+      "In24.Cu"
+    ],
+    "mismatched_internal_layers": false
+  },
+  {
+    "pair": "CPU_G5_TX3",
+    "class": "PCIe",
+    "P_internal_layers": [
+      "In14.Cu"
+    ],
+    "N_internal_layers": [
+      "In16.Cu"
+    ],
+    "mismatched_internal_layers": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "source_copper_layers": 32,
+  "new_target": {
+    "physical_layer_ordinal": 7,
+    "role": "SSD signal",
+    "adjacent_ground_ordinal": 8,
+    "plane_status": "proposed, not fabricated or SI validated"
+  },
+  "scope": "S06 lane 0 RX channel, on the same prospective L7 as solved TX0",
+  "obstacle_source": "all 3837 original vias plus new TX0 P/N traces",
+  "existing_source_tracks_accounted": false,
+  "error": "RuntimeError('no path in conservative via-projection centerline raster')",
+  "geometry_pass": false,
+  "seconds": 8.478530168533325,
+  "source_sha256_after": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c"
+}
