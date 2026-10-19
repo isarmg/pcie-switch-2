@@ -1,0 +1,29 @@
+{
+  "board_sha256": "105148eff6d2d17b32d6b61c081103438f84cfed36f086c4c6a7f540ce61854e",
+  "project_sha256": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "plane_report_sha256": "dfe634e85ecdc984fdba227632d9dc42d074f7375b46262d9f59420cc1e04be5",
+  "script_sha256": "fcf2ce49b48deef6e62b5f074e4abd6d1b4a5764268bc7a24b82885b547a416b",
+  "functional_pad_layer_shapes_checked": 3787,
+  "hits": [
+    {
+      "ref_pin": "C5205.2",
+      "dnp": false,
+      "net": "/TBT_CPU_TX2_DST_P",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 4.482493448578102e-09,
+      "bounds": [
+        68.8,
+        6.106426,
+        68.830024,
+        6.178910933409401
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    }
+  ],
+  "scope": "All numbered nonempty nonGND nonNC pad shapes includingDNP, immediate different-net adjacent plane lost polygons; native1nmERROR_OUTSIDE; sensitivity erodes lost polygon; noSIqualification."
+}

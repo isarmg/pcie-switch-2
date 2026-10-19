@@ -1,0 +1,91 @@
+{
+  "candidate_sha256": "105148eff6d2d17b32d6b61c081103438f84cfed36f086c4c6a7f540ce61854e",
+  "diagnoses": {
+    "BASE_AUDIT": {
+      "board_sha256": "f31316e79ea4290db7e75fc3f79ba0a1861925ea6e8a98a7d457b0c1a1160a60",
+      "groups": [
+        [
+          "C133.1",
+          "J11.B1",
+          "J11.B2",
+          "J11.B3",
+          "J11.B4",
+          "J11.B5",
+          "J11.B6",
+          "U21.6"
+        ]
+      ]
+    },
+    "NoNarrow_AUDIT": {
+      "board_sha256": "484104dcffd38ccbaaa4a9356ea9fdcc2d8c86908e5635329570072e46f9013e",
+      "groups": [
+        [
+          "J11.B1",
+          "J11.B2",
+          "J11.B3",
+          "J11.B4",
+          "J11.B5",
+          "J11.B6"
+        ],
+        [
+          "C133.1",
+          "U21.6"
+        ]
+      ]
+    },
+    "REMOVED_AUDIT": {
+      "board_sha256": "f0b62c52b9cec05ed5b9e34ed961a3edb6b42e16356b65120b28e3d875f1edfd",
+      "groups": [
+        [
+          "J11.B1",
+          "J11.B2",
+          "J11.B3",
+          "J11.B4",
+          "J11.B5",
+          "J11.B6"
+        ],
+        [
+          "C133.1",
+          "U21.6"
+        ]
+      ]
+    },
+    "AUDIT": {
+      "board_sha256": "105148eff6d2d17b32d6b61c081103438f84cfed36f086c4c6a7f540ce61854e",
+      "groups": [
+        [
+          "C133.1",
+          "J11.B1",
+          "J11.B2",
+          "J11.B3",
+          "J11.B4",
+          "J11.B5",
+          "J11.B6",
+          "U21.6"
+        ]
+      ]
+    },
+    "FINAL_NO_BRIDGE_AUDIT": {
+      "board_sha256": "f0b62c52b9cec05ed5b9e34ed961a3edb6b42e16356b65120b28e3d875f1edfd",
+      "groups": [
+        [
+          "J11.B1",
+          "J11.B2",
+          "J11.B3",
+          "J11.B4",
+          "J11.B5",
+          "J11.B6"
+        ],
+        [
+          "C133.1",
+          "U21.6"
+        ]
+      ]
+    }
+  },
+  "cumulative_removed_mm_by_width": {
+    "0.1": 131.4212038458375,
+    "0.3": 19.107753051425885
+  },
+  "series_path_note": "Removed copper total includes branches and is not equivalent series route length. Candidate newly added B trace is a single8.15mm series bridge; both new vias and all existing source/load escapes/plane spreading remain additional impedance."
+}
