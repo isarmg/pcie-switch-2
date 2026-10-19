@@ -1,0 +1,277 @@
+{
+  "Base": [
+    {
+      "ref": "C5115",
+      "uuid": "7683a990-7ca9-4ab5-9a29-bbc6239bad34",
+      "value": "1uF 6.3V",
+      "xy": [
+        80.1,
+        39.0
+      ],
+      "angle": 90.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}TBT_PD_VOUT_3V3",
+          "uuid": "360ce540-5dff-45db-8fa2-ec0862e45bb7",
+          "connected": 1
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "3f3a3980-0fff-4745-b575-55de630d0db0",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "R5151",
+      "uuid": "98d28975-6d6f-4e4e-a914-7fae2fe040de",
+      "value": "15k 0.1%",
+      "xy": [
+        70.6,
+        33.7
+      ],
+      "angle": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}TBT_PD_R_OSC",
+          "uuid": "b26c226f-14b5-44f2-a9d9-01e822e5f355",
+          "connected": 5
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "e09e733d-1303-47f8-b7d7-7c8e5a1b2a6f",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "R5152",
+      "uuid": "2462f2ca-9472-4572-8b41-ff3a377ea5d0",
+      "value": "0R / I2C address strap",
+      "xy": [
+        70.6,
+        34.75
+      ],
+      "angle": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "uuid": "fd8ce734-50e6-4c3a-bb5c-250c9d2eac62",
+          "connected": 0
+        },
+        {
+          "pin": "",
+          "net": "",
+          "uuid": "cedd3bd3-3d38-4fa9-8ed2-7b709d1b2ba0",
+          "connected": 0
+        },
+        {
+          "pin": "1",
+          "net": "{slash}TBT_PD_I2C_ADDR",
+          "uuid": "9e4bc574-e0ff-4a75-8478-24d7491596aa",
+          "connected": 5
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "58d767a2-9263-475e-9db4-bd2941d4459d",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "TP711",
+      "uuid": "62021fdd-a7f6-4818-86d2-a9358f8ae64c",
+      "value": "PROBE /CPU_SLP_S4_1V8_N",
+      "xy": [
+        72.125,
+        34.225
+      ],
+      "angle": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}CPU_SLP_S4_1V8_N",
+          "uuid": "c73a6fd7-e0f7-4d92-bfa9-a7984efd888b",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "C5155",
+      "uuid": "2d73448f-bb50-497a-aaf4-1b1dc1429d06",
+      "value": "10nF / approx 57.6ms",
+      "xy": [
+        70.6,
+        32.6
+      ],
+      "angle": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}TBT_RESET_CT",
+          "uuid": "c5f82b69-ae14-4269-a6c1-cd496aef93ba",
+          "connected": 7
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "a95eca83-6e73-4518-a24a-53d9319d8415",
+          "connected": 4104
+        }
+      ]
+    }
+  ],
+  "anchor_vias": [
+    {
+      "uuid": "be9036c0-5e8d-4fc1-b2b6-786dd0b2afde",
+      "top": "In28.Cu",
+      "bottom": "B.Cu",
+      "diameter": 0.2,
+      "drill": 0.1
+    }
+  ],
+  "Candidate3": [
+    {
+      "ref": "C5115",
+      "uuid": "7683a990-7ca9-4ab5-9a29-bbc6239bad34",
+      "value": "1uF 6.3V",
+      "xy": [
+        71.8,
+        34.35
+      ],
+      "angle": 180.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}TBT_PD_VOUT_3V3",
+          "uuid": "360ce540-5dff-45db-8fa2-ec0862e45bb7",
+          "connected": 5
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "3f3a3980-0fff-4745-b575-55de630d0db0",
+          "connected": 4108
+        }
+      ]
+    },
+    {
+      "ref": "R5151",
+      "uuid": "98d28975-6d6f-4e4e-a914-7fae2fe040de",
+      "value": "15k 0.1%",
+      "xy": [
+        69.83,
+        33.79
+      ],
+      "angle": -90.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}TBT_PD_R_OSC",
+          "uuid": "b26c226f-14b5-44f2-a9d9-01e822e5f355",
+          "connected": 6
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "e09e733d-1303-47f8-b7d7-7c8e5a1b2a6f",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "R5152",
+      "uuid": "2462f2ca-9472-4572-8b41-ff3a377ea5d0",
+      "value": "0R / I2C address strap",
+      "xy": [
+        70.1,
+        35.3
+      ],
+      "angle": 180.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "uuid": "fd8ce734-50e6-4c3a-bb5c-250c9d2eac62",
+          "connected": 0
+        },
+        {
+          "pin": "",
+          "net": "",
+          "uuid": "cedd3bd3-3d38-4fa9-8ed2-7b709d1b2ba0",
+          "connected": 0
+        },
+        {
+          "pin": "1",
+          "net": "{slash}TBT_PD_I2C_ADDR",
+          "uuid": "9e4bc574-e0ff-4a75-8478-24d7491596aa",
+          "connected": 6
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "58d767a2-9263-475e-9db4-bd2941d4459d",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "TP711",
+      "uuid": "62021fdd-a7f6-4818-86d2-a9358f8ae64c",
+      "value": "PROBE /CPU_SLP_S4_1V8_N",
+      "xy": [
+        72.125,
+        34.225
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}CPU_SLP_S4_1V8_N",
+          "uuid": "c73a6fd7-e0f7-4d92-bfa9-a7984efd888b",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "C5155",
+      "uuid": "2d73448f-bb50-497a-aaf4-1b1dc1429d06",
+      "value": "10nF / approx 57.6ms",
+      "xy": [
+        70.6,
+        32.299999
+      ],
+      "angle": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}TBT_RESET_CT",
+          "uuid": "c5f82b69-ae14-4269-a6c1-cd496aef93ba",
+          "connected": 8
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "a95eca83-6e73-4518-a24a-53d9319d8415",
+          "connected": 4108
+        }
+      ]
+    }
+  ]
+}

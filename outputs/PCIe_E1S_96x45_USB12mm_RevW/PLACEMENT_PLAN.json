@@ -2393,11 +2393,11 @@
   },
   "R5152": {
     "position_mm": [
-      70.6,
-      34.75
+      70.1,
+      35.3
     ],
     "side": "B",
-    "rotation_deg": 0.0
+    "rotation_deg": 180.0
   },
   "U18": {
     "position_mm": [
@@ -2482,7 +2482,7 @@
   "C5155": {
     "position_mm": [
       70.6,
-      32.6
+      32.299999
     ],
     "side": "B",
     "rotation_deg": 0.0
@@ -3052,8 +3052,8 @@
       72.125,
       34.225
     ],
-    "side": "B",
-    "rotation_deg": 0.0
+    "side": "F",
+    "rotation_deg": 180.0
   },
   "C5112": {
     "position_mm": [
@@ -3209,11 +3209,11 @@
   },
   "C5115": {
     "position_mm": [
-      80.1,
-      39.0
+      71.8,
+      34.35
     ],
     "side": "B",
-    "rotation_deg": 90.0
+    "rotation_deg": 180.0
   },
   "C728": {
     "position_mm": [
@@ -3641,11 +3641,11 @@
   },
   "R5151": {
     "position_mm": [
-      70.6,
-      33.7
+      69.83,
+      33.79
     ],
     "side": "B",
-    "rotation_deg": 0.0
+    "rotation_deg": -90.0
   },
   "C5156": {
     "position_mm": [

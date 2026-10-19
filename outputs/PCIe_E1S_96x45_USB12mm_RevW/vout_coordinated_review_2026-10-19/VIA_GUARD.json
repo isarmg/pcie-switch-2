@@ -1,0 +1,62 @@
+{
+  "cd0c5d63-154c-43ce-859e-a3a3e61bb6dd": {
+    "Base": {
+      "xy_nm": [
+        70090000,
+        33700000
+      ],
+      "net": "{slash}TBT_PD_R_OSC",
+      "diameter_nm": 200000,
+      "drill_nm": 100000,
+      "type": 2,
+      "top": 4,
+      "bottom": 2,
+      "old_signal_track_connected": true,
+      "signal_pad_connected": true
+    },
+    "Candidate3": {
+      "xy_nm": [
+        70090000,
+        33700000
+      ],
+      "net": "{slash}TBT_PD_R_OSC",
+      "diameter_nm": 200000,
+      "drill_nm": 100000,
+      "type": 2,
+      "top": 4,
+      "bottom": 2,
+      "old_signal_track_connected": true,
+      "signal_pad_connected": true
+    }
+  },
+  "3ec49d68-16e2-42e2-b7f3-e9096ab520d7": {
+    "Base": {
+      "xy_nm": [
+        70280000,
+        34750000
+      ],
+      "net": "{slash}TBT_PD_I2C_ADDR",
+      "diameter_nm": 200000,
+      "drill_nm": 100000,
+      "type": 2,
+      "top": 4,
+      "bottom": 2,
+      "old_signal_track_connected": true,
+      "signal_pad_connected": true
+    },
+    "Candidate3": {
+      "xy_nm": [
+        70280000,
+        34750000
+      ],
+      "net": "{slash}TBT_PD_I2C_ADDR",
+      "diameter_nm": 200000,
+      "drill_nm": 100000,
+      "type": 2,
+      "top": 4,
+      "bottom": 2,
+      "old_signal_track_connected": true,
+      "signal_pad_connected": true
+    }
+  }
+}

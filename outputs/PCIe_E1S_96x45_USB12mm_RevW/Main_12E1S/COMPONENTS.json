@@ -15878,11 +15878,11 @@
     },
     "x": 72.125,
     "y": 34.225,
-    "side": "B",
+    "side": "F",
     "height_mm": 0,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": 180.0,
     "dnp": false
   },
   {
@@ -18547,13 +18547,13 @@
       "1": "/TBT_PD_R_OSC",
       "2": "/GND"
     },
-    "x": 70.6,
-    "y": 33.7,
+    "x": 69.83,
+    "y": 33.79,
     "side": "B",
     "height_mm": 0.3,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0
+    "rotation_deg": -90.0
   },
   {
     "ref": "R5152",
@@ -18563,13 +18563,13 @@
       "1": "/TBT_PD_I2C_ADDR",
       "2": "/GND"
     },
-    "x": 70.6,
-    "y": 34.75,
+    "x": 70.1,
+    "y": 35.3,
     "side": "B",
     "height_mm": 0.3,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0
+    "rotation_deg": 180.0
   },
   {
     "ref": "R5153",
@@ -18987,13 +18987,13 @@
       "1": "/TBT_PD_VOUT_3V3",
       "2": "/GND"
     },
-    "x": 80.1,
-    "y": 39.0,
+    "x": 71.8,
+    "y": 34.35,
     "side": "B",
     "height_mm": 0.6,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 90.0
+    "rotation_deg": 180.0
   },
   {
     "ref": "C5116",
@@ -19452,7 +19452,7 @@
       "2": "/GND"
     },
     "x": 70.6,
-    "y": 32.6,
+    "y": 32.299999,
     "side": "B",
     "height_mm": 0.6,
     "datasheet": "",

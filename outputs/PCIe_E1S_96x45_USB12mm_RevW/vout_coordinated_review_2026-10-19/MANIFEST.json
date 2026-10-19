@@ -1,0 +1,29 @@
+{
+  "base_commit": "451f87dc39f514485fbbdf5bc75af9c0903d1de3",
+  "files": {
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb": "dbd2588c3fddfe6ec132bdcae97372fcd677cde3e7feedb17f144cc0c3a2c872",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/COMPONENTS.json": "4e4d6f536def6b65d229d0bfc6e5482edffc4d2db94a32a38ea138ecba261be3",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/PLACEMENT_PLAN.json": "f35344c0c0ae962d3f84df1cc732a55affd64ceb6901d9af6f830a6629d33aa8",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/BOM.csv": "26dde83cdf10db39f01a01d774a3f18aac46a92d8de0595933d48c7928f44d7c",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/ROUTING_STATUS.json": "e6b9b6b78c62b46ff2a8fec8c1541f75535a6a008d674c88889a13c899aef7d4",
+    "scripts/revW/vout_coordinated/replay_full.py": "660ad3f302e7038707c8f5e58632e7ff26ce36e9df08b4771385bd5f6665095c",
+    "scripts/revW/vout_coordinated/replay3.py": "0e2fbe1f7af0386bc240b777146d480a3f97cdc05c33a9b096f32a5c6a9c6aa5",
+    "scripts/revW/vout_coordinated/METADATA_DELTA.json": "d6ba55987b1b12f6e772147f9a17cb3f1510f19be7869cc74ef85f2353c8166e",
+    "scripts/revW/vout_coordinated/DELTA3.json": "20a0e0d5a5ba1a7126aa64d145fad9530e0b32e9014e9e3ee7c806832263bc1b",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/EXACT_OBJECTS.json": "d2d876a8b5dec51cff4cc1bb9c67106dcd67751ecfc776eced0b46acb17288a7",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/DRC.json": "4cc009e933d497e35baf963f894ecc958a479e664bdf98c0169fc59f6d506c3a",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/PLACEMENT_DETAILS.json": "f22888ae0abb0670eea10eff6097d77576c7269100c22c553698e2073243e8ab",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/PAD.json": "466be957338faeb5f77a0c86f21fd5759e64c900d8a6b3c201a82270f8e42d8c",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/TP_F_COURTYARD.json": "8089ebc67dda49b80c44306618041685cf291e4a6e72a75fd10c516d9110e517",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/VERIFICATION3.json": "2d6a958e01f691e1b9940903636df6df80c3322f4cf5d61af219f996feba8b22",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/ERC.json": "b40d79d028d6d5a9b46f0114a7ca158a9278a031cb7d3a0a3fde7dcd4b4c7a0e",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/ALL_PLANE.json": "af2587db9eeb5c75556ae4b1d2432d022199ade7fb04b828e8e08580dee28237",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/VIA_GUARD.json": "3927b81838e260b40ad39a44ff0de1652308076fce80772039a6fef824ead8e5",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/README.md": "b2ab9481e435480a30fa939044124323dabd7a46918b3d4e6b0c3d531ff461b6",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/PAD_INPUT.json": "97252d7a942d7f7ac778ddecda2ad587c49c2f882f60bdeb3d53a97a5aeb529a",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/AUDIT.json": "0aa90c0a9646e789d61a5496f3adaaecb41b29af50f8cf08c81aed3414c83f3a",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/INDEPENDENT_REGRESSION.json": "f975bfcaac6ff7fff8ed95f17e9716b127ceb5be24537088e21a5074fc988e26",
+    "CURRENT_DESIGNS.json": "c06660199682529fbe469f8febcc41cdd6649a1cdc8e6a0f8d7c18691840d180",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_coordinated_review_2026-10-19/CURRENT_POINTER_GUARD.json": "384ba909f1ce81661f5cbebb0ceaa7fa789cc4a12642a33a68126dec192719aa"
+  }
+}
