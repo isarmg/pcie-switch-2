@@ -1,0 +1,2285 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "source_unchanged": true,
+  "source_vias_preserved": 3837,
+  "scenario_count": 12,
+  "best_accepted_channels": 3,
+  "complete_x2_same_plane_exact_pass": false,
+  "all_pass_fail_labels_confirmed": true,
+  "all_32_local_fanout_candidate_labels_confirmed": true,
+  "fanout_candidate_checks": [
+    {
+      "candidate_id": "S06_SW_RX0:dy+0.00:left0.00",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.19759999999999997,
+          "edge_gap_mm": 20.4
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.1656209999999966,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX0:dy+0.10:left0.00",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.1349999999999966,
+          "edge_gap_mm": 20.299999999999997
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.06562099999999518,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX0:dy-0.10:left0.00",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.0975999999999985,
+          "edge_gap_mm": 20.5
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.16500000000000128,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX0:dy+0.20:left0.00",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.08499999999999872,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.03499999999999873,
+          "edge_gap_mm": 20.2
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": -0.0343790000000027,
+          "edge_gap_mm": 19.999999999999996
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX0:dy+0.00:left0.20",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.19759999999999997,
+          "edge_gap_mm": 20.4
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.1656209999999966,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX0:dy+0.10:left0.20",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.1349999999999966,
+          "edge_gap_mm": 20.299999999999997
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.06562099999999518,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX0:dy-0.10:left0.20",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.0975999999999985,
+          "edge_gap_mm": 20.5
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.16500000000000128,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX0:dy+0.20:left0.20",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.08499999999999872,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.03499999999999873,
+          "edge_gap_mm": 20.2
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": -0.0343790000000027,
+          "edge_gap_mm": 19.999999999999996
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX1:dy+0.00:left0.00",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.04119999999999849,
+          "edge_gap_mm": 22.2
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.24120000000000133,
+          "edge_gap_mm": 21.814999999999998
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX1:dy+0.10:left0.00",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.13500000000000015,
+          "edge_gap_mm": 22.099999999999998
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.25336504558526207,
+          "edge_gap_mm": 21.814999999999998
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX1:dy-0.10:left0.00",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": -0.05880000000000293,
+          "edge_gap_mm": 22.3
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.1411999999999999,
+          "edge_gap_mm": 21.814999999999998
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX1:dy+0.20:left0.00",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.08500000000000227,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.03500000000000228,
+          "edge_gap_mm": 22.0
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.1805999999999969,
+          "edge_gap_mm": 21.799999999999997
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX1:dy+0.00:left0.20",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.04119999999999849,
+          "edge_gap_mm": 22.2
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.24120000000000133,
+          "edge_gap_mm": 21.814999999999998
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX1:dy+0.10:left0.20",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.13500000000000015,
+          "edge_gap_mm": 22.099999999999998
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.25336504558526207,
+          "edge_gap_mm": 21.814999999999998
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX1:dy-0.10:left0.20",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": -0.05880000000000293,
+          "edge_gap_mm": 22.3
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.1411999999999999,
+          "edge_gap_mm": 21.814999999999998
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_RX1:dy+0.20:left0.20",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.08500000000000227,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3499999999999993,
+          "edge_gap_mm": 8.45
+        },
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.03500000000000228,
+          "edge_gap_mm": 22.0
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.1805999999999969,
+          "edge_gap_mm": 21.799999999999997
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX0:dy+0.00:left0.00",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.22484359196336748,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3202267165958348,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999999999999785,
+          "edge_gap_mm": 20.4
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999999999999785,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX0:dy+0.10:left0.00",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.22484359196336748,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3202267165958348,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.43448271956208095,
+          "edge_gap_mm": 20.299999999999997
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999999999999785,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX0:dy-0.10:left0.00",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.22484359196336748,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3202267165958348,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999999999999785,
+          "edge_gap_mm": 20.5
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.4486376514601267,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX0:dy+0.20:left0.00",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.0996409690931584,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.22484359196336748,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3202267165958348,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3908844427441034,
+          "edge_gap_mm": 20.2
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999999999999785,
+          "edge_gap_mm": 19.999999999999996
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX0:dy+0.00:left0.20",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.22484359196336748,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3202267165958348,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.40814783883842165,
+          "edge_gap_mm": 20.4
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.33736947996361055,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX0:dy+0.10:left0.20",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.22484359196336748,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3202267165958348,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.364323837674281,
+          "edge_gap_mm": 20.299999999999997
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3301343666100155,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX0:dy-0.10:left0.20",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.22484359196336748,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3202267165958348,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.364323837674281,
+          "edge_gap_mm": 20.5
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.364323837674281,
+          "edge_gap_mm": 20.015
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX0:dy+0.20:left0.20",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.0996409690931584,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.22484359196336748,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3202267165958348,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX0_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3373694799636112,
+          "edge_gap_mm": 20.2
+        },
+        {
+          "net": "{slash}S06_SW_TX0_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3434865854306489,
+          "edge_gap_mm": 19.999999999999996
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX1:dy+0.00:left0.00",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.18688122690645484,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.2130991579224593,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999900000000037,
+          "edge_gap_mm": 22.2
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999900000000037,
+          "edge_gap_mm": 21.815001
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX1:dy+0.10:left0.00",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.18688122690645484,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.2130991579224593,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.434482097904223,
+          "edge_gap_mm": 22.099999999999998
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999900000000037,
+          "edge_gap_mm": 21.815001
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX1:dy-0.10:left0.00",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.18688122690645484,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.2130991579224593,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999900000000037,
+          "edge_gap_mm": 22.3
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44863746689885386,
+          "edge_gap_mm": 21.815001
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX1:dy+0.20:left0.00",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.09964092134962274,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.18688122690645484,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.2130991579224593,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3908839267314709,
+          "edge_gap_mm": 22.0
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.44999900000000037,
+          "edge_gap_mm": 21.799999999999997
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX1:dy+0.00:left0.20",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.18688122690645484,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.2130991579224593,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3680048358847635,
+          "edge_gap_mm": 22.2
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.36081210831381005,
+          "edge_gap_mm": 21.815001
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX1:dy+0.10:left0.20",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.18688122690645484,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.2130991579224593,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.4031084974939364,
+          "edge_gap_mm": 22.099999999999998
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3357252412630004,
+          "edge_gap_mm": 21.815001
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX1:dy-0.10:left0.20",
+      "independent_local_pass": true,
+      "pair_gap_mm": 0.10000000000000284,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.18688122690645484,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.2130991579224593,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3392126429273884,
+          "edge_gap_mm": 22.3
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.4031084974939364,
+          "edge_gap_mm": 21.815001
+        }
+      ]
+    },
+    {
+      "candidate_id": "S06_SW_TX1:dy+0.20:left0.20",
+      "independent_local_pass": false,
+      "pair_gap_mm": 0.09964092134962274,
+      "gateways_clear_of_other_vias": true,
+      "fragments": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.18688122690645484,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "source",
+          "endpoint_error_mm": 0.0,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.2130991579224593,
+          "edge_gap_mm": 6.45
+        },
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.3608121083138113,
+          "edge_gap_mm": 22.0
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "end": "destination",
+          "endpoint_error_mm": 9.999999974752427e-07,
+          "simple": true,
+          "min_all_via_copper_gap_mm": 0.33055073613511476,
+          "edge_gap_mm": 21.799999999999997
+        }
+      ]
+    }
+  ],
+  "AC_output_sections_retained_and_checked": [
+    {
+      "net": "{slash}S06_SSD_RX0_P",
+      "layer": "F.Cu",
+      "length_mm": 1.3800000000000026,
+      "minimum_other_front_copper_gap_mm": 0.3499999999999986,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SSD_RX0_N",
+      "layer": "F.Cu",
+      "length_mm": 1.3800000000000026,
+      "minimum_other_front_copper_gap_mm": 0.3499999999999986,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SSD_RX1_P",
+      "layer": "F.Cu",
+      "length_mm": 1.3800000000000026,
+      "minimum_other_front_copper_gap_mm": 0.3499990000000011,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SSD_RX1_N",
+      "layer": "F.Cu",
+      "length_mm": 1.380000000000365,
+      "minimum_other_front_copper_gap_mm": 0.34999900000000117,
+      "violations": [],
+      "pass": true
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_file": "RESERVED_SCENARIO_00.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 2,
+      "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+      "routes": [
+        {
+          "pair": "S06_SW_RX0",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.0999999999999944,
+          "P_N_length_difference_mm": 0.12773531066150667,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "length_mm": 62.183578643274004,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.7940110563016239,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "length_mm": 62.0558433326125,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9940110563016246,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999218,
+          "P_N_length_difference_mm": 0.10935589778013366,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "length_mm": 67.65966652649848,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12125477993606423,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.523417839755054,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.2601470508735437,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "length_mm": 67.55031062871835,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.121123178733294,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.3234178397550592,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX0",
+          "polyline_exists": false,
+          "failure": {
+            "reason": "no path in this conservative raster",
+            "expanded_nodes": 1020134
+          }
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_01.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 3,
+      "minimum_interchannel_copper_gap_mm": 0.13294243242555376,
+      "routes": [
+        {
+          "pair": "S06_SW_RX0",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.0999999999999944,
+          "P_N_length_difference_mm": 0.12773531066150667,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "length_mm": 62.183578643274004,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.7940110563016239,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "length_mm": 62.0558433326125,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9940110563016246,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999218,
+          "P_N_length_difference_mm": 0.10935589778013366,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "length_mm": 67.65966652649848,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12125477993606423,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.523417839755054,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.2601470508735437,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "length_mm": 67.55031062871835,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.121123178733294,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.3234178397550592,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999343,
+          "P_N_length_difference_mm": 0.14688977873815645,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "length_mm": 78.52378147444853,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999925,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.33294243242554733,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.020998685797677,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "length_mm": 78.67067125318668,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12119655877432392,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.13294243242555376,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.8209986857976738,
+              "board_edge_copper_gap_mm": 6.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX0",
+          "polyline_exists": false,
+          "failure": {
+            "reason": "no path in this conservative raster",
+            "expanded_nodes": 936133
+          }
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_02.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "routes": [
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999268,
+          "P_N_length_difference_mm": 0.12499535395713224,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "length_mm": 59.8203554569927,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.2601470508735437,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "length_mm": 59.69536010303557,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX0",
+          "polyline_exists": true,
+          "independent_exact_pass": false,
+          "pair_copper_gap_mm": -0.05357899012435965,
+          "P_N_length_difference_mm": 1.2984457551384736,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "length_mm": 75.98004088988226,
+              "endpoint_max_error_mm": 0.0,
+              "simple": false,
+              "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.3763094907221609,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.3763094907221609,
+              "board_edge_copper_gap_mm": 7.95
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "length_mm": 77.27848664502073,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": -0.0630086803510648,
+              "source_via_violations": [
+                {
+                  "net": "{slash}S06_SW_RX0_P",
+                  "xy": [
+                    57.7,
+                    24.335
+                  ],
+                  "copper_gap_mm": -0.0630086803510648
+                }
+              ],
+              "minimum_accepted_channel_copper_gap_mm": 0.17630949072216004,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.17630949072216004,
+              "board_edge_copper_gap_mm": 8.149999999999999
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_03.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "routes": [
+        {
+          "pair": "S06_SW_TX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999587,
+          "P_N_length_difference_mm": 0.04500275713697022,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "length_mm": 70.85366382930502,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.3719235641183103,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "length_mm": 70.89866658644199,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.17192356411831025,
+              "board_edge_copper_gap_mm": 6.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": false,
+          "failure": {
+            "reason": "no path in this conservative raster",
+            "expanded_nodes": 1008653
+          }
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_04.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 2,
+      "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+      "routes": [
+        {
+          "pair": "S06_SW_RX0",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.0999999999999944,
+          "P_N_length_difference_mm": 0.12773531066150667,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "length_mm": 62.183578643274004,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.7940110563016239,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "length_mm": 62.0558433326125,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9940110563016246,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999218,
+          "P_N_length_difference_mm": 0.10935589778013366,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "length_mm": 67.65966652649848,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12125477993606423,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.523417839755054,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.2601470508735437,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "length_mm": 67.55031062871835,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.121123178733294,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.3234178397550592,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX0",
+          "polyline_exists": false,
+          "failure": {
+            "reason": "no path in this conservative raster",
+            "expanded_nodes": 1020151
+          }
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_05.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 3,
+      "minimum_interchannel_copper_gap_mm": 0.13294243242555376,
+      "routes": [
+        {
+          "pair": "S06_SW_RX0",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.0999999999999944,
+          "P_N_length_difference_mm": 0.12773531066150667,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "length_mm": 62.183578643274004,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.7940110563016239,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "length_mm": 62.0558433326125,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9940110563016246,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999218,
+          "P_N_length_difference_mm": 0.10935589778013366,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "length_mm": 67.65966652649848,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12125477993606423,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.523417839755054,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.2601470508735437,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "length_mm": 67.55031062871835,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.121123178733294,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.3234178397550592,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999332,
+          "P_N_length_difference_mm": 0.028218919980076862,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "length_mm": 78.41511408052868,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999925,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.33294243242554733,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.020998685797677,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "length_mm": 78.44333300050876,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12119655877432392,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.13294243242555376,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.8209986857976738,
+              "board_edge_copper_gap_mm": 6.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX0",
+          "polyline_exists": false,
+          "failure": {
+            "reason": "no path in this conservative raster",
+            "expanded_nodes": 939116
+          }
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_06.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "routes": [
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999268,
+          "P_N_length_difference_mm": 0.12499535395713224,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "length_mm": 59.8203554569927,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.2601470508735437,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "length_mm": 59.69536010303557,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX0",
+          "polyline_exists": true,
+          "independent_exact_pass": false,
+          "pair_copper_gap_mm": -0.05357899012435965,
+          "P_N_length_difference_mm": 1.2984457551384736,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "length_mm": 75.98004088988226,
+              "endpoint_max_error_mm": 0.0,
+              "simple": false,
+              "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.3763094907221609,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.3763094907221609,
+              "board_edge_copper_gap_mm": 7.95
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "length_mm": 77.27848664502073,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": -0.0630086803510648,
+              "source_via_violations": [
+                {
+                  "net": "{slash}S06_SW_RX0_P",
+                  "xy": [
+                    57.7,
+                    24.335
+                  ],
+                  "copper_gap_mm": -0.0630086803510648
+                }
+              ],
+              "minimum_accepted_channel_copper_gap_mm": 0.17630949072216004,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.17630949072216004,
+              "board_edge_copper_gap_mm": 8.149999999999999
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_07.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "routes": [
+        {
+          "pair": "S06_SW_TX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999587,
+          "P_N_length_difference_mm": 0.07486615252264528,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "length_mm": 71.02595913233678,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.3719235641183103,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "length_mm": 70.95109297981413,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.17192356411831025,
+              "board_edge_copper_gap_mm": 6.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": false,
+          "failure": {
+            "reason": "no path in this conservative raster",
+            "expanded_nodes": 1008653
+          }
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_08.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 2,
+      "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+      "routes": [
+        {
+          "pair": "S06_SW_RX0",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.0999999999999944,
+          "P_N_length_difference_mm": 0.12773531066150667,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "length_mm": 62.183578643274004,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.7940110563016239,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "length_mm": 62.0558433326125,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9940110563016246,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999218,
+          "P_N_length_difference_mm": 0.10935589778013366,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "length_mm": 67.65966652649848,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12125477993606423,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.523417839755054,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.2601470508735437,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "length_mm": 67.55031062871835,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.121123178733294,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.3234178397550592,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX0",
+          "polyline_exists": false,
+          "failure": {
+            "reason": "no path in this conservative raster",
+            "expanded_nodes": 1020114
+          }
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_09.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 3,
+      "minimum_interchannel_copper_gap_mm": 0.13294243242555376,
+      "routes": [
+        {
+          "pair": "S06_SW_RX0",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.0999999999999944,
+          "P_N_length_difference_mm": 0.12773531066150667,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "length_mm": 62.183578643274004,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.7940110563016239,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "length_mm": 62.0558433326125,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9940110563016246,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999218,
+          "P_N_length_difference_mm": 0.10935589778013366,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "length_mm": 67.65966652649848,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12125477993606423,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.523417839755054,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.2601470508735437,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "length_mm": 67.55031062871835,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.121123178733294,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.3234178397550592,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999157,
+          "P_N_length_difference_mm": 0.27007683040758934,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "length_mm": 78.3693538941429,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999925,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.33294243242554733,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.020998685797677,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "length_mm": 78.6394307245505,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12119655877432392,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.13294243242555376,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.8209986857976738,
+              "board_edge_copper_gap_mm": 6.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX0",
+          "polyline_exists": false,
+          "failure": {
+            "reason": "no path in this conservative raster",
+            "expanded_nodes": 936133
+          }
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_10.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "routes": [
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999268,
+          "P_N_length_difference_mm": 0.12499535395713224,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "length_mm": 59.8203554569927,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 1.2601470508735437,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "length_mm": 59.69536010303557,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.9,
+              "board_edge_copper_gap_mm": 8.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX0",
+          "polyline_exists": true,
+          "independent_exact_pass": false,
+          "pair_copper_gap_mm": -0.05357899012435965,
+          "P_N_length_difference_mm": 1.2984457551384736,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "length_mm": 75.98004088988226,
+              "endpoint_max_error_mm": 0.0,
+              "simple": false,
+              "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": 0.3763094907221609,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.3763094907221609,
+              "board_edge_copper_gap_mm": 7.95
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "length_mm": 77.27848664502073,
+              "endpoint_max_error_mm": 0.0,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": -0.0630086803510648,
+              "source_via_violations": [
+                {
+                  "net": "{slash}S06_SW_RX0_P",
+                  "xy": [
+                    57.7,
+                    24.335
+                  ],
+                  "copper_gap_mm": -0.0630086803510648
+                }
+              ],
+              "minimum_accepted_channel_copper_gap_mm": 0.17630949072216004,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.17630949072216004,
+              "board_edge_copper_gap_mm": 8.149999999999999
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_11.json",
+      "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+      "all_pass_fail_labels_confirmed": true,
+      "accepted_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "routes": [
+        {
+          "pair": "S06_SW_TX1",
+          "polyline_exists": true,
+          "independent_exact_pass": true,
+          "pair_copper_gap_mm": 0.09999999999999157,
+          "P_N_length_difference_mm": 0.1681898088064031,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "length_mm": 70.6992362489994,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.3719235641183103,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "length_mm": 70.8674260578058,
+              "endpoint_max_error_mm": 9.999999974752427e-07,
+              "simple": true,
+              "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+              "source_via_violations": [],
+              "minimum_accepted_channel_copper_gap_mm": null,
+              "minimum_other_selected_fanout_copper_gap_mm": 0.17192356411831025,
+              "board_edge_copper_gap_mm": 6.45
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "polyline_exists": false,
+          "failure": {
+            "reason": "no path in this conservative raster",
+            "expanded_nodes": 1008653
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Geometry only; no 24-layer PCB, native whole-board DRC, actual GND reference, impedance, SI or manufacturing verification.",
+    "All original source vias projected but old internal tracks/pours omitted.",
+    "No x4/two-slot/16-directional-channel capacity result.",
+    "Bounded unsuccessful search does not prove impossibility."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "fresh_native_extraction": true,
+  "native_version": "10.0.7",
+  "all_12_scenarios_replayed": true,
+  "compared_json": [
+    "RESERVED_SCENARIO_02.json",
+    "RESERVED_EXACT_CHECKS.json",
+    "RESERVED_SEARCH_SCOPE.json",
+    "ENDPOINT_PREFLIGHT.json",
+    "VIA_DIAMETER_CHECK.json",
+    "RESERVED_SCENARIO_10.json",
+    "RESERVED_SCENARIO_08.json",
+    "RESERVED_SCENARIO_06.json",
+    "RESERVED_SCENARIO_09.json",
+    "RESERVED_SCENARIO_03.json",
+    "RESERVED_SCENARIO_11.json",
+    "RESERVED_SCENARIO_04.json",
+    "RESERVED_SCENARIO_05.json",
+    "RESERVED_SCENARIO_07.json",
+    "RESERVED_SCENARIO_00.json",
+    "RESERVED_SCENARIO_01.json"
+  ],
+  "comparison": "parsed equality excluding seconds only",
+  "source_design_modified": false
+}

@@ -1,0 +1,38 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "fresh_native_extraction_replay_exit_code": 0,
+  "ignored_fields": [
+    "seconds"
+  ],
+  "all_16_json_objects_identical_except_wall_time": true,
+  "json_checks": {
+    "ENDPOINT_PREFLIGHT.json": true,
+    "RESERVED_SEARCH_SCOPE.json": true,
+    "RESERVED_EXACT_CHECKS.json": true,
+    "VIA_DIAMETER_CHECK.json": true,
+    "RESERVED_SCENARIO_00.json": true,
+    "RESERVED_SCENARIO_01.json": true,
+    "RESERVED_SCENARIO_02.json": true,
+    "RESERVED_SCENARIO_03.json": true,
+    "RESERVED_SCENARIO_04.json": true,
+    "RESERVED_SCENARIO_05.json": true,
+    "RESERVED_SCENARIO_06.json": true,
+    "RESERVED_SCENARIO_07.json": true,
+    "RESERVED_SCENARIO_08.json": true,
+    "RESERVED_SCENARIO_09.json": true,
+    "RESERVED_SCENARIO_10.json": true,
+    "RESERVED_SCENARIO_11.json": true
+  },
+  "scripts_identical_to_successful_replay": {
+    "validate_reserved_results.py": true,
+    "replay_reserved.sh": true,
+    "joint_routing_trial.py": true,
+    "reserved_escape_trial.py": true,
+    "extract_geometry.py": true,
+    "check_via_diameters.py": true
+  },
+  "raw_geometry_sha256_identical": {
+    "NATIVE_GEOMETRY.json": true,
+    "extra_geometry.json": true
+  }
+}
