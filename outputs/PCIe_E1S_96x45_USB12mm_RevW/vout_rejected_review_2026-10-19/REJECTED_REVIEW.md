@@ -1,0 +1,17 @@
+# VOUT bounded local layout attempt: rejected
+
+Source: published 693d19b, PCB a501903278d07b19a431bb5bfb35a8012abc06ce05154d7c82ad7a32a5abfe19, formal project 9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30.
+
+Scope was four footprints only: C5115 to B(71.8,34.35)180; R5151 to B(70.25,33.45)180; R5152 to B(70.05,34.75)180; TP711 flipped to F at unchanged XY. No new via, no old copper removed/edited and no existing CT/SS/1V8A/1V8D/BMC loop modified. Existing resistor signal vias were retained with short added leads. Same-name formal project existed before loading and filling.
+
+Native DRC rejects this attempt: seven geometry errors, one existing In23 sliver. R5151 GND pad shorts the old R_OSC blind via (70.09,33.7); hole clearance is only 0.0396 mm against 0.1000 mm, with associated copper/mask violations. R5151 courtyard also overlaps both C5155 (already accepted CT circuit) and new C5115. Exact objects and UUIDs are in REJECTED_DRC.json and REJECTED_SCOPE.json. The VOUT and ground routes themselves generated no reported geometric errors in this trial, but that does not make the candidate usable.
+
+The already accepted A/BMC capacitor courtyards constrain the available horizontal capacitor strip. Further leftward horizontal resistor placement reaches the high-speed coupling-capacitor column around x69; vertical resistor placement consumes the I2C strap region and conflicts with its retained signal-via location. These alternatives are geometric planning observations, not fully validated candidates. Resolving them would require a broader rearrangement or moving existing signal vias, beyond the bounded four-footprint trial. No alternative has been accepted or exported as a merge patch.
+
+The attempted ground route would add about 2.60 mm to the existing 1V8A ground branch, giving approximately 3.98 mm total to the original U503 ground entry. This shared return was not qualified, and no successful bypass completion is claimed. C5115 remains at its original disconnected state in Main. Its nominal 1uF6.3V label also remains unqualified: official TPS65982 Table11-1 p91 lists VOUT effective minimum0.1uF, typical1uF, maximum2.5uF and rating6.3V; a real MLCC and bias/tolerance evidence are still required.
+
+Only native geometry screening was completed. Full cluster/new-copper/reference-plane/function-pad acceptance gates were intentionally not represented as passed after the geometry rejection. Main/Git are untouched. Preserve this concise report and rejection DRC as evidence; do not merge Candidate3 or its new copper. Further work needs a deliberately coordinated PD-region layout rather than extending this unsuccessful four-footprint patch.
+
+Reproduction: run reproduce_rejected.py with KiCad10 Python, exact source project directory and a new scratch root. It verifies source PCB/pro hashes, copies the complete project before native load/refill, rebuilds the bounded four-footprint geometry with fixed new UUIDs, and asserts the exact rejected candidate SHA256. Both the author and publisher verified byte-exact reproduction of the rejected SHA. This is solely a regression example of invalid geometry, not a merge artifact.
+
+Publisher independently rebuilt the exact rejected SHA from source and repeated full native geometry/parity screening: seven errors, one oldsliver, parity0. No downstream connectivity/reference acceptance claimed. Only this report, scope, dependencies, rejected DRC and reproducibility script are prepared for archival; no invalid PCB is included.

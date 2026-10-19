@@ -1,0 +1,12 @@
+{
+  "retrieved_date": "2026-10-19",
+  "selected_mpn": "GRM155Z71A225KE44D",
+  "manufacturer_spec_sha256": "f48e46273b9bd8cc78013e4a101f276faf70ae004ed4b7eaa63f1eac848f9533",
+  "typical_characteristics_pdf_sha256": "4f2fb5a55dc7caa955affe1296f16ccdec1572772395952d42d1d72555685d17",
+  "independent_primary_review": "Publisher read the downloaded manufacturer detailed specification and inspected temperature-test formula and typical characteristic page images. Online web fetch returned403; no claim of independent redownload.",
+  "datasheet_url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf",
+  "candidate_selection_not_qualification": true,
+  "joint_bias_temperature_low_signal_aging_guarantee_obtained": false,
+  "max_height_mm": 0.7,
+  "generic_3D_models_unchanged_and_unqualified": true
+}

@@ -71335,7 +71335,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2.2uF 6.3V"
+		(property "Value" "2.2uF 10V 10% X7R"
 			(at 0 -1.16 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -71348,7 +71348,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -71450,7 +71450,13 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
+(property "MPN" "GRM155Z71A225KE44D" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "71661c43-9b00-569b-b3f2-41d7c4dba18a") (effects (font (size 1 1)) (justify mirror)))
+(property "Manufacturer" "Murata" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "292b212f-cdc6-5587-b7f2-c73a9cc57911") (effects (font (size 1 1)) (justify mirror)))
+(property "Voltage_Rating" "10V" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "de9b75f8-c4b5-5671-8fcd-585ef6f37a4d") (effects (font (size 1 1)) (justify mirror)))
+(property "Tolerance" "10%" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "f8396102-e976-5886-9838-a394136984c2") (effects (font (size 1 1)) (justify mirror)))
+(property "Dielectric" "X7R (MURATA Z7)" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "53af0ff1-5309-56fd-8846-4624c4dc9957") (effects (font (size 1 1)) (justify mirror)))
+(property "Height_Max_mm" "0.7" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "f1bad1b6-77f3-5d89-bb5a-bba6ff23a832") (effects (font (size 1 1)) (justify mirror)))
+(property "Selection_Status" "Design selected; effective C, stability and mechanical qualification pending" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "2263d340-dfba-598f-893f-4436dea5cadd") (effects (font (size 1 1)) (justify mirror))))
 	(footprint "Local:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "63b88d87-3536-4f36-b48d-ad1740a47eb4")
@@ -126330,7 +126336,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2.2uF 6.3V"
+		(property "Value" "2.2uF 10V 10% X7R"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -126343,7 +126349,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -126445,7 +126451,13 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
+(property "MPN" "GRM155Z71A225KE44D" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "8f1502bf-9bec-5de8-941c-a851cc282b58") (effects (font (size 1 1)) (justify mirror)))
+(property "Manufacturer" "Murata" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "ef317b15-10fb-5bba-ae1d-d8cfd63d3d25") (effects (font (size 1 1)) (justify mirror)))
+(property "Voltage_Rating" "10V" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "2d41a1e0-789a-5bbc-a341-7cadbe8f64b1") (effects (font (size 1 1)) (justify mirror)))
+(property "Tolerance" "10%" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "db8316f1-21e4-5d33-af97-e80f3a8f3fe1") (effects (font (size 1 1)) (justify mirror)))
+(property "Dielectric" "X7R (MURATA Z7)" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "0d8491e2-52f6-59d0-b1a5-6e22c31b70e4") (effects (font (size 1 1)) (justify mirror)))
+(property "Height_Max_mm" "0.7" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "ceba2ca7-c1f9-5343-8e12-816f23e797a6") (effects (font (size 1 1)) (justify mirror)))
+(property "Selection_Status" "Design selected; effective C, stability and mechanical qualification pending" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "b57792ea-3213-50c5-98ab-b43f75c0aab4") (effects (font (size 1 1)) (justify mirror))))
 	(footprint "Local:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "cae9e5b5-c1d6-4c1d-a25e-365b511dc5d2")
@@ -136149,7 +136161,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2.2uF 6.3V"
+		(property "Value" "2.2uF 10V 10% X7R"
 			(at 0 -1.16 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -136162,7 +136174,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -136264,7 +136276,13 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
+(property "MPN" "GRM155Z71A225KE44D" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "3db31b9f-3c38-53ea-a790-bb2e77de6222") (effects (font (size 1 1)) (justify mirror)))
+(property "Manufacturer" "Murata" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "c9aa760f-7109-55b3-915f-a164b38c4a9c") (effects (font (size 1 1)) (justify mirror)))
+(property "Voltage_Rating" "10V" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "7f5af905-19f7-5fbc-b47e-8abbac948cf9") (effects (font (size 1 1)) (justify mirror)))
+(property "Tolerance" "10%" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "e1f9f5cb-59a3-5381-801c-0ac1e68569be") (effects (font (size 1 1)) (justify mirror)))
+(property "Dielectric" "X7R (MURATA Z7)" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "93e7201a-bd91-573e-8133-04e96aadfbc8") (effects (font (size 1 1)) (justify mirror)))
+(property "Height_Max_mm" "0.7" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "adcf0ed6-790c-50cb-816e-4a09623fb9d8") (effects (font (size 1 1)) (justify mirror)))
+(property "Selection_Status" "Design selected; effective C, stability and mechanical qualification pending" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "1c9df98f-caef-5c2e-b36c-6e2305a20dd7") (effects (font (size 1 1)) (justify mirror))))
 	(footprint "Local:Probe_0p5mm"
 		(layer "B.Cu")
 		(uuid "ff412536-a2b2-40f3-9e89-d953cfb24133")

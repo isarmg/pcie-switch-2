@@ -1,0 +1,179 @@
+{
+  "source_pcb_sha256": "a501903278d07b19a431bb5bfb35a8012abc06ce05154d7c82ad7a32a5abfe19",
+  "source_pro_sha256": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "rejected_candidate_sha256": "4ee99eaea34f90c8768feba0a1ad95d6e22d2988646d4f56fc2745f3daaa801d",
+  "status": "REJECTED_NOT_FOR_MERGE",
+  "bounded_footprint_scope": [
+    "C5115",
+    "R5151",
+    "R5152",
+    "TP711"
+  ],
+  "new_vias": 0,
+  "old_copper_modified": false,
+  "geometry_errors": [
+    {
+      "description": "Items shorting two nets (nets {slash}TBT_PD_R_OSC and {slash}GND)",
+      "items": [
+        {
+          "description": "Blind via [/TBT_PD_R_OSC] on In1.Cu - B.Cu",
+          "pos": {
+            "x": 70.09,
+            "y": 33.7
+          },
+          "uuid": "cd0c5d63-154c-43ce-859e-a3a3e61bb6dd"
+        },
+        {
+          "description": "Pad 2 [/GND] of R5151 on B.Cu",
+          "pos": {
+            "x": 69.74,
+            "y": 33.45
+          },
+          "uuid": "e09e733d-1303-47f8-b7d7-7c8e5a1b2a6f"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.1000 mm; actual 0.0396 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [/GND] of R5151 on B.Cu",
+          "pos": {
+            "x": 69.74,
+            "y": 33.45
+          },
+          "uuid": "e09e733d-1303-47f8-b7d7-7c8e5a1b2a6f"
+        },
+        {
+          "description": "Blind via [/TBT_PD_R_OSC] on In1.Cu - B.Cu",
+          "pos": {
+            "x": 70.09,
+            "y": 33.7
+          },
+          "uuid": "cd0c5d63-154c-43ce-859e-a3a3e61bb6dd"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Clearance violation ( clearance 0.0750 mm; actual 0.0396 mm)",
+      "items": [
+        {
+          "description": "Track [/TBT_PD_R_OSC] on B.Cu, length 0.7151 mm",
+          "pos": {
+            "x": 70.76,
+            "y": 33.45
+          },
+          "uuid": "5dbf7d7f-386e-48de-8c28-477a819bb1de"
+        },
+        {
+          "description": "Pad 2 [/GND] of R5151 on B.Cu",
+          "pos": {
+            "x": 69.74,
+            "y": 33.45
+          },
+          "uuid": "e09e733d-1303-47f8-b7d7-7c8e5a1b2a6f"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.1000 mm; actual 0.0396 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [/GND] of R5151 on B.Cu",
+          "pos": {
+            "x": 69.74,
+            "y": 33.45
+          },
+          "uuid": "e09e733d-1303-47f8-b7d7-7c8e5a1b2a6f"
+        },
+        {
+          "description": "Blind via [/TBT_PD_R_OSC] on In1.Cu - B.Cu",
+          "pos": {
+            "x": 70.09,
+            "y": 33.7
+          },
+          "uuid": "cd0c5d63-154c-43ce-859e-a3a3e61bb6dd"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Courtyards overlap",
+      "items": [
+        {
+          "description": "Footprint C5155",
+          "pos": {
+            "x": 70.6,
+            "y": 32.6
+          },
+          "uuid": "2d73448f-bb50-497a-aaf4-1b1dc1429d06"
+        },
+        {
+          "description": "Footprint R5151",
+          "pos": {
+            "x": 70.25,
+            "y": 33.45
+          },
+          "uuid": "98d28975-6d6f-4e4e-a914-7fae2fe040de"
+        }
+      ],
+      "severity": "error",
+      "type": "courtyards_overlap"
+    },
+    {
+      "description": "Courtyards overlap",
+      "items": [
+        {
+          "description": "Footprint C5115",
+          "pos": {
+            "x": 71.8,
+            "y": 34.35
+          },
+          "uuid": "7683a990-7ca9-4ab5-9a29-bbc6239bad34"
+        },
+        {
+          "description": "Footprint R5151",
+          "pos": {
+            "x": 70.25,
+            "y": 33.45
+          },
+          "uuid": "98d28975-6d6f-4e4e-a914-7fae2fe040de"
+        }
+      ],
+      "severity": "error",
+      "type": "courtyards_overlap"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Blind via [/TBT_PD_R_OSC] on In1.Cu - B.Cu",
+          "pos": {
+            "x": 70.09,
+            "y": 33.7
+          },
+          "uuid": "cd0c5d63-154c-43ce-859e-a3a3e61bb6dd"
+        },
+        {
+          "description": "Pad 2 [/GND] of R5151 on B.Cu",
+          "pos": {
+            "x": 69.74,
+            "y": 33.45
+          },
+          "uuid": "e09e733d-1303-47f8-b7d7-7c8e5a1b2a6f"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    }
+  ],
+  "full_plane_pad_and_cluster_gates_completed": false,
+  "reason": "Native geometry failed; no accepted delta exported. Further reference checks cannot waive shorts/courtyard failures."
+}

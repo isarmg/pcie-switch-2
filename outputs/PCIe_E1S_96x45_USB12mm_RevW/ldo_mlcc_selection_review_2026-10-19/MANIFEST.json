@@ -1,0 +1,27 @@
+{
+  "base_commit": "693d19bdde0f9183e9e9af15c1ec057f321d71c1",
+  "files": {
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb": "b55f4d1574bd326f3ed2427b97d6bebb1b297bc1adcbcb14b81572643d5e2d61",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/COMPONENTS.json": "2fd90e501448bc069df601aa46ea7987f4e0d2f0f5cc0a6414e6b0b78d6f2093",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Connectivity_22.kicad_sch": "a4a79ef3b5bcc8c8326d449cd0ce91e209ec36ef333c99c874234cb953b6f85c",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Local.kicad_sym": "3baf69099975037ee03750fa6c830d3ed3c0b63c3a58767e74c244b752694f76",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/CONNECTIVITY.net": "0e803498eb28001758e4000e4cb02b8191ff299a21c4d7f88aef89aaf0023efc",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/BOM.csv": "af4ba6038af891e9f512c1cf75bcdd67210761715e899fa7ea95f710780486fb",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/ROUTING_STATUS.json": "dc1b2a6e4b1aad9d2bc9062744fafe5e00afaf2c61e6b5a530b7b4e090e2291c",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_mlcc_selection_review_2026-10-19/REGRESSION.json": "c291693d8c8c72b4a8a6a729bd1e4f029d8c405836ab929fe0380ce3687c004f",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_mlcc_selection_review_2026-10-19/DRC.json": "52c35704fed015d8a75e20f36aa7744cf9299a9a789e8d46c7c1f2843099f533",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_mlcc_selection_review_2026-10-19/EXACT_VERIFICATION.json": "cc29ab9e4124cfa95d5a87110ad53db00b5e0444209911156d42d54fd5e60bcb",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_mlcc_selection_review_2026-10-19/ERC.json": "547bfa798b5d01cef0541a33ff2d54f67cbd9de39c583f596b0e7fc5be3c86ea",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_mlcc_selection_review_2026-10-19/OFFICIAL_EVIDENCE.json": "6ff128ab30a3d9398dcc9468051f0ae5d8f8acc22bd3d656fc19c00ab869e830",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_mlcc_selection_review_2026-10-19/README.md": "00031c1ff362e86405cab374a06fc5b70c90d893e8f37fda8e6a3472cc522ea3",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_mlcc_selection_review_2026-10-19/BUILD.json": "c85bc4c630dcb85a8b03218c57679a7a630bfd8e123e6162901e1ec120b66eb9",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo_mlcc_selection_review_2026-10-19/AUDIT.json": "0abd6adf75fed0fb7857317301e9d517099fcb0afaf9304e0c19a2c2588e2e63",
+    "scripts/revW/ldo_mlcc_selection/replay.py": "4117c48168a97d95f43b3aa0d0052af6eb31a0458a93379d65291f549d500a35",
+    "scripts/revW/ldo_mlcc_selection/DELTA.json": "4442aa0f955c1739aa63319488e845fc6526f5468e854182aa9846faa14f808f",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_rejected_review_2026-10-19/REJECTED_SCOPE.json": "db73a34f7937cf553513a6c8158874bb2fa2b2b1908b1fcbf7d0a235d63ede48",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_rejected_review_2026-10-19/RESISTOR_DEPENDENCIES.json": "a73b767e5515684f218e3395e43ad4898e5096271ac294a2db81d6e9b4e0f063",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_rejected_review_2026-10-19/REJECTED_REVIEW.md": "141c85639d73e59c2c783c1e9167b31e2fe15718ce5d9e587b57d5be1ee602c6",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/vout_rejected_review_2026-10-19/REJECTED_DRC.json": "09d5ac72a41414075062dad7d5724ab4763393eb1227c110919f367887f7b081",
+    "scripts/revW/vout_rejected/reproduce_rejected.py": "ba20ee3ca1587a598d91770ba9390224098f88c5bdde5cfac23955e2a91dd927"
+  }
+}

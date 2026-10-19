@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/workspace/scratch/08a6fde47383/e1s-flash-recovery-20261019/Candidate/Main_12E1S.kicad_sch</source>
-    <date>2026-10-18T19:57:38</date>
+    <source>/workspace/scratch/08a6fde47383/e1s-mlcc-publisher-audit/Candidate/Main_12E1S/Main_12E1S.kicad_sch</source>
+    <date>2026-10-18T20:57:12</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -7357,14 +7357,29 @@
       </units>
     </comp>
     <comp ref="C5112">
-      <value>2.2uF 6.3V</value>
+      <value>2.2uF 10V 10% X7R</value>
       <footprint>Local:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</datasheet>
       <fields>
+        <field name="MPN">GRM155Z71A225KE44D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Voltage_Rating">10V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R (MURATA Z7)</field>
+        <field name="Height_Max_mm">0.7</field>
+        <field name="Selection_Status">Design selected; effective C, stability and mechanical qualification pending</field>
         <field name="Footprint">Local:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Local" part="PART_C5112" description=""/>
+      <property name="MPN" value="GRM155Z71A225KE44D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Voltage_Rating" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Dielectric" value="X7R (MURATA Z7)"/>
+      <property name="Height_Max_mm" value="0.7"/>
+      <property name="Selection_Status" value="Design selected; effective C, stability and mechanical qualification pending"/>
       <property name="Sheetname" value="Connectivity 22"/>
       <property name="Sheetfile" value="Connectivity_22.kicad_sch"/>
       <sheetpath names="/Connectivity 22/" tstamps="/19de1b0f-1482-4605-9550-2fdbeed65ee0/"/>
@@ -7379,14 +7394,29 @@
       </units>
     </comp>
     <comp ref="C5113">
-      <value>2.2uF 6.3V</value>
+      <value>2.2uF 10V 10% X7R</value>
       <footprint>Local:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</datasheet>
       <fields>
+        <field name="MPN">GRM155Z71A225KE44D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Voltage_Rating">10V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R (MURATA Z7)</field>
+        <field name="Height_Max_mm">0.7</field>
+        <field name="Selection_Status">Design selected; effective C, stability and mechanical qualification pending</field>
         <field name="Footprint">Local:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Local" part="PART_C5113" description=""/>
+      <property name="MPN" value="GRM155Z71A225KE44D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Voltage_Rating" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Dielectric" value="X7R (MURATA Z7)"/>
+      <property name="Height_Max_mm" value="0.7"/>
+      <property name="Selection_Status" value="Design selected; effective C, stability and mechanical qualification pending"/>
       <property name="Sheetname" value="Connectivity 22"/>
       <property name="Sheetfile" value="Connectivity_22.kicad_sch"/>
       <sheetpath names="/Connectivity 22/" tstamps="/19de1b0f-1482-4605-9550-2fdbeed65ee0/"/>
@@ -7401,14 +7431,29 @@
       </units>
     </comp>
     <comp ref="C5114">
-      <value>2.2uF 6.3V</value>
+      <value>2.2uF 10V 10% X7R</value>
       <footprint>Local:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</datasheet>
       <fields>
+        <field name="MPN">GRM155Z71A225KE44D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Voltage_Rating">10V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R (MURATA Z7)</field>
+        <field name="Height_Max_mm">0.7</field>
+        <field name="Selection_Status">Design selected; effective C, stability and mechanical qualification pending</field>
         <field name="Footprint">Local:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Local" part="PART_C5114" description=""/>
+      <property name="MPN" value="GRM155Z71A225KE44D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Voltage_Rating" value="10V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Dielectric" value="X7R (MURATA Z7)"/>
+      <property name="Height_Max_mm" value="0.7"/>
+      <property name="Selection_Status" value="Design selected; effective C, stability and mechanical qualification pending"/>
       <property name="Sheetname" value="Connectivity 22"/>
       <property name="Sheetfile" value="Connectivity_22.kicad_sch"/>
       <sheetpath names="/Connectivity 22/" tstamps="/19de1b0f-1482-4605-9550-2fdbeed65ee0/"/>
@@ -21488,12 +21533,20 @@
       </pins>
     </libpart>
     <libpart lib="Local" part="PART_C5112">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</docs>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">2.2uF 6.3V</field>
+        <field name="Value">2.2uF 10V 10% X7R</field>
         <field name="Footprint">Local:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</field>
         <field name="Description"/>
+        <field name="MPN">GRM155Z71A225KE44D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Voltage_Rating">10V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R (MURATA Z7)</field>
+        <field name="Height_Max_mm">0.7</field>
+        <field name="Selection_Status">Design selected; effective C, stability and mechanical qualification pending</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -21501,12 +21554,20 @@
       </pins>
     </libpart>
     <libpart lib="Local" part="PART_C5113">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</docs>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">2.2uF 6.3V</field>
+        <field name="Value">2.2uF 10V 10% X7R</field>
         <field name="Footprint">Local:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</field>
         <field name="Description"/>
+        <field name="MPN">GRM155Z71A225KE44D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Voltage_Rating">10V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R (MURATA Z7)</field>
+        <field name="Height_Max_mm">0.7</field>
+        <field name="Selection_Status">Design selected; effective C, stability and mechanical qualification pending</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -21514,12 +21575,20 @@
       </pins>
     </libpart>
     <libpart lib="Local" part="PART_C5114">
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</docs>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">2.2uF 6.3V</field>
+        <field name="Value">2.2uF 10V 10% X7R</field>
         <field name="Footprint">Local:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf</field>
         <field name="Description"/>
+        <field name="MPN">GRM155Z71A225KE44D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Voltage_Rating">10V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R (MURATA Z7)</field>
+        <field name="Height_Max_mm">0.7</field>
+        <field name="Selection_Status">Design selected; effective C, stability and mechanical qualification pending</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>

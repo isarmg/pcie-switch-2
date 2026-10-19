@@ -1,0 +1,21 @@
+{
+  "refs": [
+    "C5112",
+    "C5113",
+    "C5114"
+  ],
+  "old_value": "2.2uF 6.3V",
+  "new_value": "2.2uF 10V 10% X7R",
+  "fields": {
+    "MPN": "GRM155Z71A225KE44D",
+    "Manufacturer": "Murata",
+    "Voltage_Rating": "10V",
+    "Tolerance": "10%",
+    "Dielectric": "X7R (MURATA Z7)",
+    "Height_Max_mm": "0.7",
+    "Selection_Status": "Design selected; effective C, stability and mechanical qualification pending"
+  },
+  "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf",
+  "footprint_copper_pad_net_uuid_zone_unchanged": true,
+  "generic_models_unmodified_not_qualified": true
+}

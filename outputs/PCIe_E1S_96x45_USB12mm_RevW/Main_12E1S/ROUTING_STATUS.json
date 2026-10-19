@@ -73,7 +73,7 @@
     "step_native_roundtrip_passed": true,
     "protected_SSD_and_aux_and_reference_switch_power_copper_connected": true
   },
-  "source_board_sha256": "a501903278d07b19a431bb5bfb35a8012abc06ce05154d7c82ad7a32a5abfe19",
+  "source_board_sha256": "b55f4d1574bd326f3ed2427b97d6bebb1b297bc1adcbcb14b81572643d5e2d61",
   "verified_utc_date": "2026-10-19",
   "native_kicad_version": "10.0.7",
   "schematic_logical_ref_pin_nodes": 6560,
@@ -111,5 +111,9 @@
   "TP709_TP707_front_probe_access_qualified": false,
   "TPS65982_LDO_BMC_local_bypass_topology_connected": true,
   "TPS65982_LDO_BMC_stability_qualified": false,
-  "TP702_TP705_front_probe_access_qualified": false
+  "TP702_TP705_front_probe_access_qualified": false,
+  "C5112_C5113_C5114_design_MPN": "GRM155Z71A225KE44D",
+  "C5112_C5113_C5114_height_max_mm": 0.7,
+  "C5112_C5113_C5114_joint_effective_capacitance_qualified": false,
+  "C5112_C5113_C5114_max_body_assembly_clearance_qualified": false
 }

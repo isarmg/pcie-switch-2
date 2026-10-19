@@ -1,0 +1,70 @@
+{
+  "R5151": [
+    {
+      "pin": "1",
+      "net": "{slash}TBT_PD_R_OSC",
+      "xy": [
+        70.09,
+        33.7
+      ],
+      "direct_tracks": [
+        {
+          "uuid": "cd0c5d63-154c-43ce-859e-a3a3e61bb6dd",
+          "net": "{slash}TBT_PD_R_OSC",
+          "start": [
+            70.09,
+            33.7
+          ],
+          "end": [
+            70.09,
+            33.7
+          ],
+          "layer": "In1.Cu"
+        }
+      ]
+    },
+    {
+      "pin": "2",
+      "net": "{slash}GND",
+      "xy": [
+        71.11,
+        33.7
+      ],
+      "direct_tracks": []
+    }
+  ],
+  "R5152": [
+    {
+      "pin": "1",
+      "net": "{slash}TBT_PD_I2C_ADDR",
+      "xy": [
+        70.28,
+        34.75
+      ],
+      "direct_tracks": [
+        {
+          "uuid": "3ec49d68-16e2-42e2-b7f3-e9096ab520d7",
+          "net": "{slash}TBT_PD_I2C_ADDR",
+          "start": [
+            70.28,
+            34.75
+          ],
+          "end": [
+            70.28,
+            34.75
+          ],
+          "layer": "In1.Cu"
+        }
+      ]
+    },
+    {
+      "pin": "2",
+      "net": "{slash}GND",
+      "xy": [
+        70.92,
+        34.75
+      ],
+      "direct_tracks": []
+    }
+  ]
+}

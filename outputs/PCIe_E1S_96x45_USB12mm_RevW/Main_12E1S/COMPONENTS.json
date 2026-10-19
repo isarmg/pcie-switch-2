@@ -18909,7 +18909,7 @@
   },
   {
     "ref": "C5112",
-    "value": "2.2uF 6.3V",
+    "value": "2.2uF 10V 10% X7R",
     "footprint": "C_0402_1005Metric",
     "pinmap": {
       "1": "/TBT_PD_LDO_1V8D",
@@ -18918,14 +18918,22 @@
     "x": 72.15,
     "y": 37.85,
     "side": "B",
-    "height_mm": 0.6,
-    "datasheet": "",
+    "height_mm": 0.7,
+    "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf",
     "pin_names": {},
-    "rotation_deg": 90.0
+    "rotation_deg": 90.0,
+    "height_max_mm": 0.7,
+    "mpn": "GRM155Z71A225KE44D",
+    "manufacturer": "Murata",
+    "rated_voltage_V": 10,
+    "dielectric": "X7R (MURATA Z7)",
+    "capacitance_tolerance_percent": 10,
+    "qualification_note": "Design selected; effective C, stability and mechanical qualification pending",
+    "model_qualification": "Existing generic 0402 model is not a verified maximum-height manufacturer model."
   },
   {
     "ref": "C5113",
-    "value": "2.2uF 6.3V",
+    "value": "2.2uF 10V 10% X7R",
     "footprint": "C_0402_1005Metric",
     "pinmap": {
       "1": "/TBT_PD_LDO_1V8A",
@@ -18934,14 +18942,22 @@
     "x": 72.15,
     "y": 32.9,
     "side": "B",
-    "height_mm": 0.6,
-    "datasheet": "",
+    "height_mm": 0.7,
+    "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf",
     "pin_names": {},
-    "rotation_deg": 90.0
+    "rotation_deg": 90.0,
+    "height_max_mm": 0.7,
+    "mpn": "GRM155Z71A225KE44D",
+    "manufacturer": "Murata",
+    "rated_voltage_V": 10,
+    "dielectric": "X7R (MURATA Z7)",
+    "capacitance_tolerance_percent": 10,
+    "qualification_note": "Design selected; effective C, stability and mechanical qualification pending",
+    "model_qualification": "Existing generic 0402 model is not a verified maximum-height manufacturer model."
   },
   {
     "ref": "C5114",
-    "value": "2.2uF 6.3V",
+    "value": "2.2uF 10V 10% X7R",
     "footprint": "C_0402_1005Metric",
     "pinmap": {
       "1": "/TBT_PD_LDO_BMC",
@@ -18950,10 +18966,18 @@
     "x": 72.15,
     "y": 35.8,
     "side": "B",
-    "height_mm": 0.6,
-    "datasheet": "",
+    "height_mm": 0.7,
+    "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE44-01A.pdf",
     "pin_names": {},
-    "rotation_deg": -90.0
+    "rotation_deg": -90.0,
+    "height_max_mm": 0.7,
+    "mpn": "GRM155Z71A225KE44D",
+    "manufacturer": "Murata",
+    "rated_voltage_V": 10,
+    "dielectric": "X7R (MURATA Z7)",
+    "capacitance_tolerance_percent": 10,
+    "qualification_note": "Design selected; effective C, stability and mechanical qualification pending",
+    "model_qualification": "Existing generic 0402 model is not a verified maximum-height manufacturer model."
   },
   {
     "ref": "C5115",

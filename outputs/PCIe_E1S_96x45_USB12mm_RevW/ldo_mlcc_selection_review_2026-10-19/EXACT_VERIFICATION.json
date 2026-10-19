@@ -1,0 +1,14 @@
+{
+  "changed_footprints_metadata_only": [
+    "C5112",
+    "C5114",
+    "C5113"
+  ],
+  "all_other_native_blocks_byte_identical": true,
+  "all_target_nonproperty_geometry_pad_model_uuid_tokens_unchanged": true,
+  "logical_ref_pin_nodes": 6560,
+  "all_logical_nodes_unchanged": true,
+  "new_native_netlist_values_MPN_height_verified": true,
+  "BOM_existing_non_target_fields_unchanged": true,
+  "board_sha256": "b55f4d1574bd326f3ed2427b97d6bebb1b297bc1adcbcb14b81572643d5e2d61"
+}
