@@ -1,0 +1,1270 @@
+{
+  "schema_version": 1,
+  "status": "read_only_comparative_architecture_and_next_stage_plan",
+  "source_pcb_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "source_pcb_changed": false,
+  "physical_stackup_approved": false,
+  "production_ready": false,
+  "cost_priority": "secondary to demonstrated reliability and performance",
+  "optimization_target": "Best verified function/reliability/performance within the fixed 96x45 board and connector-position constraints; neither maximum nor minimum layer count is the objective.",
+  "existing_24_plan_replaced": false,
+  "proposed_28_is_optimal": false,
+  "source_completion": {
+    "non_NC_disconnected_nets": 97,
+    "populated_disconnected_nets": 94,
+    "genuine_switch_ballmap_verified": false,
+    "genuine_connector_model_selected": false,
+    "CPU_PDG_VR_complete": false
+  },
+  "fixed_geometry": {
+    "outline_mm": [
+      96,
+      45
+    ],
+    "connector_positions": "preserve current draft locations during comparison",
+    "actual_component_positions_moved_by_this_plan": false
+  },
+  "single_platform_rule": {
+    "candidate_supplier_platform": "AT&S HLC HDI, subject to manufacturing review",
+    "qualified_profile_id": null,
+    "cross_vendor_limit_composition_allowed": false,
+    "mSAP_or_SAP_assumed_compatible_with_HLC_platform": false,
+    "public_capability_is_project_approval": false,
+    "physical_trace_and_via_dimensions": null
+  },
+  "variants": [
+    {
+      "id": "24_BASELINE",
+      "purpose": "Retained reconstruction baseline; no claim of proven routability",
+      "total_layers": 24,
+      "budget": {
+        "S": 12,
+        "G": 8,
+        "P": 4
+      },
+      "sequence": [
+        "S",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "S",
+        "S",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "S"
+      ],
+      "buildup_concept": {
+        "top": 2,
+        "core_copper_layers": 20,
+        "bottom": 2,
+        "project_approval": "pending",
+        "continuous_stacked_microvia_depth_approved": null,
+        "buildup_count_does_not_grant_stacking": true
+      },
+      "layers": [
+        {
+          "layer": 1,
+          "role": "S",
+          "adjacent_GND": [
+            2
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 2,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 3,
+          "role": "S",
+          "adjacent_GND": [
+            2
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 4,
+          "role": "P",
+          "adjacent_GND": [
+            5
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 5,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 6,
+          "role": "S",
+          "adjacent_GND": [
+            5
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 7,
+          "role": "S",
+          "adjacent_GND": [
+            8
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 8,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 9,
+          "role": "P",
+          "adjacent_GND": [
+            8
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 10,
+          "role": "S",
+          "adjacent_GND": [
+            11
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 11,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 12,
+          "role": "S",
+          "adjacent_GND": [
+            11
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 13,
+          "role": "S",
+          "adjacent_GND": [
+            14
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 14,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 15,
+          "role": "S",
+          "adjacent_GND": [
+            14
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 16,
+          "role": "P",
+          "adjacent_GND": [
+            17
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 17,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 18,
+          "role": "S",
+          "adjacent_GND": [
+            17
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 19,
+          "role": "S",
+          "adjacent_GND": [
+            20
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 20,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 21,
+          "role": "P",
+          "adjacent_GND": [
+            20
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 22,
+          "role": "S",
+          "adjacent_GND": [
+            23
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 23,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 24,
+          "role": "S",
+          "adjacent_GND": [
+            23
+          ],
+          "actual_ground_continuity_verified": false
+        }
+      ],
+      "adjacent_SS_pairs": [
+        [
+          6,
+          7
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          18,
+          19
+        ]
+      ],
+      "adjacent_SS_electrical_qualification": "pending",
+      "signal_layers_accessible_by_near_surface_buildup_plus_core_face": {
+        "top": [
+          1,
+          3
+        ],
+        "bottom": [
+          22,
+          24
+        ]
+      },
+      "electrical_slot_output_merge_permitted": false,
+      "slot_power_domains": [
+        {
+          "slot": 1,
+          "net": "P12_SLOT01",
+          "bank": "A",
+          "candidate_plane": 4,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 2,
+          "net": "P12_SLOT02",
+          "bank": "A",
+          "candidate_plane": 4,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 3,
+          "net": "P12_SLOT03",
+          "bank": "A",
+          "candidate_plane": 4,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 4,
+          "net": "P12_SLOT04",
+          "bank": "A",
+          "candidate_plane": 4,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 5,
+          "net": "P12_SLOT05",
+          "bank": "A",
+          "candidate_plane": 4,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 6,
+          "net": "P12_SLOT06",
+          "bank": "B",
+          "candidate_plane": 21,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 7,
+          "net": "P12_SLOT07",
+          "bank": "B",
+          "candidate_plane": 21,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 8,
+          "net": "P12_SLOT08",
+          "bank": "B",
+          "candidate_plane": 21,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 9,
+          "net": "P12_SLOT09",
+          "bank": "B",
+          "candidate_plane": 21,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 10,
+          "net": "P12_SLOT10",
+          "bank": "B",
+          "candidate_plane": 21,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 11,
+          "net": "P12_SLOT11",
+          "bank": "A",
+          "candidate_plane": 4,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 12,
+          "net": "P12_SLOT12",
+          "bank": "B",
+          "candidate_plane": 21,
+          "electrically_isolated_from_other_outputs": true
+        }
+      ],
+      "other_preserved_distinct_domains": [
+        "VIN_A",
+        "VIN_B",
+        "VBANK_A",
+        "VBANK_B",
+        "AUX_12V_PROTECTED"
+      ],
+      "remaining_power_planes": [
+        9,
+        16
+      ],
+      "PDN_capacity_verified": false,
+      "routing_capacity_verified": false,
+      "signal_layer_count_including_surfaces": 12,
+      "internal_signal_layer_count": 10,
+      "dielectric_and_impedance_assumptions": null
+    },
+    {
+      "id": "24_HDI4",
+      "purpose": "Controlled deeper-escape comparison; existing power positions move and nearby S-S coupling shifts",
+      "total_layers": 24,
+      "budget": {
+        "S": 12,
+        "G": 8,
+        "P": 4
+      },
+      "sequence": [
+        "S",
+        "G",
+        "S",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "S",
+        "S",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "S",
+        "G",
+        "S"
+      ],
+      "buildup_concept": {
+        "top": 4,
+        "core_copper_layers": 16,
+        "bottom": 4,
+        "project_approval": "pending",
+        "continuous_stacked_microvia_depth_approved": null,
+        "buildup_count_does_not_grant_stacking": true
+      },
+      "layers": [
+        {
+          "layer": 1,
+          "role": "S",
+          "adjacent_GND": [
+            2
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 2,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 3,
+          "role": "S",
+          "adjacent_GND": [
+            2
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 4,
+          "role": "S",
+          "adjacent_GND": [
+            5
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 5,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 6,
+          "role": "P",
+          "adjacent_GND": [
+            5
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 7,
+          "role": "S",
+          "adjacent_GND": [
+            8
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 8,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 9,
+          "role": "P",
+          "adjacent_GND": [
+            8
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 10,
+          "role": "S",
+          "adjacent_GND": [
+            11
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 11,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 12,
+          "role": "S",
+          "adjacent_GND": [
+            11
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 13,
+          "role": "S",
+          "adjacent_GND": [
+            14
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 14,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 15,
+          "role": "S",
+          "adjacent_GND": [
+            14
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 16,
+          "role": "P",
+          "adjacent_GND": [
+            17
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 17,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 18,
+          "role": "S",
+          "adjacent_GND": [
+            17
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 19,
+          "role": "P",
+          "adjacent_GND": [
+            20
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 20,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 21,
+          "role": "S",
+          "adjacent_GND": [
+            20
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 22,
+          "role": "S",
+          "adjacent_GND": [
+            23
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 23,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 24,
+          "role": "S",
+          "adjacent_GND": [
+            23
+          ],
+          "actual_ground_continuity_verified": false
+        }
+      ],
+      "adjacent_SS_pairs": [
+        [
+          3,
+          4
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          21,
+          22
+        ]
+      ],
+      "adjacent_SS_electrical_qualification": "pending",
+      "signal_layers_accessible_by_near_surface_buildup_plus_core_face": {
+        "top": [
+          1,
+          3,
+          4
+        ],
+        "bottom": [
+          21,
+          22,
+          24
+        ]
+      },
+      "electrical_slot_output_merge_permitted": false,
+      "slot_power_domains": [
+        {
+          "slot": 1,
+          "net": "P12_SLOT01",
+          "bank": "A",
+          "candidate_plane": 6,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 2,
+          "net": "P12_SLOT02",
+          "bank": "A",
+          "candidate_plane": 6,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 3,
+          "net": "P12_SLOT03",
+          "bank": "A",
+          "candidate_plane": 6,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 4,
+          "net": "P12_SLOT04",
+          "bank": "A",
+          "candidate_plane": 6,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 5,
+          "net": "P12_SLOT05",
+          "bank": "A",
+          "candidate_plane": 6,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 6,
+          "net": "P12_SLOT06",
+          "bank": "B",
+          "candidate_plane": 19,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 7,
+          "net": "P12_SLOT07",
+          "bank": "B",
+          "candidate_plane": 19,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 8,
+          "net": "P12_SLOT08",
+          "bank": "B",
+          "candidate_plane": 19,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 9,
+          "net": "P12_SLOT09",
+          "bank": "B",
+          "candidate_plane": 19,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 10,
+          "net": "P12_SLOT10",
+          "bank": "B",
+          "candidate_plane": 19,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 11,
+          "net": "P12_SLOT11",
+          "bank": "A",
+          "candidate_plane": 6,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 12,
+          "net": "P12_SLOT12",
+          "bank": "B",
+          "candidate_plane": 19,
+          "electrically_isolated_from_other_outputs": true
+        }
+      ],
+      "other_preserved_distinct_domains": [
+        "VIN_A",
+        "VIN_B",
+        "VBANK_A",
+        "VBANK_B",
+        "AUX_12V_PROTECTED"
+      ],
+      "remaining_power_planes": [
+        9,
+        16
+      ],
+      "PDN_capacity_verified": false,
+      "routing_capacity_verified": false,
+      "signal_layer_count_including_surfaces": 12,
+      "internal_signal_layer_count": 10,
+      "dielectric_and_impedance_assumptions": null,
+      "changes_from_baseline": {
+        "swap_roles": [
+          [
+            4,
+            6
+          ],
+          [
+            19,
+            21
+          ]
+        ],
+        "near_surface_new_signal_layers": [
+          4,
+          21
+        ],
+        "power_planes": [
+          6,
+          9,
+          16,
+          19
+        ],
+        "risk": "SS pairs shift toward dense escape at L3/4 and L21/22; power distribution becomes deeper. Do not silently inherit baseline 16-channel quotas."
+      }
+    },
+    {
+      "id": "28_ISOLATION_HDI4",
+      "purpose": "Additional isolation-first comparison, not automatic replacement of 24 or a claim of optimum",
+      "total_layers": 28,
+      "budget": {
+        "S": 12,
+        "G": 12,
+        "P": 4
+      },
+      "sequence": [
+        "S",
+        "G",
+        "S",
+        "G",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "S",
+        "G",
+        "G",
+        "S",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "G",
+        "S",
+        "G",
+        "S"
+      ],
+      "buildup_concept": {
+        "top": 4,
+        "core_copper_layers": 20,
+        "bottom": 4,
+        "project_approval": "pending",
+        "continuous_stacked_microvia_depth_approved": null,
+        "buildup_count_does_not_grant_stacking": true
+      },
+      "layers": [
+        {
+          "layer": 1,
+          "role": "S",
+          "adjacent_GND": [
+            2
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 2,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 3,
+          "role": "S",
+          "adjacent_GND": [
+            2,
+            4
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 4,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 5,
+          "role": "S",
+          "adjacent_GND": [
+            4,
+            6
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 6,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 7,
+          "role": "P",
+          "adjacent_GND": [
+            6
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 8,
+          "role": "S",
+          "adjacent_GND": [
+            9
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 9,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 10,
+          "role": "P",
+          "adjacent_GND": [
+            9
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 11,
+          "role": "S",
+          "adjacent_GND": [
+            12
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 12,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 13,
+          "role": "S",
+          "adjacent_GND": [
+            12,
+            14
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 14,
+          "role": "G",
+          "adjacent_GND": [
+            15
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 15,
+          "role": "G",
+          "adjacent_GND": [
+            14
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 16,
+          "role": "S",
+          "adjacent_GND": [
+            15,
+            17
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 17,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 18,
+          "role": "S",
+          "adjacent_GND": [
+            17
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 19,
+          "role": "P",
+          "adjacent_GND": [
+            20
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 20,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 21,
+          "role": "S",
+          "adjacent_GND": [
+            20
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 22,
+          "role": "P",
+          "adjacent_GND": [
+            23
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 23,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 24,
+          "role": "S",
+          "adjacent_GND": [
+            23,
+            25
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 25,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 26,
+          "role": "S",
+          "adjacent_GND": [
+            25,
+            27
+          ],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 27,
+          "role": "G",
+          "adjacent_GND": [],
+          "actual_ground_continuity_verified": false
+        },
+        {
+          "layer": 28,
+          "role": "S",
+          "adjacent_GND": [
+            27
+          ],
+          "actual_ground_continuity_verified": false
+        }
+      ],
+      "adjacent_SS_pairs": [],
+      "adjacent_SS_electrical_qualification": "not_applicable_to_direct_SS_adjacency; other crosstalk still pending",
+      "signal_layers_accessible_by_near_surface_buildup_plus_core_face": {
+        "top": [
+          1,
+          3,
+          5
+        ],
+        "bottom": [
+          24,
+          26,
+          28
+        ]
+      },
+      "electrical_slot_output_merge_permitted": false,
+      "slot_power_domains": [
+        {
+          "slot": 1,
+          "net": "P12_SLOT01",
+          "bank": "A",
+          "candidate_plane": 7,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 2,
+          "net": "P12_SLOT02",
+          "bank": "A",
+          "candidate_plane": 7,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 3,
+          "net": "P12_SLOT03",
+          "bank": "A",
+          "candidate_plane": 7,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 4,
+          "net": "P12_SLOT04",
+          "bank": "A",
+          "candidate_plane": 7,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 5,
+          "net": "P12_SLOT05",
+          "bank": "A",
+          "candidate_plane": 7,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 6,
+          "net": "P12_SLOT06",
+          "bank": "B",
+          "candidate_plane": 22,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 7,
+          "net": "P12_SLOT07",
+          "bank": "B",
+          "candidate_plane": 22,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 8,
+          "net": "P12_SLOT08",
+          "bank": "B",
+          "candidate_plane": 22,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 9,
+          "net": "P12_SLOT09",
+          "bank": "B",
+          "candidate_plane": 22,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 10,
+          "net": "P12_SLOT10",
+          "bank": "B",
+          "candidate_plane": 22,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 11,
+          "net": "P12_SLOT11",
+          "bank": "A",
+          "candidate_plane": 7,
+          "electrically_isolated_from_other_outputs": true
+        },
+        {
+          "slot": 12,
+          "net": "P12_SLOT12",
+          "bank": "B",
+          "candidate_plane": 22,
+          "electrically_isolated_from_other_outputs": true
+        }
+      ],
+      "other_preserved_distinct_domains": [
+        "VIN_A",
+        "VIN_B",
+        "VBANK_A",
+        "VBANK_B",
+        "AUX_12V_PROTECTED"
+      ],
+      "remaining_power_planes": [
+        10,
+        19
+      ],
+      "PDN_capacity_verified": false,
+      "routing_capacity_verified": false,
+      "signal_layer_count_including_surfaces": 12,
+      "internal_signal_layer_count": 10,
+      "dielectric_and_impedance_assumptions": null,
+      "provisional_route_reservations": {
+        "SSD_signal_layers": [
+          3,
+          5,
+          8,
+          21,
+          24,
+          26
+        ],
+        "interface_signal_layers": [
+          11,
+          18
+        ],
+        "clock_control_signal_layers": [
+          13,
+          16
+        ],
+        "short_outer_escape_layers": [
+          1,
+          28
+        ],
+        "quotas_verified": false,
+        "note": "Still ten internal signal layers, not four extra signal layers. No per-layer channel capacity is established. Adjacent S-S removal does not prove zero crosstalk."
+      }
+    }
+  ],
+  "process_selection": {
+    "buildup_count_is_not_stacked_microvia_depth": true,
+    "arbitrary_stacked_microvias_allowed": false,
+    "whole_via_macro_approval_required": true,
+    "signal_land_on_GND_layer_must_be_isolated": true,
+    "nearest_ground_connection_and_actual_antipad_corridors_required": true,
+    "core_barrel_or_buried_via_is_not_automatically_stub_free": true,
+    "physical_stackup_fields": {
+      "material": null,
+      "Dk_Df_vs_frequency": null,
+      "dielectric_schedule": null,
+      "copper_schedule": null,
+      "finished_thickness_mm": null,
+      "laser_drill_and_land_sizes": null,
+      "stacking_and_filling_schedule": null,
+      "backdrill_and_residual_stub": null,
+      "reliability_coupon_and_acceptance": null
+    }
+  },
+  "existing_failure_evidence": {
+    "file": "outputs/PCIe_E1S_96x45_USB12mm_RevW/joint_pair_capacity_2026-10-19/X2_REPAIR_SCENARIO_00.json",
+    "blocked_pair": "S06_SW_TX1",
+    "trial_entry_xy_mm": [
+      63.6,
+      22.85
+    ],
+    "direct_blocker": "new prior S06_SW_TX0 P/N traces, not a source via",
+    "distance_to_TX0_P_centerline_mm": 0.20842345713458696,
+    "distance_to_TX0_N_centerline_mm": 0.008423457134592824,
+    "baseline_centerline_to_existing_trace_envelope_mm": 0.32,
+    "expanded_nodes": 0,
+    "capacity_impossibility_proved": false,
+    "record": "attempts: S06_SW_TX1 -> search.endpoint_obstacles"
+  },
+  "next_stages": [
+    {
+      "id": "A_JOINT_BASELINE",
+      "ready_now": true,
+      "goal": "Resolve channel competition using joint paired terminal choice, explicit later-port reservation and conflict-directed rip-up/reroute.",
+      "invariants": {
+        "source_vias": 3837,
+        "line_width_mm": 0.1,
+        "PN_edge_gap_mm": 0.1,
+        "other_net_gap_mm": 0.1,
+        "grid_mm": 0.05,
+        "centerline_via_inflation_mm": 0.27,
+        "centerline_existing_trace_inflation_mm": 0.32,
+        "actual_pads_and_net_endpoints_unchanged": true,
+        "old_other_signal_power_copper": "excluded on experimental new signal plane; not a full-board test"
+      },
+      "required_steps": [
+        "Generate multiple candidate paired approaches from the exact same P/N terminal pads/vias; validate each fanout before main routing",
+        "Reserve a compatible future terminal/fanout envelope for every unrouted channel; do not reserve only a point or block all alternatives forever",
+        "Route the scarce-terminal pairs first using joint terminal feasibility, rather than fixed order alone",
+        "If a later port is blocked, identify which new route caused it and rip up/reroute that route with the required terminal corridor protected",
+        "Use negotiated congestion or bounded backtracking; record node/search budgets and distinguish search exhaustion from proven infeasibility",
+        "Recheck all completed traces together for exact endpoints, polarity, PN/interchannel/board/obstacle clearance and retained AC sections"
+      ],
+      "advance_when": "A declared x2 set has four valid directional channels simultaneously in one plane, or a reproducible conflict report establishes what remains; x4/two-slot trials are separate later stages.",
+      "forbidden_inference": "Changing process dimensions caused improvement, because this phase intentionally holds them fixed."
+    },
+    {
+      "id": "B_ENDPOINT_AND_VIA_OWNERSHIP",
+      "ready_now": true,
+      "goal": "Create a replaceable endpoint-anchored interconnect model before dropping conservative legacy-via obstacles.",
+      "requirements": [
+        "Classify each object by source UUID/net/physical pads, intended endpoint role and authority of the footprint/ballmap",
+        "Separate immutable board/mechanical constraints from actual pin/pad anchors, legacy derived traces/vias, and proposed replacement macros",
+        "A legacy via may be retired in a new candidate only with an explicit replaced-net path and local pad-cluster/other-net dependency evidence; retain it in the frozen baseline",
+        "Ground and power via removal additionally requires planned return or PDN replacement; do not delete them as anonymous obstacles",
+        "Use genuine process macro identities and isolate signal capture lands from reference copper",
+        "The fictional U1 and connector placeholders remain visibly unverified; do not convert a geometry result into real package escape qualification"
+      ]
+    },
+    {
+      "id": "C_SINGLE_PLATFORM_GEOMETRY",
+      "ready_now": "conditional on explicit assumption profile for exploration; qualified geometry requires manufacturer-approved profile",
+      "goal": "Compare 24 baseline, 24-HDI4 and 28-isolation-HDI4 with one coherent process profile and unchanged endpoint workload.",
+      "requirements": [
+        "Keep public supplier capabilities, explicit engineering assumptions and project-approved values in different fields",
+        "Only enter SAP/mSAP if that exact board/process/material/copper combination is documented by the selected platform",
+        "Use fine features locally in escape where needed; long high-speed trunks retain solver-selected width/spacing rather than using the minimum manufacturing linewidth",
+        "Compare added near-surface signal access, transition count, return continuity, same/adjacent-layer overlap, remaining core stubs, PDN depth and actual copper geometry",
+        "Keep the joint-routing algorithm fixed while comparing process profiles; keep the profile fixed while comparing algorithms",
+        "Do not fabricate material Dk/thickness or claim an anonymous via constellation is a hardware design"
+      ]
+    },
+    {
+      "id": "D_REAL_HARDWARE_QUALIFICATION",
+      "ready_now": false,
+      "blockers": [
+        "Authentic switch package/ballmap and assignment",
+        "Selected real SMT connector and courtyard/keepout/current data",
+        "CPU PDG/mandatory pins/dynamic VR and complete circuitry",
+        "Fabricator-approved complete stackup, macro process, dimensions and reliability acceptance",
+        "Full-board connectivity/DRC, channel models/SI/PI/timing/current/thermal and mechanical validation"
+      ],
+      "goal": "Only after these inputs turn a geometry experiment into a manufacturing-qualified real PCB."
+    }
+  ],
+  "claimed_signoffs": {
+    "full_board_routability": false,
+    "SI_PI_timing": false,
+    "manufacturing": false,
+    "thermal_current": false,
+    "real_hardware_escape": false
+  }
+}

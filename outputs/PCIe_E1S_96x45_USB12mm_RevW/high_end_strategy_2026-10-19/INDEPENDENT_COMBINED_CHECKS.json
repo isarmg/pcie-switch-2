@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "checks": [
+    "exact unchanged source",
+    "24_HDI4 cross-file exact sequence",
+    "24_HDI4 mirror and ten internal S",
+    "24_HDI4 every S has adjacent G role",
+    "24_HDI4 twelve isolated output declarations",
+    "28_ISOLATION_HDI4 cross-file exact sequence",
+    "28_ISOLATION_HDI4 mirror and ten internal S",
+    "28_ISOLATION_HDI4 every S has adjacent G role",
+    "28_ISOLATION_HDI4 twelve isolated output declarations",
+    "all 47 fabrication approvals absent",
+    "trial not vendor rule",
+    "explicit trial laser geometry",
+    "whole macro qualification remains pending",
+    "150um stub is request only",
+    "hypothetical backdrill radial clearance arithmetic",
+    "thickness sweep is unselected",
+    "no physical qualification promoted"
+  ],
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "qualification": "Planning scope and arithmetic only; manufacturing/SI/PI not qualified"
+}

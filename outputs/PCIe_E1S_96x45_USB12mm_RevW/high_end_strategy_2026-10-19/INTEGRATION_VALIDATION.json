@@ -1,0 +1,59 @@
+{
+  "architecture_file": "HIGH_END_LAYER_STRATEGY.json",
+  "architecture_sha256": "6f6015581d7a9585c0e9be397425d7c2b40d6570b6a30df044dc1eeaa8e825d7",
+  "profile_sha256": "c51ec388e0455c5f2a36b85fdce51db4dc085e3ed1b5edd1268e3368ab15c5cc",
+  "crosschecks": [
+    {
+      "profile_candidate": "24_HDI4",
+      "architecture_variant": "24_HDI4",
+      "check": "roles",
+      "status": "PASS"
+    },
+    {
+      "profile_candidate": "24_HDI4",
+      "architecture_variant": "24_HDI4",
+      "check": "budget",
+      "status": "PASS"
+    },
+    {
+      "profile_candidate": "24_HDI4",
+      "architecture_variant": "24_HDI4",
+      "check": "S-S",
+      "status": "PASS"
+    },
+    {
+      "profile_candidate": "24_HDI4",
+      "architecture_variant": "24_HDI4",
+      "check": "build-up",
+      "status": "PASS"
+    },
+    {
+      "profile_candidate": "28_HDI4",
+      "architecture_variant": "28_ISOLATION_HDI4",
+      "check": "roles",
+      "status": "PASS"
+    },
+    {
+      "profile_candidate": "28_HDI4",
+      "architecture_variant": "28_ISOLATION_HDI4",
+      "check": "budget",
+      "status": "PASS"
+    },
+    {
+      "profile_candidate": "28_HDI4",
+      "architecture_variant": "28_ISOLATION_HDI4",
+      "check": "S-S",
+      "status": "PASS"
+    },
+    {
+      "profile_candidate": "28_HDI4",
+      "architecture_variant": "28_ISOLATION_HDI4",
+      "check": "build-up",
+      "status": "PASS"
+    }
+  ],
+  "source_hash_match": true,
+  "baseline_not_replaced": true,
+  "28_optimal_not_claimed": true,
+  "qualification_scope": "Arithmetic/role compatibility only; no fabricated board, complete routing, SI or process qualification."
+}

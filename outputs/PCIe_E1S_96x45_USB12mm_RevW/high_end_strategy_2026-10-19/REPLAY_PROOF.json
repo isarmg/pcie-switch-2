@@ -1,0 +1,18 @@
+{
+  "source_pcb_unchanged": true,
+  "process_generator_replayed_in_fresh_directory": true,
+  "HIGH_END_PROCESS_CANDIDATE_json_byte_identical": true,
+  "PROFILE_VALIDATION_json_byte_identical": true,
+  "independent_checks": 17,
+  "plan_positive_checks": 44,
+  "plan_negative_tests": 13,
+  "primary_recheck": [
+    "AT&S HLC original figure table: via 0.15mm not specified laser",
+    "TTM official BackDrilling TechBulletin: 7+/-5 mil stub, 2mil minimum; tighter maximum needs review",
+    "Panasonic R-5785(GN): 3.31/0.0023 at14GHz typical not guaranteed"
+  ],
+  "source_edits_in_archive": [
+    "CPU missing-function/PDG/VR scope clarified without denying previously checked Intel pad coordinates",
+    "Source attachments are not included in light archive"
+  ]
+}

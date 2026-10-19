@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "candidate": "24_HDI4",
+      "arithmetic_and_reference_adjacency": "PASS",
+      "manufacturing": "NOT_QUALIFIED"
+    },
+    {
+      "candidate": "28_HDI4",
+      "arithmetic_and_reference_adjacency": "PASS",
+      "manufacturing": "NOT_QUALIFIED"
+    }
+  ],
+  "fabricator_null_fields": 47,
+  "trial_AR_and_annular_geometry": "PASS",
+  "trial_backdrill_keepout_arithmetic": "PASS",
+  "full_route_SI_PDN_reliability_fabrication": "NOT_TESTED_OR_APPROVED"
+}

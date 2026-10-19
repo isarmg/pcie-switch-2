@@ -1,0 +1,22 @@
+{
+  "source_pcb_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "formal_board_modified": false,
+  "manufacturing_qualified": false,
+  "files": {
+    "HIGH_END_DESIGN_RECOMMENDATION.md": "794b28c00cb75c37a067ee3bd4ab1d59e9bd59e92838a531b7c394f2473bfb58",
+    "HIGH_END_LAYER_STRATEGY.json": "6f6015581d7a9585c0e9be397425d7c2b40d6570b6a30df044dc1eeaa8e825d7",
+    "HIGH_END_PROCESS_CANDIDATE.json": "c51ec388e0455c5f2a36b85fdce51db4dc085e3ed1b5edd1268e3368ab15c5cc",
+    "INDEPENDENT_COMBINED_CHECKS.json": "731b2966537a98302620e4a96bdbd1ed6d47c30ad78c661f233c15a71d5615e6",
+    "INDEPENDENT_PLAN_VALIDATION.json": "9115f690236b432ea8b2c1a2b4726058cc9aac5ea70f93fa467e189968259bdc",
+    "INTEGRATION_VALIDATION.json": "f036bf54f6a8b517029c191d3f1f64973fa302bb90b4c1998ee4a6ecc52881ef",
+    "PROFILE_VALIDATION.json": "9c905b68b7b24cca9f7a372d70195adf96cbae67e86113fb0a5f1992e4f47f0a",
+    "README.md": "a4a08942ed983c00280aa90a59e73801e7e31922e7b966a6ae51b6de3a5dd52b",
+    "README.zh-CN.md": "e89173d1551d682db9bdccc07c045ac6bc3cdf1b00346dd593dfe9ec8bc20db4",
+    "REPLAY_PROOF.json": "3436281ef2a150f853b381d55c97307548eb2d735637c5546de007548b7beef4",
+    "VALIDATION.json": "9115f690236b432ea8b2c1a2b4726058cc9aac5ea70f93fa467e189968259bdc",
+    "build_design_profile.py": "3504ca1d7bcd9c161b98d463decf32c15a68192ee835503bc1a51fa0a7c124e7",
+    "check_combined.py": "67247255aca564155fa309c3c8127b431b06141e9982b72fd7bb785867539df8",
+    "highend-hdi-platform-evidence.md": "12a36286e2d5c1afcabe673ef4252a576f8010eac168a692c7943fabf04849e8",
+    "validate_high_end_strategy.py": "0885f4d0088ff5abbb33d7c94ff1fb5dd0477c566e786cffebbd51dddf7d1348"
+  }
+}

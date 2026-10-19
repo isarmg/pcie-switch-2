@@ -1,0 +1,276 @@
+{
+  "pass": true,
+  "scope": "Planning arithmetic and scope only; not routability, SI/PI or manufacturing qualification",
+  "checks": [
+    {
+      "check": "unchanged exact PCB source",
+      "pass": true
+    },
+    {
+      "check": "no source or production promotion",
+      "pass": true
+    },
+    {
+      "check": "28 added for comparison only",
+      "pass": true
+    },
+    {
+      "check": "all physical qualification flags false",
+      "pass": true
+    },
+    {
+      "check": "no mixed-vendor or assumed SAP compatibility",
+      "pass": true
+    },
+    {
+      "check": "no invented physical stackup",
+      "pass": true
+    },
+    {
+      "check": "no implicit deep stacked microvias",
+      "pass": true
+    },
+    {
+      "check": "three distinct comparison variants",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE count and symmetry",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE resource count",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE layer records",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE every signal adjacent dedicated GND",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE complete SS inventory",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE buildup pending, no implicit stack depth",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE actual reachable signal ordinals",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE no geometry or PDN promotion",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE twelve isolated slot outputs",
+      "pass": true
+    },
+    {
+      "check": "24_BASELINE power planes and original banks",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 count and symmetry",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 resource count",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 layer records",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 every signal adjacent dedicated GND",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 complete SS inventory",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 buildup pending, no implicit stack depth",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 actual reachable signal ordinals",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 no geometry or PDN promotion",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 twelve isolated slot outputs",
+      "pass": true
+    },
+    {
+      "check": "24_HDI4 power planes and original banks",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 count and symmetry",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 resource count",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 layer records",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 every signal adjacent dedicated GND",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 complete SS inventory",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 buildup pending, no implicit stack depth",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 actual reachable signal ordinals",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 no geometry or PDN promotion",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 twelve isolated slot outputs",
+      "pass": true
+    },
+    {
+      "check": "28_ISOLATION_HDI4 power planes and original banks",
+      "pass": true
+    },
+    {
+      "check": "28 is 12S12G4P without SS",
+      "pass": true
+    },
+    {
+      "check": "28 four-buildup face actually reaches additional signal layer",
+      "pass": true
+    },
+    {
+      "check": "24 HDI4 near-surface role change explicit",
+      "pass": true
+    },
+    {
+      "check": "blocked fixed trial port is not global capacity failure",
+      "pass": true
+    },
+    {
+      "check": "joint-port baseline holds process constants",
+      "pass": true
+    },
+    {
+      "check": "real hardware qualification still blocked",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "negative_tests": [
+    {
+      "name": "source changed",
+      "rejected": true,
+      "failures": [
+        "no source or production promotion"
+      ]
+    },
+    {
+      "name": "production promoted",
+      "rejected": true,
+      "failures": [
+        "no source or production promotion"
+      ]
+    },
+    {
+      "name": "28 declared optimum",
+      "rejected": true,
+      "failures": [
+        "28 added for comparison only"
+      ]
+    },
+    {
+      "name": "mixed-vendor limits",
+      "rejected": true,
+      "failures": [
+        "no mixed-vendor or assumed SAP compatibility"
+      ]
+    },
+    {
+      "name": "assumed SAP compatibility",
+      "rejected": true,
+      "failures": [
+        "no mixed-vendor or assumed SAP compatibility"
+      ]
+    },
+    {
+      "name": "invent Dk",
+      "rejected": true,
+      "failures": [
+        "no invented physical stackup"
+      ]
+    },
+    {
+      "name": "allow arbitrary stacking",
+      "rejected": true,
+      "failures": [
+        "no implicit deep stacked microvias"
+      ]
+    },
+    {
+      "name": "merge slot outputs",
+      "rejected": true,
+      "failures": [
+        "28_ISOLATION_HDI4 twelve isolated slot outputs"
+      ]
+    },
+    {
+      "name": "drop G reference",
+      "rejected": true,
+      "failures": [
+        "28_ISOLATION_HDI4 every signal adjacent dedicated GND"
+      ]
+    },
+    {
+      "name": "hide SS",
+      "rejected": true,
+      "failures": [
+        "24_HDI4 complete SS inventory"
+      ]
+    },
+    {
+      "name": "fab concept approved",
+      "rejected": true,
+      "failures": [
+        "28_ISOLATION_HDI4 buildup pending, no implicit stack depth"
+      ]
+    },
+    {
+      "name": "process baseline changed",
+      "rejected": true,
+      "failures": [
+        "joint-port baseline holds process constants"
+      ]
+    },
+    {
+      "name": "hardware qualification enabled",
+      "rejected": true,
+      "failures": [
+        "real hardware qualification still blocked"
+      ]
+    }
+  ]
+}

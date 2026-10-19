@@ -1,0 +1,660 @@
+{
+  "schema": "e1s-highend-process-candidate/v1",
+  "date": "2026-10-19",
+  "board_size_mm": [
+    96,
+    45
+  ],
+  "source_board_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "status": "DESIGN_PROPOSAL_NOT_FAB_RELEASE",
+  "formal_board_modified": false,
+  "selected_supplier": null,
+  "supplier_contacted": false,
+  "source_catalog": {
+    "ats_hlc_2025": {
+      "url": "https://ats.net/wp-content/uploads/HLC-HDI-poster_591x841mm-ATS-2025-03.pdf",
+      "kind": "official_platform_capability",
+      "date": "2025-03",
+      "location": "General design rules; merged Standard/Advanced cells"
+    },
+    "ats_msap_2023": {
+      "url": "https://ats.net/wp-content/uploads/Miniaturization-poster_591x841mm-ATS-2023-02.pdf",
+      "kind": "official_platform_capability",
+      "date": "2023-02",
+      "location": "mSAP column, distinct from IC-Substrate"
+    },
+    "ats_optical_2023": {
+      "url": "https://ats.net/en/ats-empowers-high-speed-optical-module-pcb-manufacturing/",
+      "kind": "official_manufacturer_article",
+      "date": "2023-07-27"
+    },
+    "vgt_prospectus_2026": {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0413/2026041300005.pdf",
+      "kind": "issuer_filing",
+      "date": "2026-04-13",
+      "location": "printed pp121,125,130,133-135,225"
+    },
+    "vgt_halfyear_2026": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225522515.PDF",
+      "kind": "issuer_filing",
+      "date": "2026-08-28",
+      "location": "printed p19"
+    },
+    "ttm_hdi_2026": {
+      "url": "https://www.ttm.com/sites/default/files/documents/3K.%20HDI_Advanced%20Solutions_High%20Res_2026.pdf",
+      "kind": "official_capability_matrix",
+      "date": "2026",
+      "location": "PDF page 3 Advanced, not Development"
+    },
+    "ttm_backdrill": {
+      "url": "https://www.ttm.com/sites/default/files/documents/BackDrilling_TechBulletin.pdf",
+      "kind": "official_design_guide",
+      "date": null
+    },
+    "panasonic_m7": {
+      "url": "https://industrial.panasonic.com/content/data/EM/PDF/DataS_MEGTRON7_R-5785_en_2022.pdf",
+      "kind": "material_manufacturer_typical_data",
+      "date": "2022-11"
+    },
+    "ipc_microvia": {
+      "url": "https://www.ipc.org/news-release/ipc-issues-electronics-industry-warning-printed-board-microvia-reliability-high",
+      "kind": "industry_association_reliability_warning",
+      "date": "2019-03-06"
+    }
+  },
+  "public_platform_evidence": [
+    {
+      "id": "ATS_HLC_HDI",
+      "role": "preferred_public_platform_reference_not_supplier_selection",
+      "sources": [
+        "ats_hlc_2025"
+      ],
+      "published": {
+        "layer_count_range": [
+          4,
+          38
+        ],
+        "max_build_up_each_side": 6,
+        "min_line_um": 40,
+        "min_space_um": 40,
+        "copper_thickness_for_min_line_um": 13,
+        "materials": [
+          "Meg6",
+          "Meg7",
+          "Tachyon 100G",
+          "Astra"
+        ],
+        "standard_thickness_range_mm": [
+          0.5,
+          3.2
+        ],
+        "advanced_thickness_range_mm": [
+          0.5,
+          5.0
+        ],
+        "backdrill": true,
+        "via_min_diameter_um": 150,
+        "via_type_for_150um": null,
+        "laser_min_diameter_um": null,
+        "laser_landing_um": null,
+        "laser_max_depth_diameter_ratio": null,
+        "max_coaxial_stack_count": null,
+        "copper_fill_cap_thickness_um": null,
+        "backdrill_residual_stub_max_um": null,
+        "mass_production_for_all_limits_jointly": null
+      },
+      "combination_scope": "One HLC-HDI platform table; not a proof every limit or proposed 24/28L stack coexists. mSAP numbers from separate poster not imported."
+    },
+    {
+      "id": "VGT_ADVANCED_HDI",
+      "role": "independent_msap_low_loss_alternative",
+      "sources": [
+        "vgt_prospectus_2026",
+        "vgt_halfyear_2026"
+      ],
+      "published": {
+        "mass_production_example": {
+          "layers": 24,
+          "build_up": [
+            6,
+            12,
+            6
+          ]
+        },
+        "ai_hpc_layers_range": [
+          20,
+          30
+        ],
+        "ai_hpc_build_up_each_side_range": [
+          4,
+          10
+        ],
+        "ai_hpc_thickness_max_mm": 4.5,
+        "advanced_hdi_product_family_line_space_um": [
+          25,
+          25
+        ],
+        "process": "mSAP",
+        "material_grade_names": [
+          "M8",
+          "M9"
+        ],
+        "exact_material_part_number": null,
+        "laser_min_diameter_um": null,
+        "laser_landing_um": null,
+        "laser_max_depth_diameter_ratio": null,
+        "max_coaxial_stack_count": null,
+        "copper_fill_cap_thickness_um": null,
+        "backdrill_residual_stub_max_um": null,
+        "30L_10stage_current_status": "core manufacturing process breakthrough; no separately confirmed mass production",
+        "36L_14stage_current_status": "core manufacturing process breakthrough; no separately confirmed mass production"
+      },
+      "exclusions": [
+        "75um laser / D+100um pad / 1.1:1 belong to Smart Devices anylayer row, not AI/HPC",
+        "4+/-2mil backdrill accuracy is in HLC discussion; not a project residual-stub specification",
+        "0-stub process remains development in April filing",
+        "24L6+12+6 mass production does not approve our 24L4+16+4 or 28L4+20+4"
+      ]
+    },
+    {
+      "id": "TTM_ADVANCED_HDI_BENCHMARK",
+      "role": "independent_numeric_sanity_benchmark_not_used_to_fill_ATS_or_VGT_rules",
+      "sources": [
+        "ttm_hdi_2026",
+        "ttm_backdrill"
+      ],
+      "published": {
+        "outer_line_space_um": [
+          76.2,
+          88.9
+        ],
+        "inner_line_space_um": [
+          63.5,
+          63.5
+        ],
+        "microvia_drill_min_um": 101.6,
+        "microvia_pad_plus_drill_um": 152.4,
+        "microvia_landing_plus_drill_um": 152.4,
+        "laser_max_depth_diameter_ratio": 1.0,
+        "copper_fill_max_aspect_ratio": 1.0,
+        "backdrill_nominal_stub_um": 177.8,
+        "backdrill_stub_tolerance_um": 127.0,
+        "backdrill_stub_range_um": [
+          50.8,
+          304.8
+        ],
+        "max_coaxial_stack_count": null
+      },
+      "exclusions": [
+        "Development column is not Advanced/volume production",
+        "HyperBGA25um/CoreEZ28um are semiconductor packaging, not imported as PCB rules",
+        "2mil is minimum residual stub, not maximum"
+      ]
+    }
+  ],
+  "architecture_candidates": [
+    {
+      "id": "24_HDI4",
+      "status": "compact_comparator",
+      "layers": 24,
+      "role_sequence": [
+        "S",
+        "G",
+        "S",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "S",
+        "S",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "S",
+        "G",
+        "S"
+      ],
+      "budget": {
+        "S": 12,
+        "G": 8,
+        "P": 4
+      },
+      "build_up_candidate": {
+        "top": 4,
+        "core": 16,
+        "bottom": 4,
+        "approval": null
+      },
+      "adjacent_signal_pairs": [
+        [
+          3,
+          4
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          21,
+          22
+        ]
+      ],
+      "signal_layers_with_adjacent_ground": {
+        "1": [
+          2
+        ],
+        "3": [
+          2
+        ],
+        "4": [
+          5
+        ],
+        "7": [
+          8
+        ],
+        "10": [
+          11
+        ],
+        "12": [
+          11
+        ],
+        "13": [
+          14
+        ],
+        "15": [
+          14
+        ],
+        "18": [
+          17
+        ],
+        "21": [
+          20
+        ],
+        "22": [
+          23
+        ],
+        "24": [
+          23
+        ]
+      },
+      "outer_access_signal_layers": [
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          21,
+          22,
+          24
+        ]
+      ],
+      "power_layers": [
+        6,
+        9,
+        16,
+        19
+      ],
+      "approved_full_board_route": null,
+      "approved_stackup": null
+    },
+    {
+      "id": "28_HDI4",
+      "status": "isolation_first_preferred_comparison",
+      "layers": 28,
+      "role_sequence": [
+        "S",
+        "G",
+        "S",
+        "G",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "P",
+        "S",
+        "G",
+        "S",
+        "G",
+        "G",
+        "S",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "P",
+        "G",
+        "S",
+        "G",
+        "S",
+        "G",
+        "S"
+      ],
+      "budget": {
+        "S": 12,
+        "G": 12,
+        "P": 4
+      },
+      "build_up_candidate": {
+        "top": 4,
+        "core": 20,
+        "bottom": 4,
+        "approval": null
+      },
+      "adjacent_signal_pairs": [],
+      "signal_layers_with_adjacent_ground": {
+        "1": [
+          2
+        ],
+        "3": [
+          2,
+          4
+        ],
+        "5": [
+          4,
+          6
+        ],
+        "8": [
+          9
+        ],
+        "11": [
+          12
+        ],
+        "13": [
+          12,
+          14
+        ],
+        "16": [
+          15,
+          17
+        ],
+        "18": [
+          17
+        ],
+        "21": [
+          20
+        ],
+        "24": [
+          23,
+          25
+        ],
+        "26": [
+          25,
+          27
+        ],
+        "28": [
+          27
+        ]
+      },
+      "outer_access_signal_layers": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          24,
+          26,
+          28
+        ]
+      ],
+      "power_layers": [
+        7,
+        10,
+        19,
+        22
+      ],
+      "approved_full_board_route": null,
+      "approved_stackup": null
+    }
+  ],
+  "engineering_trial_profile": {
+    "status": "ENGINEERING_PROPOSAL_GEOMETRY_ONLY",
+    "vendor_guaranteed": false,
+    "can_write_manufacturing_rules": false,
+    "primary_platform_reference": "ATS_HLC_HDI",
+    "alternative_platform_reference": "VGT_ADVANCED_HDI",
+    "principle": "Use high-end capability margin for signal integrity and reliability; do not force minimum features everywhere.",
+    "local_escape": {
+      "line_um": 50,
+      "space_um": 50,
+      "scope": "localized BGA escape only; not a fixed impedance route",
+      "max_neck_length_mm": null,
+      "msap": "optional if required and jointly approved at selected factory; 25/25 not default"
+    },
+    "high_speed_geometry_sweep": {
+      "line_um": [
+        100,
+        125,
+        150
+      ],
+      "intrapair_edge_gap_um": [
+        100,
+        125,
+        150
+      ],
+      "qualification": "not impedance-approved; solve with actual cross-section, etch, copper roughness and glass weave",
+      "interpair_spacing_um": null,
+      "max_parallel_overlap_mm": null
+    },
+    "single_step_laser": {
+      "drill_nominal_um": 100,
+      "capture_pad_nominal_um": 275,
+      "landing_pad_nominal_um": 275,
+      "effective_drill_depth_max_um": 75,
+      "depth_diameter_ratio_target_max": 0.75,
+      "adjacent_layers_only": true,
+      "definition": "Effective drilling depth and bottom diameter definition must be agreed by factory; no skipping layers assumed."
+    },
+    "microvia_chain": {
+      "max_consecutive_coaxial_steps_trial": 2,
+      "total_build_up_steps_each_side": 4,
+      "default_preference": "staggered, with complete geometry reserved; qualified 2-high stack optional",
+      "stagger_center_offset_trial_um": 350,
+      "stack_on_mechanical_buried_via_default": false,
+      "auto_stack_from_old_board_forbidden": true,
+      "approved_max_coaxial_stack_count": null
+    },
+    "fill_and_cap_request": {
+      "microvia_fill": "electroplated copper",
+      "via_in_pad": "filled, planarized and copper-capped where solder mounting or overstack requires",
+      "cap_copper_min_um": null,
+      "dimple_max_um": null,
+      "void_acceptance": null,
+      "resin_filled_mechanical_via_allowed_if_qualified": true,
+      "conductive_paste_as_copper_replacement_default": false
+    },
+    "mechanical_transition_trial": {
+      "primary_drill_nominal_um": 250,
+      "finished_hole_um": null,
+      "pad_um": 500,
+      "aspect_ratio_target_max": 10.0,
+      "backdrill_bit_um": 500,
+      "backdrill_to_copper_clearance_um": 200,
+      "backdrill_antipad_diameter_um": 900,
+      "requested_max_residual_stub_um": 150,
+      "approved_max_residual_stub_um": null,
+      "must_not_cut_tolerance_um": null,
+      "meaning": "Routing keepout and SI sensitivity request only; no approved drill program."
+    },
+    "thickness_and_copper_sweep": {
+      "finished_thickness_candidates_mm": [
+        1.6,
+        2.0,
+        2.4,
+        2.8
+      ],
+      "finished_thickness_approved_mm": null,
+      "mechanically_permitted_range_mm": null,
+      "signal_finished_copper_candidates_um": [
+        13,
+        18
+      ],
+      "ground_finished_copper_candidates_um": [
+        18,
+        35
+      ],
+      "power_finished_copper_candidates_um": [
+        35,
+        70
+      ],
+      "qualification": "Do not mix arbitrary minima. Enumerated cross-sections must sum to total thickness and satisfy press, impedance, PDN and mechanical constraints."
+    },
+    "material_request": {
+      "primary_family": "MEGTRON7 low-Dk-glass with supplier-selected smooth copper, or factory-qualified same-platform lower-loss material",
+      "primary_published_typical_example": {
+        "part": "R-5785(GN)",
+        "Dk": 3.31,
+        "Df": 0.0023,
+        "frequency_GHz": 14,
+        "copper_foil": "H-VLP2",
+        "guaranteed": false,
+        "source": "panasonic_m7"
+      },
+      "alternative": "VGT qualified M8/M9-grade material",
+      "alternative_specific_part": null,
+      "alternative_Dk": null,
+      "alternative_Df": null,
+      "hybrid_stackup_approved": null,
+      "glass_weave_style": null,
+      "copper_roughness_model": null
+    },
+    "anylayer_24_or_28": "not default; consider only after quantified escape need and same-factory reliability evidence",
+    "full_board_capacity_claim": false
+  },
+  "fabricator_approved_inputs": {
+    "factory_and_production_site": null,
+    "signed_joint_process_profile_revision": null,
+    "target_finished_thickness_mm": null,
+    "finished_thickness_tolerance_mm": null,
+    "mechanical_connector_thickness_window_mm": null,
+    "layer_by_layer_material_part_number": null,
+    "layer_by_layer_pressed_dielectric_thickness_um": null,
+    "layer_by_layer_finished_copper_um": null,
+    "material_Dk_Df_vs_frequency_and_test_method": null,
+    "foil_roughness_model_and_treatment": null,
+    "glass_style_and_resin_content": null,
+    "max_sequential_lamination_cycles": null,
+    "laser_depth_definition": null,
+    "laser_entry_exit_diameter_and_tolerance_um": null,
+    "laser_max_aspect_ratio": null,
+    "laser_capture_landing_and_registration_um": null,
+    "laser_annular_ring_acceptance_um": null,
+    "approved_layer_pairs_and_lamination_subcomposites": null,
+    "max_coaxial_microvia_stack_count": null,
+    "stagger_offset_and_clearance_um": null,
+    "approved_stack_on_buried_structure": null,
+    "copper_fill_process_void_limit": null,
+    "cap_copper_min_um": null,
+    "planarity_dimple_limit_um": null,
+    "mechanical_drill_and_finished_hole_tolerance_um": null,
+    "mechanical_plating_thickness_and_AR": null,
+    "backdrill_tool_diameter_runout_um": null,
+    "backdrill_entry_and_must_not_cut_layers": null,
+    "backdrill_depth_tolerance_um": null,
+    "backdrill_residual_stub_min_max_um": null,
+    "backdrill_antipad_clearance_um": null,
+    "impedance_targets_and_tolerances": null,
+    "insertion_return_loss_crosstalk_budgets": null,
+    "trace_neck_max_length_mm": null,
+    "S_S_pair_parallel_overlap_limits": null,
+    "BGA_ballmap_and_package_escape_approved": null,
+    "PDN_DC_AC_current_and_thermal_limits": null,
+    "reflow_profile_and_max_cycles": null,
+    "via_chain_reflow_resistance_acceptance": null,
+    "IST_TCT_HATS_conditions_and_results": null,
+    "CAF_conditions_and_results": null,
+    "coupon_matching_stackup_topology_and_lot_sampling": null,
+    "cross_section_and_Xray_acceptance": null,
+    "production_yield_and_process_control": null,
+    "finish_and_surface_planarity": null,
+    "warpage_limits_and_copper_balance": null,
+    "IPC_acceptance_class_and_addenda": null
+  },
+  "machine_checkable_constraints": [
+    {
+      "id": "ROLE_ARITHMETIC",
+      "gate": "architecture",
+      "check": "N equals role count and top+core+bottom; symmetric roles; each S has adjacent G; compare S-S list",
+      "can_run_without_fab": true
+    },
+    {
+      "id": "GEOMETRY_TRIAL_ONLY",
+      "gate": "hypothetical_geometry",
+      "check": "Tag all trial outputs with profile hash and GEOMETRY_ONLY; no fabrication or impedance PASS inference",
+      "can_run_without_fab": true
+    },
+    {
+      "id": "SAME_LAYER_EDGE_PAIR",
+      "gate": "geometry",
+      "check": "P/N route in same layer and through matching macros as project strategy; no split pair to create fake capacity",
+      "can_run_without_fab": true
+    },
+    {
+      "id": "REFERENCE_REGION",
+      "gate": "geometry",
+      "check": "No trace over split/void/isolated landing-pad clearances of designated reference; return-via macro reserved at transitions",
+      "can_run_without_fab": true
+    },
+    {
+      "id": "SS_COUPLING",
+      "gate": "SI_qualification",
+      "check": "24L adjacent S-S regions report overlap length, lateral offset, angle, h-reference and h-signal; restrict long parallel routes until field-solved crosstalk budget exists. 28L has no adjacent S-S, but still requires SI.",
+      "missing_input_result": "BLOCKED_QUALIFICATION_NOT_GEOMETRY"
+    },
+    {
+      "id": "NO_DEEP_BLIND_REUSE",
+      "gate": "geometry",
+      "check": "Old 3837 via coordinates are historical obstacles only, not mandatory endpoints; replace net endpoint connectivity with approved-or-trial short macros; never map 907 deep 100um drills into new depth",
+      "can_run_without_fab": true
+    },
+    {
+      "id": "VIA_GRAPH",
+      "gate": "geometry",
+      "check": "Each macro is explicit single-adjacent-step graph; signal landing on G layer remains isolated from GND. Detect same-XY consecutive count, skip layers, stack-on-buried and net shorts.",
+      "can_run_without_fab": true
+    },
+    {
+      "id": "DEPTH_AND_FAB",
+      "gate": "manufacturing_qualification",
+      "check": "Use effective laser depth, bottom/entry diameter convention, registration, pressed dimensions and approved lamination sequence. Two-high trial limit is not reliability proof.",
+      "missing_input_result": "BLOCKED_QUALIFICATION_NOT_GEOMETRY"
+    },
+    {
+      "id": "BACKDRILL",
+      "gate": "manufacturing_and_SI_qualification",
+      "check": "Check every drilled layer keepout and must-not-cut layer, tool depth tolerance and residual stub; trial geometry does not generate release NC file.",
+      "missing_input_result": "BLOCKED_QUALIFICATION_NOT_GEOMETRY"
+    },
+    {
+      "id": "RELIABILITY",
+      "gate": "release",
+      "check": "Matched topology/material coupon with reflow resistance monitoring plus agreed accelerated thermal/moisture testing; continuity/DC DRC and microsection alone insufficient",
+      "missing_input_result": "BLOCKED_RELEASE"
+    },
+    {
+      "id": "ENDPOINTS",
+      "gate": "functional_release",
+      "check": "Actual CPU/switch ballmap, E1.S connector footprint and electrical model verified; placeholder routing is capacity experiment only",
+      "missing_input_result": "BLOCKED_RELEASE"
+    },
+    {
+      "id": "POWER_ISOLATION",
+      "gate": "geometry_and_PDN",
+      "check": "Keep 12 eFuse outputs electrically distinct; 4 power-layer budget is not current or thermal signoff; no fine-line shortcut for 300W budget",
+      "can_run_geometry_without_fab": true
+    }
+  ],
+  "decision": "Compare 28-HDI4 versus 24-HDI4 on true endpoint routing, SI/PDN, total thickness and qualified yield; select minimum necessary layers after evidence. 20L and full anylayer are not current priorities."
+}
