@@ -1,0 +1,141 @@
+{
+  "Base": [
+    {
+      "ref": "C5114",
+      "uuid": "cacd4f87-0416-4b30-aa23-ce7e01b50e17",
+      "value": "2.2uF 6.3V",
+      "xy": [
+        78.2,
+        43.0
+      ],
+      "angle": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}TBT_PD_LDO_BMC",
+          "uuid": "217b0b04-cfd1-4450-8568-7e95680b7d8d",
+          "connected": 1
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "5bb94997-52f7-45d3-b768-78b1036f5631",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "TP702",
+      "uuid": "36e9f592-2157-4392-b2a9-5a87f5a22b0b",
+      "value": "PROBE /CPU_SVID_DATA_1V25",
+      "xy": [
+        71.725,
+        35.225
+      ],
+      "angle": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}CPU_SVID_DATA_1V25",
+          "uuid": "596bc183-4619-47af-8052-50a259200631",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "TP705",
+      "uuid": "018ea096-4982-4735-b706-c2316b8194af",
+      "value": "PROBE /CPU_SYS_PWROK_1V8",
+      "xy": [
+        71.725,
+        36.225
+      ],
+      "angle": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}CPU_SYS_PWROK_1V8",
+          "uuid": "c7994b77-4b22-42d8-ad8b-13bdf33d999c",
+          "connected": 1
+        }
+      ]
+    }
+  ],
+  "anchor_vias": [
+    {
+      "uuid": "5641396e-283d-44c9-b429-b5126d55047e",
+      "top": "In28.Cu",
+      "bottom": "B.Cu",
+      "diameter": 0.2,
+      "drill": 0.1
+    }
+  ],
+  "Candidate3": [
+    {
+      "ref": "C5114",
+      "uuid": "cacd4f87-0416-4b30-aa23-ce7e01b50e17",
+      "value": "2.2uF 6.3V",
+      "xy": [
+        72.15,
+        35.8
+      ],
+      "angle": -90.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}TBT_PD_LDO_BMC",
+          "uuid": "217b0b04-cfd1-4450-8568-7e95680b7d8d",
+          "connected": 3
+        },
+        {
+          "pin": "2",
+          "net": "{slash}GND",
+          "uuid": "5bb94997-52f7-45d3-b768-78b1036f5631",
+          "connected": 4098
+        }
+      ]
+    },
+    {
+      "ref": "TP702",
+      "uuid": "36e9f592-2157-4392-b2a9-5a87f5a22b0b",
+      "value": "PROBE /CPU_SVID_DATA_1V25",
+      "xy": [
+        71.725,
+        35.225
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}CPU_SVID_DATA_1V25",
+          "uuid": "596bc183-4619-47af-8052-50a259200631",
+          "connected": 1
+        }
+      ]
+    },
+    {
+      "ref": "TP705",
+      "uuid": "018ea096-4982-4735-b706-c2316b8194af",
+      "value": "PROBE /CPU_SYS_PWROK_1V8",
+      "xy": [
+        71.725,
+        36.225
+      ],
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "{slash}CPU_SYS_PWROK_1V8",
+          "uuid": "c7994b77-4b22-42d8-ad8b-13bdf33d999c",
+          "connected": 1
+        }
+      ]
+    }
+  ]
+}

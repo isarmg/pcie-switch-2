@@ -1,0 +1,70 @@
+{
+  "kicad_version": "10.0.7",
+  "passed": true,
+  "checks": [
+    {
+      "ref": "TP706",
+      "native_enum": 31,
+      "display_name": "F.Courtyard",
+      "native_courtyard_graphics": 4,
+      "legacy_abbreviated_name_count": 0
+    },
+    {
+      "ref": "TP710",
+      "native_enum": 31,
+      "display_name": "F.Courtyard",
+      "native_courtyard_graphics": 4,
+      "legacy_abbreviated_name_count": 0
+    },
+    {
+      "ref": "TP707",
+      "native_enum": 31,
+      "display_name": "F.Courtyard",
+      "native_courtyard_graphics": 4,
+      "legacy_abbreviated_name_count": 0
+    },
+    {
+      "ref": "TP709",
+      "native_enum": 31,
+      "display_name": "F.Courtyard",
+      "native_courtyard_graphics": 4,
+      "legacy_abbreviated_name_count": 0
+    },
+    {
+      "ref": "TP702",
+      "native_enum": 31,
+      "display_name": "F.Courtyard",
+      "native_courtyard_graphics": 4,
+      "legacy_abbreviated_name_count": 0
+    },
+    {
+      "ref": "TP705",
+      "native_enum": 31,
+      "display_name": "F.Courtyard",
+      "native_courtyard_graphics": 4,
+      "legacy_abbreviated_name_count": 0
+    },
+    {
+      "ref": "C5114",
+      "native_enum": 29,
+      "display_name": "B.Courtyard",
+      "native_courtyard_graphics": 1,
+      "legacy_abbreviated_name_count": 0
+    },
+    {
+      "ref": "C5112",
+      "native_enum": 29,
+      "display_name": "B.Courtyard",
+      "native_courtyard_graphics": 1,
+      "legacy_abbreviated_name_count": 0
+    },
+    {
+      "ref": "C5113",
+      "native_enum": 29,
+      "display_name": "B.Courtyard",
+      "native_courtyard_graphics": 1,
+      "legacy_abbreviated_name_count": 0
+    }
+  ],
+  "scope": "Native enum membership and display-name roundtrip; prior geometry collision scripts already compared native enums."
+}

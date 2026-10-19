@@ -15734,11 +15734,11 @@
     },
     "x": 71.725,
     "y": 35.225,
-    "side": "B",
+    "side": "F",
     "height_mm": 0,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": 180.0,
     "dnp": false
   },
   {
@@ -15782,11 +15782,11 @@
     },
     "x": 71.725,
     "y": 36.225,
-    "side": "B",
+    "side": "F",
     "height_mm": 0,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": 180.0,
     "dnp": false
   },
   {
@@ -18947,13 +18947,13 @@
       "1": "/TBT_PD_LDO_BMC",
       "2": "/GND"
     },
-    "x": 78.2,
-    "y": 43.0,
+    "x": 72.15,
+    "y": 35.8,
     "side": "B",
     "height_mm": 0.6,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0
+    "rotation_deg": -90.0
   },
   {
     "ref": "C5115",

@@ -1,0 +1,9 @@
+{
+  "board_sha256": "518aa6761e0a69122ed0daf2ba59297fb774352e7c3383f438162cfd757eff56",
+  "project_sha256": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "plane_report_sha256": "667a7d21dbee5426db5a5a294c41ddbd55f08d47f48608dd728a2f78ea1bdc94",
+  "script_sha256": "fcf2ce49b48deef6e62b5f074e4abd6d1b4a5764268bc7a24b82885b547a416b",
+  "functional_pad_layer_shapes_checked": 3789,
+  "hits": [],
+  "scope": "All numbered nonempty nonGND nonNC pad shapes includingDNP, immediate different-net adjacent plane lost polygons; native1nmERROR_OUTSIDE; sensitivity erodes lost polygon; noSIqualification."
+}

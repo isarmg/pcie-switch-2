@@ -1948,8 +1948,8 @@
       71.725,
       36.225
     ],
-    "side": "B",
-    "rotation_deg": 0.0
+    "side": "F",
+    "rotation_deg": 180.0
   },
   "C9029": {
     "position_mm": [
@@ -2572,8 +2572,8 @@
       71.725,
       35.225
     ],
-    "side": "B",
-    "rotation_deg": 0.0
+    "side": "F",
+    "rotation_deg": 180.0
   },
   "C933": {
     "position_mm": [
@@ -4137,11 +4137,11 @@
   },
   "C5114": {
     "position_mm": [
-      78.2,
-      43.0
+      72.15,
+      35.8
     ],
     "side": "B",
-    "rotation_deg": 0.0
+    "rotation_deg": -90.0
   },
   "C929": {
     "position_mm": [
