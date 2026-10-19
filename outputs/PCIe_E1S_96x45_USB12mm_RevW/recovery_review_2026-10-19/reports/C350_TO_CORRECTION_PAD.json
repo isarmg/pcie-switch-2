@@ -1,0 +1,219 @@
+{
+  "board_sha256": "bb7cc241cf5f548508e9091352a07ab4407bc8ff08489037f1e11aeb80c8ccbb",
+  "project_sha256": "9086611e035a0210cfc1bdfb30769d78d36880dd96954c8f5b869291103f8f30",
+  "plane_report_sha256": "e5adfa98cc10ed4f6f8198926cdb7f9dfdfb04d1bab26388f934703e6de80430",
+  "script_sha256": "fcf2ce49b48deef6e62b5f074e4abd6d1b4a5764268bc7a24b82885b547a416b",
+  "functional_pad_layer_shapes_checked": 3787,
+  "hits": [
+    {
+      "ref_pin": "C9023.1",
+      "dnp": false,
+      "net": "/PEX_1V8",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 2.9139778176821883e-09,
+      "bounds": [
+        83.2595,
+        39.38896651958117,
+        83.26826145476237,
+        39.410118
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "U511.4",
+      "dnp": false,
+      "net": "/TBT_PCIE_PERST_3V3_N",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 8.200000290543505e-09,
+      "bounds": [
+        75.637,
+        28.036426,
+        75.667524,
+        28.110118
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "C5222.2",
+      "dnp": false,
+      "net": "/TBT_DP_ML2_DST_N",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 5.48499990073409e-10,
+      "bounds": [
+        69.039882,
+        29.1395,
+        69.050299,
+        29.143815
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "R5156.1",
+      "dnp": false,
+      "net": "/TBT_PD_I2C2_SCL",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 1.8320670681244158e-10,
+      "bounds": [
+        70.0795,
+        38.89837051618848,
+        70.0843661053771,
+        38.910118
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "U512.3",
+      "dnp": false,
+      "net": "/TBT_HPD_1V8",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 8.199999766873856e-09,
+      "bounds": [
+        77.962,
+        28.036426,
+        77.992524,
+        28.110118
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "U512.4",
+      "dnp": false,
+      "net": "/TBT_HPD_3V3",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 8.200000290543505e-09,
+      "bounds": [
+        79.637,
+        28.036426,
+        79.667524,
+        28.110118
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "U1.AK31",
+      "dnp": false,
+      "net": "/PEX_1V8",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 1.4132000141858997e-08,
+      "bounds": [
+        34.669976,
+        36.039882,
+        34.7005,
+        36.113574
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "U1.AM31",
+      "dnp": false,
+      "net": "/PEX_1V8A",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 1.4132000141858997e-08,
+      "bounds": [
+        34.669976,
+        38.039882,
+        34.7005,
+        38.113574
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "C5221.2",
+      "dnp": false,
+      "net": "/TBT_DP_ML2_DST_P",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 8.98647692853605e-09,
+      "bounds": [
+        69.1898684236646,
+        28.02108903602672,
+        69.2,
+        28.04554908568039
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "U504.6",
+      "dnp": false,
+      "net": "/TBT_AR_SPI_CLK",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 3.6940000710270014e-09,
+      "bounds": [
+        62.969976,
+        38.776426,
+        62.988073,
+        38.820118
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    },
+    {
+      "ref_pin": "C5225.2",
+      "dnp": false,
+      "net": "/TBT_CIO_TX0_DST_P",
+      "pad_layer": "B.Cu",
+      "plane": "In30.Cu|/P3V3_AUX",
+      "area_mm2": 3.009799754410466e-10,
+      "bounds": [
+        68.8,
+        33.374160641760035,
+        68.80196774638449,
+        33.378911261648746
+      ],
+      "erosion_sensitivity_mm2": {
+        "0.001": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.0
+      }
+    }
+  ],
+  "scope": "All numbered nonempty nonGND nonNC pad shapes includingDNP, immediate different-net adjacent plane lost polygons; native1nmERROR_OUTSIDE; sensitivity erodes lost polygon; noSIqualification."
+}

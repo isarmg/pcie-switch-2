@@ -1,0 +1,35 @@
+{
+  "baseline_sha256": "c350871d495780568e12e64cd4d33fe8ec5ce248fe5f51ea87519bf3b767b92e",
+  "candidate_sha256": "bb7cc241cf5f548508e9091352a07ab4407bc8ff08489037f1e11aeb80c8ccbb",
+  "prefill_sha256": "e89c530efe23ee51ef51c26b837b3780f5e072a3f92f6ee487fb7948307fb397",
+  "exact19_published_patch_copper_removed": true,
+  "exact2_C741_changes": true,
+  "all_original_footprints_unchanged": true,
+  "all_other_copper_geometry_and_net_names_unchanged": true,
+  "all_prefill_copper_and_footprints_match_postfill": true,
+  "removed_UUIDs": [
+    "0262fcf7-2462-4532-bb80-c9c65e93b1ed",
+    "07f67288-afd4-450b-a463-da3bef566368",
+    "18265377-42b2-4ec1-a58c-21d091e9805e",
+    "24d5469a-6dff-4cb7-84dc-1a7e3f5c71b7",
+    "27bb8a1c-9bc2-4d40-a712-f57ecfe1cbce",
+    "40f24551-1e51-4954-8048-342f97745c7c",
+    "50d1527c-f3af-42dd-bde7-4d7910e739b8",
+    "5607f957-3062-45c9-aa6f-3b682ee72e9b",
+    "565767e7-14a7-40d2-b191-29076eebb483",
+    "6e89e7fb-0dda-438a-ac89-95ff3c79e921",
+    "91afc462-c65d-4478-84bb-91e0a6695efa",
+    "9872bdd7-5119-4516-96f7-2542c22611b3",
+    "c1e6aa14-6864-4de7-b157-60c041dc610e",
+    "c2fce4b2-cc60-47a8-b542-425edc4e9b60",
+    "c5d8c91c-ce22-4c0f-9cb1-a10b99b0d3ed",
+    "dc786af5-2cac-4663-9add-da34b0d407a2",
+    "e324008a-ad76-4d6f-9000-834738f21c16",
+    "e421c829-aa0b-4702-92c8-7e29c915eff3",
+    "e9529701-d520-422f-a376-bf927d6e6938"
+  ],
+  "changed_UUIDs": [
+    "ddbbaa65-2e03-4765-aed8-60f0a8cfc69b",
+    "e12543dc-2310-4aa2-bac6-200bd0dbe678"
+  ]
+}

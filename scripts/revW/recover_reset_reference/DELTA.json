@@ -1,0 +1,96 @@
+{
+  "baseline_pcb_sha256": "c350871d495780568e12e64cd4d33fe8ec5ce248fe5f51ea87519bf3b767b92e",
+  "prefill_sha256": "e89c530efe23ee51ef51c26b837b3780f5e072a3f92f6ee487fb7948307fb397",
+  "removed": [
+    {
+      "uuid": "24d5469a-6dff-4cb7-84dc-1a7e3f5c71b7",
+      "before": "\t(via\n\t\t(at 34.8 39.1)\n\t\t(size 0.45)\n\t\t(drill 0.25)\n\t\t(layers \"F.Cu\" \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"24d5469a-6dff-4cb7-84dc-1a7e3f5c71b7\")\n\t)"
+    },
+    {
+      "uuid": "0262fcf7-2462-4532-bb80-c9c65e93b1ed",
+      "before": "\t(segment\n\t\t(start 35.7 36.6)\n\t\t(end 35.175 36.625)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"0262fcf7-2462-4532-bb80-c9c65e93b1ed\")\n\t)"
+    },
+    {
+      "uuid": "07f67288-afd4-450b-a463-da3bef566368",
+      "before": "\t(segment\n\t\t(start 34.9 38)\n\t\t(end 34.8 39.1)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"07f67288-afd4-450b-a463-da3bef566368\")\n\t)"
+    },
+    {
+      "uuid": "18265377-42b2-4ec1-a58c-21d091e9805e",
+      "before": "\t(segment\n\t\t(start 35.175 36.625)\n\t\t(end 35.1 36.8)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"18265377-42b2-4ec1-a58c-21d091e9805e\")\n\t)"
+    },
+    {
+      "uuid": "5607f957-3062-45c9-aa6f-3b682ee72e9b",
+      "before": "\t(segment\n\t\t(start 35.875 36.675)\n\t\t(end 35.7 36.6)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"5607f957-3062-45c9-aa6f-3b682ee72e9b\")\n\t)"
+    },
+    {
+      "uuid": "6e89e7fb-0dda-438a-ac89-95ff3c79e921",
+      "before": "\t(segment\n\t\t(start 35.1 36.8)\n\t\t(end 34.9 38)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"6e89e7fb-0dda-438a-ac89-95ff3c79e921\")\n\t)"
+    },
+    {
+      "uuid": "c1e6aa14-6864-4de7-b157-60c041dc610e",
+      "before": "\t(segment\n\t\t(start 35.5 38)\n\t\t(end 35.9 37.225)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"c1e6aa14-6864-4de7-b157-60c041dc610e\")\n\t)"
+    },
+    {
+      "uuid": "c5d8c91c-ce22-4c0f-9cb1-a10b99b0d3ed",
+      "before": "\t(segment\n\t\t(start 35.9 37.225)\n\t\t(end 35.875 36.675)\n\t\t(width 0.1)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"c5d8c91c-ce22-4c0f-9cb1-a10b99b0d3ed\")\n\t)"
+    },
+    {
+      "uuid": "27bb8a1c-9bc2-4d40-a712-f57ecfe1cbce",
+      "before": "\t(segment\n\t\t(start 41.9 34.95)\n\t\t(end 34.8 39.1)\n\t\t(width 0.075)\n\t\t(layer \"In30.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"27bb8a1c-9bc2-4d40-a712-f57ecfe1cbce\")\n\t)"
+    },
+    {
+      "uuid": "40f24551-1e51-4954-8048-342f97745c7c",
+      "before": "\t(segment\n\t\t(start 62.05 31.75)\n\t\t(end 46.4 31.9)\n\t\t(width 0.075)\n\t\t(layer \"In30.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"40f24551-1e51-4954-8048-342f97745c7c\")\n\t)"
+    },
+    {
+      "uuid": "50d1527c-f3af-42dd-bde7-4d7910e739b8",
+      "before": "\t(segment\n\t\t(start 62.95 31.35)\n\t\t(end 62.05 31.75)\n\t\t(width 0.075)\n\t\t(layer \"In30.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"50d1527c-f3af-42dd-bde7-4d7910e739b8\")\n\t)"
+    },
+    {
+      "uuid": "91afc462-c65d-4478-84bb-91e0a6695efa",
+      "before": "\t(segment\n\t\t(start 65.05 29.95)\n\t\t(end 62.95 31.35)\n\t\t(width 0.075)\n\t\t(layer \"In30.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"91afc462-c65d-4478-84bb-91e0a6695efa\")\n\t)"
+    },
+    {
+      "uuid": "9872bdd7-5119-4516-96f7-2542c22611b3",
+      "before": "\t(segment\n\t\t(start 65.7964 29.11)\n\t\t(end 65.05 29.95)\n\t\t(width 0.075)\n\t\t(layer \"In30.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"9872bdd7-5119-4516-96f7-2542c22611b3\")\n\t)"
+    },
+    {
+      "uuid": "dc786af5-2cac-4663-9add-da34b0d407a2",
+      "before": "\t(segment\n\t\t(start 65.7964 29.11)\n\t\t(end 68.825 28.275)\n\t\t(width 0.075)\n\t\t(layer \"In30.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"dc786af5-2cac-4663-9add-da34b0d407a2\")\n\t)"
+    },
+    {
+      "uuid": "e324008a-ad76-4d6f-9000-834738f21c16",
+      "before": "\t(segment\n\t\t(start 43.25 34.95)\n\t\t(end 41.9 34.95)\n\t\t(width 0.075)\n\t\t(layer \"In30.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"e324008a-ad76-4d6f-9000-834738f21c16\")\n\t)"
+    },
+    {
+      "uuid": "e421c829-aa0b-4702-92c8-7e29c915eff3",
+      "before": "\t(segment\n\t\t(start 46.4 31.9)\n\t\t(end 43.25 34.95)\n\t\t(width 0.075)\n\t\t(layer \"In30.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"e421c829-aa0b-4702-92c8-7e29c915eff3\")\n\t)"
+    },
+    {
+      "uuid": "e9529701-d520-422f-a376-bf927d6e6938",
+      "before": "\t(segment\n\t\t(start 68.825 28.275)\n\t\t(end 74.1625 28.15)\n\t\t(width 0.075)\n\t\t(layer \"In30.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"e9529701-d520-422f-a376-bf927d6e6938\")\n\t)"
+    },
+    {
+      "uuid": "565767e7-14a7-40d2-b191-29076eebb483",
+      "before": "\t(via micro\n\t\t(at 74.1625 28.15)\n\t\t(size 0.2)\n\t\t(drill 0.1)\n\t\t(layers \"In30.Cu\" \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"565767e7-14a7-40d2-b191-29076eebb483\")\n\t)"
+    },
+    {
+      "uuid": "c2fce4b2-cc60-47a8-b542-425edc4e9b60",
+      "before": "\t(via micro\n\t\t(at 65.7964 29.11)\n\t\t(size 0.2)\n\t\t(drill 0.1)\n\t\t(layers \"In30.Cu\" \"B.Cu\")\n\t\t(net \"{slash}CPU_PERST_1V8_N\")\n\t\t(uuid \"c2fce4b2-cc60-47a8-b542-425edc4e9b60\")\n\t)"
+    }
+  ],
+  "replaced": [
+    {
+      "uuid": "e12543dc-2310-4aa2-bac6-200bd0dbe678",
+      "before": "\t(via\n\t\t(at 31.36 39.15)\n\t\t(size 0.45)\n\t\t(drill 0.25)\n\t\t(layers \"F.Cu\" \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"e12543dc-2310-4aa2-bac6-200bd0dbe678\")\n\t)",
+      "after": "\t(via\n\t\t(at 31.46 39.15)\n\t\t(size 0.45)\n\t\t(drill 0.25)\n\t\t(layers \"F.Cu\" \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"e12543dc-2310-4aa2-bac6-200bd0dbe678\")\n\t)"
+    },
+    {
+      "uuid": "ddbbaa65-2e03-4765-aed8-60f0a8cfc69b",
+      "before": "\t(segment\n\t\t(start 31.16 40.05)\n\t\t(end 31.36 39.15)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"ddbbaa65-2e03-4765-aed8-60f0a8cfc69b\")\n\t)",
+      "after": "\t(segment\n\t\t(start 31.16 40.05)\n\t\t(end 31.46 39.15)\n\t\t(width 0.15)\n\t\t(layer \"B.Cu\")\n\t\t(net \"{slash}GND\")\n\t\t(uuid \"ddbbaa65-2e03-4765-aed8-60f0a8cfc69b\")\n\t)"
+    }
+  ],
+  "scope": "Reconstructed from published exact CPU_PERST patch; remove its 19 objects, keep R725 DNP and U605 local circuit. Move identified C741 GND via and connecting endpoint +0.10 mm in X. Requires fresh KiCad10 refill and all-plane/pad validation; not a recovered historical commit.",
+  "expected_refilled_pcb_sha256": "bb7cc241cf5f548508e9091352a07ab4407bc8ff08489037f1e11aeb80c8ccbb"
+}

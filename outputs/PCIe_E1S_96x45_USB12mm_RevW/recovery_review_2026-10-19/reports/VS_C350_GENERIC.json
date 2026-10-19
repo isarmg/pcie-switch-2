@@ -1,0 +1,37 @@
+{
+  "baseline_board_sha256": "c350871d495780568e12e64cd4d33fe8ec5ce248fe5f51ea87519bf3b767b92e",
+  "candidate_board_sha256": "bb7cc241cf5f548508e9091352a07ab4407bc8ff08489037f1e11aeb80c8ccbb",
+  "baseline_audit_sha256": "d50dae5b714651972850453a0515fe290a939904e71b110e213dbd98e0d8053f",
+  "candidate_audit_sha256": "3f30f65f431f8fcca70b531944bc9441cf65b9de86df3d93db5afc482ade77f9",
+  "project_unchanged": true,
+  "all_original_numbered_pads_including_NC_compared": true,
+  "missing_old_pads": [],
+  "old_pad_net_or_identity_changes": [],
+  "old_clusters_split": [
+    {
+      "net": "{slash}CPU_PERST_1V8_N",
+      "ref_pin": [
+        "U1.AM32",
+        "U502.F24",
+        "U511.3"
+      ],
+      "new_components": [
+        [
+          "{slash}CPU_PERST_1V8_N",
+          0
+        ],
+        [
+          "{slash}CPU_PERST_1V8_N",
+          2
+        ],
+        [
+          "{slash}CPU_PERST_1V8_N",
+          3
+        ]
+      ]
+    }
+  ],
+  "surviving_copper_net_changes": [],
+  "passed": false,
+  "production_ready": false
+}

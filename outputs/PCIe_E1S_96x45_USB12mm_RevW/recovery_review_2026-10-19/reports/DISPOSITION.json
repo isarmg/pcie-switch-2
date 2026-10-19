@@ -1,0 +1,30 @@
+{
+  "status": "ACCEPTED_precise_reference_damage_correction",
+  "board_sha256": "bb7cc241cf5f548508e9091352a07ab4407bc8ff08489037f1e11aeb80c8ccbb",
+  "eligible_for_writer_integration": true,
+  "production_ready": false,
+  "runtime": "OfficialKiCad10.0.7AppImageSHA05855274adb8eb7164ab886cfbbe8da7dd84f961d6d04783b66ffcb5011287cd; independently downloaded2026-10-19",
+  "native": {
+    "geometric_errors": 0,
+    "old_sliver_warnings": 1,
+    "parity_findings": 0,
+    "ERC_errors": 43,
+    "ERC_warnings": 212
+  },
+  "native_source_hashes_stable": true,
+  "disconnected_nonNC_nets": 104,
+  "populated_multicluster_nets": 101,
+  "minimum_cluster_joins": 1779,
+  "exact_ECO": "Remove exact19 publishedCPU_PERST patch copper; moveC741 ground viaandendtrack x+.1mm; all583footprints andothercopper unchanged; savedprefillintent identicalafterfill.",
+  "baseline0083_oldpad_NC_clusters_and_surviving_copper_nets_preserved": true,
+  "c350_generic_gate_passed": false,
+  "c350_specific_authorized_regression": "Only U1.AM32/U502.F24/U511.3 CPU_PERST populated cluster splits into3. R725remainsDNP. No otheroldpadidentity/net/cluster/coppernetregression.",
+  "reference_result": "All saved power+GND plane polygons compared;publishedc350 substantialS05,S04,TBT_CPU_TX2_SRC_N missingreferenceareas independently reproduced. Correctionvs0083 oldtracks max2.996e-8mm2,all1um sensitivityzero. Directc350->correction tracks max7.147e-8mm2,padsmax1.414e-8mm2,all1umzero. Noarc omissions.",
+  "preserved_local_exceptions": "Relative0083 newU605/R724 placement has self/localAUXplane apertures under3functionalpadshapes(.222/.073/.082mm2)andlocalMR/supplylaunchtracks(.0376\u2013.0574mm2);theseare unchanged fromc350 andnot highspeedreferencecuts. Do notclaimallpad/trackareaszero.",
+  "limits": [
+    "Intentionalfunctionalrollback:upstreamCPU_PERST is againunrouted;3populatedendsplusDNP resistor form4groups.",
+    "LocalU605MR/CT/RESET andR725DNP retained;not fullresetarchitecture qualification.",
+    "NoSI,PDN,current,thermal,manufacturing,realPEXballout orCPUrails approval.",
+    "NoGitwrite/push performed byindependent reviewer."
+  ]
+}
