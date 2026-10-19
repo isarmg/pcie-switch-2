@@ -1,0 +1,161 @@
+{
+  "candidate_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
+  "baseline_sha256": "a34e841f2a74863e0b9467dd5d36f4acfa343592357ff8cc5074abcd419b4a30",
+  "original_numbered_physical_pads_including_NC": 6626,
+  "all_original_clusters_and_surviving_copper_net_preserved": true,
+  "added_tracks": 23,
+  "new_vias": 0,
+  "changed_footprints": 0,
+  "all_original_zone_blocks_and_fills_token_identical": true,
+  "new_copper_uuid_net": {
+    "7b8e2c33-67b3-410d-97fa-c559ac2a8f3f": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "6e6f62ce-630d-4cd4-a975-88b4ba1ec82f": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "1d3f4800-dda4-4405-9a44-f76aaac44d33": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "c9ac21f4-d38b-470b-a7ce-b78066336da8": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "445aafe1-6c15-4688-95c2-2a18837f7ce3": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "422ecf14-c996-4323-9458-c8342ac16ca5": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "74dc0585-fa6c-469e-82ec-9bdcfb0ca5db": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "08b516d8-7588-4989-acc6-684ba5edba08": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "7a283df5-0259-4065-b3f0-52471a669083": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "63b709c1-7b45-42bf-9e3a-d4260c2ae2d3": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "5684d286-139a-4363-964d-fd01e6ad4cb1": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "db96718a-328e-419c-822b-6624b6a7c115": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "3c74e1e0-7e99-46de-a66d-d685ca04e89d": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "f49019a8-803a-475e-80c3-721ba476f656": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "f42584b5-d612-4041-a00c-b25525fd96d0": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "37cd154e-986f-4421-8595-84c3479a8cc3": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "600a35a6-97b5-40a6-a680-6481e7ea34cc": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "d21aff26-398c-47f8-9dd1-e2d87128bd00": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "34e549ed-58d7-454e-ad16-092225398b8c": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "159ecd7c-c8f2-47a5-b37e-0aeb244d0990": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "d8a5cb04-a2a0-481a-9ae9-f4772597fb4f": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "35ceaa8b-3e65-462d-b13c-f50124b6f77f": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    },
+    "07895604-9c3b-44f4-9e8f-723b99cd93c7": {
+      "net": "{slash}CPU_VCCRTC",
+      "type": "PCB_TRACK",
+      "layer": "B.Cu"
+    }
+  },
+  "RTC_clusters_before": 6,
+  "RTC_clusters_after": 5,
+  "new_connected_RTC_group": {
+    "pad_uuids": [
+      "5b966e8c-4d00-4074-982e-a6e81e1b4924",
+      "e61ef8a7-d7d0-48b2-a465-6afdaa64ee8e",
+      "ea1953c6-f0d0-452d-bd00-92dbe872158f"
+    ],
+    "ref_pin": [
+      "C708.1",
+      "U502.AN20",
+      "U702.5"
+    ],
+    "populated_ref_pin": [
+      "C708.1",
+      "U502.AN20",
+      "U702.5"
+    ],
+    "physical_pad_shapes": 3
+  },
+  "ground_cluster_confirmed_refs": [
+    "U702.2",
+    "C707.2",
+    "C708.2",
+    "U502.AM18",
+    "U502.AN17"
+  ],
+  "ground_group_unique_ref_pin": 1888,
+  "ground_group_physical_shapes": 1894,
+  "disconnected_non_NC_nets": 98,
+  "disconnected_populated_non_NC_nets": 95,
+  "minimum_non_NC_cluster_joins": 1758,
+  "metadata": "No footprint, value, pin, symbol or placement changes. No authoritative metadata updates required.",
+  "limitation": "No added close-to-AN20 bypass. Existing C708-to-CPU copper path is17.357mm to C708.1 center. DC connectivity is improved; transient PDN and RTC startup remain unqualified."
+}

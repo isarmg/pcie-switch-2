@@ -1,0 +1,206 @@
+{
+  "electrical_sha256": "eb2d06d4ad8c26373c926ead0ed2cb2eb9a35dbdf529b4aa2084a979ad445f67",
+  "ballout_sha256": "6e50fc43a2e05ef9ea99a9cf75fd248f2f8ec812b499c594ee80b292c45af83e",
+  "electrical_sheet": "Power_Rail_DC_Specifications",
+  "rows": {
+    "164": [
+      null,
+      null,
+      "VCCRTC Supply DC Voltage and Current Specifications",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "165": [
+      null,
+      null,
+      "Symbol ",
+      "Parameter",
+      "Segment ",
+      "Minimum",
+      "Typical",
+      "Maximum",
+      "Unit ",
+      "Note1",
+      null
+    ],
+    "166": [
+      null,
+      null,
+      "VCCRTC",
+      "VCCRTC Power Rail Voltage",
+      "All ",
+      "\u2014",
+      1.5,
+      "\u2014",
+      "V ",
+      "2,3,4",
+      null
+    ],
+    "167": [
+      null,
+      null,
+      "TOB VCCRTC",
+      "Voltage Tolerance \n(AC,DC & ripple)",
+      "All ",
+      "\u2014",
+      "\u2014",
+      "\u00b15",
+      "%",
+      "2,3",
+      null
+    ],
+    "168": [
+      null,
+      null,
+      "IccMAX_VCCRTC",
+      "Maximum Current ",
+      "All ",
+      "\u2014",
+      "\u2014",
+      2,
+      "mA",
+      null,
+      null
+    ],
+    "169": [
+      null,
+      null,
+      "ICCMAX_G3_VCCRTC",
+      "VCCRTC Current in G3",
+      "All ",
+      "\u2014",
+      "\u2014",
+      6,
+      "\u00b5A",
+      null,
+      null
+    ],
+    "170": [
+      null,
+      null,
+      "Notes:",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "171": [
+      null,
+      null,
+      "1.",
+      "All specifications in this table are based on estimates and simulations or empirical data. These specifications will be updated with characterized data from silicon measurements at a later date. \n              ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "172": [
+      null,
+      null,
+      "2.",
+      "Included AC and DC error, where the AC noise is bandwidth limited to under 1 MHz, measured on package pins. \n              ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "173": [
+      null,
+      null,
+      "3.",
+      "No requirement on the breakdown of AC versus DC noise.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "174": [
+      null,
+      null,
+      "4.",
+      "The voltage specification requirements are measured on package pins as near as possible to the processor with an oscilloscope set to 100 MHz bandwidth, 1.5 pF maximum probe capacitance, and 1 MOhm minimum impedance. The maximum length of ground wire on the probe should be less than 5 mm. Ensure external noise from the system is not coupled into an oscilloscope probe. \n              ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "175": [
+      null,
+      null,
+      "5.",
+      "VCCRTC leakage current in G3 will meet the spec until the maximum voltage of 1.55 V, there will be a slight increase in G3 leakage current if VCCRTC reaches 1.575 V.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "ballout": [
+    {
+      "sheet": "Pinlist",
+      "row": 1390,
+      "values": [
+        "AN20",
+        "VCCRTC",
+        "PWR",
+        "Power",
+        7765.9,
+        -3847,
+        null
+      ]
+    }
+  ],
+  "IR_example": {
+    "length_mm": 17,
+    "width_mm": 0.075,
+    "copper_thickness_um_assumed": 18,
+    "copper_rho_ohm_m_20C": 1.724e-08,
+    "resistance_ohm": 0.21709629629629634,
+    "drop_mV_at_2mA": 0.4341925925925927,
+    "qualification": "Only 20C DC estimate; actual finished copper, temperature, return impedance, transient loading and bypass placement not certified."
+  },
+  "official_parent_pdf_url": "https://cdrdv2-public.intel.com/829568/829568-004.pdf",
+  "official_parent_pdf_sha256": "2cc842355a01e43a6898474bf5ea60ffac9ad3c51714bb6f917409e38fd867a0",
+  "attachment_origin": "Embedded Electrical_Specification and Ballout attachments extracted from the official Intel PDF; document footnote1 says estimates/simulation/empirical, pending later silicon characterization.",
+  "actual_candidate_DC_estimate": {
+    "lengths_mm_by_width_mm": {
+      "0.15": 3.32303202116118,
+      "0.075": 8.955709401196042,
+      "0.1": 5.0779844295693435
+    },
+    "assumed_finished_copper_um": 18,
+    "temperature_C": 20,
+    "resistance_ohm": 0.1842217072395265,
+    "drop_mV_at_2mA": 0.368443414479053,
+    "at_85C_copper_temperature_coefficient_0p00393": {
+      "resistance_ohm": 0.23128114235386352,
+      "drop_mV_at_2mA": 0.46256228470772703
+    },
+    "excludes": "Ground return resistance, LDO accuracy, actual foil thickness, AC impedance, load transient and launch/contact effects; not PDN signoff."
+  }
+}

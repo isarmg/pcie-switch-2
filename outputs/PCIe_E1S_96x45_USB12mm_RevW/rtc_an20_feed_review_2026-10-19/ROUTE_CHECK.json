@@ -1,0 +1,19 @@
+{
+  "new_copper_net_verified": true,
+  "length_mm": 17.35672585192656,
+  "crystal_courtyard": [
+    {
+      "ref": "Y701",
+      "minimum_trace_edge_to_court_bbox_mm": 0.13943006603649183
+    },
+    {
+      "ref": "Y702",
+      "minimum_trace_edge_to_court_bbox_mm": 57.384369639317086
+    }
+  ],
+  "new_segments_form_one_unbranched_chain": true,
+  "conditional_18um_20C_trace_R_ohm": 0.18422171437831608,
+  "conditional_2mA_drop_mV": 0.36844342875663216,
+  "U702_GND_to_near_CPU_ground_via_same_cluster": true,
+  "scope": "DC estimate excludes return, actual foil and temperature, regulator tolerance, AC/PDN/transient and missing CPU-local bypass."
+}

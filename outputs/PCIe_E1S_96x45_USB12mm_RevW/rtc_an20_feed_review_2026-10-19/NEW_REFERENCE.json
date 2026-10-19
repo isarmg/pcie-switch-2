@@ -1,0 +1,23 @@
+{
+  "routes": [
+    {
+      "net": "{slash}CPU_VCCRTC",
+      "layer": "B.Cu",
+      "track_area_mm2": 1.7133744283263244,
+      "length_mm": 17.35672585192656,
+      "references": [
+        {
+          "plane": "In30.Cu|{slash}P3V3_AUX",
+          "immediately_adjacent": true,
+          "missing_area_mm2": 0.12460299666715469
+        },
+        {
+          "plane": "In28.Cu|{slash}GND",
+          "immediately_adjacent": false,
+          "missing_area_mm2": 0.0
+        }
+      ]
+    }
+  ],
+  "scope": "Absolute new B local-LDO copper projections. In30AUX is immediately adjacent; In28GND is farther and not an adjacentGND substitute. Retained original via clearances may appear. No newCLKREQ trace is added. No analog/SI/PDN qualification."
+}

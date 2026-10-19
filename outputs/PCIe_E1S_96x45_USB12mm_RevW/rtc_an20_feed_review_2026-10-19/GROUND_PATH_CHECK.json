@@ -1,0 +1,13 @@
+{
+  "existing_In28_GND_plane_contains_anchor_to_anchor_centerline": true,
+  "start": [
+    65.1375,
+    42.225
+  ],
+  "end": [
+    58.631999,
+    30.6768
+  ],
+  "example_length_mm": 13.254526264676572,
+  "scope": "Geometric possible centerline with same-net via endpoint disks; not a measured current path or impedance model. In28 is not the immediately adjacent layer."
+}

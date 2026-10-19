@@ -73,7 +73,7 @@
     "step_native_roundtrip_passed": true,
     "protected_SSD_and_aux_and_reference_switch_power_copper_connected": true
   },
-  "source_board_sha256": "a34e841f2a74863e0b9467dd5d36f4acfa343592357ff8cc5074abcd419b4a30",
+  "source_board_sha256": "f7a11f8395f89a8cf62539c9f4f2b3c7325e8fc8373e40ed50a71f843a32ea32",
   "verified_utc_date": "2026-10-19",
   "native_kicad_version": "10.0.7",
   "schematic_logical_ref_pin_nodes": 6560,
@@ -81,7 +81,7 @@
   "non_NC_net_count": 927,
   "disconnected_non_NC_nets": 98,
   "disconnected_populated_non_NC_nets": 95,
-  "minimum_non_NC_cluster_joins": 1759,
+  "minimum_non_NC_cluster_joins": 1758,
   "schematic_parity_findings": 0,
   "derived_STEP_and_previews_status": "Historical outputs, not regenerated or revalidated for this board SHA.",
   "verification_scope": "Fresh native DRC, schematic parity/ERC, full-pad/old-cluster/copper-net regressions, source-netlist consistency, all-plane and functional-pad delta checks. No SI/PI/thermal/current/production qualification.",
@@ -118,5 +118,7 @@
   "C5112_C5113_C5114_max_body_assembly_clearance_qualified": false,
   "U702_local_input_output_bypass_topology_connected": true,
   "U702_stability_qualified": false,
-  "CPU_RTC_AN20_connected": false
+  "CPU_RTC_AN20_connected": true,
+  "CPU_RTC_AN20_local_bypass_connected": false,
+  "CPU_RTC_PDN_qualified": false
 }

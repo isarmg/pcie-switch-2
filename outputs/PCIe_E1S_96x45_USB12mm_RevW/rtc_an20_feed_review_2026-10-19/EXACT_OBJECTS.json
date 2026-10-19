@@ -1,0 +1,8 @@
+{
+  "removed_exact": 0,
+  "added_exact": 23,
+  "retained_nonzone_objects_unchanged": true,
+  "base_objects": 13482,
+  "final_objects": 13505,
+  "all_zone_fill_and_rule_blocks_unchanged": true
+}
