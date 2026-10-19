@@ -1,0 +1,26 @@
+[
+  {
+    "ref": "C701.2",
+    "uuid": "5623b2a2-8a6e-48bb-84b1-6e152b4bdb65",
+    "diameter": 0.2,
+    "drill": 0.1,
+    "top": "In28.Cu",
+    "bottom": "B.Cu"
+  },
+  {
+    "ref": "C5101.2",
+    "uuid": "5e903ee7-f674-4997-8880-50c4a802226b",
+    "diameter": 0.2,
+    "drill": 0.1,
+    "top": "In28.Cu",
+    "bottom": "B.Cu"
+  },
+  {
+    "ref": "C702.2",
+    "uuid": "fd8d230d-bb76-4915-a561-081fa502ba02",
+    "diameter": 0.2,
+    "drill": 0.1,
+    "top": "In28.Cu",
+    "bottom": "B.Cu"
+  }
+]
