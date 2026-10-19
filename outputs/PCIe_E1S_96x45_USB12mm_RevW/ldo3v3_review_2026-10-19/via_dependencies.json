@@ -1,0 +1,86 @@
+[
+  {
+    "uuid": "13a76c6a-b89e-4e82-9af1-3dc6ef85294d",
+    "xy": [
+      70.28,
+      35.8
+    ],
+    "net": "{slash}TBT_PD_UART_LOOP",
+    "type": 2,
+    "top": "In1.Cu",
+    "bottom": "B.Cu",
+    "diam": 0.2,
+    "drill": 0.1,
+    "tracks": [
+      {
+        "uuid": "c68a0ad9-6079-48a7-868b-4cc5ce86514d",
+        "layer": "In11.Cu",
+        "start": [
+          70.28,
+          35.8
+        ],
+        "end": [
+          74.0,
+          35.7
+        ],
+        "net": "{slash}TBT_PD_UART_LOOP"
+      }
+    ]
+  },
+  {
+    "uuid": "f2f59281-fe5d-4188-80b4-efb2dc41cae3",
+    "xy": [
+      70.28,
+      37.9
+    ],
+    "net": "{slash}TBT_PD_I2C2_SDA",
+    "type": 2,
+    "top": "In1.Cu",
+    "bottom": "B.Cu",
+    "diam": 0.2,
+    "drill": 0.1,
+    "tracks": [
+      {
+        "uuid": "3a8d3764-173a-432f-88df-e5c44669d42c",
+        "layer": "In15.Cu",
+        "start": [
+          70.3,
+          37.9
+        ],
+        "end": [
+          69.9,
+          36.6
+        ],
+        "net": "{slash}TBT_PD_I2C2_SDA"
+      }
+    ]
+  },
+  {
+    "uuid": "bc19c014-3b50-430d-b3dc-08aaade6ef46",
+    "xy": [
+      70.28,
+      36.85
+    ],
+    "net": "{slash}TBT_PD_BUSPOWERZ",
+    "type": 2,
+    "top": "In1.Cu",
+    "bottom": "B.Cu",
+    "diam": 0.2,
+    "drill": 0.1,
+    "tracks": [
+      {
+        "uuid": "a4aac4b3-1b3a-4c66-ba12-1dceed3e6e3d",
+        "layer": "In15.Cu",
+        "start": [
+          70.28,
+          36.85
+        ],
+        "end": [
+          73.9,
+          37.425
+        ],
+        "net": "{slash}TBT_PD_BUSPOWERZ"
+      }
+    ]
+  }
+]

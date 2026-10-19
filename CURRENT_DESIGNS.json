@@ -44,5 +44,6 @@
   "primary_E1S_disconnected_populated_non_NC_nets": 94,
   "primary_E1S_minimum_non_NC_cluster_joins": 1754,
   "primary_E1S_local_rework_boundaries": "outputs/PCIe_E1S_96x45_USB12mm_RevW/local_rework_boundaries_2026-10-19/README.md",
-  "primary_E1S_electrical_source_revision": "PD oscillator/address resistor ground completion; exact commit available from this file history"
+  "primary_E1S_electrical_source_revision": "PD oscillator/address resistor ground completion; exact commit available from this file history",
+  "primary_E1S_LDO3V3_planning_review": "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/README.md"
 }

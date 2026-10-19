@@ -1,0 +1,10 @@
+{
+  "selected_part_is_research_only": "GRM21BZ71E106KE15L",
+  "formal_C5111_remains": "10uF 6.3V / C_0603_1608Metric / generic height0.6mm; no selected MPN applied",
+  "local_primary_files": {
+    "spec0805.pdf": "6a7ea3792912e3f19d1d863d18b6bdcfa6a248800a8a9c11bbd88e003f8dca5e",
+    "GRM21BZ71E106KE15.pdf": "3e016f71bf33dfc44b88859bd90ce81d5901d7ada7fdc7a42dc0ce7ba8a3ffb6"
+  },
+  "independent_inspection": "Specification text and rendered typical curve reviewed; preferred 0805 max body2.2x1.45x1.45mm and10uF10%25V confirmed; curve is typical only. Independent live spec refetch403, not a fresh independent download.",
+  "guarantee_boundary": "Separate DC/AC/temperature curves cannot be multiplied into guaranteed joint minimum; actual effective5-25uF and shared VDDIO total remain unqualified."
+}

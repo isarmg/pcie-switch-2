@@ -1,0 +1,18 @@
+FP U503 TPS65982 / Type-C DFP / 5V3A source / NVM pending 76.0 35.2 0.0 B.Cu
+B1 {slash}TBT_PD_LDO_3V3 73.5 37.2 cluster 1 [('U503', 'B1')]
+G1 {slash}TBT_PD_LDO_3V3 73.5 34.7 cluster 1 [('U503', 'G1')]
+FP C5102 100nF 37.835 19.785 0.0 B.Cu
+1 {slash}TBT_PD_LDO_3V3 37.355 19.785 cluster 1 [('C5102', '1')]
+2 {slash}GND 38.315 19.785 cluster 1 [('C5102', '2')]
+FP C5111 10uF 6.3V 70.8 43.0 0.0 B.Cu
+1 {slash}TBT_PD_LDO_3V3 70.025 43.0 cluster 1 [('C5111', '1')]
+2 {slash}GND 71.575 43.0 cluster 1 [('C5111', '2')]
+FP U505 W25Q80DVSNJG / 3.3V 8Mbit NVM / image pending 52.724999 39.525 0.0 B.Cu
+1 {slash}TBT_PD_SPI_CS_N 50.249999 41.43 cluster 3 [('U505', '1'), ('R5142', '1'), ('U503', 'B3')]
+2 {slash}TBT_PD_SPI_MISO 50.249999 40.16 cluster 2 [('U505', '2'), ('U503', 'A4')]
+3 {slash}TBT_PD_FLASH_WP_N 50.249999 38.89 cluster 2 [('U505', '3'), ('R5144', '1')]
+4 {slash}GND 50.249999 37.62 cluster 1 [('U505', '4')]
+5 {slash}TBT_PD_SPI_MOSI 55.199999 37.62 cluster 2 [('U505', '5'), ('U503', 'B4')]
+6 {slash}TBT_PD_SPI_CLK 55.199999 38.89 cluster 2 [('U505', '6'), ('U503', 'A3')]
+7 {slash}TBT_PD_LDO_3V3 55.199999 40.16 cluster 1 [('U505', '7')]
+8 {slash}TBT_PD_LDO_3V3 55.199999 41.43 cluster 1 [('U505', '8')]

@@ -1,0 +1,36 @@
+{
+  "source_commit": "22600f2c9371c92934a09e4ea6fa4c95897cc041",
+  "source_board_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "records": {
+    "REJECTED_RIGHT_DRC.json": {
+      "sha256": "4841893496a169188c90165a015cc713b9f19678bd406b6915fe41bec8549f5e",
+      "errors": 10,
+      "warnings": 1,
+      "by_type": {
+        "shorting_items": 4,
+        "clearance": 4,
+        "solder_mask_bridge": 2
+      }
+    },
+    "REJECTED_STAGGERED_DRC.json": {
+      "sha256": "45e490c50c65dbf6242a68040b2c81e5969bd0bae71886fabc2cc8b550452d1c",
+      "errors": 3,
+      "warnings": 1,
+      "by_type": {
+        "clearance": 2,
+        "shorting_items": 1
+      }
+    },
+    "REJECTED_LEFT_DRC.json": {
+      "sha256": "8c09c3bc59d64b37bdddf506cbc60a4cbe9b4d50d07c6e9169905f08cc77a8f9",
+      "errors": 9,
+      "warnings": 1,
+      "by_type": {
+        "clearance": 3,
+        "tracks_crossing": 1,
+        "shorting_items": 5
+      }
+    }
+  },
+  "scope": "Read existing rejection reports; no new PCB candidate or accepted-layout DRC claimed. Right trial has 10 errors total, including 4 temporary B-layer preservation-lead errors, 6 internal-layer conflicts."
+}

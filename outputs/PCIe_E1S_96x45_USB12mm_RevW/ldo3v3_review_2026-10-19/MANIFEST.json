@@ -1,0 +1,22 @@
+{
+  "electrical_source_commit": "22600f2c9371c92934a09e4ea6fa4c95897cc041",
+  "pcb_unchanged_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "design_changes": false,
+  "files": {
+    "CURRENT_DESIGNS.json": "c58a2bf860d080bae1f49c3544b8d56c920a884fbc36cef8e7f4923f20566624",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/REJECTED_RIGHT_DRC.json": "4841893496a169188c90165a015cc713b9f19678bd406b6915fe41bec8549f5e",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/REJECTED_STAGGERED_DRC.json": "45e490c50c65dbf6242a68040b2c81e5969bd0bae71886fabc2cc8b550452d1c",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/MLCC_REVIEW.md": "b261854ac21e71156490809452a5ca256de626ce13fa68a50025081907ec6b05",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/REJECTION_CHECK.json": "83f418d41874603d73d4da47375f04b2e51badaff87f9000fc5656d7256514ba",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/LOAD_CHECK.json": "b08459e452abb2908d7dff22473cf476586d282d3b0f8d9ad0853f2cbffa3eb8",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/NATIVE_PACKAGE.txt": "38a1e7ac68e4a8870e359d807ece7728afc89905290928e5d3ee9836ec4f9fbf",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/LAYOUT_REVIEW.md": "3ee8311b4e266a5cf82b7d10fa19e6da388354fc16bccf139b2580bbbcd2050e",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/NATIVE_CLUSTERS.txt": "eaf4a847e99db5a5c05a87a027ff9b653bae17dcbf02f84ba509c561a1d4446a",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/REJECTED_LEFT_DRC.json": "8c09c3bc59d64b37bdddf506cbc60a4cbe9b4d50d07c6e9169905f08cc77a8f9",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/via_dependencies.json": "10cf8a13bbb5daa8f503feb1ba57b7268d072f0426d771cb33aa9bbc21eb10e1",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/README.md": "2965f78b96f384448f3488a2b574fdf8af5377c3510cae83e420cac3d3d655d2",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/LOAD_REVIEW.md": "cd88623be76fed9f244ad0e34a8e202650c5867af4d593538ebc623533b81ca5",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/NATIVE_REGION.txt": "70b35b62af0531cf719f1512745266b1130e1fb012f64e6ce545b907a39f5ce3",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/ldo3v3_review_2026-10-19/MLCC_CHECK.json": "0fe24f923145eb1ddd9c578e3a219d24f706de7c1cf330251ff2d954637c9bc0"
+  }
+}

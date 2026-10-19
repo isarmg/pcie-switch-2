@@ -1,0 +1,83 @@
+{
+  "board_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "native_domain_components": [
+    {
+      "ref": "R5142",
+      "value": "10k",
+      "DNP": false,
+      "pins": [
+        "2"
+      ]
+    },
+    {
+      "ref": "U503",
+      "value": "TPS65982 / Type-C DFP / 5V3A source / NVM pending",
+      "DNP": false,
+      "pins": [
+        "B1",
+        "G1"
+      ]
+    },
+    {
+      "ref": "R5144",
+      "value": "10k",
+      "DNP": false,
+      "pins": [
+        "2"
+      ]
+    },
+    {
+      "ref": "C5102",
+      "value": "100nF",
+      "DNP": false,
+      "pins": [
+        "1"
+      ]
+    },
+    {
+      "ref": "C5111",
+      "value": "10uF 6.3V",
+      "DNP": false,
+      "pins": [
+        "1"
+      ]
+    },
+    {
+      "ref": "R5154",
+      "value": "100k",
+      "DNP": false,
+      "pins": [
+        "2"
+      ]
+    },
+    {
+      "ref": "R5155",
+      "value": "10k",
+      "DNP": false,
+      "pins": [
+        "2"
+      ]
+    },
+    {
+      "ref": "R5156",
+      "value": "10k",
+      "DNP": false,
+      "pins": [
+        "2"
+      ]
+    },
+    {
+      "ref": "U505",
+      "value": "W25Q80DVSNJG / 3.3V 8Mbit NVM / image pending",
+      "DNP": false,
+      "pins": [
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "nominal_all_low_pullup_mA_at3p45V": 1.4145,
+  "flash_write_erase_max_mA": 25,
+  "known_nominal_screening_total_mA": 26.4145,
+  "scope": "Conditional static screening; tolerance, additional I/O dynamics, startup, regulation, thermal and internal max budget remain open. No claim total70mA qualification."
+}
