@@ -511,7 +511,7 @@ R732,DNP / filter link pending Intel PDG,R_0402_1005Metric,B,47.255,43.195,0.0,0
 R740,10k / Intel required external bias,R_0402_1005Metric,B,66.855,3.395,0.0,0.4,no
 R741,10k / Intel required external bias,R_0402_1005Metric,B,57.754999,6.845,0.0,0.4,no
 R742,10k / Intel required external bias,R_0402_1005Metric,B,66.855,5.695,0.0,0.4,no
-R743,10k / Intel required external bias,R_0402_1005Metric,B,13.004999,4.395,0.0,0.4,no
+R743,4.7k 1% / Intel WAKE external bias,R_0402_1005Metric,B,13.004999,4.395,0.0,0.4,no
 R744,10k / Intel required external bias,R_0402_1005Metric,B,57.754999,4.545,0.0,0.4,no
 R745,10k / Intel required external bias,R_0402_1005Metric,B,57.754999,5.695,0.0,0.4,no
 R746,10k / Intel required external bias,R_0402_1005Metric,B,59.805,1.095,0.0,0.4,no

@@ -1,0 +1,7 @@
+{
+  "pcb_sha256": "c784b3f7b12e3a96447e80ac354fb036aa9cc2e0856916bc10bbfda94359c388",
+  "exact_bytes_preserved_after_independent_refill": true,
+  "R743_value": "4.7k 1% / Intel WAKE external bias",
+  "WAKE_tracks": 0,
+  "physical_WAKE_connection_completed": false
+}

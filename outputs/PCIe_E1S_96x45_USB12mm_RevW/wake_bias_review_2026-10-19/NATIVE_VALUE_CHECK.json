@@ -1,0 +1,42 @@
+{
+  "base": {
+    "value": "10k / Intel required external bias",
+    "pads": 7118,
+    "tracks": 12822,
+    "zones": 32,
+    "wake_tracks": 0,
+    "wake_endpoints": [
+      [
+        "U502",
+        "P49",
+        "{slash}CPU_WAKE_N"
+      ],
+      [
+        "R743",
+        "1",
+        "{slash}CPU_WAKE_N"
+      ]
+    ]
+  },
+  "candidate": {
+    "value": "4.7k 1% / Intel WAKE external bias",
+    "pads": 7118,
+    "tracks": 12822,
+    "zones": 32,
+    "wake_tracks": 0,
+    "wake_endpoints": [
+      [
+        "U502",
+        "P49",
+        "{slash}CPU_WAKE_N"
+      ],
+      [
+        "R743",
+        "1",
+        "{slash}CPU_WAKE_N"
+      ]
+    ]
+  },
+  "physical_WAKE_disconnected": true,
+  "byte_guard_stronger_than_geometry_comparison": "Candidate PCB differs only in R743 Value string; all original copper, fills, pads incl NC, UUIDs and nets identical."
+}

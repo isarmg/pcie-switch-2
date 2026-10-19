@@ -1,0 +1,81 @@
+{
+  "official_url": "https://cdrdv2-public.intel.com/829568/829568-004.pdf",
+  "fresh_local_read_date": "2026-10-19",
+  "source_sha256": {
+    "intel.pdf": "2cc842355a01e43a6898474bf5ea60ffac9ad3c51714bb6f917409e38fd867a0",
+    "825698-001_Ballout.xlsx": "6e50fc43a2e05ef9ea99a9cf75fd248f2f8ec812b499c594ee80b292c45af83e",
+    "829568-001_GPIO.xlsx": "cfbca201257d9ea60547af618c54b0ac5bbed209cf398f6d748b4154c2d28e4b",
+    "829568-001_Electrical_Specification.xlsx": "eb2d06d4ad8c26373c926ead0ed2cb2eb9a35dbdf529b4aa2084a979ad445f67"
+  },
+  "pdf_sections": {
+    "11.9.1 p117-118": "WAKE I/OD, external pullup required; output in S0ix cannot wake S0ix",
+    "11.9.3 p118": "WAKE internal pull-down 15\u201340 kohm",
+    "11.9.4 p119": "Primary; Undriven reset/post/S4S5; footnote10 output HiZ. Footnote7 is not assigned to WAKE."
+  },
+  "electrical_row7": {
+    "E7": "GPP_V12/WAKE# (relevant entry only; other signals omitted)",
+    "F7": "1.8 V",
+    "G7": "0.65 X VCC",
+    "H7": "0.35 X VCC",
+    "I7": "- 5 uA (min)\n5 uA (max)",
+    "J7": "2 pF (max)",
+    "K7": "VCC - 0.45 (min)\nTest Load: 2 mA",
+    "L7": "0.45 (max)\nTest Load: -2 mA",
+    "M7": "0.7 kohm (min), 1 kohm (nom), 1.34 kohm (max)\n3.5 kohm (min), 5 kohm (nom), 6.52 kohm (max)\n14 kohm (min), 20 kohm (nom), 26 kohm (max)\nCondition: 0.3 X VCC / 0.5 X VCC / 0.7 X VCC",
+    "N7": "3.5 kohm (min), 5 kohm (nom), 6.52 kohm (max)\n14 kohm (min), 20 kohm (nom), 26 kohm (max)\nCondition: 0.3 X VCC / 0.5 X VCC / 0.7 X VCC"
+  },
+  "rail_rows": [
+    {
+      "C155": "VCCPRIM_1P8",
+      "D155": "Fixed 1.8V for primary well \n        ",
+      "E155": "All ",
+      "F155": "\u2014",
+      "G155": "1.8",
+      "H155": "\u2014",
+      "I155": "V ",
+      "J155": "2,3,4"
+    },
+    {
+      "C156": "TOB VCCPRIM_1P8",
+      "D156": "Voltage Tolerance \n(AC,DC & ripple)",
+      "E156": "All ",
+      "F156": "\u2014",
+      "G156": "\u2014",
+      "H156": "\u00b15",
+      "I156": "%",
+      "J156": "2,3"
+    }
+  ],
+  "gpio_row181": {
+    "A181": "GPP_V12/WAKE#",
+    "B181": "GPP_V12",
+    "C181": "0",
+    "D181": "70h",
+    "E181": "WAKE#",
+    "F181": "iod",
+    "S181": "Native F1/GP-Out",
+    "T181": "none",
+    "U181": "36",
+    "V181": "no",
+    "W181": "no",
+    "X181": "yes(1)",
+    "Y181": "Native F1: Z/GPIO: Z",
+    "Z181": "Native F1: Z/GPIO: L"
+  },
+  "assumptions": {
+    "VCC_min": 1.71,
+    "VCC_max": 1.89,
+    "RPD_min_ohm": 15000,
+    "RPU_tolerance": 0.01,
+    "leak_A_sink_high_source_low": 5e-06
+  },
+  "budget": {
+    "high_4k7_V": 1.280902162353775,
+    "VIH_V": 1.1115,
+    "margin_V": 0.16940216235377514,
+    "high_10k_assumed_1percent_V": 0.9917330677290835,
+    "sink_at_zero_A": 0.00041118955512572535,
+    "sink_at_VOL_045_A": 0.0003144777562862669
+  },
+  "conclusion": "Use 4.7k 1% to cover possible enabled 15k pull-down. Not Intel mandated resistor value, not proof 10k fails every phase. GPIO TERM none differs from PDF; no firmware disable assumed. Future external driver must sink >=0.412mA at VOL<=0.45V and satisfy off-state/domain conditions. WAKE physical disconnect and missing qualified supply remain."
+}

@@ -15951,7 +15951,7 @@
   },
   {
     "ref": "R743",
-    "value": "10k / Intel required external bias",
+    "value": "4.7k 1% / Intel WAKE external bias",
     "footprint": "R_0402_1005Metric",
     "pinmap": {
       "1": "/CPU_WAKE_N",

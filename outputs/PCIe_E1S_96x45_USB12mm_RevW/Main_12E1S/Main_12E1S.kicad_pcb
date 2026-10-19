@@ -123256,7 +123256,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k / Intel required external bias"
+		(property "Value" "4.7k 1% / Intel WAKE external bias"
 			(at 0 -1.17 180)
 			(layer "B.Fab")
 			(hide yes)

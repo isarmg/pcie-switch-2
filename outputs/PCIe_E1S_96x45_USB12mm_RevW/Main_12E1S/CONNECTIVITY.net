@@ -13028,7 +13028,7 @@
       </units>
     </comp>
     <comp ref="R743">
-      <value>10k / Intel required external bias</value>
+      <value>4.7k 1% / Intel WAKE external bias</value>
       <footprint>Local:R_0402_1005Metric</footprint>
       <fields>
         <field name="Footprint">Local:R_0402_1005Metric</field>
@@ -27031,7 +27031,7 @@
     <libpart lib="Local" part="PART_R743">
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">10k / Intel required external bias</field>
+        <field name="Value">4.7k 1% / Intel WAKE external bias</field>
         <field name="Footprint">Local:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>

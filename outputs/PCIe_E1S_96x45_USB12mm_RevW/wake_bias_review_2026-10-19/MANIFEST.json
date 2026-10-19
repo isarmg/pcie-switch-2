@@ -1,0 +1,21 @@
+{
+  "status": "INDEPENDENTLY_CHECKED_VALUE_ONLY_BIAS_CORRECTION",
+  "production_ready": false,
+  "sha256": {
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/COMPONENTS.json": "a499f8224111752bd91abbd24ce0ca9dd7644e0cc48cf5ff874cb3eb894933ed",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Main_12E1S.kicad_pcb": "c784b3f7b12e3a96447e80ac354fb036aa9cc2e0856916bc10bbfda94359c388",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Connectivity_40.kicad_sch": "0385f75d2f2d1fea25f1ed1db09824632a8908642b7e425b8729d19dcae08a74",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/Local.kicad_sym": "905dc385751e0535a8fc0831a61747478599d7dd5525747ed1791a7e40f4252f",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/Main_12E1S/CONNECTIVITY.net": "7dad806f479cab902fb58bf21adcee99d45d0d468f4e4237df7bc868fdcb3772",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/BOM.csv": "3beb169dbca81c26f165ce0723da0905b4ad2d21150156aed94daa1bd1e6ac40",
+    "scripts/revW/wake_bias_value/replay.py": "26a5123a9e78e92d9914a7eaf2e60bab28ed393dacb2e9d893d487378d805267",
+    "scripts/revW/wake_bias_value/GUARD.json": "208ab7c7a34d10230ca411607f161d872b0654fc000bb3a8fdb1fb4b85dbf8e1",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/wake_bias_review_2026-10-19/DRC.json": "5a3a74e27771b196fad5465496827acb191440fd7281a8d0049d3804a057bf1c",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/wake_bias_review_2026-10-19/ERC.json": "c7ae24e37ac2862cb49f3a220fa8d3a07fd56dcbcec9e0a384dc1fb04dde436f",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/wake_bias_review_2026-10-19/REFILL_CHECK.json": "e68db3766c988e4fa4ead2e873c027cf69dbb660cb46e4ee993681894e253743",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/wake_bias_review_2026-10-19/NATIVE_VALUE_CHECK.json": "8ca2c69b6fb9653b4f552356a7ffe69e7fd4b36a6f7ce3451ce0688d025cf4b8",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/wake_bias_review_2026-10-19/OFFICIAL_BUDGET.json": "6637fe4a3e842909eff33dc683fcd58c6173d57d37b3515a5463ea77e1a17bd0",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/wake_bias_review_2026-10-19/README.md": "ce6d80f6b143d992112460497d3165e4fffa501d374942841eeafa8f7a1e8dbc",
+    "outputs/PCIe_E1S_96x45_USB12mm_RevW/wake_bias_review_2026-10-19/GUARD.json": "208ab7c7a34d10230ca411607f161d872b0654fc000bb3a8fdb1fb4b85dbf8e1"
+  }
+}

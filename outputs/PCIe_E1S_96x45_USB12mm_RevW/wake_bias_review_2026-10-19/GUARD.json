@@ -1,0 +1,45 @@
+{
+  "baseline_commit": "b9e50db1ec0d8288818df72dc8847c6aee9220dd",
+  "old_value": "10k / Intel required external bias",
+  "new_value": "4.7k 1% / Intel WAKE external bias",
+  "files": [
+    {
+      "path": "Main_12E1S/COMPONENTS.json",
+      "before_sha256": "ae538b52972b78700084571aa286c29cf2cccc9ca52ae37a65287f9c67975b9a",
+      "after_sha256": "a499f8224111752bd91abbd24ce0ca9dd7644e0cc48cf5ff874cb3eb894933ed",
+      "substitutions": 1
+    },
+    {
+      "path": "Main_12E1S/Main_12E1S.kicad_pcb",
+      "before_sha256": "85925cdde82c42707f076a2f72fd9e6779cc3108ed5079a6396b24edfbc7b9bb",
+      "after_sha256": "c784b3f7b12e3a96447e80ac354fb036aa9cc2e0856916bc10bbfda94359c388",
+      "substitutions": 1
+    },
+    {
+      "path": "Main_12E1S/Connectivity_40.kicad_sch",
+      "before_sha256": "e392cee54c31ddd6a9a427c57cc27ba9f7edd78f2bfaf879f712cab5f267c76d",
+      "after_sha256": "0385f75d2f2d1fea25f1ed1db09824632a8908642b7e425b8729d19dcae08a74",
+      "substitutions": 2
+    },
+    {
+      "path": "Main_12E1S/Local.kicad_sym",
+      "before_sha256": "2e0366fab6914eeabc03831cbd440b720a47090253d971d8fd9dc70b6c829173",
+      "after_sha256": "905dc385751e0535a8fc0831a61747478599d7dd5525747ed1791a7e40f4252f",
+      "substitutions": 1
+    },
+    {
+      "path": "Main_12E1S/CONNECTIVITY.net",
+      "before_sha256": "16f3622dc534b25da72c8e74465fc95ee305bab02fe50c04397b1efeb284f3a0",
+      "after_sha256": "7dad806f479cab902fb58bf21adcee99d45d0d468f4e4237df7bc868fdcb3772",
+      "substitutions": 2
+    },
+    {
+      "path": "BOM.csv",
+      "before_sha256": "857fd1451bc24dd6d44967f70f18fd736bdb2e5cf7476769989807f9fa2cb145",
+      "after_sha256": "3beb169dbca81c26f165ce0723da0905b4ad2d21150156aed94daa1bd1e6ac40",
+      "substitutions": 1
+    }
+  ],
+  "only_value_string_changed": true,
+  "copper_geometry_zones_pad_nets_uuids_unchanged": true
+}
