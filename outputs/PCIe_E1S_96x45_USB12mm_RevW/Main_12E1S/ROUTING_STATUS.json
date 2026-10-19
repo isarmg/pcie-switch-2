@@ -73,7 +73,7 @@
     "step_native_roundtrip_passed": true,
     "protected_SSD_and_aux_and_reference_switch_power_copper_connected": true
   },
-  "source_board_sha256": "e80ee3c6ad1aaa93b5d93feca7fedda861da20c9d7c06eab80b9a04536464d56",
+  "source_board_sha256": "e6740d92522d8ed735b19f9ff00cd6af5a69bb5190446667ebbe2cfcf9010c16",
   "verified_utc_date": "2026-10-19",
   "native_kicad_version": "10.0.7",
   "schematic_logical_ref_pin_nodes": 6560,
@@ -81,7 +81,7 @@
   "non_NC_net_count": 927,
   "disconnected_non_NC_nets": 101,
   "disconnected_populated_non_NC_nets": 98,
-  "minimum_non_NC_cluster_joins": 1769,
+  "minimum_non_NC_cluster_joins": 1767,
   "schematic_parity_findings": 0,
   "derived_STEP_and_previews_status": "Historical outputs, not regenerated or revalidated for this board SHA.",
   "verification_scope": "Fresh native DRC, schematic parity/ERC, full-pad/old-cluster/copper-net regressions, source-netlist consistency, all-plane and functional-pad delta checks. No SI/PI/thermal/current/production qualification.",
@@ -91,7 +91,7 @@
   "U606_host_CS_U1_AJ32_connected": false,
   "U606_SPI_path_complete": false,
   "U606_local_high_frequency_decoupling_qualified": false,
-  "GND_physical_components": 138,
+  "GND_physical_components": 136,
   "R716_ground_connected_to_main_GND": true,
   "C5159_ground_connected_to_main_GND": true,
   "C5101_ground_connected_to_main_GND": true,
@@ -99,5 +99,8 @@
   "C701_ground_connected_to_main_GND": true,
   "C701_power_pad_physically_connected": false,
   "C702_ground_connected_to_main_GND": true,
-  "C702_power_pad_physically_connected": false
+  "C702_power_pad_physically_connected": false,
+  "C5155_CT_ground_connected": true,
+  "C5116_SS_ground_connected": true,
+  "system_reset_and_PD_timing_qualified": false
 }

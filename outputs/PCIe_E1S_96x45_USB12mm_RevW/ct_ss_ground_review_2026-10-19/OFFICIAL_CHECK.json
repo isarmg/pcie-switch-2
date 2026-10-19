@@ -1,0 +1,29 @@
+{
+  "retrieved_date": "2026-10-19",
+  "sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "revision": "SBVS050N August2026",
+      "pages": [
+        4,
+        11
+      ],
+      "basis": "SOT23 CT4 ground referenced capacitor >=100pF. Nominal 10nF yields delay (10/175+0.0005)s = 57.642857ms; tolerance/leakage not qualified."
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps65982.pdf",
+      "revision": "SLVSD02E August2021",
+      "pages": [
+        8,
+        91
+      ],
+      "basis": "H7 SS capacitor to ground; recommended CSS220nF/6.3V. Existing value220nF, exact installed rating/MPN unresolved; no system soft-start qualification."
+    }
+  ],
+  "downloaded_hashes": {
+    "tps65982.pdf": "b3d987dc6610f3f052e0062d73c2cd6e0f04b0fbd27f931ac34712f208f5914f",
+    "tps3808.pdf": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed",
+    "tps65982.txt": "9e34edf3e33e5c02adb4ea9e9a4e6e2e086e3123561807df15047bd2a9211cfe",
+    "tps3808.txt": "c549b4bd508eeadacbe8a1bb064a967d72d01f49fccb1928fbfd5972b1df21a0"
+  }
+}

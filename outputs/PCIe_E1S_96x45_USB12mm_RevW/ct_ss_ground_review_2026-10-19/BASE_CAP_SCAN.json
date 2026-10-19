@@ -1,0 +1,2960 @@
+[
+  {
+    "ref": "C5153",
+    "value": "20pF C0G",
+    "layer": "B.Cu",
+    "xy": [
+      70.78,
+      2.4
+    ],
+    "power_net": [
+      "{slash}TBT_XTAL_IN"
+    ],
+    "power_pads": [
+      "C5153.1",
+      "Y501.1",
+      "U501.D22"
+    ],
+    "near": [
+      {
+        "uuid": "9c10b506-01e1-4522-8e85-da516af76098",
+        "xy": [
+          71.25,
+          1.75
+        ],
+        "distance": 0.8021221852062184
+      },
+      {
+        "uuid": "0278bc0a-11a7-4b15-b3e0-255585fb419d",
+        "xy": [
+          72.75,
+          3.25
+        ],
+        "distance": 2.1455535416297575
+      },
+      {
+        "uuid": "3180a7f1-d40c-46e8-a7a7-d2f1992d1614",
+        "xy": [
+          72.4,
+          3.85
+        ],
+        "distance": 2.1741435095227764
+      }
+    ]
+  },
+  {
+    "ref": "C5154",
+    "value": "20pF C0G",
+    "layer": "B.Cu",
+    "xy": [
+      70.78,
+      4.4
+    ],
+    "power_net": [
+      "{slash}TBT_XTAL_OUT"
+    ],
+    "power_pads": [
+      "C5154.1",
+      "U501.D23",
+      "Y501.3"
+    ],
+    "near": [
+      {
+        "uuid": "3180a7f1-d40c-46e8-a7a7-d2f1992d1614",
+        "xy": [
+          72.4,
+          3.85
+        ],
+        "distance": 1.7108185175523485
+      },
+      {
+        "uuid": "0278bc0a-11a7-4b15-b3e0-255585fb419d",
+        "xy": [
+          72.75,
+          3.25
+        ],
+        "distance": 2.281096227694044
+      },
+      {
+        "uuid": "638ac707-7728-462d-b382-3802a1690a47",
+        "xy": [
+          70.5,
+          6.84
+        ],
+        "distance": 2.4560130292814
+      }
+    ]
+  },
+  {
+    "ref": "C5155",
+    "value": "10nF / approx 57.6ms",
+    "layer": "B.Cu",
+    "xy": [
+      71.08,
+      32.6
+    ],
+    "power_net": [
+      "{slash}TBT_RESET_CT"
+    ],
+    "power_pads": [
+      "C5155.1",
+      "U510.4"
+    ],
+    "near": [
+      {
+        "uuid": "c95eff33-c645-4590-8b6b-2a9ea5d28d4d",
+        "xy": [
+          71.1,
+          30.7375
+        ],
+        "distance": 1.862607379454941
+      },
+      {
+        "uuid": "0dd6b613-002b-4bc4-9dfe-51d3edfc8050",
+        "xy": [
+          71.1,
+          30.7375
+        ],
+        "distance": 1.862607379454941
+      },
+      {
+        "uuid": "be9036c0-5e8d-4fc1-b2b6-786dd0b2afde",
+        "xy": [
+          73.5,
+          32.7
+        ],
+        "distance": 2.422065234464177
+      }
+    ]
+  },
+  {
+    "ref": "C5116",
+    "value": "220nF",
+    "layer": "B.Cu",
+    "xy": [
+      80.1,
+      36.52
+    ],
+    "power_net": [
+      "{slash}TBT_PD_SS"
+    ],
+    "power_pads": [
+      "C5116.1",
+      "U503.H7"
+    ],
+    "near": [
+      {
+        "uuid": "a2256d2e-013c-435e-b0a9-aa3b7a0a96d9",
+        "xy": [
+          80.1,
+          34.52
+        ],
+        "distance": 2.0
+      },
+      {
+        "uuid": "2b93a2dc-9fdb-4cd4-85e2-953ef5c6a09c",
+        "xy": [
+          80.1,
+          34.52
+        ],
+        "distance": 2.0
+      },
+      {
+        "uuid": "d0dbb699-3b85-4866-9922-680d9cee50f6",
+        "xy": [
+          77.0,
+          36.2
+        ],
+        "distance": 3.1164723647098116
+      }
+    ]
+  },
+  {
+    "ref": "C916",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      26.029998,
+      3.005
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_VNNAONLV"
+    ],
+    "power_pads": [
+      "C916.1"
+    ],
+    "near": [
+      {
+        "uuid": "155ce24d-cce2-4569-9bb1-0330bd874cb1",
+        "xy": [
+          26.25,
+          3.75
+        ],
+        "distance": 0.77680491759772
+      },
+      {
+        "uuid": "b78e917b-5fd0-4d20-91a3-6b195fed7b7a",
+        "xy": [
+          29.18,
+          1.355
+        ],
+        "distance": 3.5559826490021016
+      },
+      {
+        "uuid": "7cc00c07-cf52-4776-8c9f-2d3734cde471",
+        "xy": [
+          29.18,
+          1.355
+        ],
+        "distance": 3.5559826490021016
+      }
+    ]
+  },
+  {
+    "ref": "C966",
+    "value": "1uF / filter value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      23.085
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_1P8_FLTRA_IN"
+    ],
+    "power_pads": [
+      "C966.1"
+    ],
+    "near": [
+      {
+        "uuid": "42dd280d-22e1-4a41-9bcd-eea86679ef6b",
+        "xy": [
+          38.315,
+          24.185
+        ],
+        "distance": 1.0999999999999979
+      },
+      {
+        "uuid": "7bfb4566-e4a5-400b-9054-3a1fc2122a4a",
+        "xy": [
+          38.315,
+          24.185
+        ],
+        "distance": 1.0999999999999979
+      },
+      {
+        "uuid": "0b574127-8636-47d0-a949-58e00be3432c",
+        "xy": [
+          38.315,
+          21.985
+        ],
+        "distance": 1.1000000000000014
+      }
+    ]
+  },
+  {
+    "ref": "C923",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      22.235
+    ],
+    "power_net": [
+      "{slash}CPU_VCC_ECORE"
+    ],
+    "power_pads": [
+      "C923.1"
+    ],
+    "near": [
+      {
+        "uuid": "5e903ee7-f674-4997-8880-50c4a802226b",
+        "xy": [
+          2.015,
+          21.135
+        ],
+        "distance": 1.0999999999999979
+      },
+      {
+        "uuid": "de44cfda-3a9c-448f-98ee-e1ec87592e72",
+        "xy": [
+          2.015,
+          21.135
+        ],
+        "distance": 1.0999999999999979
+      },
+      {
+        "uuid": "d7aa382b-a9eb-49aa-9733-00626c1ad842",
+        "xy": [
+          2.015,
+          20.035
+        ],
+        "distance": 2.1999999999999993
+      }
+    ]
+  },
+  {
+    "ref": "C933",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      40.115,
+      5.485
+    ],
+    "power_net": [
+      "{slash}CPU_VDDRIO"
+    ],
+    "power_pads": [
+      "C933.1"
+    ],
+    "near": [
+      {
+        "uuid": "d1ede396-5d2e-4346-9ceb-9cb564a65884",
+        "xy": [
+          40.115,
+          4.385
+        ],
+        "distance": 1.1000000000000005
+      },
+      {
+        "uuid": "8241611e-1627-4e06-8082-c01dc3a1509a",
+        "xy": [
+          40.115,
+          4.385
+        ],
+        "distance": 1.1000000000000005
+      },
+      {
+        "uuid": "0e821235-bbd0-4a28-8ad5-e0a2352c0561",
+        "xy": [
+          41.450006,
+          6.399996
+        ],
+        "distance": 1.6184741888741998
+      }
+    ]
+  },
+  {
+    "ref": "C927",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      8.785
+    ],
+    "power_net": [
+      "{slash}CPU_VDD2H"
+    ],
+    "power_pads": [
+      "C927.1"
+    ],
+    "near": [
+      {
+        "uuid": "7b3584b3-0a8b-4298-9266-ae8b8282cb58",
+        "xy": [
+          38.315,
+          7.685
+        ],
+        "distance": 1.1000000000000005
+      },
+      {
+        "uuid": "4ad067e9-d23c-470b-9595-4d366c54d99d",
+        "xy": [
+          38.315,
+          7.685
+        ],
+        "distance": 1.1000000000000005
+      },
+      {
+        "uuid": "1ed31304-c03f-49ca-b456-ebd071753f4c",
+        "xy": [
+          38.315,
+          6.585
+        ],
+        "distance": 2.2
+      }
+    ]
+  },
+  {
+    "ref": "C917",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      29.935
+    ],
+    "power_net": [
+      "{slash}CPU_VCCRTC"
+    ],
+    "power_pads": [
+      "C917.1"
+    ],
+    "near": [
+      {
+        "uuid": "fd8d230d-bb76-4915-a561-081fa502ba02",
+        "xy": [
+          2.015,
+          31.035
+        ],
+        "distance": 1.1000000000000014
+      },
+      {
+        "uuid": "c4492e26-481f-4b5e-b9f4-0660e4510f62",
+        "xy": [
+          2.015,
+          31.035
+        ],
+        "distance": 1.1000000000000014
+      },
+      {
+        "uuid": "1d91ee27-836e-494d-9ac2-e084f196ef7e",
+        "xy": [
+          2.015,
+          32.134999
+        ],
+        "distance": 2.199999000000002
+      }
+    ]
+  },
+  {
+    "ref": "C909",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      25.535
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_3P3"
+    ],
+    "power_pads": [
+      "C909.1"
+    ],
+    "near": [
+      {
+        "uuid": "88270916-98de-4357-be2f-fe2d8789fb04",
+        "xy": [
+          2.015,
+          26.635
+        ],
+        "distance": 1.1000000000000014
+      },
+      {
+        "uuid": "9c597cc1-eac0-4bdc-a44f-18b91165e79a",
+        "xy": [
+          2.015,
+          26.635
+        ],
+        "distance": 1.1000000000000014
+      },
+      {
+        "uuid": "b305fe62-6770-4ef2-a315-5674de79a5a7",
+        "xy": [
+          2.015,
+          27.735
+        ],
+        "distance": 2.1999999999999993
+      }
+    ]
+  },
+  {
+    "ref": "C5131",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      18.935
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_ANA_DPSNK"
+    ],
+    "power_pads": [
+      "C5131.1"
+    ],
+    "near": [
+      {
+        "uuid": "d7aa382b-a9eb-49aa-9733-00626c1ad842",
+        "xy": [
+          2.015,
+          20.035
+        ],
+        "distance": 1.1000000000000014
+      },
+      {
+        "uuid": "5e903ee7-f674-4997-8880-50c4a802226b",
+        "xy": [
+          2.015,
+          21.135
+        ],
+        "distance": 2.200000000000003
+      },
+      {
+        "uuid": "de44cfda-3a9c-448f-98ee-e1ec87592e72",
+        "xy": [
+          2.015,
+          21.135
+        ],
+        "distance": 2.200000000000003
+      }
+    ]
+  },
+  {
+    "ref": "C903",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      26.385
+    ],
+    "power_net": [
+      "{slash}CPU_VCCGT"
+    ],
+    "power_pads": [
+      "C903.1"
+    ],
+    "near": [
+      {
+        "uuid": "e33584a4-1459-450b-a9a0-27b5638edb20",
+        "xy": [
+          38.315,
+          25.285
+        ],
+        "distance": 1.1000000000000014
+      },
+      {
+        "uuid": "eb832183-0ced-4d9f-adbc-7542874aaf0d",
+        "xy": [
+          38.315,
+          25.285
+        ],
+        "distance": 1.1000000000000014
+      },
+      {
+        "uuid": "42dd280d-22e1-4a41-9bcd-eea86679ef6b",
+        "xy": [
+          38.315,
+          24.185
+        ],
+        "distance": 2.200000000000003
+      }
+    ]
+  },
+  {
+    "ref": "C919",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      28.835
+    ],
+    "power_net": [
+      "{slash}CPU_VCCSA"
+    ],
+    "power_pads": [
+      "C919.1"
+    ],
+    "near": [
+      {
+        "uuid": "b305fe62-6770-4ef2-a315-5674de79a5a7",
+        "xy": [
+          2.015,
+          27.735
+        ],
+        "distance": 1.1000000000000014
+      },
+      {
+        "uuid": "aab70f6b-0a68-4715-a70d-70ae2be2fecc",
+        "xy": [
+          2.015,
+          27.735
+        ],
+        "distance": 1.1000000000000014
+      },
+      {
+        "uuid": "88270916-98de-4357-be2f-fe2d8789fb04",
+        "xy": [
+          2.015,
+          26.635
+        ],
+        "distance": 2.1999999999999993
+      }
+    ]
+  },
+  {
+    "ref": "C918",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      32.33,
+      1.355
+    ],
+    "power_net": [
+      "{slash}CPU_VCCRTC"
+    ],
+    "power_pads": [
+      "C918.1"
+    ],
+    "near": [
+      {
+        "uuid": "27ed8ce8-4aea-4dcd-9f43-6235cf562f15",
+        "xy": [
+          32.0,
+          2.5
+        ],
+        "distance": 1.1916060590648232
+      },
+      {
+        "uuid": "559fe13f-8c3b-4301-a255-aa047df3bac7",
+        "xy": [
+          32.33,
+          3.005
+        ],
+        "distance": 1.65
+      },
+      {
+        "uuid": "4dfb1b09-7490-41ce-8ab8-3c63e77d4af9",
+        "xy": [
+          32.0,
+          3.75
+        ],
+        "distance": 2.4176279697256975
+      }
+    ]
+  },
+  {
+    "ref": "C957",
+    "value": "4.7uF / EDGECAP value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      19.73,
+      1.355
+    ],
+    "power_net": [
+      "{slash}CPU_VDD2L_EDGECAP_0"
+    ],
+    "power_pads": [
+      "C957.1"
+    ],
+    "near": [
+      {
+        "uuid": "5a859f70-9641-4952-a1bb-95f3c8db1136",
+        "xy": [
+          20.25,
+          2.5
+        ],
+        "distance": 1.2575472158133862
+      },
+      {
+        "uuid": "b0bcd6b6-f8c7-41d9-ba18-60075b063fee",
+        "xy": [
+          19.73,
+          3.005
+        ],
+        "distance": 1.65
+      },
+      {
+        "uuid": "70bcdd06-aac4-4a3a-9210-96fc2c7fe173",
+        "xy": [
+          20.25,
+          3.75
+        ],
+        "distance": 2.450800889505306
+      }
+    ]
+  },
+  {
+    "ref": "C5151",
+    "value": "22uF 6.3V / SVR output provisional",
+    "layer": "B.Cu",
+    "xy": [
+      76.775,
+      18.25
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_SVR"
+    ],
+    "power_pads": [
+      "C5151.1"
+    ],
+    "near": [
+      {
+        "uuid": "6a4cd418-a931-4199-a5f3-06974f87334b",
+        "xy": [
+          76.94,
+          16.96
+        ],
+        "distance": 1.3005095155361206
+      },
+      {
+        "uuid": "dd99b2ef-be6e-4d0c-a0b8-6470075cb0f6",
+        "xy": [
+          76.94,
+          16.96
+        ],
+        "distance": 1.3005095155361206
+      },
+      {
+        "uuid": "65bf8a1b-7138-45fa-90a6-7dcee845c71b",
+        "xy": [
+          76.02,
+          16.96
+        ],
+        "distance": 1.4946989663474088
+      }
+    ]
+  },
+  {
+    "ref": "C960",
+    "value": "4.7uF / EDGECAP value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      29.18,
+      3.005
+    ],
+    "power_net": [
+      "{slash}CPU_VDDQ_EDGECAP_1"
+    ],
+    "power_pads": [
+      "C960.1"
+    ],
+    "near": [
+      {
+        "uuid": "b78e917b-5fd0-4d20-91a3-6b195fed7b7a",
+        "xy": [
+          29.18,
+          1.355
+        ],
+        "distance": 1.65
+      },
+      {
+        "uuid": "7cc00c07-cf52-4776-8c9f-2d3734cde471",
+        "xy": [
+          29.18,
+          1.355
+        ],
+        "distance": 1.65
+      },
+      {
+        "uuid": "27ed8ce8-4aea-4dcd-9f43-6235cf562f15",
+        "xy": [
+          32.0,
+          2.5
+        ],
+        "distance": 2.8648603805421304
+      }
+    ]
+  },
+  {
+    "ref": "C5111",
+    "value": "10uF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      71.575,
+      43.0
+    ],
+    "power_net": [
+      "{slash}TBT_PD_LDO_3V3"
+    ],
+    "power_pads": [
+      "C5111.1"
+    ],
+    "near": [
+      {
+        "uuid": "e35328ac-26ac-4c4c-95f9-1d182f59ee68",
+        "xy": [
+          71.575,
+          41.0
+        ],
+        "distance": 2.0
+      },
+      {
+        "uuid": "f403010a-cff7-4daa-bc97-489987a1310b",
+        "xy": [
+          71.575,
+          41.0
+        ],
+        "distance": 2.0
+      },
+      {
+        "uuid": "5641396e-283d-44c9-b429-b5126d55047e",
+        "xy": [
+          73.5,
+          37.7
+        ],
+        "distance": 5.63876094545601
+      }
+    ]
+  },
+  {
+    "ref": "C920",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      38.63,
+      3.005
+    ],
+    "power_net": [
+      "{slash}CPU_VCCSA"
+    ],
+    "power_pads": [
+      "C920.1"
+    ],
+    "near": [
+      {
+        "uuid": "d1ede396-5d2e-4346-9ceb-9cb564a65884",
+        "xy": [
+          40.115,
+          4.385
+        ],
+        "distance": 2.027221004232148
+      },
+      {
+        "uuid": "8241611e-1627-4e06-8082-c01dc3a1509a",
+        "xy": [
+          40.115,
+          4.385
+        ],
+        "distance": 2.027221004232148
+      },
+      {
+        "uuid": "c41075ee-a6a0-4a3f-b6e4-1905547f84a9",
+        "xy": [
+          41.450006,
+          2.800004
+        ],
+        "distance": 2.8274471171097075
+      }
+    ]
+  },
+  {
+    "ref": "C5115",
+    "value": "1uF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      80.1,
+      38.52
+    ],
+    "power_net": [
+      "{slash}TBT_PD_VOUT_3V3"
+    ],
+    "power_pads": [
+      "C5115.1"
+    ],
+    "near": [
+      {
+        "uuid": "6f717d0f-c4eb-41ce-9bf4-cdfb897df268",
+        "xy": [
+          80.98,
+          40.5
+        ],
+        "distance": 2.166748716395144
+      },
+      {
+        "uuid": "7dcfe0fd-faca-4827-b02f-da629620a5d6",
+        "xy": [
+          80.98,
+          40.5
+        ],
+        "distance": 2.166748716395144
+      },
+      {
+        "uuid": "f09230cd-454f-4559-817f-53725d89f184",
+        "xy": [
+          77.0,
+          37.7
+        ],
+        "distance": 3.206618156251219
+      }
+    ]
+  },
+  {
+    "ref": "C907",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      23.335
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_1P8"
+    ],
+    "power_pads": [
+      "C907.1"
+    ],
+    "near": [
+      {
+        "uuid": "5e903ee7-f674-4997-8880-50c4a802226b",
+        "xy": [
+          2.015,
+          21.135
+        ],
+        "distance": 2.1999999999999993
+      },
+      {
+        "uuid": "de44cfda-3a9c-448f-98ee-e1ec87592e72",
+        "xy": [
+          2.015,
+          21.135
+        ],
+        "distance": 2.1999999999999993
+      },
+      {
+        "uuid": "04fb9a89-c982-4623-a742-3a42d28c3729",
+        "xy": [
+          4.5,
+          23.0
+        ],
+        "distance": 2.5074788134698167
+      }
+    ]
+  },
+  {
+    "ref": "C5102",
+    "value": "100nF",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      19.785
+    ],
+    "power_net": [
+      "{slash}TBT_PD_LDO_3V3"
+    ],
+    "power_pads": [
+      "C5102.1"
+    ],
+    "near": [
+      {
+        "uuid": "0b574127-8636-47d0-a949-58e00be3432c",
+        "xy": [
+          38.315,
+          21.985
+        ],
+        "distance": 2.1999999999999993
+      },
+      {
+        "uuid": "d50b11e2-f8f4-41ab-aa3d-d96421fd981d",
+        "xy": [
+          38.315,
+          21.985
+        ],
+        "distance": 2.1999999999999993
+      },
+      {
+        "uuid": "92d8755d-4150-4f67-8dfa-12348ad7e84a",
+        "xy": [
+          41.386794,
+          19.304
+        ],
+        "distance": 3.1092248838635053
+      }
+    ]
+  },
+  {
+    "ref": "C968",
+    "value": "1uF / filter value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      30.785
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_VNNAON_FLTR"
+    ],
+    "power_pads": [
+      "C968.1"
+    ],
+    "near": [
+      {
+        "uuid": "ab5a0203-c281-45dc-8a3c-3d2de1bda657",
+        "xy": [
+          38.315,
+          32.985
+        ],
+        "distance": 2.1999999999999993
+      },
+      {
+        "uuid": "b112e2a6-f2de-4d39-b3a7-48613ac5a35b",
+        "xy": [
+          41.56,
+          30.714
+        ],
+        "distance": 3.2457766404976223
+      },
+      {
+        "uuid": "695cad86-eea1-440d-aebf-b78e3cec314e",
+        "xy": [
+          41.56,
+          30.714
+        ],
+        "distance": 3.2457766404976223
+      }
+    ]
+  },
+  {
+    "ref": "C728",
+    "value": "100nF",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      27.485
+    ],
+    "power_net": [
+      "{slash}CLKBUF1_VDDA"
+    ],
+    "power_pads": [
+      "C728.1"
+    ],
+    "near": [
+      {
+        "uuid": "e33584a4-1459-450b-a9a0-27b5638edb20",
+        "xy": [
+          38.315,
+          25.285
+        ],
+        "distance": 2.1999999999999993
+      },
+      {
+        "uuid": "eb832183-0ced-4d9f-adbc-7542874aaf0d",
+        "xy": [
+          38.315,
+          25.285
+        ],
+        "distance": 2.1999999999999993
+      },
+      {
+        "uuid": "e40e1252-75b3-4747-b777-79f9f3bc8978",
+        "xy": [
+          41.56,
+          27.174
+        ],
+        "distance": 3.259869015773491
+      }
+    ]
+  },
+  {
+    "ref": "C5133",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      17.835
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_ANA_PCIE_1"
+    ],
+    "power_pads": [
+      "C5133.1"
+    ],
+    "near": [
+      {
+        "uuid": "d7aa382b-a9eb-49aa-9733-00626c1ad842",
+        "xy": [
+          2.015,
+          20.035
+        ],
+        "distance": 2.1999999999999993
+      },
+      {
+        "uuid": "0cc387ef-5499-4e18-9f83-f7a24ff25c54",
+        "xy": [
+          4.5,
+          17.0
+        ],
+        "distance": 2.621535809406387
+      },
+      {
+        "uuid": "b739204f-1704-4ae9-8f7f-c7328c5004fa",
+        "xy": [
+          4.5,
+          17.0
+        ],
+        "distance": 2.621535809406387
+      }
+    ]
+  },
+  {
+    "ref": "C967",
+    "value": "1uF / filter value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      9.885
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_1P8_FLTRB_IN"
+    ],
+    "power_pads": [
+      "C967.1"
+    ],
+    "near": [
+      {
+        "uuid": "7b3584b3-0a8b-4298-9266-ae8b8282cb58",
+        "xy": [
+          38.315,
+          7.685
+        ],
+        "distance": 2.2
+      },
+      {
+        "uuid": "4ad067e9-d23c-470b-9595-4d366c54d99d",
+        "xy": [
+          38.315,
+          7.685
+        ],
+        "distance": 2.2
+      },
+      {
+        "uuid": "1c7d16a3-b019-4696-94bc-6c13d8f5e56f",
+        "xy": [
+          35.5,
+          10.0
+        ],
+        "distance": 2.817348043817091
+      }
+    ]
+  },
+  {
+    "ref": "C915",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      24.435
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_VNNAONLV"
+    ],
+    "power_pads": [
+      "C915.1"
+    ],
+    "near": [
+      {
+        "uuid": "88270916-98de-4357-be2f-fe2d8789fb04",
+        "xy": [
+          2.015,
+          26.635
+        ],
+        "distance": 2.200000000000003
+      },
+      {
+        "uuid": "9c597cc1-eac0-4bdc-a44f-18b91165e79a",
+        "xy": [
+          2.015,
+          26.635
+        ],
+        "distance": 2.200000000000003
+      },
+      {
+        "uuid": "7f4f9206-4a62-4e31-9fb7-1ebea53f2a95",
+        "xy": [
+          4.5,
+          25.0
+        ],
+        "distance": 2.548421079806083
+      }
+    ]
+  },
+  {
+    "ref": "C930",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      26.029998,
+      1.355
+    ],
+    "power_net": [
+      "{slash}CPU_VDD2L"
+    ],
+    "power_pads": [
+      "C930.1"
+    ],
+    "near": [
+      {
+        "uuid": "155ce24d-cce2-4569-9bb1-0330bd874cb1",
+        "xy": [
+          26.25,
+          3.75
+        ],
+        "distance": 2.405083341592137
+      },
+      {
+        "uuid": "b78e917b-5fd0-4d20-91a3-6b195fed7b7a",
+        "xy": [
+          29.18,
+          1.355
+        ],
+        "distance": 3.1500020000000006
+      },
+      {
+        "uuid": "7cc00c07-cf52-4776-8c9f-2d3734cde471",
+        "xy": [
+          29.18,
+          1.355
+        ],
+        "distance": 3.1500020000000006
+      }
+    ]
+  },
+  {
+    "ref": "C709",
+    "value": "100nF RC reset draft",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      11.235
+    ],
+    "power_net": [
+      "{slash}CPU_RTCRST_N"
+    ],
+    "power_pads": [
+      "C709.1"
+    ],
+    "near": [
+      {
+        "uuid": "bbf47141-344c-4a49-be5e-54a08852aaf0",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 2.4960869375885126
+      },
+      {
+        "uuid": "719ff46d-c900-48b4-87a0-f99a11cf063d",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 2.4960869375885126
+      },
+      {
+        "uuid": "4e02cbfd-2810-4e1e-926f-54370dd7baa3",
+        "xy": [
+          4.5,
+          12.0
+        ],
+        "distance": 2.6000865370214123
+      }
+    ]
+  },
+  {
+    "ref": "C5135",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      16.735
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_CIO"
+    ],
+    "power_pads": [
+      "C5135.1"
+    ],
+    "near": [
+      {
+        "uuid": "0cc387ef-5499-4e18-9f83-f7a24ff25c54",
+        "xy": [
+          4.5,
+          17.0
+        ],
+        "distance": 2.499089834319687
+      },
+      {
+        "uuid": "b739204f-1704-4ae9-8f7f-c7328c5004fa",
+        "xy": [
+          4.5,
+          17.0
+        ],
+        "distance": 2.499089834319687
+      },
+      {
+        "uuid": "01144c6c-fbe2-4a07-804c-c173b322853b",
+        "xy": [
+          4.5,
+          16.0
+        ],
+        "distance": 2.5914185304577875
+      }
+    ]
+  },
+  {
+    "ref": "C5143",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      12.335
+    ],
+    "power_net": [
+      "{slash}TBT_VCC3P3_ANA_USB2"
+    ],
+    "power_pads": [
+      "C5143.1"
+    ],
+    "near": [
+      {
+        "uuid": "4e02cbfd-2810-4e1e-926f-54370dd7baa3",
+        "xy": [
+          4.5,
+          12.0
+        ],
+        "distance": 2.5074788134698167
+      },
+      {
+        "uuid": "4aad8812-d2b2-4123-8ad4-401df71161cd",
+        "xy": [
+          4.5,
+          12.0
+        ],
+        "distance": 2.5074788134698167
+      },
+      {
+        "uuid": "2e359108-4edd-4e65-90ad-6843111db5ec",
+        "xy": [
+          4.5,
+          13.0
+        ],
+        "distance": 2.5724404755018138
+      }
+    ]
+  },
+  {
+    "ref": "C5137",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      15.635
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_LVR"
+    ],
+    "power_pads": [
+      "C5137.1"
+    ],
+    "near": [
+      {
+        "uuid": "01144c6c-fbe2-4a07-804c-c173b322853b",
+        "xy": [
+          4.5,
+          16.0
+        ],
+        "distance": 2.511662795838645
+      },
+      {
+        "uuid": "2ceba2e4-b1ba-4773-a49e-96dacd0d2def",
+        "xy": [
+          4.5,
+          16.0
+        ],
+        "distance": 2.511662795838645
+      },
+      {
+        "uuid": "237a3875-3535-4b7e-a3ab-a6f3d8ae3924",
+        "xy": [
+          4.5,
+          15.0
+        ],
+        "distance": 2.564848923426095
+      }
+    ]
+  },
+  {
+    "ref": "C5141",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      13.435
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_USB"
+    ],
+    "power_pads": [
+      "C5141.1"
+    ],
+    "near": [
+      {
+        "uuid": "2e359108-4edd-4e65-90ad-6843111db5ec",
+        "xy": [
+          4.5,
+          13.0
+        ],
+        "distance": 2.522786158198907
+      },
+      {
+        "uuid": "00f4f36f-c21e-4ae1-8410-848dd41b21f5",
+        "xy": [
+          4.5,
+          13.0
+        ],
+        "distance": 2.522786158198907
+      },
+      {
+        "uuid": "9be40db1-172e-471f-8a12-2327711e7c4b",
+        "xy": [
+          4.5,
+          14.0
+        ],
+        "distance": 2.5484210798060825
+      }
+    ]
+  },
+  {
+    "ref": "C5139",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      14.535
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_SVR"
+    ],
+    "power_pads": [
+      "C5139.1"
+    ],
+    "near": [
+      {
+        "uuid": "237a3875-3535-4b7e-a3ab-a6f3d8ae3924",
+        "xy": [
+          4.5,
+          15.0
+        ],
+        "distance": 2.528131721251881
+      },
+      {
+        "uuid": "da5a4880-0337-4216-b446-7fbb337f29dd",
+        "xy": [
+          4.5,
+          15.0
+        ],
+        "distance": 2.528131721251881
+      },
+      {
+        "uuid": "9be40db1-172e-471f-8a12-2327711e7c4b",
+        "xy": [
+          4.5,
+          14.0
+        ],
+        "distance": 2.5419382368578507
+      }
+    ]
+  },
+  {
+    "ref": "C929",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      10.135
+    ],
+    "power_net": [
+      "{slash}CPU_VDD2L"
+    ],
+    "power_pads": [
+      "C929.1"
+    ],
+    "near": [
+      {
+        "uuid": "bbf47141-344c-4a49-be5e-54a08852aaf0",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 2.6312449524892205
+      },
+      {
+        "uuid": "719ff46d-c900-48b4-87a0-f99a11cf063d",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 2.6312449524892205
+      },
+      {
+        "uuid": "4e02cbfd-2810-4e1e-926f-54370dd7baa3",
+        "xy": [
+          4.5,
+          12.0
+        ],
+        "distance": 3.107000160926935
+      }
+    ]
+  },
+  {
+    "ref": "C902",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      22.879999,
+      3.005
+    ],
+    "power_net": [
+      "{slash}CPU_V1P8U_MEM"
+    ],
+    "power_pads": [
+      "C902.1"
+    ],
+    "near": [
+      {
+        "uuid": "5a859f70-9641-4952-a1bb-95f3c8db1136",
+        "xy": [
+          20.25,
+          2.5
+        ],
+        "distance": 2.678044013828191
+      },
+      {
+        "uuid": "70bcdd06-aac4-4a3a-9210-96fc2c7fe173",
+        "xy": [
+          20.25,
+          3.75
+        ],
+        "distance": 2.733481249249939
+      },
+      {
+        "uuid": "b0bcd6b6-f8c7-41d9-ba18-60075b063fee",
+        "xy": [
+          19.73,
+          3.005
+        ],
+        "distance": 3.149999000000001
+      }
+    ]
+  },
+  {
+    "ref": "C5142",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      13.185
+    ],
+    "power_net": [
+      "{slash}TBT_VCC3P3_ANA_PCIE"
+    ],
+    "power_pads": [
+      "C5142.1"
+    ],
+    "near": [
+      {
+        "uuid": "5dc1b9ae-5b0a-456d-b179-467f152b4998",
+        "xy": [
+          35.5,
+          13.0
+        ],
+        "distance": 2.8210724910927025
+      },
+      {
+        "uuid": "7d5b3680-65aa-4719-87b5-25b49ec590ea",
+        "xy": [
+          35.5,
+          13.0
+        ],
+        "distance": 2.8210724910927025
+      },
+      {
+        "uuid": "658f7504-2878-4e6c-86ba-f3d7d40b2da9",
+        "xy": [
+          41.56,
+          12.934
+        ],
+        "distance": 3.2546929194626073
+      }
+    ]
+  },
+  {
+    "ref": "C5136",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      16.485
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_DP"
+    ],
+    "power_pads": [
+      "C5136.1"
+    ],
+    "near": [
+      {
+        "uuid": "5f8345c8-c208-40f6-8f69-75e09326cef8",
+        "xy": [
+          35.5,
+          16.0
+        ],
+        "distance": 2.856475100539122
+      },
+      {
+        "uuid": "d0faf126-1a28-406d-ab0b-74cf8b464476",
+        "xy": [
+          35.5,
+          16.0
+        ],
+        "distance": 2.856475100539122
+      },
+      {
+        "uuid": "0d4262c7-5d37-4fa0-b3a0-0c57b67e1944",
+        "xy": [
+          41.56,
+          16.354
+        ],
+        "distance": 3.2476431454210037
+      }
+    ]
+  },
+  {
+    "ref": "C914",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      22.879999,
+      1.355
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_VNNAON"
+    ],
+    "power_pads": [
+      "C914.1"
+    ],
+    "near": [
+      {
+        "uuid": "5a859f70-9641-4952-a1bb-95f3c8db1136",
+        "xy": [
+          20.25,
+          2.5
+        ],
+        "distance": 2.868435068116587
+      },
+      {
+        "uuid": "b0bcd6b6-f8c7-41d9-ba18-60075b063fee",
+        "xy": [
+          19.73,
+          3.005
+        ],
+        "distance": 3.5559799915074053
+      },
+      {
+        "uuid": "70bcdd06-aac4-4a3a-9210-96fc2c7fe173",
+        "xy": [
+          20.25,
+          3.75
+        ],
+        "distance": 3.557094283260005
+      }
+    ]
+  },
+  {
+    "ref": "C5138",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      15.385
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_PCIE"
+    ],
+    "power_pads": [
+      "C5138.1"
+    ],
+    "near": [
+      {
+        "uuid": "5f8345c8-c208-40f6-8f69-75e09326cef8",
+        "xy": [
+          35.5,
+          16.0
+        ],
+        "distance": 2.881397230511612
+      },
+      {
+        "uuid": "d0faf126-1a28-406d-ab0b-74cf8b464476",
+        "xy": [
+          35.5,
+          16.0
+        ],
+        "distance": 2.881397230511612
+      },
+      {
+        "uuid": "acb6f257-c84a-4892-a0e0-1e4aeae9cbf9",
+        "xy": [
+          41.56,
+          15.214
+        ],
+        "distance": 3.2495024234488623
+      }
+    ]
+  },
+  {
+    "ref": "C5144",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      12.085
+    ],
+    "power_net": [
+      "{slash}TBT_VCC3P3_LC"
+    ],
+    "power_pads": [
+      "C5144.1"
+    ],
+    "near": [
+      {
+        "uuid": "5dc1b9ae-5b0a-456d-b179-467f152b4998",
+        "xy": [
+          35.5,
+          13.0
+        ],
+        "distance": 2.9599746620537117
+      },
+      {
+        "uuid": "7d5b3680-65aa-4719-87b5-25b49ec590ea",
+        "xy": [
+          35.5,
+          13.0
+        ],
+        "distance": 2.9599746620537117
+      },
+      {
+        "uuid": "1a8a2b9f-d43e-4015-9c62-882a52fb4463",
+        "xy": [
+          41.56,
+          11.864
+        ],
+        "distance": 3.252516871593448
+      }
+    ]
+  },
+  {
+    "ref": "C5140",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      14.285
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_SVR_ANA"
+    ],
+    "power_pads": [
+      "C5140.1"
+    ],
+    "near": [
+      {
+        "uuid": "5dc1b9ae-5b0a-456d-b179-467f152b4998",
+        "xy": [
+          35.5,
+          13.0
+        ],
+        "distance": 3.094422401676925
+      },
+      {
+        "uuid": "7d5b3680-65aa-4719-87b5-25b49ec590ea",
+        "xy": [
+          35.5,
+          13.0
+        ],
+        "distance": 3.094422401676925
+      },
+      {
+        "uuid": "bb3fb5ba-199a-4c50-bf84-a29a218014a0",
+        "xy": [
+          41.56,
+          14.074
+        ],
+        "distance": 3.251852702691195
+      }
+    ]
+  },
+  {
+    "ref": "C5132",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      18.685
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_ANA_DPSRC"
+    ],
+    "power_pads": [
+      "C5132.1"
+    ],
+    "near": [
+      {
+        "uuid": "92d8755d-4150-4f67-8dfa-12348ad7e84a",
+        "xy": [
+          41.386794,
+          19.304
+        ],
+        "distance": 3.1335410286824112
+      },
+      {
+        "uuid": "6b8bc256-b303-4e76-9e79-d4fd9e4fb212",
+        "xy": [
+          41.56,
+          19.204
+        ],
+        "distance": 3.286241926578144
+      },
+      {
+        "uuid": "0b574127-8636-47d0-a949-58e00be3432c",
+        "xy": [
+          38.315,
+          21.985
+        ],
+        "distance": 3.3000000000000007
+      }
+    ]
+  },
+  {
+    "ref": "C953",
+    "value": "4.7uF / EDGECAP value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      35.48,
+      3.005
+    ],
+    "power_net": [
+      "{slash}CPU_V1P8U_MEM_EDGECAP_2"
+    ],
+    "power_pads": [
+      "C953.1"
+    ],
+    "near": [
+      {
+        "uuid": "559fe13f-8c3b-4301-a255-aa047df3bac7",
+        "xy": [
+          32.33,
+          3.005
+        ],
+        "distance": 3.1499999999999986
+      },
+      {
+        "uuid": "27ed8ce8-4aea-4dcd-9f43-6235cf562f15",
+        "xy": [
+          32.0,
+          2.5
+        ],
+        "distance": 3.516450625275432
+      },
+      {
+        "uuid": "4dfb1b09-7490-41ce-8ab8-3c63e77d4af9",
+        "xy": [
+          32.0,
+          3.75
+        ],
+        "distance": 3.558851640627912
+      }
+    ]
+  },
+  {
+    "ref": "C959",
+    "value": "4.7uF / EDGECAP value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      16.58,
+      3.005
+    ],
+    "power_net": [
+      "{slash}CPU_VDDQ_EDGECAP_0"
+    ],
+    "power_pads": [
+      "C959.1"
+    ],
+    "near": [
+      {
+        "uuid": "b0bcd6b6-f8c7-41d9-ba18-60075b063fee",
+        "xy": [
+          19.73,
+          3.005
+        ],
+        "distance": 3.150000000000002
+      },
+      {
+        "uuid": "5a859f70-9641-4952-a1bb-95f3c8db1136",
+        "xy": [
+          20.25,
+          2.5
+        ],
+        "distance": 3.7045816228016912
+      },
+      {
+        "uuid": "70bcdd06-aac4-4a3a-9210-96fc2c7fe173",
+        "xy": [
+          20.25,
+          3.75
+        ],
+        "distance": 3.7448531346369265
+      }
+    ]
+  },
+  {
+    "ref": "C921",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      9.035
+    ],
+    "power_net": [
+      "{slash}CPU_VCCST"
+    ],
+    "power_pads": [
+      "C921.1"
+    ],
+    "near": [
+      {
+        "uuid": "bbf47141-344c-4a49-be5e-54a08852aaf0",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 3.1680356689911178
+      },
+      {
+        "uuid": "719ff46d-c900-48b4-87a0-f99a11cf063d",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 3.1680356689911178
+      },
+      {
+        "uuid": "4e02cbfd-2810-4e1e-926f-54370dd7baa3",
+        "xy": [
+          4.5,
+          12.0
+        ],
+        "distance": 3.868649635208647
+      }
+    ]
+  },
+  {
+    "ref": "C910",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      38.63,
+      1.355
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_3P3"
+    ],
+    "power_pads": [
+      "C910.1"
+    ],
+    "near": [
+      {
+        "uuid": "c41075ee-a6a0-4a3f-b6e4-1905547f84a9",
+        "xy": [
+          41.450006,
+          2.800004
+        ],
+        "distance": 3.1686701311515524
+      },
+      {
+        "uuid": "0ffccdb8-04b3-47b1-91cf-fa88c261f0ba",
+        "xy": [
+          41.450006,
+          2.800004
+        ],
+        "distance": 3.1686701311515524
+      },
+      {
+        "uuid": "d1ede396-5d2e-4346-9ceb-9cb564a65884",
+        "xy": [
+          40.115,
+          4.385
+        ],
+        "distance": 3.374333267476702
+      }
+    ]
+  },
+  {
+    "ref": "C5134",
+    "value": "100nF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      17.585
+    ],
+    "power_net": [
+      "{slash}TBT_VCC0P9_ANA_PCIE_2"
+    ],
+    "power_pads": [
+      "C5134.1"
+    ],
+    "near": [
+      {
+        "uuid": "5f8345c8-c208-40f6-8f69-75e09326cef8",
+        "xy": [
+          35.5,
+          16.0
+        ],
+        "distance": 3.2305494888640833
+      },
+      {
+        "uuid": "d0faf126-1a28-406d-ab0b-74cf8b464476",
+        "xy": [
+          35.5,
+          16.0
+        ],
+        "distance": 3.2305494888640833
+      },
+      {
+        "uuid": "c118dac8-0f30-44de-8b16-f9103681f443",
+        "xy": [
+          41.56,
+          18.064
+        ],
+        "distance": 3.280162495974861
+      }
+    ]
+  },
+  {
+    "ref": "C905",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      28.585
+    ],
+    "power_net": [
+      "{slash}CPU_VCCL2"
+    ],
+    "power_pads": [
+      "C905.1"
+    ],
+    "near": [
+      {
+        "uuid": "1ce48474-fbf6-45a6-9dcd-3f3e8cc88b57",
+        "xy": [
+          41.56,
+          28.59
+        ],
+        "distance": 3.2450038520778413
+      },
+      {
+        "uuid": "30e2bd0e-8973-475e-976f-d198a10c723c",
+        "xy": [
+          41.56,
+          28.59
+        ],
+        "distance": 3.2450038520778413
+      },
+      {
+        "uuid": "e33584a4-1459-450b-a9a0-27b5638edb20",
+        "xy": [
+          38.315,
+          25.285
+        ],
+        "distance": 3.3000000000000007
+      }
+    ]
+  },
+  {
+    "ref": "C710",
+    "value": "100nF RC reset draft",
+    "layer": "B.Cu",
+    "xy": [
+      38.315,
+      29.685
+    ],
+    "power_net": [
+      "{slash}CPU_SRTCRST_N"
+    ],
+    "power_pads": [
+      "C710.1"
+    ],
+    "near": [
+      {
+        "uuid": "a912ecb8-2c76-467e-88bf-241012133f71",
+        "xy": [
+          41.56,
+          30.006
+        ],
+        "distance": 3.2608382357915318
+      },
+      {
+        "uuid": "bbced461-6d9f-4cda-a677-cabe6977434e",
+        "xy": [
+          41.56,
+          30.006
+        ],
+        "distance": 3.2608382357915318
+      },
+      {
+        "uuid": "ab5a0203-c281-45dc-8a3c-3d2de1bda657",
+        "xy": [
+          38.315,
+          32.985
+        ],
+        "distance": 3.3000000000000007
+      }
+    ]
+  },
+  {
+    "ref": "C5112",
+    "value": "2.2uF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      74.28,
+      43.0
+    ],
+    "power_net": [
+      "{slash}TBT_PD_LDO_1V8D"
+    ],
+    "power_pads": [
+      "C5112.1"
+    ],
+    "near": [
+      {
+        "uuid": "e35328ac-26ac-4c4c-95f9-1d182f59ee68",
+        "xy": [
+          71.575,
+          41.0
+        ],
+        "distance": 3.3640786257161097
+      },
+      {
+        "uuid": "f403010a-cff7-4daa-bc97-489987a1310b",
+        "xy": [
+          71.575,
+          41.0
+        ],
+        "distance": 3.3640786257161097
+      },
+      {
+        "uuid": "5641396e-283d-44c9-b429-b5126d55047e",
+        "xy": [
+          73.5,
+          37.7
+        ],
+        "distance": 5.357088761631636
+      }
+    ]
+  },
+  {
+    "ref": "C5114",
+    "value": "2.2uF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      78.68,
+      43.0
+    ],
+    "power_net": [
+      "{slash}TBT_PD_LDO_BMC"
+    ],
+    "power_pads": [
+      "C5114.1"
+    ],
+    "near": [
+      {
+        "uuid": "6f717d0f-c4eb-41ce-9bf4-cdfb897df268",
+        "xy": [
+          80.98,
+          40.5
+        ],
+        "distance": 3.3970575502926037
+      },
+      {
+        "uuid": "7dcfe0fd-faca-4827-b02f-da629620a5d6",
+        "xy": [
+          80.98,
+          40.5
+        ],
+        "distance": 3.3970575502926037
+      },
+      {
+        "uuid": "f09230cd-454f-4559-817f-53725d89f184",
+        "xy": [
+          77.0,
+          37.7
+        ],
+        "distance": 5.5598920852836695
+      }
+    ]
+  },
+  {
+    "ref": "C951",
+    "value": "4.7uF / EDGECAP value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      35.48,
+      1.355
+    ],
+    "power_net": [
+      "{slash}CPU_V1P8U_MEM_EDGECAP_0"
+    ],
+    "power_pads": [
+      "C951.1"
+    ],
+    "near": [
+      {
+        "uuid": "559fe13f-8c3b-4301-a255-aa047df3bac7",
+        "xy": [
+          32.33,
+          3.005
+        ],
+        "distance": 3.555980877338908
+      },
+      {
+        "uuid": "27ed8ce8-4aea-4dcd-9f43-6235cf562f15",
+        "xy": [
+          32.0,
+          2.5
+        ],
+        "distance": 3.663526306715973
+      },
+      {
+        "uuid": "4dfb1b09-7490-41ce-8ab8-3c63e77d4af9",
+        "xy": [
+          32.0,
+          3.75
+        ],
+        "distance": 4.2245029293397325
+      }
+    ]
+  },
+  {
+    "ref": "C934",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      16.58,
+      1.355
+    ],
+    "power_net": [
+      "{slash}CPU_VDDRIO"
+    ],
+    "power_pads": [
+      "C934.1"
+    ],
+    "near": [
+      {
+        "uuid": "b0bcd6b6-f8c7-41d9-ba18-60075b063fee",
+        "xy": [
+          19.73,
+          3.005
+        ],
+        "distance": 3.555980877338911
+      },
+      {
+        "uuid": "5a859f70-9641-4952-a1bb-95f3c8db1136",
+        "xy": [
+          20.25,
+          2.5
+        ],
+        "distance": 3.8444668030820623
+      },
+      {
+        "uuid": "70bcdd06-aac4-4a3a-9210-96fc2c7fe173",
+        "xy": [
+          20.25,
+          3.75
+        ],
+        "distance": 4.382342410172899
+      }
+    ]
+  },
+  {
+    "ref": "C908",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      42.28,
+      43.455
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_1P8"
+    ],
+    "power_pads": [
+      "C908.1"
+    ],
+    "near": [
+      {
+        "uuid": "9ee6b5a1-355f-4cee-af37-8cd26680eb4a",
+        "xy": [
+          39.75,
+          40.5
+        ],
+        "distance": 3.8901060396858074
+      },
+      {
+        "uuid": "ce5535f8-e17c-4388-954a-46d3342031ff",
+        "xy": [
+          38.22,
+          41.3
+        ],
+        "distance": 4.596479631196034
+      },
+      {
+        "uuid": "4fe113c4-6ed6-4f84-9e13-ec58949c501b",
+        "xy": [
+          38.22,
+          41.3
+        ],
+        "distance": 4.596479631196034
+      }
+    ]
+  },
+  {
+    "ref": "C913",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      7.935
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_VNNAON"
+    ],
+    "power_pads": [
+      "C913.1"
+    ],
+    "near": [
+      {
+        "uuid": "bbf47141-344c-4a49-be5e-54a08852aaf0",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 3.9458142378981806
+      },
+      {
+        "uuid": "719ff46d-c900-48b4-87a0-f99a11cf063d",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 3.9458142378981806
+      },
+      {
+        "uuid": "91500740-bb6d-4ed9-bb63-f58b6d83edda",
+        "xy": [
+          5.5,
+          11.0
+        ],
+        "distance": 4.641061301038804
+      }
+    ]
+  },
+  {
+    "ref": "C952",
+    "value": "4.7uF / EDGECAP value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      60.73,
+      43.155
+    ],
+    "power_net": [
+      "{slash}CPU_V1P8U_MEM_EDGECAP_1"
+    ],
+    "power_pads": [
+      "C952.1"
+    ],
+    "near": [
+      {
+        "uuid": "85ee54fd-9ef3-416e-bad0-e0d0333772c7",
+        "xy": [
+          65.1375,
+          42.225
+        ],
+        "distance": 4.504548395788422
+      },
+      {
+        "uuid": "1ff7b97e-95dd-43cf-a3f6-f437fc8119b1",
+        "xy": [
+          65.1375,
+          42.225
+        ],
+        "distance": 4.504548395788422
+      },
+      {
+        "uuid": "54acb13b-a37f-4ab2-8759-b14676bf3442",
+        "xy": [
+          64.0,
+          39.5
+        ],
+        "distance": 4.9042761953217955
+      }
+    ]
+  },
+  {
+    "ref": "C708",
+    "value": "1uF",
+    "layer": "B.Cu",
+    "xy": [
+      2.015,
+      6.835
+    ],
+    "power_net": [
+      "{slash}CPU_VCCRTC"
+    ],
+    "power_pads": [
+      "C708.1"
+    ],
+    "near": [
+      {
+        "uuid": "bbf47141-344c-4a49-be5e-54a08852aaf0",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 4.8499948453580854
+      },
+      {
+        "uuid": "719ff46d-c900-48b4-87a0-f99a11cf063d",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 4.8499948453580854
+      },
+      {
+        "uuid": "91500740-bb6d-4ed9-bb63-f58b6d83edda",
+        "xy": [
+          5.5,
+          11.0
+        ],
+        "distance": 5.430695167287517
+      }
+    ]
+  },
+  {
+    "ref": "C5113",
+    "value": "2.2uF 6.3V",
+    "layer": "B.Cu",
+    "xy": [
+      76.48,
+      43.0
+    ],
+    "power_net": [
+      "{slash}TBT_PD_LDO_1V8A"
+    ],
+    "power_pads": [
+      "C5113.1"
+    ],
+    "near": [
+      {
+        "uuid": "6f717d0f-c4eb-41ce-9bf4-cdfb897df268",
+        "xy": [
+          80.98,
+          40.5
+        ],
+        "distance": 5.1478150704935
+      },
+      {
+        "uuid": "7dcfe0fd-faca-4827-b02f-da629620a5d6",
+        "xy": [
+          80.98,
+          40.5
+        ],
+        "distance": 5.1478150704935
+      },
+      {
+        "uuid": "e35328ac-26ac-4c4c-95f9-1d182f59ee68",
+        "xy": [
+          71.575,
+          41.0
+        ],
+        "distance": 5.297077024170973
+      }
+    ]
+  },
+  {
+    "ref": "C925",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      7.164999,
+      5.135
+    ],
+    "power_net": [
+      "{slash}CPU_VCC_PCORE"
+    ],
+    "power_pads": [
+      "C925.1"
+    ],
+    "near": [
+      {
+        "uuid": "2a1079e7-e221-40ef-8c04-c63d37272036",
+        "xy": [
+          7.5,
+          11.0
+        ],
+        "distance": 5.874559614984004
+      },
+      {
+        "uuid": "45dac25e-bb8a-40ca-be07-71c4ba5aaf72",
+        "xy": [
+          7.5,
+          11.0
+        ],
+        "distance": 5.874559614984004
+      },
+      {
+        "uuid": "91500740-bb6d-4ed9-bb63-f58b6d83edda",
+        "xy": [
+          5.5,
+          11.0
+        ],
+        "distance": 6.096757061750206
+      }
+    ]
+  },
+  {
+    "ref": "C911",
+    "value": "100nF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      5.164999,
+      5.135
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_IO"
+    ],
+    "power_pads": [
+      "C911.1"
+    ],
+    "near": [
+      {
+        "uuid": "91500740-bb6d-4ed9-bb63-f58b6d83edda",
+        "xy": [
+          5.5,
+          11.0
+        ],
+        "distance": 5.874559614984004
+      },
+      {
+        "uuid": "f3d2073b-ad5b-4bcf-ad58-044a6511e29e",
+        "xy": [
+          5.5,
+          11.0
+        ],
+        "distance": 5.874559614984004
+      },
+      {
+        "uuid": "bbf47141-344c-4a49-be5e-54a08852aaf0",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 5.90257983173468
+      }
+    ]
+  },
+  {
+    "ref": "C926",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      13.43,
+      3.005
+    ],
+    "power_net": [
+      "{slash}CPU_VCC_PCORE"
+    ],
+    "power_pads": [
+      "C926.1"
+    ],
+    "near": [
+      {
+        "uuid": "fcc8bb21-2408-4210-a165-ade72cb8d5fe",
+        "xy": [
+          14.5,
+          9.0
+        ],
+        "distance": 6.089739321186088
+      },
+      {
+        "uuid": "a9bbad09-1cf9-42f2-aa42-d9aa2e7cd15a",
+        "xy": [
+          14.5,
+          9.0
+        ],
+        "distance": 6.089739321186088
+      },
+      {
+        "uuid": "b0bcd6b6-f8c7-41d9-ba18-60075b063fee",
+        "xy": [
+          19.73,
+          3.005
+        ],
+        "distance": 6.300000000000001
+      }
+    ]
+  },
+  {
+    "ref": "C922",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      45.43,
+      43.455
+    ],
+    "power_net": [
+      "{slash}CPU_VCCST"
+    ],
+    "power_pads": [
+      "C922.1"
+    ],
+    "near": [
+      {
+        "uuid": "9ee6b5a1-355f-4cee-af37-8cd26680eb4a",
+        "xy": [
+          39.75,
+          40.5
+        ],
+        "distance": 6.4026888882718636
+      },
+      {
+        "uuid": "5da85a9d-8ea8-4ea9-9d4b-d160677ea993",
+        "xy": [
+          40.924999,
+          37.77
+        ],
+        "distance": 7.253568708573797
+      },
+      {
+        "uuid": "ce5535f8-e17c-4388-954a-46d3342031ff",
+        "xy": [
+          38.22,
+          41.3
+        ],
+        "distance": 7.525166111123396
+      }
+    ]
+  },
+  {
+    "ref": "C958",
+    "value": "4.7uF / EDGECAP value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      13.43,
+      1.355
+    ],
+    "power_net": [
+      "{slash}CPU_VDD2L_EDGECAP_1"
+    ],
+    "power_pads": [
+      "C958.1"
+    ],
+    "near": [
+      {
+        "uuid": "b0bcd6b6-f8c7-41d9-ba18-60075b063fee",
+        "xy": [
+          19.73,
+          3.005
+        ],
+        "distance": 6.512488003827723
+      },
+      {
+        "uuid": "5a859f70-9641-4952-a1bb-95f3c8db1136",
+        "xy": [
+          20.25,
+          2.5
+        ],
+        "distance": 6.915448286264601
+      },
+      {
+        "uuid": "70bcdd06-aac4-4a3a-9210-96fc2c7fe173",
+        "xy": [
+          20.25,
+          3.75
+        ],
+        "distance": 7.228307201551412
+      }
+    ]
+  },
+  {
+    "ref": "C928",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      2.88,
+      4.355
+    ],
+    "power_net": [
+      "{slash}CPU_VDD2H"
+    ],
+    "power_pads": [
+      "C928.1"
+    ],
+    "near": [
+      {
+        "uuid": "bbf47141-344c-4a49-be5e-54a08852aaf0",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 6.839621700064996
+      },
+      {
+        "uuid": "719ff46d-c900-48b4-87a0-f99a11cf063d",
+        "xy": [
+          4.5,
+          11.0
+        ],
+        "distance": 6.839621700064996
+      },
+      {
+        "uuid": "91500740-bb6d-4ed9-bb63-f58b6d83edda",
+        "xy": [
+          5.5,
+          11.0
+        ],
+        "distance": 7.1428583214284735
+      }
+    ]
+  },
+  {
+    "ref": "C912",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      7.08,
+      3.755
+    ],
+    "power_net": [
+      "{slash}CPU_VCCPRIM_IO"
+    ],
+    "power_pads": [
+      "C912.1"
+    ],
+    "near": [
+      {
+        "uuid": "2a1079e7-e221-40ef-8c04-c63d37272036",
+        "xy": [
+          7.5,
+          11.0
+        ],
+        "distance": 7.257163702163539
+      },
+      {
+        "uuid": "45dac25e-bb8a-40ca-be07-71c4ba5aaf72",
+        "xy": [
+          7.5,
+          11.0
+        ],
+        "distance": 7.257163702163539
+      },
+      {
+        "uuid": "91500740-bb6d-4ed9-bb63-f58b6d83edda",
+        "xy": [
+          5.5,
+          11.0
+        ],
+        "distance": 7.415283204301775
+      }
+    ]
+  },
+  {
+    "ref": "C906",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      10.279998,
+      3.005
+    ],
+    "power_net": [
+      "{slash}CPU_VCCL2"
+    ],
+    "power_pads": [
+      "C906.1"
+    ],
+    "near": [
+      {
+        "uuid": "fcc8bb21-2408-4210-a165-ade72cb8d5fe",
+        "xy": [
+          14.5,
+          9.0
+        ],
+        "distance": 7.331332885635735
+      },
+      {
+        "uuid": "a9bbad09-1cf9-42f2-aa42-d9aa2e7cd15a",
+        "xy": [
+          14.5,
+          9.0
+        ],
+        "distance": 7.331332885635735
+      },
+      {
+        "uuid": "f6045b00-2b1a-4bff-99da-9e90bdbcdb1a",
+        "xy": [
+          15.5,
+          9.0
+        ],
+        "distance": 7.949116043938722
+      }
+    ]
+  },
+  {
+    "ref": "C955",
+    "value": "4.7uF / EDGECAP value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      57.58,
+      43.155
+    ],
+    "power_net": [
+      "{slash}CPU_VDD2H_EDGECAP_0"
+    ],
+    "power_pads": [
+      "C955.1"
+    ],
+    "near": [
+      {
+        "uuid": "54acb13b-a37f-4ab2-8759-b14676bf3442",
+        "xy": [
+          64.0,
+          39.5
+        ],
+        "distance": 7.387518189486915
+      },
+      {
+        "uuid": "9aa48be8-e4ee-45ea-b540-d4a78e7e8efd",
+        "xy": [
+          57.864,
+          35.69
+        ],
+        "distance": 7.470400323945166
+      },
+      {
+        "uuid": "3cbd3e9f-ca8f-4d8e-9c7a-bec578ef74b6",
+        "xy": [
+          57.864,
+          35.69
+        ],
+        "distance": 7.470400323945166
+      }
+    ]
+  },
+  {
+    "ref": "C954",
+    "value": "4.7uF / EDGECAP value pending PDG",
+    "layer": "B.Cu",
+    "xy": [
+      51.279999,
+      43.155
+    ],
+    "power_net": [
+      "{slash}CPU_V1P8U_MEM_EDGECAP_3"
+    ],
+    "power_pads": [
+      "C954.1"
+    ],
+    "near": [
+      {
+        "uuid": "2f269228-6d9a-4963-940c-8182f2b48614",
+        "xy": [
+          51.492,
+          35.69
+        ],
+        "distance": 7.4680097364693525
+      },
+      {
+        "uuid": "4a39aa68-ba81-410a-bac5-b78e52458406",
+        "xy": [
+          51.492,
+          35.69
+        ],
+        "distance": 7.4680097364693525
+      },
+      {
+        "uuid": "36c8d2e8-445c-4cd1-9250-69507cef7213",
+        "xy": [
+          50.784,
+          35.69
+        ],
+        "distance": 7.481459751144896
+      }
+    ]
+  },
+  {
+    "ref": "C904",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      54.43,
+      43.155
+    ],
+    "power_net": [
+      "{slash}CPU_VCCGT"
+    ],
+    "power_pads": [
+      "C904.1"
+    ],
+    "near": [
+      {
+        "uuid": "c709fd07-67a3-428b-bd5b-c1857de030fc",
+        "xy": [
+          55.032,
+          35.69
+        ],
+        "distance": 7.489234206512709
+      },
+      {
+        "uuid": "cf6f5244-4ac1-4280-b927-74c3b6674cbc",
+        "xy": [
+          55.032,
+          35.69
+        ],
+        "distance": 7.489234206512709
+      },
+      {
+        "uuid": "c3d023d2-2993-40ca-be39-d6500423a1a5",
+        "xy": [
+          52.908,
+          35.69
+        ],
+        "distance": 7.618576573087656
+      }
+    ]
+  },
+  {
+    "ref": "C932",
+    "value": "4.7uF / PDN budget",
+    "layer": "B.Cu",
+    "xy": [
+      10.279998,
+      1.355
+    ],
+    "power_net": [
+      "{slash}CPU_VDDQ"
+    ],
+    "power_pads": [
+      "C932.1"
+    ],
+    "near": [
+      {
+        "uuid": "fcc8bb21-2408-4210-a165-ade72cb8d5fe",
+        "xy": [
+          14.5,
+          9.0
+        ],
+        "distance": 8.732378935891639
+      },
+      {
+        "uuid": "a9bbad09-1cf9-42f2-aa42-d9aa2e7cd15a",
+        "xy": [
+          14.5,
+          9.0
+        ],
+        "distance": 8.732378935891639
+      },
+      {
+        "uuid": "f6045b00-2b1a-4bff-99da-9e90bdbcdb1a",
+        "xy": [
+          15.5,
+          9.0
+        ],
+        "distance": 9.257129462203928
+      }
+    ]
+  }
+]
