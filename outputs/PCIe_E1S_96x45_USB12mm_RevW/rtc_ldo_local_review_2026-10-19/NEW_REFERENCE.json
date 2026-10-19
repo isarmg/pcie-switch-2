@@ -1,0 +1,59 @@
+{
+  "routes": [
+    {
+      "net": "{slash}P3V3_AUX",
+      "layer": "B.Cu",
+      "track_area_mm2": 0.6239432709366446,
+      "length_mm": 5.478377405682231,
+      "references": [
+        {
+          "plane": "In30.Cu|{slash}P3V3_AUX",
+          "immediately_adjacent": true,
+          "missing_area_mm2": 0.0
+        },
+        {
+          "plane": "In28.Cu|{slash}GND",
+          "immediately_adjacent": false,
+          "missing_area_mm2": 0.1599268117514313
+        }
+      ]
+    },
+    {
+      "net": "{slash}CPU_VCCRTC",
+      "layer": "B.Cu",
+      "track_area_mm2": 0.28008891891430493,
+      "length_mm": 1.757501,
+      "references": [
+        {
+          "plane": "In30.Cu|{slash}P3V3_AUX",
+          "immediately_adjacent": true,
+          "missing_area_mm2": 0.0
+        },
+        {
+          "plane": "In28.Cu|{slash}GND",
+          "immediately_adjacent": false,
+          "missing_area_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "net": "{slash}GND",
+      "layer": "B.Cu",
+      "track_area_mm2": 0.7860920302628988,
+      "length_mm": 6.0225,
+      "references": [
+        {
+          "plane": "In30.Cu|{slash}P3V3_AUX",
+          "immediately_adjacent": true,
+          "missing_area_mm2": 0.03839966298409394
+        },
+        {
+          "plane": "In28.Cu|{slash}GND",
+          "immediately_adjacent": false,
+          "missing_area_mm2": 0.0
+        }
+      ]
+    }
+  ],
+  "scope": "Absolute new B local-LDO copper projections. In30AUX is immediately adjacent; In28GND is farther and not an adjacentGND substitute. Retained original via clearances may appear. No newCLKREQ trace is added. No analog/SI/PDN qualification."
+}

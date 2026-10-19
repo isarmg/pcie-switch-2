@@ -1,0 +1,30 @@
+{
+  "primary_url": "https://www.ti.com/lit/ds/symlink/tps7a02.pdf",
+  "pdf_sha256": "ed213c153f1db84762558fcac2ff9752e322151a1d44672cf554988b860cebc8",
+  "document": "TPS7A02 SBVS277C, September2022",
+  "rechecked": "2026-10-19",
+  "device": "TPS7A0215PDBVR, DBV SOT23-5, fixed1.5V",
+  "requirements_paraphrased": [
+    {
+      "page": 3,
+      "section": "5 Table5-1",
+      "facts": "DBV pins1IN,2GND,3EN,4NC,5OUT; input/output capacitors close to corresponding pins; output effective >=0.5uF required."
+    },
+    {
+      "page": 5,
+      "section": "6.3",
+      "facts": "Input1uF recommended; outputnominal1uF, effective minimum0.5uF, derated maximum22uF."
+    },
+    {
+      "page": 23,
+      "section": "8.1.2",
+      "facts": "Input capacitor improves source impedance/transient/ripple performance; output capacitor must meet operating range."
+    },
+    {
+      "page": 27,
+      "section": "8.4.1",
+      "facts": "Place both capacitors close to LDO, use copper planes for connections and thermal performance."
+    }
+  ],
+  "implementation_boundary": "C707/C708 existing1uF0402 have no approved manufacturerMPN,DCbias,tolerance/temp evidence. Geometry repair is not effective-capacitance or startup qualification; CPU RTC load remains disconnected."
+}

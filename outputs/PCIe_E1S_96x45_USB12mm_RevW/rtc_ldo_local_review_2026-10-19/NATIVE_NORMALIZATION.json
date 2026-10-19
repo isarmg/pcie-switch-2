@@ -1,0 +1,26 @@
+{
+  "proof": [
+    {
+      "uuid": "62570e73-8644-4eb2-b583-bb4cb3591bdf",
+      "ref": "C5112",
+      "all_children_equal_ignoring_child_order_and_default_property_font_thickness_0p15": true,
+      "before_block_sha256": "97a23799dee0898a6d9cb9f14800199b601731570e5ed992caa890161c9c729f",
+      "after_block_sha256": "6864fe83936b6db5cb6a22c451ee01ef71affcac36175659ec6f290eada74406"
+    },
+    {
+      "uuid": "fe1e0b57-ea34-4b01-8168-ad6e9e694662",
+      "ref": "C5113",
+      "all_children_equal_ignoring_child_order_and_default_property_font_thickness_0p15": true,
+      "before_block_sha256": "ab0defffda4df7f0f56eab7cfd2474c208ba59d79d776511a42d1c324f09452e",
+      "after_block_sha256": "79541cf06e1b2e49b51f69d9a3f92dac3be8452092989f79493f9749237eb8b2"
+    },
+    {
+      "uuid": "cacd4f87-0416-4b30-aa23-ce7e01b50e17",
+      "ref": "C5114",
+      "all_children_equal_ignoring_child_order_and_default_property_font_thickness_0p15": true,
+      "before_block_sha256": "80a0ab5366a7d17ce129ab66593ee95129bdcbd4b0aa996169f41d66c650cf35",
+      "after_block_sha256": "266a9857b3a1507b153fd8791e1cab8235ae4a896d6d0c4c4f69d3240ffaa66b"
+    }
+  ],
+  "scope": "Onlypropertychildordering and explicit defaulttextfontthickness0.15 introducedby KiCad save; values/UUID/textpositions/pad geometry/nets/otherchildren unchanged."
+}

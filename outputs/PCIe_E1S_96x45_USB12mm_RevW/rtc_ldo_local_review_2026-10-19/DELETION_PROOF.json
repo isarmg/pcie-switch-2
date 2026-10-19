@@ -1,0 +1,44 @@
+[
+  {
+    "uuid": "d617a8cb-51b3-4dff-a1d4-24b5109739f2",
+    "net": "{slash}P3V3_AUX",
+    "xy": [
+      65.1375,
+      41.275
+    ],
+    "layers": [
+      "In30.Cu",
+      "B.Cu"
+    ],
+    "direct_physical_pad_contacts": [
+      {
+        "ref_pin": "U702.3",
+        "net": "{slash}P3V3_AUX",
+        "layer": "B.Cu"
+      }
+    ],
+    "direct_copper_contacts": [],
+    "reason": "Dedicated AUX via belonging only to moved pad; pad reconnected to retained actual AUX anchor, full old-pad-cluster regression required."
+  },
+  {
+    "uuid": "83f041e9-e623-4743-9fd5-a8c623156154",
+    "net": "{slash}P3V3_AUX",
+    "xy": [
+      1.055,
+      31.035
+    ],
+    "layers": [
+      "In30.Cu",
+      "B.Cu"
+    ],
+    "direct_physical_pad_contacts": [
+      {
+        "ref_pin": "C707.1",
+        "net": "{slash}P3V3_AUX",
+        "layer": "B.Cu"
+      }
+    ],
+    "direct_copper_contacts": [],
+    "reason": "Dedicated AUX via belonging only to moved pad; pad reconnected to retained actual AUX anchor, full old-pad-cluster regression required."
+  }
+]

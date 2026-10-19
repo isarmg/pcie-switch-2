@@ -14224,8 +14224,8 @@
       "4": "unconnected-(U702-Pad4)",
       "5": "/CPU_VCCRTC"
     },
-    "x": 66.275,
-    "y": 42.225,
+    "x": 65.775,
+    "y": 42.45,
     "side": "B",
     "height_mm": 1.45,
     "datasheet": "",
@@ -14236,7 +14236,7 @@
       "4": "NC",
       "5": "OUT"
     },
-    "rotation_deg": 0.0,
+    "rotation_deg": 90,
     "dnp": false,
     "pin_types": {
       "1": "power_in",
@@ -14254,13 +14254,13 @@
       "1": "/P3V3_AUX",
       "2": "/GND"
     },
-    "x": 1.535,
-    "y": 31.035,
+    "x": 67.99,
+    "y": 43.2,
     "side": "B",
     "height_mm": 0.5,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": 90,
     "dnp": false
   },
   {
@@ -14271,13 +14271,13 @@
       "1": "/CPU_VCCRTC",
       "2": "/GND"
     },
-    "x": 1.535,
-    "y": 6.835,
+    "x": 67.99,
+    "y": 41.3,
     "side": "B",
     "height_mm": 0.5,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0,
+    "rotation_deg": 270,
     "dnp": false
   },
   {
@@ -19621,13 +19621,13 @@
       "1": "/TBT_PCIE_CLKREQ_N",
       "2": "/P3V3_AUX"
     },
-    "x": 68.0,
-    "y": 44.25,
+    "x": 68,
+    "y": 44.39,
     "side": "B",
     "height_mm": 0.3,
     "datasheet": "",
     "pin_names": {},
-    "rotation_deg": 0.0
+    "rotation_deg": 0
   },
   {
     "ref": "R5192",

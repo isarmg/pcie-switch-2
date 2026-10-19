@@ -1,0 +1,95 @@
+{
+  "authoritative_files": [
+    "Main_12E1S/COMPONENTS.json",
+    "BOM.csv",
+    "PLACEMENT_PLAN.json"
+  ],
+  "components_fields": [
+    "x",
+    "y",
+    "side",
+    "rotation_deg"
+  ],
+  "changes": [
+    {
+      "ref": "U702",
+      "before": {
+        "x": 66.275,
+        "y": 42.225,
+        "side": "B",
+        "rotation_deg": 0.0
+      },
+      "after": {
+        "x": 65.775,
+        "y": 42.45,
+        "side": "B",
+        "rotation_deg": 90
+      },
+      "preserve_value": "TPS7A0215PDBVR / RTC 1.5V",
+      "preserve_footprint": "SOT-23-5"
+    },
+    {
+      "ref": "C707",
+      "before": {
+        "x": 1.535,
+        "y": 31.035,
+        "side": "B",
+        "rotation_deg": 0.0
+      },
+      "after": {
+        "x": 67.99,
+        "y": 43.2,
+        "side": "B",
+        "rotation_deg": 90
+      },
+      "preserve_value": "1uF",
+      "preserve_footprint": "C_0402_1005Metric"
+    },
+    {
+      "ref": "C708",
+      "before": {
+        "x": 1.535,
+        "y": 6.835,
+        "side": "B",
+        "rotation_deg": 0.0
+      },
+      "after": {
+        "x": 67.99,
+        "y": 41.3,
+        "side": "B",
+        "rotation_deg": 270
+      },
+      "preserve_value": "1uF",
+      "preserve_footprint": "C_0402_1005Metric"
+    },
+    {
+      "ref": "R5191",
+      "before": {
+        "x": 68.0,
+        "y": 44.25,
+        "side": "B",
+        "rotation_deg": 0.0
+      },
+      "after": {
+        "x": 68,
+        "y": 44.39,
+        "side": "B",
+        "rotation_deg": 0
+      },
+      "preserve_value": "10k",
+      "preserve_footprint": "R_0201_DenseCourtyard_1p0x0p4"
+    }
+  ],
+  "scope": "Writer updates corresponding placement fields only; values,MPN,footprint,pinmap andotherfields unchanged. Historicalreports untouched.",
+  "BOM_fields": [
+    "X_mm",
+    "Y_mm",
+    "Side",
+    "Rotation_deg"
+  ],
+  "PLACEMENT_PLAN_fields": [
+    "position_mm",
+    "side",
+    "rotation_deg"
+  ]
+}

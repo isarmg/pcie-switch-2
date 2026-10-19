@@ -68461,11 +68461,11 @@
 	(footprint "Local:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "54288b0d-30cb-4d85-8a48-83f483be7672")
-		(at 1.535 6.835)
+		(at 67.99 41.3 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C708"
-			(at 0 1.16 180)
+			(at 0 1.16 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "3cab3634-00e5-4fd0-a7c2-c7edcac3c280")
@@ -68478,7 +68478,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -1.16 180)
+			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5919fb5d-8e23-4d61-8a3c-abf3417cc441")
@@ -68491,7 +68491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e8879734-1e65-4d77-9df3-f83fc919a7ab")
@@ -68503,7 +68503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "af8858be-1ad4-46f6-bd55-6d23152c04df")
@@ -68515,7 +68515,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "dc2db814-3ac6-4cb6-a0f0-ea583355edeb")
@@ -68553,7 +68553,7 @@
 			(uuid "e63c2fff-ccee-4b6f-b0d4-0187866903bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "e202d77a-d76b-41a5-b3f6-9c5aac5cc9e2")
 			(effects
@@ -68565,7 +68565,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -68573,7 +68573,7 @@
 			(uuid "5b966e8c-4d00-4074-982e-a6e81e1b4924")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -71385,6 +71385,97 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "GRM155Z71A225KE44D"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71661c43-9b00-569b-b3f2-41d7c4dba18a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "292b212f-cdc6-5587-b7f2-c73a9cc57911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage_Rating" "10V"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "de9b75f8-c4b5-5671-8fcd-585ef6f37a4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f8396102-e976-5886-9838-a394136984c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R (MURATA Z7)"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "53af0ff1-5309-56fd-8846-4624c4dc9957")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Height_Max_mm" "0.7"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f1bad1b6-77f3-5d89-bb5a-bba6ff23a832")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Selection_Status" "Design selected; effective C, stability and mechanical qualification pending"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2263d340-dfba-598f-893f-4436dea5cadd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/c33a6c5d-1a9e-4453-a37d-d3058a6ae0e3/19de1b0f-1482-4605-9550-2fdbeed65ee0/72066c09-4c42-4f8a-abe5-0babbd7af33c")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -71450,13 +71541,7 @@
 				(xyz 0 0 0)
 			)
 		)
-(property "MPN" "GRM155Z71A225KE44D" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "71661c43-9b00-569b-b3f2-41d7c4dba18a") (effects (font (size 1 1)) (justify mirror)))
-(property "Manufacturer" "Murata" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "292b212f-cdc6-5587-b7f2-c73a9cc57911") (effects (font (size 1 1)) (justify mirror)))
-(property "Voltage_Rating" "10V" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "de9b75f8-c4b5-5671-8fcd-585ef6f37a4d") (effects (font (size 1 1)) (justify mirror)))
-(property "Tolerance" "10%" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "f8396102-e976-5886-9838-a394136984c2") (effects (font (size 1 1)) (justify mirror)))
-(property "Dielectric" "X7R (MURATA Z7)" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "53af0ff1-5309-56fd-8846-4624c4dc9957") (effects (font (size 1 1)) (justify mirror)))
-(property "Height_Max_mm" "0.7" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "f1bad1b6-77f3-5d89-bb5a-bba6ff23a832") (effects (font (size 1 1)) (justify mirror)))
-(property "Selection_Status" "Design selected; effective C, stability and mechanical qualification pending" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "2263d340-dfba-598f-893f-4436dea5cadd") (effects (font (size 1 1)) (justify mirror))))
+	)
 	(footprint "Local:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "63b88d87-3536-4f36-b48d-ad1740a47eb4")
@@ -74750,11 +74835,11 @@
 	(footprint "Local:SOT-23-5"
 		(layer "B.Cu")
 		(uuid "774f3b3c-db83-4163-a576-dc53abdd11cb")
-		(at 66.275 42.225)
+		(at 65.775 42.45 90)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U702"
-			(at 0 2.4 180)
+			(at 0 2.4 270)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "cdc38ebd-bd2e-4f4b-96f9-3ad0a0f652aa")
@@ -74767,7 +74852,7 @@
 			)
 		)
 		(property "Value" "TPS7A0215PDBVR / RTC 1.5V"
-			(at 0 -2.4 180)
+			(at 0 -2.4 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0f2f4663-b60a-4bb8-804d-685c4769e0f0")
@@ -74780,7 +74865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9be924ee-55bf-4dda-817c-bdcc9cc8f94e")
@@ -74792,7 +74877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "eebf6ed9-5056-4347-999c-ecb5ed7be51d")
@@ -74804,7 +74889,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 180)
+			(at 0 0 270)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "bd796169-3fd7-4fcb-ae75-a1a5b4ff53fc")
@@ -74820,24 +74905,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.05 -1.5)
-			(end -2.05 1.5)
+			(start 1.05 -1.7)
+			(end -1.05 -1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "22bcb209-8d85-4b24-aeba-1cb5e86e1d45")
-		)
-		(fp_line
-			(start -2.05 1.5)
-			(end -1.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "10161f56-0f4c-4178-8c67-eea8aae96b57")
+			(uuid "7e25afbc-a255-497b-8685-58655263dfd2")
 		)
 		(fp_line
 			(start -1.05 -1.7)
@@ -74850,44 +74925,14 @@
 			(uuid "005a6757-d67c-42ee-8e2c-5461c5e2fdcc")
 		)
 		(fp_line
-			(start -1.05 -1.5)
-			(end -2.05 -1.5)
+			(start 2.05 -1.5)
+			(end 1.05 -1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "62ab6c22-5559-4e79-a3c8-80d6f3d8f279")
-		)
-		(fp_line
-			(start -1.05 1.5)
-			(end -1.05 1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "af0e13f9-df0d-4924-b44a-dcab30599876")
-		)
-		(fp_line
-			(start -1.05 1.7)
-			(end 1.05 1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "d428ee53-4337-4a0b-83f0-2d8bbccf155f")
-		)
-		(fp_line
-			(start 1.05 -1.7)
-			(end -1.05 -1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "7e25afbc-a255-497b-8685-58655263dfd2")
+			(uuid "3565444d-bd5c-4bff-8c1f-22c0bb4920c0")
 		)
 		(fp_line
 			(start 1.05 -1.5)
@@ -74900,54 +74945,24 @@
 			(uuid "49d2424b-bfdf-487c-8a2d-3086bde2d78e")
 		)
 		(fp_line
-			(start 1.05 -0.39)
-			(end 2.05 -0.39)
+			(start -1.05 -1.5)
+			(end -2.05 -1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "07c911e6-8590-4d31-a884-5f3ed5fe156e")
+			(uuid "62ab6c22-5559-4e79-a3c8-80d6f3d8f279")
 		)
 		(fp_line
-			(start 1.05 0.39)
-			(end 1.05 -0.39)
+			(start -2.05 -1.5)
+			(end -2.05 1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "724008a3-d3c9-42cb-9a7e-aff95c4d84fd")
-		)
-		(fp_line
-			(start 1.05 1.5)
-			(end 2.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "d4b88972-863e-4d70-9711-d48ffe7309cd")
-		)
-		(fp_line
-			(start 1.05 1.7)
-			(end 1.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "19d37ab5-597d-4fe7-b70b-3c8ec661c26e")
-		)
-		(fp_line
-			(start 2.05 -1.5)
-			(end 1.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "3565444d-bd5c-4bff-8c1f-22c0bb4920c0")
+			(uuid "22bcb209-8d85-4b24-aeba-1cb5e86e1d45")
 		)
 		(fp_line
 			(start 2.05 -0.39)
@@ -74960,6 +74975,16 @@
 			(uuid "19772d50-374f-4d91-81ec-bc454025964e")
 		)
 		(fp_line
+			(start 1.05 -0.39)
+			(end 2.05 -0.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "07c911e6-8590-4d31-a884-5f3ed5fe156e")
+		)
+		(fp_line
 			(start 2.05 0.39)
 			(end 1.05 0.39)
 			(stroke
@@ -74970,6 +74995,16 @@
 			(uuid "4dd8a763-ba0d-453c-9be4-6ea279b32b6a")
 		)
 		(fp_line
+			(start 1.05 0.39)
+			(end 1.05 -0.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "724008a3-d3c9-42cb-9a7e-aff95c4d84fd")
+		)
+		(fp_line
 			(start 2.05 1.5)
 			(end 2.05 0.39)
 			(stroke
@@ -74978,6 +75013,56 @@
 			)
 			(layer "B.CrtYd")
 			(uuid "5612e7fa-785f-46c0-ac6f-b4e098658b0c")
+		)
+		(fp_line
+			(start 1.05 1.5)
+			(end 2.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d4b88972-863e-4d70-9711-d48ffe7309cd")
+		)
+		(fp_line
+			(start -1.05 1.5)
+			(end -1.05 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "af0e13f9-df0d-4924-b44a-dcab30599876")
+		)
+		(fp_line
+			(start -2.05 1.5)
+			(end -1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "10161f56-0f4c-4178-8c67-eea8aae96b57")
+		)
+		(fp_line
+			(start 1.05 1.7)
+			(end 1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "19d37ab5-597d-4fe7-b70b-3c8ec661c26e")
+		)
+		(fp_line
+			(start -1.05 1.7)
+			(end 1.05 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d428ee53-4337-4a0b-83f0-2d8bbccf155f")
 		)
 		(fp_poly
 			(pts
@@ -74992,7 +75077,7 @@
 			(uuid "29764b2b-7bfd-48d3-8897-908d133a2f31")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8ee11421-2c62-49cf-9be1-a2978e83e4b1")
 			(effects
@@ -75004,7 +75089,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.1375 0.95)
+			(at -1.1375 0.95 90)
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -75012,7 +75097,7 @@
 			(uuid "73200e29-367f-48e8-9ad5-996733ac8025")
 		)
 		(pad "2" smd roundrect
-			(at -1.1375 0)
+			(at -1.1375 0 90)
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -75020,7 +75105,7 @@
 			(uuid "1ff7b97e-95dd-43cf-a3f6-f437fc8119b1")
 		)
 		(pad "3" smd roundrect
-			(at -1.1375 -0.95)
+			(at -1.1375 -0.95 90)
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -75028,7 +75113,7 @@
 			(uuid "cda3ac85-eb09-4f5e-939d-d650be83e8c7")
 		)
 		(pad "4" smd roundrect
-			(at 1.1375 -0.95)
+			(at 1.1375 -0.95 90)
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -75036,7 +75121,7 @@
 			(uuid "8ae859cc-b30c-4a2c-b21d-89f66748d12a")
 		)
 		(pad "5" smd roundrect
-			(at 1.1375 0.95)
+			(at 1.1375 0.95 90)
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -79603,11 +79688,11 @@
 	(footprint "Local:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "89bdb42d-e240-4ef1-8984-a7849caa486b")
-		(at 1.535 31.035)
+		(at 67.99 43.2 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C707"
-			(at 0 1.16 180)
+			(at 0 1.16 270)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "b477282a-3aa5-4a93-9df5-2e34b09ab0f4")
@@ -79620,7 +79705,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -1.16 180)
+			(at 0 -1.16 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "70d0010e-a861-4a05-b1d2-d32b57cc1978")
@@ -79633,7 +79718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "deb2c206-2066-454b-855d-e0002af77183")
@@ -79645,7 +79730,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1624807e-e1b5-4a59-abfc-4183001f3769")
@@ -79657,7 +79742,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
+			(at 0 0 270)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "983e18f1-1f95-448d-bdd9-53ad1af6c116")
@@ -79695,7 +79780,7 @@
 			(uuid "0f2cd9fb-a6a2-4497-8997-02a45d8e70c6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(uuid "149f7ccb-b34e-4896-b3e3-a91d87929bbc")
 			(effects
@@ -79707,7 +79792,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 90)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -79715,7 +79800,7 @@
 			(uuid "dd5da6d8-e0f7-4c50-ade0-3b68e8757c86")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 90)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -126386,6 +126471,97 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "GRM155Z71A225KE44D"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8f1502bf-9bec-5de8-941c-a851cc282b58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef317b15-10fb-5bba-ae1d-d8cfd63d3d25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage_Rating" "10V"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d41a1e0-789a-5bbc-a341-7cadbe8f64b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "db8316f1-21e4-5d33-af97-e80f3a8f3fe1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R (MURATA Z7)"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0d8491e2-52f6-59d0-b1a5-6e22c31b70e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Height_Max_mm" "0.7"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ceba2ca7-c1f9-5343-8e12-816f23e797a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Selection_Status" "Design selected; effective C, stability and mechanical qualification pending"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b57792ea-3213-50c5-98ab-b43f75c0aab4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/c33a6c5d-1a9e-4453-a37d-d3058a6ae0e3/19de1b0f-1482-4605-9550-2fdbeed65ee0/15ae5036-7df7-4c8e-bc0d-2d9ee2ae68fa")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -126451,13 +126627,7 @@
 				(xyz 0 0 0)
 			)
 		)
-(property "MPN" "GRM155Z71A225KE44D" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "8f1502bf-9bec-5de8-941c-a851cc282b58") (effects (font (size 1 1)) (justify mirror)))
-(property "Manufacturer" "Murata" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "ef317b15-10fb-5bba-ae1d-d8cfd63d3d25") (effects (font (size 1 1)) (justify mirror)))
-(property "Voltage_Rating" "10V" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "2d41a1e0-789a-5bbc-a341-7cadbe8f64b1") (effects (font (size 1 1)) (justify mirror)))
-(property "Tolerance" "10%" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "db8316f1-21e4-5d33-af97-e80f3a8f3fe1") (effects (font (size 1 1)) (justify mirror)))
-(property "Dielectric" "X7R (MURATA Z7)" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "0d8491e2-52f6-59d0-b1a5-6e22c31b70e4") (effects (font (size 1 1)) (justify mirror)))
-(property "Height_Max_mm" "0.7" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "ceba2ca7-c1f9-5343-8e12-816f23e797a6") (effects (font (size 1 1)) (justify mirror)))
-(property "Selection_Status" "Design selected; effective C, stability and mechanical qualification pending" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "b57792ea-3213-50c5-98ab-b43f75c0aab4") (effects (font (size 1 1)) (justify mirror))))
+	)
 	(footprint "Local:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "cae9e5b5-c1d6-4c1d-a25e-365b511dc5d2")
@@ -128118,7 +128288,7 @@
 	(footprint "Local:R_0201_DenseCourtyard_1p0x0p4"
 		(layer "B.Cu")
 		(uuid "d2021335-c258-4006-9649-d8f403351b5a")
-		(at 68 44.25)
+		(at 68 44.39)
 		(descr "Stock KiCad 0201 copper/paste/model, reduced 1.0x0.4mm courtyard; dense assembly requires qualification.")
 		(tags "resistor")
 		(property "Reference" "R5191"
@@ -136211,6 +136381,97 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "GRM155Z71A225KE44D"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3db31b9f-3c38-53ea-a790-bb2e77de6222")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c9aa760f-7109-55b3-915f-a164b38c4a9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage_Rating" "10V"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7f5af905-19f7-5fbc-b47e-8abbac948cf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e1f9f5cb-59a3-5381-801c-0ac1e68569be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X7R (MURATA Z7)"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93e7201a-bd91-573e-8133-04e96aadfbc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Height_Max_mm" "0.7"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "adcf0ed6-790c-50cb-816e-4a09623fb9d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Selection_Status" "Design selected; effective C, stability and mechanical qualification pending"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c9df98f-caef-5c2e-b36c-6e2305a20dd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/c33a6c5d-1a9e-4453-a37d-d3058a6ae0e3/19de1b0f-1482-4605-9550-2fdbeed65ee0/d7bfc654-92ab-427b-be70-16e1167ea499")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -136276,13 +136537,7 @@
 				(xyz 0 0 0)
 			)
 		)
-(property "MPN" "GRM155Z71A225KE44D" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "3db31b9f-3c38-53ea-a790-bb2e77de6222") (effects (font (size 1 1)) (justify mirror)))
-(property "Manufacturer" "Murata" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "c9aa760f-7109-55b3-915f-a164b38c4a9c") (effects (font (size 1 1)) (justify mirror)))
-(property "Voltage_Rating" "10V" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "7f5af905-19f7-5fbc-b47e-8abbac948cf9") (effects (font (size 1 1)) (justify mirror)))
-(property "Tolerance" "10%" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "e1f9f5cb-59a3-5381-801c-0ac1e68569be") (effects (font (size 1 1)) (justify mirror)))
-(property "Dielectric" "X7R (MURATA Z7)" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "93e7201a-bd91-573e-8133-04e96aadfbc8") (effects (font (size 1 1)) (justify mirror)))
-(property "Height_Max_mm" "0.7" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "adcf0ed6-790c-50cb-816e-4a09623fb9d8") (effects (font (size 1 1)) (justify mirror)))
-(property "Selection_Status" "Design selected; effective C, stability and mechanical qualification pending" (at 0 0 0) (layer "B.Fab") (hide yes) (uuid "1c9df98f-caef-5c2e-b36c-6e2305a20dd7") (effects (font (size 1 1)) (justify mirror))))
+	)
 	(footprint "Local:Probe_0p5mm"
 		(layer "B.Cu")
 		(uuid "ff412536-a2b2-40f3-9e89-d953cfb24133")
@@ -140681,6 +140936,14 @@
 		(uuid "110435ba-1b62-43d0-bee7-50fa9f78cfba")
 	)
 	(segment
+		(start 67.99 42.72)
+		(end 65.775 42.72)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "{slash}GND")
+		(uuid "181d5b37-e391-4a7b-963b-40e17391ca8a")
+	)
+	(segment
 		(start 69.5 6.4)
 		(end 70.5 6.4)
 		(width 0.15)
@@ -140727,6 +140990,14 @@
 		(layer "B.Cu")
 		(net "{slash}GND")
 		(uuid "3f28ce0a-9f51-43c8-802a-062a7ce4140b")
+	)
+	(segment
+		(start 65.1375 42.225)
+		(end 65.775 42.225)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "{slash}GND")
+		(uuid "41f9f37f-9e81-4ce7-874d-985602cf2184")
 	)
 	(segment
 		(start 71.08 32.6)
@@ -140849,6 +141120,14 @@
 		(uuid "7401c7c9-4c75-4b85-8f11-4b1e067b912e")
 	)
 	(segment
+		(start 67.99 41.78)
+		(end 67.99 42.72)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "{slash}GND")
+		(uuid "74506800-0e13-4053-af35-89ab0fe84d71")
+	)
+	(segment
 		(start 41.56 22.624)
 		(end 41.46 22.797205)
 		(width 0.1)
@@ -140937,6 +141216,14 @@
 		(uuid "9167ff5c-30f7-4658-9e36-d4806b9bf7c9")
 	)
 	(segment
+		(start 65.775 42.225)
+		(end 65.775 43.5875)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "{slash}GND")
+		(uuid "91a17205-2ecd-4c99-b3d2-7f02aff88d5b")
+	)
+	(segment
 		(start 72.15 36.28)
 		(end 73.5 37.7)
 		(width 0.15)
@@ -140975,6 +141262,14 @@
 		(layer "B.Cu")
 		(net "{slash}GND")
 		(uuid "c2df5a39-28e2-4b28-acd6-c8ab268e5eb0")
+	)
+	(segment
+		(start 65.775 42.72)
+		(end 65.775 43.5875)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "{slash}GND")
+		(uuid "c661e4ab-ee71-4799-8345-cc66796058ae")
 	)
 	(segment
 		(start 77.68 31.6)
@@ -160169,12 +160464,52 @@
 		(uuid "fcb122e9-8a68-415e-bf2c-e04b38a5dc3f")
 	)
 	(segment
+		(start 64.825 44.38)
+		(end 66.724999 44.38)
+		(width 0.1)
+		(layer "B.Cu")
+		(net "{slash}P3V3_AUX")
+		(uuid "1e647d0b-ab96-43d4-93cb-2f31bce29a28")
+	)
+	(segment
+		(start 64.825 43.5875)
+		(end 64.825 44.38)
+		(width 0.1)
+		(layer "B.Cu")
+		(net "{slash}P3V3_AUX")
+		(uuid "3fa76839-6f4a-46ee-9e28-636a0fd1adbe")
+	)
+	(segment
 		(start 32.7 40.050002)
 		(end 31.64 40.05)
 		(width 0.1)
 		(layer "B.Cu")
 		(net "{slash}P3V3_AUX")
 		(uuid "4ef48cdd-4324-4524-af51-f59355c578be")
+	)
+	(segment
+		(start 66.724999 43.5875)
+		(end 67.99 43.68)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "{slash}P3V3_AUX")
+		(uuid "549673d7-159e-4817-9a78-1604a7885a1b")
+	)
+	(segment
+		(start 66.724999 44.38)
+		(end 66.724999 43.5875)
+		(width 0.1)
+		(layer "B.Cu")
+		(net "{slash}P3V3_AUX")
+		(uuid "6d722ae1-724d-4e45-8152-0e012e58549a")
+	)
+	(segment
+		(start 65.1375 43.175)
+		(end 64.825 43.175)
+		(width 0.1)
+		(layer "B.Cu")
+		(net "{slash}P3V3_AUX")
+		(uuid "9320db58-985e-446b-b0a6-41591110ac90")
 	)
 	(segment
 		(start 32.7 40.050002)
@@ -160191,6 +160526,14 @@
 		(layer "B.Cu")
 		(net "{slash}P3V3_AUX")
 		(uuid "bf1d3ce9-43b5-4d7e-99c2-7b08d40db9cc")
+	)
+	(segment
+		(start 64.825 43.175)
+		(end 64.825 43.5875)
+		(width 0.1)
+		(layer "B.Cu")
+		(net "{slash}P3V3_AUX")
+		(uuid "ff347c00-f8c6-4e5b-a1f2-9ce5d3c5e97c")
 	)
 	(via blind
 		(at 73.77 31.6)
@@ -160537,14 +160880,6 @@
 		(uuid "828e5fe6-ffa9-4643-9577-5b1fedd36bc7")
 	)
 	(via blind
-		(at 1.055 31.035)
-		(size 0.2)
-		(drill 0.1)
-		(layers "In30.Cu" "B.Cu")
-		(net "{slash}P3V3_AUX")
-		(uuid "83f041e9-e623-4743-9fd5-a8c623156154")
-	)
-	(via blind
 		(at 79.7 6.84)
 		(size 0.2)
 		(drill 0.1)
@@ -160679,14 +161014,6 @@
 		(layers "In30.Cu" "B.Cu")
 		(net "{slash}P3V3_AUX")
 		(uuid "d38b9908-9edf-4783-b8cf-12d0ff88f735")
-	)
-	(via blind
-		(at 65.1375 41.275)
-		(size 0.2)
-		(drill 0.1)
-		(layers "In30.Cu" "B.Cu")
-		(net "{slash}P3V3_AUX")
-		(uuid "d617a8cb-51b3-4dff-a1d4-24b5109739f2")
 	)
 	(via blind
 		(at 78.32 42)
@@ -220919,6 +221246,22 @@
 		(layer "In17.Cu")
 		(net "{slash}CPU_G5_RX3_N")
 		(uuid "ce5149cd-a658-4c00-a340-1e342c805bb8")
+	)
+	(segment
+		(start 66.724999 41.3125)
+		(end 66.724999 40.82)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "{slash}CPU_VCCRTC")
+		(uuid "7634339b-302c-4eab-9032-9ee76f3d445e")
+	)
+	(segment
+		(start 66.724999 40.82)
+		(end 67.99 40.82)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "{slash}CPU_VCCRTC")
+		(uuid "be34a83e-3115-4b11-a061-eeefc75aca7c")
 	)
 	(via blind
 		(at 42.622 31.068)
