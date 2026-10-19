@@ -1,0 +1,47 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "source_vias": 3837,
+  "x1_success_gate_evidence": [
+    {
+      "file": "SCENARIO_01.json",
+      "interchannel_copper_gap_mm": 0.3234178397550592
+    }
+  ],
+  "total_declared_scenarios": 4,
+  "orders": [
+    [
+      "S06_SW_RX0",
+      "S06_SW_RX1",
+      "S06_SW_TX0",
+      "S06_SW_TX1"
+    ],
+    [
+      "S06_SW_RX1",
+      "S06_SW_RX0",
+      "S06_SW_TX1",
+      "S06_SW_TX0"
+    ],
+    [
+      "S06_SW_RX1",
+      "S06_SW_TX1",
+      "S06_SW_RX0",
+      "S06_SW_TX0"
+    ],
+    [
+      "S06_SW_RX0",
+      "S06_SW_TX1",
+      "S06_SW_RX1",
+      "S06_SW_TX0"
+    ]
+  ],
+  "executed_in_this_invocation": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "first_and_subsequent_channel_cost": "unit geometric step cost",
+  "max_expanded_nodes_per_channel": 1200000,
+  "stop_policy": "Try only these four orders after the six original orders, stopping after first exact all-four solution; each scenario stops at first rejected channel. Explicit --scenario can replay one declared scenario.",
+  "scope": "one slot S06, two bidirectional x1 lanes = four directional channels; no two-slot or 16-channel result"
+}

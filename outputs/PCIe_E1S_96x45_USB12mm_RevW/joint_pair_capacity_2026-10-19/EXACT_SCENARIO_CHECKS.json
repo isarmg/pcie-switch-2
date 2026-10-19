@@ -1,0 +1,832 @@
+[
+  {
+    "scenario_file": "SCENARIO_00.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 1,
+    "minimum_interchannel_copper_gap_mm": null,
+    "routes": [
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999051,
+        "P_N_length_difference_mm": 0.14659550906033303,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "length_mm": 74.53241522424042,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "length_mm": 74.67901073330076,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_polyline_exists": false,
+        "reason": "no path in this conservative raster"
+      }
+    ]
+  },
+  {
+    "scenario_file": "SCENARIO_01.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 2,
+    "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+    "routes": [
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.0999999999999944,
+        "P_N_length_difference_mm": 0.12773531066150667,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "length_mm": 62.183578643274004,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "length_mm": 62.0558433326125,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999051,
+        "P_N_length_difference_mm": 0.17377892890856117,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "length_mm": 80.8537560127779,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12125477993606423,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.523417839755054
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "length_mm": 81.02753494168645,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12130695180539738,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.3234178397550592
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_SCENARIO_00.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 2,
+    "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+    "routes": [
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.0999999999999944,
+        "P_N_length_difference_mm": 0.12773531066150667,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "length_mm": 62.183578643274004,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "length_mm": 62.0558433326125,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999051,
+        "P_N_length_difference_mm": 0.17377892890856117,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "length_mm": 80.8537560127779,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12125477993606423,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.523417839755054
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "length_mm": 81.02753494168645,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12130695180539738,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.3234178397550592
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": false,
+        "reason": "no path in this conservative raster"
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_SCENARIO_01.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 1,
+    "minimum_interchannel_copper_gap_mm": null,
+    "routes": [
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.0999999999999944,
+        "P_N_length_difference_mm": 0.12773531066150667,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "length_mm": 62.183578643274004,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "length_mm": 62.0558433326125,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": false,
+        "pair_copper_gap_mm": 0.09999999999999148,
+        "P_N_length_difference_mm": 0.0928453750417475,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "length_mm": 67.32016564988277,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.04119999999999849,
+            "source_via_clearance_violations": [
+              {
+                "net": "{slash}GND",
+                "xy": [
+                  57.318794,
+                  22.5588
+                ],
+                "copper_gap_mm": 0.04119999999999849
+              }
+            ],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.523417839755054
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "length_mm": 67.41301102492451,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.121123178733294,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.3234178397550592
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_SCENARIO_02.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 0,
+    "minimum_interchannel_copper_gap_mm": null,
+    "routes": [
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": false,
+        "pair_copper_gap_mm": 0.0999999999999876,
+        "P_N_length_difference_mm": 0.0736336298504483,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "length_mm": 59.6342578412126,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.04119999999999849,
+            "source_via_clearance_violations": [
+              {
+                "net": "{slash}GND",
+                "xy": [
+                  57.318794,
+                  22.5588
+                ],
+                "copper_gap_mm": 0.04119999999999849
+              }
+            ],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "length_mm": 59.70789147106305,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_SCENARIO_03.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 0,
+    "minimum_interchannel_copper_gap_mm": null,
+    "routes": [
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": false,
+        "pair_copper_gap_mm": 0.0999999999999876,
+        "P_N_length_difference_mm": 0.0736336298504483,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "length_mm": 59.6342578412126,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.04119999999999849,
+            "source_via_clearance_violations": [
+              {
+                "net": "{slash}GND",
+                "xy": [
+                  57.318794,
+                  22.5588
+                ],
+                "copper_gap_mm": 0.04119999999999849
+              }
+            ],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "length_mm": 59.70789147106305,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_SCENARIO_04.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 1,
+    "minimum_interchannel_copper_gap_mm": null,
+    "routes": [
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999587,
+        "P_N_length_difference_mm": 0.04500275713697022,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "length_mm": 70.85366382930502,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "length_mm": 70.89866658644199,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": false,
+        "reason": "no path in this conservative raster"
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_SCENARIO_05.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 2,
+    "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+    "routes": [
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.0999999999999944,
+        "P_N_length_difference_mm": 0.12773531066150667,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "length_mm": 62.183578643274004,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "length_mm": 62.0558433326125,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999423,
+        "P_N_length_difference_mm": 0.08022568608282654,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "length_mm": 77.17226764336112,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000147,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.523417839755054
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "length_mm": 77.25249332944395,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12130695180539738,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.3234178397550592
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": false,
+        "reason": "no path in this conservative raster"
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_REPAIR_SCENARIO_00.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 3,
+    "minimum_interchannel_copper_gap_mm": 0.13294243242555376,
+    "routes": [
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.0999999999999944,
+        "P_N_length_difference_mm": 0.12773531066150667,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "length_mm": 62.183578643274004,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "length_mm": 62.0558433326125,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999218,
+        "P_N_length_difference_mm": 0.10935589778013366,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "length_mm": 67.65966652649848,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12125477993606423,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.523417839755054
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "length_mm": 67.55031062871835,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.121123178733294,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.3234178397550592
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999051,
+        "P_N_length_difference_mm": 0.1415891506773761,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "length_mm": 82.33063137247885,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999925,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.33294243242554733
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "length_mm": 82.47222052315622,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12119655877432392,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.13294243242555376
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_polyline_exists": false,
+        "reason": "blocked centerline endpoint"
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_REPAIR_SCENARIO_01.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 1,
+    "minimum_interchannel_copper_gap_mm": null,
+    "routes": [
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999268,
+        "P_N_length_difference_mm": 0.12499535395713224,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "length_mm": 59.8203554569927,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "length_mm": 59.69536010303557,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": false,
+        "pair_copper_gap_mm": -0.05357899012435965,
+        "P_N_length_difference_mm": 1.2984457551384736,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "length_mm": 75.98004088988226,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": false,
+            "minimum_board_edge_copper_gap_mm": 7.95,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.3763094907221609
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "length_mm": 77.27848664502073,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.149999999999999,
+            "minimum_all_source_via_copper_gap_mm": -0.0630086803510648,
+            "source_via_clearance_violations": [
+              {
+                "net": "{slash}S06_SW_RX0_P",
+                "xy": [
+                  57.7,
+                  24.335
+                ],
+                "copper_gap_mm": -0.0630086803510648
+              }
+            ],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.17630949072216004
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_REPAIR_SCENARIO_02.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 2,
+    "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+    "routes": [
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999268,
+        "P_N_length_difference_mm": 0.12499535395713224,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "length_mm": 59.8203554569927,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12007048482663649,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "length_mm": 59.69536010303557,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999597,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999423,
+        "P_N_length_difference_mm": 0.1662852712940861,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "length_mm": 77.13977088297987,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.523417839755054
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "length_mm": 77.30605615427396,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12210420376762263,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.3234178397550592
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_polyline_exists": false,
+        "reason": "no path in this conservative raster"
+      }
+    ]
+  },
+  {
+    "scenario_file": "X2_REPAIR_SCENARIO_03.json",
+    "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+    "all_router_pass_fail_labels_confirmed": true,
+    "accepted_directional_channels": 2,
+    "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+    "routes": [
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.0999999999999944,
+        "P_N_length_difference_mm": 0.12773531066150667,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "length_mm": 62.183578643274004,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000158,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "length_mm": 62.0558433326125,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 0.0,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 8.45,
+            "minimum_all_source_via_copper_gap_mm": 0.11999999999999603,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": null
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_polyline_exists": true,
+        "independent_exact_pass": true,
+        "pair_copper_gap_mm": 0.09999999999999423,
+        "P_N_length_difference_mm": 0.08022568608282654,
+        "traces": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "length_mm": 77.17226764336112,
+            "P_or_N": "P",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12000000000000147,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.523417839755054
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "length_mm": 77.25249332944395,
+            "P_or_N": "N",
+            "endpoint_max_error_mm": 9.999999974752427e-07,
+            "simple": true,
+            "minimum_board_edge_copper_gap_mm": 6.45,
+            "minimum_all_source_via_copper_gap_mm": 0.12130695180539738,
+            "source_via_clearance_violations": [],
+            "minimum_previously_accepted_channel_copper_gap_mm": 0.3234178397550592
+          }
+        ]
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_polyline_exists": false,
+        "reason": "no path in this conservative raster"
+      }
+    ]
+  }
+]

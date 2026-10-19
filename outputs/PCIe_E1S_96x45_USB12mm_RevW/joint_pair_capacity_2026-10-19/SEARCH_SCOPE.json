@@ -1,0 +1,25 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "source_vias": 3837,
+  "source_unchanged": true,
+  "plane_model": "all original vias projected, original other copper excluded; one new signal plane, continuous GND reference only required not implemented",
+  "grid_mm": 0.05,
+  "width_mm": 0.1,
+  "pair_gap_mm": 0.1,
+  "other_net_clearance_mm": 0.1,
+  "centerline_via_inflation_mm": 0.27,
+  "centerline_existing_trace_inflation_mm": 0.32,
+  "maximum_expanded_nodes_per_channel": 1200000,
+  "maximum_declared_x1_scenarios": 8,
+  "executed_in_this_invocation": [
+    0
+  ],
+  "cost_modes": {
+    "shortest": "unit geometric step cost",
+    "avoid_other": "8 * max(0,1-distance/0.8mm) penalty around other independently routed centerline",
+    "north": "3 * y/45mm additional node cost",
+    "south": "3 * (1-y/45mm) additional node cost"
+  },
+  "search_policy": "At most both route orders times four first-channel costs, no source hole moves or clearance reductions. First routes may be redesigned; second is fresh shortest route with first as copper obstacle. Stop at first exact same-plane success or eight scenarios. Explicit --scenario can replay one declared scenario. Not an unrestricted global optimization.",
+  "x2_expansion_gate": "Only if both x1 channels pass exact checks on the same plane; x2 must have a separately stated bounded scenario set."
+}

@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "checks": {
+    "SCENARIO_01.json": true,
+    "X2_REPAIR_SCENARIO_00.json": true,
+    "X2_REPAIR_SCENARIO_01.json": true,
+    "X2_REPAIR_SCENARIO_02.json": true,
+    "X2_REPAIR_SCENARIO_03.json": true,
+    "X2_SCENARIO_00.json": true,
+    "X2_SCENARIO_01.json": true,
+    "X2_SCENARIO_02.json": true,
+    "X2_SCENARIO_03.json": true,
+    "X2_SCENARIO_04.json": true,
+    "X2_SCENARIO_05.json": true
+  },
+  "ignored_fields": [
+    "seconds elapsed",
+    "source_sha256 added during packaging",
+    "endpoint_obstacles diagnostic added without path/decision changes"
+  ],
+  "scope": "Actual polylines/lengths/clearances/search node counts/pass-fail outcomes identical; diagnostic blocker distances independently inspected",
+  "source_pcb_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c"
+}

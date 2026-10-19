@@ -50,5 +50,6 @@
   "primary_E1S_current_copper_layer_count": 32,
   "primary_E1S_provisional_reconstruction_target_layers": 24,
   "primary_E1S_reconstruction_target_implemented": false,
-  "primary_E1S_paired_routing_geometry_prototype": "outputs/PCIe_E1S_96x45_USB12mm_RevW/paired_routing_prototype_2026-10-19/README.md"
+  "primary_E1S_paired_routing_geometry_prototype": "outputs/PCIe_E1S_96x45_USB12mm_RevW/paired_routing_prototype_2026-10-19/README.md",
+  "primary_E1S_joint_pair_capacity_review": "outputs/PCIe_E1S_96x45_USB12mm_RevW/joint_pair_capacity_2026-10-19/README.md"
 }

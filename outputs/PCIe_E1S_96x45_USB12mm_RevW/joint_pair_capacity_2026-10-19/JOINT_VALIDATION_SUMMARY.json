@@ -1,0 +1,364 @@
+{
+  "status": "bounded same-plane geometry study completed; formal PCB unchanged",
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "source_vias_preserved": 3837,
+  "source_pads": 7120,
+  "source_hash_unchanged": true,
+  "x1_same_plane_exact_pass": true,
+  "x1_target_signal_ordinal": 7,
+  "adjacent_continuous_GND_ordinal_required_not_implemented": 8,
+  "x1_complete_bidirectional_lanes": 1,
+  "x1_directional_channels": 2,
+  "x1_onboard_pair_sections_including_AC": 3,
+  "x1_minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+  "x2_initial_scenarios_executed": 6,
+  "x2_endpoint_repair_scenarios_executed": 4,
+  "x2_best_candidate": {
+    "scenario_file": "X2_REPAIR_SCENARIO_00.json",
+    "order": [
+      "S06_SW_RX0",
+      "S06_SW_RX1",
+      "S06_SW_TX0",
+      "S06_SW_TX1"
+    ],
+    "accepted_directional_channels": 3,
+    "minimum_interchannel_copper_gap_mm": 0.13294243242555376,
+    "failures": [
+      {
+        "pair": "S06_SW_TX1",
+        "reason": "blocked centerline endpoint",
+        "endpoint_obstacles": [
+          {
+            "end": "end",
+            "grid_xy_mm": [
+              63.6,
+              22.85
+            ],
+            "blockers": [
+              {
+                "kind": "new earlier channel trace",
+                "net": "{slash}S06_SW_TX0_P",
+                "center_distance_mm": 0.20842345713458696
+              },
+              {
+                "kind": "new earlier channel trace",
+                "net": "{slash}S06_SW_TX0_N",
+                "center_distance_mm": 0.008423457134592824
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "x2_complete_four_directional_channels_proven": false,
+  "all_reported_pass_fail_labels_independently_recomputed": true,
+  "geometry_rules": {
+    "width_mm": 0.1,
+    "pair_copper_gap_mm": 0.1,
+    "other_net_copper_gap_mm": 0.1,
+    "all_source_vias_projected_to_same_plane": true,
+    "existing_other_internal_copper_included": false,
+    "source_vias_moved_or_deleted": false
+  },
+  "scenario_summary": [
+    {
+      "scenario_file": "SCENARIO_00.json",
+      "order": [
+        "S06_SW_TX0",
+        "S06_SW_RX0"
+      ],
+      "accepted_directional_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "failures": [
+        {
+          "pair": "S06_SW_RX0",
+          "reason": "no path in this conservative raster",
+          "endpoint_obstacles": null
+        }
+      ]
+    },
+    {
+      "scenario_file": "SCENARIO_01.json",
+      "order": [
+        "S06_SW_RX0",
+        "S06_SW_TX0"
+      ],
+      "accepted_directional_channels": 2,
+      "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+      "failures": []
+    },
+    {
+      "scenario_file": "X2_SCENARIO_00.json",
+      "order": [
+        "S06_SW_RX0",
+        "S06_SW_TX0",
+        "S06_SW_RX1",
+        "S06_SW_TX1"
+      ],
+      "accepted_directional_channels": 2,
+      "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+      "failures": [
+        {
+          "pair": "S06_SW_RX1",
+          "reason": "no path in this conservative raster",
+          "endpoint_obstacles": null
+        }
+      ]
+    },
+    {
+      "scenario_file": "X2_SCENARIO_01.json",
+      "order": [
+        "S06_SW_RX0",
+        "S06_SW_RX1",
+        "S06_SW_TX0",
+        "S06_SW_TX1"
+      ],
+      "accepted_directional_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "failures": [
+        {
+          "pair": "S06_SW_RX1",
+          "reason": "exact geometry check rejected candidate; no clearance was relaxed",
+          "endpoint_obstacles": null
+        }
+      ]
+    },
+    {
+      "scenario_file": "X2_SCENARIO_02.json",
+      "order": [
+        "S06_SW_RX1",
+        "S06_SW_RX0",
+        "S06_SW_TX1",
+        "S06_SW_TX0"
+      ],
+      "accepted_directional_channels": 0,
+      "minimum_interchannel_copper_gap_mm": null,
+      "failures": [
+        {
+          "pair": "S06_SW_RX1",
+          "reason": "exact geometry check rejected candidate; no clearance was relaxed",
+          "endpoint_obstacles": null
+        }
+      ]
+    },
+    {
+      "scenario_file": "X2_SCENARIO_03.json",
+      "order": [
+        "S06_SW_RX1",
+        "S06_SW_TX1",
+        "S06_SW_RX0",
+        "S06_SW_TX0"
+      ],
+      "accepted_directional_channels": 0,
+      "minimum_interchannel_copper_gap_mm": null,
+      "failures": [
+        {
+          "pair": "S06_SW_RX1",
+          "reason": "exact geometry check rejected candidate; no clearance was relaxed",
+          "endpoint_obstacles": null
+        }
+      ]
+    },
+    {
+      "scenario_file": "X2_SCENARIO_04.json",
+      "order": [
+        "S06_SW_TX1",
+        "S06_SW_RX1",
+        "S06_SW_TX0",
+        "S06_SW_RX0"
+      ],
+      "accepted_directional_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "failures": [
+        {
+          "pair": "S06_SW_RX1",
+          "reason": "no path in this conservative raster",
+          "endpoint_obstacles": null
+        }
+      ]
+    },
+    {
+      "scenario_file": "X2_SCENARIO_05.json",
+      "order": [
+        "S06_SW_RX0",
+        "S06_SW_TX1",
+        "S06_SW_RX1",
+        "S06_SW_TX0"
+      ],
+      "accepted_directional_channels": 2,
+      "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+      "failures": [
+        {
+          "pair": "S06_SW_RX1",
+          "reason": "no path in this conservative raster",
+          "endpoint_obstacles": null
+        }
+      ]
+    },
+    {
+      "scenario_file": "X2_REPAIR_SCENARIO_00.json",
+      "order": [
+        "S06_SW_RX0",
+        "S06_SW_RX1",
+        "S06_SW_TX0",
+        "S06_SW_TX1"
+      ],
+      "accepted_directional_channels": 3,
+      "minimum_interchannel_copper_gap_mm": 0.13294243242555376,
+      "failures": [
+        {
+          "pair": "S06_SW_TX1",
+          "reason": "blocked centerline endpoint",
+          "endpoint_obstacles": [
+            {
+              "end": "end",
+              "grid_xy_mm": [
+                63.6,
+                22.85
+              ],
+              "blockers": [
+                {
+                  "kind": "new earlier channel trace",
+                  "net": "{slash}S06_SW_TX0_P",
+                  "center_distance_mm": 0.20842345713458696
+                },
+                {
+                  "kind": "new earlier channel trace",
+                  "net": "{slash}S06_SW_TX0_N",
+                  "center_distance_mm": 0.008423457134592824
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_file": "X2_REPAIR_SCENARIO_01.json",
+      "order": [
+        "S06_SW_RX1",
+        "S06_SW_RX0",
+        "S06_SW_TX1",
+        "S06_SW_TX0"
+      ],
+      "accepted_directional_channels": 1,
+      "minimum_interchannel_copper_gap_mm": null,
+      "failures": [
+        {
+          "pair": "S06_SW_RX0",
+          "reason": "exact geometry check rejected candidate; no clearance was relaxed",
+          "endpoint_obstacles": null
+        }
+      ]
+    },
+    {
+      "scenario_file": "X2_REPAIR_SCENARIO_02.json",
+      "order": [
+        "S06_SW_RX1",
+        "S06_SW_TX1",
+        "S06_SW_RX0",
+        "S06_SW_TX0"
+      ],
+      "accepted_directional_channels": 2,
+      "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+      "failures": [
+        {
+          "pair": "S06_SW_RX0",
+          "reason": "no path in this conservative raster",
+          "endpoint_obstacles": null
+        }
+      ]
+    },
+    {
+      "scenario_file": "X2_REPAIR_SCENARIO_03.json",
+      "order": [
+        "S06_SW_RX0",
+        "S06_SW_TX1",
+        "S06_SW_RX1",
+        "S06_SW_TX0"
+      ],
+      "accepted_directional_channels": 2,
+      "minimum_interchannel_copper_gap_mm": 0.3234178397550592,
+      "failures": [
+        {
+          "pair": "S06_SW_RX1",
+          "reason": "no path in this conservative raster",
+          "endpoint_obstacles": null
+        }
+      ]
+    }
+  ],
+  "AC_output_sections_retained_and_checked": [
+    {
+      "net": "{slash}S06_SSD_RX0_P",
+      "layer": "F.Cu",
+      "length_mm": 1.3800000000000026,
+      "minimum_other_front_copper_gap_mm": 0.3499999999999986,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SSD_RX0_N",
+      "layer": "F.Cu",
+      "length_mm": 1.3800000000000026,
+      "minimum_other_front_copper_gap_mm": 0.3499999999999986,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SSD_RX1_P",
+      "layer": "F.Cu",
+      "length_mm": 1.3800000000000026,
+      "minimum_other_front_copper_gap_mm": 0.3499990000000011,
+      "violations": [],
+      "pass": true
+    },
+    {
+      "net": "{slash}S06_SSD_RX1_N",
+      "layer": "F.Cu",
+      "length_mm": 1.380000000000365,
+      "minimum_other_front_copper_gap_mm": 0.34999900000000117,
+      "violations": [],
+      "pass": true
+    }
+  ],
+  "x1_deviation_from_independent_routes": [
+    {
+      "net": "{slash}S06_SW_RX0_P",
+      "independent_length_mm": 62.183578643274004,
+      "same_plane_joint_length_mm": 62.183578643274004,
+      "added_length_mm": 0.0,
+      "path_Hausdorff_deviation_mm": 0.0
+    },
+    {
+      "net": "{slash}S06_SW_RX0_N",
+      "independent_length_mm": 62.0558433326125,
+      "same_plane_joint_length_mm": 62.0558433326125,
+      "added_length_mm": 0.0,
+      "path_Hausdorff_deviation_mm": 0.0
+    },
+    {
+      "net": "{slash}S06_SW_TX0_P",
+      "independent_length_mm": 74.53241522424042,
+      "same_plane_joint_length_mm": 80.8537560127779,
+      "added_length_mm": 6.321340788537469,
+      "path_Hausdorff_deviation_mm": 7.249331913688688
+    },
+    {
+      "net": "{slash}S06_SW_TX0_N",
+      "independent_length_mm": 74.67901073330076,
+      "same_plane_joint_length_mm": 81.02753494168645,
+      "added_length_mm": 6.348524208385697,
+      "path_Hausdorff_deviation_mm": 7.248952414531069
+    }
+  ],
+  "limitations": [
+    "Not a 24-layer PCB, whole-board native KiCad DRC, SI or manufacturing result.",
+    "Fixed source holes from a 32-layer board are all projected, even when real layer spans might not reach the eventual signal plane; a failed search cannot prove actual 24-layer unroutability.",
+    "No via position, drill, or span redesigned; no process permission or manufacturer-qualified stack-up assumed.",
+    "Successful channel prefixes are not complete x2 lane groups. No x4, two-slot, or 16-channel search was performed.",
+    "No new GND plane or return vias were implemented; continuous L8 reference is a requirement, not evidence.",
+    "All lengths omit vertical vias and capacitor-package propagation. No delay/skew or impedance acceptance limit is asserted."
+  ]
+}

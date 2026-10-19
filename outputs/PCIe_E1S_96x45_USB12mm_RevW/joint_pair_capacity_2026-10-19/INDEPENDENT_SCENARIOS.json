@@ -1,0 +1,812 @@
+{
+  "pass": true,
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "scope": "Independent exact geometry against original projected vias and same-plane earlier channels; no complete 24-layer PCB/reference/return/manufacturing/SI qualification",
+  "scenarios": [
+    {
+      "file": "SCENARIO_00.json",
+      "sha256": "5e6d0faf2fb6ec6b320cf37009fe240c36d650a796e638f501c40a10de1d64db",
+      "checks": [
+        {
+          "pair": "S06_SW_TX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999051,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "endpoint_ids": [
+                "C4041:1",
+                "U1:AH3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 74.53241522424042,
+              "via_gap_mm": 0.12007048482663649,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "endpoint_ids": [
+                "C4042:1",
+                "U1:AJ3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 74.67901073330076,
+              "via_gap_mm": 0.11999999999999597,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX0",
+          "result": "no constructed path; bounded-search claim only"
+        }
+      ],
+      "passed_channels": 1
+    },
+    {
+      "file": "SCENARIO_01.json",
+      "sha256": "f686689af3353d16ab7a7fbf509a591ada6b48f66e1bbd0f02e1d5dc8256bd15",
+      "checks": [
+        {
+          "pair": "S06_SW_RX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.0999999999999944,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "endpoint_ids": [
+                "J6:A18",
+                "U1:AH5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.183578643274004,
+              "via_gap_mm": 0.12000000000000158,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "endpoint_ids": [
+                "J6:A17",
+                "U1:AJ5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.0558433326125,
+              "via_gap_mm": 0.11999999999999603,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999051,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "endpoint_ids": [
+                "C4041:1",
+                "U1:AH3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 80.8537560127779,
+              "via_gap_mm": 0.12125477993606423,
+              "earlier_channel_gap_mm": 0.523417839755054,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "endpoint_ids": [
+                "C4042:1",
+                "U1:AJ3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 81.02753494168645,
+              "via_gap_mm": 0.12130695180539738,
+              "earlier_channel_gap_mm": 0.3234178397550592,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            }
+          ]
+        }
+      ],
+      "passed_channels": 2
+    },
+    {
+      "file": "X2_REPAIR_SCENARIO_00.json",
+      "sha256": "e4c40ec4e460e18317bc16ec8bc05614f0bf9c998d7f7070f95d87d4b20b6103",
+      "checks": [
+        {
+          "pair": "S06_SW_RX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.0999999999999944,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "endpoint_ids": [
+                "J6:A18",
+                "U1:AH5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.183578643274004,
+              "via_gap_mm": 0.12000000000000158,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "endpoint_ids": [
+                "J6:A17",
+                "U1:AJ5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.0558433326125,
+              "via_gap_mm": 0.11999999999999603,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999218,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "endpoint_ids": [
+                "J6:A21",
+                "U1:AF5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 67.65966652649848,
+              "via_gap_mm": 0.12125477993606423,
+              "earlier_channel_gap_mm": 0.523417839755054,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "endpoint_ids": [
+                "J6:A20",
+                "U1:AG5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 67.55031062871835,
+              "via_gap_mm": 0.121123178733294,
+              "earlier_channel_gap_mm": 0.3234178397550592,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999051,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "endpoint_ids": [
+                "C4041:1",
+                "U1:AH3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 82.33063137247885,
+              "via_gap_mm": 0.11999999999999925,
+              "earlier_channel_gap_mm": 0.33294243242554733,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "endpoint_ids": [
+                "C4042:1",
+                "U1:AJ3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 82.47222052315622,
+              "via_gap_mm": 0.12119655877432392,
+              "earlier_channel_gap_mm": 0.13294243242555376,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX1",
+          "result": "no constructed path; bounded-search claim only"
+        }
+      ],
+      "passed_channels": 3
+    },
+    {
+      "file": "X2_REPAIR_SCENARIO_01.json",
+      "sha256": "7995500a479ee8ae495f46b27d388776a0e915066ab536173f7b292c2b201158",
+      "checks": [
+        {
+          "pair": "S06_SW_RX1",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999268,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "endpoint_ids": [
+                "J6:A21",
+                "U1:AF5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 59.8203554569927,
+              "via_gap_mm": 0.12007048482663649,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "endpoint_ids": [
+                "J6:A20",
+                "U1:AG5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 59.69536010303557,
+              "via_gap_mm": 0.11999999999999597,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX0",
+          "geometry_pass": false,
+          "pair_gap_mm": -0.05357899012435965,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "endpoint_ids": [
+                "J6:A18",
+                "U1:AH5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 75.98004088988226,
+              "via_gap_mm": 0.12000000000000158,
+              "earlier_channel_gap_mm": 0.3763094907221609,
+              "edge_mm": 7.95,
+              "geometric_pass": false
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "endpoint_ids": [
+                "J6:A17",
+                "U1:AJ5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 77.27848664502073,
+              "via_gap_mm": -0.0630086803510648,
+              "earlier_channel_gap_mm": 0.17630949072216004,
+              "edge_mm": 8.149999999999999,
+              "geometric_pass": false
+            }
+          ]
+        }
+      ],
+      "passed_channels": 1
+    },
+    {
+      "file": "X2_REPAIR_SCENARIO_02.json",
+      "sha256": "f709b6356316ad6173fab76c36e92c104f94a7eace07c9d36fcee4c27b290520",
+      "checks": [
+        {
+          "pair": "S06_SW_RX1",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999268,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "endpoint_ids": [
+                "J6:A21",
+                "U1:AF5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 59.8203554569927,
+              "via_gap_mm": 0.12007048482663649,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "endpoint_ids": [
+                "J6:A20",
+                "U1:AG5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 59.69536010303557,
+              "via_gap_mm": 0.11999999999999597,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX1",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999423,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "endpoint_ids": [
+                "C4043:1",
+                "U1:AF3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 77.13977088297987,
+              "via_gap_mm": 0.12000000000000158,
+              "earlier_channel_gap_mm": 0.523417839755054,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "endpoint_ids": [
+                "C4044:1",
+                "U1:AG3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 77.30605615427396,
+              "via_gap_mm": 0.12210420376762263,
+              "earlier_channel_gap_mm": 0.3234178397550592,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX0",
+          "result": "no constructed path; bounded-search claim only"
+        }
+      ],
+      "passed_channels": 2
+    },
+    {
+      "file": "X2_REPAIR_SCENARIO_03.json",
+      "sha256": "0900aa4dc4b916957fd966fc39f357414b451a77d28f12fc79880b17a621e05c",
+      "checks": [
+        {
+          "pair": "S06_SW_RX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.0999999999999944,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "endpoint_ids": [
+                "J6:A18",
+                "U1:AH5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.183578643274004,
+              "via_gap_mm": 0.12000000000000158,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "endpoint_ids": [
+                "J6:A17",
+                "U1:AJ5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.0558433326125,
+              "via_gap_mm": 0.11999999999999603,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX1",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999423,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "endpoint_ids": [
+                "C4043:1",
+                "U1:AF3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 77.17226764336112,
+              "via_gap_mm": 0.12000000000000147,
+              "earlier_channel_gap_mm": 0.523417839755054,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "endpoint_ids": [
+                "C4044:1",
+                "U1:AG3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 77.25249332944395,
+              "via_gap_mm": 0.12130695180539738,
+              "earlier_channel_gap_mm": 0.3234178397550592,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "result": "no constructed path; bounded-search claim only"
+        }
+      ],
+      "passed_channels": 2
+    },
+    {
+      "file": "X2_SCENARIO_00.json",
+      "sha256": "101ee790a95275eef61af07082498b8e8d014a72849cf340341d5736e8b1f80b",
+      "checks": [
+        {
+          "pair": "S06_SW_RX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.0999999999999944,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "endpoint_ids": [
+                "J6:A18",
+                "U1:AH5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.183578643274004,
+              "via_gap_mm": 0.12000000000000158,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "endpoint_ids": [
+                "J6:A17",
+                "U1:AJ5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.0558433326125,
+              "via_gap_mm": 0.11999999999999603,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999051,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "endpoint_ids": [
+                "C4041:1",
+                "U1:AH3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 80.8537560127779,
+              "via_gap_mm": 0.12125477993606423,
+              "earlier_channel_gap_mm": 0.523417839755054,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "endpoint_ids": [
+                "C4042:1",
+                "U1:AJ3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 81.02753494168645,
+              "via_gap_mm": 0.12130695180539738,
+              "earlier_channel_gap_mm": 0.3234178397550592,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "result": "no constructed path; bounded-search claim only"
+        }
+      ],
+      "passed_channels": 2
+    },
+    {
+      "file": "X2_SCENARIO_01.json",
+      "sha256": "21c641469a7c929a0722546dc908c6277258d50da985dca0eadc7eb8513013ae",
+      "checks": [
+        {
+          "pair": "S06_SW_RX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.0999999999999944,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "endpoint_ids": [
+                "J6:A18",
+                "U1:AH5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.183578643274004,
+              "via_gap_mm": 0.12000000000000158,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "endpoint_ids": [
+                "J6:A17",
+                "U1:AJ5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.0558433326125,
+              "via_gap_mm": 0.11999999999999603,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "geometry_pass": false,
+          "pair_gap_mm": 0.09999999999999148,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "endpoint_ids": [
+                "J6:A21",
+                "U1:AF5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 67.32016564988277,
+              "via_gap_mm": 0.04119999999999849,
+              "earlier_channel_gap_mm": 0.523417839755054,
+              "edge_mm": 8.45,
+              "geometric_pass": false
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "endpoint_ids": [
+                "J6:A20",
+                "U1:AG5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 67.41301102492451,
+              "via_gap_mm": 0.121123178733294,
+              "earlier_channel_gap_mm": 0.3234178397550592,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        }
+      ],
+      "passed_channels": 1
+    },
+    {
+      "file": "X2_SCENARIO_02.json",
+      "sha256": "408040525606ff6cd2059cfa9b9634b292aaf233fd910128f7f5178ff594199e",
+      "checks": [
+        {
+          "pair": "S06_SW_RX1",
+          "geometry_pass": false,
+          "pair_gap_mm": 0.0999999999999876,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "endpoint_ids": [
+                "J6:A21",
+                "U1:AF5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 59.6342578412126,
+              "via_gap_mm": 0.04119999999999849,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": false
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "endpoint_ids": [
+                "J6:A20",
+                "U1:AG5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 59.70789147106305,
+              "via_gap_mm": 0.11999999999999597,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        }
+      ],
+      "passed_channels": 0
+    },
+    {
+      "file": "X2_SCENARIO_03.json",
+      "sha256": "64edecb0fe0fc4c4bd383a83fb685c0feca1ad592d50b07524f5a58abad3fcdd",
+      "checks": [
+        {
+          "pair": "S06_SW_RX1",
+          "geometry_pass": false,
+          "pair_gap_mm": 0.0999999999999876,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "endpoint_ids": [
+                "J6:A21",
+                "U1:AF5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 59.6342578412126,
+              "via_gap_mm": 0.04119999999999849,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": false
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "endpoint_ids": [
+                "J6:A20",
+                "U1:AG5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 59.70789147106305,
+              "via_gap_mm": 0.11999999999999597,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        }
+      ],
+      "passed_channels": 0
+    },
+    {
+      "file": "X2_SCENARIO_04.json",
+      "sha256": "96c1093ceec3d755edffe8dd5313e4260d9fb0897f84a0c963e5d2f0788bee1c",
+      "checks": [
+        {
+          "pair": "S06_SW_TX1",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999587,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "endpoint_ids": [
+                "C4043:1",
+                "U1:AF3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 70.85366382930502,
+              "via_gap_mm": 0.12007048482663649,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "endpoint_ids": [
+                "C4044:1",
+                "U1:AG3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 70.89866658644199,
+              "via_gap_mm": 0.11999999999999597,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "result": "no constructed path; bounded-search claim only"
+        }
+      ],
+      "passed_channels": 1
+    },
+    {
+      "file": "X2_SCENARIO_05.json",
+      "sha256": "cbeac4e722e564c6e460973fb4670ef1c7b7c92cbdc71b8f37e8a3ec681acfd3",
+      "checks": [
+        {
+          "pair": "S06_SW_RX0",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.0999999999999944,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "endpoint_ids": [
+                "J6:A18",
+                "U1:AH5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.183578643274004,
+              "via_gap_mm": 0.12000000000000158,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "endpoint_ids": [
+                "J6:A17",
+                "U1:AJ5"
+              ],
+              "endpoint_error_mm": 0.0,
+              "length_mm": 62.0558433326125,
+              "via_gap_mm": 0.11999999999999603,
+              "earlier_channel_gap_mm": null,
+              "edge_mm": 8.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_TX1",
+          "geometry_pass": true,
+          "pair_gap_mm": 0.09999999999999423,
+          "traces": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "endpoint_ids": [
+                "C4043:1",
+                "U1:AF3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 77.17226764336112,
+              "via_gap_mm": 0.12000000000000147,
+              "earlier_channel_gap_mm": 0.523417839755054,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "endpoint_ids": [
+                "C4044:1",
+                "U1:AG3"
+              ],
+              "endpoint_error_mm": 9.999999974752427e-07,
+              "length_mm": 77.25249332944395,
+              "via_gap_mm": 0.12130695180539738,
+              "earlier_channel_gap_mm": 0.3234178397550592,
+              "edge_mm": 6.45,
+              "geometric_pass": true
+            }
+          ]
+        },
+        {
+          "pair": "S06_SW_RX1",
+          "result": "no constructed path; bounded-search claim only"
+        }
+      ],
+      "passed_channels": 2
+    }
+  ]
+}
