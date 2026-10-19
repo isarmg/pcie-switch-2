@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "native_version": "10.0.7",
+  "source_pcb_modified": false,
+  "fresh_native_extraction": true,
+  "complete_scenarios": 12,
+  "compared_json": [
+    "ENDPOINT_PREFLIGHT.json",
+    "RESERVED_SEARCH_SCOPE.json",
+    "RESERVED_EXACT_CHECKS.json",
+    "DIRECTION_INDEPENDENT_CHECKS.json",
+    "DIRECTION_UNIT_TESTS.json",
+    "RESERVED_SCENARIO_00.json",
+    "RESERVED_SCENARIO_01.json",
+    "RESERVED_SCENARIO_02.json",
+    "RESERVED_SCENARIO_03.json",
+    "RESERVED_SCENARIO_04.json",
+    "RESERVED_SCENARIO_05.json",
+    "RESERVED_SCENARIO_06.json",
+    "RESERVED_SCENARIO_07.json",
+    "RESERVED_SCENARIO_08.json",
+    "RESERVED_SCENARIO_09.json",
+    "RESERVED_SCENARIO_10.json",
+    "RESERVED_SCENARIO_11.json"
+  ],
+  "comparison": "parsed strict equality except runtime seconds",
+  "complete_x2": false
+}

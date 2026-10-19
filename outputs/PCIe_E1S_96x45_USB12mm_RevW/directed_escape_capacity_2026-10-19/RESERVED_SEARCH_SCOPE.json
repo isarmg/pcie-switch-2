@@ -1,0 +1,67 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "source_vias": 3837,
+  "width_mm": 0.1,
+  "pair_gap_mm": 0.1,
+  "other_net_clearance_mm": 0.1,
+  "grid_mm": 0.05,
+  "maximum_expanded_nodes_per_channel": 1200000,
+  "maximum_combinations": 3,
+  "orders": [
+    [
+      "S06_SW_RX0",
+      "S06_SW_RX1",
+      "S06_SW_TX0",
+      "S06_SW_TX1"
+    ],
+    [
+      "S06_SW_RX0",
+      "S06_SW_RX1",
+      "S06_SW_TX1",
+      "S06_SW_TX0"
+    ],
+    [
+      "S06_SW_RX1",
+      "S06_SW_RX0",
+      "S06_SW_TX1",
+      "S06_SW_TX0"
+    ],
+    [
+      "S06_SW_TX1",
+      "S06_SW_RX1",
+      "S06_SW_RX0",
+      "S06_SW_TX0"
+    ]
+  ],
+  "maximum_declared_scenarios": 12,
+  "stop_policy": "First exact complete four-channel solution or twelve scenarios; each failure stops that scenario. No x4 expansion. Fixed original all-hole projection model. No source via, pad, width, clearance, grid or process changes.",
+  "executed_scenarios": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "algorithm_version": "directed-ports-v1",
+  "algorithm_changes": {
+    "direction_state": true,
+    "own_endpoint_vias_in_centerline_obstacles": true,
+    "own_destination_fanout_blocked_beyond_gateway": true,
+    "port_directions": "east departure and arrival; P/N order unchanged",
+    "max_turn_degrees": 90,
+    "minimum_straight_grid_steps_between_turns": 4,
+    "heuristic_weight": 1.5,
+    "turn_cost_grid_units": 0.2,
+    "simplification": "collinear compression only, no angle-changing shortcut",
+    "offset": "explicit miters; no library self-intersection repair; full polylines checked",
+    "raster_connectivity_precheck": "4-connected free-cell components, sufficient no-path test for 8-neighbor graph with no corner cutting"
+  },
+  "source_geometry_or_fanout_candidate_changes_from_reserved_v1": false
+}

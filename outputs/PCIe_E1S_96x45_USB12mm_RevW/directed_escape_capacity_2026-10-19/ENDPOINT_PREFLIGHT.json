@@ -1,0 +1,7063 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "candidate_offsets": {
+    "destination_y_mm": [
+      0.0,
+      0.1,
+      -0.1,
+      0.2
+    ],
+    "destination_entry_left_mm": [
+      0.0,
+      0.2
+    ],
+    "source_template": "fixed actual pin to east gateway"
+  },
+  "candidates": {
+    "S06_SW_RX0": [
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_id": "S06_SW_RX0:dy+0.00:left0.00",
+        "destination_y_shift_mm": 0.0,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          9.2,
+          34.5
+        ],
+        "end": [
+          57.0,
+          24.650000000000002
+        ],
+        "source_anchor": [
+          9.0,
+          34.5
+        ],
+        "destination_anchor": [
+          57.18,
+          24.650000000000002
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                34.0
+              ],
+              [
+                8.7,
+                34.2
+              ],
+              [
+                9.0,
+                34.4
+              ],
+              [
+                9.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                35.0
+              ],
+              [
+                8.7,
+                34.8
+              ],
+              [
+                9.0,
+                34.6
+              ],
+              [
+                9.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                24.55
+              ],
+              [
+                57.18,
+                24.55
+              ],
+              [
+                57.7,
+                24.55
+              ],
+              [
+                57.7,
+                24.335
+              ]
+            ],
+            "length_mm": 0.9150000000000027,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.19759999999999997,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.4
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                24.750000000000004
+              ],
+              [
+                57.18,
+                24.750000000000004
+              ],
+              [
+                57.7,
+                24.750000000000004
+              ],
+              [
+                57.7,
+                24.935
+              ]
+            ],
+            "length_mm": 0.884999999999998,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.1656209999999966,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              57.0,
+              24.650000000000002
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_id": "S06_SW_RX0:dy+0.10:left0.00",
+        "destination_y_shift_mm": 0.1,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          9.2,
+          34.5
+        ],
+        "end": [
+          57.0,
+          24.750000000000004
+        ],
+        "source_anchor": [
+          9.0,
+          34.5
+        ],
+        "destination_anchor": [
+          57.18,
+          24.750000000000004
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                34.0
+              ],
+              [
+                8.7,
+                34.2
+              ],
+              [
+                9.0,
+                34.4
+              ],
+              [
+                9.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                35.0
+              ],
+              [
+                8.7,
+                34.8
+              ],
+              [
+                9.0,
+                34.6
+              ],
+              [
+                9.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                24.650000000000002
+              ],
+              [
+                57.18,
+                24.650000000000002
+              ],
+              [
+                57.7,
+                24.650000000000002
+              ],
+              [
+                57.7,
+                24.335
+              ]
+            ],
+            "length_mm": 1.0150000000000041,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.1349999999999966,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.299999999999997
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                24.850000000000005
+              ],
+              [
+                57.18,
+                24.850000000000005
+              ],
+              [
+                57.7,
+                24.850000000000005
+              ],
+              [
+                57.7,
+                24.935
+              ]
+            ],
+            "length_mm": 0.7849999999999966,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.06562099999999518,
+            "via_violations": [
+              {
+                "via_index": 2078,
+                "net": "{slash}GND",
+                "xy": [
+                  57.350578,
+                  25.065621
+                ],
+                "copper_gap_mm": 0.06562099999999518
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              57.0,
+              24.750000000000004
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_id": "S06_SW_RX0:dy-0.10:left0.00",
+        "destination_y_shift_mm": -0.1,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          9.2,
+          34.5
+        ],
+        "end": [
+          57.0,
+          24.55
+        ],
+        "source_anchor": [
+          9.0,
+          34.5
+        ],
+        "destination_anchor": [
+          57.18,
+          24.55
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                34.0
+              ],
+              [
+                8.7,
+                34.2
+              ],
+              [
+                9.0,
+                34.4
+              ],
+              [
+                9.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                35.0
+              ],
+              [
+                8.7,
+                34.8
+              ],
+              [
+                9.0,
+                34.6
+              ],
+              [
+                9.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                24.45
+              ],
+              [
+                57.18,
+                24.45
+              ],
+              [
+                57.7,
+                24.45
+              ],
+              [
+                57.7,
+                24.335
+              ]
+            ],
+            "length_mm": 0.8150000000000013,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.0975999999999985,
+            "via_violations": [
+              {
+                "via_index": 1305,
+                "net": "{slash}GND",
+                "xy": [
+                  57.318794,
+                  24.2024
+                ],
+                "copper_gap_mm": 0.0975999999999985
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.5
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                24.650000000000002
+              ],
+              [
+                57.18,
+                24.650000000000002
+              ],
+              [
+                57.7,
+                24.650000000000002
+              ],
+              [
+                57.7,
+                24.935
+              ]
+            ],
+            "length_mm": 0.9849999999999994,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.16500000000000128,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              57.0,
+              24.55
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_id": "S06_SW_RX0:dy+0.20:left0.00",
+        "destination_y_shift_mm": 0.2,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          9.2,
+          34.5
+        ],
+        "end": [
+          57.0,
+          24.85
+        ],
+        "source_anchor": [
+          9.0,
+          34.5
+        ],
+        "destination_anchor": [
+          57.18,
+          24.85
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                34.0
+              ],
+              [
+                8.7,
+                34.2
+              ],
+              [
+                9.0,
+                34.4
+              ],
+              [
+                9.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                35.0
+              ],
+              [
+                8.7,
+                34.8
+              ],
+              [
+                9.0,
+                34.6
+              ],
+              [
+                9.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                24.75
+              ],
+              [
+                57.18,
+                24.75
+              ],
+              [
+                57.7,
+                24.75
+              ],
+              [
+                57.7,
+                24.335
+              ]
+            ],
+            "length_mm": 1.115000000000002,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.03499999999999873,
+            "via_violations": [
+              {
+                "via_index": 2881,
+                "net": "{slash}S06_SW_RX0_N",
+                "xy": [
+                  57.7,
+                  24.935
+                ],
+                "copper_gap_mm": 0.03499999999999873
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.2
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                24.950000000000003
+              ],
+              [
+                57.18,
+                24.950000000000003
+              ],
+              [
+                57.7,
+                24.950000000000003
+              ],
+              [
+                57.7,
+                24.935
+              ]
+            ],
+            "length_mm": 0.715000000000007,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": -0.0343790000000027,
+            "via_violations": [
+              {
+                "via_index": 2078,
+                "net": "{slash}GND",
+                "xy": [
+                  57.350578,
+                  25.065621
+                ],
+                "copper_gap_mm": -0.0343790000000027
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 19.999999999999996
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.08499999999999872,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              57.0,
+              24.85
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_id": "S06_SW_RX0:dy+0.00:left0.20",
+        "destination_y_shift_mm": 0.0,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          9.2,
+          34.5
+        ],
+        "end": [
+          56.8,
+          24.650000000000002
+        ],
+        "source_anchor": [
+          9.0,
+          34.5
+        ],
+        "destination_anchor": [
+          57.18,
+          24.650000000000002
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                34.0
+              ],
+              [
+                8.7,
+                34.2
+              ],
+              [
+                9.0,
+                34.4
+              ],
+              [
+                9.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                35.0
+              ],
+              [
+                8.7,
+                34.8
+              ],
+              [
+                9.0,
+                34.6
+              ],
+              [
+                9.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                24.55
+              ],
+              [
+                57.18,
+                24.55
+              ],
+              [
+                57.7,
+                24.55
+              ],
+              [
+                57.7,
+                24.335
+              ]
+            ],
+            "length_mm": 1.1150000000000055,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.19759999999999997,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.4
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                24.750000000000004
+              ],
+              [
+                57.18,
+                24.750000000000004
+              ],
+              [
+                57.7,
+                24.750000000000004
+              ],
+              [
+                57.7,
+                24.935
+              ]
+            ],
+            "length_mm": 1.0850000000000009,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.1656209999999966,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              56.8,
+              24.650000000000002
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_id": "S06_SW_RX0:dy+0.10:left0.20",
+        "destination_y_shift_mm": 0.1,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          9.2,
+          34.5
+        ],
+        "end": [
+          56.8,
+          24.750000000000004
+        ],
+        "source_anchor": [
+          9.0,
+          34.5
+        ],
+        "destination_anchor": [
+          57.18,
+          24.750000000000004
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                34.0
+              ],
+              [
+                8.7,
+                34.2
+              ],
+              [
+                9.0,
+                34.4
+              ],
+              [
+                9.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                35.0
+              ],
+              [
+                8.7,
+                34.8
+              ],
+              [
+                9.0,
+                34.6
+              ],
+              [
+                9.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                24.650000000000002
+              ],
+              [
+                57.18,
+                24.650000000000002
+              ],
+              [
+                57.7,
+                24.650000000000002
+              ],
+              [
+                57.7,
+                24.335
+              ]
+            ],
+            "length_mm": 1.215000000000007,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.1349999999999966,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.299999999999997
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                24.850000000000005
+              ],
+              [
+                57.18,
+                24.850000000000005
+              ],
+              [
+                57.7,
+                24.850000000000005
+              ],
+              [
+                57.7,
+                24.935
+              ]
+            ],
+            "length_mm": 0.9849999999999994,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.06562099999999518,
+            "via_violations": [
+              {
+                "via_index": 2078,
+                "net": "{slash}GND",
+                "xy": [
+                  57.350578,
+                  25.065621
+                ],
+                "copper_gap_mm": 0.06562099999999518
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              56.8,
+              24.750000000000004
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_id": "S06_SW_RX0:dy-0.10:left0.20",
+        "destination_y_shift_mm": -0.1,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          9.2,
+          34.5
+        ],
+        "end": [
+          56.8,
+          24.55
+        ],
+        "source_anchor": [
+          9.0,
+          34.5
+        ],
+        "destination_anchor": [
+          57.18,
+          24.55
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                34.0
+              ],
+              [
+                8.7,
+                34.2
+              ],
+              [
+                9.0,
+                34.4
+              ],
+              [
+                9.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                35.0
+              ],
+              [
+                8.7,
+                34.8
+              ],
+              [
+                9.0,
+                34.6
+              ],
+              [
+                9.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                24.45
+              ],
+              [
+                57.18,
+                24.45
+              ],
+              [
+                57.7,
+                24.45
+              ],
+              [
+                57.7,
+                24.335
+              ]
+            ],
+            "length_mm": 1.0150000000000041,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.0975999999999985,
+            "via_violations": [
+              {
+                "via_index": 1305,
+                "net": "{slash}GND",
+                "xy": [
+                  57.318794,
+                  24.2024
+                ],
+                "copper_gap_mm": 0.0975999999999985
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.5
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                24.650000000000002
+              ],
+              [
+                57.18,
+                24.650000000000002
+              ],
+              [
+                57.7,
+                24.650000000000002
+              ],
+              [
+                57.7,
+                24.935
+              ]
+            ],
+            "length_mm": 1.1850000000000023,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.16500000000000128,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              56.8,
+              24.55
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX0",
+        "candidate_id": "S06_SW_RX0:dy+0.20:left0.20",
+        "destination_y_shift_mm": 0.2,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          9.2,
+          34.5
+        ],
+        "end": [
+          56.8,
+          24.85
+        ],
+        "source_anchor": [
+          9.0,
+          34.5
+        ],
+        "destination_anchor": [
+          57.18,
+          24.85
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                34.0
+              ],
+              [
+                8.7,
+                34.2
+              ],
+              [
+                9.0,
+                34.4
+              ],
+              [
+                9.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                35.0
+              ],
+              [
+                8.7,
+                34.8
+              ],
+              [
+                9.0,
+                34.6
+              ],
+              [
+                9.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX0_P",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                24.75
+              ],
+              [
+                57.18,
+                24.75
+              ],
+              [
+                57.7,
+                24.75
+              ],
+              [
+                57.7,
+                24.335
+              ]
+            ],
+            "length_mm": 1.3150000000000048,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.03499999999999873,
+            "via_violations": [
+              {
+                "via_index": 2881,
+                "net": "{slash}S06_SW_RX0_N",
+                "xy": [
+                  57.7,
+                  24.935
+                ],
+                "copper_gap_mm": 0.03499999999999873
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.2
+          },
+          {
+            "net": "{slash}S06_SW_RX0_N",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                24.950000000000003
+              ],
+              [
+                57.18,
+                24.950000000000003
+              ],
+              [
+                57.7,
+                24.950000000000003
+              ],
+              [
+                57.7,
+                24.935
+              ]
+            ],
+            "length_mm": 0.9150000000000098,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": -0.0343790000000027,
+            "via_violations": [
+              {
+                "via_index": 2078,
+                "net": "{slash}GND",
+                "xy": [
+                  57.350578,
+                  25.065621
+                ],
+                "copper_gap_mm": -0.0343790000000027
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 19.999999999999996
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.08499999999999872,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              56.8,
+              24.85
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      }
+    ],
+    "S06_SW_RX1": [
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_id": "S06_SW_RX1:dy+0.00:left0.00",
+        "destination_y_shift_mm": 0.0,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          9.2,
+          32.5
+        ],
+        "end": [
+          57.0,
+          22.85
+        ],
+        "source_anchor": [
+          9.0,
+          32.5
+        ],
+        "destination_anchor": [
+          57.18,
+          22.85
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                32.0
+              ],
+              [
+                8.7,
+                32.2
+              ],
+              [
+                9.0,
+                32.4
+              ],
+              [
+                9.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                33.0
+              ],
+              [
+                8.7,
+                32.8
+              ],
+              [
+                9.0,
+                32.6
+              ],
+              [
+                9.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                22.75
+              ],
+              [
+                57.18,
+                22.75
+              ],
+              [
+                57.7,
+                22.75
+              ],
+              [
+                57.7,
+                22.535
+              ]
+            ],
+            "length_mm": 0.9150000000000027,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.04119999999999849,
+            "via_violations": [
+              {
+                "via_index": 961,
+                "net": "{slash}GND",
+                "xy": [
+                  57.318794,
+                  22.5588
+                ],
+                "copper_gap_mm": 0.04119999999999849
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.2
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                22.950000000000003
+              ],
+              [
+                57.18,
+                22.950000000000003
+              ],
+              [
+                57.7,
+                22.950000000000003
+              ],
+              [
+                57.7,
+                23.135
+              ]
+            ],
+            "length_mm": 0.8850000000000016,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.24120000000000133,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.814999999999998
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              57.0,
+              22.85
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_id": "S06_SW_RX1:dy+0.10:left0.00",
+        "destination_y_shift_mm": 0.1,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          9.2,
+          32.5
+        ],
+        "end": [
+          57.0,
+          22.950000000000003
+        ],
+        "source_anchor": [
+          9.0,
+          32.5
+        ],
+        "destination_anchor": [
+          57.18,
+          22.950000000000003
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                32.0
+              ],
+              [
+                8.7,
+                32.2
+              ],
+              [
+                9.0,
+                32.4
+              ],
+              [
+                9.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                33.0
+              ],
+              [
+                8.7,
+                32.8
+              ],
+              [
+                9.0,
+                32.6
+              ],
+              [
+                9.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                22.85
+              ],
+              [
+                57.18,
+                22.85
+              ],
+              [
+                57.7,
+                22.85
+              ],
+              [
+                57.7,
+                22.535
+              ]
+            ],
+            "length_mm": 1.0150000000000041,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.13500000000000015,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.099999999999998
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                23.050000000000004
+              ],
+              [
+                57.18,
+                23.050000000000004
+              ],
+              [
+                57.7,
+                23.050000000000004
+              ],
+              [
+                57.7,
+                23.135
+              ]
+            ],
+            "length_mm": 0.7850000000000001,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.25336504558526207,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.814999999999998
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              57.0,
+              22.950000000000003
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_id": "S06_SW_RX1:dy-0.10:left0.00",
+        "destination_y_shift_mm": -0.1,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          9.2,
+          32.5
+        ],
+        "end": [
+          57.0,
+          22.75
+        ],
+        "source_anchor": [
+          9.0,
+          32.5
+        ],
+        "destination_anchor": [
+          57.18,
+          22.75
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                32.0
+              ],
+              [
+                8.7,
+                32.2
+              ],
+              [
+                9.0,
+                32.4
+              ],
+              [
+                9.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                33.0
+              ],
+              [
+                8.7,
+                32.8
+              ],
+              [
+                9.0,
+                32.6
+              ],
+              [
+                9.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                22.65
+              ],
+              [
+                57.18,
+                22.65
+              ],
+              [
+                57.7,
+                22.65
+              ],
+              [
+                57.7,
+                22.535
+              ]
+            ],
+            "length_mm": 0.8150000000000013,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": -0.05880000000000293,
+            "via_violations": [
+              {
+                "via_index": 961,
+                "net": "{slash}GND",
+                "xy": [
+                  57.318794,
+                  22.5588
+                ],
+                "copper_gap_mm": -0.05880000000000293
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.3
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                22.85
+              ],
+              [
+                57.18,
+                22.85
+              ],
+              [
+                57.7,
+                22.85
+              ],
+              [
+                57.7,
+                23.135
+              ]
+            ],
+            "length_mm": 0.985000000000003,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.1411999999999999,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.814999999999998
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              57.0,
+              22.75
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_id": "S06_SW_RX1:dy+0.20:left0.00",
+        "destination_y_shift_mm": 0.2,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          9.2,
+          32.5
+        ],
+        "end": [
+          57.0,
+          23.05
+        ],
+        "source_anchor": [
+          9.0,
+          32.5
+        ],
+        "destination_anchor": [
+          57.18,
+          23.05
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                32.0
+              ],
+              [
+                8.7,
+                32.2
+              ],
+              [
+                9.0,
+                32.4
+              ],
+              [
+                9.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                33.0
+              ],
+              [
+                8.7,
+                32.8
+              ],
+              [
+                9.0,
+                32.6
+              ],
+              [
+                9.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                22.95
+              ],
+              [
+                57.18,
+                22.95
+              ],
+              [
+                57.7,
+                22.95
+              ],
+              [
+                57.7,
+                22.535
+              ]
+            ],
+            "length_mm": 1.115000000000002,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.03500000000000228,
+            "via_violations": [
+              {
+                "via_index": 2885,
+                "net": "{slash}S06_SW_RX1_N",
+                "xy": [
+                  57.7,
+                  23.135
+                ],
+                "copper_gap_mm": 0.03500000000000228
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.0
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "destination",
+            "points": [
+              [
+                57.0,
+                23.150000000000002
+              ],
+              [
+                57.18,
+                23.150000000000002
+              ],
+              [
+                57.7,
+                23.150000000000002
+              ],
+              [
+                57.7,
+                23.135
+              ]
+            ],
+            "length_mm": 0.7150000000000034,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.1805999999999969,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.799999999999997
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.08500000000000227,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              57.0,
+              23.05
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_id": "S06_SW_RX1:dy+0.00:left0.20",
+        "destination_y_shift_mm": 0.0,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          9.2,
+          32.5
+        ],
+        "end": [
+          56.8,
+          22.85
+        ],
+        "source_anchor": [
+          9.0,
+          32.5
+        ],
+        "destination_anchor": [
+          57.18,
+          22.85
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                32.0
+              ],
+              [
+                8.7,
+                32.2
+              ],
+              [
+                9.0,
+                32.4
+              ],
+              [
+                9.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                33.0
+              ],
+              [
+                8.7,
+                32.8
+              ],
+              [
+                9.0,
+                32.6
+              ],
+              [
+                9.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                22.75
+              ],
+              [
+                57.18,
+                22.75
+              ],
+              [
+                57.7,
+                22.75
+              ],
+              [
+                57.7,
+                22.535
+              ]
+            ],
+            "length_mm": 1.1150000000000055,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.04119999999999849,
+            "via_violations": [
+              {
+                "via_index": 961,
+                "net": "{slash}GND",
+                "xy": [
+                  57.318794,
+                  22.5588
+                ],
+                "copper_gap_mm": 0.04119999999999849
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.2
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                22.950000000000003
+              ],
+              [
+                57.18,
+                22.950000000000003
+              ],
+              [
+                57.7,
+                22.950000000000003
+              ],
+              [
+                57.7,
+                23.135
+              ]
+            ],
+            "length_mm": 1.0850000000000044,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.24120000000000133,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.814999999999998
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              56.8,
+              22.85
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_id": "S06_SW_RX1:dy+0.10:left0.20",
+        "destination_y_shift_mm": 0.1,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          9.2,
+          32.5
+        ],
+        "end": [
+          56.8,
+          22.950000000000003
+        ],
+        "source_anchor": [
+          9.0,
+          32.5
+        ],
+        "destination_anchor": [
+          57.18,
+          22.950000000000003
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                32.0
+              ],
+              [
+                8.7,
+                32.2
+              ],
+              [
+                9.0,
+                32.4
+              ],
+              [
+                9.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                33.0
+              ],
+              [
+                8.7,
+                32.8
+              ],
+              [
+                9.0,
+                32.6
+              ],
+              [
+                9.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                22.85
+              ],
+              [
+                57.18,
+                22.85
+              ],
+              [
+                57.7,
+                22.85
+              ],
+              [
+                57.7,
+                22.535
+              ]
+            ],
+            "length_mm": 1.215000000000007,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.13500000000000015,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.099999999999998
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                23.050000000000004
+              ],
+              [
+                57.18,
+                23.050000000000004
+              ],
+              [
+                57.7,
+                23.050000000000004
+              ],
+              [
+                57.7,
+                23.135
+              ]
+            ],
+            "length_mm": 0.985000000000003,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.25336504558526207,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.814999999999998
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              56.8,
+              22.950000000000003
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_id": "S06_SW_RX1:dy-0.10:left0.20",
+        "destination_y_shift_mm": -0.1,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          9.2,
+          32.5
+        ],
+        "end": [
+          56.8,
+          22.75
+        ],
+        "source_anchor": [
+          9.0,
+          32.5
+        ],
+        "destination_anchor": [
+          57.18,
+          22.75
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                32.0
+              ],
+              [
+                8.7,
+                32.2
+              ],
+              [
+                9.0,
+                32.4
+              ],
+              [
+                9.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                33.0
+              ],
+              [
+                8.7,
+                32.8
+              ],
+              [
+                9.0,
+                32.6
+              ],
+              [
+                9.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                22.65
+              ],
+              [
+                57.18,
+                22.65
+              ],
+              [
+                57.7,
+                22.65
+              ],
+              [
+                57.7,
+                22.535
+              ]
+            ],
+            "length_mm": 1.0150000000000041,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": -0.05880000000000293,
+            "via_violations": [
+              {
+                "via_index": 961,
+                "net": "{slash}GND",
+                "xy": [
+                  57.318794,
+                  22.5588
+                ],
+                "copper_gap_mm": -0.05880000000000293
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.3
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                22.85
+              ],
+              [
+                57.18,
+                22.85
+              ],
+              [
+                57.7,
+                22.85
+              ],
+              [
+                57.7,
+                23.135
+              ]
+            ],
+            "length_mm": 1.1850000000000058,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.1411999999999999,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.814999999999998
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              56.8,
+              22.75
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_RX1",
+        "candidate_id": "S06_SW_RX1:dy+0.20:left0.20",
+        "destination_y_shift_mm": 0.2,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          9.2,
+          32.5
+        ],
+        "end": [
+          56.8,
+          23.05
+        ],
+        "source_anchor": [
+          9.0,
+          32.5
+        ],
+        "destination_anchor": [
+          57.18,
+          23.05
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                32.0
+              ],
+              [
+                8.7,
+                32.2
+              ],
+              [
+                9.0,
+                32.4
+              ],
+              [
+                9.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "source",
+            "points": [
+              [
+                8.5,
+                33.0
+              ],
+              [
+                8.7,
+                32.8
+              ],
+              [
+                9.0,
+                32.6
+              ],
+              [
+                9.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210169,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 8.45
+          },
+          {
+            "net": "{slash}S06_SW_RX1_P",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                22.95
+              ],
+              [
+                57.18,
+                22.95
+              ],
+              [
+                57.7,
+                22.95
+              ],
+              [
+                57.7,
+                22.535
+              ]
+            ],
+            "length_mm": 1.3150000000000048,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.03500000000000228,
+            "via_violations": [
+              {
+                "via_index": 2885,
+                "net": "{slash}S06_SW_RX1_N",
+                "xy": [
+                  57.7,
+                  23.135
+                ],
+                "copper_gap_mm": 0.03500000000000228
+              }
+            ],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.0
+          },
+          {
+            "net": "{slash}S06_SW_RX1_N",
+            "end": "destination",
+            "points": [
+              [
+                56.8,
+                23.150000000000002
+              ],
+              [
+                57.18,
+                23.150000000000002
+              ],
+              [
+                57.7,
+                23.150000000000002
+              ],
+              [
+                57.7,
+                23.135
+              ]
+            ],
+            "length_mm": 0.9150000000000063,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.1805999999999969,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.799999999999997
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.08500000000000227,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              9.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              56.8,
+              23.05
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      }
+    ],
+    "S06_SW_TX0": [
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_id": "S06_SW_TX0:dy+0.00:left0.00",
+        "destination_y_shift_mm": 0.0,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          7.2,
+          34.5
+        ],
+        "end": [
+          63.6,
+          24.650000000000002
+        ],
+        "source_anchor": [
+          7.0,
+          34.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          24.650000000000002
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                34.0
+              ],
+              [
+                6.7,
+                34.2
+              ],
+              [
+                7.0,
+                34.4
+              ],
+              [
+                7.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                35.0
+              ],
+              [
+                6.7,
+                34.8
+              ],
+              [
+                7.0,
+                34.6
+              ],
+              [
+                7.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                24.55
+              ],
+              [
+                63.79999899999999,
+                24.55
+              ],
+              [
+                64.049999,
+                24.335
+              ],
+              [
+                64.319999,
+                24.335
+              ]
+            ],
+            "length_mm": 0.7997337418759434,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.44999999999999785,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.4
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                24.750000000000004
+              ],
+              [
+                63.79999899999999,
+                24.750000000000004
+              ],
+              [
+                64.049999,
+                24.935
+              ],
+              [
+                64.319999,
+                24.935
+              ]
+            ],
+            "length_mm": 0.7810054308016697,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.44999999999999785,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.6,
+              24.650000000000002
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_id": "S06_SW_TX0:dy+0.10:left0.00",
+        "destination_y_shift_mm": 0.1,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          7.2,
+          34.5
+        ],
+        "end": [
+          63.6,
+          24.750000000000004
+        ],
+        "source_anchor": [
+          7.0,
+          34.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          24.750000000000004
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                34.0
+              ],
+              [
+                6.7,
+                34.2
+              ],
+              [
+                7.0,
+                34.4
+              ],
+              [
+                7.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                35.0
+              ],
+              [
+                6.7,
+                34.8
+              ],
+              [
+                7.0,
+                34.6
+              ],
+              [
+                7.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                24.650000000000002
+              ],
+              [
+                63.79999899999999,
+                24.650000000000002
+              ],
+              [
+                64.049999,
+                24.335
+              ],
+              [
+                64.319999,
+                24.335
+              ]
+            ],
+            "length_mm": 0.8721494693519505,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.43448271956208095,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.299999999999997
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                24.850000000000005
+              ],
+              [
+                63.79999899999999,
+                24.850000000000005
+              ],
+              [
+                64.049999,
+                24.935
+              ],
+              [
+                64.319999,
+                24.935
+              ]
+            ],
+            "length_mm": 0.7340539185302097,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 1000000000.0,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.6,
+              24.750000000000004
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_id": "S06_SW_TX0:dy-0.10:left0.00",
+        "destination_y_shift_mm": -0.1,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          7.2,
+          34.5
+        ],
+        "end": [
+          63.6,
+          24.55
+        ],
+        "source_anchor": [
+          7.0,
+          34.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          24.55
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                34.0
+              ],
+              [
+                6.7,
+                34.2
+              ],
+              [
+                7.0,
+                34.4
+              ],
+              [
+                7.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                35.0
+              ],
+              [
+                6.7,
+                34.8
+              ],
+              [
+                7.0,
+                34.6
+              ],
+              [
+                7.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                24.45
+              ],
+              [
+                63.79999899999999,
+                24.45
+              ],
+              [
+                64.049999,
+                24.335
+              ],
+              [
+                64.319999,
+                24.335
+              ]
+            ],
+            "length_mm": 0.7451807581163332,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.44999999999999785,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.5
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                24.650000000000002
+              ],
+              [
+                63.79999899999999,
+                24.650000000000002
+              ],
+              [
+                64.049999,
+                24.935
+              ],
+              [
+                64.319999,
+                24.935
+              ]
+            ],
+            "length_mm": 0.8491098017453366,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.4486376514601267,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.6,
+              24.55
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_id": "S06_SW_TX0:dy+0.20:left0.00",
+        "destination_y_shift_mm": 0.2,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          7.2,
+          34.5
+        ],
+        "end": [
+          63.6,
+          24.85
+        ],
+        "source_anchor": [
+          7.0,
+          34.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          24.85
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                34.0
+              ],
+              [
+                6.7,
+                34.2
+              ],
+              [
+                7.0,
+                34.4
+              ],
+              [
+                7.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                35.0
+              ],
+              [
+                6.7,
+                34.8
+              ],
+              [
+                7.0,
+                34.6
+              ],
+              [
+                7.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                24.75
+              ],
+              [
+                63.79999899999999,
+                24.75
+              ],
+              [
+                64.049999,
+                24.335
+              ],
+              [
+                64.319999,
+                24.335
+              ]
+            ],
+            "length_mm": 0.9544832618702803,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3908844427441034,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.2
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                24.950000000000003
+              ],
+              [
+                63.79999899999999,
+                24.950000000000003
+              ],
+              [
+                64.049999,
+                24.935
+              ],
+              [
+                64.319999,
+                24.935
+              ]
+            ],
+            "length_mm": 0.7204485957273584,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 1000000000.0,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 19.999999999999996
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.0996409690931584,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.6,
+              24.85
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_id": "S06_SW_TX0:dy+0.00:left0.20",
+        "destination_y_shift_mm": 0.0,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          7.2,
+          34.5
+        ],
+        "end": [
+          63.4,
+          24.650000000000002
+        ],
+        "source_anchor": [
+          7.0,
+          34.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          24.650000000000002
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                34.0
+              ],
+              [
+                6.7,
+                34.2
+              ],
+              [
+                7.0,
+                34.4
+              ],
+              [
+                7.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                35.0
+              ],
+              [
+                6.7,
+                34.8
+              ],
+              [
+                7.0,
+                34.6
+              ],
+              [
+                7.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                24.55
+              ],
+              [
+                63.79999899999999,
+                24.55
+              ],
+              [
+                64.049999,
+                24.335
+              ],
+              [
+                64.319999,
+                24.335
+              ]
+            ],
+            "length_mm": 0.9997337418759462,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.40814783883842165,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.4
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                24.750000000000004
+              ],
+              [
+                63.79999899999999,
+                24.750000000000004
+              ],
+              [
+                64.049999,
+                24.935
+              ],
+              [
+                64.319999,
+                24.935
+              ]
+            ],
+            "length_mm": 0.9810054308016726,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.33736947996361055,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.4,
+              24.650000000000002
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_id": "S06_SW_TX0:dy+0.10:left0.20",
+        "destination_y_shift_mm": 0.1,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          7.2,
+          34.5
+        ],
+        "end": [
+          63.4,
+          24.750000000000004
+        ],
+        "source_anchor": [
+          7.0,
+          34.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          24.750000000000004
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                34.0
+              ],
+              [
+                6.7,
+                34.2
+              ],
+              [
+                7.0,
+                34.4
+              ],
+              [
+                7.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                35.0
+              ],
+              [
+                6.7,
+                34.8
+              ],
+              [
+                7.0,
+                34.6
+              ],
+              [
+                7.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                24.650000000000002
+              ],
+              [
+                63.79999899999999,
+                24.650000000000002
+              ],
+              [
+                64.049999,
+                24.335
+              ],
+              [
+                64.319999,
+                24.335
+              ]
+            ],
+            "length_mm": 1.0721494693519533,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.364323837674281,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.299999999999997
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                24.850000000000005
+              ],
+              [
+                63.79999899999999,
+                24.850000000000005
+              ],
+              [
+                64.049999,
+                24.935
+              ],
+              [
+                64.319999,
+                24.935
+              ]
+            ],
+            "length_mm": 0.9340539185302126,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3301343666100155,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.4,
+              24.750000000000004
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_id": "S06_SW_TX0:dy-0.10:left0.20",
+        "destination_y_shift_mm": -0.1,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          7.2,
+          34.5
+        ],
+        "end": [
+          63.4,
+          24.55
+        ],
+        "source_anchor": [
+          7.0,
+          34.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          24.55
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                34.0
+              ],
+              [
+                6.7,
+                34.2
+              ],
+              [
+                7.0,
+                34.4
+              ],
+              [
+                7.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                35.0
+              ],
+              [
+                6.7,
+                34.8
+              ],
+              [
+                7.0,
+                34.6
+              ],
+              [
+                7.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                24.45
+              ],
+              [
+                63.79999899999999,
+                24.45
+              ],
+              [
+                64.049999,
+                24.335
+              ],
+              [
+                64.319999,
+                24.335
+              ]
+            ],
+            "length_mm": 0.9451807581163361,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.364323837674281,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.5
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                24.650000000000002
+              ],
+              [
+                63.79999899999999,
+                24.650000000000002
+              ],
+              [
+                64.049999,
+                24.935
+              ],
+              [
+                64.319999,
+                24.935
+              ]
+            ],
+            "length_mm": 1.0491098017453395,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.364323837674281,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.015
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.4,
+              24.55
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX0",
+        "candidate_id": "S06_SW_TX0:dy+0.20:left0.20",
+        "destination_y_shift_mm": 0.2,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          7.2,
+          34.5
+        ],
+        "end": [
+          63.4,
+          24.85
+        ],
+        "source_anchor": [
+          7.0,
+          34.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          24.85
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                34.0
+              ],
+              [
+                6.7,
+                34.2
+              ],
+              [
+                7.0,
+                34.4
+              ],
+              [
+                7.2,
+                34.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                35.0
+              ],
+              [
+                6.7,
+                34.8
+              ],
+              [
+                7.0,
+                34.6
+              ],
+              [
+                7.2,
+                34.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX0_P",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                24.75
+              ],
+              [
+                63.79999899999999,
+                24.75
+              ],
+              [
+                64.049999,
+                24.335
+              ],
+              [
+                64.319999,
+                24.335
+              ]
+            ],
+            "length_mm": 1.1544832618702832,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3373694799636112,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 20.2
+          },
+          {
+            "net": "{slash}S06_SW_TX0_N",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                24.950000000000003
+              ],
+              [
+                63.79999899999999,
+                24.950000000000003
+              ],
+              [
+                64.049999,
+                24.935
+              ],
+              [
+                64.319999,
+                24.935
+              ]
+            ],
+            "length_mm": 0.9204485957273613,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3434865854306489,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 19.999999999999996
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.0996409690931584,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              34.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.4,
+              24.85
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      }
+    ],
+    "S06_SW_TX1": [
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_id": "S06_SW_TX1:dy+0.00:left0.00",
+        "destination_y_shift_mm": 0.0,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          7.2,
+          32.5
+        ],
+        "end": [
+          63.6,
+          22.85
+        ],
+        "source_anchor": [
+          7.0,
+          32.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          22.85
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                32.0
+              ],
+              [
+                6.7,
+                32.2
+              ],
+              [
+                7.0,
+                32.4
+              ],
+              [
+                7.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                33.0
+              ],
+              [
+                6.7,
+                32.8
+              ],
+              [
+                7.0,
+                32.6
+              ],
+              [
+                7.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                22.75
+              ],
+              [
+                63.79999899999999,
+                22.75
+              ],
+              [
+                64.049999,
+                22.535
+              ],
+              [
+                64.319999,
+                22.535
+              ]
+            ],
+            "length_mm": 0.7997337418759434,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.44999900000000037,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.2
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                22.950000000000003
+              ],
+              [
+                63.79999899999999,
+                22.950000000000003
+              ],
+              [
+                64.049999,
+                23.134999
+              ],
+              [
+                64.319999,
+                23.134999
+              ]
+            ],
+            "length_mm": 0.7810048359597046,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.44999900000000037,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.815001
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.6,
+              22.85
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_id": "S06_SW_TX1:dy+0.10:left0.00",
+        "destination_y_shift_mm": 0.1,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          7.2,
+          32.5
+        ],
+        "end": [
+          63.6,
+          22.950000000000003
+        ],
+        "source_anchor": [
+          7.0,
+          32.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          22.950000000000003
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                32.0
+              ],
+              [
+                6.7,
+                32.2
+              ],
+              [
+                7.0,
+                32.4
+              ],
+              [
+                7.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                33.0
+              ],
+              [
+                6.7,
+                32.8
+              ],
+              [
+                7.0,
+                32.6
+              ],
+              [
+                7.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                22.85
+              ],
+              [
+                63.79999899999999,
+                22.85
+              ],
+              [
+                64.049999,
+                22.535
+              ],
+              [
+                64.319999,
+                22.535
+              ]
+            ],
+            "length_mm": 0.8721494693519505,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.434482097904223,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.099999999999998
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                23.050000000000004
+              ],
+              [
+                63.79999899999999,
+                23.050000000000004
+              ],
+              [
+                64.049999,
+                23.134999
+              ],
+              [
+                64.319999,
+                23.134999
+              ]
+            ],
+            "length_mm": 0.7340535966291747,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 1000000000.0,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.815001
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.6,
+              22.950000000000003
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_id": "S06_SW_TX1:dy-0.10:left0.00",
+        "destination_y_shift_mm": -0.1,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          7.2,
+          32.5
+        ],
+        "end": [
+          63.6,
+          22.75
+        ],
+        "source_anchor": [
+          7.0,
+          32.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          22.75
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                32.0
+              ],
+              [
+                6.7,
+                32.2
+              ],
+              [
+                7.0,
+                32.4
+              ],
+              [
+                7.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                33.0
+              ],
+              [
+                6.7,
+                32.8
+              ],
+              [
+                7.0,
+                32.6
+              ],
+              [
+                7.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                22.65
+              ],
+              [
+                63.79999899999999,
+                22.65
+              ],
+              [
+                64.049999,
+                22.535
+              ],
+              [
+                64.319999,
+                22.535
+              ]
+            ],
+            "length_mm": 0.7451807581163332,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.44999900000000037,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.3
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                22.85
+              ],
+              [
+                63.79999899999999,
+                22.85
+              ],
+              [
+                64.049999,
+                23.134999
+              ],
+              [
+                64.319999,
+                23.134999
+              ]
+            ],
+            "length_mm": 0.849109049986799,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.44863746689885386,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.815001
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.6,
+              22.75
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_id": "S06_SW_TX1:dy+0.20:left0.00",
+        "destination_y_shift_mm": 0.2,
+        "destination_entry_left_shift_mm": 0.0,
+        "start": [
+          7.2,
+          32.5
+        ],
+        "end": [
+          63.6,
+          23.05
+        ],
+        "source_anchor": [
+          7.0,
+          32.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          23.05
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                32.0
+              ],
+              [
+                6.7,
+                32.2
+              ],
+              [
+                7.0,
+                32.4
+              ],
+              [
+                7.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                33.0
+              ],
+              [
+                6.7,
+                32.8
+              ],
+              [
+                7.0,
+                32.6
+              ],
+              [
+                7.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                22.95
+              ],
+              [
+                63.79999899999999,
+                22.95
+              ],
+              [
+                64.049999,
+                22.535
+              ],
+              [
+                64.319999,
+                22.535
+              ]
+            ],
+            "length_mm": 0.9544832618702803,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3908839267314709,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.0
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "destination",
+            "points": [
+              [
+                63.6,
+                23.150000000000002
+              ],
+              [
+                63.79999899999999,
+                23.150000000000002
+              ],
+              [
+                64.049999,
+                23.134999
+              ],
+              [
+                64.319999,
+                23.134999
+              ]
+            ],
+            "length_mm": 0.7204486556216383,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 1000000000.0,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.799999999999997
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.09964092134962274,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.6,
+              23.05
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_id": "S06_SW_TX1:dy+0.00:left0.20",
+        "destination_y_shift_mm": 0.0,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          7.2,
+          32.5
+        ],
+        "end": [
+          63.4,
+          22.85
+        ],
+        "source_anchor": [
+          7.0,
+          32.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          22.85
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                32.0
+              ],
+              [
+                6.7,
+                32.2
+              ],
+              [
+                7.0,
+                32.4
+              ],
+              [
+                7.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                33.0
+              ],
+              [
+                6.7,
+                32.8
+              ],
+              [
+                7.0,
+                32.6
+              ],
+              [
+                7.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                22.75
+              ],
+              [
+                63.79999899999999,
+                22.75
+              ],
+              [
+                64.049999,
+                22.535
+              ],
+              [
+                64.319999,
+                22.535
+              ]
+            ],
+            "length_mm": 0.9997337418759462,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3680048358847635,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.2
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                22.950000000000003
+              ],
+              [
+                63.79999899999999,
+                22.950000000000003
+              ],
+              [
+                64.049999,
+                23.134999
+              ],
+              [
+                64.319999,
+                23.134999
+              ]
+            ],
+            "length_mm": 0.9810048359597074,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.36081210831381005,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.815001
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.4,
+              22.85
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_id": "S06_SW_TX1:dy+0.10:left0.20",
+        "destination_y_shift_mm": 0.1,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          7.2,
+          32.5
+        ],
+        "end": [
+          63.4,
+          22.950000000000003
+        ],
+        "source_anchor": [
+          7.0,
+          32.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          22.950000000000003
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                32.0
+              ],
+              [
+                6.7,
+                32.2
+              ],
+              [
+                7.0,
+                32.4
+              ],
+              [
+                7.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                33.0
+              ],
+              [
+                6.7,
+                32.8
+              ],
+              [
+                7.0,
+                32.6
+              ],
+              [
+                7.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                22.85
+              ],
+              [
+                63.79999899999999,
+                22.85
+              ],
+              [
+                64.049999,
+                22.535
+              ],
+              [
+                64.319999,
+                22.535
+              ]
+            ],
+            "length_mm": 1.0721494693519533,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.4031084974939364,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.099999999999998
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                23.050000000000004
+              ],
+              [
+                63.79999899999999,
+                23.050000000000004
+              ],
+              [
+                64.049999,
+                23.134999
+              ],
+              [
+                64.319999,
+                23.134999
+              ]
+            ],
+            "length_mm": 0.9340535966291775,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3357252412630004,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.815001
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.4,
+              22.950000000000003
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_id": "S06_SW_TX1:dy-0.10:left0.20",
+        "destination_y_shift_mm": -0.1,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          7.2,
+          32.5
+        ],
+        "end": [
+          63.4,
+          22.75
+        ],
+        "source_anchor": [
+          7.0,
+          32.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          22.75
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                32.0
+              ],
+              [
+                6.7,
+                32.2
+              ],
+              [
+                7.0,
+                32.4
+              ],
+              [
+                7.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                33.0
+              ],
+              [
+                6.7,
+                32.8
+              ],
+              [
+                7.0,
+                32.6
+              ],
+              [
+                7.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                22.65
+              ],
+              [
+                63.79999899999999,
+                22.65
+              ],
+              [
+                64.049999,
+                22.535
+              ],
+              [
+                64.319999,
+                22.535
+              ]
+            ],
+            "length_mm": 0.9451807581163361,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3392126429273884,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.3
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                22.85
+              ],
+              [
+                63.79999899999999,
+                22.85
+              ],
+              [
+                64.049999,
+                23.134999
+              ],
+              [
+                64.319999,
+                23.134999
+              ]
+            ],
+            "length_mm": 1.0491090499868019,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.4031084974939364,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.815001
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.10000000000000284,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.4,
+              22.75
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": true
+      },
+      {
+        "pair": "S06_SW_TX1",
+        "candidate_id": "S06_SW_TX1:dy+0.20:left0.20",
+        "destination_y_shift_mm": 0.2,
+        "destination_entry_left_shift_mm": 0.2,
+        "start": [
+          7.2,
+          32.5
+        ],
+        "end": [
+          63.4,
+          23.05
+        ],
+        "source_anchor": [
+          7.0,
+          32.5
+        ],
+        "destination_anchor": [
+          63.79999899999999,
+          23.05
+        ],
+        "fragments": [
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                32.0
+              ],
+              [
+                6.7,
+                32.2
+              ],
+              [
+                7.0,
+                32.4
+              ],
+              [
+                7.2,
+                32.4
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "source",
+            "points": [
+              [
+                6.5,
+                33.0
+              ],
+              [
+                6.7,
+                32.8
+              ],
+              [
+                7.0,
+                32.6
+              ],
+              [
+                7.2,
+                32.6
+              ]
+            ],
+            "length_mm": 0.8433978400210178,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 6.45
+          },
+          {
+            "net": "{slash}S06_SW_TX1_P",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                22.95
+              ],
+              [
+                63.79999899999999,
+                22.95
+              ],
+              [
+                64.049999,
+                22.535
+              ],
+              [
+                64.319999,
+                22.535
+              ]
+            ],
+            "length_mm": 1.1544832618702832,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.3608121083138113,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 22.0
+          },
+          {
+            "net": "{slash}S06_SW_TX1_N",
+            "end": "destination",
+            "points": [
+              [
+                63.4,
+                23.150000000000002
+              ],
+              [
+                63.79999899999999,
+                23.150000000000002
+              ],
+              [
+                64.049999,
+                23.134999
+              ],
+              [
+                64.319999,
+                23.134999
+              ]
+            ],
+            "length_mm": 0.9204486556216411,
+            "simple": true,
+            "minimum_source_via_copper_gap_mm": 0.33055073613511476,
+            "via_violations": [],
+            "minimum_existing_channel_copper_gap_mm": null,
+            "board_edge_copper_gap_mm": 21.799999999999997
+          }
+        ],
+        "pair_fragment_copper_gap_mm": 0.09964092134962274,
+        "gateways": [
+          {
+            "end": "start",
+            "xy": [
+              7.2,
+              32.5
+            ],
+            "conservative_centerline_via_blockers": []
+          },
+          {
+            "end": "end",
+            "xy": [
+              63.4,
+              23.05
+            ],
+            "conservative_centerline_via_blockers": []
+          }
+        ],
+        "local_exact_pass": false
+      }
+    ]
+  },
+  "locally_valid_counts": {
+    "S06_SW_RX0": 2,
+    "S06_SW_RX1": 2,
+    "S06_SW_TX0": 6,
+    "S06_SW_TX1": 6
+  },
+  "combinations_checked": 144,
+  "compatible_combinations": 144,
+  "maximum_selected_combinations": 3,
+  "selected_combinations": [
+    {
+      "selected": {
+        "S06_SW_RX0": {
+          "pair": "S06_SW_RX0",
+          "candidate_id": "S06_SW_RX0:dy+0.00:left0.00",
+          "destination_y_shift_mm": 0.0,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            9.2,
+            34.5
+          ],
+          "end": [
+            57.0,
+            24.650000000000002
+          ],
+          "source_anchor": [
+            9.0,
+            34.5
+          ],
+          "destination_anchor": [
+            57.18,
+            24.650000000000002
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  34.0
+                ],
+                [
+                  8.7,
+                  34.2
+                ],
+                [
+                  9.0,
+                  34.4
+                ],
+                [
+                  9.2,
+                  34.4
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  35.0
+                ],
+                [
+                  8.7,
+                  34.8
+                ],
+                [
+                  9.0,
+                  34.6
+                ],
+                [
+                  9.2,
+                  34.6
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  24.55
+                ],
+                [
+                  57.18,
+                  24.55
+                ],
+                [
+                  57.7,
+                  24.55
+                ],
+                [
+                  57.7,
+                  24.335
+                ]
+              ],
+              "length_mm": 0.9150000000000027,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.19759999999999997,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.4
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  24.750000000000004
+                ],
+                [
+                  57.18,
+                  24.750000000000004
+                ],
+                [
+                  57.7,
+                  24.750000000000004
+                ],
+                [
+                  57.7,
+                  24.935
+                ]
+              ],
+              "length_mm": 0.884999999999998,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.1656209999999966,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.015
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                9.2,
+                34.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                57.0,
+                24.650000000000002
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        },
+        "S06_SW_RX1": {
+          "pair": "S06_SW_RX1",
+          "candidate_id": "S06_SW_RX1:dy+0.10:left0.00",
+          "destination_y_shift_mm": 0.1,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            9.2,
+            32.5
+          ],
+          "end": [
+            57.0,
+            22.950000000000003
+          ],
+          "source_anchor": [
+            9.0,
+            32.5
+          ],
+          "destination_anchor": [
+            57.18,
+            22.950000000000003
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  32.0
+                ],
+                [
+                  8.7,
+                  32.2
+                ],
+                [
+                  9.0,
+                  32.4
+                ],
+                [
+                  9.2,
+                  32.4
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  33.0
+                ],
+                [
+                  8.7,
+                  32.8
+                ],
+                [
+                  9.0,
+                  32.6
+                ],
+                [
+                  9.2,
+                  32.6
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  22.85
+                ],
+                [
+                  57.18,
+                  22.85
+                ],
+                [
+                  57.7,
+                  22.85
+                ],
+                [
+                  57.7,
+                  22.535
+                ]
+              ],
+              "length_mm": 1.0150000000000041,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.13500000000000015,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 22.099999999999998
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  23.050000000000004
+                ],
+                [
+                  57.18,
+                  23.050000000000004
+                ],
+                [
+                  57.7,
+                  23.050000000000004
+                ],
+                [
+                  57.7,
+                  23.135
+                ]
+              ],
+              "length_mm": 0.7850000000000001,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.25336504558526207,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 21.814999999999998
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                9.2,
+                32.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                57.0,
+                22.950000000000003
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        },
+        "S06_SW_TX0": {
+          "pair": "S06_SW_TX0",
+          "candidate_id": "S06_SW_TX0:dy+0.00:left0.00",
+          "destination_y_shift_mm": 0.0,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            7.2,
+            34.5
+          ],
+          "end": [
+            63.6,
+            24.650000000000002
+          ],
+          "source_anchor": [
+            7.0,
+            34.5
+          ],
+          "destination_anchor": [
+            63.79999899999999,
+            24.650000000000002
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  34.0
+                ],
+                [
+                  6.7,
+                  34.2
+                ],
+                [
+                  7.0,
+                  34.4
+                ],
+                [
+                  7.2,
+                  34.4
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  35.0
+                ],
+                [
+                  6.7,
+                  34.8
+                ],
+                [
+                  7.0,
+                  34.6
+                ],
+                [
+                  7.2,
+                  34.6
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  24.55
+                ],
+                [
+                  63.79999899999999,
+                  24.55
+                ],
+                [
+                  64.049999,
+                  24.335
+                ],
+                [
+                  64.319999,
+                  24.335
+                ]
+              ],
+              "length_mm": 0.7997337418759434,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44999999999999785,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.4
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  24.750000000000004
+                ],
+                [
+                  63.79999899999999,
+                  24.750000000000004
+                ],
+                [
+                  64.049999,
+                  24.935
+                ],
+                [
+                  64.319999,
+                  24.935
+                ]
+              ],
+              "length_mm": 0.7810054308016697,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44999999999999785,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.015
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                7.2,
+                34.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                63.6,
+                24.650000000000002
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        },
+        "S06_SW_TX1": {
+          "pair": "S06_SW_TX1",
+          "candidate_id": "S06_SW_TX1:dy+0.00:left0.00",
+          "destination_y_shift_mm": 0.0,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            7.2,
+            32.5
+          ],
+          "end": [
+            63.6,
+            22.85
+          ],
+          "source_anchor": [
+            7.0,
+            32.5
+          ],
+          "destination_anchor": [
+            63.79999899999999,
+            22.85
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  32.0
+                ],
+                [
+                  6.7,
+                  32.2
+                ],
+                [
+                  7.0,
+                  32.4
+                ],
+                [
+                  7.2,
+                  32.4
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  33.0
+                ],
+                [
+                  6.7,
+                  32.8
+                ],
+                [
+                  7.0,
+                  32.6
+                ],
+                [
+                  7.2,
+                  32.6
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  22.75
+                ],
+                [
+                  63.79999899999999,
+                  22.75
+                ],
+                [
+                  64.049999,
+                  22.535
+                ],
+                [
+                  64.319999,
+                  22.535
+                ]
+              ],
+              "length_mm": 0.7997337418759434,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44999900000000037,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 22.2
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  22.950000000000003
+                ],
+                [
+                  63.79999899999999,
+                  22.950000000000003
+                ],
+                [
+                  64.049999,
+                  23.134999
+                ],
+                [
+                  64.319999,
+                  23.134999
+                ]
+              ],
+              "length_mm": 0.7810048359597046,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44999900000000037,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 21.815001
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                7.2,
+                32.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                63.6,
+                22.85
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        }
+      },
+      "score": 0.1,
+      "minimum_fragment_interchannel_copper_gap_mm": 0.9,
+      "minimum_gateway_to_foreign_fragment_center_mm": 1.3928388277184118
+    },
+    {
+      "selected": {
+        "S06_SW_RX0": {
+          "pair": "S06_SW_RX0",
+          "candidate_id": "S06_SW_RX0:dy+0.00:left0.00",
+          "destination_y_shift_mm": 0.0,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            9.2,
+            34.5
+          ],
+          "end": [
+            57.0,
+            24.650000000000002
+          ],
+          "source_anchor": [
+            9.0,
+            34.5
+          ],
+          "destination_anchor": [
+            57.18,
+            24.650000000000002
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  34.0
+                ],
+                [
+                  8.7,
+                  34.2
+                ],
+                [
+                  9.0,
+                  34.4
+                ],
+                [
+                  9.2,
+                  34.4
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  35.0
+                ],
+                [
+                  8.7,
+                  34.8
+                ],
+                [
+                  9.0,
+                  34.6
+                ],
+                [
+                  9.2,
+                  34.6
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  24.55
+                ],
+                [
+                  57.18,
+                  24.55
+                ],
+                [
+                  57.7,
+                  24.55
+                ],
+                [
+                  57.7,
+                  24.335
+                ]
+              ],
+              "length_mm": 0.9150000000000027,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.19759999999999997,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.4
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  24.750000000000004
+                ],
+                [
+                  57.18,
+                  24.750000000000004
+                ],
+                [
+                  57.7,
+                  24.750000000000004
+                ],
+                [
+                  57.7,
+                  24.935
+                ]
+              ],
+              "length_mm": 0.884999999999998,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.1656209999999966,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.015
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                9.2,
+                34.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                57.0,
+                24.650000000000002
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        },
+        "S06_SW_RX1": {
+          "pair": "S06_SW_RX1",
+          "candidate_id": "S06_SW_RX1:dy+0.10:left0.00",
+          "destination_y_shift_mm": 0.1,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            9.2,
+            32.5
+          ],
+          "end": [
+            57.0,
+            22.950000000000003
+          ],
+          "source_anchor": [
+            9.0,
+            32.5
+          ],
+          "destination_anchor": [
+            57.18,
+            22.950000000000003
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  32.0
+                ],
+                [
+                  8.7,
+                  32.2
+                ],
+                [
+                  9.0,
+                  32.4
+                ],
+                [
+                  9.2,
+                  32.4
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  33.0
+                ],
+                [
+                  8.7,
+                  32.8
+                ],
+                [
+                  9.0,
+                  32.6
+                ],
+                [
+                  9.2,
+                  32.6
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  22.85
+                ],
+                [
+                  57.18,
+                  22.85
+                ],
+                [
+                  57.7,
+                  22.85
+                ],
+                [
+                  57.7,
+                  22.535
+                ]
+              ],
+              "length_mm": 1.0150000000000041,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.13500000000000015,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 22.099999999999998
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  23.050000000000004
+                ],
+                [
+                  57.18,
+                  23.050000000000004
+                ],
+                [
+                  57.7,
+                  23.050000000000004
+                ],
+                [
+                  57.7,
+                  23.135
+                ]
+              ],
+              "length_mm": 0.7850000000000001,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.25336504558526207,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 21.814999999999998
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                9.2,
+                32.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                57.0,
+                22.950000000000003
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        },
+        "S06_SW_TX0": {
+          "pair": "S06_SW_TX0",
+          "candidate_id": "S06_SW_TX0:dy+0.00:left0.00",
+          "destination_y_shift_mm": 0.0,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            7.2,
+            34.5
+          ],
+          "end": [
+            63.6,
+            24.650000000000002
+          ],
+          "source_anchor": [
+            7.0,
+            34.5
+          ],
+          "destination_anchor": [
+            63.79999899999999,
+            24.650000000000002
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  34.0
+                ],
+                [
+                  6.7,
+                  34.2
+                ],
+                [
+                  7.0,
+                  34.4
+                ],
+                [
+                  7.2,
+                  34.4
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  35.0
+                ],
+                [
+                  6.7,
+                  34.8
+                ],
+                [
+                  7.0,
+                  34.6
+                ],
+                [
+                  7.2,
+                  34.6
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  24.55
+                ],
+                [
+                  63.79999899999999,
+                  24.55
+                ],
+                [
+                  64.049999,
+                  24.335
+                ],
+                [
+                  64.319999,
+                  24.335
+                ]
+              ],
+              "length_mm": 0.7997337418759434,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44999999999999785,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.4
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  24.750000000000004
+                ],
+                [
+                  63.79999899999999,
+                  24.750000000000004
+                ],
+                [
+                  64.049999,
+                  24.935
+                ],
+                [
+                  64.319999,
+                  24.935
+                ]
+              ],
+              "length_mm": 0.7810054308016697,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44999999999999785,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.015
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                7.2,
+                34.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                63.6,
+                24.650000000000002
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        },
+        "S06_SW_TX1": {
+          "pair": "S06_SW_TX1",
+          "candidate_id": "S06_SW_TX1:dy+0.10:left0.00",
+          "destination_y_shift_mm": 0.1,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            7.2,
+            32.5
+          ],
+          "end": [
+            63.6,
+            22.950000000000003
+          ],
+          "source_anchor": [
+            7.0,
+            32.5
+          ],
+          "destination_anchor": [
+            63.79999899999999,
+            22.950000000000003
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  32.0
+                ],
+                [
+                  6.7,
+                  32.2
+                ],
+                [
+                  7.0,
+                  32.4
+                ],
+                [
+                  7.2,
+                  32.4
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  33.0
+                ],
+                [
+                  6.7,
+                  32.8
+                ],
+                [
+                  7.0,
+                  32.6
+                ],
+                [
+                  7.2,
+                  32.6
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  22.85
+                ],
+                [
+                  63.79999899999999,
+                  22.85
+                ],
+                [
+                  64.049999,
+                  22.535
+                ],
+                [
+                  64.319999,
+                  22.535
+                ]
+              ],
+              "length_mm": 0.8721494693519505,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.434482097904223,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 22.099999999999998
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  23.050000000000004
+                ],
+                [
+                  63.79999899999999,
+                  23.050000000000004
+                ],
+                [
+                  64.049999,
+                  23.134999
+                ],
+                [
+                  64.319999,
+                  23.134999
+                ]
+              ],
+              "length_mm": 0.7340535966291747,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 1000000000.0,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 21.815001
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                7.2,
+                32.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                63.6,
+                22.950000000000003
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        }
+      },
+      "score": 0.2,
+      "minimum_fragment_interchannel_copper_gap_mm": 0.9,
+      "minimum_gateway_to_foreign_fragment_center_mm": 1.3928388277184118
+    },
+    {
+      "selected": {
+        "S06_SW_RX0": {
+          "pair": "S06_SW_RX0",
+          "candidate_id": "S06_SW_RX0:dy+0.00:left0.00",
+          "destination_y_shift_mm": 0.0,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            9.2,
+            34.5
+          ],
+          "end": [
+            57.0,
+            24.650000000000002
+          ],
+          "source_anchor": [
+            9.0,
+            34.5
+          ],
+          "destination_anchor": [
+            57.18,
+            24.650000000000002
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  34.0
+                ],
+                [
+                  8.7,
+                  34.2
+                ],
+                [
+                  9.0,
+                  34.4
+                ],
+                [
+                  9.2,
+                  34.4
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  35.0
+                ],
+                [
+                  8.7,
+                  34.8
+                ],
+                [
+                  9.0,
+                  34.6
+                ],
+                [
+                  9.2,
+                  34.6
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX0_P",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  24.55
+                ],
+                [
+                  57.18,
+                  24.55
+                ],
+                [
+                  57.7,
+                  24.55
+                ],
+                [
+                  57.7,
+                  24.335
+                ]
+              ],
+              "length_mm": 0.9150000000000027,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.19759999999999997,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.4
+            },
+            {
+              "net": "{slash}S06_SW_RX0_N",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  24.750000000000004
+                ],
+                [
+                  57.18,
+                  24.750000000000004
+                ],
+                [
+                  57.7,
+                  24.750000000000004
+                ],
+                [
+                  57.7,
+                  24.935
+                ]
+              ],
+              "length_mm": 0.884999999999998,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.1656209999999966,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.015
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                9.2,
+                34.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                57.0,
+                24.650000000000002
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        },
+        "S06_SW_RX1": {
+          "pair": "S06_SW_RX1",
+          "candidate_id": "S06_SW_RX1:dy+0.10:left0.00",
+          "destination_y_shift_mm": 0.1,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            9.2,
+            32.5
+          ],
+          "end": [
+            57.0,
+            22.950000000000003
+          ],
+          "source_anchor": [
+            9.0,
+            32.5
+          ],
+          "destination_anchor": [
+            57.18,
+            22.950000000000003
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  32.0
+                ],
+                [
+                  8.7,
+                  32.2
+                ],
+                [
+                  9.0,
+                  32.4
+                ],
+                [
+                  9.2,
+                  32.4
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "end": "source",
+              "points": [
+                [
+                  8.5,
+                  33.0
+                ],
+                [
+                  8.7,
+                  32.8
+                ],
+                [
+                  9.0,
+                  32.6
+                ],
+                [
+                  9.2,
+                  32.6
+                ]
+              ],
+              "length_mm": 0.8433978400210169,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3499999999999993,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 8.45
+            },
+            {
+              "net": "{slash}S06_SW_RX1_P",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  22.85
+                ],
+                [
+                  57.18,
+                  22.85
+                ],
+                [
+                  57.7,
+                  22.85
+                ],
+                [
+                  57.7,
+                  22.535
+                ]
+              ],
+              "length_mm": 1.0150000000000041,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.13500000000000015,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 22.099999999999998
+            },
+            {
+              "net": "{slash}S06_SW_RX1_N",
+              "end": "destination",
+              "points": [
+                [
+                  57.0,
+                  23.050000000000004
+                ],
+                [
+                  57.18,
+                  23.050000000000004
+                ],
+                [
+                  57.7,
+                  23.050000000000004
+                ],
+                [
+                  57.7,
+                  23.135
+                ]
+              ],
+              "length_mm": 0.7850000000000001,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.25336504558526207,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 21.814999999999998
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                9.2,
+                32.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                57.0,
+                22.950000000000003
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        },
+        "S06_SW_TX0": {
+          "pair": "S06_SW_TX0",
+          "candidate_id": "S06_SW_TX0:dy+0.00:left0.00",
+          "destination_y_shift_mm": 0.0,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            7.2,
+            34.5
+          ],
+          "end": [
+            63.6,
+            24.650000000000002
+          ],
+          "source_anchor": [
+            7.0,
+            34.5
+          ],
+          "destination_anchor": [
+            63.79999899999999,
+            24.650000000000002
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  34.0
+                ],
+                [
+                  6.7,
+                  34.2
+                ],
+                [
+                  7.0,
+                  34.4
+                ],
+                [
+                  7.2,
+                  34.4
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.22484359196336748,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  35.0
+                ],
+                [
+                  6.7,
+                  34.8
+                ],
+                [
+                  7.0,
+                  34.6
+                ],
+                [
+                  7.2,
+                  34.6
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.3202267165958348,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX0_P",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  24.55
+                ],
+                [
+                  63.79999899999999,
+                  24.55
+                ],
+                [
+                  64.049999,
+                  24.335
+                ],
+                [
+                  64.319999,
+                  24.335
+                ]
+              ],
+              "length_mm": 0.7997337418759434,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44999999999999785,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.4
+            },
+            {
+              "net": "{slash}S06_SW_TX0_N",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  24.750000000000004
+                ],
+                [
+                  63.79999899999999,
+                  24.750000000000004
+                ],
+                [
+                  64.049999,
+                  24.935
+                ],
+                [
+                  64.319999,
+                  24.935
+                ]
+              ],
+              "length_mm": 0.7810054308016697,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44999999999999785,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 20.015
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                7.2,
+                34.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                63.6,
+                24.650000000000002
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        },
+        "S06_SW_TX1": {
+          "pair": "S06_SW_TX1",
+          "candidate_id": "S06_SW_TX1:dy-0.10:left0.00",
+          "destination_y_shift_mm": -0.1,
+          "destination_entry_left_shift_mm": 0.0,
+          "start": [
+            7.2,
+            32.5
+          ],
+          "end": [
+            63.6,
+            22.75
+          ],
+          "source_anchor": [
+            7.0,
+            32.5
+          ],
+          "destination_anchor": [
+            63.79999899999999,
+            22.75
+          ],
+          "fragments": [
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  32.0
+                ],
+                [
+                  6.7,
+                  32.2
+                ],
+                [
+                  7.0,
+                  32.4
+                ],
+                [
+                  7.2,
+                  32.4
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.18688122690645484,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "end": "source",
+              "points": [
+                [
+                  6.5,
+                  33.0
+                ],
+                [
+                  6.7,
+                  32.8
+                ],
+                [
+                  7.0,
+                  32.6
+                ],
+                [
+                  7.2,
+                  32.6
+                ]
+              ],
+              "length_mm": 0.8433978400210178,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.2130991579224593,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 6.45
+            },
+            {
+              "net": "{slash}S06_SW_TX1_P",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  22.65
+                ],
+                [
+                  63.79999899999999,
+                  22.65
+                ],
+                [
+                  64.049999,
+                  22.535
+                ],
+                [
+                  64.319999,
+                  22.535
+                ]
+              ],
+              "length_mm": 0.7451807581163332,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44999900000000037,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 22.3
+            },
+            {
+              "net": "{slash}S06_SW_TX1_N",
+              "end": "destination",
+              "points": [
+                [
+                  63.6,
+                  22.85
+                ],
+                [
+                  63.79999899999999,
+                  22.85
+                ],
+                [
+                  64.049999,
+                  23.134999
+                ],
+                [
+                  64.319999,
+                  23.134999
+                ]
+              ],
+              "length_mm": 0.849109049986799,
+              "simple": true,
+              "minimum_source_via_copper_gap_mm": 0.44863746689885386,
+              "via_violations": [],
+              "minimum_existing_channel_copper_gap_mm": null,
+              "board_edge_copper_gap_mm": 21.815001
+            }
+          ],
+          "pair_fragment_copper_gap_mm": 0.10000000000000284,
+          "gateways": [
+            {
+              "end": "start",
+              "xy": [
+                7.2,
+                32.5
+              ],
+              "conservative_centerline_via_blockers": []
+            },
+            {
+              "end": "end",
+              "xy": [
+                63.6,
+                22.75
+              ],
+              "conservative_centerline_via_blockers": []
+            }
+          ],
+          "local_exact_pass": true
+        }
+      },
+      "score": 0.2,
+      "minimum_fragment_interchannel_copper_gap_mm": 0.9,
+      "minimum_gateway_to_foreign_fragment_center_mm": 1.3928388277184118
+    }
+  ],
+  "reservation_policy": "Only one selected fanout per pair in each scenario, source and destination P/N fragments at 0.1mm width, foreign centerlines inflated by0.32mm. Own fragments excluded. Never reserve union of alternatives."
+}

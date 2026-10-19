@@ -1,0 +1,601 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "all_reconstructed_directions_and_offsets_match": true,
+  "checks": [
+    {
+      "scenario_file": "RESERVED_SCENARIO_00.json",
+      "pair": "S06_SW_RX0",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_00.json",
+      "pair": "S06_SW_RX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_01.json",
+      "pair": "S06_SW_RX0",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_01.json",
+      "pair": "S06_SW_RX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_01.json",
+      "pair": "S06_SW_TX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "unclipped_miter_point_count": 92,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "unclipped_miter_point_count": 92,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_02.json",
+      "pair": "S06_SW_RX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "unclipped_miter_point_count": 46,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "unclipped_miter_point_count": 46,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_02.json",
+      "pair": "S06_SW_RX0",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "unclipped_miter_point_count": 93,
+          "maximum_reconstruction_error_mm": 7.160723346098895e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "unclipped_miter_point_count": 93,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_02.json",
+      "pair": "S06_SW_TX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "unclipped_miter_point_count": 94,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "unclipped_miter_point_count": 94,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_03.json",
+      "pair": "S06_SW_TX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "unclipped_miter_point_count": 63,
+          "maximum_reconstruction_error_mm": 1.464821375527116e-14,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "unclipped_miter_point_count": 63,
+          "maximum_reconstruction_error_mm": 1.464821375527116e-14,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_04.json",
+      "pair": "S06_SW_RX0",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_04.json",
+      "pair": "S06_SW_RX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_05.json",
+      "pair": "S06_SW_RX0",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_05.json",
+      "pair": "S06_SW_RX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_05.json",
+      "pair": "S06_SW_TX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "unclipped_miter_point_count": 92,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "unclipped_miter_point_count": 92,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_06.json",
+      "pair": "S06_SW_RX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "unclipped_miter_point_count": 46,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "unclipped_miter_point_count": 46,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_06.json",
+      "pair": "S06_SW_RX0",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "unclipped_miter_point_count": 93,
+          "maximum_reconstruction_error_mm": 7.160723346098895e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "unclipped_miter_point_count": 93,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_06.json",
+      "pair": "S06_SW_TX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "unclipped_miter_point_count": 94,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "unclipped_miter_point_count": 94,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_07.json",
+      "pair": "S06_SW_TX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "unclipped_miter_point_count": 63,
+          "maximum_reconstruction_error_mm": 1.464821375527116e-14,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "unclipped_miter_point_count": 63,
+          "maximum_reconstruction_error_mm": 1.464821375527116e-14,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_08.json",
+      "pair": "S06_SW_RX0",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_08.json",
+      "pair": "S06_SW_RX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_09.json",
+      "pair": "S06_SW_RX0",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "unclipped_miter_point_count": 66,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_09.json",
+      "pair": "S06_SW_RX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "unclipped_miter_point_count": 74,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_09.json",
+      "pair": "S06_SW_TX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "unclipped_miter_point_count": 92,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "unclipped_miter_point_count": 92,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_10.json",
+      "pair": "S06_SW_RX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX1_P",
+          "unclipped_miter_point_count": 46,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX1_N",
+          "unclipped_miter_point_count": 46,
+          "maximum_reconstruction_error_mm": 7.105427357601002e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_10.json",
+      "pair": "S06_SW_RX0",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_RX0_P",
+          "unclipped_miter_point_count": 93,
+          "maximum_reconstruction_error_mm": 7.160723346098895e-15,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_RX0_N",
+          "unclipped_miter_point_count": 93,
+          "maximum_reconstruction_error_mm": 7.32410687763558e-15,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_10.json",
+      "pair": "S06_SW_TX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "unclipped_miter_point_count": 94,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "unclipped_miter_point_count": 94,
+          "maximum_reconstruction_error_mm": 1.4210854715202004e-14,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    },
+    {
+      "scenario_file": "RESERVED_SCENARIO_11.json",
+      "pair": "S06_SW_TX1",
+      "source_departure_and_destination_arrival_east": true,
+      "maximum_centerline_turn_degrees": 90.0,
+      "centerline_simple": true,
+      "accepted": true,
+      "traces": [
+        {
+          "net": "{slash}S06_SW_TX1_P",
+          "unclipped_miter_point_count": 63,
+          "maximum_reconstruction_error_mm": 1.464821375527116e-14,
+          "full_pin_to_pin_polyline_simple": true
+        },
+        {
+          "net": "{slash}S06_SW_TX1_N",
+          "unclipped_miter_point_count": 63,
+          "maximum_reconstruction_error_mm": 1.464821375527116e-14,
+          "full_pin_to_pin_polyline_simple": true
+        }
+      ]
+    }
+  ],
+  "method": "Independent support-line intersections; no router offset construction or Shapely offset_curve called."
+}

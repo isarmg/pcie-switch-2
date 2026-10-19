@@ -1,0 +1,52 @@
+{
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "all_tests_passed": true,
+  "tests": [
+    {
+      "test": "frozen real RX1-before-RX0 regression reproduced",
+      "passed": true,
+      "P_simple": false,
+      "pair_copper_gap_mm": -0.05357899012435965,
+      "last_join_cosine": -0.9838699100999072
+    },
+    {
+      "test": "immediate reversal rejected",
+      "passed": true,
+      "reason": "turn exceeds 90 degrees or U-turn"
+    },
+    {
+      "test": "explicit 90-degree miter preserves simple separated P/N",
+      "passed": true,
+      "pair_copper_gap_mm": 0.1
+    },
+    {
+      "test": "heading search reaches east-only destination with valid P/N offsets",
+      "passed": true,
+      "expanded_nodes": 55,
+      "pair_copper_gap_mm": 0.10000000000000006
+    },
+    {
+      "test": "connected reverse-only corridor does not reverse P/N port order",
+      "passed": true,
+      "search": {
+        "heading_state": true,
+        "source_departure_direction": "east",
+        "destination_arrival_direction": "east",
+        "maximum_turn_degrees": 90,
+        "minimum_straight_grid_steps_between_turns": 4,
+        "heuristic_weight": 1.5,
+        "turn_cost_grid_units": 0.2,
+        "heuristic_field": "exact relaxed 2D raster shortest distance, multiplied by declared weight",
+        "reason": "no path with declared heading and straight-run constraints",
+        "expanded_nodes": 1
+      }
+    },
+    {
+      "test": "real RX1-before-RX0 direction-aware routes pass complete explicit geometry",
+      "passed": true,
+      "source_scenario": "RESERVED_SCENARIO_02.json",
+      "RX0_pair_gap_mm": 0.09999999999999681
+    }
+  ],
+  "scope": "Unit and frozen-failure regression tests; not proof of complete four-channel PCB routing"
+}

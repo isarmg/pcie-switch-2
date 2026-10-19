@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "source_sha256": "e33bc9bf7cb41045c3171abd07677bc36ebe7c3960d61349e4ad5ba2437ecb3c",
+  "checks": [
+    "180 degree reversal rejected",
+    "wrong source side rejected",
+    "wrong destination side rejected",
+    "all miter vertices retained, exact signed offset and east endpoint polarity",
+    "compression preserves turns and reversals, removes only duplicate or forward collinear points",
+    "old self-intersection, PN crossing and opposite-net via overlap independently reproduced",
+    "crossing centerline cannot silently be repaired or clipped"
+  ]
+}
